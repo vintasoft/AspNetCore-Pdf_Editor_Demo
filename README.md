@@ -20,7 +20,7 @@ The project demonstrates how to view, fill and redact PDF document in ASP.NET Co
 <img src="vintasoft_aspnet.core-pdf_editor_demo-select_text.png" title="VintaSoft ASP.NET Core PDF Editor Demo, Select text"><br />
 <img src="vintasoft_aspnet.core-pdf_editor_demo-find_text.png" title="VintaSoft ASP.NET Core PDF Editor Demo, Find text">
 <img src="vintasoft_aspnet.core-pdf_editor_demo-extract_image_resources.png" title="VintaSoft ASP.NET Core PDF Editor Demo, Extract image-resources">
-<img src="vintasoft_aspnet.core-pdf_editor_demo-edit_interactive_fields.png" title="VintaSoft ASP.NET Core PDF Editor Demo, Edit interactive fields">
+<img src="vintasoft_aspnet.core-pdf_editor_demo-fill_interactive_form.png" title="VintaSoft ASP.NET Core PDF Editor Demo, Fill interactive form">
 <img src="vintasoft_aspnet.core-pdf_editor_demo-add_redaction_marks.png" title="VintaSoft ASP.NET Core PDF Editor Demo, Add redaction marks">
 <img src="vintasoft_aspnet.core-pdf_editor_demo-applied_redaction_marks.png" title="VintaSoft ASP.NET Core PDF Editor Demo, Applied redaction marks">
 
