@@ -1,0 +1,145 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Version>12.2.6.1</Version>
+		<EnableDefaultItems>false</EnableDefaultItems>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.0" />
+		<PackageReference Include="SkiaSharp" Version="2.88.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+    <PackageReference Include="Vintasoft.Shared" Version="4.0.0.3" />
+    <PackageReference Include="Vintasoft.Imaging" Version="12.2.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.Drawing.SkiaSharp" Version="12.2.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.DocCleanup" Version="7.2.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="9.2.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="8.2.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="9.2.6.1" />
+    <PackageReference Include="Vintasoft.Shared.Web" Version="4.0.0.3" />
+    <PackageReference Include="Vintasoft.Imaging.Web.Services" Version="12.2.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.AspNetCore.ApiControllers" Version="12.2.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.DocCleanup.Web.Services" Version="7.2.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.DocCleanup.AspNetCore.ApiControllers" Version="7.2.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.Web.Services" Version="9.2.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.AspNetCore.ApiControllers" Version="9.2.6.1" />
+    <PackageReference Include="Vintasoft.Barcode" Version="14.1.12.1" />
+	</ItemGroup>
+<ItemGroup>
+  <Compile Include="Controllers\API\File\MyVintasoftFileApiController.cs" />
+  <Compile Include="Controllers\API\File\MyVintasoftFileWebService.cs" />
+  <Compile Include="Controllers\API\File\UploadedFilesListResponseParams.cs" />
+  <Compile Include="Controllers\API\ImageCollection\MyVintasoftImageCollectionApiController.cs" />
+  <Compile Include="Controllers\API\ImageRendering\MyVintasoftImageApiController.cs" />
+  <Compile Include="Controllers\API\PDF\MyVintasoftPdfApiController.cs" />
+  <Compile Include="Controllers\DefaultController.cs" />
+  <Compile Include="CustomFontProgramsController.cs" />
+  <Compile Include="Program.cs" />
+  <Compile Include="Startup.cs" />
+  <Content Include="appsettings.Development.json" />
+  <Content Include="appsettings.json" />
+  <Content Include="Properties\launchSettings.json" />
+  <Content Include="wwwroot\css\Demo.css" />
+  <Content Include="wwwroot\css\PdfEditorDemo.css" />
+  <Content Include="wwwroot\favicon.ico" />
+  <Content Include="wwwroot\Images\fileUploadProgress.gif" />
+  <Content Include="wwwroot\Images\VintaSoftLogo.png" />
+  <Content Include="Views\Default\Index.cshtml" />
+  <Content Include="Views\Shared\_DemoViewLayout.cshtml" />
+  <Content Include="wwwroot\lib\bootstrap-colorpicker\bootstrap-colorpicker.css" />
+  <Content Include="wwwroot\lib\bootstrap-colorpicker\bootstrap-colorpicker.min.css" />
+  <Content Include="wwwroot\lib\bootstrap-multiselect\bootstrap-multiselect.css" />
+  <Content Include="wwwroot\lib\bootstrap-multiselect\bootstrap-multiselect.min.css" />
+  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
+  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" />
+  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" />
+  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" />
+  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css" />
+  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css" />
+  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" />
+  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" />
+  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" />
+  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
+  <Content Include="wwwroot\lib\jquery\LICENSE.txt" />
+  <Content Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.css" />
+  <Content Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.DocumentViewer.css" />
+  <Content Include="Views\Shared\UI\Dialogs\BlockUiDialog.cshtml" />
+  <Content Include="Views\Shared\UI\Dialogs\ErrorMessageDialog.cshtml" />
+  <Content Include="Views\Shared\UI\Dialogs\ImageViewerSettingsDialog.cshtml" />
+  <Content Include="Views\Shared\UI\Dialogs\PdfImageResourceDialog.cshtml" />
+  <Content Include="Views\Shared\UI\Dialogs\PreviouslyUploadedFilesDialog.cshtml" />
+  <Content Include="Views\Shared\UI\Dialogs\PdfInteractiveFieldSettingsDialog.cshtml" />
+  <Content Include="Views\Shared\UI\Dialogs\PdfRedactionMarkSettingsDialog.cshtml" />
+  <None Include="wwwroot\Content\Cursors\CloseHand.cur" />
+  <None Include="wwwroot\Content\Cursors\Magnifier.cur" />
+  <None Include="wwwroot\Content\Cursors\Rotate.cur" />
+  <None Include="wwwroot\Content\Cursors\Zoom.cur" />
+  <None Include="wwwroot\js\DownloadPdfFileHelper.js" />
+  <None Include="wwwroot\js\OpenPdfFileHelper.js" />
+  <None Include="wwwroot\js\PdfEditorDemo.js" />
+  <None Include="wwwroot\js\UI\Controls\PropertyGridControl.Bootstrap.js" />
+  <None Include="wwwroot\js\UI\Dialogs\BlockUiDialog.js" />
+  <None Include="wwwroot\js\UI\Dialogs\ErrorMessageDialog.js" />
+  <None Include="wwwroot\js\UI\Dialogs\ImageViewerSettingsDialog.js" />
+  <None Include="wwwroot\js\UI\Dialogs\PDF\PdfImageResourceDialog.js" />
+  <None Include="wwwroot\js\UI\Dialogs\PDF\PdfInteractiveFieldSettingsDialog.js" />
+  <None Include="wwwroot\js\UI\Dialogs\PDF\PdfRedactionMarkSettingsDialog.js" />
+  <None Include="wwwroot\js\UI\Dialogs\PreviouslyUploadedFilesDialog.js" />
+  <None Include="wwwroot\js\WebUriActionExecutor.js" />
+  <None Include="wwwroot\lib\bootstrap-colorpicker\bootstrap-colorpicker.js" />
+  <None Include="wwwroot\lib\bootstrap-colorpicker\bootstrap-colorpicker.min.js" />
+  <None Include="wwwroot\lib\bootstrap-multiselect\bootstrap-multiselect.js" />
+  <None Include="wwwroot\lib\bootstrap-multiselect\bootstrap-multiselect.min.js" />
+  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
+  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+  <None Include="wwwroot\lib\bootstrap\LICENSE" />
+  <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+  <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+  <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+  <None Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.Dialogs.Bootstrap.js" />
+  <None Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.DocumentViewer.Dialogs.Bootstrap.js" />
+  <None Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.DocumentViewer.js" />
+  <None Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.js" />
+  <None Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.Pdf.js" />
+  <None Include="wwwroot\lib\Vintasoft\Vintasoft.Shared.js" />
+  <None Include="wwwroot\Resources\DefaultCMYK.icc" />
+  <None Include="wwwroot\Resources\DefaultRGB.icc" />
+  <None Include="wwwroot\UploadedImageFiles\VintasoftImagingDemo.pdf" />
+  <Folder Include="wwwroot\VintasoftCache\" />
+</ItemGroup>
+</Project>
