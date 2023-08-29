@@ -5,7 +5,8 @@ The client-side of project uses HTML+JavaScript+CSS. The server-side of project 
 <br />
 The project demonstrates how to view, fill and redact PDF document in ASP.NET Core:
 * Open PDF document.
-* View pages.
+* View thumbnails of pages.
+* View vectorized pages. Each PDF page is rendered as SVG object only once. This provides smoth zooming of page in viewer.
 * Select text on pages.
 * Search text on pages.
 * Fill form on pages.
