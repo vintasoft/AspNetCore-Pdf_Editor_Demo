@@ -9,6 +9,7 @@ The project demonstrates how to view, fill and redact PDF document in ASP.NET Co
 * View vectorized pages. Each PDF page is rendered as SVG object only once. This provides smoth zooming of page in viewer.
 * Select text on pages.
 * Search text on pages.
+* Extract image-resources on page.
 * Fill form on pages.
 * Redact content on pages.
 * Download filled and redacted PDF document.
