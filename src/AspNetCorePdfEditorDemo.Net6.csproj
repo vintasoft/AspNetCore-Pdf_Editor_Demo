@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
-		<Version>12.2.7.1</Version>
+		<Version>12.2.8.1</Version>
 		<EnableDefaultItems>false</EnableDefaultItems>
 	</PropertyGroup>
 
@@ -74,7 +74,6 @@
   <Content Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.DocumentViewer.css" />
   <Content Include="Views\Shared\UI\Dialogs\BlockUiDialog.cshtml" />
   <Content Include="Views\Shared\UI\Dialogs\ErrorMessageDialog.cshtml" />
-  <Content Include="Views\Shared\UI\Dialogs\ImageViewerSettingsDialog.cshtml" />
   <Content Include="Views\Shared\UI\Dialogs\PdfImageResourceDialog.cshtml" />
   <Content Include="Views\Shared\UI\Dialogs\PreviouslyUploadedFilesDialog.cshtml" />
   <Content Include="Views\Shared\UI\Dialogs\PdfInteractiveFieldSettingsDialog.cshtml" />
@@ -89,7 +88,6 @@
   <None Include="wwwroot\js\UI\Controls\PropertyGridControl.Bootstrap.js" />
   <None Include="wwwroot\js\UI\Dialogs\BlockUiDialog.js" />
   <None Include="wwwroot\js\UI\Dialogs\ErrorMessageDialog.js" />
-  <None Include="wwwroot\js\UI\Dialogs\ImageViewerSettingsDialog.js" />
   <None Include="wwwroot\js\UI\Dialogs\PDF\PdfImageResourceDialog.js" />
   <None Include="wwwroot\js\UI\Dialogs\PDF\PdfInteractiveFieldSettingsDialog.js" />
   <None Include="wwwroot\js\UI\Dialogs\PDF\PdfRedactionMarkSettingsDialog.js" />
