@@ -14,6 +14,7 @@ The project demonstrates how to view, fill and redact PDF document in ASP.NET Co
 * Redact content on pages.
 * Download filled and redacted PDF document.
 * The application can be used in any modern HTML5 web browser.
+* The application UI is localized into 45 languages (Afrikaans, Arabic, Armenian, Azerbaijan, Belarusian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Georgian, German, Greece, Hebrew, Hindi, Hungarian, Italian, Japanese, Kazakh, Korean, Kyrgyz, Latvian, Lithuanian, Norwegian, Portugese, Romanian, Russian, Slovakian, Slovenian, Spanish, Swahili, Swedish, Tajik, Tatar, Turkish, Turkmen, Ukrainian, Uzbek, Vietnamese, Zulu).
 
 
 ## Screenshot
@@ -33,9 +34,9 @@ The project demonstrates how to view, fill and redact PDF document in ASP.NET Co
    Vintasoft.Imaging.ImagingGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
    ```
 
-3. Build the project ("AspNetCorePdfEditorDemo.Net7.csproj" file) in Visual Studio or using .NET CLI:
+3. Build the project ("AspNetCorePdfEditorDemo.Net8.csproj" file) in Visual Studio or using .NET CLI:
    ```
-   dotnet build AspNetCorePdfEditorDemo.Net7.csproj
+   dotnet build AspNetCorePdfEditorDemo.Net8.csproj
    ```
 
 4. Run compiled application and try to view and annotate images and documents.

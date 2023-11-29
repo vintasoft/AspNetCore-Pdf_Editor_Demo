@@ -1,0 +1,668 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Файл"
+		},
+		"viewLabel": {
+			"text": "Переглянути"
+		},
+		"toolsLabel": {
+			"text": "Інструменти"
+		},
+		"redactionLabel": {
+			"text": "Редакція"
+		},
+		"uploadFileButton": {
+			"title": "Завантажте та відкрийте файл"
+		},
+		"previousUploadFilesButton": {
+			"title": "Раніше завантажені файли"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Завантажте та відкрийте файл зображення за URL-адресою"
+		},
+		"printImagesButton": {
+			"title": "Друк зображень"
+		},
+		"downloadFileButton": {
+			"title": "Завантажити файл"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Експортуйте та завантажуйте файл"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Підгонка по ширині"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Поверніть усі види проти годинникової стрілки"
+		},
+		"rotateAngleInput": {
+			"title": "Кут"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Поверніть усі види за годинниковою стрілкою"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Налаштування програми перегляду зображень"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Налаштування перегляду мініатюр"
+		},
+		"panToolButton": {
+			"title": "Пан"
+		},
+		"textSelectionToolButton": {
+			"title": "Виділення тексту"
+		},
+		"pdfImageExtractorToolButton": {
+			"title": "Вилучення зображень зі сторінки"
+		},
+		"pdfInteractiveFormToolButton": {
+			"title": "Інтерактивні поля"
+		},
+		"pdfTextRedactionMarkButton": {
+			"title": "Позначити текст для редагування"
+		},
+		"pdfRegionRedactionMarkButton": {
+			"title": "Позначте область для редагування"
+		},
+		"pdfPageRedactionMarkButton": {
+			"title": "Позначте повні сторінки для редагування"
+		},
+		"removeFocusedPdfRedactionMarkButton": {
+			"title": "Видалити виділений знак редагування"
+		},
+		"pdfRedactionMarkAppearanceButton": {
+			"title": "Зовнішній вигляд знака редагування PDF"
+		},
+		"applyPdfRedactionMarkButton": {
+			"title": "Поставте знаки редагування"
+		},
+		"sidePanelCloseButton": {
+			"title": "Показати бічну панель"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Мініатюри"
+		},
+		"showPdfBookmarksPanelButton": {
+			"title": "Закладки"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Виділення тексту"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Знайди текст"
+		},
+		"showPdfImageResourceExtractionPanelButton": {
+			"title": "Витяг зображення"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Інтерактивні поля"
+		},
+		"showPdfRedactionMarkListPanelButton": {
+			"title": "Знаки редагування PDF"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Режим вибору:"
+			},
+			"rectangleOption": {
+				"text": "Прямокутник"
+			},
+			"fullLinesOption": {
+				"text": "Повні лінії"
+			},
+			"selectionColorLabel": {
+				"text": "Вибір кольору:"
+			},
+			"selectedTextLabel": {
+				"text": "Виділений текст:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "знайти:"
+			},
+			"whereLookLabel": {
+				"text": "Заглядати:"
+			},
+			"currentPageOption": {
+				"text": "Поточна сторінка"
+			},
+			"allPagesOption": {
+				"text": "Всі сторінки"
+			},
+			"wholeWordLabel": {
+				"text": "Ціле слово"
+			},
+			"caseSensitiveLabel": {
+				"text": "Чутливий до регістру"
+			},
+			"startSearchButton": {
+				"value": "Почніть"
+			},
+			"stopSearchButton": {
+				"value": "СТІЙ"
+			},
+			"textNotFoundLabel": {
+				"text": "Текст не знайдено."
+			}
+		},
+		"pdfImageResourceExtractionPanel": {
+			"showContentImageButton": {
+				"value": "Показати зображення вмісту"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Режим взаємодії:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Жодного"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Переглянути"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Групуйте поля за сторінками"
+			},
+			"saveChangesButton": {
+				"value": "Зберегти зміни"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Перейти до першого зображення"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Перейти до попереднього зображення"
+		},
+		"gotoPageInput": {
+			"title": "Сторінка"
+		},
+		"gotoNextPageButton": {
+			"title": "Перейти до наступного зображення"
+		},
+		"gotoLastPageButton": {
+			"title": "Перейти до останнього зображення"
+		},
+		"zoomOutButton": {
+			"title": "Зменшення"
+		},
+		"zoomValueInput": {
+			"title": "Збільшити"
+		},
+		"zoomInButton": {
+			"title": "Збільшувати"
+		},
+		"normalSizeModeButton": {
+			"title": "нормальний"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Найкраще підходить"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Підходить по висоті"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Піксель до пікселя"
+		},
+		"zoomSizeModeButton": {
+			"title": "Збільшити"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Цей документ захищено паролем. Будь ласка, введіть пароль."
+			},
+			"passwordLabel": {
+				"text": "Пароль:"
+			},
+			"showPasswordLabel": {
+				"text": "Показати пароль"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Невірний пароль"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"сancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Зображення:"
+			},
+			"currentImageOption": {
+				"text": "Поточне зображення"
+			},
+			"allImagesOption": {
+				"text": "Всі зображення"
+			},
+			"customImagesOption": {
+				"text": "Custom"
+			},
+			"imageRangeLabel": {
+				"text": "Діапазон зображення:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Недійсний діапазон сторінок. Приклад: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Індекс поза діапазоном колекції зображень."
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"сancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Зображення:"
+			},
+			"currentImageOption": {
+				"text": "Поточне зображення"
+			},
+			"allImagesOption": {
+				"text": "Всі зображення"
+			},
+			"customImagesOption": {
+				"text": "Custom"
+			},
+			"imageRangeLabel": {
+				"text": "Діапазон зображення:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Недійсний діапазон сторінок. Приклад: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Індекс поза діапазоном колекції зображень."
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Режим відображення зображення:"
+			},
+			"imageAnchorLabel": {
+				"text": "Якір зображення:"
+			},
+			"noneOption": {
+				"text": "Жодного"
+			},
+			"topLeftOption": {
+				"text": "Вгорі|Ліворуч"
+			},
+			"topOption": {
+				"text": "Топ"
+			},
+			"topRightOption": {
+				"text": "Вгорі|Праворуч"
+			},
+			"rightOption": {
+				"text": "правильно"
+			},
+			"bottomRightOption": {
+				"text": "Внизу|Праворуч"
+			},
+			"bottomOption": {
+				"text": "Дно"
+			},
+			"bottomLeftOption": {
+				"text": "Внизу|Ліворуч"
+			},
+			"leftOption": {
+				"text": "Ліворуч"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Багатосторінковий режим відображення:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Напрямок макета:"
+			},
+			"horizontalOption": {
+				"text": "Горизонтальний"
+			},
+			"verticalOption": {
+				"text": "Вертикальний"
+			},
+			"rowColumnCountLabel": {
+				"text": "Зображення в рядку/стовпці:"
+			},
+			"imagePaddingLabel": {
+				"text": "Заповнення зображень:"
+			},
+			"appearancesLabel": {
+				"text": "Поява"
+			},
+			"imageAppearanceLabel": {
+				"text": "Зовнішній вигляд зображення"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Колір спинки:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Колір рамки:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Ширина межі:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Поява сфокусованого зображення"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Колір спинки:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Колір рамки:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Ширина межі:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Використовуйте вигляд зображення в режимі однієї сторінки"
+			},
+			"renderingSettingsLabel": {
+				"text": "Налаштування візуалізації"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Налаштування за замовчуванням"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Горизонтальна роздільна здатність:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Вертикальна роздільна здатність:"
+			},
+			"smoothingModeLabel": {
+				"text": "Режим згладжування:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Жодного"
+			},
+			"interpolationModeLabel": {
+				"text": "Режим інтерполяції:"
+			},
+			"Bicubic": {
+				"text": "Бікубічний"
+			},
+			"Bilinear": {
+				"text": "Білінійний"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Інші налаштування"
+			},
+			"backgroundColorLabel": {
+				"text": "Колір фону переглядача:"
+			},
+			"centerImageLabel": {
+				"text": "Центральне зображення:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Час очікування зміни розміру:"
+			},
+			"tileSizeLabel": {
+				"text": "Розмір плитки:"
+			},
+			"colorManagementLabel": {
+				"text": "Увімкнути керування кольором:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Використовуйте векторну візуалізацію для документів:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Колір тла векторного вмісту:"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"сancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "розмір:"
+			},
+			"scaleLabel": {
+				"text": "Масштаб:"
+			},
+			"smallestOption": {
+				"text": "Найменший"
+			},
+			"smallOption": {
+				"text": "Маленький"
+			},
+			"normalOption": {
+				"text": "нормальний"
+			},
+			"largeOption": {
+				"text": "Великий"
+			},
+			"flowStyleLabel": {
+				"text": "Стиль потоку:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Кількість стовпців:"
+			},
+			"marginLabel": {
+				"text": "Маржа:"
+			},
+			"paddingTopLabel": {
+				"text": "Верхня оббивка:"
+			},
+			"paddingRightLabel": {
+				"text": "Відступ справа:"
+			},
+			"paddingBottomLabel": {
+				"text": "Підкладка знизу:"
+			},
+			"paddingLeftLabel": {
+				"text": "Відступ ліворуч:"
+			},
+			"showCaptionLabel": {
+				"text": "Показати підписи:"
+			},
+			"captionFormatLabel": {
+				"text": "Формат підпису:"
+			},
+			"captionAnchorLabel": {
+				"text": "Якір підпису:"
+			},
+			"topLeftOption": {
+				"text": "Вгорі|Ліворуч"
+			},
+			"topOption": {
+				"text": "Топ"
+			},
+			"topRightOption": {
+				"text": "Вгорі|Праворуч"
+			},
+			"rightOption": {
+				"text": "правильно"
+			},
+			"bottomRightOption": {
+				"text": "Внизу|Праворуч"
+			},
+			"bottomOption": {
+				"text": "Дно"
+			},
+			"bottomLeftOption": {
+				"text": "Внизу|Ліворуч"
+			},
+			"leftOption": {
+				"text": "Ліворуч"
+			},
+			"centerOption": {
+				"text": "центр"
+			},
+			"focusOnHoverLabel": {
+				"text": "Фокус OnHover:"
+			},
+			"multiSelectLabel": {
+				"text": "Множинний вибір:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Можна перетягувати мініатюри:"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"сancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"pdfRedactionMarkAppearanceDialog": {
+			"fillColorLabel": {
+				"text": "Колір заливки:"
+			},
+			"borderColorLabel": {
+				"text": "Колір рамки:"
+			},
+			"borderWidthLabel": {
+				"text": "Ширина межі:"
+			},
+			"overlayTextLabel": {
+				"text": "Накладений текст:"
+			},
+			"textColorLabel": {
+				"text": "Колір тексту:"
+			},
+			"fontSizeLabel": {
+				"text": "Розмір шрифту:"
+			},
+			"autoFontSizeLabel": {
+				"text": "Автоматичний розмір шрифту:"
+			},
+			"textAlignmentLabel": {
+				"text": "Вирівнювання тексту:"
+			},
+			"LeftOption": {
+				"text": "Ліворуч"
+			},
+			"RightOption": {
+				"text": "правильно"
+			},
+			"TopOption": {
+				"text": "Топ"
+			},
+			"BottomOption": {
+				"text": "Дно"
+			},
+			"CenterLeftOption": {
+				"text": "CenterLeft"
+			},
+			"CenterRightOption": {
+				"text": "CenterRight"
+			},
+			"CenterTopOption": {
+				"text": "CenterTop"
+			},
+			"CenterBottomOption": {
+				"text": "CenterBottom"
+			},
+			"CenterOption": {
+				"text": "центр"
+			},
+			"FillHorizontalOption": {
+				"text": "FillHorizontal"
+			},
+			"FillVerticalOption": {
+				"text": "FillVertical"
+			},
+			"FillOption": {
+				"text": "Заповнити"
+			},
+			"okButton": {
+				"value": "В порядку"
+			}
+		},
+		"pdfImageResourceDialog": {
+			"size": {
+				"text": "розмір:"
+			},
+			"resolution": {
+				"text": "роздільна здатність:"
+			},
+			"compression": {
+				"text": "Стиснення:"
+			},
+			"pixelFormat": {
+				"text": "Формат пікселів:"
+			},
+			"length": {
+				"text": "Довжина:"
+			},
+			"okButton": {
+				"value": "В порядку"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-uploadFileButton-uploadFileString": "Завантажити файл",
+		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Отримати закладки PDF",
+		"vsdv-textSearchPanel-pageLabel": "Сторінка",
+		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Отримати ресурс зображення",
+		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Сторінка",
+		"vsdv-openFile-addFileString": "Додати файл",
+		"vsdv-openFile-authenticateFileString": "Автентифікувати файл",
+		"vsdv-downloadFile-actionMessage": "Завантажити файл",
+		"vsdv-saveChanges-saveChangesInImages": "Збережіть зміни в зображеннях",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Збережіть зміни в анотаціях",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Запис анотацій на зображеннях",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Зберегти зміни в документі PDF",
+		"vsdv-documentPasswordDialog-title": "Пароль документа",
+		"vsdv-dialog-okButton": "В порядку",
+		"vsdv-dialog-cancelButton": "Скасувати",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Автентифікувати файл",
+		"vsdv-imageSelectionDialog-title": "Виберіть зображення",
+		"vsdv-imageSelectionDialog-currentImageString": "Поточне зображення",
+		"vsdv-imageSelectionDialog-allImagesString": "Всі зображення",
+		"vsdv-imageSelectionDialog-customImagesString": "Custom",
+		"vsdv-printImagesDialog-title": "Друк зображень",
+		"vsdv-printImagesPanel-imagePrintingString": "Зображення друкується",
+		"vsdv-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
+		"vsdv-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
+		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Зовнішній вигляд знака редагування PDF",
+		"vsdv-pdfImageResourceDialog-title": "Ресурс зображень PDF",
+		"vsdv-pdfImageResourcePanel-bytes": " байтів"
+	}
+}

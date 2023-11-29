@@ -1,0 +1,668 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Файл"
+		},
+		"viewLabel": {
+			"text": "Көрүү"
+		},
+		"toolsLabel": {
+			"text": "Куралдар"
+		},
+		"redactionLabel": {
+			"text": "Редакция"
+		},
+		"uploadFileButton": {
+			"title": "Жүктөө жана файлды ачуу"
+		},
+		"previousUploadFilesButton": {
+			"title": "Мурда жүктөлгөн файлдар"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Сүрөт файлын URL аркылуу жүктөңүз жана ачыңыз"
+		},
+		"printImagesButton": {
+			"title": "Сүрөттөрдү басып чыгаруу"
+		},
+		"downloadFileButton": {
+			"title": "Файлды жүктөп алыңыз"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Файлды экспорттоо жана жүктөө"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "туурасына туура келет"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Бардык көрүнүштөрдү саат жебесине каршы буруңуз"
+		},
+		"rotateAngleInput": {
+			"title": "Бурч"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Бардык көрүнүштөрдү саат жебеси боюнча айлантыңыз"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Сүрөт көрүүчүнүн жөндөөлөрү"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Эскиз көрүүчүнүн жөндөөлөрү"
+		},
+		"panToolButton": {
+			"title": "Пан"
+		},
+		"textSelectionToolButton": {
+			"title": "Текст тандоо"
+		},
+		"pdfImageExtractorToolButton": {
+			"title": "Барактан сүрөттөрдү алуу"
+		},
+		"pdfInteractiveFormToolButton": {
+			"title": "Интерактивдүү талаалар"
+		},
+		"pdfTextRedactionMarkButton": {
+			"title": "Текстти редакциялоо үчүн белгилеңиз"
+		},
+		"pdfRegionRedactionMarkButton": {
+			"title": "Редакция үчүн аймакты белгилеңиз"
+		},
+		"pdfPageRedactionMarkButton": {
+			"title": "Толук барактарды түзөтүү үчүн белгилеңиз"
+		},
+		"removeFocusedPdfRedactionMarkButton": {
+			"title": "Фокусталган редакциялоо белгисин алып салуу"
+		},
+		"pdfRedactionMarkAppearanceButton": {
+			"title": "PDF түзөтүү белгисинин көрүнүшү"
+		},
+		"applyPdfRedactionMarkButton": {
+			"title": "Редакция белгилерин колдонуңуз"
+		},
+		"sidePanelCloseButton": {
+			"title": "Каптал панелди көрсөтүү"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Эскиздер"
+		},
+		"showPdfBookmarksPanelButton": {
+			"title": "Кыстармалар"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Текст тандоо"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Текстти табуу"
+		},
+		"showPdfImageResourceExtractionPanelButton": {
+			"title": "Сүрөттөрдү чыгарып алыңыз"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Интерактивдүү талаалар"
+		},
+		"showPdfRedactionMarkListPanelButton": {
+			"title": "PDF түзөтүү белгилери"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Тандоо режими:"
+			},
+			"rectangleOption": {
+				"text": "Төрт бурчтук"
+			},
+			"fullLinesOption": {
+				"text": "Толук сызыктар"
+			},
+			"selectionColorLabel": {
+				"text": "Тандоо түсү:"
+			},
+			"selectedTextLabel": {
+				"text": "Тандалган текст:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "Табуу:"
+			},
+			"whereLookLabel": {
+				"text": "Караңыз:"
+			},
+			"currentPageOption": {
+				"text": "Учурдагы бет"
+			},
+			"allPagesOption": {
+				"text": "Бардык баракчалар"
+			},
+			"wholeWordLabel": {
+				"text": "Толук сөз"
+			},
+			"caseSensitiveLabel": {
+				"text": "Регистрге сезгич"
+			},
+			"startSearchButton": {
+				"value": "Баштоо"
+			},
+			"stopSearchButton": {
+				"value": "Токто"
+			},
+			"textNotFoundLabel": {
+				"text": "Текст табылган жок."
+			}
+		},
+		"pdfImageResourceExtractionPanel": {
+			"showContentImageButton": {
+				"value": "Мазмундун сүрөтүн көрсөтүү"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Өз ара аракеттенүү режими:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Жок"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Көрүү"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Талааларды барактар боюнча топтоо"
+			},
+			"saveChangesButton": {
+				"value": "Өзгөрүүлөрдү сактоо"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Биринчи сүрөткө өтүңүз"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Мурунку сүрөткө өтүңүз"
+		},
+		"gotoPageInput": {
+			"title": "Page"
+		},
+		"gotoNextPageButton": {
+			"title": "Кийинки сүрөткө өтүңүз"
+		},
+		"gotoLastPageButton": {
+			"title": "Акыркы сүрөткө өтүңүз"
+		},
+		"zoomOutButton": {
+			"title": "Кичирейтүү"
+		},
+		"zoomValueInput": {
+			"title": "Чоңойтуу"
+		},
+		"zoomInButton": {
+			"title": "Чоңойтуу"
+		},
+		"normalSizeModeButton": {
+			"title": "Кадимки"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Эң туура"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Бийиктикке ылайыктуу"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Пикселден пикселге"
+		},
+		"zoomSizeModeButton": {
+			"title": "Чоңойтуу"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Бул документ сырсөз менен корголгон. Сырсөздү киргизиңиз."
+			},
+			"passwordLabel": {
+				"text": "Купуя сөз:"
+			},
+			"showPasswordLabel": {
+				"text": "Сыр сөздү көрсөтүү"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Туура эмес сырсөз"
+			},
+			"okButton": {
+				"value": "макул"
+			},
+			"сancelButton": {
+				"value": "Жокко чыгаруу"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Сүрөттөр:"
+			},
+			"currentImageOption": {
+				"text": "Учурдагы сүрөт"
+			},
+			"allImagesOption": {
+				"text": "Бардык сүрөттөр"
+			},
+			"customImagesOption": {
+				"text": "Ыңгайлаштырылган"
+			},
+			"imageRangeLabel": {
+				"text": "Сүрөт диапазону:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Жараксыз барак диапазону. Мисал: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Индекс сүрөттөр жыйнагынын диапазонунан тышкары."
+			},
+			"okButton": {
+				"value": "макул"
+			},
+			"сancelButton": {
+				"value": "Жокко чыгаруу"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Сүрөттөр:"
+			},
+			"currentImageOption": {
+				"text": "Учурдагы сүрөт"
+			},
+			"allImagesOption": {
+				"text": "Бардык сүрөттөр"
+			},
+			"customImagesOption": {
+				"text": "Ыңгайлаштырылган"
+			},
+			"imageRangeLabel": {
+				"text": "Сүрөт диапазону:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Жараксыз барак диапазону. Мисал: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Индекс сүрөттөр жыйнагынын диапазонунан тышкары."
+			},
+			"okButton": {
+				"value": "макул"
+			},
+			"cancelButton": {
+				"value": "Жокко чыгаруу"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Сүрөттү көрсөтүү режими:"
+			},
+			"imageAnchorLabel": {
+				"text": "Сүрөттүн анкери:"
+			},
+			"noneOption": {
+				"text": "Жок"
+			},
+			"topLeftOption": {
+				"text": "Жогорку|Сол"
+			},
+			"topOption": {
+				"text": "Жогорку"
+			},
+			"topRightOption": {
+				"text": "Жогорку|Оңго"
+			},
+			"rightOption": {
+				"text": "Туура"
+			},
+			"bottomRightOption": {
+				"text": "Төмөнкү|Оң"
+			},
+			"bottomOption": {
+				"text": "Төмөнкү"
+			},
+			"bottomLeftOption": {
+				"text": "Төмөнкү|Сол"
+			},
+			"leftOption": {
+				"text": "Солго"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Көп беттүү дисплей режими:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Макет багыты:"
+			},
+			"horizontalOption": {
+				"text": "Горизонталдуу"
+			},
+			"verticalOption": {
+				"text": "Вертикалдуу"
+			},
+			"rowColumnCountLabel": {
+				"text": "Катардагы/мамычадагы сүрөттөр:"
+			},
+			"imagePaddingLabel": {
+				"text": "Сүрөттөрдү толтуруу:"
+			},
+			"appearancesLabel": {
+				"text": "Көрүнүштөр"
+			},
+			"imageAppearanceLabel": {
+				"text": "Сүрөттүн көрүнүшү"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Арткы түс:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Чектин түсү:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Чек аранын туурасы:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Фокусталган сүрөттүн көрүнүшү"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Арткы түс:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Чектин түсү:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Чек аранын туурасы:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Сүрөттүн көрүнүшүн бир беттик режимде колдонуңуз"
+			},
+			"renderingSettingsLabel": {
+				"text": "Рендеринг жөндөөлөрү"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Демейки орнотуулар"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Horizontal Resolution:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Вертикалдуу чечим:"
+			},
+			"smoothingModeLabel": {
+				"text": "Текшерүү режими:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Жок"
+			},
+			"interpolationModeLabel": {
+				"text": "Интерполяция режими:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Билинардык"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Башка орнотуулар"
+			},
+			"backgroundColorLabel": {
+				"text": "Көрүүчүнүн фонунун түсү:"
+			},
+			"centerImageLabel": {
+				"text": "Борбордук сүрөт:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Өлчөмүн өзгөртүү күтүү мөөнөтү:"
+			},
+			"tileSizeLabel": {
+				"text": "Мозаика өлчөмү:"
+			},
+			"colorManagementLabel": {
+				"text": "Түстөрдү башкарууну иштетүү:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Документтер үчүн вектордук көрсөтүүнү колдонуңуз:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Вектордук мазмундун фонунун түсү:"
+			},
+			"okButton": {
+				"value": "макул"
+			},
+			"сancelButton": {
+				"value": "Жокко чыгаруу"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Өлчөмү:"
+			},
+			"scaleLabel": {
+				"text": "Масштаб:"
+			},
+			"smallestOption": {
+				"text": "Эң кичинекей"
+			},
+			"smallOption": {
+				"text": "Small"
+			},
+			"normalOption": {
+				"text": "Кадимки"
+			},
+			"largeOption": {
+				"text": "Чоң"
+			},
+			"flowStyleLabel": {
+				"text": "Агым стили:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Мамычалардын саны:"
+			},
+			"marginLabel": {
+				"text": "Маржа:"
+			},
+			"paddingTopLabel": {
+				"text": "Толтуруучу үстү:"
+			},
+			"paddingRightLabel": {
+				"text": "Оңго толтуруу:"
+			},
+			"paddingBottomLabel": {
+				"text": "Төмөнкү толтуруу:"
+			},
+			"paddingLeftLabel": {
+				"text": "Солго толтуруу:"
+			},
+			"showCaptionLabel": {
+				"text": "Коштомо жазууларды көрсөтүү:"
+			},
+			"captionFormatLabel": {
+				"text": "Коштомо жазуу форматы:"
+			},
+			"captionAnchorLabel": {
+				"text": "Коштомо жазуу Anchor:"
+			},
+			"topLeftOption": {
+				"text": "Жогорку|Сол"
+			},
+			"topOption": {
+				"text": "Жогорку"
+			},
+			"topRightOption": {
+				"text": "Жогорку|Оңго"
+			},
+			"rightOption": {
+				"text": "Туура"
+			},
+			"bottomRightOption": {
+				"text": "Төмөнкү|Оң"
+			},
+			"bottomOption": {
+				"text": "Төмөнкү"
+			},
+			"bottomLeftOption": {
+				"text": "Төмөнкү|Сол"
+			},
+			"leftOption": {
+				"text": "Солго"
+			},
+			"centerOption": {
+				"text": "Борбор"
+			},
+			"focusOnHoverLabel": {
+				"text": "Фокус OnHover:"
+			},
+			"multiSelectLabel": {
+				"text": "Көп тандоо:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Эскиздерди сүйрө алат:"
+			},
+			"okButton": {
+				"value": "макул"
+			},
+			"сancelButton": {
+				"value": "Жокко чыгаруу"
+			}
+		},
+		"pdfRedactionMarkAppearanceDialog": {
+			"fillColorLabel": {
+				"text": "Толтуруу түсү:"
+			},
+			"borderColorLabel": {
+				"text": "Чектин түсү:"
+			},
+			"borderWidthLabel": {
+				"text": "Чек аранын туурасы:"
+			},
+			"overlayTextLabel": {
+				"text": "Тексттин үстүнкү катмары:"
+			},
+			"textColorLabel": {
+				"text": "Тексттин түсү:"
+			},
+			"fontSizeLabel": {
+				"text": "Арип өлчөмү:"
+			},
+			"autoFontSizeLabel": {
+				"text": "Автоматтык шрифт өлчөмү:"
+			},
+			"textAlignmentLabel": {
+				"text": "Текстти тегиздөө:"
+			},
+			"LeftOption": {
+				"text": "Солго"
+			},
+			"RightOption": {
+				"text": "Туура"
+			},
+			"TopOption": {
+				"text": "Жогорку"
+			},
+			"BottomOption": {
+				"text": "Төмөнкү"
+			},
+			"CenterLeftOption": {
+				"text": "CenterLeft"
+			},
+			"CenterRightOption": {
+				"text": "CenterRight"
+			},
+			"CenterTopOption": {
+				"text": "CenterTop"
+			},
+			"CenterBottomOption": {
+				"text": "CenterBottom"
+			},
+			"CenterOption": {
+				"text": "Борбор"
+			},
+			"FillHorizontalOption": {
+				"text": "FillHorizontal"
+			},
+			"FillVerticalOption": {
+				"text": "FillVertical"
+			},
+			"FillOption": {
+				"text": "Толтуруу"
+			},
+			"okButton": {
+				"value": "макул"
+			}
+		},
+		"pdfImageResourceDialog": {
+			"size": {
+				"text": "Өлчөмү:"
+			},
+			"resolution": {
+				"text": "Чечим:"
+			},
+			"compression": {
+				"text": "кысуу:"
+			},
+			"pixelFormat": {
+				"text": "Пиксел форматы:"
+			},
+			"length": {
+				"text": "Узундугу:"
+			},
+			"okButton": {
+				"value": "макул"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-uploadFileButton-uploadFileString": "Файлды жүктөө",
+		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "PDF кыстармаларын алыңыз",
+		"vsdv-textSearchPanel-pageLabel": "Page",
+		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Сүрөт ресурсун алыңыз",
+		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
+		"vsdv-openFile-addFileString": "Файл кошуу",
+		"vsdv-openFile-authenticateFileString": "Файлдын аныктыгын текшерүү",
+		"vsdv-downloadFile-actionMessage": "Файлды жүктөп алыңыз",
+		"vsdv-saveChanges-saveChangesInImages": "Сүрөттөрдөгү өзгөртүүлөрдү сактоо",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотацияларга өзгөртүүлөрдү сактоо",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Сүрөттөргө аннотацияларды жазыңыз",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF документине өзгөртүүлөрдү сактоо",
+		"vsdv-documentPasswordDialog-title": "Документтин сырсөзү",
+		"vsdv-dialog-okButton": "макул",
+		"vsdv-dialog-cancelButton": "Жокко чыгаруу",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Файлдын аныктыгын текшерүү",
+		"vsdv-imageSelectionDialog-title": "Сүрөттөрдү тандаңыз",
+		"vsdv-imageSelectionDialog-currentImageString": "Учурдагы сүрөт",
+		"vsdv-imageSelectionDialog-allImagesString": "Бардык сүрөттөр",
+		"vsdv-imageSelectionDialog-customImagesString": "Ыңгайлаштырылган",
+		"vsdv-printImagesDialog-title": "Сүрөттөрдү басып чыгаруу",
+		"vsdv-printImagesPanel-imagePrintingString": "Сүрөт басып чыгарылууда",
+		"vsdv-imageViewerSettingsDialog-title": "Сүрөт көрүүчүнүн жөндөөлөрү",
+		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз көрүүчүнүн жөндөөлөрү",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсөтүү:",
+		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF түзөтүү белгисинин көрүнүшү",
+		"vsdv-pdfImageResourceDialog-title": "PDF сүрөт булагы",
+		"vsdv-pdfImageResourcePanel-bytes": " байт"
+	}
+}

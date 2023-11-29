@@ -1,0 +1,668 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Fișier"
+		},
+		"viewLabel": {
+			"text": "Vizualizare"
+		},
+		"toolsLabel": {
+			"text": "Unelte"
+		},
+		"redactionLabel": {
+			"text": "Redactare"
+		},
+		"uploadFileButton": {
+			"title": "Descărcați și deschideți fișierul"
+		},
+		"previousUploadFilesButton": {
+			"title": "Vedeți o listă de fișiere descărcate anterior"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Încărcați și deschideți fișierul imagine după adresa URL"
+		},
+		"printImagesButton": {
+			"title": "Tipărește imagini"
+		},
+		"downloadFileButton": {
+			"title": "Descărcare fișier"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Exportați și descărcați fișierul"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Potrivire la lățime"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Rotiți toate vizualizările în sens invers acelor de ceasornic"
+		},
+		"rotateAngleInput": {
+			"title": "Unghiul de rotație"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Rotiți toate vizualizările în sensul acelor de ceasornic"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Setări pentru vizualizarea imaginilor"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Setări pentru vizualizatorul de miniaturi"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"textSelectionToolButton": {
+			"title": "Selectarea textului"
+		},
+		"pdfImageExtractorToolButton": {
+			"title": "Extrageți imagini din pagină"
+		},
+		"pdfInteractiveFormToolButton": {
+			"title": "Câmpuri interactive"
+		},
+		"pdfTextRedactionMarkButton": {
+			"title": "Marcați textul pentru redactare"
+		},
+		"pdfRegionRedactionMarkButton": {
+			"title": "Marcați zona pentru redactare"
+		},
+		"pdfPageRedactionMarkButton": {
+			"title": "Marcați paginile întregi pentru redactare"
+		},
+		"removeFocusedPdfRedactionMarkButton": {
+			"title": "Eliminați marcajul de redactare focalizat"
+		},
+		"pdfRedactionMarkAppearanceButton": {
+			"title": "Apariția semnului de redactare PDF"
+		},
+		"applyPdfRedactionMarkButton": {
+			"title": "Aplicați semne de redactare"
+		},
+		"sidePanelCloseButton": {
+			"title": "Afișează bara laterală"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniaturi"
+		},
+		"showPdfBookmarksPanelButton": {
+			"title": "Marcaje"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Evidențiați text"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Căutați text"
+		},
+		"showPdfImageResourceExtractionPanelButton": {
+			"title": "Extrage imagini"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Câmpuri interactive"
+		},
+		"showPdfRedactionMarkListPanelButton": {
+			"title": "Semne de redactare PDF"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Modul de selectare a textului:"
+			},
+			"rectangleOption": {
+				"text": "Dreptunghi"
+			},
+			"fullLinesOption": {
+				"text": "Linii complete"
+			},
+			"selectionColorLabel": {
+				"text": "Culoarea textului selectat:"
+			},
+			"selectedTextLabel": {
+				"text": "Text selectat:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "Găsiți:"
+			},
+			"whereLookLabel": {
+				"text": "Căutare pe:"
+			},
+			"currentPageOption": {
+				"text": "Pagina curentă"
+			},
+			"allPagesOption": {
+				"text": "Toate paginile"
+			},
+			"wholeWordLabel": {
+				"text": "Căutați cuvântul întreg"
+			},
+			"caseSensitiveLabel": {
+				"text": "Se face distincție între majuscule și minuscule"
+			},
+			"startSearchButton": {
+				"value": "Începe căutarea"
+			},
+			"stopSearchButton": {
+				"value": "Opriți căutarea"
+			},
+			"textNotFoundLabel": {
+				"text": "Textul nu a fost găsit."
+			}
+		},
+		"pdfImageResourceExtractionPanel": {
+			"showContentImageButton": {
+				"value": "Afișează imaginea de conținut"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Modul de interacțiune:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Nu"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Vizualizare"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Grupați câmpurile după pagini"
+			},
+			"saveChangesButton": {
+				"value": "Salvează modificările"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Mergeți la prima imagine"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Mergeți la imaginea anterioară"
+		},
+		"gotoPageInput": {
+			"title": "Pagină"
+		},
+		"gotoNextPageButton": {
+			"title": "Mergeți la imaginea următoare"
+		},
+		"gotoLastPageButton": {
+			"title": "Mergeți la ultima imagine"
+		},
+		"zoomOutButton": {
+			"title": "Mărire"
+		},
+		"zoomValueInput": {
+			"title": "Scală"
+		},
+		"zoomInButton": {
+			"title": "Măriți"
+		},
+		"normalSizeModeButton": {
+			"title": "Normal"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Cel mai potrivit"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Înălțime de potrivire"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel în pixel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Scală"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Acest document este protejat prin parolă. Vă rugăm să introduceți o parolă."
+			},
+			"passwordLabel": {
+				"text": "Parola:"
+			},
+			"showPasswordLabel": {
+				"text": "Afișați parola"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Parolă greșită"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Imagini:"
+			},
+			"currentImageOption": {
+				"text": "Imaginea curentă"
+			},
+			"allImagesOption": {
+				"text": "Toate imaginile"
+			},
+			"customImagesOption": {
+				"text": "Personalizat"
+			},
+			"imageRangeLabel": {
+				"text": "Interval de imagini:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Interval de pagini nevalid. Exemplu: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indexul nu se află în intervalul de index al colecției de imagini."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Imagini:"
+			},
+			"currentImageOption": {
+				"text": "Imaginea curentă"
+			},
+			"allImagesOption": {
+				"text": "Toate imaginile"
+			},
+			"customImagesOption": {
+				"text": "Personalizat"
+			},
+			"imageRangeLabel": {
+				"text": "Interval de imagini:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Interval de pagini nevalid. Exemplu: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indexul nu se află în intervalul de index al colecției de imagini."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Mod de afișare a imaginii:"
+			},
+			"imageAnchorLabel": {
+				"text": "Ancora imaginii:"
+			},
+			"noneOption": {
+				"text": "Nu"
+			},
+			"topLeftOption": {
+				"text": "Sus|Stânga"
+			},
+			"topOption": {
+				"text": "Sus"
+			},
+			"topRightOption": {
+				"text": "Sus|Dreapta"
+			},
+			"rightOption": {
+				"text": "Corect"
+			},
+			"bottomRightOption": {
+				"text": "Jos|Dreapta"
+			},
+			"bottomOption": {
+				"text": "De jos"
+			},
+			"bottomLeftOption": {
+				"text": "Jos|Stânga"
+			},
+			"leftOption": {
+				"text": "Stânga"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Mod de afișare cu mai multe pagini:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Directia aspectului:"
+			},
+			"horizontalOption": {
+				"text": "Orizontal"
+			},
+			"verticalOption": {
+				"text": "Verticală"
+			},
+			"rowColumnCountLabel": {
+				"text": "Imagini pe rând/coloană:"
+			},
+			"imagePaddingLabel": {
+				"text": "Umplutură cu imagini:"
+			},
+			"appearancesLabel": {
+				"text": "Apariții"
+			},
+			"imageAppearanceLabel": {
+				"text": "Aspectul imaginii"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Culoarea fundalului:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Culoarea chenarului:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Lățimea chenarului:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Aspectul imaginii focalizate"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Culoarea fundalului:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Culoarea chenarului:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Lățimea chenarului:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Utilizați aspectul imaginii în modul o singură pagină"
+			},
+			"renderingSettingsLabel": {
+				"text": "Setări de randare"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Setări implicite"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Rezoluție orizontală:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Rezoluție verticală:"
+			},
+			"smoothingModeLabel": {
+				"text": "Mod neted:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Nu"
+			},
+			"interpolationModeLabel": {
+				"text": "Modul de interpolare:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Alte setări"
+			},
+			"backgroundColorLabel": {
+				"text": "Culoarea de fundal a vizualizatorului de imagini:"
+			},
+			"centerImageLabel": {
+				"text": "Imaginea din centru:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Redimensionare Timeout:"
+			},
+			"tileSizeLabel": {
+				"text": "Dimensiunea plăcilor:"
+			},
+			"colorManagementLabel": {
+				"text": "Activați gestionarea culorilor:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Utilizați redarea vectorială pentru documente:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Culoarea de fundal a conținutului vectorial:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Dimensiunea miniaturii:"
+			},
+			"scaleLabel": {
+				"text": "Scara miniaturi:"
+			},
+			"smallestOption": {
+				"text": "Cel puțin"
+			},
+			"smallOption": {
+				"text": "Mic"
+			},
+			"normalOption": {
+				"text": "Normal"
+			},
+			"largeOption": {
+				"text": "Mare"
+			},
+			"flowStyleLabel": {
+				"text": "Stil de plasare a miniaturii:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Număr de coloane:"
+			},
+			"marginLabel": {
+				"text": "Umplutură exterioară:"
+			},
+			"paddingTopLabel": {
+				"text": "Umplutură superioară:"
+			},
+			"paddingRightLabel": {
+				"text": "Indentație dreapta:"
+			},
+			"paddingBottomLabel": {
+				"text": "Umplutură inferioară:"
+			},
+			"paddingLeftLabel": {
+				"text": "Indentatură din stânga:"
+			},
+			"showCaptionLabel": {
+				"text": "Afișează subtitrările miniaturilor:"
+			},
+			"captionFormatLabel": {
+				"text": "Format semnătură:"
+			},
+			"captionAnchorLabel": {
+				"text": "Ancora semnăturii:"
+			},
+			"topLeftOption": {
+				"text": "Sus|Stânga"
+			},
+			"topOption": {
+				"text": "Sus"
+			},
+			"topRightOption": {
+				"text": "Sus|Dreapta"
+			},
+			"rightOption": {
+				"text": "Corect"
+			},
+			"bottomRightOption": {
+				"text": "Jos|Dreapta"
+			},
+			"bottomOption": {
+				"text": "De jos"
+			},
+			"bottomLeftOption": {
+				"text": "Jos|Stânga"
+			},
+			"leftOption": {
+				"text": "Stânga"
+			},
+			"centerOption": {
+				"text": "Aliniere la centru"
+			},
+			"focusOnHoverLabel": {
+				"text": "Hover Focus:"
+			},
+			"multiSelectLabel": {
+				"text": "Permite selecția mai multor miniaturi:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Poate trage miniaturi:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"pdfRedactionMarkAppearanceDialog": {
+			"fillColorLabel": {
+				"text": "Culoare umplere:"
+			},
+			"borderColorLabel": {
+				"text": "Culoarea chenarului:"
+			},
+			"borderWidthLabel": {
+				"text": "Lățimea chenarului:"
+			},
+			"overlayTextLabel": {
+				"text": "Text suprapus:"
+			},
+			"textColorLabel": {
+				"text": "Culoarea textului:"
+			},
+			"fontSizeLabel": {
+				"text": "Marimea fontului:"
+			},
+			"autoFontSizeLabel": {
+				"text": "Dimensiunea fontului automat:"
+			},
+			"textAlignmentLabel": {
+				"text": "Alinierea textului:"
+			},
+			"LeftOption": {
+				"text": "Stânga"
+			},
+			"RightOption": {
+				"text": "Corect"
+			},
+			"TopOption": {
+				"text": "Sus"
+			},
+			"BottomOption": {
+				"text": "De jos"
+			},
+			"CenterLeftOption": {
+				"text": "CenterLeft"
+			},
+			"CenterRightOption": {
+				"text": "CenterRight"
+			},
+			"CenterTopOption": {
+				"text": "CenterTop"
+			},
+			"CenterBottomOption": {
+				"text": "CenterBottom"
+			},
+			"CenterOption": {
+				"text": "Aliniere la centru"
+			},
+			"FillHorizontalOption": {
+				"text": "FillHorizontal"
+			},
+			"FillVerticalOption": {
+				"text": "FillVertical"
+			},
+			"FillOption": {
+				"text": "Completati"
+			},
+			"okButton": {
+				"value": "OK"
+			}
+		},
+		"pdfImageResourceDialog": {
+			"size": {
+				"text": "Dimensiunea miniaturii:"
+			},
+			"resolution": {
+				"text": "Rezoluţie:"
+			},
+			"compression": {
+				"text": "Comprimare:"
+			},
+			"pixelFormat": {
+				"text": "Format pixel:"
+			},
+			"length": {
+				"text": "Lungime:"
+			},
+			"okButton": {
+				"value": "OK"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-uploadFileButton-uploadFileString": "Incarca fisier",
+		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Obțineți marcaje PDF",
+		"vsdv-textSearchPanel-pageLabel": "Pagină",
+		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Obțineți resurse de imagine",
+		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Pagină",
+		"vsdv-openFile-addFileString": "Adauga fisier",
+		"vsdv-openFile-authenticateFileString": "Autentificați fișierul",
+		"vsdv-downloadFile-actionMessage": "Descărcare fișier",
+		"vsdv-saveChanges-saveChangesInImages": "Salvați modificările în imagini",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Salvați modificările în adnotări",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Ardeți adnotări pe imagini",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvați modificările în documentul PDF",
+		"vsdv-documentPasswordDialog-title": "Parola documentului",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Anulează",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Autentificați fișierul",
+		"vsdv-imageSelectionDialog-title": "Selectați imagini",
+		"vsdv-imageSelectionDialog-currentImageString": "Imaginea curentă",
+		"vsdv-imageSelectionDialog-allImagesString": "Toate imaginile",
+		"vsdv-imageSelectionDialog-customImagesString": "Personalizat",
+		"vsdv-printImagesDialog-title": "Tipărește imagini",
+		"vsdv-printImagesPanel-imagePrintingString": "Imaginea se imprimă",
+		"vsdv-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor",
+		"vsdv-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
+		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Apariția semnului de redactare PDF",
+		"vsdv-pdfImageResourceDialog-title": "Resursă de imagini PDF",
+		"vsdv-pdfImageResourcePanel-bytes": " octeți"
+	}
+}

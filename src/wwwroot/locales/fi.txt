@@ -1,0 +1,668 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Tiedosto"
+		},
+		"viewLabel": {
+			"text": "Näytä"
+		},
+		"toolsLabel": {
+			"text": "Työkalut"
+		},
+		"redactionLabel": {
+			"text": "Editointi"
+		},
+		"uploadFileButton": {
+			"title": "Lataa ja avaa tiedosto"
+		},
+		"previousUploadFilesButton": {
+			"title": "Näytä luettelo aiemmin ladatuista tiedostoista"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Lataa ja avaa kuvatiedosto URL-osoitteen mukaan"
+		},
+		"printImagesButton": {
+			"title": "Tulosta kuvat"
+		},
+		"downloadFileButton": {
+			"title": "Lataa tiedosto"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Vie ja lataa tiedosto"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Sovita leveyteen"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Kierrä kaikkia näkymiä vastapäivään"
+		},
+		"rotateAngleInput": {
+			"title": "Kiertokulma"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Kierrä kaikkia näkymiä myötäpäivään"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Kuvankatseluohjelman asetukset"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Pikkukuvien katseluohjelman asetukset"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"textSelectionToolButton": {
+			"title": "Tekstin valinta"
+		},
+		"pdfImageExtractorToolButton": {
+			"title": "Poimi kuvat sivulta"
+		},
+		"pdfInteractiveFormToolButton": {
+			"title": "Interaktiiviset kentät"
+		},
+		"pdfTextRedactionMarkButton": {
+			"title": "Merkitse teksti muokattavaksi"
+		},
+		"pdfRegionRedactionMarkButton": {
+			"title": "Merkitse muokkausalue"
+		},
+		"pdfPageRedactionMarkButton": {
+			"title": "Merkitse kokonaiset sivut editoitavaksi"
+		},
+		"removeFocusedPdfRedactionMarkButton": {
+			"title": "Poista tarkennettu muokkausmerkki"
+		},
+		"pdfRedactionMarkAppearanceButton": {
+			"title": "PDF-muokkausmerkin ulkonäkö"
+		},
+		"applyPdfRedactionMarkButton": {
+			"title": "Käytä muokkausmerkkejä"
+		},
+		"sidePanelCloseButton": {
+			"title": "Näytä sivupalkki"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Pikkukuvat"
+		},
+		"showPdfBookmarksPanelButton": {
+			"title": "Kirjanmerkit"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Korosta teksti"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Etsi tekstiä"
+		},
+		"showPdfImageResourceExtractionPanelButton": {
+			"title": "Pura kuvat"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interaktiiviset kentät"
+		},
+		"showPdfRedactionMarkListPanelButton": {
+			"title": "PDF-muokkausmerkit"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Tekstin valintatila:"
+			},
+			"rectangleOption": {
+				"text": "Suorakaide"
+			},
+			"fullLinesOption": {
+				"text": "Täydet rivit"
+			},
+			"selectionColorLabel": {
+				"text": "Valitun tekstin väri:"
+			},
+			"selectedTextLabel": {
+				"text": "Valittu teksti:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "Etsi:"
+			},
+			"whereLookLabel": {
+				"text": "Haku:"
+			},
+			"currentPageOption": {
+				"text": "Nykyinen sivu"
+			},
+			"allPagesOption": {
+				"text": "Kaikki sivut"
+			},
+			"wholeWordLabel": {
+				"text": "Hae koko sana"
+			},
+			"caseSensitiveLabel": {
+				"text": "Kirjainkoolla on merkitystä"
+			},
+			"startSearchButton": {
+				"value": "Aloita haku"
+			},
+			"stopSearchButton": {
+				"value": "Lopeta haku"
+			},
+			"textNotFoundLabel": {
+				"text": "Tekstiä ei löydy."
+			}
+		},
+		"pdfImageResourceExtractionPanel": {
+			"showContentImageButton": {
+				"value": "Näytä sisältökuva"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Vuorovaikutustila:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Ei"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Näytä"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Ryhmittele kentät sivujen mukaan"
+			},
+			"saveChangesButton": {
+				"value": "Tallenna muutokset"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Siirry ensimmäiseen kuvaan"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Siirry edelliseen kuvaan"
+		},
+		"gotoPageInput": {
+			"title": "Sivu"
+		},
+		"gotoNextPageButton": {
+			"title": "Siirry seuraavaan kuvaan"
+		},
+		"gotoLastPageButton": {
+			"title": "Siirry viimeiseen kuvaan"
+		},
+		"zoomOutButton": {
+			"title": "Loitonna"
+		},
+		"zoomValueInput": {
+			"title": "Asteikko"
+		},
+		"zoomInButton": {
+			"title": "Lähennä"
+		},
+		"normalSizeModeButton": {
+			"title": "Normaali"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Sopivin"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Sovituskorkeus"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel to Pixel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Asteikko"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Tämä asiakirja on suojattu salasanalla. Ole hyvä ja anna salasana."
+			},
+			"passwordLabel": {
+				"text": "Salasana:"
+			},
+			"showPasswordLabel": {
+				"text": "Näytä salasana"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Väärä salasana"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Kuvat:"
+			},
+			"currentImageOption": {
+				"text": "Nykyinen kuva"
+			},
+			"allImagesOption": {
+				"text": "Kaikki kuvat"
+			},
+			"customImagesOption": {
+				"text": "Mukautettu"
+			},
+			"imageRangeLabel": {
+				"text": "Kuvaalue:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Virheellinen sivualue. Esimerkki: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Hakemisto ei ole kuvakokoelman indeksialueella."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Kuvat:"
+			},
+			"currentImageOption": {
+				"text": "Nykyinen kuva"
+			},
+			"allImagesOption": {
+				"text": "Kaikki kuvat"
+			},
+			"customImagesOption": {
+				"text": "Mukautettu"
+			},
+			"imageRangeLabel": {
+				"text": "Kuvaalue:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Virheellinen sivualue. Esimerkki: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Hakemisto ei ole kuvakokoelman indeksialueella."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Kuvan näyttötila:"
+			},
+			"imageAnchorLabel": {
+				"text": "Kuvan ankkuri:"
+			},
+			"noneOption": {
+				"text": "Ei"
+			},
+			"topLeftOption": {
+				"text": "Ylä|Vasen"
+			},
+			"topOption": {
+				"text": "Yläosa"
+			},
+			"topRightOption": {
+				"text": "Yläosa|Oikea"
+			},
+			"rightOption": {
+				"text": "Oikein"
+			},
+			"bottomRightOption": {
+				"text": "Alhaalla|Oikealla"
+			},
+			"bottomOption": {
+				"text": "Pohja"
+			},
+			"bottomLeftOption": {
+				"text": "Alhaalla|Vasen"
+			},
+			"leftOption": {
+				"text": "Vasen"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Monisivuinen näyttötila:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Asettelusuunta:"
+			},
+			"horizontalOption": {
+				"text": "Vaaka"
+			},
+			"verticalOption": {
+				"text": "Pysty"
+			},
+			"rowColumnCountLabel": {
+				"text": "Kuvat rivissä/sarakkeessa:"
+			},
+			"imagePaddingLabel": {
+				"text": "Kuvien täyte:"
+			},
+			"appearancesLabel": {
+				"text": "Ulkoasu"
+			},
+			"imageAppearanceLabel": {
+				"text": "Kuvan ulkoasu"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Taustaväri:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Reunuksen väri:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Reunuksen leveys:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Tarkennetun kuvan ulkoasu"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Taustaväri:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Reunuksen väri:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Reunuksen leveys:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Käytä kuvan ulkoasua yhden sivun tilassa"
+			},
+			"renderingSettingsLabel": {
+				"text": "Renderointiasetukset"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Oletusasetukset"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Vaaka resoluutio:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Pystyresoluutio:"
+			},
+			"smoothingModeLabel": {
+				"text": "Smooth-tila:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Ei"
+			},
+			"interpolationModeLabel": {
+				"text": "Interpolointitila:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Muut asetukset"
+			},
+			"backgroundColorLabel": {
+				"text": "Kuvankatseluohjelman taustaväri:"
+			},
+			"centerImageLabel": {
+				"text": "Keskikuva:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Koon muuttamisen aikakatkaisu:"
+			},
+			"tileSizeLabel": {
+				"text": "Laatan koko:"
+			},
+			"colorManagementLabel": {
+				"text": "Ota käyttöön värinhallinta:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Käytä vektorirenderöintiä asiakirjoissa:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Vektorisisällön taustaväri:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Pikkukuvan koko:"
+			},
+			"scaleLabel": {
+				"text": "Pikkukuvan asteikko:"
+			},
+			"smallestOption": {
+				"text": "Vähintään"
+			},
+			"smallOption": {
+				"text": "Pieni"
+			},
+			"normalOption": {
+				"text": "Normaali"
+			},
+			"largeOption": {
+				"text": "Suuri"
+			},
+			"flowStyleLabel": {
+				"text": "Pikkukuvan sijoittelutyyli:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Sarakkeiden määrä:"
+			},
+			"marginLabel": {
+				"text": "Ulkopuolinen pehmuste:"
+			},
+			"paddingTopLabel": {
+				"text": "Yläpehmuste:"
+			},
+			"paddingRightLabel": {
+				"text": "Oikea sisennys:"
+			},
+			"paddingBottomLabel": {
+				"text": "Alhainen pehmuste:"
+			},
+			"paddingLeftLabel": {
+				"text": "Vasen sisennys:"
+			},
+			"showCaptionLabel": {
+				"text": "Näytä pikkukuvan kuvatekstit:"
+			},
+			"captionFormatLabel": {
+				"text": "Allekirjoituksen muoto:"
+			},
+			"captionAnchorLabel": {
+				"text": "Allekirjoitusankkuri:"
+			},
+			"topLeftOption": {
+				"text": "Ylä|Vasen"
+			},
+			"topOption": {
+				"text": "Yläosa"
+			},
+			"topRightOption": {
+				"text": "Yläosa|Oikea"
+			},
+			"rightOption": {
+				"text": "Oikein"
+			},
+			"bottomRightOption": {
+				"text": "Alhaalla|Oikealla"
+			},
+			"bottomOption": {
+				"text": "Pohja"
+			},
+			"bottomLeftOption": {
+				"text": "Alhaalla|Vasen"
+			},
+			"leftOption": {
+				"text": "Vasen"
+			},
+			"centerOption": {
+				"text": "Tasaa keskelle"
+			},
+			"focusOnHoverLabel": {
+				"text": "Liikun tarkennus:"
+			},
+			"multiSelectLabel": {
+				"text": "Salli useiden pikkukuvien valinta:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Voi vetää pikkukuvia:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"pdfRedactionMarkAppearanceDialog": {
+			"fillColorLabel": {
+				"text": "Täyttöväri:"
+			},
+			"borderColorLabel": {
+				"text": "Reunuksen väri:"
+			},
+			"borderWidthLabel": {
+				"text": "Reunuksen leveys:"
+			},
+			"overlayTextLabel": {
+				"text": "Peittoteksti:"
+			},
+			"textColorLabel": {
+				"text": "Tekstin väri:"
+			},
+			"fontSizeLabel": {
+				"text": "Fonttikoko:"
+			},
+			"autoFontSizeLabel": {
+				"text": "Automaattinen fonttikoko:"
+			},
+			"textAlignmentLabel": {
+				"text": "Tekstin tasaus:"
+			},
+			"LeftOption": {
+				"text": "Vasen"
+			},
+			"RightOption": {
+				"text": "Oikein"
+			},
+			"TopOption": {
+				"text": "Yläosa"
+			},
+			"BottomOption": {
+				"text": "Pohja"
+			},
+			"CenterLeftOption": {
+				"text": "CenterLeft"
+			},
+			"CenterRightOption": {
+				"text": "CenterRight"
+			},
+			"CenterTopOption": {
+				"text": "CenterTop"
+			},
+			"CenterBottomOption": {
+				"text": "CenterBottom"
+			},
+			"CenterOption": {
+				"text": "Tasaa keskelle"
+			},
+			"FillHorizontalOption": {
+				"text": "FillHorizontal"
+			},
+			"FillVerticalOption": {
+				"text": "FillVertical"
+			},
+			"FillOption": {
+				"text": "Täyttää"
+			},
+			"okButton": {
+				"value": "OK"
+			}
+		},
+		"pdfImageResourceDialog": {
+			"size": {
+				"text": "Pikkukuvan koko:"
+			},
+			"resolution": {
+				"text": "Resoluutio:"
+			},
+			"compression": {
+				"text": "Puristus:"
+			},
+			"pixelFormat": {
+				"text": "Pikselimuoto:"
+			},
+			"length": {
+				"text": "Pituus:"
+			},
+			"okButton": {
+				"value": "OK"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-uploadFileButton-uploadFileString": "Lataa tiedosto",
+		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Hanki PDF-kirjanmerkit",
+		"vsdv-textSearchPanel-pageLabel": "Sivu",
+		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Hanki kuvaresurssi",
+		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Sivu",
+		"vsdv-openFile-addFileString": "Lisää tiedosto",
+		"vsdv-openFile-authenticateFileString": "Todenna tiedosto",
+		"vsdv-downloadFile-actionMessage": "Lataa tiedosto",
+		"vsdv-saveChanges-saveChangesInImages": "Tallenna muutokset kuviin",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Tallenna muutokset huomautuksiin",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Polta kommentteja kuviin",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Tallenna muutokset PDF-dokumenttiin",
+		"vsdv-documentPasswordDialog-title": "Asiakirjan salasana",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Peruuta",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Todenna tiedosto",
+		"vsdv-imageSelectionDialog-title": "Valitse kuvat",
+		"vsdv-imageSelectionDialog-currentImageString": "Nykyinen kuva",
+		"vsdv-imageSelectionDialog-allImagesString": "Kaikki kuvat",
+		"vsdv-imageSelectionDialog-customImagesString": "Mukautettu",
+		"vsdv-printImagesDialog-title": "Tulosta kuvat",
+		"vsdv-printImagesPanel-imagePrintingString": "Kuva tulostuu",
+		"vsdv-imageViewerSettingsDialog-title": "Kuvankatseluohjelman asetukset",
+		"vsdv-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
+		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF-muokkausmerkin ulkonäkö",
+		"vsdv-pdfImageResourceDialog-title": "PDF-kuvaresurssi",
+		"vsdv-pdfImageResourcePanel-bytes": " tavua"
+	}
+}

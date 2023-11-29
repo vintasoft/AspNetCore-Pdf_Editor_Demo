@@ -1,0 +1,668 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Faili"
+		},
+		"viewLabel": {
+			"text": "Tazama"
+		},
+		"toolsLabel": {
+			"text": "Zana"
+		},
+		"redactionLabel": {
+			"text": "Urekebishaji"
+		},
+		"uploadFileButton": {
+			"title": "Pakia na ufungue faili"
+		},
+		"previousUploadFilesButton": {
+			"title": "Faili Zilizopakiwa Hapo awali"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Pakia na ufungue faili ya picha kwa URL"
+		},
+		"printImagesButton": {
+			"title": "Chapisha picha"
+		},
+		"downloadFileButton": {
+			"title": "Pakua faili"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Hamisha na kupakua faili"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Inafaa kwa upana"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Zungusha mionekano yote kinyume cha saa"
+		},
+		"rotateAngleInput": {
+			"title": "Pembe"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Zungusha mionekano yote kisaa"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Mipangilio ya kitazamaji picha"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Mipangilio ya kitazamaji cha kijipicha"
+		},
+		"panToolButton": {
+			"title": "Panua"
+		},
+		"textSelectionToolButton": {
+			"title": "Uteuzi wa Maandishi"
+		},
+		"pdfImageExtractorToolButton": {
+			"title": "Toa picha kutoka kwa ukurasa"
+		},
+		"pdfInteractiveFormToolButton": {
+			"title": "Sehemu zinazoingiliana"
+		},
+		"pdfTextRedactionMarkButton": {
+			"title": "Weka alama kwenye maandishi ili yafanyiwe upya"
+		},
+		"pdfRegionRedactionMarkButton": {
+			"title": "Weka alama kwenye eneo kwa urekebishaji"
+		},
+		"pdfPageRedactionMarkButton": {
+			"title": "Weka alama kwenye kurasa kamili kwa ajili ya kuandikwa upya"
+		},
+		"removeFocusedPdfRedactionMarkButton": {
+			"title": "Ondoa alama ya urekebishaji iliyolengwa"
+		},
+		"pdfRedactionMarkAppearanceButton": {
+			"title": "Mwonekano wa alama ya urekebishaji wa PDF"
+		},
+		"applyPdfRedactionMarkButton": {
+			"title": "Weka alama za urejeshaji"
+		},
+		"sidePanelCloseButton": {
+			"title": "Onyesha Paneli ya Upande"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Vijipicha"
+		},
+		"showPdfBookmarksPanelButton": {
+			"title": "Alamisho"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Uchaguzi wa maandishi"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Tafuta maandishi"
+		},
+		"showPdfImageResourceExtractionPanelButton": {
+			"title": "Dondoo picha"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Sehemu zinazoingiliana"
+		},
+		"showPdfRedactionMarkListPanelButton": {
+			"title": "Alama za urekebishaji za PDF"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Hali ya uteuzi:"
+			},
+			"rectangleOption": {
+				"text": "Mstatili"
+			},
+			"fullLinesOption": {
+				"text": "Mistari kamili"
+			},
+			"selectionColorLabel": {
+				"text": "Rangi ya uteuzi:"
+			},
+			"selectedTextLabel": {
+				"text": "Maandishi yaliyochaguliwa:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "Tafuta:"
+			},
+			"whereLookLabel": {
+				"text": "Angalia ndani:"
+			},
+			"currentPageOption": {
+				"text": "Ukurasa wa sasa"
+			},
+			"allPagesOption": {
+				"text": "Kurasa zote"
+			},
+			"wholeWordLabel": {
+				"text": "Neno zima"
+			},
+			"caseSensitiveLabel": {
+				"text": "Nyeti kwa kesi"
+			},
+			"startSearchButton": {
+				"value": "Anza"
+			},
+			"stopSearchButton": {
+				"value": "Acha"
+			},
+			"textNotFoundLabel": {
+				"text": "Maandishi hayapatikani."
+			}
+		},
+		"pdfImageResourceExtractionPanel": {
+			"showContentImageButton": {
+				"value": "Onyesha picha ya maudhui"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Hali ya mwingiliano:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Hakuna"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Tazama"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Panga nyuga kwa kurasa"
+			},
+			"saveChangesButton": {
+				"value": "Hifadhi mabadiliko"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Nenda kwenye picha ya kwanza"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Nenda kwenye picha iliyotangulia"
+		},
+		"gotoPageInput": {
+			"title": "Ukurasa"
+		},
+		"gotoNextPageButton": {
+			"title": "Nenda kwenye picha inayofuata"
+		},
+		"gotoLastPageButton": {
+			"title": "Nenda kwenye picha ya mwisho"
+		},
+		"zoomOutButton": {
+			"title": "Kuza nje"
+		},
+		"zoomValueInput": {
+			"title": "Kuza"
+		},
+		"zoomInButton": {
+			"title": "Vuta karibu"
+		},
+		"normalSizeModeButton": {
+			"title": "Kawaida"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Inafaa zaidi"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Inafaa kwa urefu"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel hadi pikseli"
+		},
+		"zoomSizeModeButton": {
+			"title": "Kuza"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Hati hii inalindwa kwa nenosiri. Tafadhali weka nenosiri."
+			},
+			"passwordLabel": {
+				"text": "Nenosiri:"
+			},
+			"showPasswordLabel": {
+				"text": "Onyesha nenosiri"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Nenosiri si sahihi"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"сancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Picha:"
+			},
+			"currentImageOption": {
+				"text": "Picha ya sasa"
+			},
+			"allImagesOption": {
+				"text": "Picha zote"
+			},
+			"customImagesOption": {
+				"text": "Desturi"
+			},
+			"imageRangeLabel": {
+				"text": "Aina ya picha:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Masafa batili ya ukurasa. Mfano: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Kielezo nje ya safu ya mkusanyiko wa picha."
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"сancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Picha:"
+			},
+			"currentImageOption": {
+				"text": "Picha ya sasa"
+			},
+			"allImagesOption": {
+				"text": "Picha zote"
+			},
+			"customImagesOption": {
+				"text": "Desturi"
+			},
+			"imageRangeLabel": {
+				"text": "Aina ya picha:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Masafa batili ya ukurasa. Mfano: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Kielezo nje ya safu ya mkusanyiko wa picha."
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Hali ya kuonyesha picha:"
+			},
+			"imageAnchorLabel": {
+				"text": "Anga ya picha:"
+			},
+			"noneOption": {
+				"text": "Hakuna"
+			},
+			"topLeftOption": {
+				"text": "Juu|Kushoto"
+			},
+			"topOption": {
+				"text": "Juu"
+			},
+			"topRightOption": {
+				"text": "Juu|kulia"
+			},
+			"rightOption": {
+				"text": "Haki"
+			},
+			"bottomRightOption": {
+				"text": "Chini|Kulia"
+			},
+			"bottomOption": {
+				"text": "Chini"
+			},
+			"bottomLeftOption": {
+				"text": "Chini|Kushoto"
+			},
+			"leftOption": {
+				"text": "Kushoto"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Hali ya kuonyesha kurasa nyingi:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Mwelekeo wa mpangilio:"
+			},
+			"horizontalOption": {
+				"text": "Mlalo"
+			},
+			"verticalOption": {
+				"text": "Wima"
+			},
+			"rowColumnCountLabel": {
+				"text": "Picha katika safu / safu:"
+			},
+			"imagePaddingLabel": {
+				"text": "Ufungaji wa picha:"
+			},
+			"appearancesLabel": {
+				"text": "Mwonekano"
+			},
+			"imageAppearanceLabel": {
+				"text": "Mwonekano wa picha"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Rangi ya nyuma:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Rangi ya mpaka:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Upana wa mpaka:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Mwonekano wa picha uliolengwa"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Rangi ya nyuma:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Rangi ya mpaka:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Upana wa mpaka:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Tumia mwonekano wa picha katika hali ya ukurasa mmoja"
+			},
+			"renderingSettingsLabel": {
+				"text": "Mipangilio ya uwasilishaji"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Mipangilio Chaguomsingi"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Azimio la Mlalo:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Azimio la Wima:"
+			},
+			"smoothingModeLabel": {
+				"text": "Hali ya Kulainisha:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Hakuna"
+			},
+			"interpolationModeLabel": {
+				"text": "Hali ya Ukalimani:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Mipangilio mingine"
+			},
+			"backgroundColorLabel": {
+				"text": "Rangi ya mandharinyuma ya mtazamaji:"
+			},
+			"centerImageLabel": {
+				"text": "Picha ya katikati:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Badilisha ukubwa wa muda kuisha:"
+			},
+			"tileSizeLabel": {
+				"text": "Ukubwa wa vigae:"
+			},
+			"colorManagementLabel": {
+				"text": "Washa udhibiti wa rangi:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Tumia utoaji wa vekta kwa hati:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Rangi ya mandharinyuma ya maudhui ya Vekta:"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"сancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Ukubwa:"
+			},
+			"scaleLabel": {
+				"text": "Mizani:"
+			},
+			"smallestOption": {
+				"text": "Ndogo zaidi"
+			},
+			"smallOption": {
+				"text": "Ndogo"
+			},
+			"normalOption": {
+				"text": "Kawaida"
+			},
+			"largeOption": {
+				"text": "Kubwa"
+			},
+			"flowStyleLabel": {
+				"text": "Mtindo wa Mtiririko:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Hesabu ya safu wima:"
+			},
+			"marginLabel": {
+				"text": "Pambizo:"
+			},
+			"paddingTopLabel": {
+				"text": "Padding Juu:"
+			},
+			"paddingRightLabel": {
+				"text": "Padding kulia:"
+			},
+			"paddingBottomLabel": {
+				"text": "Padding Chini:"
+			},
+			"paddingLeftLabel": {
+				"text": "Padding Kushoto:"
+			},
+			"showCaptionLabel": {
+				"text": "Onyesha Manukuu:"
+			},
+			"captionFormatLabel": {
+				"text": "Umbizo la Manukuu:"
+			},
+			"captionAnchorLabel": {
+				"text": "Kiunga cha Manukuu:"
+			},
+			"topLeftOption": {
+				"text": "Juu|Kushoto"
+			},
+			"topOption": {
+				"text": "Juu"
+			},
+			"topRightOption": {
+				"text": "Juu|kulia"
+			},
+			"rightOption": {
+				"text": "Haki"
+			},
+			"bottomRightOption": {
+				"text": "Chini|Kulia"
+			},
+			"bottomOption": {
+				"text": "Chini"
+			},
+			"bottomLeftOption": {
+				"text": "Chini|Kushoto"
+			},
+			"leftOption": {
+				"text": "Kushoto"
+			},
+			"centerOption": {
+				"text": "Kituo"
+			},
+			"focusOnHoverLabel": {
+				"text": "Lenga OnHover:"
+			},
+			"multiSelectLabel": {
+				"text": "Chaguo nyingi:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Inaweza Kuburuta Vijipicha:"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"сancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"pdfRedactionMarkAppearanceDialog": {
+			"fillColorLabel": {
+				"text": "Rangi ya kujaza:"
+			},
+			"borderColorLabel": {
+				"text": "Rangi ya mpaka:"
+			},
+			"borderWidthLabel": {
+				"text": "Upana wa mpaka:"
+			},
+			"overlayTextLabel": {
+				"text": "Maandishi yaliyowekelea:"
+			},
+			"textColorLabel": {
+				"text": "Rangi ya maandishi:"
+			},
+			"fontSizeLabel": {
+				"text": "Ukubwa wa herufi:"
+			},
+			"autoFontSizeLabel": {
+				"text": "Ukubwa wa herufi otomatiki:"
+			},
+			"textAlignmentLabel": {
+				"text": "Mpangilio wa maandishi:"
+			},
+			"LeftOption": {
+				"text": "Kushoto"
+			},
+			"RightOption": {
+				"text": "Haki"
+			},
+			"TopOption": {
+				"text": "Juu"
+			},
+			"BottomOption": {
+				"text": "Chini"
+			},
+			"CenterLeftOption": {
+				"text": "CenterLeft"
+			},
+			"CenterRightOption": {
+				"text": "CenterRight"
+			},
+			"CenterTopOption": {
+				"text": "CenterTop"
+			},
+			"CenterBottomOption": {
+				"text": "CenterBottom"
+			},
+			"CenterOption": {
+				"text": "Kituo"
+			},
+			"FillHorizontalOption": {
+				"text": "FillHorizontal"
+			},
+			"FillVerticalOption": {
+				"text": "FillVertical"
+			},
+			"FillOption": {
+				"text": "Jaza"
+			},
+			"okButton": {
+				"value": "sawa"
+			}
+		},
+		"pdfImageResourceDialog": {
+			"size": {
+				"text": "Ukubwa:"
+			},
+			"resolution": {
+				"text": "Azimio:"
+			},
+			"compression": {
+				"text": "Mfinyazo:"
+			},
+			"pixelFormat": {
+				"text": "Umbizo la Pixel:"
+			},
+			"length": {
+				"text": "Urefu:"
+			},
+			"okButton": {
+				"value": "sawa"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-uploadFileButton-uploadFileString": "Pakia faili",
+		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Pata alamisho za PDF",
+		"vsdv-textSearchPanel-pageLabel": "Ukurasa",
+		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Pata rasilimali ya picha",
+		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Ukurasa",
+		"vsdv-openFile-addFileString": "Ongeza faili",
+		"vsdv-openFile-authenticateFileString": "Thibitisha faili",
+		"vsdv-downloadFile-actionMessage": "Pakua faili",
+		"vsdv-saveChanges-saveChangesInImages": "Hifadhi mabadiliko katika picha",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Hifadhi mabadiliko katika vidokezo",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Choma maelezo kwenye picha",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Hifadhi mabadiliko katika hati ya PDF",
+		"vsdv-documentPasswordDialog-title": "Nenosiri la hati",
+		"vsdv-dialog-okButton": "sawa",
+		"vsdv-dialog-cancelButton": "Ghairi",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Thibitisha faili",
+		"vsdv-imageSelectionDialog-title": "Chagua picha",
+		"vsdv-imageSelectionDialog-currentImageString": "Picha ya sasa",
+		"vsdv-imageSelectionDialog-allImagesString": "Picha zote",
+		"vsdv-imageSelectionDialog-customImagesString": "Desturi",
+		"vsdv-printImagesDialog-title": "Chapisha picha",
+		"vsdv-printImagesPanel-imagePrintingString": "Picha inachapishwa",
+		"vsdv-imageViewerSettingsDialog-title": "Mipangilio ya kitazamaji picha",
+		"vsdv-thumbnailViewerSettingDialog-title": "Mipangilio ya kitazamaji cha kijipicha",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:",
+		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Mwonekano wa alama ya urekebishaji wa PDF",
+		"vsdv-pdfImageResourceDialog-title": "Rasilimali ya picha ya PDF",
+		"vsdv-pdfImageResourcePanel-bytes": " baiti"
+	}
+}

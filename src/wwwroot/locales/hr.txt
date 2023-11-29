@@ -1,0 +1,668 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Datoteka"
+		},
+		"viewLabel": {
+			"text": "Pogledaj"
+		},
+		"toolsLabel": {
+			"text": "Alati"
+		},
+		"redactionLabel": {
+			"text": "Redakcija"
+		},
+		"uploadFileButton": {
+			"title": "Preuzmi i otvori datoteku"
+		},
+		"previousUploadFilesButton": {
+			"title": "Pogledajte popis prethodno preuzetih datoteka"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Prenesite i otvorite slikovnu datoteku prema URL-u"
+		},
+		"printImagesButton": {
+			"title": "Ispis slika"
+		},
+		"downloadFileButton": {
+			"title": "Preuzmi datoteku"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Izvoz i preuzimanje datoteke"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Prilagodi širini"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Rotirajte sve prikaze u smjeru suprotnom od kazaljke na satu"
+		},
+		"rotateAngleInput": {
+			"title": "Kut rotacije"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Rotirajte sve prikaze u smjeru kazaljke na satu"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Postavke preglednika slika"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Postavke pregledača sličica"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"textSelectionToolButton": {
+			"title": "Odabir teksta"
+		},
+		"pdfImageExtractorToolButton": {
+			"title": "Ekstrahirajte slike sa stranice"
+		},
+		"pdfInteractiveFormToolButton": {
+			"title": "Interaktivna polja"
+		},
+		"pdfTextRedactionMarkButton": {
+			"title": "Označi tekst za redakciju"
+		},
+		"pdfRegionRedactionMarkButton": {
+			"title": "Označite područje za uređivanje"
+		},
+		"pdfPageRedactionMarkButton": {
+			"title": "Označite cijele stranice za redigiranje"
+		},
+		"removeFocusedPdfRedactionMarkButton": {
+			"title": "Uklonite fokusiranu oznaku redakcije"
+		},
+		"pdfRedactionMarkAppearanceButton": {
+			"title": "Izgled oznake redakcije PDF-a"
+		},
+		"applyPdfRedactionMarkButton": {
+			"title": "Primijenite oznake redakcije"
+		},
+		"sidePanelCloseButton": {
+			"title": "Prikaži bočnu traku"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Sličice"
+		},
+		"showPdfBookmarksPanelButton": {
+			"title": "Oznake"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Označi tekst"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Traži tekst"
+		},
+		"showPdfImageResourceExtractionPanelButton": {
+			"title": "Ekstrahirajte slike"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interaktivna polja"
+		},
+		"showPdfRedactionMarkListPanelButton": {
+			"title": "Oznake redakcije PDF-a"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Način odabira teksta:"
+			},
+			"rectangleOption": {
+				"text": "Pravokutnik"
+			},
+			"fullLinesOption": {
+				"text": "Puni redovi"
+			},
+			"selectionColorLabel": {
+				"text": "Boja odabranog teksta:"
+			},
+			"selectedTextLabel": {
+				"text": "Odabrani tekst:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "Pronađi:"
+			},
+			"whereLookLabel": {
+				"text": "Traži na:"
+			},
+			"currentPageOption": {
+				"text": "Trenutna stranica"
+			},
+			"allPagesOption": {
+				"text": "Sve stranice"
+			},
+			"wholeWordLabel": {
+				"text": "Traži cijelu riječ"
+			},
+			"caseSensitiveLabel": {
+				"text": "Razlikuje velika i mala slova"
+			},
+			"startSearchButton": {
+				"value": "Pokreni pretragu"
+			},
+			"stopSearchButton": {
+				"value": "Prekini pretragu"
+			},
+			"textNotFoundLabel": {
+				"text": "Tekst nije pronađen."
+			}
+		},
+		"pdfImageResourceExtractionPanel": {
+			"showContentImageButton": {
+				"value": "Prikaži sliku sadržaja"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Način interakcije:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Ne"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Pogledaj"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Grupirajte polja po stranicama"
+			},
+			"saveChangesButton": {
+				"value": "Spremi promjene"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Idi na prvu sliku"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Idi na prethodnu sliku"
+		},
+		"gotoPageInput": {
+			"title": "Stranica"
+		},
+		"gotoNextPageButton": {
+			"title": "Idi na sljedeću sliku"
+		},
+		"gotoLastPageButton": {
+			"title": "Idi na posljednju sliku"
+		},
+		"zoomOutButton": {
+			"title": "Smanji"
+		},
+		"zoomValueInput": {
+			"title": "Razmjer"
+		},
+		"zoomInButton": {
+			"title": "Uvećaj"
+		},
+		"normalSizeModeButton": {
+			"title": "Normalno"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Najprikladnije"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Prilagodi visini"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel to Pixel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Razmjer"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Ovaj dokument je zaštićen lozinkom. Molimo unesite lozinku."
+			},
+			"passwordLabel": {
+				"text": "Lozinka:"
+			},
+			"showPasswordLabel": {
+				"text": "Prikaži lozinku"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Pogrešna lozinka"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Odustani"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Slike:"
+			},
+			"currentImageOption": {
+				"text": "Trenutna slika"
+			},
+			"allImagesOption": {
+				"text": "Sve slike"
+			},
+			"customImagesOption": {
+				"text": "Prilagođeno"
+			},
+			"imageRangeLabel": {
+				"text": "Raspon slike:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Nevažeći raspon stranica. Primjer: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indeks nije unutar raspona indeksa zbirke slika."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Odustani"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Slike:"
+			},
+			"currentImageOption": {
+				"text": "Trenutna slika"
+			},
+			"allImagesOption": {
+				"text": "Sve slike"
+			},
+			"customImagesOption": {
+				"text": "Prilagođeno"
+			},
+			"imageRangeLabel": {
+				"text": "Raspon slike:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Nevažeći raspon stranica. Primjer: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indeks nije unutar raspona indeksa zbirke slika."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Odustani"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Način prikaza slike:"
+			},
+			"imageAnchorLabel": {
+				"text": "Sidro slike:"
+			},
+			"noneOption": {
+				"text": "Ne"
+			},
+			"topLeftOption": {
+				"text": "Gore|Lijevo"
+			},
+			"topOption": {
+				"text": "Vrh"
+			},
+			"topRightOption": {
+				"text": "Gore|desno"
+			},
+			"rightOption": {
+				"text": "Tačno"
+			},
+			"bottomRightOption": {
+				"text": "Dolje|desno"
+			},
+			"bottomOption": {
+				"text": "Dno"
+			},
+			"bottomLeftOption": {
+				"text": "Dolje|lijevo"
+			},
+			"leftOption": {
+				"text": "Lijevo"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Način prikaza s više stranica:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Smjer izgleda:"
+			},
+			"horizontalOption": {
+				"text": "Vodoravno"
+			},
+			"verticalOption": {
+				"text": "Okomito"
+			},
+			"rowColumnCountLabel": {
+				"text": "Slike u retku/stupcu:"
+			},
+			"imagePaddingLabel": {
+				"text": "Ispod slika:"
+			},
+			"appearancesLabel": {
+				"text": "Izgledi"
+			},
+			"imageAppearanceLabel": {
+				"text": "Izgled slike"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Boja pozadine:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Boja obruba:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Širina obruba:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Izgled slike u fokusu"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Boja pozadine:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Boja obruba:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Širina obruba:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Koristite izgled slike u načinu rada jedne stranice"
+			},
+			"renderingSettingsLabel": {
+				"text": "Postavke iscrtavanja"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Zadane postavke"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Vodoravna razlučivost:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Okomita razlučivost:"
+			},
+			"smoothingModeLabel": {
+				"text": "Glatki način rada:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Ne"
+			},
+			"interpolationModeLabel": {
+				"text": "Način interpolacije:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Druge postavke"
+			},
+			"backgroundColorLabel": {
+				"text": "Boja pozadine preglednika slika:"
+			},
+			"centerImageLabel": {
+				"text": "Središnja slika:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Istek vremena promjene veličine:"
+			},
+			"tileSizeLabel": {
+				"text": "Veličina pločice:"
+			},
+			"colorManagementLabel": {
+				"text": "Omogući upravljanje bojama:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Koristi vektorsko iscrtavanje za dokumente:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Boja pozadine vektorskog sadržaja:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Odustani"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Veličina sličice:"
+			},
+			"scaleLabel": {
+				"text": "Sličica:"
+			},
+			"smallestOption": {
+				"text": "Najmanje"
+			},
+			"smallOption": {
+				"text": "Mali"
+			},
+			"normalOption": {
+				"text": "Normalno"
+			},
+			"largeOption": {
+				"text": "Veliki"
+			},
+			"flowStyleLabel": {
+				"text": "Stil postavljanja sličica:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Broj stupaca:"
+			},
+			"marginLabel": {
+				"text": "Vanjsko punjenje:"
+			},
+			"paddingTopLabel": {
+				"text": "Gornje punjenje:"
+			},
+			"paddingRightLabel": {
+				"text": "Desna uvlaka:"
+			},
+			"paddingBottomLabel": {
+				"text": "Donja podloga:"
+			},
+			"paddingLeftLabel": {
+				"text": "Lijeva uvlaka:"
+			},
+			"showCaptionLabel": {
+				"text": "Prikaži opise minijatura:"
+			},
+			"captionFormatLabel": {
+				"text": "Format potpisa:"
+			},
+			"captionAnchorLabel": {
+				"text": "Sidro potpisa:"
+			},
+			"topLeftOption": {
+				"text": "Gore|Lijevo"
+			},
+			"topOption": {
+				"text": "Vrh"
+			},
+			"topRightOption": {
+				"text": "Gore|desno"
+			},
+			"rightOption": {
+				"text": "Tačno"
+			},
+			"bottomRightOption": {
+				"text": "Dolje|desno"
+			},
+			"bottomOption": {
+				"text": "Dno"
+			},
+			"bottomLeftOption": {
+				"text": "Dolje|lijevo"
+			},
+			"leftOption": {
+				"text": "Lijevo"
+			},
+			"centerOption": {
+				"text": "Poravnaj u sredinu"
+			},
+			"focusOnHoverLabel": {
+				"text": "Fokus pri lebdenju:"
+			},
+			"multiSelectLabel": {
+				"text": "Dopusti odabir više sličica:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Mogu povlačiti sličice:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Odustani"
+			}
+		},
+		"pdfRedactionMarkAppearanceDialog": {
+			"fillColorLabel": {
+				"text": "Boja ispune:"
+			},
+			"borderColorLabel": {
+				"text": "Boja obruba:"
+			},
+			"borderWidthLabel": {
+				"text": "Širina obruba:"
+			},
+			"overlayTextLabel": {
+				"text": "Preklopni tekst:"
+			},
+			"textColorLabel": {
+				"text": "Boja teksta:"
+			},
+			"fontSizeLabel": {
+				"text": "Veličina fonta:"
+			},
+			"autoFontSizeLabel": {
+				"text": "Automatska veličina fonta:"
+			},
+			"textAlignmentLabel": {
+				"text": "Poravnanje teksta:"
+			},
+			"LeftOption": {
+				"text": "Lijevo"
+			},
+			"RightOption": {
+				"text": "Tačno"
+			},
+			"TopOption": {
+				"text": "Vrh"
+			},
+			"BottomOption": {
+				"text": "Dno"
+			},
+			"CenterLeftOption": {
+				"text": "CenterLeft"
+			},
+			"CenterRightOption": {
+				"text": "CenterRight"
+			},
+			"CenterTopOption": {
+				"text": "CenterTop"
+			},
+			"CenterBottomOption": {
+				"text": "CenterBottom"
+			},
+			"CenterOption": {
+				"text": "Poravnaj u sredinu"
+			},
+			"FillHorizontalOption": {
+				"text": "FillHorizontal"
+			},
+			"FillVerticalOption": {
+				"text": "FillVertical"
+			},
+			"FillOption": {
+				"text": "Ispunite"
+			},
+			"okButton": {
+				"value": "OK"
+			}
+		},
+		"pdfImageResourceDialog": {
+			"size": {
+				"text": "Veličina sličice:"
+			},
+			"resolution": {
+				"text": "rezolucija:"
+			},
+			"compression": {
+				"text": "Kompresija:"
+			},
+			"pixelFormat": {
+				"text": "Format piksela:"
+			},
+			"length": {
+				"text": "duljina:"
+			},
+			"okButton": {
+				"value": "OK"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-uploadFileButton-uploadFileString": "Učitaj datoteku",
+		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Preuzmite PDF oznake",
+		"vsdv-textSearchPanel-pageLabel": "Stranica",
+		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Dobijte resurs slike",
+		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Stranica",
+		"vsdv-openFile-addFileString": "Dodaj datoteku",
+		"vsdv-openFile-authenticateFileString": "Ovjerite datoteku",
+		"vsdv-downloadFile-actionMessage": "Preuzmi datoteku",
+		"vsdv-saveChanges-saveChangesInImages": "Spremite promjene na slikama",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Spremi promjene u komentarima",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Snimite komentare na slike",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Spremi promjene u PDF dokumentu",
+		"vsdv-documentPasswordDialog-title": "Lozinka dokumenta",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Odustani",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Ovjerite datoteku",
+		"vsdv-imageSelectionDialog-title": "Odaberite slike",
+		"vsdv-imageSelectionDialog-currentImageString": "Trenutna slika",
+		"vsdv-imageSelectionDialog-allImagesString": "Sve slike",
+		"vsdv-imageSelectionDialog-customImagesString": "Prilagođeno",
+		"vsdv-printImagesDialog-title": "Ispis slika",
+		"vsdv-printImagesPanel-imagePrintingString": "Slika se ispisuje",
+		"vsdv-imageViewerSettingsDialog-title": "Postavke preglednika slika",
+		"vsdv-thumbnailViewerSettingDialog-title": "Postavke pregledača sličica",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži bilješke na sličicama:",
+		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Izgled oznake redakcije PDF-a",
+		"vsdv-pdfImageResourceDialog-title": "Izvor PDF slika",
+		"vsdv-pdfImageResourcePanel-bytes": " bajtova"
+	}
+}
