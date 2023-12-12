@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Phóng to"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Màu nền:"
+			},
+			"borderColorLabel": {
+				"text": "Màu đường viền:"
+			},
+			"selectedRectLabel": {
+				"text": "Trực tiếp được chọn:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Chiều rộng:"
+			},
+			"rectHeightLabel": {
+				"text": "Chiều cao:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Bình thường"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "OK"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Tên tập tin:"
+			},
+			"fileFormatLabel": {
+				"text": "Định dạng tập tin:"
+			},
+			"savePagesLabel": {
+				"text": "Lưu các trang:"
+			},
+			"allPagesOption": {
+				"text": "Tất cả các trang"
+			},
+			"currentPageOption": {
+				"text": "Trang hiện tại"
+			},
+			"pagesOption": {
+				"text": "Trang"
+			},
+			"saveAnnoLabel": {
+				"text": "Lưu chú thích"
+			},
+			"burnAnnoLabel": {
+				"text": "Ghi chú thích"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Tùy chỉnh",
 		"vsdv-printImagesDialog-title": "In ảnh",
 		"vsdv-printImagesPanel-imagePrintingString": "Hình ảnh đang được in",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "có chú thích",
 		"vsdv-imageViewerSettingsDialog-title": "Cài đặt trình xem ảnh",
 		"vsdv-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Xuất hiện dấu hiệu chỉnh sửa PDF",
 		"vsdv-pdfImageResourceDialog-title": "Tài nguyên hình ảnh PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " byte"
+		"vsdv-pdfImageResourcePanel-bytes": " byte",
+		"vsdv-exportFileSettingsDialog-title": "Xuất cài đặt tập tin",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "Cài đặt dấu hiệu chỉnh sửa PDF"
 	}
 }

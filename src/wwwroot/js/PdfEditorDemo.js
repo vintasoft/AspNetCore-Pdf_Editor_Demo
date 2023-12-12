@@ -466,6 +466,10 @@ function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     var pdfImageResourceDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiPdfImageResourceDialogJS();
     pdfImageResourceDialog.render(floatingContainer);
     tempDialogs.push(pdfImageResourceDialog);
+
+    var exportFileSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebExportFileSettingsDialogJS();
+    exportFileSettingsDialog.render(floatingContainer);
+    tempDialogs.push(exportFileSettingsDialog);
 }
 
 /**

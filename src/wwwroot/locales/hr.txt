@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Uvećaj"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Boja pozadine:"
+			},
+			"borderColorLabel": {
+				"text": "Boja obruba:"
+			},
+			"selectedRectLabel": {
+				"text": "Odabrani pravougaonik:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Širina:"
+			},
+			"rectHeightLabel": {
+				"text": "Visina:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Normalno"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "OK"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Naziv datoteke:"
+			},
+			"fileFormatLabel": {
+				"text": "Format datoteke:"
+			},
+			"savePagesLabel": {
+				"text": "Spremi stranice:"
+			},
+			"allPagesOption": {
+				"text": "Sve stranice"
+			},
+			"currentPageOption": {
+				"text": "Trenutna stranica"
+			},
+			"pagesOption": {
+				"text": "Stranice"
+			},
+			"saveAnnoLabel": {
+				"text": "Spremi zabilješke"
+			},
+			"burnAnnoLabel": {
+				"text": "Snimite bilješke"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Odustani"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Prilagođeno",
 		"vsdv-printImagesDialog-title": "Ispis slika",
 		"vsdv-printImagesPanel-imagePrintingString": "Slika se ispisuje",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "s komentarima",
 		"vsdv-imageViewerSettingsDialog-title": "Postavke preglednika slika",
 		"vsdv-thumbnailViewerSettingDialog-title": "Postavke pregledača sličica",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži bilješke na sličicama:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Izgled oznake redakcije PDF-a",
 		"vsdv-pdfImageResourceDialog-title": "Izvor PDF slika",
-		"vsdv-pdfImageResourcePanel-bytes": " bajtova"
+		"vsdv-pdfImageResourcePanel-bytes": " bajtova",
+		"vsdv-exportFileSettingsDialog-title": "Izvoz postavki datoteke",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "Postavke oznake za uređivanje PDF-a"
 	}
 }

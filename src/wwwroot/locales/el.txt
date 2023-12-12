@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Μεγέθυνση"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Χρώμα φόντου:"
+			},
+			"borderColorLabel": {
+				"text": "Χρώμα περιγράμματος:"
+			},
+			"selectedRectLabel": {
+				"text": "Επιλεγμένο ορθό:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Πλάτος:"
+			},
+			"rectHeightLabel": {
+				"text": "Υψος:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Κανονικό"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "ΟΚ"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ονομα αρχείου:"
+			},
+			"fileFormatLabel": {
+				"text": "Μορφή αρχείου:"
+			},
+			"savePagesLabel": {
+				"text": "Αποθήκευση σελίδων:"
+			},
+			"allPagesOption": {
+				"text": "Όλες οι σελίδες"
+			},
+			"currentPageOption": {
+				"text": "Τρέχουσα σελίδα"
+			},
+			"pagesOption": {
+				"text": "Σελίδες"
+			},
+			"saveAnnoLabel": {
+				"text": "Αποθήκευση σχολιασμών"
+			},
+			"burnAnnoLabel": {
+				"text": "Κάψτε σχολιασμούς"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
 		"vsdv-printImagesDialog-title": "Εκτύπωση εικόνων",
 		"vsdv-printImagesPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "με σχολιασμούς",
 		"vsdv-imageViewerSettingsDialog-title": "Ρυθμίσεις προβολής εικόνων",
 		"vsdv-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Εμφάνιση σήματος επεξεργασίας PDF",
 		"vsdv-pdfImageResourceDialog-title": "Πηγή εικόνας PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " byte"
+		"vsdv-pdfImageResourcePanel-bytes": " byte",
+		"vsdv-exportFileSettingsDialog-title": "Εξαγωγή ρυθμίσεων αρχείου",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "Ρυθμίσεις σήμανσης επεξεργασίας PDF"
 	}
 }

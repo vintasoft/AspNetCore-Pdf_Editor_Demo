@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Pietuvināt"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Muguras krāsa:"
+			},
+			"borderColorLabel": {
+				"text": "Apmales krāsa:"
+			},
+			"selectedRectLabel": {
+				"text": "Atlasīts taisni:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Platums:"
+			},
+			"rectHeightLabel": {
+				"text": "Augstums:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Normāls"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "labi"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Faila nosaukums:"
+			},
+			"fileFormatLabel": {
+				"text": "Faila formāts:"
+			},
+			"savePagesLabel": {
+				"text": "Saglabāt lapas:"
+			},
+			"allPagesOption": {
+				"text": "Visas lapas"
+			},
+			"currentPageOption": {
+				"text": "Pašreizējā lapa"
+			},
+			"pagesOption": {
+				"text": "Lapas"
+			},
+			"saveAnnoLabel": {
+				"text": "Saglabājiet anotācijas"
+			},
+			"burnAnnoLabel": {
+				"text": "Ierakstīt anotācijas"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Pielāgots",
 		"vsdv-printImagesDialog-title": "Drukāt attēlus",
 		"vsdv-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
 		"vsdv-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF rediģēšanas zīmes izskats",
 		"vsdv-pdfImageResourceDialog-title": "PDF attēlu resurss",
-		"vsdv-pdfImageResourcePanel-bytes": " baiti"
+		"vsdv-pdfImageResourcePanel-bytes": " baiti",
+		"vsdv-exportFileSettingsDialog-title": "Eksportēt faila iestatījumus",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF rediģēšanas atzīmju iestatījumi"
 	}
 }

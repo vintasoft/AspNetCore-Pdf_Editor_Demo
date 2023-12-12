@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Suurenda"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Selja värv:"
+			},
+			"borderColorLabel": {
+				"text": "Äärise värv:"
+			},
+			"selectedRectLabel": {
+				"text": "Valitud rekt:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Laius:"
+			},
+			"rectHeightLabel": {
+				"text": "Kõrgus:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Tavaline"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "Okei"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Faili nimi:"
+			},
+			"fileFormatLabel": {
+				"text": "Failiformaat:"
+			},
+			"savePagesLabel": {
+				"text": "Salvesta lehed:"
+			},
+			"allPagesOption": {
+				"text": "Kõik lehed"
+			},
+			"currentPageOption": {
+				"text": "Käesolev lehekülg"
+			},
+			"pagesOption": {
+				"text": "Leheküljed"
+			},
+			"saveAnnoLabel": {
+				"text": "Salvestage märkused"
+			},
+			"burnAnnoLabel": {
+				"text": "Märkuste kirjutamine"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Kohandatud",
 		"vsdv-printImagesDialog-title": "Printige pilte",
 		"vsdv-printImagesPanel-imagePrintingString": "Pilt prinditakse",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
 		"vsdv-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF-i redigeerimismärgi välimus",
 		"vsdv-pdfImageResourceDialog-title": "PDF-pildi ressurss",
-		"vsdv-pdfImageResourcePanel-bytes": " baiti"
+		"vsdv-pdfImageResourcePanel-bytes": " baiti",
+		"vsdv-exportFileSettingsDialog-title": "Ekspordi faili sätted",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF-i redigeerimismärgi seaded"
 	}
 }

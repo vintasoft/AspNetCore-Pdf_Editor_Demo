@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Მიახლოება"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "უკანა ფერი:"
+			},
+			"borderColorLabel": {
+				"text": "საზღვრის ფერი:"
+			},
+			"selectedRectLabel": {
+				"text": "არჩეული სწორი:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "სიგანე:"
+			},
+			"rectHeightLabel": {
+				"text": "სიმაღლე:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "ნორმალური"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "კარგი"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ფაილის სახელი:"
+			},
+			"fileFormatLabel": {
+				"text": "Ფაილის ფორმატი:"
+			},
+			"savePagesLabel": {
+				"text": "გვერდების შენახვა:"
+			},
+			"allPagesOption": {
+				"text": "ყველა გვერდი"
+			},
+			"currentPageOption": {
+				"text": "Ამჟამინდელი გვერდი"
+			},
+			"pagesOption": {
+				"text": "გვერდები"
+			},
+			"saveAnnoLabel": {
+				"text": "შეინახეთ ანოტაციები"
+			},
+			"burnAnnoLabel": {
+				"text": "ანოტაციების დაწვა"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "საბაჟო",
 		"vsdv-printImagesDialog-title": "სურათების დაბეჭდვა",
 		"vsdv-printImagesPanel-imagePrintingString": "სურათი იბეჭდება",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "სურათების მაყურებლის პარამეტრები",
 		"vsdv-thumbnailViewerSettingDialog-title": "მინიატურების მაყურებლის პარამეტრები",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF რედაქციის ნიშნის გამოჩენა",
 		"vsdv-pdfImageResourceDialog-title": "PDF გამოსახულების რესურსი",
-		"vsdv-pdfImageResourcePanel-bytes": " ბაიტები"
+		"vsdv-pdfImageResourcePanel-bytes": " ბაიტები",
+		"vsdv-exportFileSettingsDialog-title": "ფაილის პარამეტრების ექსპორტი",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF რედაქციის ნიშნის პარამეტრები"
 	}
 }

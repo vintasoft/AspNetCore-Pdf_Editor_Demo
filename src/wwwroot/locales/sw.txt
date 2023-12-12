@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Vuta karibu"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Rangi ya nyuma:"
+			},
+			"borderColorLabel": {
+				"text": "Rangi ya mpaka:"
+			},
+			"selectedRectLabel": {
+				"text": "Rect iliyochaguliwa:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Upana:"
+			},
+			"rectHeightLabel": {
+				"text": "Urefu:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Kawaida"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "sawa"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Jina la faili:"
+			},
+			"fileFormatLabel": {
+				"text": "Umbizo la faili:"
+			},
+			"savePagesLabel": {
+				"text": "Hifadhi kurasa:"
+			},
+			"allPagesOption": {
+				"text": "Kurasa zote"
+			},
+			"currentPageOption": {
+				"text": "Ukurasa wa sasa"
+			},
+			"pagesOption": {
+				"text": "Kurasa"
+			},
+			"saveAnnoLabel": {
+				"text": "Hifadhi maelezo"
+			},
+			"burnAnnoLabel": {
+				"text": "Choma maelezo"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Desturi",
 		"vsdv-printImagesDialog-title": "Chapisha picha",
 		"vsdv-printImagesPanel-imagePrintingString": "Picha inachapishwa",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "yenye maelezo",
 		"vsdv-imageViewerSettingsDialog-title": "Mipangilio ya kitazamaji picha",
 		"vsdv-thumbnailViewerSettingDialog-title": "Mipangilio ya kitazamaji cha kijipicha",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Mwonekano wa alama ya urekebishaji wa PDF",
 		"vsdv-pdfImageResourceDialog-title": "Rasilimali ya picha ya PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " baiti"
+		"vsdv-pdfImageResourcePanel-bytes": " baiti",
+		"vsdv-exportFileSettingsDialog-title": "Hamisha mipangilio ya faili",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "Mipangilio ya alama ya urekebishaji wa PDF"
 	}
 }

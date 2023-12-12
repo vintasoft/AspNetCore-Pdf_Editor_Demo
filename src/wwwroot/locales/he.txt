@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "התקרב"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "צבע רקע:"
+			},
+			"borderColorLabel": {
+				"text": "צבע גבול:"
+			},
+			"selectedRectLabel": {
+				"text": "התיקון שנבחר:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "רוחב:"
+			},
+			"rectHeightLabel": {
+				"text": "גוֹבַה:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "רגיל"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "בסדר"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "שם קובץ:"
+			},
+			"fileFormatLabel": {
+				"text": "פורמט קובץ:"
+			},
+			"savePagesLabel": {
+				"text": "שמור דפים:"
+			},
+			"allPagesOption": {
+				"text": "כל הדפים"
+			},
+			"currentPageOption": {
+				"text": "דף נוכחי"
+			},
+			"pagesOption": {
+				"text": "דפים"
+			},
+			"saveAnnoLabel": {
+				"text": "שמור הערות"
+			},
+			"burnAnnoLabel": {
+				"text": "צריבת הערות"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "מותאם אישית",
 		"vsdv-printImagesDialog-title": "הדפס תמונות",
 		"vsdv-printImagesPanel-imagePrintingString": "התמונה מודפסת",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "עם הערות",
 		"vsdv-imageViewerSettingsDialog-title": "הגדרות מציג תמונות",
 		"vsdv-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "הופעת סימן עריכת PDF",
 		"vsdv-pdfImageResourceDialog-title": "משאב תמונת PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " בתים"
+		"vsdv-pdfImageResourcePanel-bytes": " בתים",
+		"vsdv-exportFileSettingsDialog-title": "ייצוא הגדרות קובץ",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "הגדרות של סימני עריכת PDF"
 	}
 }

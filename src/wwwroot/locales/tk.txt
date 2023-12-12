@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Ýakynlaşdyrmak"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Yzky reňk:"
+			},
+			"borderColorLabel": {
+				"text": "Serhet reňki:"
+			},
+			"selectedRectLabel": {
+				"text": "Saýlanan göni:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Giňligi:"
+			},
+			"rectHeightLabel": {
+				"text": "Boý:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Adaty"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "Bolýar"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Faýlyň ady:"
+			},
+			"fileFormatLabel": {
+				"text": "Faýl formaty:"
+			},
+			"savePagesLabel": {
+				"text": "Sahypalary ýazdyryň:"
+			},
+			"allPagesOption": {
+				"text": "Allhli sahypalar"
+			},
+			"currentPageOption": {
+				"text": "Häzirki sahypa"
+			},
+			"pagesOption": {
+				"text": "Sahypalar"
+			},
+			"saveAnnoLabel": {
+				"text": "Bellikleri ýazdyryň"
+			},
+			"burnAnnoLabel": {
+				"text": "Annotasiýalary ýakyň"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Omörite",
 		"vsdv-printImagesDialog-title": "Suratlary çap ediň",
 		"vsdv-printImagesPanel-imagePrintingString": "Surat çap edilýär",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
 		"vsdv-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF redaksiýa belliginiň daşky görnüşi",
 		"vsdv-pdfImageResourceDialog-title": "PDF şekil çeşmesi",
-		"vsdv-pdfImageResourcePanel-bytes": " baýt"
+		"vsdv-pdfImageResourcePanel-bytes": " baýt",
+		"vsdv-exportFileSettingsDialog-title": "Faýl sazlamalaryny eksport ediň",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF redaksiýa belliginiň sazlamalary"
 	}
 }

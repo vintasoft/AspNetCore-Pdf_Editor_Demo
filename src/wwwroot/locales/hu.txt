@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Nagyítás"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Háttérszín:"
+			},
+			"borderColorLabel": {
+				"text": "Szegély színe:"
+			},
+			"selectedRectLabel": {
+				"text": "Kiválasztott egyenes:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Szélesség:"
+			},
+			"rectHeightLabel": {
+				"text": "Magasság:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Normál"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "Rendben"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Fájl név:"
+			},
+			"fileFormatLabel": {
+				"text": "Fájlformátum:"
+			},
+			"savePagesLabel": {
+				"text": "Oldalak mentése:"
+			},
+			"allPagesOption": {
+				"text": "Minden oldal"
+			},
+			"currentPageOption": {
+				"text": "Aktuális oldal"
+			},
+			"pagesOption": {
+				"text": "Oldalak"
+			},
+			"saveAnnoLabel": {
+				"text": "Megjegyzések mentése"
+			},
+			"burnAnnoLabel": {
+				"text": "Annotációk írása"
+			},
+			"okButton": {
+				"value": "Rendben"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Egyedi",
 		"vsdv-printImagesDialog-title": "Képek nyomtatása",
 		"vsdv-printImagesPanel-imagePrintingString": "A kép nyomtatása folyamatban van",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "jegyzetekkel",
 		"vsdv-imageViewerSettingsDialog-title": "A képnézegető beállításai",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF szerkesztési jel megjelenése",
 		"vsdv-pdfImageResourceDialog-title": "PDF képforrás",
-		"vsdv-pdfImageResourcePanel-bytes": " bájtok"
+		"vsdv-pdfImageResourcePanel-bytes": " bájtok",
+		"vsdv-exportFileSettingsDialog-title": "Fájlbeállítások exportálása",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF szerkesztési jel beállításai"
 	}
 }

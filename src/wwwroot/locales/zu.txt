@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Sondeza isithombe"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Umbala wangemuva:"
+			},
+			"borderColorLabel": {
+				"text": "Umbala womngcele:"
+			},
+			"selectedRectLabel": {
+				"text": "I-rect ekhethiwe:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Ububanzi:"
+			},
+			"rectHeightLabel": {
+				"text": "Ubude:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Okuvamile"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "KULUNGILE"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Igama lefayela:"
+			},
+			"fileFormatLabel": {
+				"text": "Ifomethi yefayela:"
+			},
+			"savePagesLabel": {
+				"text": "Londoloza amakhasi:"
+			},
+			"allPagesOption": {
+				"text": "Wonke amakhasi"
+			},
+			"currentPageOption": {
+				"text": "Ikhasi lamanje"
+			},
+			"pagesOption": {
+				"text": "Amakhasi"
+			},
+			"saveAnnoLabel": {
+				"text": "Londoloza izichasiselo"
+			},
+			"burnAnnoLabel": {
+				"text": "Shisa izichasiselo"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Ngokwezifiso",
 		"vsdv-printImagesDialog-title": "Phrinta izithombe",
 		"vsdv-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "ngezichasiselo",
 		"vsdv-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
 		"vsdv-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Ukubukeka kophawu lokuphindaphinda kwe-PDF",
 		"vsdv-pdfImageResourceDialog-title": "Insiza yesithombe se-PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " amabhayithi"
+		"vsdv-pdfImageResourcePanel-bytes": " amabhayithi",
+		"vsdv-exportFileSettingsDialog-title": "Khipha izilungiselelo zefayela",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "Izilungiselelo zophawu lokuphinda lwe-PDF"
 	}
 }

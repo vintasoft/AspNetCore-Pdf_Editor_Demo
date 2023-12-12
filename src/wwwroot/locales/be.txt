@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Павялічыць"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Колер спінкі:"
+			},
+			"borderColorLabel": {
+				"text": "Колер мяжы:"
+			},
+			"selectedRectLabel": {
+				"text": "Выбраны прамы:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Шырыня:"
+			},
+			"rectHeightLabel": {
+				"text": "Рост:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Нармальны"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "OK"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Імя файла:"
+			},
+			"fileFormatLabel": {
+				"text": "Фармат файла:"
+			},
+			"savePagesLabel": {
+				"text": "Захаваць старонкі:"
+			},
+			"allPagesOption": {
+				"text": "Усе старонкі"
+			},
+			"currentPageOption": {
+				"text": "Бягучая старонка"
+			},
+			"pagesOption": {
+				"text": "старонкі"
+			},
+			"saveAnnoLabel": {
+				"text": "Захаваць анатацыі"
+			},
+			"burnAnnoLabel": {
+				"text": "Запісаць анатацыі"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Карыстацкі",
 		"vsdv-printImagesDialog-title": "Друк малюнкаў",
 		"vsdv-printImagesPanel-imagePrintingString": "Выява друкуецца",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "з анатацыямі",
 		"vsdv-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў",
 		"vsdv-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Выгляд знака рэдагавання PDF",
 		"vsdv-pdfImageResourceDialog-title": "PDF рэсурс малюнкаў",
-		"vsdv-pdfImageResourcePanel-bytes": " байт"
+		"vsdv-pdfImageResourcePanel-bytes": " байт",
+		"vsdv-exportFileSettingsDialog-title": "Экспарт налад файла",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "Налады знака рэдагавання PDF"
 	}
 }

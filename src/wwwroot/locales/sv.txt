@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Zooma in"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Bakgrundsfärg:"
+			},
+			"borderColorLabel": {
+				"text": "Kantfärg:"
+			},
+			"selectedRectLabel": {
+				"text": "Vald rekt:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Bredd:"
+			},
+			"rectHeightLabel": {
+				"text": "Höjd:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Normal"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "OK"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Filnamn:"
+			},
+			"fileFormatLabel": {
+				"text": "Filformat:"
+			},
+			"savePagesLabel": {
+				"text": "Spara sidorna:"
+			},
+			"allPagesOption": {
+				"text": "Alla sidor"
+			},
+			"currentPageOption": {
+				"text": "Aktuell sida"
+			},
+			"pagesOption": {
+				"text": "Sidor"
+			},
+			"saveAnnoLabel": {
+				"text": "Spara kommentarer"
+			},
+			"burnAnnoLabel": {
+				"text": "Bränn anteckningar"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Anpassad",
 		"vsdv-printImagesDialog-title": "Skriv ut bilder",
 		"vsdv-printImagesPanel-imagePrintingString": "Bilden skrivs ut",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "med kommentarer",
 		"vsdv-imageViewerSettingsDialog-title": "Inställningar för bildvisning",
 		"vsdv-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF-redigeringsmärke utseende",
 		"vsdv-pdfImageResourceDialog-title": "PDF-bildresurs",
-		"vsdv-pdfImageResourcePanel-bytes": " bytes"
+		"vsdv-pdfImageResourcePanel-bytes": " bytes",
+		"vsdv-exportFileSettingsDialog-title": "Exportera filinställningarna",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "Inställningar för PDF-redigeringsmärke"
 	}
 }

@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "ズームイン"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "背景色:"
+			},
+			"borderColorLabel": {
+				"text": "境界線の色:"
+			},
+			"selectedRectLabel": {
+				"text": "選択された四角形:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "幅:"
+			},
+			"rectHeightLabel": {
+				"text": "身長："
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "通常"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "OK"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "ファイル名："
+			},
+			"fileFormatLabel": {
+				"text": "ファイル形式:"
+			},
+			"savePagesLabel": {
+				"text": "ページを保存:"
+			},
+			"allPagesOption": {
+				"text": "すべてのページ"
+			},
+			"currentPageOption": {
+				"text": "現在のページ"
+			},
+			"pagesOption": {
+				"text": "ページ"
+			},
+			"saveAnnoLabel": {
+				"text": "注釈の保存"
+			},
+			"burnAnnoLabel": {
+				"text": "注釈を書き込む"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "カスタム",
 		"vsdv-printImagesDialog-title": "画像を印刷",
 		"vsdv-printImagesPanel-imagePrintingString": "画像を印刷中です",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "注釈あり",
 		"vsdv-imageViewerSettingsDialog-title": "画像ビューアの設定",
 		"vsdv-thumbnailViewerSettingDialog-title": "サムネイル ビューアの設定",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "サムネイルに注釈を表示:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF 墨消しマークの表示",
 		"vsdv-pdfImageResourceDialog-title": "PDF画像リソース",
-		"vsdv-pdfImageResourcePanel-bytes": " バイト"
+		"vsdv-pdfImageResourcePanel-bytes": " バイト",
+		"vsdv-exportFileSettingsDialog-title": "エクスポートファイルの設定",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF 墨消しマークの設定"
 	}
 }

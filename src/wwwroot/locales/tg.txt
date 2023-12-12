@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Масштаб кардан"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Ранги пушти:"
+			},
+			"borderColorLabel": {
+				"text": "Ранги сарҳад:"
+			},
+			"selectedRectLabel": {
+				"text": "Роҳи интихобшуда:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Бар:"
+			},
+			"rectHeightLabel": {
+				"text": "Баландӣ:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Муқаррарӣ"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "ДУРУСТ"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Номи парванда:"
+			},
+			"fileFormatLabel": {
+				"text": "Формати файл:"
+			},
+			"savePagesLabel": {
+				"text": "Саҳифаҳоро захира кунед:"
+			},
+			"allPagesOption": {
+				"text": "Ҳама саҳифаҳо"
+			},
+			"currentPageOption": {
+				"text": "Саҳифаи ҷорӣ"
+			},
+			"pagesOption": {
+				"text": "Саҳифаҳо"
+			},
+			"saveAnnoLabel": {
+				"text": "Эзоҳҳоро захира кунед"
+			},
+			"burnAnnoLabel": {
+				"text": "Аннотацияҳоро сӯзондан"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Фармоишгар",
 		"vsdv-printImagesDialog-title": "Тасвирҳоро чоп кунед",
 		"vsdv-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
 		"vsdv-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Намуди зоҳирии аломати таҳрири PDF",
 		"vsdv-pdfImageResourceDialog-title": "Манбаи тасвири PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " байт"
+		"vsdv-pdfImageResourcePanel-bytes": " байт",
+		"vsdv-exportFileSettingsDialog-title": "Танзимоти файлро содир кунед",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "Танзимоти аломати таҳрири PDF"
 	}
 }

@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Kattalashtirish"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Orqa rang:"
+			},
+			"borderColorLabel": {
+				"text": "Chegara rangi:"
+			},
+			"selectedRectLabel": {
+				"text": "Tanlangan rekt:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Kengligi:"
+			},
+			"rectHeightLabel": {
+				"text": "Balandligi:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Oddiy"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "KELISHDIKMI"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Fayl nomi:"
+			},
+			"fileFormatLabel": {
+				"text": "Fayl formati:"
+			},
+			"savePagesLabel": {
+				"text": "Sahifalarni saqlang:"
+			},
+			"allPagesOption": {
+				"text": "Barcha sahifalar"
+			},
+			"currentPageOption": {
+				"text": "Joriy sahifa"
+			},
+			"pagesOption": {
+				"text": "Sahifalar"
+			},
+			"saveAnnoLabel": {
+				"text": "Izohlarni saqlang"
+			},
+			"burnAnnoLabel": {
+				"text": "Izohlarni yoqish"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Maxsus",
 		"vsdv-printImagesDialog-title": "Rasmlarni chop etish",
 		"vsdv-printImagesPanel-imagePrintingString": "Rasm chop etilmoqda",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Rasmlarni ko'rish sozlamalari",
 		"vsdv-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF tahrirlash belgisi ko'rinishi",
 		"vsdv-pdfImageResourceDialog-title": "Pdf rasm resurs",
-		"vsdv-pdfImageResourcePanel-bytes": " bayt"
+		"vsdv-pdfImageResourcePanel-bytes": " bayt",
+		"vsdv-exportFileSettingsDialog-title": "Fayl sozlamalarini eksport qiling",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF tahrirlash belgisi sozlamalari"
 	}
 }

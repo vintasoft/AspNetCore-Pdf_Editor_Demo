@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Zoom ind"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Baggrundsfarve:"
+			},
+			"borderColorLabel": {
+				"text": "Kantfarve:"
+			},
+			"selectedRectLabel": {
+				"text": "Udvalgt rekt:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Bredde:"
+			},
+			"rectHeightLabel": {
+				"text": "Højde:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Normal"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "OK"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Filnavn:"
+			},
+			"fileFormatLabel": {
+				"text": "Filformat:"
+			},
+			"savePagesLabel": {
+				"text": "Gem sider:"
+			},
+			"allPagesOption": {
+				"text": "Alle sider"
+			},
+			"currentPageOption": {
+				"text": "Aktuel side"
+			},
+			"pagesOption": {
+				"text": "sider"
+			},
+			"saveAnnoLabel": {
+				"text": "Gem annoteringer"
+			},
+			"burnAnnoLabel": {
+				"text": "Brænd annoteringer"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Brugerdefineret",
 		"vsdv-printImagesDialog-title": "Udskriv billeder",
 		"vsdv-printImagesPanel-imagePrintingString": "Billedet udskrives",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "med anmærkninger",
 		"vsdv-imageViewerSettingsDialog-title": "Indstillinger for billedfremviser",
 		"vsdv-thumbnailViewerSettingDialog-title": "Indstillinger for miniaturefremviser",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis annoteringer på miniaturebilleder:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Udseende af PDF-redaktionsmærke",
 		"vsdv-pdfImageResourceDialog-title": "PDF billedressource",
-		"vsdv-pdfImageResourcePanel-bytes": " bytes"
+		"vsdv-pdfImageResourcePanel-bytes": " bytes",
+		"vsdv-exportFileSettingsDialog-title": "Eksporter filindstillinger",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "Indstillinger for PDF-redaktionsmærke"
 	}
 }

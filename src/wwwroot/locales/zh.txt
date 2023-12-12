@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "放大"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "背面颜色："
+			},
+			"borderColorLabel": {
+				"text": "边框颜色："
+			},
+			"selectedRectLabel": {
+				"text": "选定的矩形："
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "宽度："
+			},
+			"rectHeightLabel": {
+				"text": "高度："
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "普通的"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "好的"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "文件名："
+			},
+			"fileFormatLabel": {
+				"text": "文件格式："
+			},
+			"savePagesLabel": {
+				"text": "保存页面："
+			},
+			"allPagesOption": {
+				"text": "所有页面"
+			},
+			"currentPageOption": {
+				"text": "当前页面"
+			},
+			"pagesOption": {
+				"text": "页数"
+			},
+			"saveAnnoLabel": {
+				"text": "保存注释"
+			},
+			"burnAnnoLabel": {
+				"text": "刻录注释"
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "风俗",
 		"vsdv-printImagesDialog-title": "打印图像",
 		"vsdv-printImagesPanel-imagePrintingString": "图像正在打印",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "带注释",
 		"vsdv-imageViewerSettingsDialog-title": "图像查看器设置",
 		"vsdv-thumbnailViewerSettingDialog-title": "缩略图查看器设置",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "显示注释：",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF 密文标记外观",
 		"vsdv-pdfImageResourceDialog-title": "PDF图片资源",
-		"vsdv-pdfImageResourcePanel-bytes": " 字节"
+		"vsdv-pdfImageResourcePanel-bytes": " 字节",
+		"vsdv-exportFileSettingsDialog-title": "导出文件设置",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF 密文标记设置"
 	}
 }

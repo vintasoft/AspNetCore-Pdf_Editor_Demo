@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Priartinti"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Nugaros spalva:"
+			},
+			"borderColorLabel": {
+				"text": "Kraštinės spalva:"
+			},
+			"selectedRectLabel": {
+				"text": "Pasirinkta tiesiai:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Plotis:"
+			},
+			"rectHeightLabel": {
+				"text": "Aukštis:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Normalus"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "Gerai"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Failo pavadinimas:"
+			},
+			"fileFormatLabel": {
+				"text": "Dokumento formatas:"
+			},
+			"savePagesLabel": {
+				"text": "Išsaugoti puslapius:"
+			},
+			"allPagesOption": {
+				"text": "Visi puslapiai"
+			},
+			"currentPageOption": {
+				"text": "Dabartinis puslapis"
+			},
+			"pagesOption": {
+				"text": "Puslapiai"
+			},
+			"saveAnnoLabel": {
+				"text": "Išsaugoti komentarus"
+			},
+			"burnAnnoLabel": {
+				"text": "Įrašyti komentarus"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Pasirinktinis",
 		"vsdv-printImagesDialog-title": "Spausdinti vaizdus",
 		"vsdv-printImagesPanel-imagePrintingString": "Vaizdas spausdinamas",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Vaizdų peržiūros programos nustatymai",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatiūrų peržiūros priemonės nustatymai",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF redagavimo ženklo išvaizda",
 		"vsdv-pdfImageResourceDialog-title": "PDF vaizdo šaltinis",
-		"vsdv-pdfImageResourcePanel-bytes": " baitų"
+		"vsdv-pdfImageResourcePanel-bytes": " baitų",
+		"vsdv-exportFileSettingsDialog-title": "Eksportuoti failo nustatymus",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF redagavimo žymų nustatymai"
 	}
 }

@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "تكبير"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "لون الخلفية:"
+			},
+			"borderColorLabel": {
+				"text": "لون الحد:"
+			},
+			"selectedRectLabel": {
+				"text": "المستقيم المختار:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "العرض:"
+			},
+			"rectHeightLabel": {
+				"text": "ارتفاع:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "عادي"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "موافق"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "اسم الملف:"
+			},
+			"fileFormatLabel": {
+				"text": "تنسيق الملف:"
+			},
+			"savePagesLabel": {
+				"text": "حفظ الصفحات:"
+			},
+			"allPagesOption": {
+				"text": "كافة الصفحات"
+			},
+			"currentPageOption": {
+				"text": "الصفحة الحالية"
+			},
+			"pagesOption": {
+				"text": "الصفحات"
+			},
+			"saveAnnoLabel": {
+				"text": "حفظ التعليقات التوضيحية"
+			},
+			"burnAnnoLabel": {
+				"text": "حرق التعليقات التوضيحية"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "مخصص",
 		"vsdv-printImagesDialog-title": "طباعة الصور",
 		"vsdv-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "مع التعليقات التوضيحية",
 		"vsdv-imageViewerSettingsDialog-title": "إعدادات عارض الصور",
 		"vsdv-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "مظهر علامة تنقيح PDF",
 		"vsdv-pdfImageResourceDialog-title": "مصدر صورة PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " بايت"
+		"vsdv-pdfImageResourcePanel-bytes": " بايت",
+		"vsdv-exportFileSettingsDialog-title": "إعدادات ملف التصدير",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "إعدادات علامة تنقيح PDF"
 	}
 }

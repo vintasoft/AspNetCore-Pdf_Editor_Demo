@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Inzoomen"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Achtergrondkleur:"
+			},
+			"borderColorLabel": {
+				"text": "Randkleur:"
+			},
+			"selectedRectLabel": {
+				"text": "Geselecteerde rect:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Breedte:"
+			},
+			"rectHeightLabel": {
+				"text": "Hoogte:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Normaal"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "OK"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Bestandsnaam:"
+			},
+			"fileFormatLabel": {
+				"text": "Bestandsformaat:"
+			},
+			"savePagesLabel": {
+				"text": "Pagina's opslaan:"
+			},
+			"allPagesOption": {
+				"text": "Alle pagina's"
+			},
+			"currentPageOption": {
+				"text": "Huidige pagina"
+			},
+			"pagesOption": {
+				"text": "Pagina's"
+			},
+			"saveAnnoLabel": {
+				"text": "Bewaar annotaties"
+			},
+			"burnAnnoLabel": {
+				"text": "Annotaties branden"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Aangepast",
 		"vsdv-printImagesDialog-title": "Afbeeldingen afdrukken",
 		"vsdv-printImagesPanel-imagePrintingString": "Afbeelding wordt afgedrukt",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "met annotaties",
 		"vsdv-imageViewerSettingsDialog-title": "Instellingen afbeeldingsviewer",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatuurweergave-instellingen",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Weergave van PDF-redactiemarkering",
 		"vsdv-pdfImageResourceDialog-title": "PDF-afbeeldingsbron",
-		"vsdv-pdfImageResourcePanel-bytes": " bytes"
+		"vsdv-pdfImageResourcePanel-bytes": " bytes",
+		"vsdv-exportFileSettingsDialog-title": "Bestandsinstellingen exporteren",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "Instellingen voor PDF-redactiemarkering"
 	}
 }

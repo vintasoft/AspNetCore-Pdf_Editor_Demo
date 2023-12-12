@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Yakınlaştır"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Arka Plan Rengi:"
+			},
+			"borderColorLabel": {
+				"text": "Kenar rengi:"
+			},
+			"selectedRectLabel": {
+				"text": "Seçilen doğru:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Genişlik:"
+			},
+			"rectHeightLabel": {
+				"text": "Yükseklik:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Normal"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "Tamam"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Dosya adı:"
+			},
+			"fileFormatLabel": {
+				"text": "Dosya formatı:"
+			},
+			"savePagesLabel": {
+				"text": "Sayfaları kaydedin:"
+			},
+			"allPagesOption": {
+				"text": "Tüm Sayfalar"
+			},
+			"currentPageOption": {
+				"text": "Mevcut sayfa"
+			},
+			"pagesOption": {
+				"text": "Sayfalar"
+			},
+			"saveAnnoLabel": {
+				"text": "Ek açıklamaları kaydet"
+			},
+			"burnAnnoLabel": {
+				"text": "Ek açıklamaları yaz"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Özel",
 		"vsdv-printImagesDialog-title": "Görüntüleri Yazdır",
 		"vsdv-printImagesPanel-imagePrintingString": "Resim yazdırılıyor",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "açıklamalarla",
 		"vsdv-imageViewerSettingsDialog-title": "Görüntü görüntüleyici ayarları",
 		"vsdv-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF redaksiyon işareti görünümü",
 		"vsdv-pdfImageResourceDialog-title": "PDF resim kaynağı",
-		"vsdv-pdfImageResourcePanel-bytes": " bayt"
+		"vsdv-pdfImageResourcePanel-bytes": " bayt",
+		"vsdv-exportFileSettingsDialog-title": "Dosya ayarlarını dışa aktar",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF redaksiyon işareti ayarları"
 	}
 }

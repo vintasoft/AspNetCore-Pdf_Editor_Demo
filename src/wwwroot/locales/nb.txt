@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Zoom inn"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Bakgrunnsfarge:"
+			},
+			"borderColorLabel": {
+				"text": "Kantfarge:"
+			},
+			"selectedRectLabel": {
+				"text": "Valgt rekt:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Bredde:"
+			},
+			"rectHeightLabel": {
+				"text": "Høyde:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Normal"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "OK"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Filnavn:"
+			},
+			"fileFormatLabel": {
+				"text": "Filformat:"
+			},
+			"savePagesLabel": {
+				"text": "Lagre sider:"
+			},
+			"allPagesOption": {
+				"text": "Alle sider"
+			},
+			"currentPageOption": {
+				"text": "Gjeldende side"
+			},
+			"pagesOption": {
+				"text": "Sider"
+			},
+			"saveAnnoLabel": {
+				"text": "Lagre merknader"
+			},
+			"burnAnnoLabel": {
+				"text": "Brenn merknader"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Egendefinert",
 		"vsdv-printImagesDialog-title": "Skriv ut bilder",
 		"vsdv-printImagesPanel-imagePrintingString": "Bildet skrives ut",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "med merknader",
 		"vsdv-imageViewerSettingsDialog-title": "Innstillinger for bildevisning",
 		"vsdv-thumbnailViewerSettingDialog-title": "Innstillinger for miniatyrbildevisning",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis merknader på miniatyrbilder:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Utseende av PDF-redaksjonsmerke",
 		"vsdv-pdfImageResourceDialog-title": "PDF bilderessurs",
-		"vsdv-pdfImageResourcePanel-bytes": " bytes"
+		"vsdv-pdfImageResourcePanel-bytes": " bytes",
+		"vsdv-exportFileSettingsDialog-title": "Eksporter filinnstillinger",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "Innstillinger for PDF-redaksjonsmerke"
 	}
 }

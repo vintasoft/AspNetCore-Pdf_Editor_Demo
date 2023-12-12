@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "ज़ूम इन करें"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "पृष्ठभूमि का रंग:"
+			},
+			"borderColorLabel": {
+				"text": "सीमा रंग:"
+			},
+			"selectedRectLabel": {
+				"text": "चयनित आयत:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "चौड़ाई:"
+			},
+			"rectHeightLabel": {
+				"text": "ऊंचाई:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "सामान्य"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "ठीक है"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "फ़ाइल का नाम:"
+			},
+			"fileFormatLabel": {
+				"text": "फ़ाइल फ़ारमैट:"
+			},
+			"savePagesLabel": {
+				"text": "पेज सहेजें:"
+			},
+			"allPagesOption": {
+				"text": "सभी पृष्ठ"
+			},
+			"currentPageOption": {
+				"text": "वर्तमान पृष्ठ"
+			},
+			"pagesOption": {
+				"text": "पृष्ठों"
+			},
+			"saveAnnoLabel": {
+				"text": "एनोटेशन सहेजें"
+			},
+			"burnAnnoLabel": {
+				"text": "टिप्पणियाँ जलाएँ"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "कस्टम",
 		"vsdv-printImagesDialog-title": "छवियाँ मुद्रित करें",
 		"vsdv-printImagesPanel-imagePrintingString": "छवि मुद्रित हो रही है",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "एनोटेशन के साथ",
 		"vsdv-imageViewerSettingsDialog-title": "छवि दर्शक सेटिंग्स",
 		"vsdv-thumbnailViewerSettingDialog-title": "थंबनेल व्यूअर सेटिंग्स",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "थंबनेल पर एनोटेशन प्रदर्शित करें:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "पीडीएफ रिडक्शन मार्क उपस्थिति",
 		"vsdv-pdfImageResourceDialog-title": "पीडीएफ छवि संसाधन",
-		"vsdv-pdfImageResourcePanel-bytes": " बाइट्स"
+		"vsdv-pdfImageResourcePanel-bytes": " बाइट्स",
+		"vsdv-exportFileSettingsDialog-title": "फ़ाइल सेटिंग्स निर्यात करें",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "पीडीएफ रिडक्शन मार्क सेटिंग्स"
 	}
 }

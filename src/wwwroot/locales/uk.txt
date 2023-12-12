@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Збільшувати"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Колір спинки:"
+			},
+			"borderColorLabel": {
+				"text": "Колір рамки:"
+			},
+			"selectedRectLabel": {
+				"text": "Вибраний прямокутник:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Ширина:"
+			},
+			"rectHeightLabel": {
+				"text": "Висота:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "нормальний"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "В порядку"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ім'я файлу:"
+			},
+			"fileFormatLabel": {
+				"text": "Формат файлу:"
+			},
+			"savePagesLabel": {
+				"text": "Збережіть сторінки:"
+			},
+			"allPagesOption": {
+				"text": "Всі сторінки"
+			},
+			"currentPageOption": {
+				"text": "Поточна сторінка"
+			},
+			"pagesOption": {
+				"text": "сторінки"
+			},
+			"saveAnnoLabel": {
+				"text": "Зберегти анотації"
+			},
+			"burnAnnoLabel": {
+				"text": "Записати анотації"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Custom",
 		"vsdv-printImagesDialog-title": "Друк зображень",
 		"vsdv-printImagesPanel-imagePrintingString": "Зображення друкується",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
 		"vsdv-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Зовнішній вигляд знака редагування PDF",
 		"vsdv-pdfImageResourceDialog-title": "Ресурс зображень PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " байтів"
+		"vsdv-pdfImageResourcePanel-bytes": " байтів",
+		"vsdv-exportFileSettingsDialog-title": "Експортуйте налаштування файлу",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "Параметри позначок редагування PDF"
 	}
 }

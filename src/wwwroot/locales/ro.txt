@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Măriți"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Culoarea fundalului:"
+			},
+			"borderColorLabel": {
+				"text": "Culoarea chenarului:"
+			},
+			"selectedRectLabel": {
+				"text": "Rect selectat:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Latime:"
+			},
+			"rectHeightLabel": {
+				"text": "Înălţime:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Normal"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "OK"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Nume de fișier:"
+			},
+			"fileFormatLabel": {
+				"text": "Tipul fisierului:"
+			},
+			"savePagesLabel": {
+				"text": "Salvați pagini:"
+			},
+			"allPagesOption": {
+				"text": "Toate paginile"
+			},
+			"currentPageOption": {
+				"text": "Pagina curentă"
+			},
+			"pagesOption": {
+				"text": "Pagini"
+			},
+			"saveAnnoLabel": {
+				"text": "Salvați adnotările"
+			},
+			"burnAnnoLabel": {
+				"text": "Ardeți adnotări"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Personalizat",
 		"vsdv-printImagesDialog-title": "Tipărește imagini",
 		"vsdv-printImagesPanel-imagePrintingString": "Imaginea se imprimă",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "cu adnotări",
 		"vsdv-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor",
 		"vsdv-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Apariția semnului de redactare PDF",
 		"vsdv-pdfImageResourceDialog-title": "Resursă de imagini PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " octeți"
+		"vsdv-pdfImageResourcePanel-bytes": " octeți",
+		"vsdv-exportFileSettingsDialog-title": "Exportați setările fișierului",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "Setări pentru marcajul de redactare PDF"
 	}
 }

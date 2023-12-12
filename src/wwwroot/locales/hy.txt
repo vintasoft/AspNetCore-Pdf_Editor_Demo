@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Խոշորացնել. մոտեցնել"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Հետի գույնը."
+			},
+			"borderColorLabel": {
+				"text": "Սահմանի գույնը."
+			},
+			"selectedRectLabel": {
+				"text": "Ընտրված ուղիղ՝"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Լայնությունը:"
+			},
+			"rectHeightLabel": {
+				"text": "Բարձրությունը:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Նորմալ"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "լավ"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ֆայլի անունը."
+			},
+			"fileFormatLabel": {
+				"text": "Ֆայլի ձևաչափ."
+			},
+			"savePagesLabel": {
+				"text": "Պահպանել էջերը."
+			},
+			"allPagesOption": {
+				"text": "Բոլոր էջերը"
+			},
+			"currentPageOption": {
+				"text": "Ընթացիկ էջ"
+			},
+			"pagesOption": {
+				"text": "Էջեր"
+			},
+			"saveAnnoLabel": {
+				"text": "Պահպանեք ծանոթագրությունները"
+			},
+			"burnAnnoLabel": {
+				"text": "Այրել ծանոթագրությունները"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Պատվերով",
 		"vsdv-printImagesDialog-title": "Տպել պատկերներ",
 		"vsdv-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
 		"vsdv-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF խմբագրման նշանի տեսքը",
 		"vsdv-pdfImageResourceDialog-title": "PDF պատկերի ռեսուրս",
-		"vsdv-pdfImageResourcePanel-bytes": " բայթեր"
+		"vsdv-pdfImageResourcePanel-bytes": " բայթեր",
+		"vsdv-exportFileSettingsDialog-title": "Արտահանել ֆայլի կարգավորումները",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF խմբագրման նշանի կարգավորումներ"
 	}
 }

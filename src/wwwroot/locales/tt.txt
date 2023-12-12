@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Зурайтырга"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Арткы төс:"
+			},
+			"borderColorLabel": {
+				"text": "Чик төсе:"
+			},
+			"selectedRectLabel": {
+				"text": "Сайланган тур:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Киңлеге:"
+			},
+			"rectHeightLabel": {
+				"text": "Биеклек:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Нормаль"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "ЯРАРМЫ"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Файл исеме:"
+			},
+			"fileFormatLabel": {
+				"text": "Файл форматы:"
+			},
+			"savePagesLabel": {
+				"text": "Битләрне саклагыз:"
+			},
+			"allPagesOption": {
+				"text": "Барлык битләр"
+			},
+			"currentPageOption": {
+				"text": "Хәзерге бит"
+			},
+			"pagesOption": {
+				"text": "Битләр"
+			},
+			"saveAnnoLabel": {
+				"text": "Аннотацияләрне саклагыз"
+			},
+			"burnAnnoLabel": {
+				"text": "Аннотацияләрне яндырыгыз"
+			},
+			"okButton": {
+				"value": "ЯРАРМЫ"
+			},
+			"cancelButton": {
+				"value": "Баш тарту"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Гадәт",
 		"vsdv-printImagesDialog-title": "Рәсемнәрне бастыру",
 		"vsdv-printImagesPanel-imagePrintingString": "Рәсем бастырыла",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Рәсем тамашачысы көйләүләре",
 		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз тамашачы көйләүләре",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияләр күрсәт:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF редакция билгесе",
 		"vsdv-pdfImageResourceDialog-title": "PDF рәсем ресурсы",
-		"vsdv-pdfImageResourcePanel-bytes": " байт"
+		"vsdv-pdfImageResourcePanel-bytes": " байт",
+		"vsdv-exportFileSettingsDialog-title": "Файл көйләүләрен экспортлагыз",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF редакция билгесе көйләүләре"
 	}
 }

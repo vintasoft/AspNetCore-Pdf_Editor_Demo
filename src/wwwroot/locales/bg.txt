@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Увеличаване"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Цвят на фона:"
+			},
+			"borderColorLabel": {
+				"text": "Цвят на рамката:"
+			},
+			"selectedRectLabel": {
+				"text": "Избран правоъгълник:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Ширина:"
+			},
+			"rectHeightLabel": {
+				"text": "Височина:"
+			},
+			"okButton": {
+				"value": "[EN]"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Нормално"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "ОК"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Име на файл:"
+			},
+			"fileFormatLabel": {
+				"text": "Файлов формат:"
+			},
+			"savePagesLabel": {
+				"text": "Запазване на страници:"
+			},
+			"allPagesOption": {
+				"text": "Всички страници"
+			},
+			"currentPageOption": {
+				"text": "Текуща страница"
+			},
+			"pagesOption": {
+				"text": "Страници"
+			},
+			"saveAnnoLabel": {
+				"text": "Запазете анотациите"
+			},
+			"burnAnnoLabel": {
+				"text": "Изгаряне на анотации"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "По избор",
 		"vsdv-printImagesDialog-title": "Печат на изображения",
 		"vsdv-printImagesPanel-imagePrintingString": "Изображението се отпечатва",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "с анотации",
 		"vsdv-imageViewerSettingsDialog-title": "Настройки за преглед на изображения",
 		"vsdv-thumbnailViewerSettingDialog-title": "Настройки за преглед на миниатюри",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показване на пояснения върху миниатюри:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Външен вид на маркера за редактиране на PDF",
 		"vsdv-pdfImageResourceDialog-title": "PDF ресурс за изображения",
-		"vsdv-pdfImageResourcePanel-bytes": " байтове"
+		"vsdv-pdfImageResourcePanel-bytes": " байтове",
+		"vsdv-exportFileSettingsDialog-title": "Експортиране на настройките на файла",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "Настройки на маркировката за редактиране на PDF"
 	}
 }

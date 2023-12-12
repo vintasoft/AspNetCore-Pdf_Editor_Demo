@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Zoom in"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Agtergrondkleur:"
+			},
+			"borderColorLabel": {
+				"text": "Randkleur:"
+			},
+			"selectedRectLabel": {
+				"text": "Geselekteerde reg:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Breedte:"
+			},
+			"rectHeightLabel": {
+				"text": "Hoogte:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Normaal"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "OK"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Lêernaam:"
+			},
+			"fileFormatLabel": {
+				"text": "Lêerformaat:"
+			},
+			"savePagesLabel": {
+				"text": "Stoor bladsye:"
+			},
+			"allPagesOption": {
+				"text": "Alle bladsye"
+			},
+			"currentPageOption": {
+				"text": "Huidige bladsy"
+			},
+			"pagesOption": {
+				"text": "Bladsye"
+			},
+			"saveAnnoLabel": {
+				"text": "Stoor aantekeninge"
+			},
+			"burnAnnoLabel": {
+				"text": "Brand aantekeninge"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Kanselleer"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Gepasmaak",
 		"vsdv-printImagesDialog-title": "Druk prente",
 		"vsdv-printImagesPanel-imagePrintingString": "Prent word druk",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "met aantekeninge",
 		"vsdv-imageViewerSettingsDialog-title": "Beeldkyker-instellings",
 		"vsdv-thumbnailViewerSettingDialog-title": "Kleinkiekie-kyker-instellings",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vertoon aantekeninge op duimnaels:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF redaksie merk voorkoms",
 		"vsdv-pdfImageResourceDialog-title": "PDF beeld hulpbron",
-		"vsdv-pdfImageResourcePanel-bytes": " grepe"
+		"vsdv-pdfImageResourcePanel-bytes": " grepe",
+		"vsdv-exportFileSettingsDialog-title": "Voer lêerinstellings uit",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF redaksie merk instellings"
 	}
 }

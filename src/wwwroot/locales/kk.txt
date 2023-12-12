@@ -194,6 +194,32 @@
 		"zoomInButton": {
 			"title": "Үлкейту"
 		},
+		"pdfRedactionMarkSettingsDialog": {
+			"backColorLabel": {
+				"text": "Артқы түс:"
+			},
+			"borderColorLabel": {
+				"text": "Жиек түсі:"
+			},
+			"selectedRectLabel": {
+				"text": "Таңдалған тік:"
+			},
+			"rectXLabel": {
+				"text": "X:"
+			},
+			"rectYLabel": {
+				"text": "Y:"
+			},
+			"rectWidthLabel": {
+				"text": "Ені:"
+			},
+			"rectHeightLabel": {
+				"text": "Биіктігі:"
+			},
+			"okButton": {
+				"value": "ОК"
+			}
+		},
 		"normalSizeModeButton": {
 			"title": "Қалыпты"
 		},
@@ -633,6 +659,38 @@
 			"okButton": {
 				"value": "ЖАРАЙДЫ МА"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Файл атауы:"
+			},
+			"fileFormatLabel": {
+				"text": "Файл пішімі:"
+			},
+			"savePagesLabel": {
+				"text": "Беттерді сақтау:"
+			},
+			"allPagesOption": {
+				"text": "Барлық беттер"
+			},
+			"currentPageOption": {
+				"text": "Ағымдағы бет"
+			},
+			"pagesOption": {
+				"text": "Беттер"
+			},
+			"saveAnnoLabel": {
+				"text": "Аннотацияларды сақтаңыз"
+			},
+			"burnAnnoLabel": {
+				"text": "Аннотацияларды жазу"
+			},
+			"okButton": {
+				"value": "ЖАРАЙДЫ МА"
+			},
+			"cancelButton": {
+				"value": "Болдырмау"
+			}
 		}
 	},
 	"strings": {
@@ -658,11 +716,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Арнаулы",
 		"vsdv-printImagesDialog-title": "Суреттерді басып шығару",
 		"vsdv-printImagesPanel-imagePrintingString": "Кескін басып шығаруда",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Кескінді қарау құралының параметрлері",
 		"vsdv-thumbnailViewerSettingDialog-title": "Нобайды қарау құралының параметрлері",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсету:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF өңдеу белгісінің көрінісі",
 		"vsdv-pdfImageResourceDialog-title": "PDF сурет ресурсы",
-		"vsdv-pdfImageResourcePanel-bytes": " байт"
+		"vsdv-pdfImageResourcePanel-bytes": " байт",
+		"vsdv-exportFileSettingsDialog-title": "Файл параметрлерін экспорттау",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF өңдеу белгісінің параметрлері"
 	}
 }
