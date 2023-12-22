@@ -137,7 +137,7 @@ OpenFileHelperJS = function (docViewer, showErrorMessageFunc) {
     */
     OpenFileHelperJS.prototype.showPasswordDialog = function (fileId) {
         // create password dialog
-        var passwordDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiDocumentPasswordDialogJS(fileId);
+        var passwordDialog = new Vintasoft.Imaging.UI.Dialogs.WebUiDocumentPasswordDialogJS(fileId);
         // subscribe to the authenticationSucceeded of password dialog
         Vintasoft.Shared.subscribeToEvent(passwordDialog, "authenticationSucceeded", __passwordDialog_authenticationSucceeded);
 
