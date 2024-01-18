@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Редакция"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Файлды жүктеп алыңыз және ашыңыз"
 		},
 		"previousUploadFilesButton": {
 			"title": "Бұрын жүктелген файлдар"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Сурет файлын URL мекенжайы бойынша жүктеп салыңыз және ашыңыз"
+		"uploadAndAddFileButton": {
+			"title": "Файлды жүктеп салыңыз және қосыңыз"
+		},
+		"openFileFromUrlButton": {
+			"title": "URL мекенжайынан файлды ашыңыз"
 		},
 		"printImagesButton": {
 			"title": "Суреттерді басып шығару"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Файлды экспорттау және жүктеп алу"
+		},
+		"clearSessionCacheButton": {
+			"title": "Сеанс кэшін тазалау"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Енге сәйкес"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Үлкейту"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Артқы түс:"
-			},
-			"borderColorLabel": {
-				"text": "Жиек түсі:"
-			},
-			"selectedRectLabel": {
-				"text": "Таңдалған тік:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Ені:"
-			},
-			"rectHeightLabel": {
-				"text": "Биіктігі:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Қалыпты"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Көп таңдау:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Нобай үшін құсбелгілерді пайдаланыңыз:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Нобай үшін әрекеттер тақтасын пайдаланыңыз:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Нобайларды сүйреп апара алады:"
 			},
@@ -668,7 +654,7 @@
 				"text": "Файл пішімі:"
 			},
 			"savePagesLabel": {
-				"text": "Беттерді сақтау:"
+				"text": "Беттерді сақтаңыз:"
 			},
 			"allPagesOption": {
 				"text": "Барлық беттер"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Болдырмау"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Көріністі сағат тілімен бұрыңыз"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Көріністі сағат тіліне қарсы бұраңыз"
+		},
+		"removeImagesButton": {
+			"text": "Суреттерді жою"
+		},
+		"moveImageUpButton": {
+			"text": "Кескінді жоғары жылжытыңыз"
+		},
+		"moveImageDownButton": {
+			"text": "Кескінді төмен жылжытыңыз"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Файлды жүктеп салу",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлды жүктеп алыңыз және ашыңыз",
+		"vsdv-uploadAndAddFileButton-addFileString": "Файлды жүктеп салыңыз және қосыңыз",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "PDF бетбелгілерін алыңыз",
 		"vsdv-textSearchPanel-pageLabel": "Бет",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Сурет ресурсын алыңыз",
@@ -716,14 +718,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Арнаулы",
 		"vsdv-printImagesDialog-title": "Суреттерді басып шығару",
 		"vsdv-printImagesPanel-imagePrintingString": "Кескін басып шығаруда",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "аннотациялармен",
 		"vsdv-imageViewerSettingsDialog-title": "Кескінді қарау құралының параметрлері",
 		"vsdv-thumbnailViewerSettingDialog-title": "Нобайды қарау құралының параметрлері",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсету:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF өңдеу белгісінің көрінісі",
 		"vsdv-pdfImageResourceDialog-title": "PDF сурет ресурсы",
 		"vsdv-pdfImageResourcePanel-bytes": " байт",
-		"vsdv-exportFileSettingsDialog-title": "Файл параметрлерін экспорттау",
+		"vsdv-exportFileSettingsDialog-title": "Файлды экспорттауға арналған параметрлер",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF өңдеу белгісінің параметрлері"
 	}
 }

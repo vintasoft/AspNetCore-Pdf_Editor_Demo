@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Redakcia"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Nahrajte a otvorte súbor"
 		},
 		"previousUploadFilesButton": {
 			"title": "Predtým nahrané súbory"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Nahrajte a otvorte súbor obrázka podľa adresy URL"
+		"uploadAndAddFileButton": {
+			"title": "Nahrajte a pridajte súbor"
+		},
+		"openFileFromUrlButton": {
+			"title": "Otvorte súbor z adresy URL"
 		},
 		"printImagesButton": {
 			"title": "Tlač obrázkov"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportujte a stiahnite súbor"
+		},
+		"clearSessionCacheButton": {
+			"title": "Vymazať vyrovnávaciu pamäť relácie"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Prispôsobiť na šírku"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Priblížiť"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Farba chrbta:"
-			},
-			"borderColorLabel": {
-				"text": "Farba okraja:"
-			},
-			"selectedRectLabel": {
-				"text": "Vybraný obdĺžnik:"
-			},
-			"rectXLabel": {
-				"text": "[EN]"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Šírka:"
-			},
-			"rectHeightLabel": {
-				"text": "výška:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normálne"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Viacnásobný výber:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Použite začiarkavacie políčka pre miniatúry:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Použiť panel akcií pre miniatúru:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Môže presúvať miniatúry:"
 			},
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Zrušiť"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Otočiť pohľad v smere hodinových ručičiek"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Otočiť pohľad proti smeru hodinových ručičiek"
+		},
+		"removeImagesButton": {
+			"text": "Odstráňte obrázky"
+		},
+		"moveImageUpButton": {
+			"text": "Posunúť obrázok nahor"
+		},
+		"moveImageDownButton": {
+			"text": "Posunúť obrázok nadol"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Nahrajte súbor",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Nahrajte a otvorte súbor",
+		"vsdv-uploadAndAddFileButton-addFileString": "Nahrajte a pridajte súbor",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Získajte záložky PDF",
 		"vsdv-textSearchPanel-pageLabel": "Stránka",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Získajte zdroj obrázkov",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Vzhľad redakčnej značky PDF",
 		"vsdv-pdfImageResourceDialog-title": "Zdroj obrázkov vo formáte PDF",
 		"vsdv-pdfImageResourcePanel-bytes": " bajtov",
-		"vsdv-exportFileSettingsDialog-title": "Exportujte nastavenia súboru",
+		"vsdv-exportFileSettingsDialog-title": "Nastavenia exportu súboru",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Nastavenia značky pre úpravu PDF"
 	}
 }

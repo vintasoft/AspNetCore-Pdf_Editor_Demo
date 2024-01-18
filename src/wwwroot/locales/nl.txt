@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Redactie"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Bestand downloaden en openen"
 		},
 		"previousUploadFilesButton": {
 			"title": "Bekijk een lijst met eerder gedownloade bestanden"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Upload en open het afbeeldingsbestand via URL"
+		"uploadAndAddFileButton": {
+			"title": "Bestand uploaden en toevoegen"
+		},
+		"openFileFromUrlButton": {
+			"title": "Bestand openen vanaf URL"
 		},
 		"printImagesButton": {
 			"title": "Afbeeldingen afdrukken"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Bestand exporteren en downloaden"
+		},
+		"clearSessionCacheButton": {
+			"title": "Sessiecache wissen"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Aanpassen aan breedte"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Inzoomen"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Achtergrondkleur:"
-			},
-			"borderColorLabel": {
-				"text": "Randkleur:"
-			},
-			"selectedRectLabel": {
-				"text": "Geselecteerde rect:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Breedte:"
-			},
-			"rectHeightLabel": {
-				"text": "Hoogte:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normaal"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Sta meerdere miniatuurselectie toe:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Gebruik selectievakjes voor miniatuur:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Gebruik het actiepaneel voor miniatuur:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Kan miniaturen slepen:"
 			},
@@ -668,7 +654,7 @@
 				"text": "Bestandsformaat:"
 			},
 			"savePagesLabel": {
-				"text": "Pagina's opslaan:"
+				"text": "Bewaar de pagina's:"
 			},
 			"allPagesOption": {
 				"text": "Alle pagina's"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Annuleren"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Roteer de weergave met de klok mee"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Draai de weergave tegen de klok in"
+		},
+		"removeImagesButton": {
+			"text": "Afbeeldingen verwijderen"
+		},
+		"moveImageUpButton": {
+			"text": "Verplaats afbeelding omhoog"
+		},
+		"moveImageDownButton": {
+			"text": "Verplaats afbeelding naar beneden"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Upload bestand",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Bestand downloaden en openen",
+		"vsdv-uploadAndAddFileButton-addFileString": "Bestand uploaden en toevoegen",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Ontvang PDF-bladwijzers",
 		"vsdv-textSearchPanel-pageLabel": "Pagina",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Afbeeldingsbron verkrijgen",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Weergave van PDF-redactiemarkering",
 		"vsdv-pdfImageResourceDialog-title": "PDF-afbeeldingsbron",
 		"vsdv-pdfImageResourcePanel-bytes": " bytes",
-		"vsdv-exportFileSettingsDialog-title": "Bestandsinstellingen exporteren",
+		"vsdv-exportFileSettingsDialog-title": "De instellingen om het bestand te exporteren",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Instellingen voor PDF-redactiemarkering"
 	}
 }

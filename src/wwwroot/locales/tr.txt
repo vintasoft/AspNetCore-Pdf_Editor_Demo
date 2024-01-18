@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Redaksiyon"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Dosyayı indir ve aç"
 		},
 		"previousUploadFilesButton": {
 			"title": "Önceden indirilen dosyaların listesini görüntüleyin"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Resim dosyasını URL'ye göre yükleyin ve açın"
+		"uploadAndAddFileButton": {
+			"title": "Dosya yükleyin ve ekleyin"
+		},
+		"openFileFromUrlButton": {
+			"title": "Dosyayı URL'den aç"
 		},
 		"printImagesButton": {
 			"title": "Görüntüleri Yazdır"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Dosyayı dışa aktarın ve indirin"
+		},
+		"clearSessionCacheButton": {
+			"title": "Oturum önbelleğini temizle"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Genişliğe Sığdır"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Yakınlaştır"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Arka Plan Rengi:"
-			},
-			"borderColorLabel": {
-				"text": "Kenar rengi:"
-			},
-			"selectedRectLabel": {
-				"text": "Seçilen doğru:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Genişlik:"
-			},
-			"rectHeightLabel": {
-				"text": "Yükseklik:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Birden çok küçük resim seçimine izin ver:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Küçük resim için onay kutularını kullanın:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Küçük resim için eylemler panelini kullanın:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Küçük Resimleri Sürükleyebilir:"
 			},
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "İptal"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Görünümü saat yönünde döndür"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Görünümü saat yönünün tersine döndür"
+		},
+		"removeImagesButton": {
+			"text": "Resimleri kaldır"
+		},
+		"moveImageUpButton": {
+			"text": "Resmi yukarı taşı"
+		},
+		"moveImageDownButton": {
+			"text": "Resmi aşağı taşı"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Dosya yükleme",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Dosyayı indir ve aç",
+		"vsdv-uploadAndAddFileButton-addFileString": "Dosya yükleyin ve ekleyin",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "PDF yer işaretlerini alın",
 		"vsdv-textSearchPanel-pageLabel": "Sayfa",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Resim kaynağını al",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF redaksiyon işareti görünümü",
 		"vsdv-pdfImageResourceDialog-title": "PDF resim kaynağı",
 		"vsdv-pdfImageResourcePanel-bytes": " bayt",
-		"vsdv-exportFileSettingsDialog-title": "Dosya ayarlarını dışa aktar",
+		"vsdv-exportFileSettingsDialog-title": "Dosyayı dışa aktarma ayarları",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF redaksiyon işareti ayarları"
 	}
 }

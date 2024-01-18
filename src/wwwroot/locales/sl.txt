@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Redakcija"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Naloži in odpri datoteko"
 		},
 		"previousUploadFilesButton": {
 			"title": "Prej naložene datoteke"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Naložite in odprite slikovno datoteko po URL-ju"
+		"uploadAndAddFileButton": {
+			"title": "Naložite in dodajte datoteko"
+		},
+		"openFileFromUrlButton": {
+			"title": "Odpri datoteko z naslova URL"
 		},
 		"printImagesButton": {
 			"title": "Natisnite slike"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Izvozi in prenesi datoteko"
+		},
+		"clearSessionCacheButton": {
+			"title": "Počisti predpomnilnik seje"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Prilagodi širini"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Približaj"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Barva hrbta:"
-			},
-			"borderColorLabel": {
-				"text": "Barva obrobe:"
-			},
-			"selectedRectLabel": {
-				"text": "Izbrani pravokotnik:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Premer:"
-			},
-			"rectHeightLabel": {
-				"text": "Višina:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "normalno"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Večkratna izbira:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Uporabite potrditvena polja za sličico:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Uporabi ploščo z dejanji za sličico:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Lahko povlečete sličice:"
 			},
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Prekliči"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Zasukaj pogled v smeri urinega kazalca"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Zasukaj pogled v nasprotni smeri urinega kazalca"
+		},
+		"removeImagesButton": {
+			"text": "Odstranite slike"
+		},
+		"moveImageUpButton": {
+			"text": "Premakni sliko navzgor"
+		},
+		"moveImageDownButton": {
+			"text": "Premakni sliko navzdol"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Naloži datoteko",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Naloži in odpri datoteko",
+		"vsdv-uploadAndAddFileButton-addFileString": "Naložite in dodajte datoteko",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Pridobite zaznamke PDF",
 		"vsdv-textSearchPanel-pageLabel": "Stran",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Pridobite slikovni vir",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Videz oznake redakcije PDF",
 		"vsdv-pdfImageResourceDialog-title": "Vir slik PDF",
 		"vsdv-pdfImageResourcePanel-bytes": " bajtov",
-		"vsdv-exportFileSettingsDialog-title": "Izvozite nastavitve datoteke",
+		"vsdv-exportFileSettingsDialog-title": "Nastavitve za izvoz datoteke",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Nastavitve oznake za urejanje PDF"
 	}
 }

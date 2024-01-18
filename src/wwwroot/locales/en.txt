@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Redaction"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Upload and open file"
 		},
 		"previousUploadFilesButton": {
 			"title": "Previously Uploaded Files"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Upload and open image file by URL"
+		"uploadAndAddFileButton": {
+			"title": "Upload and add file"
+		},
+		"openFileFromUrlButton": {
+			"title": "Open file from URL"
 		},
 		"printImagesButton": {
 			"title": "Print images"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Export and download file"
+		},
+		"clearSessionCacheButton": {
+			"title": "Clear session cache"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Fit to width"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Zoom in"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Back color:"
-			},
-			"borderColorLabel": {
-				"text": "Border color:"
-			},
-			"selectedRectLabel": {
-				"text": "Selected rect:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Width:"
-			},
-			"rectHeightLabel": {
-				"text": "Height:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Multiselect:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Use Thumbnail Checkboxes:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Use Thumbnail Actions Panel:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Can Drag Thumbnails:"
 			},
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Cancel"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Rotate view clockwise"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Rotate view counterclockwise"
+		},
+		"removeImagesButton": {
+			"text": "Remove images"
+		},
+		"moveImageUpButton": {
+			"text": "Move image up"
+		},
+		"moveImageDownButton": {
+			"text": "Move image down"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Upload file",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Upload and open file",
+		"vsdv-uploadAndAddFileButton-addFileString": "Upload and add file",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Get PDF bookmarks",
 		"vsdv-textSearchPanel-pageLabel": "Page",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Get image resource",

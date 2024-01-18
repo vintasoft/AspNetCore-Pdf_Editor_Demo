@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Redagavimas"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Įkelti ir atidaryti failą"
 		},
 		"previousUploadFilesButton": {
 			"title": "Anksčiau įkelti failai"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Įkelkite ir atidarykite vaizdo failą pagal URL"
+		"uploadAndAddFileButton": {
+			"title": "Įkelti ir pridėti failą"
+		},
+		"openFileFromUrlButton": {
+			"title": "Atidaryti failą iš URL"
 		},
 		"printImagesButton": {
 			"title": "Spausdinti vaizdus"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Eksportuoti ir atsisiųsti failą"
+		},
+		"clearSessionCacheButton": {
+			"title": "Išvalyti seanso talpyklą"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Tinka pločiui"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Priartinti"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Nugaros spalva:"
-			},
-			"borderColorLabel": {
-				"text": "Kraštinės spalva:"
-			},
-			"selectedRectLabel": {
-				"text": "Pasirinkta tiesiai:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Plotis:"
-			},
-			"rectHeightLabel": {
-				"text": "Aukštis:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normalus"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Keli pasirinkimai:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Naudokite miniatiūros žymimuosius laukelius:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Naudokite veiksmų skydelį miniatiūrai:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Galima vilkti miniatiūras:"
 			},
@@ -668,7 +654,7 @@
 				"text": "Dokumento formatas:"
 			},
 			"savePagesLabel": {
-				"text": "Išsaugoti puslapius:"
+				"text": "Išsaugokite puslapius:"
 			},
 			"allPagesOption": {
 				"text": "Visi puslapiai"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Atšaukti"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Sukti vaizdą pagal laikrodžio rodyklę"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Pasukti vaizdą prieš laikrodžio rodyklę"
+		},
+		"removeImagesButton": {
+			"text": "Pašalinti vaizdus"
+		},
+		"moveImageUpButton": {
+			"text": "Perkelti vaizdą aukštyn"
+		},
+		"moveImageDownButton": {
+			"text": "Perkelti vaizdą žemyn"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Įkelti failą",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Įkelti ir atidaryti failą",
+		"vsdv-uploadAndAddFileButton-addFileString": "Įkelti ir pridėti failą",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Gaukite PDF žymes",
 		"vsdv-textSearchPanel-pageLabel": "Puslapis",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Gaukite vaizdo šaltinį",
@@ -716,14 +718,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Pasirinktinis",
 		"vsdv-printImagesDialog-title": "Spausdinti vaizdus",
 		"vsdv-printImagesPanel-imagePrintingString": "Vaizdas spausdinamas",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "su anotacijomis",
 		"vsdv-imageViewerSettingsDialog-title": "Vaizdų peržiūros programos nustatymai",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatiūrų peržiūros priemonės nustatymai",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF redagavimo ženklo išvaizda",
 		"vsdv-pdfImageResourceDialog-title": "PDF vaizdo šaltinis",
 		"vsdv-pdfImageResourcePanel-bytes": " baitų",
-		"vsdv-exportFileSettingsDialog-title": "Eksportuoti failo nustatymus",
+		"vsdv-exportFileSettingsDialog-title": "Failo eksporto nustatymai",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF redagavimo žymų nustatymai"
 	}
 }

@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Σύνταξη"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Λήψη και άνοιγμα αρχείου"
 		},
 		"previousUploadFilesButton": {
 			"title": "Προβολή λίστας αρχείων που έχετε λάβει προηγουμένως"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Μεταφόρτωση και άνοιγμα αρχείου εικόνας κατά διεύθυνση URL"
+		"uploadAndAddFileButton": {
+			"title": "Μεταφόρτωση και προσθήκη αρχείου"
+		},
+		"openFileFromUrlButton": {
+			"title": "Άνοιγμα αρχείου από τη διεύθυνση URL"
 		},
 		"printImagesButton": {
 			"title": "Εκτύπωση εικόνων"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Εξαγωγή και λήψη αρχείου"
+		},
+		"clearSessionCacheButton": {
+			"title": "Εκκαθάριση προσωρινής μνήμης περιόδου λειτουργίας"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Προσαρμογή στο πλάτος"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Μεγέθυνση"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Χρώμα φόντου:"
-			},
-			"borderColorLabel": {
-				"text": "Χρώμα περιγράμματος:"
-			},
-			"selectedRectLabel": {
-				"text": "Επιλεγμένο ορθό:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Πλάτος:"
-			},
-			"rectHeightLabel": {
-				"text": "Υψος:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Κανονικό"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Να επιτρέπεται η επιλογή πολλαπλών μικρογραφιών:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Χρησιμοποιήστε πλαίσια ελέγχου για μικρογραφία:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Χρησιμοποιήστε το πλαίσιο ενεργειών για μικρογραφία:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Μπορεί να σύρει μικρογραφίες:"
 			},
@@ -668,7 +654,7 @@
 				"text": "Μορφή αρχείου:"
 			},
 			"savePagesLabel": {
-				"text": "Αποθήκευση σελίδων:"
+				"text": "Αποθηκεύστε τις σελίδες:"
 			},
 			"allPagesOption": {
 				"text": "Όλες οι σελίδες"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Ακύρωση"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Περιστρέψτε την προβολή δεξιόστροφα"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Περιστρέψτε την προβολή αριστερόστροφα"
+		},
+		"removeImagesButton": {
+			"text": "Αφαίρεση εικόνων"
+		},
+		"moveImageUpButton": {
+			"text": "Μετακίνηση εικόνας προς τα πάνω"
+		},
+		"moveImageDownButton": {
+			"text": "Μετακίνηση εικόνας προς τα κάτω"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Ανέβασμα αρχείου",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Λήψη και άνοιγμα αρχείου",
+		"vsdv-uploadAndAddFileButton-addFileString": "Μεταφόρτωση και προσθήκη αρχείου",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Λάβετε σελιδοδείκτες PDF",
 		"vsdv-textSearchPanel-pageLabel": "Σελίδα",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Λήψη πόρων εικόνας",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Εμφάνιση σήματος επεξεργασίας PDF",
 		"vsdv-pdfImageResourceDialog-title": "Πηγή εικόνας PDF",
 		"vsdv-pdfImageResourcePanel-bytes": " byte",
-		"vsdv-exportFileSettingsDialog-title": "Εξαγωγή ρυθμίσεων αρχείου",
+		"vsdv-exportFileSettingsDialog-title": "Οι ρυθμίσεις για εξαγωγή αρχείου",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Ρυθμίσεις σήμανσης επεξεργασίας PDF"
 	}
 }

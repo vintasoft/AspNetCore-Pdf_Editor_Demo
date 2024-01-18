@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Ռեդակցիա"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Վերբեռնեք և բացեք ֆայլը"
 		},
 		"previousUploadFilesButton": {
 			"title": "Նախկինում բեռնված ֆայլեր"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Վերբեռնեք և բացեք պատկերի ֆայլը URL-ով"
+		"uploadAndAddFileButton": {
+			"title": "Վերբեռնեք և ավելացրեք ֆայլ"
+		},
+		"openFileFromUrlButton": {
+			"title": "Բացեք ֆայլը URL-ից"
 		},
 		"printImagesButton": {
 			"title": "Տպել պատկերներ"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Արտահանել և ներբեռնել ֆայլը"
+		},
+		"clearSessionCacheButton": {
+			"title": "Մաքրել նստաշրջանի քեշը"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Հարմարեցրեք լայնությանը"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Խոշորացնել. մոտեցնել"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Հետի գույնը."
-			},
-			"borderColorLabel": {
-				"text": "Սահմանի գույնը."
-			},
-			"selectedRectLabel": {
-				"text": "Ընտրված ուղիղ՝"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Լայնությունը:"
-			},
-			"rectHeightLabel": {
-				"text": "Բարձրությունը:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Նորմալ"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Բազմակի ընտրություն."
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Օգտագործեք վանդակները մանրապատկերների համար."
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Օգտագործեք գործողությունների վահանակը մանրապատկերների համար."
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Կարող է քաշել մանրապատկերները՝"
 			},
@@ -668,7 +654,7 @@
 				"text": "Ֆայլի ձևաչափ."
 			},
 			"savePagesLabel": {
-				"text": "Պահպանել էջերը."
+				"text": "Պահպանեք էջերը."
 			},
 			"allPagesOption": {
 				"text": "Բոլոր էջերը"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Չեղարկել"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Պտտեցնել դիտումը ժամացույցի սլաքի ուղղությամբ"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Պտտեցնել տեսքը ժամացույցի սլաքի հակառակ ուղղությամբ"
+		},
+		"removeImagesButton": {
+			"text": "Հեռացնել պատկերները"
+		},
+		"moveImageUpButton": {
+			"text": "Տեղափոխեք պատկերը վերև"
+		},
+		"moveImageDownButton": {
+			"text": "Տեղափոխեք պատկերը ներքև"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Ներբեռնել ֆայլ",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Վերբեռնեք և բացեք ֆայլը",
+		"vsdv-uploadAndAddFileButton-addFileString": "Վերբեռնեք և ավելացրեք ֆայլ",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Ստացեք PDF էջանիշներ",
 		"vsdv-textSearchPanel-pageLabel": "Էջ",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Ստացեք պատկերի ռեսուրս",
@@ -716,14 +718,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Պատվերով",
 		"vsdv-printImagesDialog-title": "Տպել պատկերներ",
 		"vsdv-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "ծանոթագրություններով",
 		"vsdv-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
 		"vsdv-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF խմբագրման նշանի տեսքը",
 		"vsdv-pdfImageResourceDialog-title": "PDF պատկերի ռեսուրս",
 		"vsdv-pdfImageResourcePanel-bytes": " բայթեր",
-		"vsdv-exportFileSettingsDialog-title": "Արտահանել ֆայլի կարգավորումները",
+		"vsdv-exportFileSettingsDialog-title": "Ֆայլի արտահանման կարգավորումները",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF խմբագրման նշանի կարգավորումներ"
 	}
 }

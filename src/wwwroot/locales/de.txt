@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Redaktion"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Datei herunterladen und öffnen"
 		},
 		"previousUploadFilesButton": {
 			"title": "Zeigen Sie eine Liste der zuvor heruntergeladenen Dateien an"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Bilddatei per URL hochladen und öffnen"
+		"uploadAndAddFileButton": {
+			"title": "Datei hochladen und hinzufügen"
+		},
+		"openFileFromUrlButton": {
+			"title": "Datei über URL öffnen"
 		},
 		"printImagesButton": {
 			"title": "Bilder drucken"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Datei exportieren und herunterladen"
+		},
+		"clearSessionCacheButton": {
+			"title": "Sitzungscache leeren"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "An Breite anpassen"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Vergrößern"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Hintergrundfarbe:"
-			},
-			"borderColorLabel": {
-				"text": "Rahmenfarbe:"
-			},
-			"selectedRectLabel": {
-				"text": "Ausgewähltes Rechteck:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Breite:"
-			},
-			"rectHeightLabel": {
-				"text": "Höhe:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Auswahl mehrerer Miniaturansichten zulassen:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Kontrollkästchen für Miniaturansichten verwenden:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Verwenden Sie das Aktionsfeld für Miniaturansichten:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Kann Miniaturansichten ziehen:"
 			},
@@ -668,7 +654,7 @@
 				"text": "Datei Format:"
 			},
 			"savePagesLabel": {
-				"text": "Seiten speichern:"
+				"text": "Speichern Sie die Seiten:"
 			},
 			"allPagesOption": {
 				"text": "Alle Seiten"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Abbrechen"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Ansicht im Uhrzeigersinn drehen"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Ansicht gegen den Uhrzeigersinn drehen"
+		},
+		"removeImagesButton": {
+			"text": "Bilder entfernen"
+		},
+		"moveImageUpButton": {
+			"text": "Bild nach oben verschieben"
+		},
+		"moveImageDownButton": {
+			"text": "Bild nach unten verschieben"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Datei hochladen",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Datei herunterladen und öffnen",
+		"vsdv-uploadAndAddFileButton-addFileString": "Datei hochladen und hinzufügen",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Holen Sie sich PDF-Lesezeichen",
 		"vsdv-textSearchPanel-pageLabel": "Seite",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Bildressource abrufen",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Erscheinungsbild der PDF-Schwärzungsmarkierung",
 		"vsdv-pdfImageResourceDialog-title": "PDF-Bildressource",
 		"vsdv-pdfImageResourcePanel-bytes": " Bytes",
-		"vsdv-exportFileSettingsDialog-title": "Dateieinstellungen exportieren",
+		"vsdv-exportFileSettingsDialog-title": "Die Einstellungen zum Exportieren der Datei",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Einstellungen für PDF-Schwärzungsmarkierungen"
 	}
 }

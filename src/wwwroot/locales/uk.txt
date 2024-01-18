@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Редакція"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Завантажте та відкрийте файл"
 		},
 		"previousUploadFilesButton": {
 			"title": "Раніше завантажені файли"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Завантажте та відкрийте файл зображення за URL-адресою"
+		"uploadAndAddFileButton": {
+			"title": "Завантажити та додати файл"
+		},
+		"openFileFromUrlButton": {
+			"title": "Відкрити файл з URL"
 		},
 		"printImagesButton": {
 			"title": "Друк зображень"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Експортуйте та завантажуйте файл"
+		},
+		"clearSessionCacheButton": {
+			"title": "Очистити кеш сесії"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Підгонка по ширині"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Збільшувати"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Колір спинки:"
-			},
-			"borderColorLabel": {
-				"text": "Колір рамки:"
-			},
-			"selectedRectLabel": {
-				"text": "Вибраний прямокутник:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Ширина:"
-			},
-			"rectHeightLabel": {
-				"text": "Висота:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "нормальний"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Множинний вибір:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Використовуйте прапорці для мініатюри:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Використовуйте панель дій для мініатюри:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Можна перетягувати мініатюри:"
 			},
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Скасувати"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Повернути перегляд за годинниковою стрілкою"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Обернути вигляд проти годинникової стрілки"
+		},
+		"removeImagesButton": {
+			"text": "Видаліть зображення"
+		},
+		"moveImageUpButton": {
+			"text": "Перемістити зображення вгору"
+		},
+		"moveImageDownButton": {
+			"text": "Перемістити зображення вниз"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Завантажити файл",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Завантажте та відкрийте файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Завантажити та додати файл",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Отримати закладки PDF",
 		"vsdv-textSearchPanel-pageLabel": "Сторінка",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Отримати ресурс зображення",
@@ -716,14 +718,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Custom",
 		"vsdv-printImagesDialog-title": "Друк зображень",
 		"vsdv-printImagesPanel-imagePrintingString": "Зображення друкується",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "з анотаціями",
 		"vsdv-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
 		"vsdv-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Зовнішній вигляд знака редагування PDF",
 		"vsdv-pdfImageResourceDialog-title": "Ресурс зображень PDF",
 		"vsdv-pdfImageResourcePanel-bytes": " байтів",
-		"vsdv-exportFileSettingsDialog-title": "Експортуйте налаштування файлу",
+		"vsdv-exportFileSettingsDialog-title": "Параметри експорту файлу",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Параметри позначок редагування PDF"
 	}
 }

@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Rédaction"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Télécharger et ouvrir le fichier"
 		},
 		"previousUploadFilesButton": {
 			"title": "Afficher une liste des fichiers précédemment téléchargés"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Téléchargez et ouvrez le fichier image par URL"
+		"uploadAndAddFileButton": {
+			"title": "Télécharger et ajouter un fichier"
+		},
+		"openFileFromUrlButton": {
+			"title": "Ouvrir le fichier à partir de l'URL"
 		},
 		"printImagesButton": {
 			"title": "Imprimer des images"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exporter et télécharger le fichier"
+		},
+		"clearSessionCacheButton": {
+			"title": "Vider le cache de la session"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Ajuster à la largeur"
@@ -104,7 +110,7 @@
 		},
 		"textSelectionPanel": {
 			"selectionModeLabel": {
-				"text": "Mode de sélection de texte:"
+				"text": "Mode de sélection de texte :"
 			},
 			"rectangleOption": {
 				"text": "Rectangle"
@@ -113,18 +119,18 @@
 				"text": "Lignes complètes"
 			},
 			"selectionColorLabel": {
-				"text": "Couleur du texte sélectionné:"
+				"text": "Couleur du texte sélectionné :"
 			},
 			"selectedTextLabel": {
-				"text": "Texte sélectionné:"
+				"text": "Texte sélectionné :"
 			}
 		},
 		"textSearchPanel": {
 			"findLabel": {
-				"text": "Rechercher:"
+				"text": "Rechercher :"
 			},
 			"whereLookLabel": {
-				"text": "Rechercher sur:"
+				"text": "Rechercher sur :"
 			},
 			"currentPageOption": {
 				"text": "Page actuelle"
@@ -155,7 +161,7 @@
 		},
 		"pdfInteractiveFormFieldsPanel": {
 			"interactionModeLabel": {
-				"text": "Mode d'interaction:"
+				"text": "Mode d'interaction :"
 			},
 			"noneInteractionModeLabel": {
 				"text": "Non"
@@ -194,32 +200,6 @@
 		"zoomInButton": {
 			"title": "Zoomer"
 		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Couleur de fond:"
-			},
-			"borderColorLabel": {
-				"text": "Couleur de bordure:"
-			},
-			"selectedRectLabel": {
-				"text": "Rect sélectionné:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Largeur:"
-			},
-			"rectHeightLabel": {
-				"text": "Hauteur:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
-		},
 		"normalSizeModeButton": {
 			"title": "Normale"
 		},
@@ -240,7 +220,7 @@
 				"text": "Ce document est protégé par un mot de passe. Veuillez entrer un mot de passe."
 			},
 			"passwordLabel": {
-				"text": "Mot de passe:"
+				"text": "Mot de passe :"
 			},
 			"showPasswordLabel": {
 				"text": "Afficher le mot de passe"
@@ -257,7 +237,7 @@
 		},
 		"selectImagesDialog": {
 			"imagesLabel": {
-				"text": "Images:"
+				"text": "Images :"
 			},
 			"currentImageOption": {
 				"text": "Image actuelle"
@@ -269,10 +249,10 @@
 				"text": "Personnalisé"
 			},
 			"imageRangeLabel": {
-				"text": "Plage d'images:"
+				"text": "Plage d'images :"
 			},
 			"invalidRangeErrorMessageLabel": {
-				"text": "Plage de pages non valide. Exemple: 1-5, 8, 12-15."
+				"text": "Plage de pages non valide. Exemple : 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "L'index n'est pas dans la plage d'index de la collection d'images."
@@ -286,7 +266,7 @@
 		},
 		"printImagesDialog": {
 			"imagesLabel": {
-				"text": "Images:"
+				"text": "Images :"
 			},
 			"currentImageOption": {
 				"text": "Image actuelle"
@@ -298,10 +278,10 @@
 				"text": "Personnalisé"
 			},
 			"imageRangeLabel": {
-				"text": "Plage d'images:"
+				"text": "Plage d'images :"
 			},
 			"invalidRangeErrorMessageLabel": {
-				"text": "Plage de pages non valide. Exemple: 1-5, 8, 12-15."
+				"text": "Plage de pages non valide. Exemple : 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "L'index n'est pas dans la plage d'index de la collection d'images."
@@ -315,10 +295,10 @@
 		},
 		"imageViewerSettingsDialog": {
 			"imageDisplayModeLabel": {
-				"text": "Mode d'affichage des images:"
+				"text": "Mode d'affichage des images :"
 			},
 			"imageAnchorLabel": {
-				"text": "Ancre d'image:"
+				"text": "Ancre d'image :"
 			},
 			"noneOption": {
 				"text": "Non"
@@ -348,7 +328,7 @@
 				"text": "Gauche"
 			},
 			"multipageDisplayModeLabel": {
-				"text": "Mode d'affichage multi-pages:"
+				"text": "Mode d'affichage multi-pages :"
 			},
 			"allImagesOption": {
 				"text": "AllImages"
@@ -357,7 +337,7 @@
 				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
-				"text": "Sens de mise en page:"
+				"text": "Sens de mise en page :"
 			},
 			"horizontalOption": {
 				"text": "Horizontale"
@@ -366,10 +346,10 @@
 				"text": "Verticale"
 			},
 			"rowColumnCountLabel": {
-				"text": "Images en ligne/colonne:"
+				"text": "Images en ligne/colonne :"
 			},
 			"imagePaddingLabel": {
-				"text": "Remplissage des images:"
+				"text": "Remplissage des images :"
 			},
 			"appearancesLabel": {
 				"text": "Apparitions"
@@ -378,25 +358,25 @@
 				"text": "Apparence de l'image"
 			},
 			"imageAppearanceBackColorLabel": {
-				"text": "Couleur de fond:"
+				"text": "Couleur de fond :"
 			},
 			"imageAppearanceBorderColorLabel": {
-				"text": "Couleur de bordure:"
+				"text": "Couleur de bordure :"
 			},
 			"imageAppearanceBorderWidthLabel": {
-				"text": "Largeur de la bordure:"
+				"text": "Largeur de la bordure :"
 			},
 			"focusedImageAppearanceLabel": {
 				"text": "Apparition de l'image mise au point"
 			},
 			"focusedImageAppearanceBackColorLabel": {
-				"text": "Couleur de fond:"
+				"text": "Couleur de fond :"
 			},
 			"focusedImageAppearanceBorderColorLabel": {
-				"text": "Couleur de bordure:"
+				"text": "Couleur de bordure :"
 			},
 			"focusedImageAppearanceBorderWidthLabel": {
-				"text": "Largeur de la bordure:"
+				"text": "Largeur de la bordure :"
 			},
 			"useAppearanceInSinglePageModeLabel": {
 				"text": "Utiliser l'apparence de l'image en mode page unique"
@@ -408,13 +388,13 @@
 				"text": "Paramètres par défaut"
 			},
 			"horizontalResolutionLabel": {
-				"text": "Résolution horizontale:"
+				"text": "Résolution horizontale :"
 			},
 			"verticalResolutionLabel ": {
-				"text": "Résolution verticale:"
+				"text": "Résolution verticale :"
 			},
 			"smoothingModeLabel": {
-				"text": "Mode fluide:"
+				"text": "Mode fluide :"
 			},
 			"AntiAlias": {
 				"text": "AntiAlias"
@@ -423,7 +403,7 @@
 				"text": "Non"
 			},
 			"interpolationModeLabel": {
-				"text": "Mode d'interpolation:"
+				"text": "Mode d'interpolation :"
 			},
 			"Bicubic": {
 				"text": "Bicubic"
@@ -444,25 +424,25 @@
 				"text": "Autres paramètres"
 			},
 			"backgroundColorLabel": {
-				"text": "Couleur d'arrière-plan de la visionneuse d'images:"
+				"text": "Couleur d'arrière-plan de la visionneuse d'images :"
 			},
 			"centerImageLabel": {
-				"text": "Centrer l'image:"
+				"text": "Centrer l'image :"
 			},
 			"resizeTimeoutLabel ": {
-				"text": "Délai de redimensionnement:"
+				"text": "Délai de redimensionnement :"
 			},
 			"tileSizeLabel": {
-				"text": "Taille de tuile:"
+				"text": "Taille de tuile :"
 			},
 			"colorManagementLabel": {
-				"text": "Activer la gestion des couleurs:"
+				"text": "Activer la gestion des couleurs :"
 			},
 			"useVectorRenderingLabel": {
-				"text": "Utiliser le rendu vectoriel pour les documents:"
+				"text": "Utiliser le rendu vectoriel pour les documents :"
 			},
 			"vectorContentBackgroundColorLabel": {
-				"text": "Couleur d'arrière-plan du contenu vectoriel:"
+				"text": "Couleur d'arrière-plan du contenu vectoriel :"
 			},
 			"okButton": {
 				"value": "OK"
@@ -473,10 +453,10 @@
 		},
 		"thumbnailViewerSettingsDialog": {
 			"sizeLabel": {
-				"text": "Taille de la miniature:"
+				"text": "Taille de la miniature :"
 			},
 			"scaleLabel": {
-				"text": "Échelle des vignettes:"
+				"text": "Échelle des vignettes :"
 			},
 			"smallestOption": {
 				"text": "Moins"
@@ -491,7 +471,7 @@
 				"text": "Grand"
 			},
 			"flowStyleLabel": {
-				"text": "Style de placement des vignettes:"
+				"text": "Style de placement des vignettes :"
 			},
 			"singleColumnOption": {
 				"text": "SingleColumn"
@@ -506,31 +486,31 @@
 				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
-				"text": "Nombre de colonnes:"
+				"text": "Nombre de colonnes :"
 			},
 			"marginLabel": {
-				"text": "Rembourrage extérieur:"
+				"text": "Rembourrage extérieur :"
 			},
 			"paddingTopLabel": {
-				"text": "Rembourrage supérieur:"
+				"text": "Rembourrage supérieur :"
 			},
 			"paddingRightLabel": {
-				"text": "Retrait à droite:"
+				"text": "Retrait à droite :"
 			},
 			"paddingBottomLabel": {
-				"text": "Rembourrage inférieur:"
+				"text": "Rembourrage inférieur :"
 			},
 			"paddingLeftLabel": {
-				"text": "Retrait gauche:"
+				"text": "Retrait gauche :"
 			},
 			"showCaptionLabel": {
-				"text": "Afficher les légendes des miniatures:"
+				"text": "Afficher les légendes des miniatures :"
 			},
 			"captionFormatLabel": {
-				"text": "Format des signatures:"
+				"text": "Format des signatures :"
 			},
 			"captionAnchorLabel": {
-				"text": "Ancre de signature:"
+				"text": "Ancre de signature :"
 			},
 			"topLeftOption": {
 				"text": "Haut|Gauche"
@@ -560,13 +540,19 @@
 				"text": "Aligner au centre"
 			},
 			"focusOnHoverLabel": {
-				"text": "Survoler le focus:"
+				"text": "Survoler le focus :"
 			},
 			"multiSelectLabel": {
-				"text": "Autoriser la sélection de vignettes multiples:"
+				"text": "Autoriser la sélection de vignettes multiples :"
+			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Utilisez les cases à cocher pour la vignette :"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Utiliser le panneau d'actions pour la vignette :"
 			},
 			"canDragThumbnailsLabel": {
-				"text": "Peut faire glisser des vignettes:"
+				"text": "Peut faire glisser des vignettes :"
 			},
 			"okButton": {
 				"value": "OK"
@@ -580,22 +566,22 @@
 				"text": "La couleur de remplissage:"
 			},
 			"borderColorLabel": {
-				"text": "Couleur de bordure:"
+				"text": "Couleur de bordure :"
 			},
 			"borderWidthLabel": {
-				"text": "Largeur de la bordure:"
+				"text": "Largeur de la bordure :"
 			},
 			"overlayTextLabel": {
-				"text": "Texte superposé:"
+				"text": "Texte superposé :"
 			},
 			"textColorLabel": {
-				"text": "Couleur du texte:"
+				"text": "Couleur du texte :"
 			},
 			"fontSizeLabel": {
 				"text": "Taille de police:"
 			},
 			"autoFontSizeLabel": {
-				"text": "Taille de police automatique:"
+				"text": "Taille de police automatique :"
 			},
 			"textAlignmentLabel": {
 				"text": "Alignement du texte:"
@@ -642,7 +628,7 @@
 		},
 		"pdfImageResourceDialog": {
 			"size": {
-				"text": "Taille de la miniature:"
+				"text": "Taille de la miniature :"
 			},
 			"resolution": {
 				"text": "Résolution:"
@@ -651,7 +637,7 @@
 				"text": "Compression:"
 			},
 			"pixelFormat": {
-				"text": "Format des pixels:"
+				"text": "Format des pixels :"
 			},
 			"length": {
 				"text": "Longueur:"
@@ -668,7 +654,7 @@
 				"text": "Format de fichier:"
 			},
 			"savePagesLabel": {
-				"text": "Enregistrer les pages:"
+				"text": "Enregistrez les pages :"
 			},
 			"allPagesOption": {
 				"text": "Toutes les pages"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Annuler"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Faire pivoter la vue dans le sens des aiguilles d'une montre"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Faire pivoter la vue dans le sens inverse des aiguilles d'une montre"
+		},
+		"removeImagesButton": {
+			"text": "Supprimer des images"
+		},
+		"moveImageUpButton": {
+			"text": "Déplacer l'image vers le haut"
+		},
+		"moveImageDownButton": {
+			"text": "Déplacer l'image vers le bas"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Téléverser un fichier",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Télécharger et ouvrir le fichier",
+		"vsdv-uploadAndAddFileButton-addFileString": "Télécharger et ajouter un fichier",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Obtenir des signets PDF",
 		"vsdv-textSearchPanel-pageLabel": "Page",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Obtenir une ressource d'image",
@@ -719,11 +721,11 @@
 		"vsdv-printImagesPanel-withAnnotationsLabel": "avec annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Paramètres de la visionneuse d'images",
 		"vsdv-thumbnailViewerSettingDialog-title": "Paramètres de la visionneuse de miniatures",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afficher les annotations sur les vignettes:",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afficher les annotations sur les vignettes :",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Apparition de la marque de rédaction du PDF",
 		"vsdv-pdfImageResourceDialog-title": "Ressource d'images PDF",
 		"vsdv-pdfImageResourcePanel-bytes": " octets",
-		"vsdv-exportFileSettingsDialog-title": "Exporter les paramètres du fichier",
+		"vsdv-exportFileSettingsDialog-title": "Les paramètres pour exporter le fichier",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Paramètres des marques de rédaction PDF"
 	}
 }

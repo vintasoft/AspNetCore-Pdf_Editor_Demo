@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Redactare"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Descărcați și deschideți fișierul"
 		},
 		"previousUploadFilesButton": {
 			"title": "Vedeți o listă de fișiere descărcate anterior"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Încărcați și deschideți fișierul imagine după adresa URL"
+		"uploadAndAddFileButton": {
+			"title": "Încărcați și adăugați fișier"
+		},
+		"openFileFromUrlButton": {
+			"title": "Deschideți fișierul de la URL"
 		},
 		"printImagesButton": {
 			"title": "Tipărește imagini"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportați și descărcați fișierul"
+		},
+		"clearSessionCacheButton": {
+			"title": "Goliți memoria cache a sesiunii"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Potrivire la lățime"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Măriți"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Culoarea fundalului:"
-			},
-			"borderColorLabel": {
-				"text": "Culoarea chenarului:"
-			},
-			"selectedRectLabel": {
-				"text": "Rect selectat:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Latime:"
-			},
-			"rectHeightLabel": {
-				"text": "Înălţime:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Permite selecția mai multor miniaturi:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Utilizați casetele de selectare pentru miniatură:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Utilizați panoul de acțiuni pentru miniatură:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Poate trage miniaturi:"
 			},
@@ -668,7 +654,7 @@
 				"text": "Tipul fisierului:"
 			},
 			"savePagesLabel": {
-				"text": "Salvați pagini:"
+				"text": "Salvați paginile:"
 			},
 			"allPagesOption": {
 				"text": "Toate paginile"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Anulează"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Rotiți vizualizarea în sensul acelor de ceasornic"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Rotiți vizualizarea în sens invers acelor de ceasornic"
+		},
+		"removeImagesButton": {
+			"text": "Eliminați imaginile"
+		},
+		"moveImageUpButton": {
+			"text": "Mutați imaginea în sus"
+		},
+		"moveImageDownButton": {
+			"text": "Mutați imaginea în jos"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Incarca fisier",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Descărcați și deschideți fișierul",
+		"vsdv-uploadAndAddFileButton-addFileString": "Încărcați și adăugați fișier",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Obțineți marcaje PDF",
 		"vsdv-textSearchPanel-pageLabel": "Pagină",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Obțineți resurse de imagine",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Apariția semnului de redactare PDF",
 		"vsdv-pdfImageResourceDialog-title": "Resursă de imagini PDF",
 		"vsdv-pdfImageResourcePanel-bytes": " octeți",
-		"vsdv-exportFileSettingsDialog-title": "Exportați setările fișierului",
+		"vsdv-exportFileSettingsDialog-title": "Setările pentru exportul fișierului",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Setări pentru marcajul de redactare PDF"
 	}
 }

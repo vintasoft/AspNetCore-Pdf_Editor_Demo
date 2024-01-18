@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Ukuhlelwa kabusha"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Layisha futhi uvule ifayela"
 		},
 		"previousUploadFilesButton": {
 			"title": "Amafayela Alayishwe Ngokudlule"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Layisha futhi uvule ifayela lesithombe nge-URL"
+		"uploadAndAddFileButton": {
+			"title": "Layisha futhi wengeze ifayela"
+		},
+		"openFileFromUrlButton": {
+			"title": "Vula ifayela ku-URL"
 		},
 		"printImagesButton": {
 			"title": "Phrinta izithombe"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Khipha futhi ulande ifayela"
+		},
+		"clearSessionCacheButton": {
+			"title": "Sula inqolobane yeseshini"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Linganisa ububanzi"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Sondeza isithombe"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Umbala wangemuva:"
-			},
-			"borderColorLabel": {
-				"text": "Umbala womngcele:"
-			},
-			"selectedRectLabel": {
-				"text": "I-rect ekhethiwe:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Ububanzi:"
-			},
-			"rectHeightLabel": {
-				"text": "Ubude:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Okuvamile"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Ukukhetha okuningi:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Sebenzisa amabhokisi okuhlola ukuze uthole isithonjana:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Sebenzisa iphaneli yezenzo ukuze uthole isithonjana:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Ingakwazi Ukuhudula Izithonjana:"
 			},
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Khansela"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Zungezisa ukubuka ngokwewashi"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Zungezisa ukubuka ngokuphikisana newashi"
+		},
+		"removeImagesButton": {
+			"text": "Susa izithombe"
+		},
+		"moveImageUpButton": {
+			"text": "Hambisa isithombe phezulu"
+		},
+		"moveImageDownButton": {
+			"text": "Hambisa isithombe phansi"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Layisha ifayela",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Layisha futhi uvule ifayela",
+		"vsdv-uploadAndAddFileButton-addFileString": "Layisha futhi wengeze ifayela",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Thola amabhukhimakhi e-PDF",
 		"vsdv-textSearchPanel-pageLabel": "Ikhasi",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Thola insiza yesithombe",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Ukubukeka kophawu lokuphindaphinda kwe-PDF",
 		"vsdv-pdfImageResourceDialog-title": "Insiza yesithombe se-PDF",
 		"vsdv-pdfImageResourcePanel-bytes": " amabhayithi",
-		"vsdv-exportFileSettingsDialog-title": "Khipha izilungiselelo zefayela",
+		"vsdv-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Izilungiselelo zophawu lokuphinda lwe-PDF"
 	}
 }

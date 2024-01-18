@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Redakce"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Stáhněte a otevřete soubor"
 		},
 		"previousUploadFilesButton": {
 			"title": "Zobrazit seznam dříve stažených souborů"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Nahrajte a otevřete soubor obrázku podle adresy URL"
+		"uploadAndAddFileButton": {
+			"title": "Nahrajte a přidejte soubor"
+		},
+		"openFileFromUrlButton": {
+			"title": "Otevřete soubor z adresy URL"
 		},
 		"printImagesButton": {
 			"title": "Tisk obrázků"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportujte a stáhněte soubor"
+		},
+		"clearSessionCacheButton": {
+			"title": "Vymazat mezipaměť relace"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Přizpůsobit šířce"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Přiblížit"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Barva pozadí:"
-			},
-			"borderColorLabel": {
-				"text": "Barva ohraničení:"
-			},
-			"selectedRectLabel": {
-				"text": "Vybraný obdélník:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Šířka:"
-			},
-			"rectHeightLabel": {
-				"text": "Výška:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normální"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Povolit výběr více miniatur:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Použijte zaškrtávací políčka pro miniatury:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Použijte panel akcí pro miniaturu:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Může přetahovat miniatury:"
 			},
@@ -668,7 +654,7 @@
 				"text": "Formát souboru:"
 			},
 			"savePagesLabel": {
-				"text": "Uložit stránky:"
+				"text": "Uložte stránky:"
 			},
 			"allPagesOption": {
 				"text": "Všechny stránky"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Zrušit"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Otočit pohled ve směru hodinových ručiček"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Otočit pohled proti směru hodinových ručiček"
+		},
+		"removeImagesButton": {
+			"text": "Odebrat obrázky"
+		},
+		"moveImageUpButton": {
+			"text": "Posuňte obrázek nahoru"
+		},
+		"moveImageDownButton": {
+			"text": "Posuňte obrázek dolů"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Nahrát soubor",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Stáhněte a otevřete soubor",
+		"vsdv-uploadAndAddFileButton-addFileString": "Nahrajte a přidejte soubor",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Získejte záložky PDF",
 		"vsdv-textSearchPanel-pageLabel": "Stránka",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Získejte zdroj obrázku",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Vzhled značky redakce PDF",
 		"vsdv-pdfImageResourceDialog-title": "Zdroj obrázku ve formátu PDF",
 		"vsdv-pdfImageResourcePanel-bytes": " bajtů",
-		"vsdv-exportFileSettingsDialog-title": "Export nastavení souboru",
+		"vsdv-exportFileSettingsDialog-title": "Nastavení pro export souboru",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Nastavení značky redakce PDF"
 	}
 }

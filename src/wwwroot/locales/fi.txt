@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Editointi"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Lataa ja avaa tiedosto"
 		},
 		"previousUploadFilesButton": {
 			"title": "Näytä luettelo aiemmin ladatuista tiedostoista"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Lataa ja avaa kuvatiedosto URL-osoitteen mukaan"
+		"uploadAndAddFileButton": {
+			"title": "Lataa ja lisää tiedosto"
+		},
+		"openFileFromUrlButton": {
+			"title": "Avaa tiedosto URL-osoitteesta"
 		},
 		"printImagesButton": {
 			"title": "Tulosta kuvat"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Vie ja lataa tiedosto"
+		},
+		"clearSessionCacheButton": {
+			"title": "Tyhjennä istunnon välimuisti"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Sovita leveyteen"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Lähennä"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Taustaväri:"
-			},
-			"borderColorLabel": {
-				"text": "Reunuksen väri:"
-			},
-			"selectedRectLabel": {
-				"text": "Valittu oikea:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Leveys:"
-			},
-			"rectHeightLabel": {
-				"text": "Korkeus:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normaali"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Salli useiden pikkukuvien valinta:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Käytä pikkukuvien valintaruutuja:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Käytä toimintopaneelia pikkukuvalle:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Voi vetää pikkukuvia:"
 			},
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Peruuta"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Kierrä näkymää myötäpäivään"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Kierrä näkymää vastapäivään"
+		},
+		"removeImagesButton": {
+			"text": "Poista kuvat"
+		},
+		"moveImageUpButton": {
+			"text": "Siirrä kuvaa ylöspäin"
+		},
+		"moveImageDownButton": {
+			"text": "Siirrä kuvaa alas"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Lataa tiedosto",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Lataa ja avaa tiedosto",
+		"vsdv-uploadAndAddFileButton-addFileString": "Lataa ja lisää tiedosto",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Hanki PDF-kirjanmerkit",
 		"vsdv-textSearchPanel-pageLabel": "Sivu",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Hanki kuvaresurssi",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF-muokkausmerkin ulkonäkö",
 		"vsdv-pdfImageResourceDialog-title": "PDF-kuvaresurssi",
 		"vsdv-pdfImageResourcePanel-bytes": " tavua",
-		"vsdv-exportFileSettingsDialog-title": "Vie tiedostoasetukset",
+		"vsdv-exportFileSettingsDialog-title": "Tiedoston vientiasetukset",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF-muokkausmerkin asetukset"
 	}
 }

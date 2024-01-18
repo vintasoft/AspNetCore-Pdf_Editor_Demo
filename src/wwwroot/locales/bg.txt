@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Редакция"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Изтеглете и отворете файл"
 		},
 		"previousUploadFilesButton": {
 			"title": "Вижте списък с предварително изтеглени файлове"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Качете и отворете файл с изображение по URL"
+		"uploadAndAddFileButton": {
+			"title": "Качете и добавете файл"
+		},
+		"openFileFromUrlButton": {
+			"title": "Отворете файл от URL"
 		},
 		"printImagesButton": {
 			"title": "Печат на изображения"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Експортиране и изтегляне на файл"
+		},
+		"clearSessionCacheButton": {
+			"title": "Изчистване на кеша на сесията"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Побиране по ширина"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Увеличаване"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Цвят на фона:"
-			},
-			"borderColorLabel": {
-				"text": "Цвят на рамката:"
-			},
-			"selectedRectLabel": {
-				"text": "Избран правоъгълник:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Ширина:"
-			},
-			"rectHeightLabel": {
-				"text": "Височина:"
-			},
-			"okButton": {
-				"value": "[EN]"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Нормално"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Разрешаване на избор на няколко миниатюри:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Използвайте квадратчета за отметка за миниизображение:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Използвайте панела с действия за миниатюра:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Може да плъзгате миниатюри:"
 			},
@@ -668,7 +654,7 @@
 				"text": "Файлов формат:"
 			},
 			"savePagesLabel": {
-				"text": "Запазване на страници:"
+				"text": "Запазете страниците:"
 			},
 			"allPagesOption": {
 				"text": "Всички страници"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Отказ"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Завъртете изгледа по часовниковата стрелка"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Завъртете изгледа обратно на часовниковата стрелка"
+		},
+		"removeImagesButton": {
+			"text": "Премахване на изображения"
+		},
+		"moveImageUpButton": {
+			"text": "Преместване на изображението нагоре"
+		},
+		"moveImageDownButton": {
+			"text": "Преместете изображението надолу"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Качи файл",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Изтеглете и отворете файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Качете и добавете файл",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Вземете PDF отметки",
 		"vsdv-textSearchPanel-pageLabel": "Страница",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Вземете ресурс за изображение",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Външен вид на маркера за редактиране на PDF",
 		"vsdv-pdfImageResourceDialog-title": "PDF ресурс за изображения",
 		"vsdv-pdfImageResourcePanel-bytes": " байтове",
-		"vsdv-exportFileSettingsDialog-title": "Експортиране на настройките на файла",
+		"vsdv-exportFileSettingsDialog-title": "Настройки за експортиране на файл",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Настройки на маркировката за редактиране на PDF"
 	}
 }

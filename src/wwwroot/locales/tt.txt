@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Кыскарту"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Файлны йөкләү һәм ачу"
 		},
 		"previousUploadFilesButton": {
 			"title": "Элегерәк йөкләнгән файллар"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "URL аша рәсем файлын йөкләү һәм ачу"
+		"uploadAndAddFileButton": {
+			"title": "Файлны йөкләү һәм өстәү"
+		},
+		"openFileFromUrlButton": {
+			"title": "URL'тан файлны ачу"
 		},
 		"printImagesButton": {
 			"title": "Рәсемнәрне бастыру"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Файлны экспортлау һәм йөкләү"
+		},
+		"clearSessionCacheButton": {
+			"title": "Сессия кэшын чистарту"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Киңлеккә туры килә"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Зурайтырга"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Арткы төс:"
-			},
-			"borderColorLabel": {
-				"text": "Чик төсе:"
-			},
-			"selectedRectLabel": {
-				"text": "Сайланган тур:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Киңлеге:"
-			},
-			"rectHeightLabel": {
-				"text": "Биеклек:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Нормаль"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Күпкырлы:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Эскиз өчен пунктларны кулланыгыз:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Эскиз өчен эш панелен кулланыгыз:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Эскизларны тартырга мөмкин:"
 			},
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Баш тарту"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Күренешне сәгать юлы белән әйләндерегез"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Күренешне сәгатенә каршы әйләндерегез"
+		},
+		"removeImagesButton": {
+			"text": "Рәсемнәрне бетерегез"
+		},
+		"moveImageUpButton": {
+			"text": "Рәсемне өскә күчерегез"
+		},
+		"moveImageDownButton": {
+			"text": "Рәсемне аска күчерегез"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Файлны йөкләү",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлны йөкләү һәм ачу",
+		"vsdv-uploadAndAddFileButton-addFileString": "Файлны йөкләү һәм өстәү",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "PDF кыстыргычларын алыгыз",
 		"vsdv-textSearchPanel-pageLabel": "Бит",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Рәсем ресурсын алыгыз",
@@ -716,14 +718,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Гадәт",
 		"vsdv-printImagesDialog-title": "Рәсемнәрне бастыру",
 		"vsdv-printImagesPanel-imagePrintingString": "Рәсем бастырыла",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "аннотацияләр белән",
 		"vsdv-imageViewerSettingsDialog-title": "Рәсем тамашачысы көйләүләре",
 		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз тамашачы көйләүләре",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияләр күрсәт:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF редакция билгесе",
 		"vsdv-pdfImageResourceDialog-title": "PDF рәсем ресурсы",
 		"vsdv-pdfImageResourcePanel-bytes": " байт",
-		"vsdv-exportFileSettingsDialog-title": "Файл көйләүләрен экспортлагыз",
+		"vsdv-exportFileSettingsDialog-title": "Файлны экспортлау өчен көйләүләр",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF редакция билгесе көйләүләре"
 	}
 }

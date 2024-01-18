@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "墨消し"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "ファイルをダウンロードして開きます"
 		},
 		"previousUploadFilesButton": {
 			"title": "以前にダウンロードしたファイルのリストを表示する"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "URLで画像ファイルをアップロードして開く"
+		"uploadAndAddFileButton": {
+			"title": "ファイルをアップロードして追加する"
+		},
+		"openFileFromUrlButton": {
+			"title": "URLからファイルを開く"
 		},
 		"printImagesButton": {
 			"title": "画像を印刷"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "ファイルのエクスポートとダウンロード"
+		},
+		"clearSessionCacheButton": {
+			"title": "セッションキャッシュをクリアする"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "幅に合わせる"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "ズームイン"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "背景色:"
-			},
-			"borderColorLabel": {
-				"text": "境界線の色:"
-			},
-			"selectedRectLabel": {
-				"text": "選択された四角形:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "幅:"
-			},
-			"rectHeightLabel": {
-				"text": "身長："
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "通常"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "複数のサムネイルの選択を許可します:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "サムネイルにチェックボックスを使用します。"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "サムネイルにアクション パネルを使用します。"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "サムネイルをドラッグできます:"
 			},
@@ -668,7 +654,7 @@
 				"text": "ファイル形式:"
 			},
 			"savePagesLabel": {
-				"text": "ページを保存:"
+				"text": "ページを保存します。"
 			},
 			"allPagesOption": {
 				"text": "すべてのページ"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "キャンセル"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "ビューを時計回りに回転"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "ビューを反時計回りに回転"
+		},
+		"removeImagesButton": {
+			"text": "画像を削除する"
+		},
+		"moveImageUpButton": {
+			"text": "画像を上に移動"
+		},
+		"moveImageDownButton": {
+			"text": "画像を下に移動"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "ファイルをアップロードする",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "ファイルをダウンロードして開きます",
+		"vsdv-uploadAndAddFileButton-addFileString": "ファイルをアップロードして追加する",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "PDF ブックマークを取得する",
 		"vsdv-textSearchPanel-pageLabel": "ページ",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "画像リソースを取得する",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF 墨消しマークの表示",
 		"vsdv-pdfImageResourceDialog-title": "PDF画像リソース",
 		"vsdv-pdfImageResourcePanel-bytes": " バイト",
-		"vsdv-exportFileSettingsDialog-title": "エクスポートファイルの設定",
+		"vsdv-exportFileSettingsDialog-title": "ファイルをエクスポートするための設定",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF 墨消しマークの設定"
 	}
 }

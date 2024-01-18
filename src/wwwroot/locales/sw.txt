@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Urekebishaji"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Pakia na ufungue faili"
 		},
 		"previousUploadFilesButton": {
 			"title": "Faili Zilizopakiwa Hapo awali"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Pakia na ufungue faili ya picha kwa URL"
+		"uploadAndAddFileButton": {
+			"title": "Pakia na uongeze faili"
+		},
+		"openFileFromUrlButton": {
+			"title": "Fungua faili kutoka kwa URL"
 		},
 		"printImagesButton": {
 			"title": "Chapisha picha"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Hamisha na kupakua faili"
+		},
+		"clearSessionCacheButton": {
+			"title": "Futa akiba ya kipindi"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Inafaa kwa upana"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Vuta karibu"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Rangi ya nyuma:"
-			},
-			"borderColorLabel": {
-				"text": "Rangi ya mpaka:"
-			},
-			"selectedRectLabel": {
-				"text": "Rect iliyochaguliwa:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Upana:"
-			},
-			"rectHeightLabel": {
-				"text": "Urefu:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Kawaida"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Chaguo nyingi:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Tumia visanduku vya kuteua kwa kijipicha:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Tumia paneli ya vitendo kwa kijipicha:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Inaweza Kuburuta Vijipicha:"
 			},
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Ghairi"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Zungusha mwonekano wa saa"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Zungusha mwonekano kinyume cha saa"
+		},
+		"removeImagesButton": {
+			"text": "Ondoa picha"
+		},
+		"moveImageUpButton": {
+			"text": "Sogeza picha juu"
+		},
+		"moveImageDownButton": {
+			"text": "Sogeza picha chini"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Pakia faili",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Pakia na ufungue faili",
+		"vsdv-uploadAndAddFileButton-addFileString": "Pakia na uongeze faili",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Pata alamisho za PDF",
 		"vsdv-textSearchPanel-pageLabel": "Ukurasa",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Pata rasilimali ya picha",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Mwonekano wa alama ya urekebishaji wa PDF",
 		"vsdv-pdfImageResourceDialog-title": "Rasilimali ya picha ya PDF",
 		"vsdv-pdfImageResourcePanel-bytes": " baiti",
-		"vsdv-exportFileSettingsDialog-title": "Hamisha mipangilio ya faili",
+		"vsdv-exportFileSettingsDialog-title": "Mipangilio ya kuhamisha faili",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Mipangilio ya alama ya urekebishaji wa PDF"
 	}
 }

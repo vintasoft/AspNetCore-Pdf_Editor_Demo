@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "עֲרִיכָה"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "הורד ופתח את הקובץ"
 		},
 		"previousUploadFilesButton": {
 			"title": "הצג רשימה של קבצים שהורדו בעבר"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "העלה ופתח קובץ תמונה לפי כתובת אתר"
+		"uploadAndAddFileButton": {
+			"title": "העלה והוסף קובץ"
+		},
+		"openFileFromUrlButton": {
+			"title": "פתח קובץ מ-URL"
 		},
 		"printImagesButton": {
 			"title": "הדפס תמונות"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "ייצא והורד קובץ"
+		},
+		"clearSessionCacheButton": {
+			"title": "נקה את מטמון ההפעלה"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "התאם לרוחב"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "התקרב"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "צבע רקע:"
-			},
-			"borderColorLabel": {
-				"text": "צבע גבול:"
-			},
-			"selectedRectLabel": {
-				"text": "התיקון שנבחר:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "רוחב:"
-			},
-			"rectHeightLabel": {
-				"text": "גוֹבַה:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "רגיל"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "אפשר בחירת תמונות ממוזערות מרובות:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "השתמש בתיבות סימון עבור תמונה ממוזערת:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "השתמש בחלונית פעולות לתמונה ממוזערת:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "יכול לגרור תמונות ממוזערות:"
 			},
@@ -668,7 +654,7 @@
 				"text": "פורמט קובץ:"
 			},
 			"savePagesLabel": {
-				"text": "שמור דפים:"
+				"text": "שמור את הדפים:"
 			},
 			"allPagesOption": {
 				"text": "כל הדפים"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "בטל"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "סובב את התצוגה בכיוון השעון"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "סובב את התצוגה נגד כיוון השעון"
+		},
+		"removeImagesButton": {
+			"text": "הסר תמונות"
+		},
+		"moveImageUpButton": {
+			"text": "הזז את התמונה למעלה"
+		},
+		"moveImageDownButton": {
+			"text": "הזז את התמונה למטה"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "העלה קובץ",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "הורד ופתח את הקובץ",
+		"vsdv-uploadAndAddFileButton-addFileString": "העלה והוסף קובץ",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "קבל סימניות PDF",
 		"vsdv-textSearchPanel-pageLabel": "דף",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "קבל משאב תמונה",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "הופעת סימן עריכת PDF",
 		"vsdv-pdfImageResourceDialog-title": "משאב תמונת PDF",
 		"vsdv-pdfImageResourcePanel-bytes": " בתים",
-		"vsdv-exportFileSettingsDialog-title": "ייצוא הגדרות קובץ",
+		"vsdv-exportFileSettingsDialog-title": "ההגדרות לייצוא הקובץ",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "הגדרות של סימני עריכת PDF"
 	}
 }

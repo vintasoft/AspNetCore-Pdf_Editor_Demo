@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Redaksie"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Laai lêer af en maak oop"
 		},
 		"previousUploadFilesButton": {
 			"title": "Bekyk 'n lys van voorheen afgelaaide lêers"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Laai prentlêer op en maak oop volgens URL"
+		"uploadAndAddFileButton": {
+			"title": "Laai op en voeg lêer by"
+		},
+		"openFileFromUrlButton": {
+			"title": "Maak lêer oop vanaf URL"
 		},
 		"printImagesButton": {
 			"title": "Druk prente"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Voer en laai lêer af"
+		},
+		"clearSessionCacheButton": {
+			"title": "Vee sessiekas uit"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Pas by breedte"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Zoom in"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Agtergrondkleur:"
-			},
-			"borderColorLabel": {
-				"text": "Randkleur:"
-			},
-			"selectedRectLabel": {
-				"text": "Geselekteerde reg:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Breedte:"
-			},
-			"rectHeightLabel": {
-				"text": "Hoogte:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normaal"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Laat meervoudige kleinkiekies toe:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Gebruik merkblokkies vir kleinkiekie:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Gebruik handelingepaneel vir kleinkiekie:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Kan duimnaels sleep:"
 			},
@@ -668,7 +654,7 @@
 				"text": "Lêerformaat:"
 			},
 			"savePagesLabel": {
-				"text": "Stoor bladsye:"
+				"text": "Stoor die bladsye:"
 			},
 			"allPagesOption": {
 				"text": "Alle bladsye"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Kanselleer"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Draai aansig kloksgewys"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Draai aansig antikloksgewys"
+		},
+		"removeImagesButton": {
+			"text": "Verwyder beelde"
+		},
+		"moveImageUpButton": {
+			"text": "Skuif prent op"
+		},
+		"moveImageDownButton": {
+			"text": "Skuif prent af"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Laai leêr op",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Laai lêer af en maak oop",
+		"vsdv-uploadAndAddFileButton-addFileString": "Laai op en voeg lêer by",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Kry PDF-boekmerke",
 		"vsdv-textSearchPanel-pageLabel": "Bladsy",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Kry beeldhulpbron",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF redaksie merk voorkoms",
 		"vsdv-pdfImageResourceDialog-title": "PDF beeld hulpbron",
 		"vsdv-pdfImageResourcePanel-bytes": " grepe",
-		"vsdv-exportFileSettingsDialog-title": "Voer lêerinstellings uit",
+		"vsdv-exportFileSettingsDialog-title": "Die instellings om lêer uit te voer",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF redaksie merk instellings"
 	}
 }

@@ -168,9 +168,16 @@ function __initSidePanel(docViewerSettings) {
     // get the thumbnail viewer panel of document viewer
     var thumbnailViewerPanel = items.getItemByRegisteredId("thumbnailViewerPanel");
     // if panel is found
-    if (thumbnailViewerPanel != null)
+    if (thumbnailViewerPanel != null) {
         // subscribe to the "actived" event of the thumbnail viewer panel of document viewer
         Vintasoft.Shared.subscribeToEvent(thumbnailViewerPanel, "activated", __thumbnailsPanelActivated);
+        // enable ability to delete thumbnails
+        thumbnailViewerPanel.set_CanDeleteThumbnailsUsingContextMenu(true);
+        // enable ability to set custom thumbnail rotation
+        thumbnailViewerPanel.set_CanSetCustomViewRotationUsingContextMenu(true);
+        // enable ability to move thumbnail
+        thumbnailViewerPanel.set_CanMoveThumbnailUsingContextMenu(true);
+    }
 }
 
 /**
@@ -470,6 +477,12 @@ function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     var exportFileSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebExportFileSettingsDialogJS();
     exportFileSettingsDialog.render(floatingContainer);
     tempDialogs.push(exportFileSettingsDialog);
+
+    
+    // create thumbnail viewer context menu panel
+    var thumbnailViewerContextMenu = new Vintasoft.Imaging.DocumentViewer.UIElements.WebThumbnailViewerContextMenuJS(_docViewer._thumbnailViewer, {});
+    thumbnailViewerContextMenu.render(floatingContainer);
+    tempDialogs.push(thumbnailViewerContextMenu);
 }
 
 /**
@@ -527,6 +540,7 @@ function __main() {
     // specify that document viewer should show "Export and download file" button instead of "Download file" button
     docViewerSettings.set_CanExportAndDownloadFile(true);
     docViewerSettings.set_CanDownloadFile(false);
+    docViewerSettings.set_CanClearSessionCache(true);
 
     // initialize main menu of document viewer
     __initMenu(docViewerSettings);

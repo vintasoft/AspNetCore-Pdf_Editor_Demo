@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Redação"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Baixe e abra o arquivo"
 		},
 		"previousUploadFilesButton": {
 			"title": "Ver uma lista de arquivos baixados anteriormente"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Carregar e abrir arquivo de imagem por URL"
+		"uploadAndAddFileButton": {
+			"title": "Carregar e adicionar arquivo"
+		},
+		"openFileFromUrlButton": {
+			"title": "Abrir arquivo do URL"
 		},
 		"printImagesButton": {
 			"title": "imprimir imagens"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportar e baixar arquivo"
+		},
+		"clearSessionCacheButton": {
+			"title": "Limpar cache da sessão"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Ajustar à largura"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Aumentar o zoom"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Cor de fundo:"
-			},
-			"borderColorLabel": {
-				"text": "Cor da Borda:"
-			},
-			"selectedRectLabel": {
-				"text": "Reto selecionado:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Largura:"
-			},
-			"rectHeightLabel": {
-				"text": "Altura:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Permitir seleção de várias miniaturas:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Use caixas de seleção para miniaturas:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Use o painel de ações para miniaturas:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Pode arrastar miniaturas:"
 			},
@@ -668,7 +654,7 @@
 				"text": "Formato de arquivo:"
 			},
 			"savePagesLabel": {
-				"text": "Salvar páginas:"
+				"text": "Salve as páginas:"
 			},
 			"allPagesOption": {
 				"text": "Todas as páginas"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Cancelar"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Girar visualização no sentido horário"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Girar visualização no sentido anti-horário"
+		},
+		"removeImagesButton": {
+			"text": "Remover imagens"
+		},
+		"moveImageUpButton": {
+			"text": "Mover imagem para cima"
+		},
+		"moveImageDownButton": {
+			"text": "Mover imagem para baixo"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Subir arquivo",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Baixe e abra o arquivo",
+		"vsdv-uploadAndAddFileButton-addFileString": "Carregar e adicionar arquivo",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Obtenha marcadores de PDF",
 		"vsdv-textSearchPanel-pageLabel": "Página",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Obtenha recurso de imagem",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Aparência da marca de redação do PDF",
 		"vsdv-pdfImageResourceDialog-title": "Recurso de imagem PDF",
 		"vsdv-pdfImageResourcePanel-bytes": " bytes",
-		"vsdv-exportFileSettingsDialog-title": "Exportar configurações de arquivo",
+		"vsdv-exportFileSettingsDialog-title": "As configurações para exportar arquivo",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Configurações de marca de redação de PDF"
 	}
 }

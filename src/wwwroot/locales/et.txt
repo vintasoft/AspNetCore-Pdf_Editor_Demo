@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Redaktsioon"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Laadige üles ja avage fail"
 		},
 		"previousUploadFilesButton": {
 			"title": "Varem üleslaaditud failid"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Laadige üles ja avage pildifail URL-i järgi"
+		"uploadAndAddFileButton": {
+			"title": "Laadige üles ja lisage fail"
+		},
+		"openFileFromUrlButton": {
+			"title": "Ava fail URL-ist"
 		},
 		"printImagesButton": {
 			"title": "Printige pilte"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Faili eksportimine ja allalaadimine"
+		},
+		"clearSessionCacheButton": {
+			"title": "Tühjendage seansi vahemälu"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Sobivad laiusele"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Suurenda"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Selja värv:"
-			},
-			"borderColorLabel": {
-				"text": "Äärise värv:"
-			},
-			"selectedRectLabel": {
-				"text": "Valitud rekt:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Laius:"
-			},
-			"rectHeightLabel": {
-				"text": "Kõrgus:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Tavaline"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Mitmikvalimine:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Kasutage pisipiltide jaoks märkeruutusid:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Kasutage pisipiltide jaoks toimingute paneeli:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Pisipilte saab lohistada:"
 			},
@@ -668,7 +654,7 @@
 				"text": "Failiformaat:"
 			},
 			"savePagesLabel": {
-				"text": "Salvesta lehed:"
+				"text": "Salvestage lehed:"
 			},
 			"allPagesOption": {
 				"text": "Kõik lehed"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Tühista"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Pöörake vaadet päripäeva"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Pöörake vaadet vastupäeva"
+		},
+		"removeImagesButton": {
+			"text": "Eemaldage pildid"
+		},
+		"moveImageUpButton": {
+			"text": "Liigutage pilti üles"
+		},
+		"moveImageDownButton": {
+			"text": "Liigutage pilti alla"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Faili üles laadima",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Laadige üles ja avage fail",
+		"vsdv-uploadAndAddFileButton-addFileString": "Laadige üles ja lisage fail",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Hangi PDF-järjehoidjad",
 		"vsdv-textSearchPanel-pageLabel": "Lehekülg",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Hangi pildiressurss",
@@ -716,14 +718,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Kohandatud",
 		"vsdv-printImagesDialog-title": "Printige pilte",
 		"vsdv-printImagesPanel-imagePrintingString": "Pilt prinditakse",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "annotatsioonidega",
 		"vsdv-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
 		"vsdv-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF-i redigeerimismärgi välimus",
 		"vsdv-pdfImageResourceDialog-title": "PDF-pildi ressurss",
 		"vsdv-pdfImageResourcePanel-bytes": " baiti",
-		"vsdv-exportFileSettingsDialog-title": "Ekspordi faili sätted",
+		"vsdv-exportFileSettingsDialog-title": "Faili eksportimise sätted",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF-i redigeerimismärgi seaded"
 	}
 }

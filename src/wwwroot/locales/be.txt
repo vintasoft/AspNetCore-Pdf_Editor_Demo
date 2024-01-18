@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Рэдакцыя"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Загрузіць і адкрыць файл"
 		},
 		"previousUploadFilesButton": {
 			"title": "Раней загружаныя файлы"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Загрузіце і адкрыйце файл выявы па URL"
+		"uploadAndAddFileButton": {
+			"title": "Загрузіць і дадаць файл"
+		},
+		"openFileFromUrlButton": {
+			"title": "Адкрыць файл з URL"
 		},
 		"printImagesButton": {
 			"title": "Друк малюнкаў"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Экспартаваць і спампаваць файл"
+		},
+		"clearSessionCacheButton": {
+			"title": "Ачысціць кэш сеанса"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Падганяць па шырыні"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Павялічыць"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Колер спінкі:"
-			},
-			"borderColorLabel": {
-				"text": "Колер мяжы:"
-			},
-			"selectedRectLabel": {
-				"text": "Выбраны прамы:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Шырыня:"
-			},
-			"rectHeightLabel": {
-				"text": "Рост:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Нармальны"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Множны выбар:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Выкарыстоўвайце сцяжкі для мініяцюр:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Выкарыстоўвайце панэль дзеянняў для мініяцюры:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Можна перацягваць эскізы:"
 			},
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Адмяніць"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Павярнуць выгляд па гадзіннікавай стрэлцы"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Павярнуць выгляд супраць гадзіннікавай стрэлкі"
+		},
+		"removeImagesButton": {
+			"text": "Выдаліць выявы"
+		},
+		"moveImageUpButton": {
+			"text": "Перамясціць малюнак уверх"
+		},
+		"moveImageDownButton": {
+			"text": "Перамясціць выяву ўніз"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Загрузіць файл",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузіць і адкрыць файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Загрузіць і дадаць файл",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Атрымаць закладкі PDF",
 		"vsdv-textSearchPanel-pageLabel": "старонка",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Атрымаць рэсурс выявы",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Выгляд знака рэдагавання PDF",
 		"vsdv-pdfImageResourceDialog-title": "PDF рэсурс малюнкаў",
 		"vsdv-pdfImageResourcePanel-bytes": " байт",
-		"vsdv-exportFileSettingsDialog-title": "Экспарт налад файла",
+		"vsdv-exportFileSettingsDialog-title": "Налады для экспарту файла",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Налады знака рэдагавання PDF"
 	}
 }

@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Redakcija"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Augšupielādējiet un atveriet failu"
 		},
 		"previousUploadFilesButton": {
 			"title": "Iepriekš augšupielādētie faili"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Augšupielādējiet un atveriet attēla failu pēc URL"
+		"uploadAndAddFileButton": {
+			"title": "Augšupielādējiet un pievienojiet failu"
+		},
+		"openFileFromUrlButton": {
+			"title": "Atveriet failu no URL"
 		},
 		"printImagesButton": {
 			"title": "Drukāt attēlus"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Eksportēt un lejupielādēt failu"
+		},
+		"clearSessionCacheButton": {
+			"title": "Notīrīt sesijas kešatmiņu"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Piemērots platumam"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Pietuvināt"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Muguras krāsa:"
-			},
-			"borderColorLabel": {
-				"text": "Apmales krāsa:"
-			},
-			"selectedRectLabel": {
-				"text": "Atlasīts taisni:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Platums:"
-			},
-			"rectHeightLabel": {
-				"text": "Augstums:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normāls"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Vairāku atlase:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Izmantojiet izvēles rūtiņas sīktēlam:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Izmantojiet darbību paneli sīktēlam:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Var vilkt sīktēlus:"
 			},
@@ -668,7 +654,7 @@
 				"text": "Faila formāts:"
 			},
 			"savePagesLabel": {
-				"text": "Saglabāt lapas:"
+				"text": "Saglabājiet lapas:"
 			},
 			"allPagesOption": {
 				"text": "Visas lapas"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Atcelt"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Pagriezt skatu pulksteņrādītāja virzienā"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Pagriezt skatu pretēji pulksteņrādītāja virzienam"
+		},
+		"removeImagesButton": {
+			"text": "Noņemiet attēlus"
+		},
+		"moveImageUpButton": {
+			"text": "Pārvietot attēlu uz augšu"
+		},
+		"moveImageDownButton": {
+			"text": "Pārvietot attēlu uz leju"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Augšupielādēt failu",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Augšupielādējiet un atveriet failu",
+		"vsdv-uploadAndAddFileButton-addFileString": "Augšupielādējiet un pievienojiet failu",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Iegūstiet PDF grāmatzīmes",
 		"vsdv-textSearchPanel-pageLabel": "Lappuse",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Iegūstiet attēla resursu",
@@ -716,14 +718,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Pielāgots",
 		"vsdv-printImagesDialog-title": "Drukāt attēlus",
 		"vsdv-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "ar anotācijām",
 		"vsdv-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
 		"vsdv-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF rediģēšanas zīmes izskats",
 		"vsdv-pdfImageResourceDialog-title": "PDF attēlu resurss",
 		"vsdv-pdfImageResourcePanel-bytes": " baiti",
-		"vsdv-exportFileSettingsDialog-title": "Eksportēt faila iestatījumus",
+		"vsdv-exportFileSettingsDialog-title": "Faila eksportēšanas iestatījumi",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF rediģēšanas atzīmju iestatījumi"
 	}
 }

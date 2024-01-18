@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Redaksiya"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Faylı yükləyin və açın"
 		},
 		"previousUploadFilesButton": {
 			"title": "Əvvəllər yüklənmiş fayllar"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "URL ilə şəkil faylını yükləyin və açın"
+		"uploadAndAddFileButton": {
+			"title": "Fayl yükləyin və əlavə edin"
+		},
+		"openFileFromUrlButton": {
+			"title": "URL-dən faylı açın"
 		},
 		"printImagesButton": {
 			"title": "Şəkilləri çap edin"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Faylı ixrac edin və yükləyin"
+		},
+		"clearSessionCacheButton": {
+			"title": "Sessiya önbelleğini təmizləyin"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Genişliyə uyğun"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Yaxınlaşdırma"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Arxa rəng:"
-			},
-			"borderColorLabel": {
-				"text": "Haşiyə rəngi:"
-			},
-			"selectedRectLabel": {
-				"text": "Seçilmiş rekt:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Eni:"
-			},
-			"rectHeightLabel": {
-				"text": "Hündürlük:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Çoxseçim:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Miniatür üçün qeyd xanalarından istifadə edin:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Miniatür üçün əməliyyatlar panelindən istifadə edin:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Miniatürləri sürükləyə bilər:"
 			},
@@ -668,7 +654,7 @@
 				"text": "Fayl formatı:"
 			},
 			"savePagesLabel": {
-				"text": "Səhifələri yadda saxla:"
+				"text": "Səhifələri yadda saxlayın:"
 			},
 			"allPagesOption": {
 				"text": "Bütün səhifələr"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Ləğv et"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Görünüşü saat yönünde çevirin"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Görünüşü saat yönünün əksinə çevirin"
+		},
+		"removeImagesButton": {
+			"text": "Şəkilləri silin"
+		},
+		"moveImageUpButton": {
+			"text": "Şəkli yuxarı köçürün"
+		},
+		"moveImageDownButton": {
+			"text": "Şəkli aşağı köçürün"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Fayl yükləyin",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faylı yükləyin və açın",
+		"vsdv-uploadAndAddFileButton-addFileString": "Fayl yükləyin və əlavə edin",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "PDF əlfəcinləri əldə edin",
 		"vsdv-textSearchPanel-pageLabel": "Səhifə",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Şəkil mənbəyi əldə edin",
@@ -716,14 +718,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Xüsusi",
 		"vsdv-printImagesDialog-title": "Şəkilləri çap edin",
 		"vsdv-printImagesPanel-imagePrintingString": "Şəkil çap olunur",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "annotasiyalarla",
 		"vsdv-imageViewerSettingsDialog-title": "Şəkillərə baxmaq parametrləri",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatür baxıcı parametrləri",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiyaları göstərin:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF redaktəsi işarəsinin görünüşü",
 		"vsdv-pdfImageResourceDialog-title": "Pdf şəkil resursu",
 		"vsdv-pdfImageResourcePanel-bytes": " bayt",
-		"vsdv-exportFileSettingsDialog-title": "Fayl parametrlərini ixrac edin",
+		"vsdv-exportFileSettingsDialog-title": "Faylı ixrac etmək üçün parametrlər",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF redaktə nişanı parametrləri"
 	}
 }

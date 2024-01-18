@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Redaksjon"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Last ned og åpne filen"
 		},
 		"previousUploadFilesButton": {
 			"title": "Vis en liste over tidligere nedlastede filer"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Last opp og åpne bildefilen med URL"
+		"uploadAndAddFileButton": {
+			"title": "Last opp og legg til fil"
+		},
+		"openFileFromUrlButton": {
+			"title": "Åpne filen fra URL"
 		},
 		"printImagesButton": {
 			"title": "Skriv ut bilder"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Eksporter og last ned fil"
+		},
+		"clearSessionCacheButton": {
+			"title": "Tøm øktbufferen"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Tilpass til bredde"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Zoom inn"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Bakgrunnsfarge:"
-			},
-			"borderColorLabel": {
-				"text": "Kantfarge:"
-			},
-			"selectedRectLabel": {
-				"text": "Valgt rekt:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Bredde:"
-			},
-			"rectHeightLabel": {
-				"text": "Høyde:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Tillat valg av flere miniatyrbilder:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Bruk avmerkingsbokser for miniatyrbilde:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Bruk handlingspanelet for miniatyrbilde:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Kan dra miniatyrbilder:"
 			},
@@ -668,7 +654,7 @@
 				"text": "Filformat:"
 			},
 			"savePagesLabel": {
-				"text": "Lagre sider:"
+				"text": "Lagre sidene:"
 			},
 			"allPagesOption": {
 				"text": "Alle sider"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Avbryt"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Roter visningen med klokken"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Roter visningen mot klokken"
+		},
+		"removeImagesButton": {
+			"text": "Fjern bilder"
+		},
+		"moveImageUpButton": {
+			"text": "Flytt bildet opp"
+		},
+		"moveImageDownButton": {
+			"text": "Flytt bildet ned"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Last opp fil",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Last ned og åpne filen",
+		"vsdv-uploadAndAddFileButton-addFileString": "Last opp og legg til fil",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Få PDF-bokmerker",
 		"vsdv-textSearchPanel-pageLabel": "Side",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Få bilderessurs",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Utseende av PDF-redaksjonsmerke",
 		"vsdv-pdfImageResourceDialog-title": "PDF bilderessurs",
 		"vsdv-pdfImageResourcePanel-bytes": " bytes",
-		"vsdv-exportFileSettingsDialog-title": "Eksporter filinnstillinger",
+		"vsdv-exportFileSettingsDialog-title": "Innstillingene for å eksportere filen",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Innstillinger for PDF-redaksjonsmerke"
 	}
 }

@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Sự biên tập"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Tải xuống và mở tệp"
 		},
 		"previousUploadFilesButton": {
 			"title": "Xem danh sách các tệp đã tải xuống trước đó"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Tải lên và mở tệp hình ảnh bằng URL"
+		"uploadAndAddFileButton": {
+			"title": "Tải lên và thêm tập tin"
+		},
+		"openFileFromUrlButton": {
+			"title": "Mở tệp từ URL"
 		},
 		"printImagesButton": {
 			"title": "In ảnh"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Xuất và tải xuống tệp"
+		},
+		"clearSessionCacheButton": {
+			"title": "Xóa bộ nhớ đệm phiên"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Vừa với Chiều rộng"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Phóng to"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Màu nền:"
-			},
-			"borderColorLabel": {
-				"text": "Màu đường viền:"
-			},
-			"selectedRectLabel": {
-				"text": "Trực tiếp được chọn:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Chiều rộng:"
-			},
-			"rectHeightLabel": {
-				"text": "Chiều cao:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Bình thường"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Cho phép lựa chọn nhiều hình thu nhỏ:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Sử dụng các hộp kiểm cho hình thu nhỏ:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Sử dụng bảng hành động cho hình thu nhỏ:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Có thể kéo hình thu nhỏ:"
 			},
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Hủy"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Xoay chế độ xem theo chiều kim đồng hồ"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Xoay chế độ xem ngược chiều kim đồng hồ"
+		},
+		"removeImagesButton": {
+			"text": "Xóa hình ảnh"
+		},
+		"moveImageUpButton": {
+			"text": "Di chuyển hình ảnh lên"
+		},
+		"moveImageDownButton": {
+			"text": "Di chuyển hình ảnh xuống"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Cập nhật dử liệu",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Tải xuống và mở tệp",
+		"vsdv-uploadAndAddFileButton-addFileString": "Tải lên và thêm tập tin",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Nhận dấu trang PDF",
 		"vsdv-textSearchPanel-pageLabel": "Trang",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Nhận tài nguyên hình ảnh",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Xuất hiện dấu hiệu chỉnh sửa PDF",
 		"vsdv-pdfImageResourceDialog-title": "Tài nguyên hình ảnh PDF",
 		"vsdv-pdfImageResourcePanel-bytes": " byte",
-		"vsdv-exportFileSettingsDialog-title": "Xuất cài đặt tập tin",
+		"vsdv-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Cài đặt dấu hiệu chỉnh sửa PDF"
 	}
 }

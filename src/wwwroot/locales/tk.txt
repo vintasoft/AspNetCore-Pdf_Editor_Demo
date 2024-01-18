@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Azaltmak"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Faýly ýükläň we açyň"
 		},
 		"previousUploadFilesButton": {
 			"title": "Öň ýüklenen faýllar"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Surat faýlyny URL boýunça ýükläň we açyň"
+		"uploadAndAddFileButton": {
+			"title": "Faýl ýükläň we goşuň"
+		},
+		"openFileFromUrlButton": {
+			"title": "URL-den faýl açyň"
 		},
 		"printImagesButton": {
 			"title": "Suratlary çap ediň"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Faýly eksport ediň we göçürip alyň"
+		},
+		"clearSessionCacheButton": {
+			"title": "Sessiýa keşini arassalaň"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Inine laýyk"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Ýakynlaşdyrmak"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Yzky reňk:"
-			},
-			"borderColorLabel": {
-				"text": "Serhet reňki:"
-			},
-			"selectedRectLabel": {
-				"text": "Saýlanan göni:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Giňligi:"
-			},
-			"rectHeightLabel": {
-				"text": "Boý:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Adaty"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Köp saýlaw:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Eskiz üçin bellik gutularyny ulanyň:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Eskiz üçin hereketler panelini ulanyň:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Suratlary süýräp biler:"
 			},
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Elatyr"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Görnüşi sagat ugruna öwüriň"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Görnüşi sagat tersine öwüriň"
+		},
+		"removeImagesButton": {
+			"text": "Suratlary aýyryň"
+		},
+		"moveImageUpButton": {
+			"text": "Suraty ýokaryk galdyryň"
+		},
+		"moveImageDownButton": {
+			"text": "Suraty aşak süýşüriň"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Faýl ýükläň",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faýly ýükläň we açyň",
+		"vsdv-uploadAndAddFileButton-addFileString": "Faýl ýükläň we goşuň",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "PDF belliklerini alyň",
 		"vsdv-textSearchPanel-pageLabel": "Sahypa",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Surat çeşmesini alyň",
@@ -716,14 +718,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Omörite",
 		"vsdv-printImagesDialog-title": "Suratlary çap ediň",
 		"vsdv-printImagesPanel-imagePrintingString": "Surat çap edilýär",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "düşündirişler bilen",
 		"vsdv-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
 		"vsdv-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF redaksiýa belliginiň daşky görnüşi",
 		"vsdv-pdfImageResourceDialog-title": "PDF şekil çeşmesi",
 		"vsdv-pdfImageResourcePanel-bytes": " baýt",
-		"vsdv-exportFileSettingsDialog-title": "Faýl sazlamalaryny eksport ediň",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF redaksiýa belliginiň sazlamalary"
+		"vsdv-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar",
+		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF redaktirleme belligi sazlamalary"
 	}
 }

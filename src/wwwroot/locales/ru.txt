@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Редакция"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Загрузить и открыть файл"
 		},
 		"previousUploadFilesButton": {
 			"title": "Посмотреть список ранее загруженных файлов"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Загрузить и откройть файл изображения по URL-адресу"
+		"uploadAndAddFileButton": {
+			"title": "Загрузите и добавьте файл"
+		},
+		"openFileFromUrlButton": {
+			"title": "Открыть файл по URL"
 		},
 		"printImagesButton": {
 			"title": "Распечатать изображения"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Экспортировать и скачать файл"
+		},
+		"clearSessionCacheButton": {
+			"title": "Очистить кэш сеанса"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "По ширине"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Увеличить масштаб"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Цвет фона:"
-			},
-			"borderColorLabel": {
-				"text": "Цвет границы:"
-			},
-			"selectedRectLabel": {
-				"text": "Выбранный прямоугольник:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Ширина:"
-			},
-			"rectHeightLabel": {
-				"text": "Высота:"
-			},
-			"okButton": {
-				"value": "[EN]"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Нормальный"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Разрешить выбор нескольких миниатюр:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Используйте флажки для миниатюр:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Используйте панель действий для миниатюр:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Можно перетаскивать миниатюры:"
 			},
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Отмена"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Повернуть вид по часовой стрелке"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Повернуть вид против часовой стрелки"
+		},
+		"removeImagesButton": {
+			"text": "Удалить изображения"
+		},
+		"moveImageUpButton": {
+			"text": "Переместить изображение вверх"
+		},
+		"moveImageDownButton": {
+			"text": "Переместить изображение вниз"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Загрузить файл",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузить и открыть файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Загрузите и добавьте файл",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Получить PDF-закладки",
 		"vsdv-textSearchPanel-pageLabel": "Страница",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Получить ресурс изображения",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Внешний вид PDF редакторской метки",
 		"vsdv-pdfImageResourceDialog-title": "Ресурс PDF-изображения",
 		"vsdv-pdfImageResourcePanel-bytes": " байты",
-		"vsdv-exportFileSettingsDialog-title": "Экспортируйте настройки файла",
+		"vsdv-exportFileSettingsDialog-title": "Настройки для экспорта файла",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "Настройки метки редактирования PDF"
 	}
 }

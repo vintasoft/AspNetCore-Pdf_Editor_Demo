@@ -12,14 +12,17 @@
 		"redactionLabel": {
 			"text": "Szerkesztés"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Fájl letöltése és megnyitása"
 		},
 		"previousUploadFilesButton": {
 			"title": "A korábban letöltött fájlok listájának megtekintése"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Töltse fel és nyissa meg a képfájlt URL-cím szerint"
+		"uploadAndAddFileButton": {
+			"title": "Fájl feltöltése és hozzáadása"
+		},
+		"openFileFromUrlButton": {
+			"title": "Fájl megnyitása az URL-ből"
 		},
 		"printImagesButton": {
 			"title": "Képek nyomtatása"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Fájl exportálása és letöltése"
+		},
+		"clearSessionCacheButton": {
+			"title": "A munkamenet gyorsítótárának törlése"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Szélességhez igazítás"
@@ -193,32 +199,6 @@
 		},
 		"zoomInButton": {
 			"title": "Nagyítás"
-		},
-		"pdfRedactionMarkSettingsDialog": {
-			"backColorLabel": {
-				"text": "Háttérszín:"
-			},
-			"borderColorLabel": {
-				"text": "Szegély színe:"
-			},
-			"selectedRectLabel": {
-				"text": "Kiválasztott egyenes:"
-			},
-			"rectXLabel": {
-				"text": "X:"
-			},
-			"rectYLabel": {
-				"text": "Y:"
-			},
-			"rectWidthLabel": {
-				"text": "Szélesség:"
-			},
-			"rectHeightLabel": {
-				"text": "Magasság:"
-			},
-			"okButton": {
-				"value": "ОК"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normál"
@@ -565,6 +545,12 @@
 			"multiSelectLabel": {
 				"text": "Több indexkép kiválasztásának engedélyezése:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Használjon jelölőnégyzeteket az indexképhez:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "A műveletek panel használata indexképhez:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Bélyegképek húzása:"
 			},
@@ -668,7 +654,7 @@
 				"text": "Fájlformátum:"
 			},
 			"savePagesLabel": {
-				"text": "Oldalak mentése:"
+				"text": "Mentse el az oldalakat:"
 			},
 			"allPagesOption": {
 				"text": "Minden oldal"
@@ -691,10 +677,26 @@
 			"cancelButton": {
 				"value": "Mégse"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Nézet forgatása az óramutató járásával megegyező irányba"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Nézet elforgatása az óramutató járásával ellentétes irányba"
+		},
+		"removeImagesButton": {
+			"text": "Képek eltávolítása"
+		},
+		"moveImageUpButton": {
+			"text": "Kép mozgatása felfelé"
+		},
+		"moveImageDownButton": {
+			"text": "Kép mozgatása lefelé"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Fájl feltöltés",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Fájl letöltése és megnyitása",
+		"vsdv-uploadAndAddFileButton-addFileString": "Fájl feltöltése és hozzáadása",
 		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "PDF könyvjelzők beszerzése",
 		"vsdv-textSearchPanel-pageLabel": "Oldal",
 		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Képforrás beszerzése",
@@ -723,7 +725,7 @@
 		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF szerkesztési jel megjelenése",
 		"vsdv-pdfImageResourceDialog-title": "PDF képforrás",
 		"vsdv-pdfImageResourcePanel-bytes": " bájtok",
-		"vsdv-exportFileSettingsDialog-title": "Fájlbeállítások exportálása",
+		"vsdv-exportFileSettingsDialog-title": "A fájl exportálásának beállításai",
 		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF szerkesztési jel beállításai"
 	}
 }
