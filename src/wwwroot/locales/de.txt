@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Abbrechen"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Ansicht im Uhrzeigersinn drehen"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Ansicht gegen den Uhrzeigersinn drehen"
-		},
-		"removeImagesButton": {
-			"text": "Bilder entfernen"
-		},
-		"moveImageUpButton": {
-			"text": "Bild nach oben verschieben"
-		},
-		"moveImageDownButton": {
-			"text": "Bild nach unten verschieben"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Speichern Sie Änderungen in Anmerkungen",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brennen Sie Anmerkungen zu Bildern",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Änderungen im PDF-Dokument speichern",
+		"vsdv-uploadFileButton-uploadFileString": "Datei hochladen",
 		"vsdv-documentPasswordDialog-title": "Dokumentpasswort",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Abbrechen",

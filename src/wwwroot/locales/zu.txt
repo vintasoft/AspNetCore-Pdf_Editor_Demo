@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Khansela"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Zungezisa ukubuka ngokwewashi"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Zungezisa ukubuka ngokuphikisana newashi"
-		},
-		"removeImagesButton": {
-			"text": "Susa izithombe"
-		},
-		"moveImageUpButton": {
-			"text": "Hambisa isithombe phezulu"
-		},
-		"moveImageDownButton": {
-			"text": "Hambisa isithombe phansi"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Londoloza izinguquko ezichasiselweni",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Shisa izichasiselo ezithombeni",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Layisha ifayela",
 		"vsdv-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
 		"vsdv-dialog-okButton": "KULUNGILE",
 		"vsdv-dialog-cancelButton": "Khansela",

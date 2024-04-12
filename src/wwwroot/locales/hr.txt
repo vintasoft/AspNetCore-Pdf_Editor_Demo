@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Odustani"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Zakreni pogled u smjeru kazaljke na satu"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Zakreni prikaz u smjeru suprotnom od kazaljke na satu"
-		},
-		"removeImagesButton": {
-			"text": "Ukloni slike"
-		},
-		"moveImageUpButton": {
-			"text": "Pomakni sliku gore"
-		},
-		"moveImageDownButton": {
-			"text": "Pomakni sliku prema dolje"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Spremi promjene u komentarima",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Snimite komentare na slike",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Spremi promjene u PDF dokumentu",
+		"vsdv-uploadFileButton-uploadFileString": "Učitaj datoteku",
 		"vsdv-documentPasswordDialog-title": "Lozinka dokumenta",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Odustani",

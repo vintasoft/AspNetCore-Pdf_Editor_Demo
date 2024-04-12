@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Atšaukti"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Sukti vaizdą pagal laikrodžio rodyklę"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Pasukti vaizdą prieš laikrodžio rodyklę"
-		},
-		"removeImagesButton": {
-			"text": "Pašalinti vaizdus"
-		},
-		"moveImageUpButton": {
-			"text": "Perkelti vaizdą aukštyn"
-		},
-		"moveImageDownButton": {
-			"text": "Perkelti vaizdą žemyn"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Išsaugokite komentarų pakeitimus",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Įrašykite komentarus ant vaizdų",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Išsaugokite pakeitimus PDF dokumente",
+		"vsdv-uploadFileButton-uploadFileString": "Įkelti failą",
 		"vsdv-documentPasswordDialog-title": "Dokumento slaptažodis",
 		"vsdv-dialog-okButton": "Gerai",
 		"vsdv-dialog-cancelButton": "Atšaukti",

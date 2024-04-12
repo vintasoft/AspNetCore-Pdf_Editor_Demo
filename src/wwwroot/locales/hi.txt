@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "रद्द करें"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "दृश्य को दक्षिणावर्त घुमाएँ"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "दृश्य को वामावर्त घुमाएँ"
-		},
-		"removeImagesButton": {
-			"text": "छवियाँ हटाएँ"
-		},
-		"moveImageUpButton": {
-			"text": "छवि को ऊपर ले जाएं"
-		},
-		"moveImageDownButton": {
-			"text": "छवि को नीचे ले जाएँ"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "एनोटेशन में परिवर्तन सहेजें",
 		"vsdv-saveChanges-burnAnnotationsInImages": "छवियों पर एनोटेशन जलाएँ",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "पीडीएफ दस्तावेज़ में परिवर्तन सहेजें",
+		"vsdv-uploadFileButton-uploadFileString": "फ़ाइल अपलोड करें",
 		"vsdv-documentPasswordDialog-title": "दस्तावेज़ पासवर्ड",
 		"vsdv-dialog-okButton": "ठीक है",
 		"vsdv-dialog-cancelButton": "रद्द करें",

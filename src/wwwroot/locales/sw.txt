@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Ghairi"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Zungusha mwonekano wa saa"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Zungusha mwonekano kinyume cha saa"
-		},
-		"removeImagesButton": {
-			"text": "Ondoa picha"
-		},
-		"moveImageUpButton": {
-			"text": "Sogeza picha juu"
-		},
-		"moveImageDownButton": {
-			"text": "Sogeza picha chini"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Hifadhi mabadiliko katika vidokezo",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Choma maelezo kwenye picha",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Hifadhi mabadiliko katika hati ya PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Pakia faili",
 		"vsdv-documentPasswordDialog-title": "Nenosiri la hati",
 		"vsdv-dialog-okButton": "sawa",
 		"vsdv-dialog-cancelButton": "Ghairi",

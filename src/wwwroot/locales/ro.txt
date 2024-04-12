@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Anulează"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Rotiți vizualizarea în sensul acelor de ceasornic"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Rotiți vizualizarea în sens invers acelor de ceasornic"
-		},
-		"removeImagesButton": {
-			"text": "Eliminați imaginile"
-		},
-		"moveImageUpButton": {
-			"text": "Mutați imaginea în sus"
-		},
-		"moveImageDownButton": {
-			"text": "Mutați imaginea în jos"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvați modificările în adnotări",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ardeți adnotări pe imagini",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvați modificările în documentul PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Incarca fisier",
 		"vsdv-documentPasswordDialog-title": "Parola documentului",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Anulează",

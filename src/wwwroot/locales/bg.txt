@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Отказ"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Завъртете изгледа по часовниковата стрелка"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Завъртете изгледа обратно на часовниковата стрелка"
-		},
-		"removeImagesButton": {
-			"text": "Премахване на изображения"
-		},
-		"moveImageUpButton": {
-			"text": "Преместване на изображението нагоре"
-		},
-		"moveImageDownButton": {
-			"text": "Преместете изображението надолу"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Запазете промените в анотациите",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Записване на анотации върху изображения",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Запазете промените в PDF документ",
+		"vsdv-uploadFileButton-uploadFileString": "Качи файл",
 		"vsdv-documentPasswordDialog-title": "Парола за документ",
 		"vsdv-dialog-okButton": "ОК",
 		"vsdv-dialog-cancelButton": "Отказ",

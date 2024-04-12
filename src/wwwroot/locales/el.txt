@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Ακύρωση"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Περιστρέψτε την προβολή δεξιόστροφα"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Περιστρέψτε την προβολή αριστερόστροφα"
-		},
-		"removeImagesButton": {
-			"text": "Αφαίρεση εικόνων"
-		},
-		"moveImageUpButton": {
-			"text": "Μετακίνηση εικόνας προς τα πάνω"
-		},
-		"moveImageDownButton": {
-			"text": "Μετακίνηση εικόνας προς τα κάτω"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Αποθηκεύστε τις αλλαγές στους σχολιασμούς",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Εγγραφή σχολιασμών σε εικόνες",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Αποθηκεύστε τις αλλαγές σε έγγραφο PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Ανέβασμα αρχείου",
 		"vsdv-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
 		"vsdv-dialog-okButton": "ΟΚ",
 		"vsdv-dialog-cancelButton": "Ακύρωση",

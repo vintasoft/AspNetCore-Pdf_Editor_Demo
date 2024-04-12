@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Mégse"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Nézet forgatása az óramutató járásával megegyező irányba"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Nézet elforgatása az óramutató járásával ellentétes irányba"
-		},
-		"removeImagesButton": {
-			"text": "Képek eltávolítása"
-		},
-		"moveImageUpButton": {
-			"text": "Kép mozgatása felfelé"
-		},
-		"moveImageDownButton": {
-			"text": "Kép mozgatása lefelé"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Mentse el a megjegyzések módosításait",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Írjon megjegyzéseket a képekre",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Mentse el a változtatásokat PDF dokumentumban",
+		"vsdv-uploadFileButton-uploadFileString": "Fájl feltöltés",
 		"vsdv-documentPasswordDialog-title": "Dokumentum jelszava",
 		"vsdv-dialog-okButton": "Rendben",
 		"vsdv-dialog-cancelButton": "Mégse",

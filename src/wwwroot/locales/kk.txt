@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Болдырмау"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Көріністі сағат тілімен бұрыңыз"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Көріністі сағат тіліне қарсы бұраңыз"
-		},
-		"removeImagesButton": {
-			"text": "Суреттерді жою"
-		},
-		"moveImageUpButton": {
-			"text": "Кескінді жоғары жылжытыңыз"
-		},
-		"moveImageDownButton": {
-			"text": "Кескінді төмен жылжытыңыз"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотациялардағы өзгерістерді сақтаңыз",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Суреттерге аннотацияларды жазу",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Өзгерістерді PDF құжатында сақтаңыз",
+		"vsdv-uploadFileButton-uploadFileString": "Файлды жүктеп салу",
 		"vsdv-documentPasswordDialog-title": "Құжат құпия сөзі",
 		"vsdv-dialog-okButton": "ЖАРАЙДЫ МА",
 		"vsdv-dialog-cancelButton": "Болдырмау",

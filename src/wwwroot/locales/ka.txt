@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "გაუქმება"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "ხედის როტაცია საათის ისრის მიმართულებით"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "ხედის როტაცია საათის ისრის საწინააღმდეგოდ"
-		},
-		"removeImagesButton": {
-			"text": "სურათების წაშლა"
-		},
-		"moveImageUpButton": {
-			"text": "სურათის გადატანა ზემოთ"
-		},
-		"moveImageDownButton": {
-			"text": "სურათის გადატანა ქვემოთ"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "შეინახეთ ცვლილებები ანოტაციებში",
 		"vsdv-saveChanges-burnAnnotationsInImages": "ჩაწერეთ ანოტაციები სურათებზე",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "შეინახეთ ცვლილებები PDF დოკუმენტში",
+		"vsdv-uploadFileButton-uploadFileString": "Ატვირთე ფაილი",
 		"vsdv-documentPasswordDialog-title": "დოკუმენტის პაროლი",
 		"vsdv-dialog-okButton": "კარგი",
 		"vsdv-dialog-cancelButton": "გაუქმება",

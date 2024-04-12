@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "取消"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "順時針旋轉視圖"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "逆時針旋轉視圖"
-		},
-		"removeImagesButton": {
-			"text": "刪除影像"
-		},
-		"moveImageUpButton": {
-			"text": "向上移動影像"
-		},
-		"moveImageDownButton": {
-			"text": "向下移動影像"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "保存注释中的更改",
 		"vsdv-saveChanges-burnAnnotationsInImages": "在图像上刻录注释",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "保存 PDF 文档中的更改",
+		"vsdv-uploadFileButton-uploadFileString": "上传文件",
 		"vsdv-documentPasswordDialog-title": "文档密码",
 		"vsdv-dialog-okButton": "好的",
 		"vsdv-dialog-cancelButton": "取消",

@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "בטל"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "סובב את התצוגה בכיוון השעון"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "סובב את התצוגה נגד כיוון השעון"
-		},
-		"removeImagesButton": {
-			"text": "הסר תמונות"
-		},
-		"moveImageUpButton": {
-			"text": "הזז את התמונה למעלה"
-		},
-		"moveImageDownButton": {
-			"text": "הזז את התמונה למטה"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "שמור שינויים בהערות",
 		"vsdv-saveChanges-burnAnnotationsInImages": "צריבת הערות על תמונות",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "שמור שינויים במסמך PDF",
+		"vsdv-uploadFileButton-uploadFileString": "העלה קובץ",
 		"vsdv-documentPasswordDialog-title": "סיסמת מסמך",
 		"vsdv-dialog-okButton": "בסדר",
 		"vsdv-dialog-cancelButton": "בטל",

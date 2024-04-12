@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Баш тарту"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Күренешне сәгать юлы белән әйләндерегез"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Күренешне сәгатенә каршы әйләндерегез"
-		},
-		"removeImagesButton": {
-			"text": "Рәсемнәрне бетерегез"
-		},
-		"moveImageUpButton": {
-			"text": "Рәсемне өскә күчерегез"
-		},
-		"moveImageDownButton": {
-			"text": "Рәсемне аска күчерегез"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотацияләрдәге үзгәрешләрне саклагыз",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Рәсемнәргә аннотацияләр яндырыгыз",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF документындагы үзгәрешләрне саклагыз",
+		"vsdv-uploadFileButton-uploadFileString": "Файлны йөкләү",
 		"vsdv-documentPasswordDialog-title": "Документ серсүзе",
 		"vsdv-dialog-okButton": "ЯРАРМЫ",
 		"vsdv-dialog-cancelButton": "Баш тарту",

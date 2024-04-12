@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Elatyr"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Görnüşi sagat ugruna öwüriň"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Görnüşi sagat tersine öwüriň"
-		},
-		"removeImagesButton": {
-			"text": "Suratlary aýyryň"
-		},
-		"moveImageUpButton": {
-			"text": "Suraty ýokaryk galdyryň"
-		},
-		"moveImageDownButton": {
-			"text": "Suraty aşak süýşüriň"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiýalarda üýtgeşmeleri ýazdyryň",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Suratlara düşündirişleri ýakyň",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF resminamasyndaky üýtgeşmeleri ýazdyryň",
+		"vsdv-uploadFileButton-uploadFileString": "Faýl ýükläň",
 		"vsdv-documentPasswordDialog-title": "Resminamanyň paroly",
 		"vsdv-dialog-okButton": "Bolýar",
 		"vsdv-dialog-cancelButton": "Elatyr",

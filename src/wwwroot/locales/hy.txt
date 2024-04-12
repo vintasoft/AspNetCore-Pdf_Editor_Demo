@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Չեղարկել"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Պտտեցնել դիտումը ժամացույցի սլաքի ուղղությամբ"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Պտտեցնել տեսքը ժամացույցի սլաքի հակառակ ուղղությամբ"
-		},
-		"removeImagesButton": {
-			"text": "Հեռացնել պատկերները"
-		},
-		"moveImageUpButton": {
-			"text": "Տեղափոխեք պատկերը վերև"
-		},
-		"moveImageDownButton": {
-			"text": "Տեղափոխեք պատկերը ներքև"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Պահպանեք փոփոխությունները ծանոթագրություններում",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Այրել ծանոթագրությունները պատկերների վրա",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Պահպանեք փոփոխությունները PDF փաստաթղթում",
+		"vsdv-uploadFileButton-uploadFileString": "Ներբեռնել ֆայլ",
 		"vsdv-documentPasswordDialog-title": "Փաստաթղթի գաղտնաբառը",
 		"vsdv-dialog-okButton": "լավ",
 		"vsdv-dialog-cancelButton": "Չեղարկել",

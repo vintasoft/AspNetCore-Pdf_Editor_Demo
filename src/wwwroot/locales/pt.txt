@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Cancelar"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Girar visualização no sentido horário"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Girar visualização no sentido anti-horário"
-		},
-		"removeImagesButton": {
-			"text": "Remover imagens"
-		},
-		"moveImageUpButton": {
-			"text": "Mover imagem para cima"
-		},
-		"moveImageDownButton": {
-			"text": "Mover imagem para baixo"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvar alterações nas anotações",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Gravar anotações em imagens",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvar alterações no documento PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Subir arquivo",
 		"vsdv-documentPasswordDialog-title": "Senha do documento",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Cancelar",

@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "İptal"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Görünümü saat yönünde döndür"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Görünümü saat yönünün tersine döndür"
-		},
-		"removeImagesButton": {
-			"text": "Resimleri kaldır"
-		},
-		"moveImageUpButton": {
-			"text": "Resmi yukarı taşı"
-		},
-		"moveImageDownButton": {
-			"text": "Resmi aşağı taşı"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Ek açıklamalardaki değişiklikleri kaydet",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Görüntülere ek açıklamalar yazın",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Değişiklikleri PDF belgesine kaydet",
+		"vsdv-uploadFileButton-uploadFileString": "Dosya yükleme",
 		"vsdv-documentPasswordDialog-title": "Belge parolası",
 		"vsdv-dialog-okButton": "Tamam",
 		"vsdv-dialog-cancelButton": "İptal",

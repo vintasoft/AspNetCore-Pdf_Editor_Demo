@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "キャンセル"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "ビューを時計回りに回転"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "ビューを反時計回りに回転"
-		},
-		"removeImagesButton": {
-			"text": "画像を削除する"
-		},
-		"moveImageUpButton": {
-			"text": "画像を上に移動"
-		},
-		"moveImageDownButton": {
-			"text": "画像を下に移動"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "注釈の変更を保存する",
 		"vsdv-saveChanges-burnAnnotationsInImages": "画像に注釈を書き込む",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF ドキュメントに変更を保存する",
+		"vsdv-uploadFileButton-uploadFileString": "ファイルをアップロードする",
 		"vsdv-documentPasswordDialog-title": "文書のパスワード",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "キャンセル",

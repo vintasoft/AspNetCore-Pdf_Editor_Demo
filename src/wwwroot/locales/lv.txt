@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Atcelt"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Pagriezt skatu pulksteņrādītāja virzienā"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Pagriezt skatu pretēji pulksteņrādītāja virzienam"
-		},
-		"removeImagesButton": {
-			"text": "Noņemiet attēlus"
-		},
-		"moveImageUpButton": {
-			"text": "Pārvietot attēlu uz augšu"
-		},
-		"moveImageDownButton": {
-			"text": "Pārvietot attēlu uz leju"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Saglabājiet izmaiņas anotācijās",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ierakstiet anotācijas uz attēliem",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Saglabājiet izmaiņas PDF dokumentā",
+		"vsdv-uploadFileButton-uploadFileString": "Augšupielādēt failu",
 		"vsdv-documentPasswordDialog-title": "Dokumenta parole",
 		"vsdv-dialog-okButton": "labi",
 		"vsdv-dialog-cancelButton": "Atcelt",

@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Tühista"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Pöörake vaadet päripäeva"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Pöörake vaadet vastupäeva"
-		},
-		"removeImagesButton": {
-			"text": "Eemaldage pildid"
-		},
-		"moveImageUpButton": {
-			"text": "Liigutage pilti üles"
-		},
-		"moveImageDownButton": {
-			"text": "Liigutage pilti alla"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvestage muudatused märkustes",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Kirjutage piltidele märkused",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvestage muudatused PDF-dokumenti",
+		"vsdv-uploadFileButton-uploadFileString": "Faili üles laadima",
 		"vsdv-documentPasswordDialog-title": "Dokumendi parool",
 		"vsdv-dialog-okButton": "Okei",
 		"vsdv-dialog-cancelButton": "Tühista",

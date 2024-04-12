@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Kanselleer"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Draai aansig kloksgewys"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Draai aansig antikloksgewys"
-		},
-		"removeImagesButton": {
-			"text": "Verwyder beelde"
-		},
-		"moveImageUpButton": {
-			"text": "Skuif prent op"
-		},
-		"moveImageDownButton": {
-			"text": "Skuif prent af"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Stoor veranderinge in aantekeninge",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brand aantekeninge op beelde",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Stoor veranderinge in PDF-dokument",
+		"vsdv-uploadFileButton-uploadFileString": "Laai leêr op",
 		"vsdv-documentPasswordDialog-title": "Dokumentwagwoord",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Kanselleer",

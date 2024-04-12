@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Скасувати"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Повернути перегляд за годинниковою стрілкою"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Обернути вигляд проти годинникової стрілки"
-		},
-		"removeImagesButton": {
-			"text": "Видаліть зображення"
-		},
-		"moveImageUpButton": {
-			"text": "Перемістити зображення вгору"
-		},
-		"moveImageDownButton": {
-			"text": "Перемістити зображення вниз"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Збережіть зміни в анотаціях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Запис анотацій на зображеннях",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Зберегти зміни в документі PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Завантажити файл",
 		"vsdv-documentPasswordDialog-title": "Пароль документа",
 		"vsdv-dialog-okButton": "В порядку",
 		"vsdv-dialog-cancelButton": "Скасувати",

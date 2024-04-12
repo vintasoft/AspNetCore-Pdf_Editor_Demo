@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "إلغاء"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "تدوير العرض في اتجاه عقارب الساعة"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "تدوير العرض عكس اتجاه عقارب الساعة"
-		},
-		"removeImagesButton": {
-			"text": "إزالة الصور"
-		},
-		"moveImageUpButton": {
-			"text": "حرك الصورة لأعلى"
-		},
-		"moveImageDownButton": {
-			"text": "نقل الصورة إلى أسفل"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "حفظ التغييرات في التعليقات التوضيحية",
 		"vsdv-saveChanges-burnAnnotationsInImages": "حرق التعليقات التوضيحية على الصور",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "حفظ التغييرات في وثيقة PDF",
+		"vsdv-uploadFileButton-uploadFileString": "رفع ملف",
 		"vsdv-documentPasswordDialog-title": "كلمة مرور المستند",
 		"vsdv-dialog-okButton": "موافق",
 		"vsdv-dialog-cancelButton": "إلغاء",

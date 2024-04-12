@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Hủy"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Xoay chế độ xem theo chiều kim đồng hồ"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Xoay chế độ xem ngược chiều kim đồng hồ"
-		},
-		"removeImagesButton": {
-			"text": "Xóa hình ảnh"
-		},
-		"moveImageUpButton": {
-			"text": "Di chuyển hình ảnh lên"
-		},
-		"moveImageDownButton": {
-			"text": "Di chuyển hình ảnh xuống"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Lưu các thay đổi trong chú thích",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ghi chú thích trên hình ảnh",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Lưu các thay đổi trong tài liệu PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Cập nhật dử liệu",
 		"vsdv-documentPasswordDialog-title": "Mật khẩu tài liệu",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Hủy",

@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Адмяніць"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Павярнуць выгляд па гадзіннікавай стрэлцы"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Павярнуць выгляд супраць гадзіннікавай стрэлкі"
-		},
-		"removeImagesButton": {
-			"text": "Выдаліць выявы"
-		},
-		"moveImageUpButton": {
-			"text": "Перамясціць малюнак уверх"
-		},
-		"moveImageDownButton": {
-			"text": "Перамясціць выяву ўніз"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Захаваць змены ў анатацыях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Запіс анатацый да малюнкаў",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Захаваць змены ў дакуменце PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Загрузіць файл",
 		"vsdv-documentPasswordDialog-title": "Пароль дакумента",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Адмяніць",

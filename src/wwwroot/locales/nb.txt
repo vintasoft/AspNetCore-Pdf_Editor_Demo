@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Avbryt"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Roter visningen med klokken"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Roter visningen mot klokken"
-		},
-		"removeImagesButton": {
-			"text": "Fjern bilder"
-		},
-		"moveImageUpButton": {
-			"text": "Flytt bildet opp"
-		},
-		"moveImageDownButton": {
-			"text": "Flytt bildet ned"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Lagre endringer i merknader",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brenn merknader på bilder",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Lagre endringer i PDF-dokument",
+		"vsdv-uploadFileButton-uploadFileString": "Last opp fil",
 		"vsdv-documentPasswordDialog-title": "Dokumentpassord",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Avbryt",

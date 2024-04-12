@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Peruuta"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Kierrä näkymää myötäpäivään"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Kierrä näkymää vastapäivään"
-		},
-		"removeImagesButton": {
-			"text": "Poista kuvat"
-		},
-		"moveImageUpButton": {
-			"text": "Siirrä kuvaa ylöspäin"
-		},
-		"moveImageDownButton": {
-			"text": "Siirrä kuvaa alas"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Tallenna muutokset huomautuksiin",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Polta kommentteja kuviin",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Tallenna muutokset PDF-dokumenttiin",
+		"vsdv-uploadFileButton-uploadFileString": "Lataa tiedosto",
 		"vsdv-documentPasswordDialog-title": "Asiakirjan salasana",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Peruuta",

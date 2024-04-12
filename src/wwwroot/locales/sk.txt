@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Zrušiť"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Otočiť pohľad v smere hodinových ručičiek"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Otočiť pohľad proti smeru hodinových ručičiek"
-		},
-		"removeImagesButton": {
-			"text": "Odstráňte obrázky"
-		},
-		"moveImageUpButton": {
-			"text": "Posunúť obrázok nahor"
-		},
-		"moveImageDownButton": {
-			"text": "Posunúť obrázok nadol"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Uložte zmeny v anotáciách",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Vypáliť anotácie na obrázkoch",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Uložte zmeny v dokumente PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Nahrajte súbor",
 		"vsdv-documentPasswordDialog-title": "Heslo dokumentu",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Zrušiť",

@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Бекор кардан"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Намоишро бо ақрабаки соат гардонед"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Намоишро ба муқобили ақрабаки соат гардонед"
-		},
-		"removeImagesButton": {
-			"text": "Тасвирҳоро нест кунед"
-		},
-		"moveImageUpButton": {
-			"text": "Тасвирро ба боло ҳаракат кунед"
-		},
-		"moveImageDownButton": {
-			"text": "Тасвирро ба поён ҳаракат кунед"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Тағиротро дар шарҳҳо захира кунед",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Аннотацияҳоро дар тасвирҳо сӯзонед",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Тағиротро дар ҳуҷҷати PDF захира кунед",
+		"vsdv-uploadFileButton-uploadFileString": "Файлро бор кунед",
 		"vsdv-documentPasswordDialog-title": "Пароли ҳуҷҷат",
 		"vsdv-dialog-okButton": "ДУРУСТ",
 		"vsdv-dialog-cancelButton": "Бекор кардан",

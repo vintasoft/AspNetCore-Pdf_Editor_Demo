@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "취소"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "보기를 시계 방향으로 회전"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "시계 반대 방향으로 보기 회전"
-		},
-		"removeImagesButton": {
-			"text": "이미지 제거"
-		},
-		"moveImageUpButton": {
-			"text": "이미지를 위로 이동"
-		},
-		"moveImageDownButton": {
-			"text": "이미지를 아래로 이동"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "주석 변경사항 저장",
 		"vsdv-saveChanges-burnAnnotationsInImages": "이미지에 주석 굽기",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF 문서에 변경 사항 저장",
+		"vsdv-uploadFileButton-uploadFileString": "파일 업로드",
 		"vsdv-documentPasswordDialog-title": "문서 비밀번호",
 		"vsdv-dialog-okButton": "확인",
 		"vsdv-dialog-cancelButton": "취소",

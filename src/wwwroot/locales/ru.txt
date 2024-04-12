@@ -677,21 +677,6 @@
 			"cancelButton": {
 				"value": "Отмена"
 			}
-		},
-		"rotateViewClockwiseButton": {
-			"text": "Повернуть вид по часовой стрелке"
-		},
-		"rotateViewCounterClockwiseButton": {
-			"text": "Повернуть вид против часовой стрелки"
-		},
-		"removeImagesButton": {
-			"text": "Удалить изображения"
-		},
-		"moveImageUpButton": {
-			"text": "Переместить изображение вверх"
-		},
-		"moveImageDownButton": {
-			"text": "Переместить изображение вниз"
 		}
 	},
 	"strings": {
@@ -708,6 +693,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Сохранить изменения в аннотациях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Прожечь аннотации на изображениях",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Сохранить изменения в PDF-документе",
+		"vsdv-uploadFileButton-uploadFileString": "Загрузить файл",
 		"vsdv-documentPasswordDialog-title": "Пароль к документу",
 		"vsdv-dialog-okButton": "ОК",
 		"vsdv-dialog-cancelButton": "Отмена",
