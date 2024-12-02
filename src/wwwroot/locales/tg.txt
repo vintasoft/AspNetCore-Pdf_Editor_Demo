@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Файл"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Тоза кардани кэши сессия"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "Табдилдиҳӣ ва тасдиқи PDF/A"
+		},
+		"pdfCompressorButton": {
+			"title": "Компрессори PDF"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Ба паҳнои мувофиқ"
 		},
@@ -61,7 +67,7 @@
 			"title": "Интихоби матн"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Тасвирҳоро аз саҳифа хориҷ кунед"
+			"title": "Захираҳои тасвириро аз саҳифаи PDF хориҷ кунед"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Майдонҳои интерактивӣ"
@@ -73,10 +79,10 @@
 			"title": "Минтақаро барои таҳрир қайд кунед"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Саҳифаҳои пурраро барои таҳрир қайд кунед"
+			"title": "Саҳифаҳои пурраи PDF-ро барои таҳрир қайд кунед"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Аломати таҳрири мутамарказро хориҷ кунед"
+			"title": "Аломати таҳрири PDF-ро хориҷ кунед"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "Намуди зоҳирии аломати таҳрири PDF"
@@ -100,10 +106,7 @@
 			"title": "Матнро пайдо кунед"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Тасвирҳоро истихроҷ кунед"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Майдонҳои интерактивӣ"
+			"title": "Манбаъҳои тасвири PDF"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Аломатҳои таҳрири PDF"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Намоиши тасвири мундариҷа"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Ҳолати мутақобила:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Ҳеҷ"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Намоиш"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Майдонҳоро аз рӯи саҳифаҳо гурӯҳбандӣ кунед"
-			},
-			"saveChangesButton": {
-				"value": "Тағиротро захира кунед"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Метавонад эскизҳоро кашад:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Метавонед бо истифода аз клавиатура эскизҳоро паймоиш кунед:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Бо истифода аз клавиатура метавонад эскизҳоро интихоб кунад:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Метавонед эскизҳоро бо клавиатура тоза кунед:"
+			},
 			"okButton": {
 				"value": "ДУРУСТ"
 			},
@@ -646,6 +641,323 @@
 				"value": "ДУРУСТ"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "Формат PDF/A:"
+			},
+			"resultLabel": {
+				"text": "Натиҷа:"
+			},
+			"convertToPdfaButton": {
+				"value": "Табдил додан ба PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Тасдиқ кардани PDF/A"
+			},
+			"closeButton": {
+				"value": "Пӯшед"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Сифат:"
+			},
+			"grayscaleLabel": {
+				"text": "Хокистарранг (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Муроҷиат кунед"
+			},
+			"closeButton": {
+				"value": "Пӯшед"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Плиткаҳоро истифода баред"
+			},
+			"waveletTransformLabel": {
+				"text": "Табдил додани мавҷ"
+			},
+			"levelLabel": {
+				"text": "Сатҳи"
+			},
+			"lossyLabel": {
+				"text": "Зиён"
+			},
+			"fileSizeLabel": {
+				"text": "Андозаи файл"
+			},
+			"kBytesLabel": {
+				"text": "Кбайт"
+			},
+			"compressionRatioLabel": {
+				"text": "Таносуби фишурда"
+			},
+			"applyButton": {
+				"value": "Муроҷиат кунед"
+			},
+			"closeButton": {
+				"value": "Пӯшед"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Алгоритми рамзгузории bitmap"
+			},
+			"mqLabel": {
+				"text": "MQ (арифметикӣ)"
+			},
+			"mmrLabel": {
+				"text": "Ммр (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Луғати рамзӣ"
+			},
+			"dictionarySizeLabel": {
+				"text": "Андозаи луғат"
+			},
+			"lossyLabel": {
+				"text": "Зиён"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Фоизи нодуруст"
+			},
+			"applyButton": {
+				"value": "Муроҷиат кунед"
+			},
+			"closeButton": {
+				"value": "Пӯшед"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Захираҳо"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Тоза кардан / Партофтан"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Формати ҳуҷҷати баромад"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Муайянкунии умқи ранги воқеии тасвир (кам кардани умқи ранги тасвир)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Тасвирҳои сиёҳ/сафедро муайян кунед"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Тасвирҳои Indexed1 (Bitonal) -ро муайян кунед"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Муайян кардани тасвирҳои хокистарранг"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Тасвирҳои Indexed8 (256 ранг) -ро муайян кунед"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Нодурустии максималии ошкор"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(масофа дар фазои RGB)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Тасвирҳои ранга"
+				},
+				"checkbox-compression": {
+					"text": "Компрессия"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Лвз"
+				},
+				"RunLength": {
+					"text": "Давомнокии давидан"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Танзимотҳо"
+				},
+				"checkbox-downscale": {
+					"text": "Паст кардани миқёс"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI барои тасвирҳои боло"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Тасвирҳои хокистарранг"
+				},
+				"checkbox-compression": {
+					"text": "Компрессия"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Лвз"
+				},
+				"RunLength": {
+					"text": "Давомнокии давидан"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Танзимотҳо"
+				},
+				"checkbox-downscale": {
+					"text": "Паст кардани миқёс"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI барои тасвирҳои боло"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Тасвирҳои битоналӣ"
+				},
+				"checkbox-compression": {
+					"text": "Компрессия"
+				},
+				"Jbig2": {
+					"text": "Ҷбиг2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Танзимотҳо"
+				},
+				"checkbox-downscale": {
+					"text": "Паст кардани миқёс"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI барои тасвирҳои боло"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Ба ҷои фишурдани LWZ фишурдани Flaze(Zip) -ро истифода баред"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Барои захираҳои фишурнашуда фишурдани Flaze(Zip) -ро истифода баред"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Ҳама захираҳоеро, ки фишурдани Flate(ZIP)-ро истифода мебаранд, бо истифода аз сатҳи максималии фишурдасозӣ дубора фишурда кунед"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Зермаҷмӯаҳои шрифтро оптимизатсия кунед"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Аннотацияҳоро ҳамвор кунед"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Ҳарфҳои зермаҷмӯӣ"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Аннотацияҳоро нест кунед"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Хатчӯбҳои беэътиборро нест кунед"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Хатчӯбҳоро хориҷ кунед"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Истинодҳои беэътиборро нест кунед"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Ангораи саҳифаҳои дарунсохташударо хориҷ кунед"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Саҳифаҳои истифоданашударо хориҷ кунед"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Маълумоти ҳуҷҷатро хориҷ кунед"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Луғати номи тозакунӣ"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Замимаҳои файлро нест кунед"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Захираҳои истифоданашударо хориҷ кунед"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Метамаълумотро нест кунед"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Дубликатҳои захираҳоро нест кунед"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Шакли интерактивиро хориҷ кунед"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Ҷараёни мундариҷаро тоза кунед"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Дарахти сохторро хориҷ кунед"
+			},
+			"outputFilenameFormat": {
+				"text": "Номи файли баромад:"
+			},
+			"outputDocumentFormat": {
+				"text": "Формати ҳуҷҷати баромад:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Формати хаттӣ (Намоиши зуди веб)"
+			},
+			"executeCompressionButton": {
+				"value": "PDF-ро фишурда кунед"
+			},
+			"saveButton": {
+				"value": "Захира кунед"
+			},
+			"closeButton": {
+				"value": "Пӯшед"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Номи парванда:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Бекор кардан"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Намоишро бо ақрабаки соат гардонед"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Намоишро ба муқобили ақрабаки соат гардонед"
+		},
+		"removeImagesButton": {
+			"text": "Тасвирҳоро нест кунед"
+		},
+		"moveImageUpButton": {
+			"text": "Тасвирро ба боло ҳаракат кунед"
+		},
+		"moveImageDownButton": {
+			"text": "Тасвирро ба поён ҳаракат кунед"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлро бор кунед ва кушоед",
 		"vsdv-uploadAndAddFileButton-addFileString": "Файлро бор кунед ва илова кунед",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Хатчӯбҳои PDF гиред",
-		"vsdv-textSearchPanel-pageLabel": "Саҳифа",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Манбаи тасвирро гиред",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Саҳифа",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Хатчӯбҳои PDF гиред",
+		"vsui-textSearchPanel-pageLabel": "Саҳифа",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Манбаи тасвирро гиред",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Саҳифа",
+		"vspe-openFile-addFileString": "Илова кардани файл",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Тағиротро дар ҳуҷҷати PDF захира кунед",
 		"vsdv-openFile-addFileString": "Илова кардани файл",
 		"vsdv-openFile-authenticateFileString": "Файлро тасдиқ кунед",
 		"vsdv-downloadFile-actionMessage": "Файлро зеркашӣ кунед",
 		"vsdv-saveChanges-saveChangesInImages": "Тағиротро дар тасвирҳо захира кунед",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Саҳифа",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Тағиротро дар шарҳҳо захира кунед",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Аннотацияҳоро дар тасвирҳо сӯзонед",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Тағиротро дар ҳуҷҷати PDF захира кунед",
-		"vsdv-uploadFileButton-uploadFileString": "Файлро бор кунед",
-		"vsdv-documentPasswordDialog-title": "Пароли ҳуҷҷат",
+		"vsui-documentPasswordDialog-title": "Пароли ҳуҷҷат",
+		"vsui-dialog-okButton": "ДУРУСТ",
+		"vsui-dialog-cancelButton": "Бекор кардан",
+		"vsui-documentPasswordPanel-authenticateFileString": "Файлро тасдиқ кунед",
+		"vsui-imageSelectionDialog-title": "Тасвирҳоро интихоб кунед",
+		"vsui-imageSelectionDialog-currentImageString": "Тасвири ҷорӣ",
+		"vsui-imageSelectionDialog-allImagesString": "Ҳама тасвирҳо",
+		"vsui-imageSelectionDialog-customImagesString": "Фармоишгар",
+		"vsui-printImagesDialog-title": "Тасвирҳоро чоп кунед",
+		"vsui-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
+		"vsui-printImagesPanel-withAnnotationsLabel": "бо эзоҳҳо",
+		"vsui-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
+		"vsui-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "Намуди зоҳирии аломати таҳрири PDF",
+		"vsui-pdfImageResourceDialog-title": "Манбаи тасвири PDF",
+		"vsui-pdfImageResourcePanel-bytes": " байт",
+		"vsui-pdfAConversionAndValidationDialog-title": "Табдилдиҳӣ ва тасдиқи PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Табдил додан ба PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Тасдиқ кардани PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Пӯшед",
+		"vsui-pdfDocumentCompressorDialog-title": "Компрессори PDF",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF-ро фишурда кунед",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Захира кунед",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Пӯшед",
+		"vsui-jpegEncoderSettingsDialog-title": "Танзимоти рамзгузори JPEG",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Муроҷиат кунед",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Пӯшед",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "Танзимоти рамзгузори JPEG2000",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Муроҷиат кунед",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Пӯшед",
+		"vsui-jbig2EncoderSettingsDialog-title": "Танзимоти рамзгузори JBIG2",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Муроҷиат кунед",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Пӯшед",
+		"vsui-exportFileSettingsDialog-title": "Танзимот барои содироти файл",
 		"vsdv-dialog-okButton": "ДУРУСТ",
-		"vsdv-dialog-cancelButton": "Бекор кардан",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Файлро тасдиқ кунед",
-		"vsdv-imageSelectionDialog-title": "Тасвирҳоро интихоб кунед",
-		"vsdv-imageSelectionDialog-currentImageString": "Тасвири ҷорӣ",
-		"vsdv-imageSelectionDialog-allImagesString": "Ҳама тасвирҳо",
-		"vsdv-imageSelectionDialog-customImagesString": "Фармоишгар",
-		"vsdv-printImagesDialog-title": "Тасвирҳоро чоп кунед",
-		"vsdv-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "бо эзоҳҳо",
-		"vsdv-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
-		"vsdv-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Намуди зоҳирии аломати таҳрири PDF",
-		"vsdv-pdfImageResourceDialog-title": "Манбаи тасвири PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " байт",
-		"vsdv-exportFileSettingsDialog-title": "Танзимот барои содироти файл",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "Танзимоти аломати таҳрири PDF"
+		"vsdv-dialog-cancelButton": "Бекор кардан"
 	}
 }

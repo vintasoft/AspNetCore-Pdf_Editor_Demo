@@ -3,7 +3,7 @@
     min-height: 35vh;
 }
 
-#documentViewerContainer {
+#pdfDocumentEditorContainer {
     width: 100%;
     height: calc(100% - 60px);
     position: relative;

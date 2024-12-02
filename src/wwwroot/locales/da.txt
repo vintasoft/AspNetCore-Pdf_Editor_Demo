@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Fil"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Ryd sessionscache"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A konvertering og validering"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF kompressor"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Tilpas til bredde"
 		},
@@ -61,7 +67,7 @@
 			"title": "Tekstvalg"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Udtræk billeder fra siden"
+			"title": "Uddrag billedressourcer fra PDF-siden"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktive felter"
@@ -73,10 +79,10 @@
 			"title": "Marker området til redigering"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Marker hele sider til redigering"
+			"title": "Marker hele PDF-sider til redigering"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Fjern fokuseret redaktionsmærke"
+			"title": "Fjern fokuseret PDF-redaktionsmærke"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "Udseende af PDF-redaktionsmærke"
@@ -100,10 +106,7 @@
 			"title": "Søg efter tekst"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Uddrag billeder"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Interaktive felter"
+			"title": "PDF billedressourcer"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF-redaktionsmærker"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Vis indholdsbillede"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Interaktionstilstand:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Nej"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Vis"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Gruppér felter efter sider"
-			},
-			"saveChangesButton": {
-				"value": "Gem ændringer"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Kan trække miniaturebilleder:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Kan navigere i miniaturebilleder ved hjælp af tastatur:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Kan vælge miniaturebilleder ved hjælp af tastatur:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Kan slette miniaturer ved hjælp af tastatur:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -646,6 +641,323 @@
 				"value": "OK"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A-format:"
+			},
+			"resultLabel": {
+				"text": "Resultat:"
+			},
+			"convertToPdfaButton": {
+				"value": "Konverter til PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Valider PDF/A"
+			},
+			"closeButton": {
+				"value": "Luk"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Kvalitet:"
+			},
+			"grayscaleLabel": {
+				"text": "Gråtoner (8 bpp)"
+			},
+			"applyButton": {
+				"value": "ansøge"
+			},
+			"closeButton": {
+				"value": "Luk"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Brug fliser"
+			},
+			"waveletTransformLabel": {
+				"text": "Wavelet-transformationen"
+			},
+			"levelLabel": {
+				"text": "Niveau"
+			},
+			"lossyLabel": {
+				"text": "Tabende"
+			},
+			"fileSizeLabel": {
+				"text": "Filstørrelse"
+			},
+			"kBytesLabel": {
+				"text": "KBytes"
+			},
+			"compressionRatioLabel": {
+				"text": "Kompressionsforhold"
+			},
+			"applyButton": {
+				"value": "ansøge"
+			},
+			"closeButton": {
+				"value": "Luk"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Bitmap-kodningsalgoritme"
+			},
+			"mqLabel": {
+				"text": "MQ (aritmetisk)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Symbolordbog"
+			},
+			"dictionarySizeLabel": {
+				"text": "Ordbog størrelse"
+			},
+			"lossyLabel": {
+				"text": "Tabende"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Unøjagtighed procent"
+			},
+			"applyButton": {
+				"value": "ansøge"
+			},
+			"closeButton": {
+				"value": "Luk"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Ressourcer"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Ryd op / kasser"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Output dokumentformat"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Billedets reelle farvedybderegistrering (Reducer billedfarvedybden)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Registrer sort/hvide billeder"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Registrer indekserede1 (bitonale) billeder"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Registrer gråtonebilleder"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Registrer indekserede8 (256 farver) billeder"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Registrering Maksimal unøjagtighed"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(afstand i RGB-plads)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Farvebilleder"
+				},
+				"checkbox-compression": {
+					"text": "Kompression"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Lynlås"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Indstillinger"
+				},
+				"checkbox-downscale": {
+					"text": "Nedskalere"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI for billeder ovenfor"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Gråtonebilleder"
+				},
+				"checkbox-compression": {
+					"text": "Kompression"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Lynlås"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Indstillinger"
+				},
+				"checkbox-downscale": {
+					"text": "Nedskalere"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI for billeder ovenfor"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitonale billeder"
+				},
+				"checkbox-compression": {
+					"text": "Kompression"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Indstillinger"
+				},
+				"checkbox-downscale": {
+					"text": "Nedskalere"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI for billeder ovenfor"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Brug Flaze(Zip)-komprimering i stedet for LWZ-komprimering"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Brug Flaze(Zip)-komprimering til ukomprimerede ressourcer"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Komprimer alle ressourcer, der bruger Flate(ZIP)-komprimering, ved at bruge det maksimale komprimeringsniveau"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Optimer skrifttypeundersæt"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Flader annoteringer"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Undersæt skrifttyper"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Fjern anmærkninger"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Fjern ugyldige bogmærker"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Fjern bogmærker"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Fjern ugyldige links"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Fjern integrerede sideminiaturebilleder"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Fjern ubrugte sider"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Fjern dokumentoplysninger"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Oprydningsnavneordbog"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Fjern vedhæftede filer"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Fjern ubrugte ressourcer"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Fjern metadata"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Fjern ressourceduplikater"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Fjern interaktiv formular"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Oprydning af indholdsstrømme"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Fjern strukturtræet"
+			},
+			"outputFilenameFormat": {
+				"text": "Output filnavn:"
+			},
+			"outputDocumentFormat": {
+				"text": "Output dokumentformat:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Lineariseret format (hurtig webvisning)"
+			},
+			"executeCompressionButton": {
+				"value": "Komprimer PDF"
+			},
+			"saveButton": {
+				"value": "Spare"
+			},
+			"closeButton": {
+				"value": "Luk"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Filnavn:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Annuller"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Roter visningen med uret"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Roter visningen mod uret"
+		},
+		"removeImagesButton": {
+			"text": "Fjern billeder"
+		},
+		"moveImageUpButton": {
+			"text": "Flyt billedet op"
+		},
+		"moveImageDownButton": {
+			"text": "Flyt billedet ned"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Download og åbn fil",
 		"vsdv-uploadAndAddFileButton-addFileString": "Upload og tilføj fil",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Hent PDF-bogmærker",
-		"vsdv-textSearchPanel-pageLabel": "Side",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Få billedressource",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Side",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Hent PDF-bogmærker",
+		"vsui-textSearchPanel-pageLabel": "Side",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Få billedressource",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Side",
+		"vspe-openFile-addFileString": "Tilføj fil",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Gem ændringer i PDF-dokument",
 		"vsdv-openFile-addFileString": "Tilføj fil",
 		"vsdv-openFile-authenticateFileString": "Godkend fil",
 		"vsdv-downloadFile-actionMessage": "Download fil",
 		"vsdv-saveChanges-saveChangesInImages": "Gem ændringer i billeder",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Side",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Gem ændringer i annoteringer",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brænd annoteringer på billeder",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Gem ændringer i PDF-dokument",
-		"vsdv-uploadFileButton-uploadFileString": "Upload fil",
-		"vsdv-documentPasswordDialog-title": "Dokumentadgangskode",
+		"vsui-documentPasswordDialog-title": "Dokumentadgangskode",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Annuller",
+		"vsui-documentPasswordPanel-authenticateFileString": "Godkend fil",
+		"vsui-imageSelectionDialog-title": "Vælg billeder",
+		"vsui-imageSelectionDialog-currentImageString": "Aktuelt billede",
+		"vsui-imageSelectionDialog-allImagesString": "Alle billeder",
+		"vsui-imageSelectionDialog-customImagesString": "Brugerdefineret",
+		"vsui-printImagesDialog-title": "Udskriv billeder",
+		"vsui-printImagesPanel-imagePrintingString": "Billedet udskrives",
+		"vsui-printImagesPanel-withAnnotationsLabel": "med anmærkninger",
+		"vsui-imageViewerSettingsDialog-title": "Indstillinger for billedfremviser",
+		"vsui-thumbnailViewerSettingDialog-title": "Indstillinger for miniaturefremviser",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis annoteringer på miniaturebilleder:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "Udseende af PDF-redaktionsmærke",
+		"vsui-pdfImageResourceDialog-title": "PDF billedressource",
+		"vsui-pdfImageResourcePanel-bytes": " bytes",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A konvertering og validering",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Konverter til PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Valider PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Luk",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF kompressor",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Komprimer PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Spare",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Luk",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG-koderindstillinger",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "ansøge",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Luk",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 encoder indstillinger",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "ansøge",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Luk",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 encoder indstillinger",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "ansøge",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Luk",
+		"vsui-exportFileSettingsDialog-title": "Indstillingerne for at eksportere fil",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Annuller",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Godkend fil",
-		"vsdv-imageSelectionDialog-title": "Vælg billeder",
-		"vsdv-imageSelectionDialog-currentImageString": "Aktuelt billede",
-		"vsdv-imageSelectionDialog-allImagesString": "Alle billeder",
-		"vsdv-imageSelectionDialog-customImagesString": "Brugerdefineret",
-		"vsdv-printImagesDialog-title": "Udskriv billeder",
-		"vsdv-printImagesPanel-imagePrintingString": "Billedet udskrives",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "med anmærkninger",
-		"vsdv-imageViewerSettingsDialog-title": "Indstillinger for billedfremviser",
-		"vsdv-thumbnailViewerSettingDialog-title": "Indstillinger for miniaturefremviser",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis annoteringer på miniaturebilleder:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Udseende af PDF-redaktionsmærke",
-		"vsdv-pdfImageResourceDialog-title": "PDF billedressource",
-		"vsdv-pdfImageResourcePanel-bytes": " bytes",
-		"vsdv-exportFileSettingsDialog-title": "Indstillingerne for at eksportere fil",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "Indstillinger for PDF-redaktionsmærke"
+		"vsdv-dialog-cancelButton": "Annuller"
 	}
 }

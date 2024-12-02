@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Αρχείο"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Εκκαθάριση προσωρινής μνήμης περιόδου λειτουργίας"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "Μετατροπή και επικύρωση PDF/A"
+		},
+		"pdfCompressorButton": {
+			"title": "Συμπιεστής PDF"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Προσαρμογή στο πλάτος"
 		},
@@ -61,7 +67,7 @@
 			"title": "Επιλογή κειμένου"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Εξαγωγή εικόνων από τη σελίδα"
+			"title": "Εξαγωγή πόρων εικόνας από τη σελίδα PDF"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Διαδραστικά πεδία"
@@ -73,10 +79,10 @@
 			"title": "Σημειώστε την περιοχή για διόρθωση"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Σημειώστε τις πλήρεις σελίδες για διόρθωση"
+			"title": "Επισημάνετε πλήρεις σελίδες PDF για επεξεργασία"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Αφαιρέστε το σημάδι εστιασμένης διόρθωσης"
+			"title": "Αφαιρέστε το εστιασμένο σήμα επεξεργασίας PDF"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "Εμφάνιση σήματος επεξεργασίας PDF"
@@ -100,10 +106,7 @@
 			"title": "Αναζήτηση κειμένου"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Εξαγωγή εικόνων"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Διαδραστικά πεδία"
+			"title": "Πηγές εικόνας PDF"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Σημάδια επεξεργασίας PDF"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Εμφάνιση εικόνας περιεχομένου"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Λειτουργία αλληλεπίδρασης:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Όχι"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Προβολή"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Ομαδοποιήστε τα πεδία ανά σελίδες"
-			},
-			"saveChangesButton": {
-				"value": "Αποθήκευσε τις αλλαγές"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Μπορεί να σύρει μικρογραφίες:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Μπορεί να πλοηγηθεί στις μικρογραφίες χρησιμοποιώντας το πληκτρολόγιο:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Μπορεί να επιλέξει μικρογραφίες χρησιμοποιώντας το πληκτρολόγιο:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Μπορείτε να διαγράψετε μικρογραφίες χρησιμοποιώντας το πληκτρολόγιο:"
+			},
 			"okButton": {
 				"value": "ΟΚ"
 			},
@@ -646,6 +641,323 @@
 				"value": "ΟΚ"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "Μορφή PDF/A:"
+			},
+			"resultLabel": {
+				"text": "Αποτέλεσμα:"
+			},
+			"convertToPdfaButton": {
+				"value": "Μετατροπή σε PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Επικύρωση PDF/A"
+			},
+			"closeButton": {
+				"value": "Κλείσιμο"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Ποιότητα:"
+			},
+			"grayscaleLabel": {
+				"text": "Κλίμακα του γκρι (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Ισχύουν"
+			},
+			"closeButton": {
+				"value": "Κλείσιμο"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Χρησιμοποιήστε πλακάκια"
+			},
+			"waveletTransformLabel": {
+				"text": "Ο μετασχηματισμός κυματιδίων"
+			},
+			"levelLabel": {
+				"text": "Επίπεδο"
+			},
+			"lossyLabel": {
+				"text": "Απώλειες"
+			},
+			"fileSizeLabel": {
+				"text": "Μέγεθος αρχείου"
+			},
+			"kBytesLabel": {
+				"text": "KBytes"
+			},
+			"compressionRatioLabel": {
+				"text": "Αναλογία Συμπίεσης"
+			},
+			"applyButton": {
+				"value": "Ισχύουν"
+			},
+			"closeButton": {
+				"value": "Κλείσιμο"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Αλγόριθμος κωδικοποίησης Bitmap"
+			},
+			"mqLabel": {
+				"text": "MQ (Αριθμητική)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Λεξικό συμβόλων"
+			},
+			"dictionarySizeLabel": {
+				"text": "Μέγεθος λεξικού"
+			},
+			"lossyLabel": {
+				"text": "Απώλειες"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Ποσοστό ανακρίβειας"
+			},
+			"applyButton": {
+				"value": "Ισχύουν"
+			},
+			"closeButton": {
+				"value": "Κλείσιμο"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Πόροι"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Καθαρισμός / Απόρριψη"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Μορφή εγγράφου εξόδου"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Ανίχνευση πραγματικού βάθους χρώματος εικόνας (Μείωση βάθους χρώματος εικόνας)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Ανίχνευση ασπρόμαυρων εικόνων"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Ανίχνευση εικόνων με ευρετήριο1 (Bitonal)."
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Ανίχνευση εικόνων σε κλίμακα του γκρι"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Ανίχνευση εικόνων Indexed8 (256 χρώματα)."
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Ανίχνευση Μέγιστη Ανακρίβεια"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(απόσταση σε χώρο RGB)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Έγχρωμες εικόνες"
+				},
+				"checkbox-compression": {
+					"text": "Συμπίεση"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "Μήκος διαδρομής"
+				},
+				"Zip": {
+					"text": "Ενεργητικότης"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Ρυθμίσεις"
+				},
+				"checkbox-downscale": {
+					"text": "Μείωση κλίμακας"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI για τις παραπάνω εικόνες"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Εικόνες σε κλίμακα του γκρι"
+				},
+				"checkbox-compression": {
+					"text": "Συμπίεση"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "Μήκος διαδρομής"
+				},
+				"Zip": {
+					"text": "Ενεργητικότης"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Ρυθμίσεις"
+				},
+				"checkbox-downscale": {
+					"text": "Μείωση κλίμακας"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI για τις παραπάνω εικόνες"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Εικόνες Bitonal"
+				},
+				"checkbox-compression": {
+					"text": "Συμπίεση"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Ρυθμίσεις"
+				},
+				"checkbox-downscale": {
+					"text": "Μείωση κλίμακας"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI για τις παραπάνω εικόνες"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Χρησιμοποιήστε τη συμπίεση Flaze(Zip) αντί της συμπίεσης LWZ"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Χρησιμοποιήστε τη συμπίεση Flaze(Zip) για μη συμπιεσμένους πόρους"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Επανασυμπιέστε όλους τους πόρους που χρησιμοποιούν συμπίεση Flate(ZIP) χρησιμοποιώντας μέγιστο επίπεδο συμπίεσης"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Βελτιστοποίηση υποσυνόλων γραμματοσειρών"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Ισοπεδώστε τους σχολιασμούς"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Γραμματοσειρές υποσυνόλου"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Κατάργηση σχολιασμών"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Καταργήστε μη έγκυρους σελιδοδείκτες"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Κατάργηση σελιδοδεικτών"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Καταργήστε μη έγκυρους συνδέσμους"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Αφαιρέστε τις ενσωματωμένες μικρογραφίες σελίδων"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Αφαιρέστε τις αχρησιμοποίητες σελίδες"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Κατάργηση πληροφοριών εγγράφου"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Εκκαθάριση λεξικού ονόματος"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Κατάργηση συνημμένων αρχείων"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Αφαιρέστε τους αχρησιμοποίητους πόρους"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Κατάργηση μεταδεδομένων"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Καταργήστε τα διπλότυπα πόρων"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Καταργήστε τη διαδραστική φόρμα"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Εκκαθάριση ροών περιεχομένου"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Αφαιρέστε το δέντρο δομής"
+			},
+			"outputFilenameFormat": {
+				"text": "Όνομα αρχείου εξόδου:"
+			},
+			"outputDocumentFormat": {
+				"text": "Μορφή εγγράφου εξόδου:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Γραμμικοποιημένη μορφή (Γρήγορη προβολή Ιστού)"
+			},
+			"executeCompressionButton": {
+				"value": "Συμπίεση PDF"
+			},
+			"saveButton": {
+				"value": "Εκτός"
+			},
+			"closeButton": {
+				"value": "Κλείσιμο"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Ονομα αρχείου:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Ακύρωση"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Περιστρέψτε την προβολή δεξιόστροφα"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Περιστρέψτε την προβολή αριστερόστροφα"
+		},
+		"removeImagesButton": {
+			"text": "Αφαίρεση εικόνων"
+		},
+		"moveImageUpButton": {
+			"text": "Μετακίνηση εικόνας προς τα πάνω"
+		},
+		"moveImageDownButton": {
+			"text": "Μετακίνηση εικόνας προς τα κάτω"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Λήψη και άνοιγμα αρχείου",
 		"vsdv-uploadAndAddFileButton-addFileString": "Μεταφόρτωση και προσθήκη αρχείου",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Λάβετε σελιδοδείκτες PDF",
-		"vsdv-textSearchPanel-pageLabel": "Σελίδα",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Λήψη πόρων εικόνας",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Σελίδα",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Λάβετε σελιδοδείκτες PDF",
+		"vsui-textSearchPanel-pageLabel": "Σελίδα",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Λήψη πόρων εικόνας",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Σελίδα",
+		"vspe-openFile-addFileString": "Προσθήκη αρχείου",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Αποθηκεύστε τις αλλαγές σε έγγραφο PDF",
 		"vsdv-openFile-addFileString": "Προσθήκη αρχείου",
 		"vsdv-openFile-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
 		"vsdv-downloadFile-actionMessage": "Λήψη αρχείου",
 		"vsdv-saveChanges-saveChangesInImages": "Αποθηκεύστε τις αλλαγές στις εικόνες",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Σελίδα",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Αποθηκεύστε τις αλλαγές στους σχολιασμούς",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Εγγραφή σχολιασμών σε εικόνες",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Αποθηκεύστε τις αλλαγές σε έγγραφο PDF",
-		"vsdv-uploadFileButton-uploadFileString": "Ανέβασμα αρχείου",
-		"vsdv-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
+		"vsui-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
+		"vsui-dialog-okButton": "ΟΚ",
+		"vsui-dialog-cancelButton": "Ακύρωση",
+		"vsui-documentPasswordPanel-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
+		"vsui-imageSelectionDialog-title": "Επιλέξτε Εικόνες",
+		"vsui-imageSelectionDialog-currentImageString": "Τρέχουσα εικόνα",
+		"vsui-imageSelectionDialog-allImagesString": "Όλες οι εικόνες",
+		"vsui-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
+		"vsui-printImagesDialog-title": "Εκτύπωση εικόνων",
+		"vsui-printImagesPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
+		"vsui-printImagesPanel-withAnnotationsLabel": "με σχολιασμούς",
+		"vsui-imageViewerSettingsDialog-title": "Ρυθμίσεις προβολής εικόνων",
+		"vsui-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "Εμφάνιση σήματος επεξεργασίας PDF",
+		"vsui-pdfImageResourceDialog-title": "Πηγή εικόνας PDF",
+		"vsui-pdfImageResourcePanel-bytes": " byte",
+		"vsui-pdfAConversionAndValidationDialog-title": "Μετατροπή και επικύρωση PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Μετατροπή σε PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Επικύρωση PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Κλείσιμο",
+		"vsui-pdfDocumentCompressorDialog-title": "Συμπιεστής PDF",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Συμπίεση PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Εκτός",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Κλείσιμο",
+		"vsui-jpegEncoderSettingsDialog-title": "Ρυθμίσεις κωδικοποιητή JPEG",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Ισχύουν",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Κλείσιμο",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "Ρυθμίσεις κωδικοποιητή JPEG2000",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Ισχύουν",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Κλείσιμο",
+		"vsui-jbig2EncoderSettingsDialog-title": "Ρυθμίσεις κωδικοποιητή JBIG2",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Ισχύουν",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Κλείσιμο",
+		"vsui-exportFileSettingsDialog-title": "Οι ρυθμίσεις για εξαγωγή αρχείου",
 		"vsdv-dialog-okButton": "ΟΚ",
-		"vsdv-dialog-cancelButton": "Ακύρωση",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
-		"vsdv-imageSelectionDialog-title": "Επιλέξτε Εικόνες",
-		"vsdv-imageSelectionDialog-currentImageString": "Τρέχουσα εικόνα",
-		"vsdv-imageSelectionDialog-allImagesString": "Όλες οι εικόνες",
-		"vsdv-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
-		"vsdv-printImagesDialog-title": "Εκτύπωση εικόνων",
-		"vsdv-printImagesPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "με σχολιασμούς",
-		"vsdv-imageViewerSettingsDialog-title": "Ρυθμίσεις προβολής εικόνων",
-		"vsdv-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Εμφάνιση σήματος επεξεργασίας PDF",
-		"vsdv-pdfImageResourceDialog-title": "Πηγή εικόνας PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " byte",
-		"vsdv-exportFileSettingsDialog-title": "Οι ρυθμίσεις για εξαγωγή αρχείου",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "Ρυθμίσεις σήμανσης επεξεργασίας PDF"
+		"vsdv-dialog-cancelButton": "Ακύρωση"
 	}
 }

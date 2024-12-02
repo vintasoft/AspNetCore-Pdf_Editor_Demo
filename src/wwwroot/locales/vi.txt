@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Tệp"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Xóa bộ nhớ đệm phiên"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "Chuyển đổi và xác thực PDF/A"
+		},
+		"pdfCompressorButton": {
+			"title": "Bộ nén PDF"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Vừa với Chiều rộng"
 		},
@@ -61,7 +67,7 @@
 			"title": "Lựa chọn văn bản"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Trích xuất hình ảnh từ trang"
+			"title": "Trích xuất tài nguyên hình ảnh từ trang PDF"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Các trường tương tác"
@@ -73,10 +79,10 @@
 			"title": "Đánh dấu khu vực để chỉnh sửa"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Đánh dấu toàn bộ trang để biên tập"
+			"title": "Đánh dấu toàn bộ trang PDF để biên tập"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Xóa dấu chỉnh sửa tập trung"
+			"title": "Xóa dấu biên tập PDF đã lấy nét"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "Xuất hiện dấu hiệu chỉnh sửa PDF"
@@ -100,10 +106,7 @@
 			"title": "Tìm kiếm văn bản"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Trích xuất hình ảnh"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Các trường tương tác"
+			"title": "Tài nguyên hình ảnh PDF"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Dấu hiệu chỉnh sửa PDF"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Hiển thị hình ảnh nội dung"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Chế độ tương tác:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Không"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Xem"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Nhóm các trường theo trang"
-			},
-			"saveChangesButton": {
-				"value": "Lưu thay đổi"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Có thể kéo hình thu nhỏ:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Có thể điều hướng hình thu nhỏ bằng bàn phím:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Có thể chọn hình thu nhỏ bằng bàn phím:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Có thể xóa hình thu nhỏ bằng bàn phím:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -646,6 +641,323 @@
 				"value": "OK"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "Định dạng PDF/A:"
+			},
+			"resultLabel": {
+				"text": "Kết quả:"
+			},
+			"convertToPdfaButton": {
+				"value": "Chuyển đổi sang PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Xác thực PDF/A"
+			},
+			"closeButton": {
+				"value": "Đóng"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Chất lượng:"
+			},
+			"grayscaleLabel": {
+				"text": "Thang độ xám (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Áp dụng"
+			},
+			"closeButton": {
+				"value": "Đóng"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Sử dụng ô"
+			},
+			"waveletTransformLabel": {
+				"text": "Biến đổi wavelet"
+			},
+			"levelLabel": {
+				"text": "Mức"
+			},
+			"lossyLabel": {
+				"text": "Mất mát"
+			},
+			"fileSizeLabel": {
+				"text": "Kích thước tệp"
+			},
+			"kBytesLabel": {
+				"text": "KByte"
+			},
+			"compressionRatioLabel": {
+				"text": "Tỷ lệ nén"
+			},
+			"applyButton": {
+				"value": "Áp dụng"
+			},
+			"closeButton": {
+				"value": "Đóng"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Thuật toán mã hóa bitmap"
+			},
+			"mqLabel": {
+				"text": "MQ (Số học)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Từ điển ký hiệu"
+			},
+			"dictionarySizeLabel": {
+				"text": "Kích thước từ điển"
+			},
+			"lossyLabel": {
+				"text": "Mất mát"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Phần trăm không chính xác"
+			},
+			"applyButton": {
+				"value": "Áp dụng"
+			},
+			"closeButton": {
+				"value": "Đóng"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Tài nguyên"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Dọn dẹp/Loại bỏ"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Định dạng tài liệu đầu ra"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Phát hiện độ sâu màu thực của hình ảnh (Giảm độ sâu màu của hình ảnh)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Phát hiện hình ảnh đen trắng"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Phát hiện hình ảnh được lập chỉ mục 1 (Bitonal)"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Phát hiện hình ảnh thang độ xám"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Phát hiện hình ảnh được lập chỉ mục 8 (256 màu)"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Phát hiện độ không chính xác tối đa"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(khoảng cách trong không gian RGB)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Màu Hình ảnh"
+				},
+				"checkbox-compression": {
+					"text": "Nén"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Cài đặt"
+				},
+				"checkbox-downscale": {
+					"text": "Giảm tỷ lệ"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI cho hình ảnh ở trên"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Hình ảnh thang độ xám"
+				},
+				"checkbox-compression": {
+					"text": "Nén"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Cài đặt"
+				},
+				"checkbox-downscale": {
+					"text": "Giảm tỷ lệ"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI cho hình ảnh ở trên"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Hình ảnh hai tông màu"
+				},
+				"checkbox-compression": {
+					"text": "Nén"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Cài đặt"
+				},
+				"checkbox-downscale": {
+					"text": "Giảm tỷ lệ"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI cho hình ảnh ở trên"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Sử dụng nén Flaze(Zip) thay vì nén LWZ"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Sử dụng nén Flaze(Zip) cho các tài nguyên chưa nén"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Nén lại tất cả các tài nguyên sử dụng nén Flate(ZIP) bằng mức nén tối đa"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Tối ưu hóa các tập hợp con phông chữ"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Làm phẳng chú thích"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Phông chữ tập hợp con"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Xóa chú thích"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Xóa dấu trang không hợp lệ"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Xóa dấu trang"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Xóa liên kết không hợp lệ"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Xóa hình thu nhỏ trang được nhúng"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Xóa các trang không sử dụng"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Xóa thông tin tài liệu"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Dọn dẹp từ điển tên"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Xóa tệp đính kèm"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Xóa tài nguyên không sử dụng"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Xóa siêu dữ liệu"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Xóa các bản sao tài nguyên"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Xóa biểu mẫu tương tác"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Dọn dẹp luồng nội dung"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Xóa cây cấu trúc"
+			},
+			"outputFilenameFormat": {
+				"text": "Tên tệp đầu ra:"
+			},
+			"outputDocumentFormat": {
+				"text": "Tài liệu đầu ra định dạng:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Định dạng tuyến tính (Fast Web View)"
+			},
+			"executeCompressionButton": {
+				"value": "Nén PDF"
+			},
+			"saveButton": {
+				"value": "Lưu"
+			},
+			"closeButton": {
+				"value": "Đóng"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Tên tập tin:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Hủy"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Xoay chế độ xem theo chiều kim đồng hồ"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Xoay chế độ xem ngược chiều kim đồng hồ"
+		},
+		"removeImagesButton": {
+			"text": "Xóa hình ảnh"
+		},
+		"moveImageUpButton": {
+			"text": "Di chuyển hình ảnh lên"
+		},
+		"moveImageDownButton": {
+			"text": "Di chuyển hình ảnh xuống"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Tải xuống và mở tệp",
 		"vsdv-uploadAndAddFileButton-addFileString": "Tải lên và thêm tập tin",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Nhận dấu trang PDF",
-		"vsdv-textSearchPanel-pageLabel": "Trang",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Nhận tài nguyên hình ảnh",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Trang",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Nhận dấu trang PDF",
+		"vsui-textSearchPanel-pageLabel": "Trang",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Nhận tài nguyên hình ảnh",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Trang",
+		"vspe-openFile-addFileString": "Thêm tập tin",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Lưu các thay đổi trong tài liệu PDF",
 		"vsdv-openFile-addFileString": "Thêm tập tin",
 		"vsdv-openFile-authenticateFileString": "Xác thực tập tin",
 		"vsdv-downloadFile-actionMessage": "Tải tập tin",
 		"vsdv-saveChanges-saveChangesInImages": "Lưu các thay đổi trong hình ảnh",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Trang",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Lưu các thay đổi trong chú thích",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ghi chú thích trên hình ảnh",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Lưu các thay đổi trong tài liệu PDF",
-		"vsdv-uploadFileButton-uploadFileString": "Cập nhật dử liệu",
-		"vsdv-documentPasswordDialog-title": "Mật khẩu tài liệu",
+		"vsui-documentPasswordDialog-title": "Mật khẩu tài liệu",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Hủy",
+		"vsui-documentPasswordPanel-authenticateFileString": "Xác thực tập tin",
+		"vsui-imageSelectionDialog-title": "Chọn hình ảnh",
+		"vsui-imageSelectionDialog-currentImageString": "Hình ảnh hiện tại",
+		"vsui-imageSelectionDialog-allImagesString": "Tất cả hình ảnh",
+		"vsui-imageSelectionDialog-customImagesString": "Tùy chỉnh",
+		"vsui-printImagesDialog-title": "In ảnh",
+		"vsui-printImagesPanel-imagePrintingString": "Hình ảnh đang được in",
+		"vsui-printImagesPanel-withAnnotationsLabel": "có chú thích",
+		"vsui-imageViewerSettingsDialog-title": "Cài đặt trình xem ảnh",
+		"vsui-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "Xuất hiện dấu hiệu chỉnh sửa PDF",
+		"vsui-pdfImageResourceDialog-title": "Tài nguyên hình ảnh PDF",
+		"vsui-pdfImageResourcePanel-bytes": " byte",
+		"vsui-pdfAConversionAndValidationDialog-title": "Chuyển đổi và xác thực PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Chuyển đổi sang PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Xác thực PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Đóng",
+		"vsui-pdfDocumentCompressorDialog-title": "Bộ nén PDF",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Nén PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Lưu",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Đóng",
+		"vsui-jpegEncoderSettingsDialog-title": "Cài đặt bộ mã hóa JPEG",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Áp dụng",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Đóng",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "Cài đặt bộ mã hóa JPEG2000",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Áp dụng",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Đóng",
+		"vsui-jbig2EncoderSettingsDialog-title": "Cài đặt bộ mã hóa JBIG2",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Áp dụng",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Đóng",
+		"vsui-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Hủy",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Xác thực tập tin",
-		"vsdv-imageSelectionDialog-title": "Chọn hình ảnh",
-		"vsdv-imageSelectionDialog-currentImageString": "Hình ảnh hiện tại",
-		"vsdv-imageSelectionDialog-allImagesString": "Tất cả hình ảnh",
-		"vsdv-imageSelectionDialog-customImagesString": "Tùy chỉnh",
-		"vsdv-printImagesDialog-title": "In ảnh",
-		"vsdv-printImagesPanel-imagePrintingString": "Hình ảnh đang được in",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "có chú thích",
-		"vsdv-imageViewerSettingsDialog-title": "Cài đặt trình xem ảnh",
-		"vsdv-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Xuất hiện dấu hiệu chỉnh sửa PDF",
-		"vsdv-pdfImageResourceDialog-title": "Tài nguyên hình ảnh PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " byte",
-		"vsdv-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "Cài đặt dấu hiệu chỉnh sửa PDF"
+		"vsdv-dialog-cancelButton": "Hủy"
 	}
 }

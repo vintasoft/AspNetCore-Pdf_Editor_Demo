@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Fayl"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Seans keshini tozalash"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A konvertatsiyasi va tekshiruvi"
+		},
+		"pdfCompressorButton": {
+			"title": "Pdf kompressor"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Kenglikka moslash"
 		},
@@ -61,7 +67,7 @@
 			"title": "Matn tanlash"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Sahifadan rasmlarni chiqarib oling"
+			"title": "PDF sahifasidan rasm-resurslarni chiqarib oling"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktiv maydonlar"
@@ -73,10 +79,10 @@
 			"title": "Tahrir qilish uchun maydonni belgilang"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "To'liq sahifalarni tahrir qilish uchun belgilang"
+			"title": "To'liq PDF sahifalarini tahrir qilish uchun belgilang"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Fokuslangan tahrir belgisini olib tashlang"
+			"title": "Fokuslangan PDF tahrirlash belgisini olib tashlang"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "PDF tahrirlash belgisi ko'rinishi"
@@ -100,10 +106,7 @@
 			"title": "Matnni toping"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Rasmlarni ajratib oling"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Interaktiv maydonlar"
+			"title": "Pdf rasm resurslari"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF tahrirlash belgilari"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Kontent tasvirini ko'rsatish"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "O'zaro aloqa rejimi:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Yo'q"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Ko'rinish"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Maydonlarni sahifalar bo‘yicha guruhlash"
-			},
-			"saveChangesButton": {
-				"value": "O'zgarishlarni saqlang"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Eskizlarni tortib olish mumkin:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Klaviatura yordamida eskizlarni navigatsiya qilish mumkin:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Klaviatura yordamida eskizlarni tanlash mumkin:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Klaviatura yordamida eskizlarni o'chirish mumkin:"
+			},
 			"okButton": {
 				"value": "KELISHDIKMI"
 			},
@@ -646,6 +641,323 @@
 				"value": "KELISHDIKMI"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A formati:"
+			},
+			"resultLabel": {
+				"text": "Natija:"
+			},
+			"convertToPdfaButton": {
+				"value": "PDF/A ga aylantirish"
+			},
+			"validatePdfaButton": {
+				"value": "PDF/A ni tasdiqlang"
+			},
+			"closeButton": {
+				"value": "Yopish"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Sifat:"
+			},
+			"grayscaleLabel": {
+				"text": "Kulrang shkala (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Murojaat qiling"
+			},
+			"closeButton": {
+				"value": "Yopish"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Plitkalardan foydalaning"
+			},
+			"waveletTransformLabel": {
+				"text": "To'lqinli konvertatsiya"
+			},
+			"levelLabel": {
+				"text": "Daraja"
+			},
+			"lossyLabel": {
+				"text": "Yo'qotilgan"
+			},
+			"fileSizeLabel": {
+				"text": "Fayl hajmi"
+			},
+			"kBytesLabel": {
+				"text": "Kbayt"
+			},
+			"compressionRatioLabel": {
+				"text": "Siqish nisbati"
+			},
+			"applyButton": {
+				"value": "Murojaat qiling"
+			},
+			"closeButton": {
+				"value": "Yopish"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Bitmap kodlash algoritmi"
+			},
+			"mqLabel": {
+				"text": "MQ (arifmetik)"
+			},
+			"mmrLabel": {
+				"text": "Mr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Simvol lug'ati"
+			},
+			"dictionarySizeLabel": {
+				"text": "Lug'at hajmi"
+			},
+			"lossyLabel": {
+				"text": "Yo'qotilgan"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Noaniqlik foizi"
+			},
+			"applyButton": {
+				"value": "Murojaat qiling"
+			},
+			"closeButton": {
+				"value": "Yopish"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Resurslar"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Tozalash / tashlash"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Hujjatni chiqarish formati"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Rasmning haqiqiy rangi chuqurligini aniqlash (Rasm rangi chuqurligini kamaytirish)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Qora/oq tasvirlarni aniqlash"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Indexed1 (Bitonal) rasmlarni aniqlash"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Kulrang tasvirlarni aniqlash"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Indexed8 (256 rang) tasvirlarni aniqlash"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Maksimal noaniqlikni aniqlash"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(RGB maydonidagi masofa)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Rangli rasmlar"
+				},
+				"checkbox-compression": {
+					"text": "Siqish"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Sozlamalar"
+				},
+				"checkbox-downscale": {
+					"text": "Kichkinalashtirish"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "Yuqoridagi tasvirlar uchun DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Kulrang tasvirlar"
+				},
+				"checkbox-compression": {
+					"text": "Siqish"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Sozlamalar"
+				},
+				"checkbox-downscale": {
+					"text": "Kichkinalashtirish"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "Yuqoridagi tasvirlar uchun DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitonal tasvirlar"
+				},
+				"checkbox-compression": {
+					"text": "Siqish"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Sozlamalar"
+				},
+				"checkbox-downscale": {
+					"text": "Kichkinalashtirish"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "Yuqoridagi tasvirlar uchun DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "LWZ siqish o'rniga Flaze(Zip) siqishidan foydalaning"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Siqilmagan resurslar uchun Flaze(Zip) siqishidan foydalaning"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Maksimal siqish darajasidan foydalanib, Flate(ZIP) siqishni ishlatadigan barcha resurslarni qayta siqib chiqaring"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Shrift pastki to'plamlarini optimallashtirish"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Izohlarni tekislang"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Pastki shriftlar"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Izohlarni olib tashlang"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Yaroqsiz xatcho'plarni olib tashlang"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Xatcho'plarni olib tashlang"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Yaroqsiz havolalarni olib tashlang"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "O'rnatilgan sahifa eskizlarini olib tashlang"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Ishlatilmagan sahifalarni olib tashlang"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Hujjat ma'lumotlarini olib tashlang"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Nom lug'atini tozalash"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Fayl qo'shimchalarini olib tashlang"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Ishlatilmagan resurslarni olib tashlang"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Metama'lumotlarni o'chirish"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Resurs nusxalarini olib tashlang"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Interaktiv shaklni olib tashlang"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Kontent oqimlarini tozalash"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Struktura daraxtini olib tashlang"
+			},
+			"outputFilenameFormat": {
+				"text": "Chiqish fayl nomi:"
+			},
+			"outputDocumentFormat": {
+				"text": "Hujjatni chiqarish formati:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Chiziqli format (Tezkor veb-ko'rish)"
+			},
+			"executeCompressionButton": {
+				"value": "PDF-ni siqish"
+			},
+			"saveButton": {
+				"value": "Saqlash"
+			},
+			"closeButton": {
+				"value": "Yopish"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Fayl nomi:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Bekor qilish"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Ko'rinishni soat yo'nalishi bo'yicha aylantiring"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Ko'rinishni soat sohasi farqli ravishda aylantiring"
+		},
+		"removeImagesButton": {
+			"text": "Rasmlarni olib tashlang"
+		},
+		"moveImageUpButton": {
+			"text": "Rasmni yuqoriga siljiting"
+		},
+		"moveImageDownButton": {
+			"text": "Rasmni pastga siljiting"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faylni yuklang va oching",
 		"vsdv-uploadAndAddFileButton-addFileString": "Faylni yuklang va qo'shing",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "PDF xatcho'plarini oling",
-		"vsdv-textSearchPanel-pageLabel": "Sahifa",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Rasm manbasini oling",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Sahifa",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "PDF xatcho'plarini oling",
+		"vsui-textSearchPanel-pageLabel": "Sahifa",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Rasm manbasini oling",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sahifa",
+		"vspe-openFile-addFileString": "Fayl qo'shish",
+		"vspe-saveChanges-saveChangesInPdfDocument": "O'zgarishlarni PDF hujjatida saqlang",
 		"vsdv-openFile-addFileString": "Fayl qo'shish",
 		"vsdv-openFile-authenticateFileString": "Faylni autentifikatsiya qilish",
 		"vsdv-downloadFile-actionMessage": "Faylni yuklab oling",
 		"vsdv-saveChanges-saveChangesInImages": "Rasmlardagi o'zgarishlarni saqlang",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Sahifa",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Izohlardagi o'zgarishlarni saqlang",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Rasmlarga izohlarni yozish",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "O'zgarishlarni PDF hujjatida saqlang",
-		"vsdv-uploadFileButton-uploadFileString": "Faylni yuklash",
-		"vsdv-documentPasswordDialog-title": "Hujjat uchun parol",
+		"vsui-documentPasswordDialog-title": "Hujjat uchun parol",
+		"vsui-dialog-okButton": "KELISHDIKMI",
+		"vsui-dialog-cancelButton": "Bekor qilish",
+		"vsui-documentPasswordPanel-authenticateFileString": "Faylni autentifikatsiya qilish",
+		"vsui-imageSelectionDialog-title": "Rasmlarni tanlang",
+		"vsui-imageSelectionDialog-currentImageString": "Joriy rasm",
+		"vsui-imageSelectionDialog-allImagesString": "Barcha rasmlar",
+		"vsui-imageSelectionDialog-customImagesString": "Maxsus",
+		"vsui-printImagesDialog-title": "Rasmlarni chop etish",
+		"vsui-printImagesPanel-imagePrintingString": "Rasm chop etilmoqda",
+		"vsui-printImagesPanel-withAnnotationsLabel": "izohlar bilan",
+		"vsui-imageViewerSettingsDialog-title": "Rasmlarni ko'rish sozlamalari",
+		"vsui-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "PDF tahrirlash belgisi ko'rinishi",
+		"vsui-pdfImageResourceDialog-title": "Pdf rasm resurs",
+		"vsui-pdfImageResourcePanel-bytes": " bayt",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A konvertatsiyasi va tekshiruvi",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "PDF/A ga aylantirish",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "PDF/A ni tasdiqlang",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Yopish",
+		"vsui-pdfDocumentCompressorDialog-title": "Pdf kompressor",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF-ni siqish",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Saqlash",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Yopish",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG kodlovchi sozlamalari",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Murojaat qiling",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Yopish",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 kodlovchi sozlamalari",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Murojaat qiling",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Yopish",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 enkoder sozlamalari",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Murojaat qiling",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Yopish",
+		"vsui-exportFileSettingsDialog-title": "Faylni eksport qilish uchun sozlamalar",
 		"vsdv-dialog-okButton": "KELISHDIKMI",
-		"vsdv-dialog-cancelButton": "Bekor qilish",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Faylni autentifikatsiya qilish",
-		"vsdv-imageSelectionDialog-title": "Rasmlarni tanlang",
-		"vsdv-imageSelectionDialog-currentImageString": "Joriy rasm",
-		"vsdv-imageSelectionDialog-allImagesString": "Barcha rasmlar",
-		"vsdv-imageSelectionDialog-customImagesString": "Maxsus",
-		"vsdv-printImagesDialog-title": "Rasmlarni chop etish",
-		"vsdv-printImagesPanel-imagePrintingString": "Rasm chop etilmoqda",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "izohlar bilan",
-		"vsdv-imageViewerSettingsDialog-title": "Rasmlarni ko'rish sozlamalari",
-		"vsdv-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF tahrirlash belgisi ko'rinishi",
-		"vsdv-pdfImageResourceDialog-title": "Pdf rasm resurs",
-		"vsdv-pdfImageResourcePanel-bytes": " bayt",
-		"vsdv-exportFileSettingsDialog-title": "Faylni eksport qilish uchun sozlamalar",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF tahrirlash belgisi sozlamalari"
+		"vsdv-dialog-cancelButton": "Bekor qilish"
 	}
 }

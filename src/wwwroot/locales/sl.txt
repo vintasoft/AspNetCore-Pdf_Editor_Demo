@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Mapa"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Počisti predpomnilnik seje"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A pretvorba in validacija"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF kompresor"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Prilagodi širini"
 		},
@@ -61,7 +67,7 @@
 			"title": "Izbira besedila"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Ekstrakt slik s strani"
+			"title": "Ekstrakt slikovnih virov s strani PDF"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktivna polja"
@@ -73,10 +79,10 @@
 			"title": "Označi območje za redigiranje"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Označi cele strani za redigiranje"
+			"title": "Označite celotne strani PDF za redigiranje"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Odstrani označeno oznako redakcije"
+			"title": "Odstranite izbrano oznako redakcije PDF"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "Videz oznake redakcije PDF"
@@ -100,10 +106,7 @@
 			"title": "Poiščite besedilo"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Izvleček slik"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Interaktivna polja"
+			"title": "PDF slikovni viri"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Redakcijske oznake PDF"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Prikaži sliko vsebine"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Način interakcije:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Noben"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Pogled"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Združite polja po straneh"
-			},
-			"saveChangesButton": {
-				"value": "Shrani spremembe"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Lahko povlečete sličice:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Lahko krmarite po sličicah s tipkovnico:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Lahko izberete sličice s tipkovnico:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Lahko izbrišete sličice s tipkovnico:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -646,6 +641,323 @@
 				"value": "OK"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "Format PDF/A:"
+			},
+			"resultLabel": {
+				"text": "rezultat:"
+			},
+			"convertToPdfaButton": {
+				"value": "Pretvori v PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Potrdite PDF/A"
+			},
+			"closeButton": {
+				"value": "Zapri"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Kakovost:"
+			},
+			"grayscaleLabel": {
+				"text": "Sivine (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Prijavite se"
+			},
+			"closeButton": {
+				"value": "Zapri"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Uporabite ploščice"
+			},
+			"waveletTransformLabel": {
+				"text": "Valovna transformacija"
+			},
+			"levelLabel": {
+				"text": "Raven"
+			},
+			"lossyLabel": {
+				"text": "Izgubljeno"
+			},
+			"fileSizeLabel": {
+				"text": "Velikost datoteke"
+			},
+			"kBytesLabel": {
+				"text": "Kbajtov"
+			},
+			"compressionRatioLabel": {
+				"text": "Kompresijsko razmerje"
+			},
+			"applyButton": {
+				"value": "Prijavite se"
+			},
+			"closeButton": {
+				"value": "Zapri"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Algoritem kodiranja bitne slike"
+			},
+			"mqLabel": {
+				"text": "MQ (Aritmetika)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Slovar simbolov"
+			},
+			"dictionarySizeLabel": {
+				"text": "Velikost slovarja"
+			},
+			"lossyLabel": {
+				"text": "Izgubljeno"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Odstotek netočnosti"
+			},
+			"applyButton": {
+				"value": "Prijavite se"
+			},
+			"closeButton": {
+				"value": "Zapri"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Viri"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Očisti / Zavrzi"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Format izhodnega dokumenta"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Zaznavanje dejanske barvne globine slike (zmanjšanje barvne globine slike)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Zaznavanje črno-belih slik"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Zaznaj indeksirane1 (bitonalne) slike"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Zaznavanje sivinskih slik"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Zaznaj indeksirane8 (256 barv) slike"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Največja netočnost zaznavanja"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(razdalja v prostoru RGB)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Barvne slike"
+				},
+				"checkbox-compression": {
+					"text": "Stiskanje"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "nastavitve"
+				},
+				"checkbox-downscale": {
+					"text": "Downscale"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI za zgornje slike"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Slike v sivinah"
+				},
+				"checkbox-compression": {
+					"text": "Stiskanje"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "nastavitve"
+				},
+				"checkbox-downscale": {
+					"text": "Downscale"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI za zgornje slike"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitonalne slike"
+				},
+				"checkbox-compression": {
+					"text": "Stiskanje"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "nastavitve"
+				},
+				"checkbox-downscale": {
+					"text": "Downscale"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI za zgornje slike"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Uporabite stiskanje Flaze(Zip) namesto stiskanja LWZ"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Za nestisnjene vire uporabite stiskanje Flaze(Zip)."
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Ponovno stisnite vse vire, ki uporabljajo stiskanje Flate(ZIP), z uporabo največje stopnje stiskanja"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Optimizirajte podnabore pisav"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Izravnajte opombe"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Podnabor pisav"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Odstranite opombe"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Odstranite neveljavne zaznamke"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Odstranite zaznamke"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Odstranite neveljavne povezave"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Odstranite vdelane sličice strani"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Odstranite neuporabljene strani"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Odstranite informacije o dokumentu"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Čiščenje slovarja imen"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Odstranite datotečne priloge"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Odstranite neuporabljene vire"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Odstrani metapodatke"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Odstranite dvojnike virov"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Odstrani interaktivni obrazec"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Očisti tokove vsebine"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Odstranite drevo strukture"
+			},
+			"outputFilenameFormat": {
+				"text": "Ime izhodne datoteke:"
+			},
+			"outputDocumentFormat": {
+				"text": "Format izhodnega dokumenta:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Linearizirana oblika (hiter spletni pogled)"
+			},
+			"executeCompressionButton": {
+				"value": "Stisnite PDF"
+			},
+			"saveButton": {
+				"value": "Shrani"
+			},
+			"closeButton": {
+				"value": "Zapri"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Ime datoteke:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Prekliči"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Zasukaj pogled v smeri urinega kazalca"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Zasukaj pogled v nasprotni smeri urinega kazalca"
+		},
+		"removeImagesButton": {
+			"text": "Odstranite slike"
+		},
+		"moveImageUpButton": {
+			"text": "Premakni sliko navzgor"
+		},
+		"moveImageDownButton": {
+			"text": "Premakni sliko navzdol"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Naloži in odpri datoteko",
 		"vsdv-uploadAndAddFileButton-addFileString": "Naložite in dodajte datoteko",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Pridobite zaznamke PDF",
-		"vsdv-textSearchPanel-pageLabel": "Stran",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Pridobite slikovni vir",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Stran",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Pridobite zaznamke PDF",
+		"vsui-textSearchPanel-pageLabel": "Stran",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Pridobite slikovni vir",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Stran",
+		"vspe-openFile-addFileString": "Dodaj datoteko",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Shranite spremembe v dokument PDF",
 		"vsdv-openFile-addFileString": "Dodaj datoteko",
 		"vsdv-openFile-authenticateFileString": "Preveri pristnost datoteke",
 		"vsdv-downloadFile-actionMessage": "Prenesi datoteko",
 		"vsdv-saveChanges-saveChangesInImages": "Shranite spremembe v slikah",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Stran",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Shranite spremembe v opombah",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Zapiši opombe na slike",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Shranite spremembe v dokument PDF",
-		"vsdv-uploadFileButton-uploadFileString": "Naloži datoteko",
-		"vsdv-documentPasswordDialog-title": "Geslo za dokument",
+		"vsui-documentPasswordDialog-title": "Geslo za dokument",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Prekliči",
+		"vsui-documentPasswordPanel-authenticateFileString": "Preveri pristnost datoteke",
+		"vsui-imageSelectionDialog-title": "Izberite slike",
+		"vsui-imageSelectionDialog-currentImageString": "Trenutna slika",
+		"vsui-imageSelectionDialog-allImagesString": "Vse slike",
+		"vsui-imageSelectionDialog-customImagesString": "Po meri",
+		"vsui-printImagesDialog-title": "Natisnite slike",
+		"vsui-printImagesPanel-imagePrintingString": "Slika se tiska",
+		"vsui-printImagesPanel-withAnnotationsLabel": "z opombami",
+		"vsui-imageViewerSettingsDialog-title": "Nastavitve pregledovalnika slik",
+		"vsui-thumbnailViewerSettingDialog-title": "Nastavitve pregledovalnika sličic",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži opombe:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "Videz oznake redakcije PDF",
+		"vsui-pdfImageResourceDialog-title": "Vir slik PDF",
+		"vsui-pdfImageResourcePanel-bytes": " bajtov",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A pretvorba in validacija",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Pretvori v PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Potrdite PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Zapri",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF kompresor",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Stisnite PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Shrani",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Zapri",
+		"vsui-jpegEncoderSettingsDialog-title": "Nastavitve kodirnika JPEG",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Prijavite se",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Zapri",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "Nastavitve kodirnika JPEG2000",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Prijavite se",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Zapri",
+		"vsui-jbig2EncoderSettingsDialog-title": "Nastavitve kodirnika JBIG2",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Prijavite se",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Zapri",
+		"vsui-exportFileSettingsDialog-title": "Nastavitve za izvoz datoteke",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Prekliči",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Preveri pristnost datoteke",
-		"vsdv-imageSelectionDialog-title": "Izberite slike",
-		"vsdv-imageSelectionDialog-currentImageString": "Trenutna slika",
-		"vsdv-imageSelectionDialog-allImagesString": "Vse slike",
-		"vsdv-imageSelectionDialog-customImagesString": "Po meri",
-		"vsdv-printImagesDialog-title": "Natisnite slike",
-		"vsdv-printImagesPanel-imagePrintingString": "Slika se tiska",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "z opombami",
-		"vsdv-imageViewerSettingsDialog-title": "Nastavitve pregledovalnika slik",
-		"vsdv-thumbnailViewerSettingDialog-title": "Nastavitve pregledovalnika sličic",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži opombe:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Videz oznake redakcije PDF",
-		"vsdv-pdfImageResourceDialog-title": "Vir slik PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " bajtov",
-		"vsdv-exportFileSettingsDialog-title": "Nastavitve za izvoz datoteke",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "Nastavitve oznake za urejanje PDF"
+		"vsdv-dialog-cancelButton": "Prekliči"
 	}
 }

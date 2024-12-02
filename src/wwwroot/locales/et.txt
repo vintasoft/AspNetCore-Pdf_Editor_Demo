@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Fail"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Tühjendage seansi vahemälu"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A teisendamine ja valideerimine"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF-kompressor"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Sobivad laiusele"
 		},
@@ -61,7 +67,7 @@
 			"title": "Teksti valik"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Eemaldage lehelt pildid"
+			"title": "Väljavõte pildiressursid PDF-lehelt"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktiivsed väljad"
@@ -73,10 +79,10 @@
 			"title": "Märkige ala redigeerimiseks"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Märkige redigeerimiseks täisleheküljed"
+			"title": "Märkige redigeerimiseks terved PDF-lehed"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Eemaldage fokuseeritud redigeerimismärk"
+			"title": "Eemaldage fokuseeritud PDF-i redigeerimismärk"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "PDF-i redigeerimismärgi välimus"
@@ -100,10 +106,7 @@
 			"title": "Otsige teksti"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Ekstraktige pilte"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Interaktiivsed väljad"
+			"title": "PDF-pildiressursid"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF-i redigeerimismärgid"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Kuva sisu pilt"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Interaktsioonirežiim:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Mitte ühtegi"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Vaade"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Rühmitage väljad lehtede kaupa"
-			},
-			"saveChangesButton": {
-				"value": "Salvesta muudatused"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Pisipilte saab lohistada:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Oskab klaviatuuri abil pisipiltides navigeerida:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Pisipilte saab valida klaviatuuri abil:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Pisipilte saab klaviatuuri abil kustutada:"
+			},
 			"okButton": {
 				"value": "Okei"
 			},
@@ -646,6 +641,323 @@
 				"value": "Okei"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A vorming:"
+			},
+			"resultLabel": {
+				"text": "Tulemus:"
+			},
+			"convertToPdfaButton": {
+				"value": "Teisendage PDF/A-vormingusse"
+			},
+			"validatePdfaButton": {
+				"value": "Kinnitage PDF/A"
+			},
+			"closeButton": {
+				"value": "Sulge"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Kvaliteet:"
+			},
+			"grayscaleLabel": {
+				"text": "Halltoonid (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Rakenda"
+			},
+			"closeButton": {
+				"value": "Sulge"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Kasutage plaate"
+			},
+			"waveletTransformLabel": {
+				"text": "Lainete teisendus"
+			},
+			"levelLabel": {
+				"text": "Tase"
+			},
+			"lossyLabel": {
+				"text": "Kaotusega"
+			},
+			"fileSizeLabel": {
+				"text": "Faili suurus"
+			},
+			"kBytesLabel": {
+				"text": "KBytes"
+			},
+			"compressionRatioLabel": {
+				"text": "Tihendussuhe"
+			},
+			"applyButton": {
+				"value": "Rakenda"
+			},
+			"closeButton": {
+				"value": "Sulge"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Bitmap kodeerimise algoritm"
+			},
+			"mqLabel": {
+				"text": "MQ (aritmeetiline)"
+			},
+			"mmrLabel": {
+				"text": "härra (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Sümbolite sõnastik"
+			},
+			"dictionarySizeLabel": {
+				"text": "Sõnastiku suurus"
+			},
+			"lossyLabel": {
+				"text": "Kaotusega"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Ebatäpsuse protsent"
+			},
+			"applyButton": {
+				"value": "Rakenda"
+			},
+			"closeButton": {
+				"value": "Sulge"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Vahendid"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Puhastage / visake ära"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Väljunddokumendi vorming"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Pildi tegeliku värvisügavuse tuvastamine (pildi värvisügavuse vähendamine)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Tuvastage mustad/valged pildid"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Tuvastage indekseeritud 1 (bitonaalsed) pildid"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Tuvastage halltoonid kujutised"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Tuvastage indekseeritud8 (256 värvi) pildid"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Tuvastamise maksimaalne ebatäpsus"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(kaugus RGB ruumis)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Värvilised pildid"
+				},
+				"checkbox-compression": {
+					"text": "Kokkusurumine"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "Jooksu pikkus"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg 2000"
+				},
+				"settingsButton": {
+					"value": "Seaded"
+				},
+				"checkbox-downscale": {
+					"text": "Madalam"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI ülaltoodud piltide jaoks"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Halltoonides pildid"
+				},
+				"checkbox-compression": {
+					"text": "Kokkusurumine"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "Jooksu pikkus"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg 2000"
+				},
+				"settingsButton": {
+					"value": "Seaded"
+				},
+				"checkbox-downscale": {
+					"text": "Madalam"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI ülaltoodud piltide jaoks"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitonaalsed pildid"
+				},
+				"checkbox-compression": {
+					"text": "Kokkusurumine"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Seaded"
+				},
+				"checkbox-downscale": {
+					"text": "Madalam"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI ülaltoodud piltide jaoks"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Kasutage LWZ tihendamise asemel Flaze(Zip) tihendamist"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Tihendamata ressursside jaoks kasutage tihendamist Flaze(Zip)."
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Tihendage kõik ressursid, mis kasutavad Flate (ZIP) tihendamist, kasutades maksimaalset tihendustaset"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Fondi alamhulkade optimeerimine"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Märkuste tasandamine"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Alamhulga fondid"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Eemalda märkused"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Eemaldage kehtetud järjehoidjad"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Järjehoidjate eemaldamine"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Eemaldage kehtetud lingid"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Eemaldage manustatud lehe pisipildid"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Eemaldage kasutamata lehed"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Eemaldage dokumendi teave"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Puhastamise nimede sõnastik"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Eemaldage failimanused"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Eemaldage kasutamata ressursid"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Eemalda metaandmed"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Eemaldage ressursside duplikaadid"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Eemaldage interaktiivne vorm"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Sisuvoogude puhastamine"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Eemaldage struktuuripuu"
+			},
+			"outputFilenameFormat": {
+				"text": "Väljundfaili nimi:"
+			},
+			"outputDocumentFormat": {
+				"text": "Dokumendi väljundvorming:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Lineariseeritud vorming (kiire veebivaade)"
+			},
+			"executeCompressionButton": {
+				"value": "Tihendage PDF"
+			},
+			"saveButton": {
+				"value": "Salvesta"
+			},
+			"closeButton": {
+				"value": "Sulge"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Faili nimi:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Tühista"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Pöörake vaadet päripäeva"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Pöörake vaadet vastupäeva"
+		},
+		"removeImagesButton": {
+			"text": "Eemaldage pildid"
+		},
+		"moveImageUpButton": {
+			"text": "Liigutage pilti üles"
+		},
+		"moveImageDownButton": {
+			"text": "Liigutage pilti alla"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Laadige üles ja avage fail",
 		"vsdv-uploadAndAddFileButton-addFileString": "Laadige üles ja lisage fail",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Hangi PDF-järjehoidjad",
-		"vsdv-textSearchPanel-pageLabel": "Lehekülg",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Hangi pildiressurss",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Lehekülg",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Hangi PDF-järjehoidjad",
+		"vsui-textSearchPanel-pageLabel": "Lehekülg",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Hangi pildiressurss",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Lehekülg",
+		"vspe-openFile-addFileString": "Lisa fail",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Salvestage muudatused PDF-dokumenti",
 		"vsdv-openFile-addFileString": "Lisa fail",
 		"vsdv-openFile-authenticateFileString": "Autentige fail",
 		"vsdv-downloadFile-actionMessage": "Laadige fail alla",
 		"vsdv-saveChanges-saveChangesInImages": "Salvestage piltidel muudatused",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Lehekülg",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvestage muudatused märkustes",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Kirjutage piltidele märkused",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvestage muudatused PDF-dokumenti",
-		"vsdv-uploadFileButton-uploadFileString": "Faili üles laadima",
-		"vsdv-documentPasswordDialog-title": "Dokumendi parool",
+		"vsui-documentPasswordDialog-title": "Dokumendi parool",
+		"vsui-dialog-okButton": "Okei",
+		"vsui-dialog-cancelButton": "Tühista",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentige fail",
+		"vsui-imageSelectionDialog-title": "Valige pildid",
+		"vsui-imageSelectionDialog-currentImageString": "Praegune pilt",
+		"vsui-imageSelectionDialog-allImagesString": "Kõik pildid",
+		"vsui-imageSelectionDialog-customImagesString": "Kohandatud",
+		"vsui-printImagesDialog-title": "Printige pilte",
+		"vsui-printImagesPanel-imagePrintingString": "Pilt prinditakse",
+		"vsui-printImagesPanel-withAnnotationsLabel": "annotatsioonidega",
+		"vsui-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
+		"vsui-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "PDF-i redigeerimismärgi välimus",
+		"vsui-pdfImageResourceDialog-title": "PDF-pildi ressurss",
+		"vsui-pdfImageResourcePanel-bytes": " baiti",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A teisendamine ja valideerimine",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Teisendage PDF/A-vormingusse",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Kinnitage PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Sulge",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF-kompressor",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Tihendage PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Salvesta",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Sulge",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG-kodeerija seaded",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Rakenda",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Sulge",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 kodeerija seaded",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Rakenda",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Sulge",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 kodeerija seaded",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Rakenda",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Sulge",
+		"vsui-exportFileSettingsDialog-title": "Faili eksportimise sätted",
 		"vsdv-dialog-okButton": "Okei",
-		"vsdv-dialog-cancelButton": "Tühista",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentige fail",
-		"vsdv-imageSelectionDialog-title": "Valige pildid",
-		"vsdv-imageSelectionDialog-currentImageString": "Praegune pilt",
-		"vsdv-imageSelectionDialog-allImagesString": "Kõik pildid",
-		"vsdv-imageSelectionDialog-customImagesString": "Kohandatud",
-		"vsdv-printImagesDialog-title": "Printige pilte",
-		"vsdv-printImagesPanel-imagePrintingString": "Pilt prinditakse",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "annotatsioonidega",
-		"vsdv-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
-		"vsdv-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF-i redigeerimismärgi välimus",
-		"vsdv-pdfImageResourceDialog-title": "PDF-pildi ressurss",
-		"vsdv-pdfImageResourcePanel-bytes": " baiti",
-		"vsdv-exportFileSettingsDialog-title": "Faili eksportimise sätted",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF-i redigeerimismärgi seaded"
+		"vsdv-dialog-cancelButton": "Tühista"
 	}
 }

@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Fails"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Notīrīt sesijas kešatmiņu"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A konvertēšana un validācija"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF kompresors"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Piemērots platumam"
 		},
@@ -61,7 +67,7 @@
 			"title": "Teksta atlase"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Izņemiet attēlus no lapas"
+			"title": "Izvilkt attēlu resursus no PDF lapas"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktīvie lauki"
@@ -73,10 +79,10 @@
 			"title": "Atzīmējiet apgabalu rediģēšanai"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Atzīmējiet pilnas lapas rediģēšanai"
+			"title": "Atzīmējiet pilnas PDF lapas rediģēšanai"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Noņemiet fokusēto rediģēšanas atzīmi"
+			"title": "Noņemiet fokusēto PDF rediģēšanas atzīmi"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "PDF rediģēšanas zīmes izskats"
@@ -100,10 +106,7 @@
 			"title": "Atrodiet tekstu"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Izvilkt attēlus"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Interaktīvie lauki"
+			"title": "PDF attēlu resursi"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF rediģēšanas atzīmes"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Rādīt satura attēlu"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Mijiedarbības režīms:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Nav"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Skatīt"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Grupējiet laukus pēc lapām"
-			},
-			"saveChangesButton": {
-				"value": "Saglabāt izmaiņas"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Var vilkt sīktēlus:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Var pārvietoties sīktēlos, izmantojot tastatūru:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Var atlasīt sīktēlus, izmantojot tastatūru:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Var izdzēst sīktēlus, izmantojot tastatūru:"
+			},
 			"okButton": {
 				"value": "labi"
 			},
@@ -646,6 +641,323 @@
 				"value": "labi"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A formāts:"
+			},
+			"resultLabel": {
+				"text": "Rezultāts:"
+			},
+			"convertToPdfaButton": {
+				"value": "Konvertēt uz PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Validējiet PDF/A"
+			},
+			"closeButton": {
+				"value": "Aizvērt"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Kvalitāte:"
+			},
+			"grayscaleLabel": {
+				"text": "Pelēktoņi (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Pieteikties"
+			},
+			"closeButton": {
+				"value": "Aizvērt"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Izmantojiet flīzes"
+			},
+			"waveletTransformLabel": {
+				"text": "Vilnīšu transformācija"
+			},
+			"levelLabel": {
+				"text": "Līmenis"
+			},
+			"lossyLabel": {
+				"text": "Zaudēts"
+			},
+			"fileSizeLabel": {
+				"text": "Faila lielums"
+			},
+			"kBytesLabel": {
+				"text": "KB baiti"
+			},
+			"compressionRatioLabel": {
+				"text": "Kompresijas pakāpe"
+			},
+			"applyButton": {
+				"value": "Pieteikties"
+			},
+			"closeButton": {
+				"value": "Aizvērt"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Bitkartes kodēšanas algoritms"
+			},
+			"mqLabel": {
+				"text": "MQ (aritmētika)"
+			},
+			"mmrLabel": {
+				"text": "kungs (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Simbolu vārdnīca"
+			},
+			"dictionarySizeLabel": {
+				"text": "Vārdnīcas izmērs"
+			},
+			"lossyLabel": {
+				"text": "Zaudēts"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Neprecizitātes procenti"
+			},
+			"applyButton": {
+				"value": "Pieteikties"
+			},
+			"closeButton": {
+				"value": "Aizvērt"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Resursi"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Notīrīt / izmest"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Izvades dokumenta formāts"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Attēla reālās krāsas dziļuma noteikšana (samazināt attēla krāsu dziļumu)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Noteikt melnbaltus attēlus"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Noteikt Indexed1 (bitonālus) attēlus"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Noteikt pelēktoņu attēlus"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Noteikt Indexed8 (256 krāsas) attēlus"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Noteikšanas maksimālā neprecizitāte"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(attālums RGB telpā)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Krāsu attēli"
+				},
+				"checkbox-compression": {
+					"text": "Saspiešana"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg 2000"
+				},
+				"settingsButton": {
+					"value": "Iestatījumi"
+				},
+				"checkbox-downscale": {
+					"text": "Samazināta skala"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI iepriekš redzamajiem attēliem"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Pelēktoņu attēli"
+				},
+				"checkbox-compression": {
+					"text": "Saspiešana"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg 2000"
+				},
+				"settingsButton": {
+					"value": "Iestatījumi"
+				},
+				"checkbox-downscale": {
+					"text": "Samazināta skala"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI iepriekš redzamajiem attēliem"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitonālie attēli"
+				},
+				"checkbox-compression": {
+					"text": "Saspiešana"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Iestatījumi"
+				},
+				"checkbox-downscale": {
+					"text": "Samazināta skala"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI iepriekš redzamajiem attēliem"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Izmantojiet Flaze(Zip) kompresiju, nevis LWZ saspiešanu"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Izmantojiet Flaze(Zip) saspiešanu nesaspiestiem resursiem"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Atkārtoti saspiediet visus resursus, kas izmanto Flate (ZIP) saspiešanu, izmantojot maksimālo saspiešanas līmeni"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Optimizējiet fontu apakškopas"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Saplacināt anotācijas"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Apakškopas fonti"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Noņemt anotācijas"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Noņemiet nederīgās grāmatzīmes"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Noņemiet grāmatzīmes"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Noņemiet nederīgās saites"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Noņemiet iegultos lapu sīktēlus"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Noņemiet neizmantotās lapas"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Noņemiet dokumenta informāciju"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Tīrīšanas vārdu vārdnīca"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Noņemiet failu pielikumus"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Noņemiet neizmantotos resursus"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Noņemt metadatus"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Noņemiet resursu dublikātus"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Noņemiet interaktīvo formu"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Satura straumju tīrīšana"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Noņemiet struktūras koku"
+			},
+			"outputFilenameFormat": {
+				"text": "Izvades faila nosaukums:"
+			},
+			"outputDocumentFormat": {
+				"text": "Izvades dokumenta formāts:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Linearizēts formāts (ātrais tīmekļa skats)"
+			},
+			"executeCompressionButton": {
+				"value": "Saspiest PDF"
+			},
+			"saveButton": {
+				"value": "Saglabāt"
+			},
+			"closeButton": {
+				"value": "Aizvērt"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Faila nosaukums:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Atcelt"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Pagriezt skatu pulksteņrādītāja virzienā"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Pagriezt skatu pretēji pulksteņrādītāja virzienam"
+		},
+		"removeImagesButton": {
+			"text": "Noņemiet attēlus"
+		},
+		"moveImageUpButton": {
+			"text": "Pārvietot attēlu uz augšu"
+		},
+		"moveImageDownButton": {
+			"text": "Pārvietot attēlu uz leju"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Augšupielādējiet un atveriet failu",
 		"vsdv-uploadAndAddFileButton-addFileString": "Augšupielādējiet un pievienojiet failu",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Iegūstiet PDF grāmatzīmes",
-		"vsdv-textSearchPanel-pageLabel": "Lappuse",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Iegūstiet attēla resursu",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Lappuse",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Iegūstiet PDF grāmatzīmes",
+		"vsui-textSearchPanel-pageLabel": "Lappuse",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Iegūstiet attēla resursu",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Lappuse",
+		"vspe-openFile-addFileString": "Pievienot failu",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Saglabājiet izmaiņas PDF dokumentā",
 		"vsdv-openFile-addFileString": "Pievienot failu",
 		"vsdv-openFile-authenticateFileString": "Autentificēt failu",
 		"vsdv-downloadFile-actionMessage": "Lejupielādēt failu",
 		"vsdv-saveChanges-saveChangesInImages": "Saglabājiet izmaiņas attēlos",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Lappuse",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Saglabājiet izmaiņas anotācijās",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ierakstiet anotācijas uz attēliem",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Saglabājiet izmaiņas PDF dokumentā",
-		"vsdv-uploadFileButton-uploadFileString": "Augšupielādēt failu",
-		"vsdv-documentPasswordDialog-title": "Dokumenta parole",
+		"vsui-documentPasswordDialog-title": "Dokumenta parole",
+		"vsui-dialog-okButton": "labi",
+		"vsui-dialog-cancelButton": "Atcelt",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentificēt failu",
+		"vsui-imageSelectionDialog-title": "Izvēlieties attēlus",
+		"vsui-imageSelectionDialog-currentImageString": "Pašreizējais attēls",
+		"vsui-imageSelectionDialog-allImagesString": "Visi attēli",
+		"vsui-imageSelectionDialog-customImagesString": "Pielāgots",
+		"vsui-printImagesDialog-title": "Drukāt attēlus",
+		"vsui-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
+		"vsui-printImagesPanel-withAnnotationsLabel": "ar anotācijām",
+		"vsui-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
+		"vsui-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "PDF rediģēšanas zīmes izskats",
+		"vsui-pdfImageResourceDialog-title": "PDF attēlu resurss",
+		"vsui-pdfImageResourcePanel-bytes": " baiti",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A konvertēšana un validācija",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Konvertēt uz PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Validējiet PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Aizvērt",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF kompresors",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Saspiest PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Saglabāt",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Aizvērt",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG kodētāja iestatījumi",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Pieteikties",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Aizvērt",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 kodētāja iestatījumi",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Pieteikties",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Aizvērt",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 kodētāja iestatījumi",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Pieteikties",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Aizvērt",
+		"vsui-exportFileSettingsDialog-title": "Faila eksportēšanas iestatījumi",
 		"vsdv-dialog-okButton": "labi",
-		"vsdv-dialog-cancelButton": "Atcelt",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentificēt failu",
-		"vsdv-imageSelectionDialog-title": "Izvēlieties attēlus",
-		"vsdv-imageSelectionDialog-currentImageString": "Pašreizējais attēls",
-		"vsdv-imageSelectionDialog-allImagesString": "Visi attēli",
-		"vsdv-imageSelectionDialog-customImagesString": "Pielāgots",
-		"vsdv-printImagesDialog-title": "Drukāt attēlus",
-		"vsdv-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "ar anotācijām",
-		"vsdv-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
-		"vsdv-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF rediģēšanas zīmes izskats",
-		"vsdv-pdfImageResourceDialog-title": "PDF attēlu resurss",
-		"vsdv-pdfImageResourcePanel-bytes": " baiti",
-		"vsdv-exportFileSettingsDialog-title": "Faila eksportēšanas iestatījumi",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF rediģēšanas atzīmju iestatījumi"
+		"vsdv-dialog-cancelButton": "Atcelt"
 	}
 }

@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Failas"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Išvalyti seanso talpyklą"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A konvertavimas ir patvirtinimas"
+		},
+		"pdfCompressorButton": {
+			"title": "Pdf kompresorius"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Tinka pločiui"
 		},
@@ -61,7 +67,7 @@
 			"title": "Teksto pasirinkimas"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Ištraukite vaizdus iš puslapio"
+			"title": "Ištraukite vaizdo išteklius iš PDF puslapio"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktyvūs laukai"
@@ -73,10 +79,10 @@
 			"title": "Pažymėkite sritį redaguoti"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Pažymėkite visus puslapius redaguoti"
+			"title": "Pažymėkite visus PDF puslapius redaguoti"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Pašalinkite sufokusuotą redagavimo ženklą"
+			"title": "Pašalinkite sufokusuotą PDF redagavimo ženklą"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "PDF redagavimo ženklo išvaizda"
@@ -100,10 +106,7 @@
 			"title": "Rasti tekstą"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Ištraukite vaizdus"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Interaktyvūs laukai"
+			"title": "PDF vaizdo ištekliai"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF redagavimo žymės"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Rodyti turinio vaizdą"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Sąveikos režimas:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Nė vienas"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Žiūrėti"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Grupuokite laukus pagal puslapius"
-			},
-			"saveChangesButton": {
-				"value": "Išsaugoti pakeitimus"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Galima vilkti miniatiūras:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Galima naršyti miniatiūras naudojant klaviatūrą:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Galite pasirinkti miniatiūras naudodami klaviatūrą:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Galima ištrinti miniatiūras naudojant klaviatūrą:"
+			},
 			"okButton": {
 				"value": "Gerai"
 			},
@@ -646,6 +641,323 @@
 				"value": "Gerai"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A formatas:"
+			},
+			"resultLabel": {
+				"text": "Rezultatas:"
+			},
+			"convertToPdfaButton": {
+				"value": "Konvertuoti į PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Patvirtinkite PDF/A"
+			},
+			"closeButton": {
+				"value": "Uždaryti"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Kokybė:"
+			},
+			"grayscaleLabel": {
+				"text": "Pilkos spalvos (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Taikyti"
+			},
+			"closeButton": {
+				"value": "Uždaryti"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Naudokite plyteles"
+			},
+			"waveletTransformLabel": {
+				"text": "Bangelės transformacija"
+			},
+			"levelLabel": {
+				"text": "Lygis"
+			},
+			"lossyLabel": {
+				"text": "Prarastos"
+			},
+			"fileSizeLabel": {
+				"text": "Failo dydis"
+			},
+			"kBytesLabel": {
+				"text": "KBaitų"
+			},
+			"compressionRatioLabel": {
+				"text": "Suspaudimo laipsnis"
+			},
+			"applyButton": {
+				"value": "Taikyti"
+			},
+			"closeButton": {
+				"value": "Uždaryti"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Bitmap kodavimo algoritmas"
+			},
+			"mqLabel": {
+				"text": "MQ (aritmetika)"
+			},
+			"mmrLabel": {
+				"text": "Ponas (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Simbolių žodynas"
+			},
+			"dictionarySizeLabel": {
+				"text": "Žodyno dydis"
+			},
+			"lossyLabel": {
+				"text": "Prarastos"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Netikslumas procentais"
+			},
+			"applyButton": {
+				"value": "Taikyti"
+			},
+			"closeButton": {
+				"value": "Uždaryti"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Ištekliai"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Išvalyti / išmesti"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Išvesties dokumento formatas"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Vaizdo tikrosios spalvos gylio aptikimas (sumažinti vaizdo spalvų gylį)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Aptikti juodus/baltus vaizdus"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Aptikti Indexed1 (Bitonal) vaizdus"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Aptikti pilkos spalvos vaizdus"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Aptikti Indexed8 (256 spalvos) vaizdus"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Aptikimo maksimalus netikslumas"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(atstumas RGB erdvėje)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Spalvoti vaizdai"
+				},
+				"checkbox-compression": {
+					"text": "Suspaudimas"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "2000 Jpeg"
+				},
+				"settingsButton": {
+					"value": "Nustatymai"
+				},
+				"checkbox-downscale": {
+					"text": "Sumažinti skalę"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI aukščiau esantiems vaizdams"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Pilkos spalvos vaizdai"
+				},
+				"checkbox-compression": {
+					"text": "Suspaudimas"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "2000 Jpeg"
+				},
+				"settingsButton": {
+					"value": "Nustatymai"
+				},
+				"checkbox-downscale": {
+					"text": "Sumažinti skalę"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI aukščiau esantiems vaizdams"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitoniniai vaizdai"
+				},
+				"checkbox-compression": {
+					"text": "Suspaudimas"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Nustatymai"
+				},
+				"checkbox-downscale": {
+					"text": "Sumažinti skalę"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI aukščiau esantiems vaizdams"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Naudokite Flaze(Zip) glaudinimą vietoj LWZ glaudinimo"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Nesuspaustiems ištekliams naudokite Flaze(Zip) glaudinimą"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Iš naujo suglaudinkite visus išteklius, kuriuose naudojamas Flate (ZIP) glaudinimas, naudodami maksimalų glaudinimo lygį"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Optimizuokite šriftų pogrupius"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Išlyginti anotacijas"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Pogrupio šriftai"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Pašalinti komentarus"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Pašalinkite netinkamas žymes"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Pašalinti žymes"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Pašalinkite netinkamas nuorodas"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Pašalinkite įterptųjų puslapių miniatiūras"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Pašalinkite nenaudojamus puslapius"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Pašalinkite dokumento informaciją"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Valymo vardų žodynas"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Pašalinti failų priedus"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Pašalinkite nepanaudotus išteklius"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Pašalinti metaduomenis"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Pašalinkite išteklių dublikatus"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Pašalinti interaktyvią formą"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Išvalykite turinio srautus"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Pašalinkite struktūros medį"
+			},
+			"outputFilenameFormat": {
+				"text": "Išvesties failo pavadinimas:"
+			},
+			"outputDocumentFormat": {
+				"text": "Išvesties dokumento formatas:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Linearizuotas formatas (greitasis žiniatinklio rodinys)"
+			},
+			"executeCompressionButton": {
+				"value": "Suspausti PDF"
+			},
+			"saveButton": {
+				"value": "Išsaugoti"
+			},
+			"closeButton": {
+				"value": "Uždaryti"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Failo pavadinimas:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Atšaukti"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Sukti vaizdą pagal laikrodžio rodyklę"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Pasukti vaizdą prieš laikrodžio rodyklę"
+		},
+		"removeImagesButton": {
+			"text": "Pašalinti vaizdus"
+		},
+		"moveImageUpButton": {
+			"text": "Perkelti vaizdą aukštyn"
+		},
+		"moveImageDownButton": {
+			"text": "Perkelti vaizdą žemyn"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Įkelti ir atidaryti failą",
 		"vsdv-uploadAndAddFileButton-addFileString": "Įkelti ir pridėti failą",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Gaukite PDF žymes",
-		"vsdv-textSearchPanel-pageLabel": "Puslapis",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Gaukite vaizdo šaltinį",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Puslapis",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Gaukite PDF žymes",
+		"vsui-textSearchPanel-pageLabel": "Puslapis",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Gaukite vaizdo šaltinį",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Puslapis",
+		"vspe-openFile-addFileString": "Pridėti failą",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Išsaugokite pakeitimus PDF dokumente",
 		"vsdv-openFile-addFileString": "Pridėti failą",
 		"vsdv-openFile-authenticateFileString": "Autentifikuoti failą",
 		"vsdv-downloadFile-actionMessage": "Atsisiųsti failą",
 		"vsdv-saveChanges-saveChangesInImages": "Išsaugokite vaizdų pakeitimus",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Puslapis",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Išsaugokite komentarų pakeitimus",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Įrašykite komentarus ant vaizdų",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Išsaugokite pakeitimus PDF dokumente",
-		"vsdv-uploadFileButton-uploadFileString": "Įkelti failą",
-		"vsdv-documentPasswordDialog-title": "Dokumento slaptažodis",
+		"vsui-documentPasswordDialog-title": "Dokumento slaptažodis",
+		"vsui-dialog-okButton": "Gerai",
+		"vsui-dialog-cancelButton": "Atšaukti",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentifikuoti failą",
+		"vsui-imageSelectionDialog-title": "Pasirinkite vaizdus",
+		"vsui-imageSelectionDialog-currentImageString": "Dabartinis vaizdas",
+		"vsui-imageSelectionDialog-allImagesString": "Visi vaizdai",
+		"vsui-imageSelectionDialog-customImagesString": "Pasirinktinis",
+		"vsui-printImagesDialog-title": "Spausdinti vaizdus",
+		"vsui-printImagesPanel-imagePrintingString": "Vaizdas spausdinamas",
+		"vsui-printImagesPanel-withAnnotationsLabel": "su anotacijomis",
+		"vsui-imageViewerSettingsDialog-title": "Vaizdų peržiūros programos nustatymai",
+		"vsui-thumbnailViewerSettingDialog-title": "Miniatiūrų peržiūros priemonės nustatymai",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "PDF redagavimo ženklo išvaizda",
+		"vsui-pdfImageResourceDialog-title": "PDF vaizdo šaltinis",
+		"vsui-pdfImageResourcePanel-bytes": " baitų",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A konvertavimas ir patvirtinimas",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Konvertuoti į PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Patvirtinkite PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Uždaryti",
+		"vsui-pdfDocumentCompressorDialog-title": "Pdf kompresorius",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Suspausti PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Išsaugoti",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Uždaryti",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG kodavimo įrenginio nustatymai",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Taikyti",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Uždaryti",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 kodavimo nustatymai",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Taikyti",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Uždaryti",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 koduotuvo nustatymai",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Taikyti",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Uždaryti",
+		"vsui-exportFileSettingsDialog-title": "Failo eksporto nustatymai",
 		"vsdv-dialog-okButton": "Gerai",
-		"vsdv-dialog-cancelButton": "Atšaukti",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentifikuoti failą",
-		"vsdv-imageSelectionDialog-title": "Pasirinkite vaizdus",
-		"vsdv-imageSelectionDialog-currentImageString": "Dabartinis vaizdas",
-		"vsdv-imageSelectionDialog-allImagesString": "Visi vaizdai",
-		"vsdv-imageSelectionDialog-customImagesString": "Pasirinktinis",
-		"vsdv-printImagesDialog-title": "Spausdinti vaizdus",
-		"vsdv-printImagesPanel-imagePrintingString": "Vaizdas spausdinamas",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "su anotacijomis",
-		"vsdv-imageViewerSettingsDialog-title": "Vaizdų peržiūros programos nustatymai",
-		"vsdv-thumbnailViewerSettingDialog-title": "Miniatiūrų peržiūros priemonės nustatymai",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF redagavimo ženklo išvaizda",
-		"vsdv-pdfImageResourceDialog-title": "PDF vaizdo šaltinis",
-		"vsdv-pdfImageResourcePanel-bytes": " baitų",
-		"vsdv-exportFileSettingsDialog-title": "Failo eksporto nustatymai",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF redagavimo žymų nustatymai"
+		"vsdv-dialog-cancelButton": "Atšaukti"
 	}
 }

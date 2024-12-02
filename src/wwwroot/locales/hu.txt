@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Fájl"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "A munkamenet gyorsítótárának törlése"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A konvertálás és érvényesítés"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF tömörítő"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Szélességhez igazítás"
 		},
@@ -61,7 +67,7 @@
 			"title": "Szöveg kiválasztása"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Képek kibontása az oldalról"
+			"title": "Képforrások kibontása a PDF oldalról"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktív mezők"
@@ -73,10 +79,10 @@
 			"title": "Jelölje ki a szerkesztendő területet"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Jelölje meg a teljes oldalakat szerkesztésre"
+			"title": "Jelölje meg a teljes PDF-oldalakat szerkesztésre"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Távolítsa el a fókuszált szerkesztési jelet"
+			"title": "Távolítsa el a fókuszált PDF-szerkesztési jelet"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "PDF szerkesztési jel megjelenése"
@@ -100,10 +106,7 @@
 			"title": "Szöveg keresése"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Képek kibontása"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Interaktív mezők"
+			"title": "PDF képforrások"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF szerkesztési jelek"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Tartalomkép megjelenítése"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Interakciós mód:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Nem"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Megtekintés"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Csoportosítsa a mezőket oldalak szerint"
-			},
-			"saveChangesButton": {
-				"value": "Változtatások mentése"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Bélyegképek húzása:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Mozoghat a miniatűrök között a billentyűzet segítségével:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Kiválaszthat miniatűröket a billentyűzet segítségével:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Törölheti a miniatűröket a billentyűzet segítségével:"
+			},
 			"okButton": {
 				"value": "Rendben"
 			},
@@ -646,6 +641,323 @@
 				"value": "Rendben"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A formátum:"
+			},
+			"resultLabel": {
+				"text": "Eredmény:"
+			},
+			"convertToPdfaButton": {
+				"value": "Konvertálás PDF/A formátumba"
+			},
+			"validatePdfaButton": {
+				"value": "Érvényesítse a PDF/A"
+			},
+			"closeButton": {
+				"value": "Bezárás"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Minőség:"
+			},
+			"grayscaleLabel": {
+				"text": "Szürkeárnyalatos (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Alkalmaz"
+			},
+			"closeButton": {
+				"value": "Bezárás"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Használjon csempe"
+			},
+			"waveletTransformLabel": {
+				"text": "A wavelet transzformáció"
+			},
+			"levelLabel": {
+				"text": "Szint"
+			},
+			"lossyLabel": {
+				"text": "Veszteséges"
+			},
+			"fileSizeLabel": {
+				"text": "Fájl mérete"
+			},
+			"kBytesLabel": {
+				"text": "KBytes"
+			},
+			"compressionRatioLabel": {
+				"text": "Tömörítési arány"
+			},
+			"applyButton": {
+				"value": "Alkalmaz"
+			},
+			"closeButton": {
+				"value": "Bezárás"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Bittérképes kódolási algoritmus"
+			},
+			"mqLabel": {
+				"text": "MQ (Aritmetika)"
+			},
+			"mmrLabel": {
+				"text": "úr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Szimbólum szótár"
+			},
+			"dictionarySizeLabel": {
+				"text": "Szótár mérete"
+			},
+			"lossyLabel": {
+				"text": "Veszteséges"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Pontatlanság százalék"
+			},
+			"applyButton": {
+				"value": "Alkalmaz"
+			},
+			"closeButton": {
+				"value": "Bezárás"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Erőforrás"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Tisztítás / Dobja el"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Kimeneti dokumentum formátum"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Kép valódi színmélység érzékelése (a kép színmélységének csökkentése)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Fekete/fehér képek észlelése"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Indexelt1 (bitonális) képek észlelése"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Szürkeárnyalatos képek észlelése"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Indexelt8 (256 szín) képek észlelése"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Az észlelés maximális pontatlansága"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(távolság RGB térben)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Színes képek"
+				},
+				"checkbox-compression": {
+					"text": "Tömörítés"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg 2000"
+				},
+				"settingsButton": {
+					"value": "Beállítások"
+				},
+				"checkbox-downscale": {
+					"text": "Lekicsinyítés"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI a fenti képekhez"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Szürkeárnyalatos képek"
+				},
+				"checkbox-compression": {
+					"text": "Tömörítés"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg 2000"
+				},
+				"settingsButton": {
+					"value": "Beállítások"
+				},
+				"checkbox-downscale": {
+					"text": "Lekicsinyítés"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI a fenti képekhez"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitonális képek"
+				},
+				"checkbox-compression": {
+					"text": "Tömörítés"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Beállítások"
+				},
+				"checkbox-downscale": {
+					"text": "Lekicsinyítés"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI a fenti képekhez"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Használjon Flaze(Zip) tömörítést az LWZ tömörítés helyett"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Használja a Flaze(Zip) tömörítést a tömörítetlen erőforrásokhoz"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Tömörítse újra az összes olyan erőforrást, amely Flate (ZIP) tömörítést használ a maximális tömörítési szint használatával"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "A betűtípus-alkészletek optimalizálása"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Annotációk simítása"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Alkészlet betűtípusok"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Távolítsa el a megjegyzéseket"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Távolítsa el az érvénytelen könyvjelzőket"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Könyvjelzők eltávolítása"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Távolítsa el az érvénytelen linkeket"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Távolítsa el a beágyazott oldal miniatűröket"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Távolítsa el a nem használt oldalakat"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Távolítsa el a dokumentum adatait"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Tisztítás névszótár"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Távolítsa el a fájlmellékleteket"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Távolítsa el a fel nem használt erőforrásokat"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Távolítsa el a metaadatokat"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Távolítsa el az ismétlődő erőforrásokat"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Távolítsa el az interaktív űrlapot"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Tisztítsa meg a tartalomfolyamokat"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Szerkezetfa eltávolítása"
+			},
+			"outputFilenameFormat": {
+				"text": "Kimeneti fájlnév:"
+			},
+			"outputDocumentFormat": {
+				"text": "Kimeneti dokumentum formátum:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Linearizált formátum (Fast Web View)"
+			},
+			"executeCompressionButton": {
+				"value": "PDF tömörítése"
+			},
+			"saveButton": {
+				"value": "Megtakarítás"
+			},
+			"closeButton": {
+				"value": "Bezárás"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Fájl név:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Mégse"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Nézet forgatása az óramutató járásával megegyező irányba"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Nézet elforgatása az óramutató járásával ellentétes irányba"
+		},
+		"removeImagesButton": {
+			"text": "Képek eltávolítása"
+		},
+		"moveImageUpButton": {
+			"text": "Kép mozgatása felfelé"
+		},
+		"moveImageDownButton": {
+			"text": "Kép mozgatása lefelé"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Fájl letöltése és megnyitása",
 		"vsdv-uploadAndAddFileButton-addFileString": "Fájl feltöltése és hozzáadása",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "PDF könyvjelzők beszerzése",
-		"vsdv-textSearchPanel-pageLabel": "Oldal",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Képforrás beszerzése",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Oldal",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "PDF könyvjelzők beszerzése",
+		"vsui-textSearchPanel-pageLabel": "Oldal",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Képforrás beszerzése",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Oldal",
+		"vspe-openFile-addFileString": "Fájl hozzáadása",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Mentse el a változtatásokat PDF dokumentumban",
 		"vsdv-openFile-addFileString": "Fájl hozzáadása",
 		"vsdv-openFile-authenticateFileString": "Fájl hitelesítése",
 		"vsdv-downloadFile-actionMessage": "Fájl letöltése",
 		"vsdv-saveChanges-saveChangesInImages": "Mentse el a változásokat a képeken",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Oldal",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Mentse el a megjegyzések módosításait",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Írjon megjegyzéseket a képekre",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Mentse el a változtatásokat PDF dokumentumban",
-		"vsdv-uploadFileButton-uploadFileString": "Fájl feltöltés",
-		"vsdv-documentPasswordDialog-title": "Dokumentum jelszava",
+		"vsui-documentPasswordDialog-title": "Dokumentum jelszava",
+		"vsui-dialog-okButton": "Rendben",
+		"vsui-dialog-cancelButton": "Mégse",
+		"vsui-documentPasswordPanel-authenticateFileString": "Fájl hitelesítése",
+		"vsui-imageSelectionDialog-title": "Képek kiválasztása",
+		"vsui-imageSelectionDialog-currentImageString": "Aktuális kép",
+		"vsui-imageSelectionDialog-allImagesString": "Minden kép",
+		"vsui-imageSelectionDialog-customImagesString": "Egyedi",
+		"vsui-printImagesDialog-title": "Képek nyomtatása",
+		"vsui-printImagesPanel-imagePrintingString": "A kép nyomtatása folyamatban van",
+		"vsui-printImagesPanel-withAnnotationsLabel": "jegyzetekkel",
+		"vsui-imageViewerSettingsDialog-title": "A képnézegető beállításai",
+		"vsui-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "PDF szerkesztési jel megjelenése",
+		"vsui-pdfImageResourceDialog-title": "PDF képforrás",
+		"vsui-pdfImageResourcePanel-bytes": " bájtok",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A konvertálás és érvényesítés",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Konvertálás PDF/A formátumba",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Érvényesítse a PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Bezárás",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF tömörítő",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF tömörítése",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Megtakarítás",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Bezárás",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG kódoló beállításai",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Alkalmaz",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Bezárás",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 kódoló beállításai",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Alkalmaz",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Bezárás",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 kódoló beállításai",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Alkalmaz",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Bezárás",
+		"vsui-exportFileSettingsDialog-title": "A fájl exportálásának beállításai",
 		"vsdv-dialog-okButton": "Rendben",
-		"vsdv-dialog-cancelButton": "Mégse",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Fájl hitelesítése",
-		"vsdv-imageSelectionDialog-title": "Képek kiválasztása",
-		"vsdv-imageSelectionDialog-currentImageString": "Aktuális kép",
-		"vsdv-imageSelectionDialog-allImagesString": "Minden kép",
-		"vsdv-imageSelectionDialog-customImagesString": "Egyedi",
-		"vsdv-printImagesDialog-title": "Képek nyomtatása",
-		"vsdv-printImagesPanel-imagePrintingString": "A kép nyomtatása folyamatban van",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "jegyzetekkel",
-		"vsdv-imageViewerSettingsDialog-title": "A képnézegető beállításai",
-		"vsdv-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF szerkesztési jel megjelenése",
-		"vsdv-pdfImageResourceDialog-title": "PDF képforrás",
-		"vsdv-pdfImageResourcePanel-bytes": " bájtok",
-		"vsdv-exportFileSettingsDialog-title": "A fájl exportálásának beállításai",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF szerkesztési jel beállításai"
+		"vsdv-dialog-cancelButton": "Mégse"
 	}
 }

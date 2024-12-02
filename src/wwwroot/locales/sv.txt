@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Fil"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Rensa sessionscache"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A-konvertering och validering"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF-kompressor"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Anpassa till bredd"
 		},
@@ -61,7 +67,7 @@
 			"title": "Textval"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Extrahera bilder från sidan"
+			"title": "Extrahera bildresurser från PDF-sidan"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktiva fält"
@@ -73,10 +79,10 @@
 			"title": "Markera område för redigering"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Markera helsidor för redigering"
+			"title": "Markera hela PDF-sidor för redigering"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Ta bort fokuserat redigeringsmärke"
+			"title": "Ta bort fokuserat PDF-redigeringsmärke"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "PDF-redigeringsmärke utseende"
@@ -100,10 +106,7 @@
 			"title": "Sök efter text"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Extrahera bilder"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Interaktiva fält"
+			"title": "PDF-bildresurser"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF-redigeringsmärken"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Visa innehållsbild"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Interaktionsläge:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Nej"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Visa"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Gruppera fält efter sidor"
-			},
-			"saveChangesButton": {
-				"value": "Spara ändringar"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Kan dra miniatyrer:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Kan navigera miniatyrer med tangentbordet:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Kan välja miniatyrer med tangentbordet:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Kan ta bort miniatyrer med tangentbordet:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -646,6 +641,323 @@
 				"value": "OK"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A-format:"
+			},
+			"resultLabel": {
+				"text": "Resultat:"
+			},
+			"convertToPdfaButton": {
+				"value": "Konvertera till PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Validera PDF/A"
+			},
+			"closeButton": {
+				"value": "Stäng"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Kvalitet:"
+			},
+			"grayscaleLabel": {
+				"text": "Gråskala (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Tillämpa"
+			},
+			"closeButton": {
+				"value": "Stäng"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Använd kakel"
+			},
+			"waveletTransformLabel": {
+				"text": "Wavelet-förvandlingen"
+			},
+			"levelLabel": {
+				"text": "Nivå"
+			},
+			"lossyLabel": {
+				"text": "Förlustig"
+			},
+			"fileSizeLabel": {
+				"text": "Fil-storlek"
+			},
+			"kBytesLabel": {
+				"text": "KByte"
+			},
+			"compressionRatioLabel": {
+				"text": "Kompressionsförhållande"
+			},
+			"applyButton": {
+				"value": "Tillämpa"
+			},
+			"closeButton": {
+				"value": "Stäng"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Bitmap Encoding Algoritm"
+			},
+			"mqLabel": {
+				"text": "MQ (Aritmetik)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Symbol ordbok"
+			},
+			"dictionarySizeLabel": {
+				"text": "Ordboksstorlek"
+			},
+			"lossyLabel": {
+				"text": "Förlustig"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Inexakthet i procent"
+			},
+			"applyButton": {
+				"value": "Tillämpa"
+			},
+			"closeButton": {
+				"value": "Stäng"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Resurser"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Städa upp / kassera"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Utdatadokumentformat"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Real Color Depth Detection (minska bildens färgdjup)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Upptäck svart/vita bilder"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Upptäck indexerade1 (bitonala) bilder"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Upptäck gråskalebilder"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Upptäck indexerade8 (256 färger) bilder"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Detektion Maximal inexakthet"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(avstånd i RGB-utrymme)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Färgbilder"
+				},
+				"checkbox-compression": {
+					"text": "Kompression"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Blixtlås"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "inställningar"
+				},
+				"checkbox-downscale": {
+					"text": "Nedskala"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI för bilder ovan"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Gråskala bilder"
+				},
+				"checkbox-compression": {
+					"text": "Kompression"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Blixtlås"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "inställningar"
+				},
+				"checkbox-downscale": {
+					"text": "Nedskala"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI för bilder ovan"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitonala bilder"
+				},
+				"checkbox-compression": {
+					"text": "Kompression"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "inställningar"
+				},
+				"checkbox-downscale": {
+					"text": "Nedskala"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI för bilder ovan"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Använd Flaze(Zip)-komprimering istället för LWZ-komprimering"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Använd Flaze(Zip)-komprimering för okomprimerade resurser"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Komprimera om alla resurser som använder Flate(ZIP)-komprimering med max komprimeringsnivå"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Optimera teckensnittsundergrupper"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Platta ut kommentarer"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Deluppsättning teckensnitt"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Ta bort kommentarer"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Ta bort ogiltiga bokmärken"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Ta bort bokmärken"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Ta bort ogiltiga länkar"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Ta bort inbäddade sidminiatyrer"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Ta bort oanvända sidor"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Ta bort dokumentinformation"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Rengöringsnamnslexikon"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Ta bort filbilagor"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Ta bort oanvända resurser"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Ta bort metadata"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Ta bort resursdubbletter"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Ta bort interaktiv form"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Rensa innehållsströmmar"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Ta bort strukturträdet"
+			},
+			"outputFilenameFormat": {
+				"text": "Utdatafilnamn:"
+			},
+			"outputDocumentFormat": {
+				"text": "Utdatadokumentformat:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Linjäriserat format (snabb webbvy)"
+			},
+			"executeCompressionButton": {
+				"value": "Komprimera PDF"
+			},
+			"saveButton": {
+				"value": "Spara"
+			},
+			"closeButton": {
+				"value": "Stäng"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Filnamn:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Avbryt"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Rotera vyn medurs"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Rotera vyn moturs"
+		},
+		"removeImagesButton": {
+			"text": "Ta bort bilder"
+		},
+		"moveImageUpButton": {
+			"text": "Flytta bilden uppåt"
+		},
+		"moveImageDownButton": {
+			"text": "Flytta bilden nedåt"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Ladda ner och öppna filen",
 		"vsdv-uploadAndAddFileButton-addFileString": "Ladda upp och lägg till fil",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Hämta PDF-bokmärken",
-		"vsdv-textSearchPanel-pageLabel": "Sida",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Skaffa bildresurs",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Sida",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Hämta PDF-bokmärken",
+		"vsui-textSearchPanel-pageLabel": "Sida",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Skaffa bildresurs",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sida",
+		"vspe-openFile-addFileString": "Lägg till fil",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Spara ändringar i PDF-dokument",
 		"vsdv-openFile-addFileString": "Lägg till fil",
 		"vsdv-openFile-authenticateFileString": "Autentisera fil",
 		"vsdv-downloadFile-actionMessage": "Nedladdning fil",
 		"vsdv-saveChanges-saveChangesInImages": "Spara ändringar i bilder",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Sida",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Spara ändringar i kommentarer",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Bränn kommentarer på bilder",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Spara ändringar i PDF-dokument",
-		"vsdv-uploadFileButton-uploadFileString": "Ladda upp fil",
-		"vsdv-documentPasswordDialog-title": "Dokumentlösenord",
+		"vsui-documentPasswordDialog-title": "Dokumentlösenord",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Avbryt",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentisera fil",
+		"vsui-imageSelectionDialog-title": "Välj bilder",
+		"vsui-imageSelectionDialog-currentImageString": "Aktuell bild",
+		"vsui-imageSelectionDialog-allImagesString": "Alla bilder",
+		"vsui-imageSelectionDialog-customImagesString": "Anpassad",
+		"vsui-printImagesDialog-title": "Skriv ut bilder",
+		"vsui-printImagesPanel-imagePrintingString": "Bilden skrivs ut",
+		"vsui-printImagesPanel-withAnnotationsLabel": "med kommentarer",
+		"vsui-imageViewerSettingsDialog-title": "Inställningar för bildvisning",
+		"vsui-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "PDF-redigeringsmärke utseende",
+		"vsui-pdfImageResourceDialog-title": "PDF-bildresurs",
+		"vsui-pdfImageResourcePanel-bytes": " bytes",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A-konvertering och validering",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Konvertera till PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Validera PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Stäng",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF-kompressor",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Komprimera PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Spara",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Stäng",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG-kodarinställningar",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Tillämpa",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Stäng",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 kodarinställningar",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Tillämpa",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Stäng",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2-kodarinställningar",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Tillämpa",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Stäng",
+		"vsui-exportFileSettingsDialog-title": "Inställningarna för att exportera filen",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Avbryt",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentisera fil",
-		"vsdv-imageSelectionDialog-title": "Välj bilder",
-		"vsdv-imageSelectionDialog-currentImageString": "Aktuell bild",
-		"vsdv-imageSelectionDialog-allImagesString": "Alla bilder",
-		"vsdv-imageSelectionDialog-customImagesString": "Anpassad",
-		"vsdv-printImagesDialog-title": "Skriv ut bilder",
-		"vsdv-printImagesPanel-imagePrintingString": "Bilden skrivs ut",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "med kommentarer",
-		"vsdv-imageViewerSettingsDialog-title": "Inställningar för bildvisning",
-		"vsdv-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF-redigeringsmärke utseende",
-		"vsdv-pdfImageResourceDialog-title": "PDF-bildresurs",
-		"vsdv-pdfImageResourcePanel-bytes": " bytes",
-		"vsdv-exportFileSettingsDialog-title": "Inställningarna för att exportera filen",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "Inställningar för PDF-redigeringsmärke"
+		"vsdv-dialog-cancelButton": "Avbryt"
 	}
 }

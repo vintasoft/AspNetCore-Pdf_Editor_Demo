@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "File"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Clear session cache"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A conversion and validation"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF compressor"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Fit to width"
 		},
@@ -61,7 +67,7 @@
 			"title": "Text Selection"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Extract images from page"
+			"title": "Extract image-resources from PDF page"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Interactive fields"
@@ -73,10 +79,10 @@
 			"title": "Mark area for redaction"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Mark full pages for redaction"
+			"title": "Mark full PDF pages for redaction"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Remove focused redaction mark"
+			"title": "Remove focused PDF redaction mark"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "PDF redaction mark appearance"
@@ -100,10 +106,7 @@
 			"title": "Find text"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Extract images"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Interactive fields"
+			"title": "PDF image-resources"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF redaction marks"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Show content image"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Interaction mode:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "None"
-			},
-			"viewInteractionModeLabel": {
-				"text": "View"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Group fields by pages"
-			},
-			"saveChangesButton": {
-				"value": "Save changes"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Can Drag Thumbnails:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Can Navigate Thumbnails Using Keyboard:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Can Select Thumbnails Using Keyboard:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Can Delete Thumbnails Using Keyboard:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -646,6 +641,323 @@
 				"value": "OK"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A Format:"
+			},
+			"resultLabel": {
+				"text": "Result:"
+			},
+			"convertToPdfaButton": {
+				"value": "Convert to PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Validate PDF/A"
+			},
+			"closeButton": {
+				"value": "Close"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Quality:"
+			},
+			"grayscaleLabel": {
+				"text": "Grayscale (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Apply"
+			},
+			"closeButton": {
+				"value": "Close"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Use Tiles"
+			},
+			"waveletTransformLabel": {
+				"text": "Wavelet Transform"
+			},
+			"levelLabel": {
+				"text": "Level"
+			},
+			"lossyLabel": {
+				"text": "Lossy"
+			},
+			"fileSizeLabel": {
+				"text": "File Size"
+			},
+			"kBytesLabel": {
+				"text": "KBytes"
+			},
+			"compressionRatioLabel": {
+				"text": "Compression Ratio"
+			},
+			"applyButton": {
+				"value": "Apply"
+			},
+			"closeButton": {
+				"value": "Close"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Bitmap Encoding Algorithm"
+			},
+			"mqLabel": {
+				"text": "MQ (Arithmetic)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Symbol dictionary"
+			},
+			"dictionarySizeLabel": {
+				"text": "Dictionary size"
+			},
+			"lossyLabel": {
+				"text": "Lossy"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Inaccuracy percent"
+			},
+			"applyButton": {
+				"value": "Apply"
+			},
+			"closeButton": {
+				"value": "Close"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Resources"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Clean Up / Discard"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Output Document Format"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Image Real Color Depth Detection (Reduce Image Color Depth)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Detect Black/White Images"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Detect Indexed1 (Bitonal) Images"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Detect Grayscale Images"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Detect Indexed8 (256 colors) Images"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Detection Maximal Inaccuracy"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(distance in RGB space)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Color Images"
+				},
+				"checkbox-compression": {
+					"text": "Compression"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Settings"
+				},
+				"checkbox-downscale": {
+					"text": "Downscale"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI for images above"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Grayscale Images"
+				},
+				"checkbox-compression": {
+					"text": "Compression"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Settings"
+				},
+				"checkbox-downscale": {
+					"text": "Downscale"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI for images above"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitonal Images"
+				},
+				"checkbox-compression": {
+					"text": "Compression"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Settings"
+				},
+				"checkbox-downscale": {
+					"text": "Downscale"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI for images above"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Use Flaze(Zip) compression instead of LWZ compression"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Use Flaze(Zip) compression for uncompressed resources"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Recompress all resources that use Flate(ZIP) compression using max compression level"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Optimize font subsets"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Flatten annotations"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Subset fonts"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Remove annotations"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Remove invalid bookmarks"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Remove bookmarks"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Remove invalid links"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Remove embedded page thumbnails"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Remove unused pages"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Remove document information"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Cleanup name dictionary"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Remove file attachments"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Remove unused resources"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Remove metadata"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Remove resource duplicates"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Remove interactive form"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Cleanup content streams"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Remove structure tree"
+			},
+			"outputFilenameFormat": {
+				"text": "Output Filename:"
+			},
+			"outputDocumentFormat": {
+				"text": "Output document format:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Linearized format (Fast Web View)"
+			},
+			"executeCompressionButton": {
+				"value": "Compress PDF"
+			},
+			"saveButton": {
+				"value": "Save"
+			},
+			"closeButton": {
+				"value": "Close"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "File name:"
@@ -697,35 +1009,56 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Upload and open file",
 		"vsdv-uploadAndAddFileButton-addFileString": "Upload and add file",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Get PDF bookmarks",
-		"vsdv-textSearchPanel-pageLabel": "Page",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Get image resource",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Get PDF bookmarks",
+		"vsui-textSearchPanel-pageLabel": "Page",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Get image resource",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
+		"vspe-openFile-addFileString": "Add file",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Save changes in PDF document",
 		"vsdv-openFile-addFileString": "Add file",
 		"vsdv-openFile-authenticateFileString": "Authenticate file",
 		"vsdv-downloadFile-actionMessage": "Download file",
 		"vsdv-saveChanges-saveChangesInImages": "Save changes in images",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Save changes in annotations",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Burn annotations on images",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Save changes in PDF document",
-		"vsdv-documentPasswordDialog-title": "Document password",
+		"vsui-documentPasswordDialog-title": "Document password",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Cancel",
+		"vsui-documentPasswordPanel-authenticateFileString": "Authenticate file",
+		"vsui-imageSelectionDialog-title": "Select images",
+		"vsui-imageSelectionDialog-currentImageString": "Current image",
+		"vsui-imageSelectionDialog-allImagesString": "All images",
+		"vsui-imageSelectionDialog-customImagesString": "Custom",
+		"vsui-printImagesDialog-title": "Print images",
+		"vsui-printImagesPanel-imagePrintingString": "Image is printing",
+		"vsui-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsui-imageViewerSettingsDialog-title": "Image viewer settings",
+		"vsui-thumbnailViewerSettingDialog-title": "Thumbnail viewer settings",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Show Annotations:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "PDF redaction mark appearance",
+		"vsui-pdfImageResourceDialog-title": "PDF image resource",
+		"vsui-pdfImageResourcePanel-bytes": " bytes",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A conversion and validation",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Convert to PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Validate PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Close",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF compressor",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Compress PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Save",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Close",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG encoder settings",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Apply",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Close",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 encoder settings",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Apply",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Close",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 encoder settings",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Apply",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Close",
+		"vsui-exportFileSettingsDialog-title": "Export file settings",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Cancel",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Authenticate file",
-		"vsdv-imageSelectionDialog-title": "Select images",
-		"vsdv-imageSelectionDialog-currentImageString": "Current image",
-		"vsdv-imageSelectionDialog-allImagesString": "All images",
-		"vsdv-imageSelectionDialog-customImagesString": "Custom",
-		"vsdv-printImagesDialog-title": "Print images",
-		"vsdv-printImagesPanel-imagePrintingString": "Image is printing",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
-		"vsdv-imageViewerSettingsDialog-title": "Image viewer settings",
-		"vsdv-thumbnailViewerSettingDialog-title": "Thumbnail viewer settings",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Show Annotations:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF redaction mark appearance",
-		"vsdv-pdfImageResourceDialog-title": "PDF image resource",
-		"vsdv-pdfImageResourcePanel-bytes": " bytes",
-		"vsdv-exportFileSettingsDialog-title": "Export file settings",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF redaction mark settings"
+		"vsdv-dialog-cancelButton": "Cancel"
 	}
 }

@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Ifayela"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Sula inqolobane yeseshini"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "Ukuguqulwa kwe-PDF/A nokuqinisekisa"
+		},
+		"pdfCompressorButton": {
+			"title": "I-PDF compressor"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Linganisa ububanzi"
 		},
@@ -61,7 +67,7 @@
 			"title": "Ukukhetha Umbhalo"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Khipha izithombe ekhasini"
+			"title": "Khipha izinsiza zesithombe ekhasini le-PDF"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Izinkambu ezisebenzisanayo"
@@ -73,10 +79,10 @@
 			"title": "Maka indawo ukuze ibhalwe kabusha"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Maka amakhasi aphelele ukuze abhalwe kabusha"
+			"title": "Maka amakhasi e-PDF aphelele ukuze abhalwe kabusha"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Susa uphawu lokuphinda olugxilisiwe"
+			"title": "Susa uphawu lokuphinda lwenziwe kabusha lwe-PDF"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "Ukubukeka kophawu lokuphindaphinda kwe-PDF"
@@ -100,10 +106,7 @@
 			"title": "Thola umbhalo"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Khipha izithombe"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Izinkambu ezisebenzisanayo"
+			"title": "Izinsiza zesithombe ze-PDF"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Izimpawu zokuphinda zenziwe kabusha ze-PDF"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Bonisa isithombe sokuqukethwe"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Imodi yokusebenzisana:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Lutho"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Buka"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Hlanganisa izinkambu ngamakhasi"
-			},
-			"saveChangesButton": {
-				"value": "Londoloza izinguquko"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Ingakwazi Ukuhudula Izithonjana:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Ingakwazi Ukuzulazula Izithonjana Ngokusebenzisa Ikhibhodi:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Ungakhetha Izithonjana Usebenzisa Ikhibhodi:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Ingasusa Izithonjana Ngokusebenzisa Ikhibhodi:"
+			},
 			"okButton": {
 				"value": "KULUNGILE"
 			},
@@ -646,6 +641,323 @@
 				"value": "KULUNGILE"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "Ifomethi ye-PDF/A:"
+			},
+			"resultLabel": {
+				"text": "Umphumela:"
+			},
+			"convertToPdfaButton": {
+				"value": "Guqula ibe yi-PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Qinisekisa i-PDF/A"
+			},
+			"closeButton": {
+				"value": "Vala"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Ikhwalithi:"
+			},
+			"grayscaleLabel": {
+				"text": "I-Grayscale (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Faka isicelo"
+			},
+			"closeButton": {
+				"value": "Vala"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Sebenzisa amathayili"
+			},
+			"waveletTransformLabel": {
+				"text": "Ukuguqulwa kwe-wavelet"
+			},
+			"levelLabel": {
+				"text": "Izinga"
+			},
+			"lossyLabel": {
+				"text": "Ulahlekile"
+			},
+			"fileSizeLabel": {
+				"text": "Usayizi Wefayela"
+			},
+			"kBytesLabel": {
+				"text": "KBytes"
+			},
+			"compressionRatioLabel": {
+				"text": "Isilinganiso sokucindezela"
+			},
+			"applyButton": {
+				"value": "Faka isicelo"
+			},
+			"closeButton": {
+				"value": "Vala"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "I-Bitmap Encoding Algorithm"
+			},
+			"mqLabel": {
+				"text": "I-MQ (I-Arithmetic)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Isichazamazwi sophawu"
+			},
+			"dictionarySizeLabel": {
+				"text": "Usayizi wesichazamazwi"
+			},
+			"lossyLabel": {
+				"text": "Ulahlekile"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Amaphesenti anganembiki"
+			},
+			"applyButton": {
+				"value": "Faka isicelo"
+			},
+			"closeButton": {
+				"value": "Vala"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Izinsiza"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Hlanza / Lahla"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Ifomethi Yedokhumenti Yokukhipha"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Ukutholwa Kombala Wangempela Wesithombe (Yehlisa Ukujula Kombala Wesithombe)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Thola Izithombe Ezimnyama/ezimhlophe"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Thola Izithombe ezine-Indexed1 (Bitonal)."
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Thola Izithombe Ze-Grayscale"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Thola Izithombe Ezinenkomba8 (256 imibala)"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Ukuthola Ukunganembi Okukhulu"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(ibanga esikhaleni se-RGB)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Izithombe Ezinemibala"
+				},
+				"checkbox-compression": {
+					"text": "Ukucindezelwa"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Izilungiselelo"
+				},
+				"checkbox-downscale": {
+					"text": "Isikali esiphansi"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "I-DPI yezithombe ezingenhla"
+				},
+				"checkbox-dpi": {
+					"text": "I-DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Izithombe Ezimpunga"
+				},
+				"checkbox-compression": {
+					"text": "Ukucindezelwa"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Izilungiselelo"
+				},
+				"checkbox-downscale": {
+					"text": "Isikali esiphansi"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "I-DPI yezithombe ezingenhla"
+				},
+				"checkbox-dpi": {
+					"text": "I-DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Izithombe zeBitonal"
+				},
+				"checkbox-compression": {
+					"text": "Ukucindezelwa"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Izilungiselelo"
+				},
+				"checkbox-downscale": {
+					"text": "Isikali esiphansi"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "I-DPI yezithombe ezingenhla"
+				},
+				"checkbox-dpi": {
+					"text": "I-DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Sebenzisa ukucindezela kwe-Flaze(Zip) esikhundleni sokuminyaniswa kwe-LWZ"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Sebenzisa ukucindezela kwe-Flaze(Zip) ukuthola izinsiza ezingacindezelwe"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Cindezela kabusha zonke izinsiza ezisebenzisa ukucindezelwa kwe-Flate(ZIP) usebenzisa izinga eliphezulu lokucindezela"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Lungiselela amasethi angaphansi wefonti"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Hlelisa izichasiselo"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Amafonti angaphansi"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Susa izichasiselo"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Susa amabhukumaka angavumelekile"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Susa amabhukumaka"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Susa izixhumanisi ezingavumelekile"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Susa izithonjana zekhasi elishumekiwe"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Susa amakhasi angasetshenzisiwe"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Susa imininingwane yedokhumenti"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Isichazamazwi segama lokuhlanza"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Susa okunamathiselwe kwifayela"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Susa izinsiza ezingasetshenzisiwe"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Susa imethadatha"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Susa izimpinda zensiza"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Susa ifomu elisebenzisanayo"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Hlanza ukusakazwa kokuqukethwe"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Susa isihlahla sesakhiwo"
+			},
+			"outputFilenameFormat": {
+				"text": "Igama lefayela eliphumayo:"
+			},
+			"outputDocumentFormat": {
+				"text": "Ifomethi yedokhumenti yokuphuma:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Ifomethi yomugqa (Ukubuka Kwewebhu Okusheshayo)"
+			},
+			"executeCompressionButton": {
+				"value": "Cindezela i-PDF"
+			},
+			"saveButton": {
+				"value": "Londoloza"
+			},
+			"closeButton": {
+				"value": "Vala"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Igama lefayela:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Khansela"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Zungezisa ukubuka ngokwewashi"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Zungezisa ukubuka ngokuphikisana newashi"
+		},
+		"removeImagesButton": {
+			"text": "Susa izithombe"
+		},
+		"moveImageUpButton": {
+			"text": "Hambisa isithombe phezulu"
+		},
+		"moveImageDownButton": {
+			"text": "Hambisa isithombe phansi"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Layisha futhi uvule ifayela",
 		"vsdv-uploadAndAddFileButton-addFileString": "Layisha futhi wengeze ifayela",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Thola amabhukhimakhi e-PDF",
-		"vsdv-textSearchPanel-pageLabel": "Ikhasi",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Thola insiza yesithombe",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Ikhasi",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Thola amabhukhimakhi e-PDF",
+		"vsui-textSearchPanel-pageLabel": "Ikhasi",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Thola insiza yesithombe",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Ikhasi",
+		"vspe-openFile-addFileString": "Engeza ifayela",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
 		"vsdv-openFile-addFileString": "Engeza ifayela",
 		"vsdv-openFile-authenticateFileString": "Qinisekisa ifayela",
 		"vsdv-downloadFile-actionMessage": "Landa ifayela",
 		"vsdv-saveChanges-saveChangesInImages": "Londoloza izinguquko ezithombeni",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Ikhasi",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Londoloza izinguquko ezichasiselweni",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Shisa izichasiselo ezithombeni",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
-		"vsdv-uploadFileButton-uploadFileString": "Layisha ifayela",
-		"vsdv-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
+		"vsui-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
+		"vsui-dialog-okButton": "KULUNGILE",
+		"vsui-dialog-cancelButton": "Khansela",
+		"vsui-documentPasswordPanel-authenticateFileString": "Qinisekisa ifayela",
+		"vsui-imageSelectionDialog-title": "Khetha izithombe",
+		"vsui-imageSelectionDialog-currentImageString": "Isithombe samanje",
+		"vsui-imageSelectionDialog-allImagesString": "Zonke izithombe",
+		"vsui-imageSelectionDialog-customImagesString": "Ngokwezifiso",
+		"vsui-printImagesDialog-title": "Phrinta izithombe",
+		"vsui-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
+		"vsui-printImagesPanel-withAnnotationsLabel": "ngezichasiselo",
+		"vsui-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
+		"vsui-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "Ukubukeka kophawu lokuphindaphinda kwe-PDF",
+		"vsui-pdfImageResourceDialog-title": "Insiza yesithombe se-PDF",
+		"vsui-pdfImageResourcePanel-bytes": " amabhayithi",
+		"vsui-pdfAConversionAndValidationDialog-title": "Ukuguqulwa kwe-PDF/A nokuqinisekisa",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Guqula ibe yi-PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Qinisekisa i-PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Vala",
+		"vsui-pdfDocumentCompressorDialog-title": "I-PDF compressor",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Cindezela i-PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Londoloza",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Vala",
+		"vsui-jpegEncoderSettingsDialog-title": "Izilungiselelo zesifaki khodi se-JPEG",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Faka isicelo",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Vala",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "Izilungiselelo zesifaki khodi se-JPEG2000",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Faka isicelo",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Vala",
+		"vsui-jbig2EncoderSettingsDialog-title": "Izilungiselelo zesifaki khodi se-JBIG2",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Faka isicelo",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Vala",
+		"vsui-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela",
 		"vsdv-dialog-okButton": "KULUNGILE",
-		"vsdv-dialog-cancelButton": "Khansela",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Qinisekisa ifayela",
-		"vsdv-imageSelectionDialog-title": "Khetha izithombe",
-		"vsdv-imageSelectionDialog-currentImageString": "Isithombe samanje",
-		"vsdv-imageSelectionDialog-allImagesString": "Zonke izithombe",
-		"vsdv-imageSelectionDialog-customImagesString": "Ngokwezifiso",
-		"vsdv-printImagesDialog-title": "Phrinta izithombe",
-		"vsdv-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "ngezichasiselo",
-		"vsdv-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
-		"vsdv-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Ukubukeka kophawu lokuphindaphinda kwe-PDF",
-		"vsdv-pdfImageResourceDialog-title": "Insiza yesithombe se-PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " amabhayithi",
-		"vsdv-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "Izilungiselelo zophawu lokuphinda lwe-PDF"
+		"vsdv-dialog-cancelButton": "Khansela"
 	}
 }

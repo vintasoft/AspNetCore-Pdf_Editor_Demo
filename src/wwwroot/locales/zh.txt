@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "文件"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "清除會話快取"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A 转换和验证"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF 压缩器"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "适合宽度"
 		},
@@ -61,7 +67,7 @@
 			"title": "文本选择"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "从页面中提取图像"
+			"title": "从 PDF 页面提取图像资源"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "互动领域"
@@ -73,10 +79,10 @@
 			"title": "标记密文区域"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "标记整页进行密文"
+			"title": "标记整个 PDF 页面以进行编辑"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "删除聚焦的密文标记"
+			"title": "删除重点 PDF 编辑标记"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "PDF 密文标记外观"
@@ -100,10 +106,7 @@
 			"title": "查找文字"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "提取图像"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "互动领域"
+			"title": "PDF 图像资源"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF 修订标记"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "显示内容图片"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "交互方式："
-			},
-			"noneInteractionModeLabel": {
-				"text": "没有任何"
-			},
-			"viewInteractionModeLabel": {
-				"text": "看法"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "按页面对字段进行分组"
-			},
-			"saveChangesButton": {
-				"value": "保存更改"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "可以拖动缩略图："
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "可以使用键盘浏览缩略图："
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "可以使用键盘选择缩略图："
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "可以使用键盘删除缩略图："
+			},
 			"okButton": {
 				"value": "好的"
 			},
@@ -646,6 +641,323 @@
 				"value": "好的"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A 格式："
+			},
+			"resultLabel": {
+				"text": "结果："
+			},
+			"convertToPdfaButton": {
+				"value": "转换为 PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "验证 PDF/A"
+			},
+			"closeButton": {
+				"value": "关闭"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "质量："
+			},
+			"grayscaleLabel": {
+				"text": "灰度 (8 bpp)"
+			},
+			"applyButton": {
+				"value": "申请"
+			},
+			"closeButton": {
+				"value": "关闭"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "使用图块"
+			},
+			"waveletTransformLabel": {
+				"text": "小波变换"
+			},
+			"levelLabel": {
+				"text": "级别"
+			},
+			"lossyLabel": {
+				"text": "有损"
+			},
+			"fileSizeLabel": {
+				"text": "文件大小"
+			},
+			"kBytesLabel": {
+				"text": "KB"
+			},
+			"compressionRatioLabel": {
+				"text": "压缩比"
+			},
+			"applyButton": {
+				"value": "申请"
+			},
+			"closeButton": {
+				"value": "关闭"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "位图编码算法"
+			},
+			"mqLabel": {
+				"text": "MQ（算术）"
+			},
+			"mmrLabel": {
+				"text": "Mmr（CCITT4）"
+			},
+			"symbolDictionaryLabel": {
+				"text": "符号字典"
+			},
+			"dictionarySizeLabel": {
+				"text": "字典大小"
+			},
+			"lossyLabel": {
+				"text": "有损"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "不准确百分比"
+			},
+			"applyButton": {
+				"value": "申请"
+			},
+			"closeButton": {
+				"value": "关闭"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "资源"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "清理/丢弃"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "输出文档格式"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "图像真实色彩深度检测（降低图像色彩深度）"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "检测黑白图像"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "检测 Indexed1（双色调）图像"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "检测灰度图像"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "检测 Indexed8（256 色）图像"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "检测最大不准确度"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "（RGB 空间中的距离）"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "颜色图像"
+				},
+				"checkbox-compression": {
+					"text": "压缩"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "设置"
+				},
+				"checkbox-downscale": {
+					"text": "缩小"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI 高于图像"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "灰度图像"
+				},
+				"checkbox-compression": {
+					"text": "压缩"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "设置"
+				},
+				"checkbox-downscale": {
+					"text": "缩小"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI 高于图像"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "黑白图像"
+				},
+				"checkbox-compression": {
+					"text": "压缩"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "设置"
+				},
+				"checkbox-downscale": {
+					"text": "缩小"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI 高于图像"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "使用 Flaze(Zip) 压缩而不是 LWZ 压缩"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "对未压缩的资源使用 Flaze(Zip) 压缩"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "使用最大压缩级别重新压缩所有使用 Flate(ZIP) 压缩的资源"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "优化字体子集"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "扁平化注释"
+			},
+			"checkbox-subsetFonts": {
+				"text": "子集字体"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "删除注释"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "删除无效书签"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "删除书签"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "删除无效链接"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "删除嵌入页面缩略图"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "删除未使用的页面"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "删除文档信息"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "清理名称字典"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "删除文件附件"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "删除未使用的资源"
+			},
+			"checkbox-removeMetadata": {
+				"text": "删除元数据"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "删除资源重复项"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "删除交互式表单"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "清理内容流"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "删除主菜单"
+			},
+			"outputFilenameFormat": {
+				"text": "输出文件名："
+			},
+			"outputDocumentFormat": {
+				"text": "输出文档格式："
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "线性化格式（快速 Web 视图）"
+			},
+			"executeCompressionButton": {
+				"value": "压缩 PDF"
+			},
+			"saveButton": {
+				"value": "保存"
+			},
+			"closeButton": {
+				"value": "关闭"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "檔案名稱："
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "取消"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "順時針旋轉視圖"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "逆時針旋轉視圖"
+		},
+		"removeImagesButton": {
+			"text": "刪除影像"
+		},
+		"moveImageUpButton": {
+			"text": "向上移動影像"
+		},
+		"moveImageDownButton": {
+			"text": "向下移動影像"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "上传并打开文件",
 		"vsdv-uploadAndAddFileButton-addFileString": "上傳並新增文件",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "获取 PDF 书签",
-		"vsdv-textSearchPanel-pageLabel": "页",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "获取图片资源",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "页",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "获取 PDF 书签",
+		"vsui-textSearchPanel-pageLabel": "页",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "获取图片资源",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "页",
+		"vspe-openFile-addFileString": "添加文件",
+		"vspe-saveChanges-saveChangesInPdfDocument": "保存 PDF 文档中的更改",
 		"vsdv-openFile-addFileString": "添加文件",
 		"vsdv-openFile-authenticateFileString": "验证文件",
 		"vsdv-downloadFile-actionMessage": "下载文件",
 		"vsdv-saveChanges-saveChangesInImages": "保存图像中的更改",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "页",
 		"vsdv-saveChanges-saveChangesInAnnotations": "保存注释中的更改",
 		"vsdv-saveChanges-burnAnnotationsInImages": "在图像上刻录注释",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "保存 PDF 文档中的更改",
-		"vsdv-uploadFileButton-uploadFileString": "上传文件",
-		"vsdv-documentPasswordDialog-title": "文档密码",
+		"vsui-documentPasswordDialog-title": "文档密码",
+		"vsui-dialog-okButton": "好的",
+		"vsui-dialog-cancelButton": "取消",
+		"vsui-documentPasswordPanel-authenticateFileString": "验证文件",
+		"vsui-imageSelectionDialog-title": "选择图像",
+		"vsui-imageSelectionDialog-currentImageString": "当前图像",
+		"vsui-imageSelectionDialog-allImagesString": "所有图片",
+		"vsui-imageSelectionDialog-customImagesString": "风俗",
+		"vsui-printImagesDialog-title": "打印图像",
+		"vsui-printImagesPanel-imagePrintingString": "图像正在打印",
+		"vsui-printImagesPanel-withAnnotationsLabel": "带注释",
+		"vsui-imageViewerSettingsDialog-title": "图像查看器设置",
+		"vsui-thumbnailViewerSettingDialog-title": "缩略图查看器设置",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "显示注释：",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "PDF 密文标记外观",
+		"vsui-pdfImageResourceDialog-title": "PDF图片资源",
+		"vsui-pdfImageResourcePanel-bytes": " 字节",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A 转换和验证",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "转换为 PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "验证 PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "关闭",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF 压缩器",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "压缩 PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "保存",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "关闭",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG 编码器设置",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "申请",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "关闭",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 编码器设置",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "申请",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "关闭",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 编码器设置",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "申请",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "关闭",
+		"vsui-exportFileSettingsDialog-title": "匯出文件的設置",
 		"vsdv-dialog-okButton": "好的",
-		"vsdv-dialog-cancelButton": "取消",
-		"vsdv-documentPasswordPanel-authenticateFileString": "验证文件",
-		"vsdv-imageSelectionDialog-title": "选择图像",
-		"vsdv-imageSelectionDialog-currentImageString": "当前图像",
-		"vsdv-imageSelectionDialog-allImagesString": "所有图片",
-		"vsdv-imageSelectionDialog-customImagesString": "风俗",
-		"vsdv-printImagesDialog-title": "打印图像",
-		"vsdv-printImagesPanel-imagePrintingString": "图像正在打印",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "带注释",
-		"vsdv-imageViewerSettingsDialog-title": "图像查看器设置",
-		"vsdv-thumbnailViewerSettingDialog-title": "缩略图查看器设置",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "显示注释：",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF 密文标记外观",
-		"vsdv-pdfImageResourceDialog-title": "PDF图片资源",
-		"vsdv-pdfImageResourcePanel-bytes": " 字节",
-		"vsdv-exportFileSettingsDialog-title": "匯出文件的設置",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF 密文標記設定"
+		"vsdv-dialog-cancelButton": "取消"
 	}
 }

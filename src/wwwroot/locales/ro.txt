@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Fișier"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Goliți memoria cache a sesiunii"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "Conversie și validare PDF/A"
+		},
+		"pdfCompressorButton": {
+			"title": "compresor PDF"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Potrivire la lățime"
 		},
@@ -61,7 +67,7 @@
 			"title": "Selectarea textului"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Extrageți imagini din pagină"
+			"title": "Extrageți resurse de imagine din pagina PDF"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Câmpuri interactive"
@@ -73,10 +79,10 @@
 			"title": "Marcați zona pentru redactare"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Marcați paginile întregi pentru redactare"
+			"title": "Marcați paginile PDF complete pentru redactare"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Eliminați marcajul de redactare focalizat"
+			"title": "Eliminați marcajul de redactare PDF focalizat"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "Apariția semnului de redactare PDF"
@@ -100,10 +106,7 @@
 			"title": "Căutați text"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Extrage imagini"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Câmpuri interactive"
+			"title": "Resurse de imagini PDF"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Semne de redactare PDF"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Afișează imaginea de conținut"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Modul de interacțiune:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Nu"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Vizualizare"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Grupați câmpurile după pagini"
-			},
-			"saveChangesButton": {
-				"value": "Salvează modificările"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Poate trage miniaturi:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Poate naviga prin miniaturi folosind tastatura:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Poate selecta miniaturi folosind tastatura:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Poate șterge miniaturile folosind tastatura:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -646,6 +641,323 @@
 				"value": "OK"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "Format PDF/A:"
+			},
+			"resultLabel": {
+				"text": "Rezultat:"
+			},
+			"convertToPdfaButton": {
+				"value": "Convertiți în PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Validați PDF/A"
+			},
+			"closeButton": {
+				"value": "Închidere"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Calitate:"
+			},
+			"grayscaleLabel": {
+				"text": "Tonuri de gri (8 bpp)"
+			},
+			"applyButton": {
+				"value": "aplica"
+			},
+			"closeButton": {
+				"value": "Închidere"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Folosiți plăci"
+			},
+			"waveletTransformLabel": {
+				"text": "Transformarea wavelet"
+			},
+			"levelLabel": {
+				"text": "Nivel"
+			},
+			"lossyLabel": {
+				"text": "Cu pierdere"
+			},
+			"fileSizeLabel": {
+				"text": "Dimensiunea fișierului"
+			},
+			"kBytesLabel": {
+				"text": "KBytes"
+			},
+			"compressionRatioLabel": {
+				"text": "Raportul de compresie"
+			},
+			"applyButton": {
+				"value": "aplica"
+			},
+			"closeButton": {
+				"value": "Închidere"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Algoritm de codificare bitmap"
+			},
+			"mqLabel": {
+				"text": "MQ (aritmetică)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Dicționar de simboluri"
+			},
+			"dictionarySizeLabel": {
+				"text": "Dicţionar size"
+			},
+			"lossyLabel": {
+				"text": "Cu pierdere"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Procent de inexactitate"
+			},
+			"applyButton": {
+				"value": "aplica"
+			},
+			"closeButton": {
+				"value": "Închidere"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Resurse"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Curățați / Aruncați"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Format document de ieșire"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Detectarea adâncimii culorii reale a imaginii (reduceți adâncimea culorii imaginii)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Detectează imagini alb/negru"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Detectează imagini indexate1 (bitonale)."
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Detectează imagini în tonuri de gri"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Detectează imagini indexate8 (256 de culori)."
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Inexactitate maximă de detectare"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(distanta in spatiul RGB)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Imagini color"
+				},
+				"checkbox-compression": {
+					"text": "Comprimare"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Setări"
+				},
+				"checkbox-downscale": {
+					"text": "Downscale"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI pentru imaginile de mai sus"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Imagini în tonuri de gri"
+				},
+				"checkbox-compression": {
+					"text": "Comprimare"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Setări"
+				},
+				"checkbox-downscale": {
+					"text": "Downscale"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI pentru imaginile de mai sus"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Imagini Bitonale"
+				},
+				"checkbox-compression": {
+					"text": "Comprimare"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CCittFax"
+				},
+				"settingsButton": {
+					"value": "Setări"
+				},
+				"checkbox-downscale": {
+					"text": "Downscale"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI pentru imaginile de mai sus"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Utilizați compresia Flaze(Zip) în loc de compresia LWZ"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Utilizați compresia Flaze(Zip) pentru resurse necomprimate"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Recomprimați toate resursele care utilizează compresie Flate(ZIP) folosind nivelul maxim de compresie"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Optimizați subseturile de fonturi"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Aplatizați adnotările"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Subsetul de fonturi"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Eliminați adnotările"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Eliminați marcajele nevalide"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Eliminați marcajele"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Eliminați linkurile nevalide"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Eliminați miniaturile paginilor încorporate"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Eliminați paginile neutilizate"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Eliminați informațiile din document"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Dicționar de nume de curățare"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Eliminați fișierele atașate"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Eliminați resursele neutilizate"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Eliminați metadatele"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Eliminați duplicatele resurselor"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Eliminați formularul interactiv"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Curățați fluxurile de conținut"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Eliminați arborele structurii"
+			},
+			"outputFilenameFormat": {
+				"text": "Nume fișier de ieșire:"
+			},
+			"outputDocumentFormat": {
+				"text": "Format document de ieșire:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Format liniarizat (Fast Web View)"
+			},
+			"executeCompressionButton": {
+				"value": "Comprimați PDF"
+			},
+			"saveButton": {
+				"value": "Salva"
+			},
+			"closeButton": {
+				"value": "Închidere"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Nume de fișier:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Anulează"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Rotiți vizualizarea în sensul acelor de ceasornic"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Rotiți vizualizarea în sens invers acelor de ceasornic"
+		},
+		"removeImagesButton": {
+			"text": "Eliminați imaginile"
+		},
+		"moveImageUpButton": {
+			"text": "Mutați imaginea în sus"
+		},
+		"moveImageDownButton": {
+			"text": "Mutați imaginea în jos"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Descărcați și deschideți fișierul",
 		"vsdv-uploadAndAddFileButton-addFileString": "Încărcați și adăugați fișier",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Obțineți marcaje PDF",
-		"vsdv-textSearchPanel-pageLabel": "Pagină",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Obțineți resurse de imagine",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Pagină",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Obțineți marcaje PDF",
+		"vsui-textSearchPanel-pageLabel": "Pagină",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Obțineți resurse de imagine",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Pagină",
+		"vspe-openFile-addFileString": "Adauga fisier",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Salvați modificările în documentul PDF",
 		"vsdv-openFile-addFileString": "Adauga fisier",
 		"vsdv-openFile-authenticateFileString": "Autentificați fișierul",
 		"vsdv-downloadFile-actionMessage": "Descărcare fișier",
 		"vsdv-saveChanges-saveChangesInImages": "Salvați modificările în imagini",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Pagină",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvați modificările în adnotări",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ardeți adnotări pe imagini",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvați modificările în documentul PDF",
-		"vsdv-uploadFileButton-uploadFileString": "Incarca fisier",
-		"vsdv-documentPasswordDialog-title": "Parola documentului",
+		"vsui-documentPasswordDialog-title": "Parola documentului",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Anulează",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentificați fișierul",
+		"vsui-imageSelectionDialog-title": "Selectați imagini",
+		"vsui-imageSelectionDialog-currentImageString": "Imaginea curentă",
+		"vsui-imageSelectionDialog-allImagesString": "Toate imaginile",
+		"vsui-imageSelectionDialog-customImagesString": "Personalizat",
+		"vsui-printImagesDialog-title": "Tipărește imagini",
+		"vsui-printImagesPanel-imagePrintingString": "Imaginea se imprimă",
+		"vsui-printImagesPanel-withAnnotationsLabel": "cu adnotări",
+		"vsui-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor",
+		"vsui-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "Apariția semnului de redactare PDF",
+		"vsui-pdfImageResourceDialog-title": "Resursă de imagini PDF",
+		"vsui-pdfImageResourcePanel-bytes": " octeți",
+		"vsui-pdfAConversionAndValidationDialog-title": "Conversie și validare PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Convertiți în PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Validați PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Închidere",
+		"vsui-pdfDocumentCompressorDialog-title": "compresor PDF",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Comprimați PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Salva",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Închidere",
+		"vsui-jpegEncoderSettingsDialog-title": "Setările codificatorului JPEG",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "aplica",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Închidere",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "Setările codificatorului JPEG2000",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "aplica",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Închidere",
+		"vsui-jbig2EncoderSettingsDialog-title": "Setările codificatorului JBIG2",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "aplica",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Închidere",
+		"vsui-exportFileSettingsDialog-title": "Setările pentru exportul fișierului",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Anulează",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentificați fișierul",
-		"vsdv-imageSelectionDialog-title": "Selectați imagini",
-		"vsdv-imageSelectionDialog-currentImageString": "Imaginea curentă",
-		"vsdv-imageSelectionDialog-allImagesString": "Toate imaginile",
-		"vsdv-imageSelectionDialog-customImagesString": "Personalizat",
-		"vsdv-printImagesDialog-title": "Tipărește imagini",
-		"vsdv-printImagesPanel-imagePrintingString": "Imaginea se imprimă",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "cu adnotări",
-		"vsdv-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor",
-		"vsdv-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Apariția semnului de redactare PDF",
-		"vsdv-pdfImageResourceDialog-title": "Resursă de imagini PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " octeți",
-		"vsdv-exportFileSettingsDialog-title": "Setările pentru exportul fișierului",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "Setări pentru marcajul de redactare PDF"
+		"vsdv-dialog-cancelButton": "Anulează"
 	}
 }

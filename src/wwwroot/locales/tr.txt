@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Dosya"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Oturum önbelleğini temizle"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A dönüştürme ve doğrulama"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF sıkıştırıcı"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Genişliğe Sığdır"
 		},
@@ -61,7 +67,7 @@
 			"title": "Metin Seçimi"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Resimleri sayfadan çıkarın"
+			"title": "PDF sayfasından görüntü kaynaklarını ayıkla"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Etkileşimli alanlar"
@@ -73,10 +79,10 @@
 			"title": "Redaksiyon için alanı işaretleyin"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Tüm sayfaları redaksiyon için işaretleme"
+			"title": "Tam PDF sayfalarını redaksiyon için işaretle"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Odaklanmış redaksiyon işaretini kaldır"
+			"title": "Odaklanmış PDF redaksiyon işaretini kaldır"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "PDF redaksiyon işareti görünümü"
@@ -100,10 +106,7 @@
 			"title": "Metin ara"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Görüntüleri çıkarın"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Etkileşimli alanlar"
+			"title": "PDF görüntü kaynakları"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF redaksiyon işaretleri"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "İçerik resmini göster"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Etkileşim modu:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Hayır"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Görüntüle"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Alanları sayfalara göre gruplandırma"
-			},
-			"saveChangesButton": {
-				"value": "Değişiklikleri Kaydet"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Küçük Resimleri Sürükleyebilir:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Klavye Kullanarak Küçük Resimlerde Gezinilebilir:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Klavye Kullanarak Küçük Resim Seçilebilir:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Klavye Kullanarak Küçük Resim Silinebilir:"
+			},
 			"okButton": {
 				"value": "Tamam"
 			},
@@ -646,6 +641,323 @@
 				"value": "Tamam"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A Biçimi:"
+			},
+			"resultLabel": {
+				"text": "Sonuç:"
+			},
+			"convertToPdfaButton": {
+				"value": "PDF/A'ya dönüştür"
+			},
+			"validatePdfaButton": {
+				"value": "PDF/A'yı doğrula"
+			},
+			"closeButton": {
+				"value": "Kapat"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Kalite:"
+			},
+			"grayscaleLabel": {
+				"text": "Gri tonlamalı (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Uygula"
+			},
+			"closeButton": {
+				"value": "Kapat"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Kireç kullan"
+			},
+			"waveletTransformLabel": {
+				"text": "Dalgacık dönüşümü"
+			},
+			"levelLabel": {
+				"text": "Seviye"
+			},
+			"lossyLabel": {
+				"text": "Kayıplı"
+			},
+			"fileSizeLabel": {
+				"text": "Dosya Boyutu"
+			},
+			"kBytesLabel": {
+				"text": "KByt"
+			},
+			"compressionRatioLabel": {
+				"text": "Sıkıştırma Oranı"
+			},
+			"applyButton": {
+				"value": "Uygula"
+			},
+			"closeButton": {
+				"value": "Kapat"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Bitmap Kodlama Algoritması"
+			},
+			"mqLabel": {
+				"text": "MQ (Aritmetik)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Sembol sözlüğü"
+			},
+			"dictionarySizeLabel": {
+				"text": "Sözlük boyutu"
+			},
+			"lossyLabel": {
+				"text": "Kayıplı"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Doğruluk yüzdesi"
+			},
+			"applyButton": {
+				"value": "Uygula"
+			},
+			"closeButton": {
+				"value": "Kapat"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Kaynaklar"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Temizle/At"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Çıktı Belgesi Biçimi"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Görüntü Gerçek Renk Derinliği Algılama (Görüntü Renk Derinliğini Azalt)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Siyah/Beyaz Görüntüleri Algıla"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Dizinlenmiş1 (Bitonal) Görüntüleri Algıla"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Gri tonlamalı Görüntüleri Algıla"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Dizinlenmiş8'i Algıla (256 renkler) Görüntüler"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Algılama Maksimum Yanlışlık"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(RGB uzayındaki mesafe)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Renkli Görüntüler"
+				},
+				"checkbox-compression": {
+					"text": "Sıkıştırma"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "Çalışma Uzunluğu"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Ayarlar"
+				},
+				"checkbox-downscale": {
+					"text": "Küçültme"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "Yukarıdaki görüntüler için DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Gri Tonlamalı Görüntüler"
+				},
+				"checkbox-compression": {
+					"text": "Sıkıştırma"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "Çalışma Uzunluğu"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Ayarlar"
+				},
+				"checkbox-downscale": {
+					"text": "Küçültme"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "Yukarıdaki görüntüler için DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitonal Görüntüler"
+				},
+				"checkbox-compression": {
+					"text": "Sıkıştırma"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Ayarlar"
+				},
+				"checkbox-downscale": {
+					"text": "Küçültme"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "Yukarıdaki görüntüler için DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "LWZ sıkıştırması yerine Flaze(Zip) sıkıştırmasını kullan"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Sıkıştırılmamış kaynaklar için Flaze(Zip) sıkıştırmasını kullan"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Maksimum sıkıştırma seviyesini kullanarak Flate(ZIP) sıkıştırmasını kullanan tüm kaynakları yeniden sıkıştır"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Yazı tipi alt kümelerini optimize et"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Açıklamaları düzleştir"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Yazı tiplerini alt kümele"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Açıklamaları kaldır"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Geçersiz yer imlerini kaldır"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Yer imlerini kaldır"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Geçersiz bağlantıları kaldır"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Gömülü sayfa küçük resimlerini kaldır"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Kullanılmayan sayfaları kaldır"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Belge bilgilerini kaldır"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Ad sözlüğünü temizle"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Dosya eklerini kaldır"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Kullanılmayan kaynakları kaldır"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Meta verileri kaldır"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Kaynağı kaldır yinelenenler"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Etkileşimli formu kaldır"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "İçerik akışlarını temizle"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Yapı ağacını kaldır"
+			},
+			"outputFilenameFormat": {
+				"text": "Çıktı Dosya adı:"
+			},
+			"outputDocumentFormat": {
+				"text": "Çıktı belge biçimi:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Doğrusallaştırılmış biçim (Hızlı Web Görünümü)"
+			},
+			"executeCompressionButton": {
+				"value": "PDF'yi sıkıştır"
+			},
+			"saveButton": {
+				"value": "Kaydet"
+			},
+			"closeButton": {
+				"value": "Kapat"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Dosya adı:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "İptal"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Görünümü saat yönünde döndür"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Görünümü saat yönünün tersine döndür"
+		},
+		"removeImagesButton": {
+			"text": "Resimleri kaldır"
+		},
+		"moveImageUpButton": {
+			"text": "Resmi yukarı taşı"
+		},
+		"moveImageDownButton": {
+			"text": "Resmi aşağı taşı"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Dosyayı indir ve aç",
 		"vsdv-uploadAndAddFileButton-addFileString": "Dosya yükleyin ve ekleyin",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "PDF yer işaretlerini alın",
-		"vsdv-textSearchPanel-pageLabel": "Sayfa",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Resim kaynağını al",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Sayfa",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "PDF yer işaretlerini alın",
+		"vsui-textSearchPanel-pageLabel": "Sayfa",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Resim kaynağını al",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sayfa",
+		"vspe-openFile-addFileString": "Dosya Ekle",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Değişiklikleri PDF belgesine kaydet",
 		"vsdv-openFile-addFileString": "Dosya Ekle",
 		"vsdv-openFile-authenticateFileString": "Dosyanın kimliğini doğrula",
 		"vsdv-downloadFile-actionMessage": "Dosyayı indir",
 		"vsdv-saveChanges-saveChangesInImages": "Resimlerdeki değişiklikleri kaydet",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Sayfa",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Ek açıklamalardaki değişiklikleri kaydet",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Görüntülere ek açıklamalar yazın",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Değişiklikleri PDF belgesine kaydet",
-		"vsdv-uploadFileButton-uploadFileString": "Dosya yükleme",
-		"vsdv-documentPasswordDialog-title": "Belge parolası",
+		"vsui-documentPasswordDialog-title": "Belge parolası",
+		"vsui-dialog-okButton": "Tamam",
+		"vsui-dialog-cancelButton": "İptal",
+		"vsui-documentPasswordPanel-authenticateFileString": "Dosyanın kimliğini doğrula",
+		"vsui-imageSelectionDialog-title": "Görüntüleri Seçin",
+		"vsui-imageSelectionDialog-currentImageString": "Geçerli Resim",
+		"vsui-imageSelectionDialog-allImagesString": "Tüm resimler",
+		"vsui-imageSelectionDialog-customImagesString": "Özel",
+		"vsui-printImagesDialog-title": "Görüntüleri Yazdır",
+		"vsui-printImagesPanel-imagePrintingString": "Resim yazdırılıyor",
+		"vsui-printImagesPanel-withAnnotationsLabel": "açıklamalarla",
+		"vsui-imageViewerSettingsDialog-title": "Görüntü görüntüleyici ayarları",
+		"vsui-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "PDF redaksiyon işareti görünümü",
+		"vsui-pdfImageResourceDialog-title": "PDF resim kaynağı",
+		"vsui-pdfImageResourcePanel-bytes": " bayt",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A dönüştürme ve doğrulama",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "PDF/A'ya dönüştür",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "PDF/A'yı doğrula",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Kapat",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF sıkıştırıcı",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF'yi sıkıştır",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Kaydet",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Kapat",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG kodlayıcı ayarları",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Uygula",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Kapat",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 kodlayıcı ayarları",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Uygula",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Kapat",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 kodlayıcı ayarları",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Uygula",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Kapat",
+		"vsui-exportFileSettingsDialog-title": "Dosyayı dışa aktarma ayarları",
 		"vsdv-dialog-okButton": "Tamam",
-		"vsdv-dialog-cancelButton": "İptal",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Dosyanın kimliğini doğrula",
-		"vsdv-imageSelectionDialog-title": "Görüntüleri Seçin",
-		"vsdv-imageSelectionDialog-currentImageString": "Geçerli Resim",
-		"vsdv-imageSelectionDialog-allImagesString": "Tüm resimler",
-		"vsdv-imageSelectionDialog-customImagesString": "Özel",
-		"vsdv-printImagesDialog-title": "Görüntüleri Yazdır",
-		"vsdv-printImagesPanel-imagePrintingString": "Resim yazdırılıyor",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "açıklamalarla",
-		"vsdv-imageViewerSettingsDialog-title": "Görüntü görüntüleyici ayarları",
-		"vsdv-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF redaksiyon işareti görünümü",
-		"vsdv-pdfImageResourceDialog-title": "PDF resim kaynağı",
-		"vsdv-pdfImageResourcePanel-bytes": " bayt",
-		"vsdv-exportFileSettingsDialog-title": "Dosyayı dışa aktarma ayarları",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF redaksiyon işareti ayarları"
+		"vsdv-dialog-cancelButton": "İptal"
 	}
 }

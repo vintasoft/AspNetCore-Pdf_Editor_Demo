@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Faýl"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Sessiýa keşini arassalaň"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF / öwürmek we tassyklamak"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF kompressor"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Inine laýyk"
 		},
@@ -61,7 +67,7 @@
 			"title": "Tekst saýlamak"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Suratlary sahypadan göçüriň"
+			"title": "PDF sahypasyndan şekil çeşmelerini çykaryň"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktiw meýdanlar"
@@ -73,10 +79,10 @@
 			"title": "Redaksiýa üçin meýdan belläň"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Redaksiýa üçin doly sahypalary belläň"
+			"title": "Redaksiýa üçin doly PDF sahypalaryny belläň"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Fokusirlenen redaksiýa belligini aýyryň"
+			"title": "Üns berlen PDF redaksiýa belligini aýyryň"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "PDF redaksiýa belliginiň daşky görnüşi"
@@ -100,10 +106,7 @@
 			"title": "Tekst tapyň"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Suratlary göçüriň"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Interaktiw meýdanlar"
+			"title": "PDF şekil çeşmeleri"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF redaktirleme bellikleri"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Mazmun şekilini görkeziň"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Özara täsir tertibi:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Hiç"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Gör"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Sahypalary toparlara bölüň"
-			},
-			"saveChangesButton": {
-				"value": "Üýtgetmeleri ýatda sakla"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Suratlary süýräp biler:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Klawiaturany ulanyp, kiçijik suratlary dolandyryp bilersiňiz:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Klawiaturany ulanyp kiçijik suratlary saýlap bilersiňiz:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Klawiatura arkaly kiçijik suratlary pozup bilersiňiz:"
+			},
 			"okButton": {
 				"value": "Bolýar"
 			},
@@ -646,6 +641,323 @@
 				"value": "Bolýar"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF / Formaty:"
+			},
+			"resultLabel": {
+				"text": "Netije:"
+			},
+			"convertToPdfaButton": {
+				"value": "PDF / A öwüriň"
+			},
+			"validatePdfaButton": {
+				"value": "PDF / A tassyklaň"
+			},
+			"closeButton": {
+				"value": ".Akyn"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Hil:"
+			},
+			"grayscaleLabel": {
+				"text": "Çal reňkli (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Giriş"
+			},
+			"closeButton": {
+				"value": ".Akyn"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Plitkalary ulanyň"
+			},
+			"waveletTransformLabel": {
+				"text": "Tolkun öwrüler"
+			},
+			"levelLabel": {
+				"text": "Dereje"
+			},
+			"lossyLabel": {
+				"text": "Ossitirilen"
+			},
+			"fileSizeLabel": {
+				"text": "Faýl ölçegi"
+			},
+			"kBytesLabel": {
+				"text": "KBytes"
+			},
+			"compressionRatioLabel": {
+				"text": "Gysyş gatnaşygy"
+			},
+			"applyButton": {
+				"value": "Giriş"
+			},
+			"closeButton": {
+				"value": ".Akyn"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Bitmap kodlamak algoritmi"
+			},
+			"mqLabel": {
+				"text": "MQ (Arifmetika)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Nyşan sözlügi"
+			},
+			"dictionarySizeLabel": {
+				"text": "Sözlük ölçegi"
+			},
+			"lossyLabel": {
+				"text": "Ossitirilen"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Nädogry göterim"
+			},
+			"applyButton": {
+				"value": "Giriş"
+			},
+			"closeButton": {
+				"value": ".Akyn"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Çeşmeler"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Arassala / taşla"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Çykyş resminamasynyň formaty"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Surat hakyky reňk çuňlugyny kesgitlemek (Surat reňkiniň çuňlugyny azaltmak)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Gara / ak suratlary tapyň"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Indexed1 (Bitonal) suratlary tapyň"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Çal reňkli suratlary tapyň"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Indexed8 (256 reňk) suratlary tapyň"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Maksimal nädogrylyk"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(RGB giňişliginde aralyk)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Reňkli suratlar"
+				},
+				"checkbox-compression": {
+					"text": "Gysyş"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Sazlamalar"
+				},
+				"checkbox-downscale": {
+					"text": "Downscale"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "Aboveokardaky suratlar üçin DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Çal reňkli suratlar"
+				},
+				"checkbox-compression": {
+					"text": "Gysyş"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Sazlamalar"
+				},
+				"checkbox-downscale": {
+					"text": "Downscale"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "Aboveokardaky suratlar üçin DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitonal suratlar"
+				},
+				"checkbox-compression": {
+					"text": "Gysyş"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Sazlamalar"
+				},
+				"checkbox-downscale": {
+					"text": "Downscale"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "Aboveokardaky suratlar üçin DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "LWZ gysyşynyň ýerine Flaze (Zip) gysyşyny ulanyň"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Dykylmadyk çeşmeler üçin Flaze (Zip) gysyşyny ulanyň"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Iň ýokary gysyş derejesini ulanyp, Flate (ZIP) gysyşyny ulanýan ähli çeşmeleri gysyň"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Şrift böleklerini optimizirläň"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Tekiz bellikler"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Şriftleriň kiçi bölümi"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Bellikleri aýyryň"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Nädogry bellikleri aýyryň"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Bellikleri aýyryň"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Nädogry baglanyşyklary aýyryň"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Içindäki sahypa suratlaryny aýyryň"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Ulanylmaýan sahypalary aýyryň"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Resminama maglumatlary aýyryň"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Arassalamak sözlügi"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Faýl goşundylaryny aýyryň"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Ulanylmaýan çeşmeleri aýyryň"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Metadatalary aýyryň"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Resurslaryň dublikatlaryny aýyryň"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Interaktiw formany aýyryň"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Mazmun akymlaryny arassalamak"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Gurluş agajyny aýyryň"
+			},
+			"outputFilenameFormat": {
+				"text": "Çykyş faýlyň ady:"
+			},
+			"outputDocumentFormat": {
+				"text": "Çykyş resminamasynyň formaty:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Çyzykly format (Çalt web görnüşi)"
+			},
+			"executeCompressionButton": {
+				"value": "PDF gysyň"
+			},
+			"saveButton": {
+				"value": "Saklaň"
+			},
+			"closeButton": {
+				"value": ".Akyn"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Faýlyň ady:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Elatyr"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Görnüşi sagat ugruna öwüriň"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Görnüşi sagat tersine öwüriň"
+		},
+		"removeImagesButton": {
+			"text": "Suratlary aýyryň"
+		},
+		"moveImageUpButton": {
+			"text": "Suraty ýokaryk galdyryň"
+		},
+		"moveImageDownButton": {
+			"text": "Suraty aşak süýşüriň"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faýly ýükläň we açyň",
 		"vsdv-uploadAndAddFileButton-addFileString": "Faýl ýükläň we goşuň",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "PDF belliklerini alyň",
-		"vsdv-textSearchPanel-pageLabel": "Sahypa",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Surat çeşmesini alyň",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Sahypa",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "PDF belliklerini alyň",
+		"vsui-textSearchPanel-pageLabel": "Sahypa",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Surat çeşmesini alyň",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sahypa",
+		"vspe-openFile-addFileString": "Faýl goşuň",
+		"vspe-saveChanges-saveChangesInPdfDocument": "PDF resminamasyndaky üýtgeşmeleri ýazdyryň",
 		"vsdv-openFile-addFileString": "Faýl goşuň",
 		"vsdv-openFile-authenticateFileString": "Faýly tassyklamak",
 		"vsdv-downloadFile-actionMessage": "Faýly göçürip al",
 		"vsdv-saveChanges-saveChangesInImages": "Suratlardaky üýtgeşmeleri ýazdyryň",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Sahypa",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiýalarda üýtgeşmeleri ýazdyryň",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Suratlara düşündirişleri ýakyň",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF resminamasyndaky üýtgeşmeleri ýazdyryň",
-		"vsdv-uploadFileButton-uploadFileString": "Faýl ýükläň",
-		"vsdv-documentPasswordDialog-title": "Resminamanyň paroly",
+		"vsui-documentPasswordDialog-title": "Resminamanyň paroly",
+		"vsui-dialog-okButton": "Bolýar",
+		"vsui-dialog-cancelButton": "Elatyr",
+		"vsui-documentPasswordPanel-authenticateFileString": "Faýly tassyklamak",
+		"vsui-imageSelectionDialog-title": "Suratlary saýlaň",
+		"vsui-imageSelectionDialog-currentImageString": "Häzirki surat",
+		"vsui-imageSelectionDialog-allImagesString": "Imageshli suratlar",
+		"vsui-imageSelectionDialog-customImagesString": "Omörite",
+		"vsui-printImagesDialog-title": "Suratlary çap ediň",
+		"vsui-printImagesPanel-imagePrintingString": "Surat çap edilýär",
+		"vsui-printImagesPanel-withAnnotationsLabel": "düşündirişler bilen",
+		"vsui-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
+		"vsui-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "PDF redaksiýa belliginiň daşky görnüşi",
+		"vsui-pdfImageResourceDialog-title": "PDF şekil çeşmesi",
+		"vsui-pdfImageResourcePanel-bytes": " baýt",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF / öwürmek we tassyklamak",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "PDF / A öwüriň",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "PDF / A tassyklaň",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": ".Akyn",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF kompressor",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF gysyň",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Saklaň",
+		"vsui-pdfDocumentCompressorDialog-closeButton": ".Akyn",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG kodlaýjy sazlamalary",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Giriş",
+		"vsui-jpegEncoderSettingsDialog-closeButton": ".Akyn",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 kodlaýjy sazlamalary",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Giriş",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": ".Akyn",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 kodlaýjy sazlamalary",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Giriş",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": ".Akyn",
+		"vsui-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar",
 		"vsdv-dialog-okButton": "Bolýar",
-		"vsdv-dialog-cancelButton": "Elatyr",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Faýly tassyklamak",
-		"vsdv-imageSelectionDialog-title": "Suratlary saýlaň",
-		"vsdv-imageSelectionDialog-currentImageString": "Häzirki surat",
-		"vsdv-imageSelectionDialog-allImagesString": "Imageshli suratlar",
-		"vsdv-imageSelectionDialog-customImagesString": "Omörite",
-		"vsdv-printImagesDialog-title": "Suratlary çap ediň",
-		"vsdv-printImagesPanel-imagePrintingString": "Surat çap edilýär",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "düşündirişler bilen",
-		"vsdv-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
-		"vsdv-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF redaksiýa belliginiň daşky görnüşi",
-		"vsdv-pdfImageResourceDialog-title": "PDF şekil çeşmesi",
-		"vsdv-pdfImageResourcePanel-bytes": " baýt",
-		"vsdv-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF redaktirleme belligi sazlamalary"
+		"vsdv-dialog-cancelButton": "Elatyr"
 	}
 }

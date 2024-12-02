@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Файл"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Очистить кэш сеанса"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "Конвертация и проверка PDF/A"
+		},
+		"pdfCompressorButton": {
+			"title": "Компрессор PDF"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "По ширине"
 		},
@@ -61,7 +67,7 @@
 			"title": "Выбор текста"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Извлечь изображения со страницы"
+			"title": "Извлечение ресурсов изображения со страницы PDF"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Интерактивные поля"
@@ -73,10 +79,10 @@
 			"title": "Отметить область для редактирования"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Отметить страницы для редактирования"
+			"title": "Отметить полные страницы PDF для редактирования"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Удалить выделенную редакторскую метку"
+			"title": "Удалить выделенную отметку редактирования PDF"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "Внешний вид PDF редакторской метки"
@@ -100,10 +106,7 @@
 			"title": "Поиск текста"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Извлечение изображений"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Интерактивные поля"
+			"title": "Ресурсы изображения PDF"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF редакторские метки"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Показать контент-изображение"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Режим взаимодействия:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Нет"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Просмотр"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Группировать поля по страницам"
-			},
-			"saveChangesButton": {
-				"value": "Сохранить изменения"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -537,7 +523,7 @@
 				"text": "Слева"
 			},
 			"centerOption": {
-				"text": "Выровнять по центру"
+				"text": "Центр"
 			},
 			"focusOnHoverLabel": {
 				"text": "Фокус при наведении:"
@@ -553,6 +539,15 @@
 			},
 			"canDragThumbnailsLabel": {
 				"text": "Можно перетаскивать миниатюры:"
+			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Можно перемещаться по миниатюрам с помощью клавиатуры:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Можно выбирать миниатюры с помощью клавиатуры:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Можно удалять миниатюры с помощью клавиатуры:"
 			},
 			"okButton": {
 				"value": "ОК"
@@ -611,7 +606,7 @@
 				"text": "CenterBottom"
 			},
 			"CenterOption": {
-				"text": "Выровнять по центру"
+				"text": "Центр"
 			},
 			"FillHorizontalOption": {
 				"text": "FillHorizontal"
@@ -646,6 +641,323 @@
 				"value": "ОК"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "Формат PDF/A:"
+			},
+			"resultLabel": {
+				"text": "Результат:"
+			},
+			"convertToPdfaButton": {
+				"value": "Конвертировать в PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Проверить PDF/A"
+			},
+			"closeButton": {
+				"value": "Закрыть"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Качество:"
+			},
+			"grayscaleLabel": {
+				"text": "Оттенки серого (8 бит на пиксель)"
+			},
+			"applyButton": {
+				"value": "Применить"
+			},
+			"closeButton": {
+				"value": "Закрыть"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Использовать плитки"
+			},
+			"waveletTransformLabel": {
+				"text": "Вейвлет-преобразование"
+			},
+			"levelLabel": {
+				"text": "Уровень"
+			},
+			"lossyLabel": {
+				"text": "Потери"
+			},
+			"fileSizeLabel": {
+				"text": "Размер файла"
+			},
+			"kBytesLabel": {
+				"text": "КБайт"
+			},
+			"compressionRatioLabel": {
+				"text": "Степень сжатия"
+			},
+			"applyButton": {
+				"value": "Применить"
+			},
+			"closeButton": {
+				"value": "Закрыть"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Алгоритм кодирования битовой карты"
+			},
+			"mqLabel": {
+				"text": "MQ (арифметический)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Словарь символов"
+			},
+			"dictionarySizeLabel": {
+				"text": "Размер словаря"
+			},
+			"lossyLabel": {
+				"text": "Потери"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Процент неточности"
+			},
+			"applyButton": {
+				"value": "Применить"
+			},
+			"closeButton": {
+				"value": "Закрыть"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Ресурсы"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Очистить/Отменить"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Формат выходного документа"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Обнаружение реальной глубины цвета изображения (уменьшение глубины цвета изображения)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Обнаружение черно-белых изображений"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Обнаружение изображений Indexed1 (двухтональных)"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Обнаружение изображений в оттенках серого"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Обнаружение изображений Indexed8 (256 цветов) Изображения"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Максимальная погрешность обнаружения"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(расстояние в пространстве RGB)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Цветные изображения"
+				},
+				"checkbox-compression": {
+					"text": "Сжатие"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Настройки"
+				},
+				"checkbox-downscale": {
+					"text": "Уменьшение масштаба"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI для изображений выше"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Изображения в оттенках серого"
+				},
+				"checkbox-compression": {
+					"text": "Сжатие"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Настройки"
+				},
+				"checkbox-downscale": {
+					"text": "Уменьшение масштаба"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI для изображений выше"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Битональные изображения"
+				},
+				"checkbox-compression": {
+					"text": "Сжатие"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Настройки"
+				},
+				"checkbox-downscale": {
+					"text": "Уменьшение масштаба"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI для изображений выше"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Использовать сжатие Flaze(Zip) вместо сжатия LWZ"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Использовать сжатие Flaze(Zip) для несжатых ресурсов"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Повторно сжать все ресурсы, использующие сжатие Flate(ZIP), используя максимальный уровень сжатия"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Оптимизировать подмножества шрифтов"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Сглаживание аннотаций"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Подмножества шрифтов"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Удалить аннотации"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Удалить недействительные закладки"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Удалить закладки"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Удалить недействительные ссылки"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Удалить встроенные миниатюры страниц"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Удалить неиспользуемые страницы"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Удалить информацию о документе"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Очистить словарь имен"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Удалить вложения файлов"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Удалить неиспользуемые ресурсы"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Удалить метаданные"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Удалить ресурс дубликаты"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Удалить интерактивную форму"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Очистить потоки контента"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Удалить дерево структуры"
+			},
+			"outputFilenameFormat": {
+				"text": "Имя выходного файла:"
+			},
+			"outputDocumentFormat": {
+				"text": "Формат выходного документа:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Линеаризованный формат (быстрый веб-просмотр)"
+			},
+			"executeCompressionButton": {
+				"value": "Сжать PDF"
+			},
+			"saveButton": {
+				"value": "Сохранить"
+			},
+			"closeButton": {
+				"value": "Закрыть"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Имя файла:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Отмена"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Повернуть вид по часовой стрелке"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Повернуть вид против часовой стрелки"
+		},
+		"removeImagesButton": {
+			"text": "Удалить изображения"
+		},
+		"moveImageUpButton": {
+			"text": "Переместить изображение вверх"
+		},
+		"moveImageDownButton": {
+			"text": "Переместить изображение вниз"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузить и открыть файл",
 		"vsdv-uploadAndAddFileButton-addFileString": "Загрузите и добавьте файл",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Получить PDF-закладки",
-		"vsdv-textSearchPanel-pageLabel": "Страница",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Получить ресурс изображения",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Страница",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Получить PDF-закладки",
+		"vsui-textSearchPanel-pageLabel": "Страница",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Получить ресурс изображения",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Страница",
+		"vspe-openFile-addFileString": "Добавить файл",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Сохранить изменения в PDF-документе",
 		"vsdv-openFile-addFileString": "Добавить файл",
 		"vsdv-openFile-authenticateFileString": "Аутентификация файла",
 		"vsdv-downloadFile-actionMessage": "Загрузить файл",
 		"vsdv-saveChanges-saveChangesInImages": "Сохранить изменения в изображениях",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Страница",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Сохранить изменения в аннотациях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Прожечь аннотации на изображениях",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Сохранить изменения в PDF-документе",
-		"vsdv-uploadFileButton-uploadFileString": "Загрузить файл",
-		"vsdv-documentPasswordDialog-title": "Пароль к документу",
+		"vsui-documentPasswordDialog-title": "Пароль к документу",
+		"vsui-dialog-okButton": "ОК",
+		"vsui-dialog-cancelButton": "Отмена",
+		"vsui-documentPasswordPanel-authenticateFileString": "Аутентификация файла",
+		"vsui-imageSelectionDialog-title": "Выберите изображения",
+		"vsui-imageSelectionDialog-currentImageString": "Текущее изображение",
+		"vsui-imageSelectionDialog-allImagesString": "Все изображения",
+		"vsui-imageSelectionDialog-customImagesString": "Пользовательский",
+		"vsui-printImagesDialog-title": "Распечатать изображения",
+		"vsui-printImagesPanel-imagePrintingString": "Изображение печатается",
+		"vsui-printImagesPanel-withAnnotationsLabel": "с аннотациями",
+		"vsui-imageViewerSettingsDialog-title": "Настройки просмотрщика изображений",
+		"vsui-thumbnailViewerSettingDialog-title": "Настройки просмотрщика миниатюр",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "Внешний вид PDF редакторской метки",
+		"vsui-pdfImageResourceDialog-title": "Ресурс PDF-изображения",
+		"vsui-pdfImageResourcePanel-bytes": " байты",
+		"vsui-pdfAConversionAndValidationDialog-title": "Конвертация и проверка PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Конвертировать в PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Проверить PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Закрыть",
+		"vsui-pdfDocumentCompressorDialog-title": "Компрессор PDF",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Сжать PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Сохранить",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Закрыть",
+		"vsui-jpegEncoderSettingsDialog-title": "Настройки кодировщика JPEG",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Применить",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Закрыть",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "Настройки кодировщика JPEG2000",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Применить",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Закрыть",
+		"vsui-jbig2EncoderSettingsDialog-title": "Настройки кодировщика JBIG2",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Применить",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Закрыть",
+		"vsui-exportFileSettingsDialog-title": "Настройки для экспорта файла",
 		"vsdv-dialog-okButton": "ОК",
-		"vsdv-dialog-cancelButton": "Отмена",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Аутентификация файла",
-		"vsdv-imageSelectionDialog-title": "Выберите изображения",
-		"vsdv-imageSelectionDialog-currentImageString": "Текущее изображение",
-		"vsdv-imageSelectionDialog-allImagesString": "Все изображения",
-		"vsdv-imageSelectionDialog-customImagesString": "Пользовательский",
-		"vsdv-printImagesDialog-title": "Распечатать изображения",
-		"vsdv-printImagesPanel-imagePrintingString": "Изображение печатается",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "с аннотациями",
-		"vsdv-imageViewerSettingsDialog-title": "Настройки просмотрщика изображений",
-		"vsdv-thumbnailViewerSettingDialog-title": "Настройки просмотрщика миниатюр",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Внешний вид PDF редакторской метки",
-		"vsdv-pdfImageResourceDialog-title": "Ресурс PDF-изображения",
-		"vsdv-pdfImageResourcePanel-bytes": " байты",
-		"vsdv-exportFileSettingsDialog-title": "Настройки для экспорта файла",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "Настройки метки редактирования PDF"
+		"vsdv-dialog-cancelButton": "Отмена"
 	}
 }

@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "ملف"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "مسح ذاكرة التخزين المؤقت للجلسة"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "تحويل PDF/A والتحقق منه"
+		},
+		"pdfCompressorButton": {
+			"title": "ضاغط PDF"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "ملائم للعرض"
 		},
@@ -61,7 +67,7 @@
 			"title": "اختيار النص"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "استخراج الصور من الصفحة"
+			"title": "استخراج موارد الصور من صفحة PDF"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "المجالات التفاعلية"
@@ -73,10 +79,10 @@
 			"title": "ضع علامة على المنطقة للتنقيح"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "وضع علامة على الصفحات الكاملة للتنقيح"
+			"title": "وضع علامة على صفحات PDF كاملة للتحرير"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "إزالة علامة التنقيح المركزة"
+			"title": "إزالة علامة التحرير المحددة لـ PDF"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "مظهر علامة تنقيح PDF"
@@ -100,10 +106,7 @@
 			"title": "البحث عن نص"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "استخراج الصور"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "المجالات التفاعلية"
+			"title": "موارد صور PDF"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "علامات تنقيح PDF"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "إظهار صورة المحتوى"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "وضع التفاعل:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "لا"
-			},
-			"viewInteractionModeLabel": {
-				"text": "عرض"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "تجميع الحقول حسب الصفحات"
-			},
-			"saveChangesButton": {
-				"value": "حفظ التغييرات"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "يمكن سحب الصور المصغرة:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "يمكن التنقل بين الصور المصغرة باستخدام لوحة المفاتيح:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "يمكن تحديد الصور المصغرة باستخدام لوحة المفاتيح:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "يمكن حذف الصور المصغرة باستخدام لوحة المفاتيح:"
+			},
 			"okButton": {
 				"value": "موافق"
 			},
@@ -646,6 +641,323 @@
 				"value": "موافق"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "تنسيق PDF/A:"
+			},
+			"resultLabel": {
+				"text": "النتيجة:"
+			},
+			"convertToPdfaButton": {
+				"value": "التحويل إلى PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "التحقق من صحة PDF/A"
+			},
+			"closeButton": {
+				"value": "إغلاق"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "الجودة:"
+			},
+			"grayscaleLabel": {
+				"text": "تدرج الرمادي (8 بت لكل صفحة)"
+			},
+			"applyButton": {
+				"value": "يتقدم"
+			},
+			"closeButton": {
+				"value": "إغلاق"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "استخدام المربعات"
+			},
+			"waveletTransformLabel": {
+				"text": "تحويل الموجات"
+			},
+			"levelLabel": {
+				"text": "المستوى"
+			},
+			"lossyLabel": {
+				"text": "فقدان البيانات"
+			},
+			"fileSizeLabel": {
+				"text": "حجم الملف"
+			},
+			"kBytesLabel": {
+				"text": "كيلوبايت"
+			},
+			"compressionRatioLabel": {
+				"text": "نسبة الضغط"
+			},
+			"applyButton": {
+				"value": "يتقدم"
+			},
+			"closeButton": {
+				"value": "إغلاق"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "خوارزمية ترميز الخريطة النقطية"
+			},
+			"mqLabel": {
+				"text": "MQ (حسابي)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "قاموس الرموز"
+			},
+			"dictionarySizeLabel": {
+				"text": "حجم القاموس"
+			},
+			"lossyLabel": {
+				"text": "فقدان البيانات"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "نسبة عدم الدقة"
+			},
+			"applyButton": {
+				"value": "يتقدم"
+			},
+			"closeButton": {
+				"value": "إغلاق"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "الموارد"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "التنظيف/التخلص"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "تنسيق المستند الناتج"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "اكتشاف عمق اللون الحقيقي للصورة (تقليل عمق لون الصورة)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "اكتشاف الصور بالأبيض والأسود"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "اكتشاف الصور المفهرسة1 (ثنائية النغمة)"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "اكتشاف الصور ذات التدرج الرمادي"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "اكتشاف المفهرسة8 (256 لونًا) الصور"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "اكتشاف عدم الدقة القصوى"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(المسافة في مساحة RGB)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "الصور الملونة"
+				},
+				"checkbox-compression": {
+					"text": "الضغط"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "إعدادات"
+				},
+				"checkbox-downscale": {
+					"text": "تقليل الحجم"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI للصور ذات الحجم الأعلى"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "صور ذات تدرج رمادي"
+				},
+				"checkbox-compression": {
+					"text": "الضغط"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "إعدادات"
+				},
+				"checkbox-downscale": {
+					"text": "تقليل الحجم"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI للصور ذات الحجم الأعلى"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "صور ثنائية اللون"
+				},
+				"checkbox-compression": {
+					"text": "الضغط"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "إعدادات"
+				},
+				"checkbox-downscale": {
+					"text": "تقليل الحجم"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI للصور ذات الحجم الأعلى"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "استخدام ضغط Flaze(Zip) بدلاً من ضغط LWZ"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "استخدام ضغط Flaze(Zip) للموارد غير المضغوطة"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "إعادة ضغط جميع الموارد التي تستخدم ضغط Flate(ZIP) باستخدام أقصى مستوى ضغط"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "تحسين مجموعات الخطوط الفرعية"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "تسوية التعليقات التوضيحية"
+			},
+			"checkbox-subsetFonts": {
+				"text": "تقليل الخطوط الفرعية"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "إزالة التعليقات التوضيحية"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "إزالة الإشارات المرجعية غير الصالحة"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "إزالة الإشارات المرجعية"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "إزالة الروابط غير الصالحة"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "إزالة الصور المصغرة للصفحات المضمنة"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "إزالة الصفحات غير المستخدمة"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "إزالة معلومات المستند"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "تنظيف قاموس الأسماء"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "إزالة مرفقات الملفات"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "إزالة الموارد غير المستخدمة"
+			},
+			"checkbox-removeMetadata": {
+				"text": "إزالة البيانات الوصفية"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "إزالة المورد النسخ المكررة"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "إزالة النموذج التفاعلي"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "تنظيف تدفقات المحتوى"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "إزالة شجرة البنية"
+			},
+			"outputFilenameFormat": {
+				"text": "اسم ملف الإخراج:"
+			},
+			"outputDocumentFormat": {
+				"text": "تنسيق مستند الإخراج:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "تنسيق خطي (عرض ويب سريع)"
+			},
+			"executeCompressionButton": {
+				"value": "ضغط ملف PDF"
+			},
+			"saveButton": {
+				"value": "حفظ"
+			},
+			"closeButton": {
+				"value": "إغلاق"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "اسم الملف:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "إلغاء"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "تدوير العرض في اتجاه عقارب الساعة"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "تدوير العرض عكس اتجاه عقارب الساعة"
+		},
+		"removeImagesButton": {
+			"text": "إزالة الصور"
+		},
+		"moveImageUpButton": {
+			"text": "حرك الصورة لأعلى"
+		},
+		"moveImageDownButton": {
+			"text": "نقل الصورة إلى أسفل"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "تحميل وفتح الملف",
 		"vsdv-uploadAndAddFileButton-addFileString": "تحميل وإضافة الملف",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "الحصول على الإشارات المرجعية PDF",
-		"vsdv-textSearchPanel-pageLabel": "الصفحة",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "الحصول على مصدر الصورة",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "الصفحة",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "الحصول على الإشارات المرجعية PDF",
+		"vsui-textSearchPanel-pageLabel": "الصفحة",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "الحصول على مصدر الصورة",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "الصفحة",
+		"vspe-openFile-addFileString": "اضف ملف",
+		"vspe-saveChanges-saveChangesInPdfDocument": "حفظ التغييرات في وثيقة PDF",
 		"vsdv-openFile-addFileString": "اضف ملف",
 		"vsdv-openFile-authenticateFileString": "مصادقة الملف",
 		"vsdv-downloadFile-actionMessage": "تحميل الملف",
 		"vsdv-saveChanges-saveChangesInImages": "حفظ التغييرات في الصور",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "الصفحة",
 		"vsdv-saveChanges-saveChangesInAnnotations": "حفظ التغييرات في التعليقات التوضيحية",
 		"vsdv-saveChanges-burnAnnotationsInImages": "حرق التعليقات التوضيحية على الصور",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "حفظ التغييرات في وثيقة PDF",
-		"vsdv-uploadFileButton-uploadFileString": "رفع ملف",
-		"vsdv-documentPasswordDialog-title": "كلمة مرور المستند",
+		"vsui-documentPasswordDialog-title": "كلمة مرور المستند",
+		"vsui-dialog-okButton": "موافق",
+		"vsui-dialog-cancelButton": "إلغاء",
+		"vsui-documentPasswordPanel-authenticateFileString": "مصادقة الملف",
+		"vsui-imageSelectionDialog-title": "اختر الصور",
+		"vsui-imageSelectionDialog-currentImageString": "الصورة الحالية",
+		"vsui-imageSelectionDialog-allImagesString": "كل الصور",
+		"vsui-imageSelectionDialog-customImagesString": "مخصص",
+		"vsui-printImagesDialog-title": "طباعة الصور",
+		"vsui-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
+		"vsui-printImagesPanel-withAnnotationsLabel": "مع التعليقات التوضيحية",
+		"vsui-imageViewerSettingsDialog-title": "إعدادات عارض الصور",
+		"vsui-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "مظهر علامة تنقيح PDF",
+		"vsui-pdfImageResourceDialog-title": "مصدر صورة PDF",
+		"vsui-pdfImageResourcePanel-bytes": " بايت",
+		"vsui-pdfAConversionAndValidationDialog-title": "تحويل PDF/A والتحقق منه",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "التحويل إلى PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "التحقق من صحة PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "إغلاق",
+		"vsui-pdfDocumentCompressorDialog-title": "ضاغط PDF",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "ضغط ملف PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "حفظ",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "إغلاق",
+		"vsui-jpegEncoderSettingsDialog-title": "إعدادات ترميز JPEG",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "يتقدم",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "إغلاق",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "إعدادات ترميز JPEG2000",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "يتقدم",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "إغلاق",
+		"vsui-jbig2EncoderSettingsDialog-title": "إعدادات ترميز JBIG2",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "يتقدم",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "إغلاق",
+		"vsui-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف",
 		"vsdv-dialog-okButton": "موافق",
-		"vsdv-dialog-cancelButton": "إلغاء",
-		"vsdv-documentPasswordPanel-authenticateFileString": "مصادقة الملف",
-		"vsdv-imageSelectionDialog-title": "اختر الصور",
-		"vsdv-imageSelectionDialog-currentImageString": "الصورة الحالية",
-		"vsdv-imageSelectionDialog-allImagesString": "كل الصور",
-		"vsdv-imageSelectionDialog-customImagesString": "مخصص",
-		"vsdv-printImagesDialog-title": "طباعة الصور",
-		"vsdv-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "مع التعليقات التوضيحية",
-		"vsdv-imageViewerSettingsDialog-title": "إعدادات عارض الصور",
-		"vsdv-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "مظهر علامة تنقيح PDF",
-		"vsdv-pdfImageResourceDialog-title": "مصدر صورة PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " بايت",
-		"vsdv-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "إعدادات علامة تنقيح PDF"
+		"vsdv-dialog-cancelButton": "إلغاء"
 	}
 }

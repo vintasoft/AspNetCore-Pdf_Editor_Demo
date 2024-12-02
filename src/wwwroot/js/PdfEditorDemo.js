@@ -1,10 +1,8 @@
 ﻿var _fileService;
 
-var _docViewer;
+var _pdfDocumentEditor;
 
 var _localizer;
-
-var _openFileHelper;
 
 var _previouslyUploadedFilesDialog;
 var _pdfImageResourceDialog;
@@ -30,30 +28,15 @@ function __createPreviouslyUploadedFilesButton() {
 }
 
 function __previousUploadFilesButton_clicked(event, uiElement) {
-    var docViewer = uiElement.get_RootControl();
-    if (docViewer != null) {
+    var pdfDocumentEditor = uiElement.get_RootControl();
+    if (pdfDocumentEditor != null) {
         // if dialog does not exist
         if (_previouslyUploadedFilesDialog == null)
             // create dialog
-            _previouslyUploadedFilesDialog = new PreviouslyUploadedFilesDialogJS(_fileService, docViewer, _openFileHelper, __showErrorMessage);
+            _previouslyUploadedFilesDialog = new PreviouslyUploadedFilesDialogJS(_fileService, pdfDocumentEditor, __showErrorMessage);
         // show the dialog
         _previouslyUploadedFilesDialog.show();
     }
-}
-
-
-
-// === "Tools" toolbar ===
-
-/**
- Creates UI button for activating the visual tool, which allows to navigate and select text in image viewer.
-*/
-function __createNavigationAndTextSelectionToolButton() {
-    return new Vintasoft.Imaging.DocumentViewer.UIElements.WebUiVisualToolButtonJS({
-        cssClass: "vsdv-tools-textSelectionToolButton",
-        title: "Text Selection",
-        localizationId: "textSelectionToolButton"
-    }, "DocumentNavigationTool,TextSelectionTool");
 }
 
 
@@ -66,47 +49,15 @@ function __createNavigationAndTextSelectionToolButton() {
 function __registerNewUiElements() {
     // register the "Previously uploaded files" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("previousUploadFilesButton", __createPreviouslyUploadedFilesButton);
-
-    // register the "TextSelectionTool" button in web UI elements factory
-    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("textSelectionToolButton", __createNavigationAndTextSelectionToolButton);
 }
 
 /**
- Initializes main menu of document viewer.
- @param {object} docViewerSettings Settings of document viewer.
+ Initializes main menu of PDF document editor.
+ @param {object} pdfDocumentEditorSettings Settings of PDF document editor.
 */
-function __initMenu(docViewerSettings) {
-    // get items of document viewer
-    var items = docViewerSettings.get_Items();
-
-    var uploadFileButton = items.getItemByRegisteredId("uploadFileButton");
-    if (uploadFileButton != null)
-        uploadFileButton.set_FileExtensionFilter(".pdf");
-
-    // get the main menu of document viewer
-    var mainMenu = items.getItemByRegisteredId("mainMenu");
-    // if main menu is found
-    if (mainMenu != null) {
-        // get items of main menu
-        var mainMenuItems = mainMenu.get_Items();
-
-        // get the "Visual tools" menu panel
-        var toolsSubmenu = mainMenuItems.getItemByRegisteredId("toolsMenuPanel");
-        // if menu panel is found
-        if (toolsSubmenu != null) {
-            toolsSubmenuItems = toolsSubmenu.get_Items();
-
-            toolsSubmenuItems.clearItems();
-
-            toolsSubmenuItems.addItem("panToolButton");
-            toolsSubmenuItems.addItem("textSelectionToolButton");
-            toolsSubmenuItems.addItem("pdfImageExtractorToolButton");
-            toolsSubmenuItems.addItem("pdfInteractiveFormToolButton");
-        }
-
-        // add "PdfRedactionMarks" menu panel
-        mainMenuItems.addItem("pdfRedactionMenuPanel");
-    }
+function __initMenu(pdfDocumentEditorSettings) {
+    // get items of PDF document editor
+    var items = pdfDocumentEditorSettings.get_Items();
 
     // get the "File" menu panel
     var fileMenuPanel = items.getItemByRegisteredId("fileToolbarPanel");
@@ -115,55 +66,18 @@ function __initMenu(docViewerSettings) {
         // get items of file menu panel
         var fileMenuPanelItems = fileMenuPanel.get_Items();
 
-        // get the "Upload file" button
-        var uploadFileButton = fileMenuPanelItems.getItem(0);
-        // specify that file must be uploaded but not opened when "Upload file" button is clicked, file will be opened later
-        uploadFileButton.set_OpenFile(false);
-
         // add the "Previous uploaded files" button to the menu panel
         fileMenuPanelItems.insertItem(1, "previousUploadFilesButton");
     }
 }
 
 /**
- Initializes side panel of document viewer.
- @param {object} docViewerSettings Settings of document viewer.
+ Initializes side panel of PDF document editor.
+ @param {object} pdfDocumentEditorSettings Settings of PDF document editor.
 */
-function __initSidePanel(docViewerSettings) {
+function __initSidePanel(pdfDocumentEditorSettings) {
     // get items of document viewer
-    var items = docViewerSettings.get_Items();
-
-    var sidePanel = items.getItemByRegisteredId("sidePanel");
-    if (sidePanel != null) {
-        var sidePanelItems = sidePanel.get_PanelsCollection();
-        sidePanelItems.addItem("pdfBookmarksPanel");
-
-
-        var textSelectionPanel = Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.createElementById("textSelectionPanel");
-        Vintasoft.Shared.subscribeToEvent(textSelectionPanel, "stateChanged", __textSelectionPanel_stateChanged);
-        sidePanelItems.addItem(textSelectionPanel);
-
-
-        var textSearchPanel = Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.createElementById("textSearchPanel");
-        Vintasoft.Shared.subscribeToEvent(textSearchPanel, "stateChanged", __textSearchPanel_stateChanged);
-        sidePanelItems.addItem(textSearchPanel);
-
-
-        var pdfImageResourceExtractionPanel = Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.createElementById("pdfImageResourceExtractionPanel");
-        Vintasoft.Shared.subscribeToEvent(pdfImageResourceExtractionPanel, "imageDataReceived", __pdfImageResourceExtractionPanel_imageDataReceived);
-        Vintasoft.Shared.subscribeToEvent(pdfImageResourceExtractionPanel, "stateChanged", __pdfImageResourceExtractionPanel_stateChanged);
-        sidePanelItems.addItem(pdfImageResourceExtractionPanel);
-
-
-        var pdfInteractiveFormFieldsPanel = Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.createElementById("pdfInteractiveFormFieldsPanel");
-        Vintasoft.Shared.subscribeToEvent(pdfInteractiveFormFieldsPanel, "stateChanged", __pdfInteractiveFormFieldsPanel_stateChanged);
-        sidePanelItems.addItem(pdfInteractiveFormFieldsPanel);
-
-
-        var pdfRedactionMarksPanel = Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.createElementById("pdfRedactionMarkListPanel");
-        Vintasoft.Shared.subscribeToEvent(pdfRedactionMarksPanel, "stateChanged", __pdfRedactionMarksPanel_stateChanged);
-        sidePanelItems.addItem(pdfRedactionMarksPanel);
-    }
+    var items = pdfDocumentEditorSettings.get_Items();
 
     // get the thumbnail viewer panel of document viewer
     var thumbnailViewerPanel = items.getItemByRegisteredId("thumbnailViewerPanel");
@@ -171,54 +85,14 @@ function __initSidePanel(docViewerSettings) {
     if (thumbnailViewerPanel != null) {
         // subscribe to the "actived" event of the thumbnail viewer panel of document viewer
         Vintasoft.Shared.subscribeToEvent(thumbnailViewerPanel, "activated", __thumbnailsPanelActivated);
-        // enable ability to delete thumbnails
-        thumbnailViewerPanel.set_CanDeleteThumbnailsUsingContextMenu(true);
-        // enable ability to set custom thumbnail rotation
-        thumbnailViewerPanel.set_CanSetCustomViewRotationUsingContextMenu(true);
-        // enable ability to move thumbnail
-        thumbnailViewerPanel.set_CanMoveThumbnailUsingContextMenu(true);
     }
 }
 
-/**
- Activates the visual tool when panel becomes active.
- @param {object} panel UI panel.
- @param {object} panelState Panel state.
- @param {string} toolId ID of visual tool.
- */
-function __activateToolWhenPanelBecomeActive(panel, panelState, toolId) {
-    if (panelState.get_Name() === "active") {
-        var docViewer = panel.get_RootControl();
-        var tool = docViewer.getVisualToolById(toolId);
-        docViewer.set_CurrentVisualTool(tool);
-    }
-}
-
-
-
-// === Init UI, Text selection panel ===
-
-function __textSelectionPanel_stateChanged(event, eventArgs) {
-    __activateToolWhenPanelBecomeActive(this, eventArgs.newState, "DocumentNavigationTool,TextSelectionTool");
-}
-
-
-
-// === Init UI, Text search panel ===
-
-function __textSearchPanel_stateChanged(event, eventArgs) {
-    __activateToolWhenPanelBecomeActive(this, eventArgs.newState, "DocumentNavigationTool,TextSelectionTool");
-}
-
-
-
-// === Init UI, PDF image-resource extraction panel ===
-
-function __pdfImageResourceExtractionPanel_imageDataReceived(event, contentImage) {
+function __pdfDocumentEditor_imageDataReceived(event, contentImage) {
     // if previous image processing dialog exists
     if (_pdfImageResourceDialog != null) {
-        // remove dialog from web document viewer
-        _docViewer.get_Items().removeItem(_pdfImageResourceDialog);
+        // remove dialog from web PDF document editor
+        _pdfDocumentEditor.get_Items().removeItem(_pdfImageResourceDialog);
         // destroy dialog
         delete _pdfImageResourceDialog;
         // clear link to dialog
@@ -226,38 +100,14 @@ function __pdfImageResourceExtractionPanel_imageDataReceived(event, contentImage
     }
 
     // create dialog to view the PDF image resource info
-    _pdfImageResourceDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiPdfImageResourceDialogJS(contentImage);
-    // add dialog to the document viewer
-    _docViewer.get_Items().addItem(_pdfImageResourceDialog);
+    _pdfImageResourceDialog = new Vintasoft.Imaging.Pdf.UI.Dialogs.WebUiPdfImageResourceDialogJS(contentImage);
+    // add dialog to the PDF document editor
+    _pdfDocumentEditor.get_Items().addItem(_pdfImageResourceDialog);
     // localize the dialog
     _localizer.localizeDocument();
     // show dialog
     _pdfImageResourceDialog.show();
 }
-
-function __pdfImageResourceExtractionPanel_stateChanged(event, eventArgs) {
-    __activateToolWhenPanelBecomeActive(this, eventArgs.newState, "PdfImageExtractorTool");
-}
-
-
-
-// === Init UI, PDF interactive form fields panel ===
-
-function __pdfInteractiveFormFieldsPanel_stateChanged(event, eventArgs) {
-    __activateToolWhenPanelBecomeActive(this, eventArgs.newState, "PdfInteractiveFormTool");
-}
-
-
-
-// === Init UI, PDF redaction marks panel ===
-
-function __pdfRedactionMarksPanel_stateChanged(event, eventArgs) {
-    __activateToolWhenPanelBecomeActive(this, eventArgs.newState, "PdfRemoveContentTool");
-}
-
-
-
-// Init UI, thumbnails panel
 
 /**
  Thumbnail viewer panel of document viewer is activated.
@@ -286,11 +136,11 @@ function __thumbnailsPanelActivated() {
 
 /**
  Initializes visual tools.
- @param {object} docViewer The document viewer.
+ @param {object} pdfDocumentEditor The PDF document editor.
 */
-function __initializeVisualTools(docViewer) {
+function __initializeVisualTools(pdfDocumentEditor) {
     // get navigation tool
-    var documentNavigationTool = docViewer.getVisualToolById("DocumentNavigationTool");
+    var documentNavigationTool = pdfDocumentEditor.getVisualToolById("DocumentNavigationTool");
     // create navigation action executor
     var nagivationActionExecutor = new Vintasoft.Imaging.WebNavigationActionExecutorJS();
     // create URI action executor
@@ -304,20 +154,20 @@ function __initializeVisualTools(docViewer) {
 
 
 
-// === Document viewer events ===
+// === PDF document editor events ===
 
 /**
- Warning occured in document viewer.
+ Warning occured in PDF document editor.
 */
-function __docViewer_warningOccured(event, eventArgs) {
+function __pdfDocumentEditor_warningOccured(event, eventArgs) {
     // show the alert if warning occured
     __showErrorMessage(eventArgs.message);
 };
 
 /**
- Asynchronous operation is started in document viewer.
+ Asynchronous operation is started in PDF document editor.
 */
-function __docViewer_asyncOperationStarted(event, data) {
+function __pdfDocumentEditor_asyncOperationStarted(event, data) {
     // get description of asynchronous operation
     var description = data.description;
     // for current operations 
@@ -333,17 +183,17 @@ function __docViewer_asyncOperationStarted(event, data) {
 }
 
 /**
- Asynchronous operation is finished in document viewer.
+ Asynchronous operation is finished in PDF document editor.
 */
-function __docViewer_asyncOperationFinished(event, data) {
+function __pdfDocumentEditor_asyncOperationFinished(event, data) {
     // unblock UI
     __unblockUI();
 }
 
 /**
- Asynchronous operation is failed in document viewer.
+ Asynchronous operation is failed in PDF document editor.
 */
-function __docViewer_asyncOperationFailed(event, data) {
+function __pdfDocumentEditor_asyncOperationFailed(event, data) {
     // get description of asynchronous operation
     var description = data.description;
     // get additional information about asynchronous operation
@@ -356,25 +206,6 @@ function __docViewer_asyncOperationFailed(event, data) {
     else
         // show error message
         __showErrorMessage(description + ": unknown error.");
-}
-
-/**
- Document viewer sends a request for file authentication.
-*/
-function __docViewer_fileAuthenticationRequest(event, eventArgs) {
-    // specify that we processed the event and web document viewer does not need to show standard password dialog
-    eventArgs.handled = true;
-
-    // open document password dialog
-    _openFileHelper.showPasswordDialog(eventArgs.fileId);
-}
-
-/**
- File is opened in document viewer.
-*/
-function __docViewer_fileOpened(event, data) {
-    // open PDF document
-    _openFileHelper.openPdfDocument(data.fileId, data.filePassword);
 }
 
 
@@ -427,13 +258,13 @@ function __getApplicationUrl() {
 */
 function __createUiLocalizationDictionary() {
     var tempDialogs = [];
-    __createDocumentViewerDialogsForLocalization(tempDialogs);
+    __createPdfDocumentEditorDialogsForLocalization(tempDialogs);
 
     var localizationDict = _localizer.getDocumentLocalizationDictionary();
     var localizationDictString = JSON.stringify(localizationDict, null, '\t');
     console.log(localizationDictString);
 
-    var floatingContainer = document.getElementById("documentViewerContainer");
+    var floatingContainer = document.getElementById("pdfDocumentEditorContainer");
     for (var i = 0; i < tempDialogs.length; i++) {
         floatingContainer.removeChild(tempDialogs[i].get_DomElement());
         delete tempDialogs[i];
@@ -441,46 +272,63 @@ function __createUiLocalizationDictionary() {
 }
 
 /**
- Creates the dialogs, which are used in Web Document Viewer, for localization.
+ Creates the dialogs, which are used in web PDF document editor, for localization.
 */
-function __createDocumentViewerDialogsForLocalization(tempDialogs) {
-    var floatingContainer = document.getElementById("documentViewerContainer");
+function __createPdfDocumentEditorDialogsForLocalization(tempDialogs) {
+    var floatingContainer = document.getElementById("pdfDocumentEditorContainer");
 
+    // create a temporary document password dialog - dialog is necessary for localization purposes only
     var documentPasswordDialog = new Vintasoft.Imaging.UI.Dialogs.WebUiDocumentPasswordDialogJS();
     documentPasswordDialog.render(floatingContainer);
     tempDialogs.push(documentPasswordDialog);
 
-    var imageSelectionDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebImageSelectionDialogJS();
+    // create a temporary image selection dialog - dialog is necessary for localization purposes only
+    var imageSelectionDialog = new Vintasoft.Imaging.UI.Dialogs.WebImageSelectionDialogJS();
     imageSelectionDialog.render(floatingContainer);
     tempDialogs.push(imageSelectionDialog);
 
-    var printImagesDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebPrintImagesDialogJS();
+    // create a temporary print images dialog - dialog is necessary for localization purposes only
+    var printImagesDialog = new Vintasoft.Imaging.UI.Dialogs.WebPrintImagesDialogJS();
     printImagesDialog.render(floatingContainer);
     tempDialogs.push(printImagesDialog);
 
-    var imageViewerSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebImageViewerSettingsDialogJS();
+    // create a temporary image viewer setting dialog - dialog is necessary for localization purposes only
+    var imageViewerSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebImageViewerSettingsDialogJS();
     imageViewerSettingsDialog.render(floatingContainer);
     tempDialogs.push(imageViewerSettingsDialog);
 
-    var thumbnailViewerSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebThumbnailViewerSettingsDialogJS();
+    // create a temporary thumbnail viewer setting dialog - dialog is necessary for localization purposes only
+    var thumbnailViewerSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebThumbnailViewerSettingsDialogJS();
     thumbnailViewerSettingsDialog.render(floatingContainer);
     tempDialogs.push(thumbnailViewerSettingsDialog);
 
-    var pdfRedactionMarkAppearanceDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebPdfRedactionMarkAppearanceDialogJS();
+    // create a temporary PDF redaction mark appearance dialog - dialog is necessary for localization purposes only
+    var pdfRedactionMarkAppearanceDialog = new Vintasoft.Imaging.Pdf.UI.Dialogs.WebPdfRedactionMarkAppearanceDialogJS();
     pdfRedactionMarkAppearanceDialog.render(floatingContainer);
     tempDialogs.push(pdfRedactionMarkAppearanceDialog);
 
-    var pdfImageResourceDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiPdfImageResourceDialogJS();
+    // create a temporary PDF image resource dialog - dialog is necessary for localization purposes only
+    var pdfImageResourceDialog = new Vintasoft.Imaging.Pdf.UI.Dialogs.WebUiPdfImageResourceDialogJS();
     pdfImageResourceDialog.render(floatingContainer);
     tempDialogs.push(pdfImageResourceDialog);
 
-    var exportFileSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebExportFileSettingsDialogJS();
+    // create a temporary PDF/A conversion and validation dialog - dialog is necessary for localization purposes only
+    var pdfAConversionAndValidationDialog = new Vintasoft.Imaging.Pdf.UI.Dialogs.WebUiPdfAConversionAndValidationDialogJS();
+    pdfAConversionAndValidationDialog.render(floatingContainer);
+    tempDialogs.push(pdfAConversionAndValidationDialog);
+
+    // create a temporary PDF document compressor dialog - dialog is necessary for localization purposes only
+    var pdfDocumentCompressDialog = new Vintasoft.Imaging.Pdf.UI.Dialogs.WebPdfDocumentCompressorDialogJS();
+    pdfDocumentCompressDialog.render(floatingContainer);
+    tempDialogs.push(pdfDocumentCompressDialog);
+
+    // create a temporary export file setting dialog - dialog is necessary for localization purposes only
+    var exportFileSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebExportFileSettingsDialogJS();
     exportFileSettingsDialog.render(floatingContainer);
     tempDialogs.push(exportFileSettingsDialog);
 
-    
-    // create thumbnail viewer context menu panel
-    var thumbnailViewerContextMenu = new Vintasoft.Imaging.DocumentViewer.UIElements.WebThumbnailViewerContextMenuJS(_docViewer._thumbnailViewer, {});
+    // create a temporary thumbnail viewer context menu panel - panel is necessary for localization purposes only
+    var thumbnailViewerContextMenu = new Vintasoft.Imaging.UI.UIElements.WebThumbnailViewerContextMenuJS(_pdfDocumentEditor._thumbnailViewer, {});
     thumbnailViewerContextMenu.render(floatingContainer);
     tempDialogs.push(thumbnailViewerContextMenu);
 }
@@ -502,8 +350,8 @@ function __enableUiLocalization() {
             _localizer.localizeDocument();
         });
 
-    // subscribe to the "dialogShown" event of document viewer
-    Vintasoft.Shared.subscribeToEvent(_docViewer, "dialogShown", function (event, data) {
+    // subscribe to the "dialogShown" event of PDF document editor
+    Vintasoft.Shared.subscribeToEvent(_pdfDocumentEditor, "dialogShown", function (event, data) {
         _localizer.localizeDocument();
     });
 }
@@ -535,40 +383,33 @@ function __main() {
     // register new UI elements
     __registerNewUiElements();
 
-    // create the document viewer settings
-    var docViewerSettings = new Vintasoft.Imaging.DocumentViewer.WebDocumentViewerSettingsJS("documentViewerContainer", "documentViewer");
-    // specify that document viewer should show "Export and download file" button instead of "Download file" button
-    docViewerSettings.set_CanExportAndDownloadFile(true);
-    docViewerSettings.set_CanDownloadFile(false);
-    docViewerSettings.set_CanClearSessionCache(true);
+    // create the PDF document editor settings
+    var pdfDocumentEditorSettings = new Vintasoft.Imaging.Pdf.UI.WebPdfDocumentEditorControlSettingsJS("pdfDocumentEditorContainer", "pdfDocumentEditor");
 
-    // initialize main menu of document viewer
-    __initMenu(docViewerSettings);
+    // initialize main menu of PDF document editor
+    __initMenu(pdfDocumentEditorSettings);
+    // initialize side panel of PDF document editor
+    __initSidePanel(pdfDocumentEditorSettings);
 
-    // initialize side panel of document viewer
-    __initSidePanel(docViewerSettings);
+    // create the PDF document editor
+    _pdfDocumentEditor = new Vintasoft.Imaging.Pdf.UI.WebPdfDocumentEditorControlJS(pdfDocumentEditorSettings);
 
-    // create the document viewer
-    _docViewer = new Vintasoft.Imaging.DocumentViewer.WebDocumentViewerJS(docViewerSettings);
-
-    // subscribe to the fileAuthenticationRequest event of document viewer
-    Vintasoft.Shared.subscribeToEvent(_docViewer, "fileAuthenticationRequest", __docViewer_fileAuthenticationRequest);
-    // subscribe to the fileOpened event of document viewer
-    Vintasoft.Shared.subscribeToEvent(_docViewer, "fileOpened", __docViewer_fileOpened);
-    // subscribe to the "warningOccured" event of document viewer
-    Vintasoft.Shared.subscribeToEvent(_docViewer, "warningOccured", __docViewer_warningOccured);
-    // subscribe to the asyncOperationStarted event of document viewer
-    Vintasoft.Shared.subscribeToEvent(_docViewer, "asyncOperationStarted", __docViewer_asyncOperationStarted);
-    // subscribe to the asyncOperationFinished event of document viewer
-    Vintasoft.Shared.subscribeToEvent(_docViewer, "asyncOperationFinished", __docViewer_asyncOperationFinished);
-    // subscribe to the asyncOperationFailed event of document viewer
-    Vintasoft.Shared.subscribeToEvent(_docViewer, "asyncOperationFailed", __docViewer_asyncOperationFailed);
+    // subscribe to the "warningOccured" event of PDF document editor
+    Vintasoft.Shared.subscribeToEvent(_pdfDocumentEditor, "warningOccured", __pdfDocumentEditor_warningOccured);
+    // subscribe to the "asyncOperationStarted"" event of PDF document editor
+    Vintasoft.Shared.subscribeToEvent(_pdfDocumentEditor, "asyncOperationStarted", __pdfDocumentEditor_asyncOperationStarted);
+    // subscribe to the "asyncOperationFinished"" event of PDF document editor
+    Vintasoft.Shared.subscribeToEvent(_pdfDocumentEditor, "asyncOperationFinished", __pdfDocumentEditor_asyncOperationFinished);
+    // subscribe to the "asyncOperationFailed"" event of PDF document editor
+    Vintasoft.Shared.subscribeToEvent(_pdfDocumentEditor, "asyncOperationFailed", __pdfDocumentEditor_asyncOperationFailed);
+    // subscribe to the "imageDataReceived"" event of PDF document editor
+    Vintasoft.Shared.subscribeToEvent(_pdfDocumentEditor, "imageDataReceived", __pdfDocumentEditor_imageDataReceived);
 
     // initialize visual tools
-    __initializeVisualTools(_docViewer);
+    __initializeVisualTools(_pdfDocumentEditor);
 
-    // get the image viewer of document viewer
-    var imageViewer1 = _docViewer.get_ImageViewer();
+    // get the image viewer of PDF document editor
+    var imageViewer1 = _pdfDocumentEditor.get_ImageViewer();
     // specify that image viewer must show images in the single continuous column mode
     imageViewer1.set_DisplayMode(new Vintasoft.Imaging.WebImageViewerDisplayModeEnumJS("SingleContinuousColumn"));
     // specify that image viewer must show images in the fit width mode
@@ -580,14 +421,9 @@ function __main() {
     // specify that the image viewer must use the progress image for indicating the image loading progress
     imageViewer1.set_ProgressImage(progressImage);
 
-    // get the visual tool, which allows to select text
-    var visualTool = _docViewer.getVisualToolById("DocumentNavigationTool,TextSelectionTool");
-    // set the visual tool as active visual tool in image viewer
-    _docViewer.set_CurrentVisualTool(visualTool);
-
     // copy the default file to the uploaded image files directory and open the file
-    _openFileHelper = new OpenFileHelperJS(_docViewer, __showErrorMessage);
-    _openFileHelper.openDefaultPdfFile();
+    var openFileHelper = new OpenFileHelperJS(_pdfDocumentEditor, __showErrorMessage);
+    openFileHelper.openDefaultPdfFile();
 
     $(document).ready(function () {
         //// create the dictionary for localization of application UI

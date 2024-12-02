@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "파일"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "세션 캐시 지우기"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A 변환 및 검증"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF 압축기"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "너비에 맞춤"
 		},
@@ -61,7 +67,7 @@
 			"title": "텍스트 선택"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "페이지에서 이미지 추출"
+			"title": "PDF 페이지에서 이미지 리소스 추출"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "대화형 필드"
@@ -73,10 +79,10 @@
 			"title": "교정할 영역 표시"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "수정을 위해 전체 페이지 표시"
+			"title": "전체 PDF 페이지를 편집용으로 표시"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "집중된 수정 표시 제거"
+			"title": "초점 PDF 편집 표시 제거"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "PDF 교정 표시 모양"
@@ -100,10 +106,7 @@
 			"title": "텍스트 검색"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "이미지 추출"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "대화형 필드"
+			"title": "PDF 이미지 리소스"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF 교정 표시"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "콘텐츠 이미지 표시"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "상호작용 모드:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "아니오"
-			},
-			"viewInteractionModeLabel": {
-				"text": "보기"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "페이지별로 필드 그룹화"
-			},
-			"saveChangesButton": {
-				"value": "변경 사항을 저장하다"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "썸네일 드래그 가능:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "키보드를 사용하여 썸네일 탐색 가능:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "키보드를 사용하여 썸네일 선택 가능:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "키보드를 사용하여 썸네일 삭제 가능:"
+			},
 			"okButton": {
 				"value": "확인"
 			},
@@ -646,6 +641,323 @@
 				"value": "확인"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A 형식:"
+			},
+			"resultLabel": {
+				"text": "결과:"
+			},
+			"convertToPdfaButton": {
+				"value": "PDF/A로 변환"
+			},
+			"validatePdfaButton": {
+				"value": "PDF/A 검증"
+			},
+			"closeButton": {
+				"value": "닫기"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "품질:"
+			},
+			"grayscaleLabel": {
+				"text": "회색조(8bpp)"
+			},
+			"applyButton": {
+				"value": "적용하다"
+			},
+			"closeButton": {
+				"value": "닫기"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "타일 사용"
+			},
+			"waveletTransformLabel": {
+				"text": "웨이블릿 변환"
+			},
+			"levelLabel": {
+				"text": "레벨"
+			},
+			"lossyLabel": {
+				"text": "손실"
+			},
+			"fileSizeLabel": {
+				"text": "파일 크기"
+			},
+			"kBytesLabel": {
+				"text": "KBytes"
+			},
+			"compressionRatioLabel": {
+				"text": "압축 비율"
+			},
+			"applyButton": {
+				"value": "적용하다"
+			},
+			"closeButton": {
+				"value": "닫기"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "비트맵 인코딩 알고리즘"
+			},
+			"mqLabel": {
+				"text": "MQ(산술)"
+			},
+			"mmrLabel": {
+				"text": "Mmr(CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "심볼 사전"
+			},
+			"dictionarySizeLabel": {
+				"text": "사전 크기"
+			},
+			"lossyLabel": {
+				"text": "손실"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "부정확도 백분율"
+			},
+			"applyButton": {
+				"value": "적용하다"
+			},
+			"closeButton": {
+				"value": "닫기"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "리소스"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "정리/삭제"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "출력 문서 형식"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "이미지 실제 색상 깊이 감지(이미지 색상 깊이 줄이기)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "흑백 이미지 감지"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "인덱스1(바이너리) 이미지 감지"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "회색조 이미지 감지"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "인덱스8(256색) 이미지 감지"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "최대 부정확도 감지"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(RGB 단위 거리) space)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "컬러 이미지"
+				},
+				"checkbox-compression": {
+					"text": "압축"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "설정"
+				},
+				"checkbox-downscale": {
+					"text": "축소"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "위 이미지의 DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "회색조 이미지"
+				},
+				"checkbox-compression": {
+					"text": "압축"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "설정"
+				},
+				"checkbox-downscale": {
+					"text": "축소"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "위 이미지의 DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitonal 이미지"
+				},
+				"checkbox-compression": {
+					"text": "압축"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "설정"
+				},
+				"checkbox-downscale": {
+					"text": "축소"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "위 이미지의 DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "LWZ 압축 대신 Flaze(Zip) 압축 사용"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "압축되지 않은 리소스에 Flaze(Zip) 압축 사용"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "최대 압축 수준을 사용하여 Flate(ZIP) 압축을 사용하는 모든 리소스 다시 압축"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "글꼴 하위 집합 최적화"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "주석 평면화"
+			},
+			"checkbox-subsetFonts": {
+				"text": "글꼴 하위 집합"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "주석 제거"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "잘못된 책갈피 제거"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "책갈피 제거"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "잘못된 링크 제거"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "포함된 페이지 축소판 제거"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "사용하지 않는 페이지 제거"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "문서 정보 제거"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "이름 사전 정리"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "첨부 파일 제거"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "사용하지 않는 리소스 제거"
+			},
+			"checkbox-removeMetadata": {
+				"text": "메타데이터 제거"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "리소스 중복 제거"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "대화형 양식 제거"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "컨텐츠 스트림 정리"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "구조 트리 제거"
+			},
+			"outputFilenameFormat": {
+				"text": "출력 파일 이름:"
+			},
+			"outputDocumentFormat": {
+				"text": "출력 문서 형식:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "선형화된 형식(빠른 웹 보기)"
+			},
+			"executeCompressionButton": {
+				"value": "PDF 압축"
+			},
+			"saveButton": {
+				"value": "저장"
+			},
+			"closeButton": {
+				"value": "닫기"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "파일 이름:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "취소"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "보기를 시계 방향으로 회전"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "시계 반대 방향으로 보기 회전"
+		},
+		"removeImagesButton": {
+			"text": "이미지 제거"
+		},
+		"moveImageUpButton": {
+			"text": "이미지를 위로 이동"
+		},
+		"moveImageDownButton": {
+			"text": "이미지를 아래로 이동"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "파일 다운로드 및 열기",
 		"vsdv-uploadAndAddFileButton-addFileString": "파일 업로드 및 추가",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "PDF 북마크 받기",
-		"vsdv-textSearchPanel-pageLabel": "페이지",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "이미지 리소스 가져오기",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "페이지",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "PDF 북마크 받기",
+		"vsui-textSearchPanel-pageLabel": "페이지",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "이미지 리소스 가져오기",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "페이지",
+		"vspe-openFile-addFileString": "파일 추가",
+		"vspe-saveChanges-saveChangesInPdfDocument": "PDF 문서에 변경 사항 저장",
 		"vsdv-openFile-addFileString": "파일 추가",
 		"vsdv-openFile-authenticateFileString": "파일 인증",
 		"vsdv-downloadFile-actionMessage": "파일 다운로드",
 		"vsdv-saveChanges-saveChangesInImages": "이미지 변경사항 저장",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "페이지",
 		"vsdv-saveChanges-saveChangesInAnnotations": "주석 변경사항 저장",
 		"vsdv-saveChanges-burnAnnotationsInImages": "이미지에 주석 굽기",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF 문서에 변경 사항 저장",
-		"vsdv-uploadFileButton-uploadFileString": "파일 업로드",
-		"vsdv-documentPasswordDialog-title": "문서 비밀번호",
+		"vsui-documentPasswordDialog-title": "문서 비밀번호",
+		"vsui-dialog-okButton": "확인",
+		"vsui-dialog-cancelButton": "취소",
+		"vsui-documentPasswordPanel-authenticateFileString": "파일 인증",
+		"vsui-imageSelectionDialog-title": "이미지 선택",
+		"vsui-imageSelectionDialog-currentImageString": "현재 이미지",
+		"vsui-imageSelectionDialog-allImagesString": "모든 이미지",
+		"vsui-imageSelectionDialog-customImagesString": "사용자 정의",
+		"vsui-printImagesDialog-title": "이미지 인쇄",
+		"vsui-printImagesPanel-imagePrintingString": "이미지 인쇄 중",
+		"vsui-printImagesPanel-withAnnotationsLabel": "주석 포함",
+		"vsui-imageViewerSettingsDialog-title": "이미지 뷰어 설정",
+		"vsui-thumbnailViewerSettingDialog-title": "썸네일 뷰어 설정",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "PDF 교정 표시 모양",
+		"vsui-pdfImageResourceDialog-title": "PDF 이미지 리소스",
+		"vsui-pdfImageResourcePanel-bytes": " 바이트",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A 변환 및 검증",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "PDF/A로 변환",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "PDF/A 검증",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "닫기",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF 압축기",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF 압축",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "저장",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "닫기",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG 인코더 설정",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "적용하다",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "닫기",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 인코더 설정",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "적용하다",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "닫기",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 인코더 설정",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "적용하다",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "닫기",
+		"vsui-exportFileSettingsDialog-title": "파일을 내보내는 설정",
 		"vsdv-dialog-okButton": "확인",
-		"vsdv-dialog-cancelButton": "취소",
-		"vsdv-documentPasswordPanel-authenticateFileString": "파일 인증",
-		"vsdv-imageSelectionDialog-title": "이미지 선택",
-		"vsdv-imageSelectionDialog-currentImageString": "현재 이미지",
-		"vsdv-imageSelectionDialog-allImagesString": "모든 이미지",
-		"vsdv-imageSelectionDialog-customImagesString": "사용자 정의",
-		"vsdv-printImagesDialog-title": "이미지 인쇄",
-		"vsdv-printImagesPanel-imagePrintingString": "이미지 인쇄 중",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "주석 포함",
-		"vsdv-imageViewerSettingsDialog-title": "이미지 뷰어 설정",
-		"vsdv-thumbnailViewerSettingDialog-title": "썸네일 뷰어 설정",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF 교정 표시 모양",
-		"vsdv-pdfImageResourceDialog-title": "PDF 이미지 리소스",
-		"vsdv-pdfImageResourcePanel-bytes": " 바이트",
-		"vsdv-exportFileSettingsDialog-title": "파일을 내보내는 설정",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF 교정 표시 설정"
+		"vsdv-dialog-cancelButton": "취소"
 	}
 }

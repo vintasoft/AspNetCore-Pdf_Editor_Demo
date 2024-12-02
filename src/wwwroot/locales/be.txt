@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Файл"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Ачысціць кэш сеанса"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "Пераўтварэнне і праверка PDF/A"
+		},
+		"pdfCompressorButton": {
+			"title": "Кампрэсар pdf"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Падганяць па шырыні"
 		},
@@ -61,7 +67,7 @@
 			"title": "Вылучэнне тэксту"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Выманне малюнкаў са старонкі"
+			"title": "Выняць рэсурсы малюнкаў са старонкі PDF"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Інтэрактыўныя палі"
@@ -73,10 +79,10 @@
 			"title": "Пазначыць вобласць для рэдагавання"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Пазначыць поўныя старонкі для рэдагавання"
+			"title": "Адзначайце поўныя старонкі PDF для рэдагавання"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Выдаліць сфакусаваны знак рэдагавання"
+			"title": "Выдаліць сфакусаваны знак рэдагавання PDF"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "Выгляд знака рэдагавання PDF"
@@ -100,10 +106,7 @@
 			"title": "Знайсці тэкст"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Выманне малюнкаў"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Інтэрактыўныя палі"
+			"title": "PDF-рэсурсы малюнкаў"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Знакі рэдагавання pdf"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Паказаць малюнак змесціва"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Рэжым узаемадзеяння:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Няма"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Выгляд"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Групаваць палі па старонках"
-			},
-			"saveChangesButton": {
-				"value": "Захавайце змены"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Можна перацягваць эскізы:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Можна перамяшчацца па мініяцюрах з дапамогай клавіятуры:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Можна выбраць эскізы з дапамогай клавіятуры:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Можна выдаліць эскізы з дапамогай клавіятуры:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -646,6 +641,323 @@
 				"value": "OK"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "Фармат PDF/A:"
+			},
+			"resultLabel": {
+				"text": "вынік:"
+			},
+			"convertToPdfaButton": {
+				"value": "Пераўтварыць у PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Праверыць PDF/A"
+			},
+			"closeButton": {
+				"value": "Блізка"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "якасць:"
+			},
+			"grayscaleLabel": {
+				"text": "Адценні шэрага (8 біт/с)"
+			},
+			"applyButton": {
+				"value": "Ужыць"
+			},
+			"closeButton": {
+				"value": "Блізка"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Выкарыстоўвайце плітку"
+			},
+			"waveletTransformLabel": {
+				"text": "Вейвлет-пераўтварэнне"
+			},
+			"levelLabel": {
+				"text": "Узровень"
+			},
+			"lossyLabel": {
+				"text": "Страты"
+			},
+			"fileSizeLabel": {
+				"text": "Памер файла"
+			},
+			"kBytesLabel": {
+				"text": "Кбайт"
+			},
+			"compressionRatioLabel": {
+				"text": "Каэфіцыент сціску"
+			},
+			"applyButton": {
+				"value": "Ужыць"
+			},
+			"closeButton": {
+				"value": "Блізка"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Алгарытм растравага кадавання"
+			},
+			"mqLabel": {
+				"text": "MQ (арыфметыка)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Слоўнік сімвалаў"
+			},
+			"dictionarySizeLabel": {
+				"text": "Памер слоўніка"
+			},
+			"lossyLabel": {
+				"text": "Страты"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Працэнт недакладнасці"
+			},
+			"applyButton": {
+				"value": "Ужыць"
+			},
+			"closeButton": {
+				"value": "Блізка"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Рэсурсы"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Ачысціць / Выкінуць"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Выхадны фармат дакумента"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Выяўленне рэальнай глыбіні колеру выявы (памяншэнне глыбіні колеру выявы)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Выяўленне чорна-белых малюнкаў"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Выяўленне індэксаваных1 (бітанальных) відарысаў"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Выяўленне малюнкаў у адценнях шэрага"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Выяўленне малюнкаў Indexed8 (256 колераў)."
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Максімальная недакладнасць выяўлення"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(адлегласць у прасторы RGB)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Каляровыя выявы"
+				},
+				"checkbox-compression": {
+					"text": "Кампрэсія"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Налады"
+				},
+				"checkbox-downscale": {
+					"text": "Паніжаны маштаб"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI для малюнкаў вышэй"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Выявы ў адценнях шэрага"
+				},
+				"checkbox-compression": {
+					"text": "Кампрэсія"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Налады"
+				},
+				"checkbox-downscale": {
+					"text": "Паніжаны маштаб"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI для малюнкаў вышэй"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Бітанальныя выявы"
+				},
+				"checkbox-compression": {
+					"text": "Кампрэсія"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Налады"
+				},
+				"checkbox-downscale": {
+					"text": "Паніжаны маштаб"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI для малюнкаў вышэй"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Выкарыстоўвайце сцісканне Flaze(Zip) замест сціску LWZ"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Выкарыстоўвайце сцісканне Flaze(Zip) для несціснутых рэсурсаў"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Паўторна сціснуць усе рэсурсы, якія выкарыстоўваюць сцісканне Flate (ZIP), выкарыстоўваючы максімальны ўзровень сціску"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Аптымізацыя паднабораў шрыфтоў"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Звесці анатацыі"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Падмноства шрыфтоў"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Выдаліць анатацыі"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Выдаліць несапраўдныя закладкі"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Выдаліць закладкі"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Выдаліць несапраўдныя спасылкі"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Выдаліць убудаваныя мініяцюры старонак"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Выдаліць невыкарыстоўваныя старонкі"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Выдаліць інфармацыю аб дакуменце"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Ачыстка слоўніка імёнаў"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Выдаліць укладзеныя файлы"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Выдаліце ​​нявыкарыстаныя рэсурсы"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Выдаліць метададзеныя"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Выдаліць дублікаты рэсурсаў"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Выдаліць інтэрактыўную форму"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Ачыстка патокаў кантэнту"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Выдаліць дрэва структуры"
+			},
+			"outputFilenameFormat": {
+				"text": "Імя выходнага файла:"
+			},
+			"outputDocumentFormat": {
+				"text": "Фармат выхаднога дакумента:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Лінеарызаваны фармат (хуткі вэб-прагляд)"
+			},
+			"executeCompressionButton": {
+				"value": "Сціснуць PDF"
+			},
+			"saveButton": {
+				"value": "Захаваць"
+			},
+			"closeButton": {
+				"value": "Блізка"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Імя файла:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Адмяніць"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Павярнуць выгляд па гадзіннікавай стрэлцы"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Павярнуць выгляд супраць гадзіннікавай стрэлкі"
+		},
+		"removeImagesButton": {
+			"text": "Выдаліць выявы"
+		},
+		"moveImageUpButton": {
+			"text": "Перамясціць малюнак уверх"
+		},
+		"moveImageDownButton": {
+			"text": "Перамясціць выяву ўніз"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузіць і адкрыць файл",
 		"vsdv-uploadAndAddFileButton-addFileString": "Загрузіць і дадаць файл",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Атрымаць закладкі PDF",
-		"vsdv-textSearchPanel-pageLabel": "старонка",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Атрымаць рэсурс выявы",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "старонка",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Атрымаць закладкі PDF",
+		"vsui-textSearchPanel-pageLabel": "старонка",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Атрымаць рэсурс выявы",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "старонка",
+		"vspe-openFile-addFileString": "Дадаць файл",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Захаваць змены ў дакуменце PDF",
 		"vsdv-openFile-addFileString": "Дадаць файл",
 		"vsdv-openFile-authenticateFileString": "Аўтэнтыфікаваць файл",
 		"vsdv-downloadFile-actionMessage": "Спампаваць файл",
 		"vsdv-saveChanges-saveChangesInImages": "Захаваць змены ў малюнках",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "старонка",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Захаваць змены ў анатацыях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Запіс анатацый да малюнкаў",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Захаваць змены ў дакуменце PDF",
-		"vsdv-uploadFileButton-uploadFileString": "Загрузіць файл",
-		"vsdv-documentPasswordDialog-title": "Пароль дакумента",
+		"vsui-documentPasswordDialog-title": "Пароль дакумента",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Адмяніць",
+		"vsui-documentPasswordPanel-authenticateFileString": "Аўтэнтыфікаваць файл",
+		"vsui-imageSelectionDialog-title": "Выберыце выявы",
+		"vsui-imageSelectionDialog-currentImageString": "Актуальны малюнак",
+		"vsui-imageSelectionDialog-allImagesString": "Усе выявы",
+		"vsui-imageSelectionDialog-customImagesString": "Карыстацкі",
+		"vsui-printImagesDialog-title": "Друк малюнкаў",
+		"vsui-printImagesPanel-imagePrintingString": "Выява друкуецца",
+		"vsui-printImagesPanel-withAnnotationsLabel": "з анатацыямі",
+		"vsui-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў",
+		"vsui-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "Выгляд знака рэдагавання PDF",
+		"vsui-pdfImageResourceDialog-title": "PDF рэсурс малюнкаў",
+		"vsui-pdfImageResourcePanel-bytes": " байт",
+		"vsui-pdfAConversionAndValidationDialog-title": "Пераўтварэнне і праверка PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Пераўтварыць у PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Праверыць PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Блізка",
+		"vsui-pdfDocumentCompressorDialog-title": "Кампрэсар pdf",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Сціснуць PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Захаваць",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Блізка",
+		"vsui-jpegEncoderSettingsDialog-title": "Налады кадавальніка JPEG",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Ужыць",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Блізка",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "Налады кадавальніка JPEG2000",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Ужыць",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Блізка",
+		"vsui-jbig2EncoderSettingsDialog-title": "Налады кадавальніка JBIG2",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Ужыць",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Блізка",
+		"vsui-exportFileSettingsDialog-title": "Налады для экспарту файла",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Адмяніць",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Аўтэнтыфікаваць файл",
-		"vsdv-imageSelectionDialog-title": "Выберыце выявы",
-		"vsdv-imageSelectionDialog-currentImageString": "Актуальны малюнак",
-		"vsdv-imageSelectionDialog-allImagesString": "Усе выявы",
-		"vsdv-imageSelectionDialog-customImagesString": "Карыстацкі",
-		"vsdv-printImagesDialog-title": "Друк малюнкаў",
-		"vsdv-printImagesPanel-imagePrintingString": "Выява друкуецца",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "з анатацыямі",
-		"vsdv-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў",
-		"vsdv-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Выгляд знака рэдагавання PDF",
-		"vsdv-pdfImageResourceDialog-title": "PDF рэсурс малюнкаў",
-		"vsdv-pdfImageResourcePanel-bytes": " байт",
-		"vsdv-exportFileSettingsDialog-title": "Налады для экспарту файла",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "Налады знака рэдагавання PDF"
+		"vsdv-dialog-cancelButton": "Адмяніць"
 	}
 }

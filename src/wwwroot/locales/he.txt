@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "קובץ"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "נקה את מטמון ההפעלה"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "המרת PDF/A ואימות"
+		},
+		"pdfCompressorButton": {
+			"title": "מדחס PDF"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "התאם לרוחב"
 		},
@@ -61,7 +67,7 @@
 			"title": "בחירת טקסט"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "חלץ תמונות מהעמוד"
+			"title": "חלץ משאבי תמונה מדף PDF"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "שדות אינטראקטיביים"
@@ -73,10 +79,10 @@
 			"title": "סמן אזור לעריכה"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "סמן דפים מלאים לעריכה"
+			"title": "סמן דפי PDF מלאים לעיבוד"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "הסר סימן עריכה ממוקד"
+			"title": "הסר סימן עריכת PDF ממוקד"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "הופעת סימן עריכת PDF"
@@ -100,10 +106,7 @@
 			"title": "חפש טקסט"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "חלץ תמונות"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "שדות אינטראקטיביים"
+			"title": "משאבי תמונת PDF"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "סימני עריכת PDF"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "הצג תמונת תוכן"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "מצב אינטראקציה:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "לא"
-			},
-			"viewInteractionModeLabel": {
-				"text": "הצג"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "קבץ שדות לפי דפים"
-			},
-			"saveChangesButton": {
-				"value": "שמור שינויים"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "יכול לגרור תמונות ממוזערות:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "יכול לנווט בתמונות ממוזערות באמצעות מקלדת:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "יכול לבחור תמונות ממוזערות באמצעות מקלדת:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "יכול למחוק תמונות ממוזערות באמצעות מקלדת:"
+			},
 			"okButton": {
 				"value": "בסדר"
 			},
@@ -646,6 +641,323 @@
 				"value": "בסדר"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "פורמט PDF/A:"
+			},
+			"resultLabel": {
+				"text": "תוֹצָאָה:"
+			},
+			"convertToPdfaButton": {
+				"value": "המר ל-PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "אימות PDF/A"
+			},
+			"closeButton": {
+				"value": "סגור"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "אֵיכוּת:"
+			},
+			"grayscaleLabel": {
+				"text": "גווני אפור (8 bpp)"
+			},
+			"applyButton": {
+				"value": "להגיש מועמדות"
+			},
+			"closeButton": {
+				"value": "סגור"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "השתמש באריחים"
+			},
+			"waveletTransformLabel": {
+				"text": "הטרנספורמציה של הגל"
+			},
+			"levelLabel": {
+				"text": "רָמָה"
+			},
+			"lossyLabel": {
+				"text": "אובדן"
+			},
+			"fileSizeLabel": {
+				"text": "גודל קובץ"
+			},
+			"kBytesLabel": {
+				"text": "KBytes"
+			},
+			"compressionRatioLabel": {
+				"text": "יחס דחיסה"
+			},
+			"applyButton": {
+				"value": "להגיש מועמדות"
+			},
+			"closeButton": {
+				"value": "סגור"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "אלגוריתם קידוד מפת סיביות"
+			},
+			"mqLabel": {
+				"text": "MQ (אריתמטי)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "מילון סמלים"
+			},
+			"dictionarySizeLabel": {
+				"text": "גודל מילון"
+			},
+			"lossyLabel": {
+				"text": "אובדן"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "אחוזי אי דיוק"
+			},
+			"applyButton": {
+				"value": "להגיש מועמדות"
+			},
+			"closeButton": {
+				"value": "סגור"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "אֶמְצָעִי"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "ניקוי / השלכה"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "פורמט מסמך פלט"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "זיהוי עומק צבע אמיתי של תמונה (הפחתת עומק צבע תמונה)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "זיהוי תמונות בשחור/לבן"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "זיהוי תמונות עם אינדקס 1 (ביטונלי)."
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "זיהוי תמונות בגווני אפור"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "זיהוי אינדקס 8 (256 צבעים) תמונות"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "זיהוי אי דיוק מרבי"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(מרחק בחלל RGB)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "תמונות צבעוניות"
+				},
+				"checkbox-compression": {
+					"text": "דְחִיסָה"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "רוֹכְסָן"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "הגדרות"
+				},
+				"checkbox-downscale": {
+					"text": "בקנה מידה נמוך"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI עבור תמונות למעלה"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "תמונות בגווני אפור"
+				},
+				"checkbox-compression": {
+					"text": "דְחִיסָה"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "רוֹכְסָן"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "הגדרות"
+				},
+				"checkbox-downscale": {
+					"text": "בקנה מידה נמוך"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI עבור תמונות למעלה"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "תמונות ביטונליות"
+				},
+				"checkbox-compression": {
+					"text": "דְחִיסָה"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "הגדרות"
+				},
+				"checkbox-downscale": {
+					"text": "בקנה מידה נמוך"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI עבור תמונות למעלה"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "השתמש בדחיסת Flaze(Zip) במקום בדחיסת LWZ"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "השתמש בדחיסת Flaze(Zip) עבור משאבים לא דחוסים"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "דחוס מחדש את כל המשאבים המשתמשים בדחיסת Flate(ZIP) תוך שימוש ברמת הדחיסה המקסימלית"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "בצע אופטימיזציה של קבוצות משנה של גופנים"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "לשטח הערות"
+			},
+			"checkbox-subsetFonts": {
+				"text": "גופנים משנה"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "הסר הערות"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "הסר סימניות לא חוקיות"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "הסר סימניות"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "הסר קישורים לא חוקיים"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "הסר תמונות ממוזערות של עמודים מוטמעים"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "הסר דפים שאינם בשימוש"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "הסר מידע על המסמך"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "מילון שמות ניקוי"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "הסר קבצים מצורפים"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "הסר משאבים שאינם בשימוש"
+			},
+			"checkbox-removeMetadata": {
+				"text": "הסר מטא נתונים"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "הסר כפילויות של משאבים"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "הסר טופס אינטראקטיבי"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "ניקוי זרמי תוכן"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "הסר את עץ המבנה"
+			},
+			"outputFilenameFormat": {
+				"text": "שם קובץ פלט:"
+			},
+			"outputDocumentFormat": {
+				"text": "פורמט מסמך פלט:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "פורמט ליניארי (Fast Web View)"
+			},
+			"executeCompressionButton": {
+				"value": "דחוס PDF"
+			},
+			"saveButton": {
+				"value": "לְהַצִיל"
+			},
+			"closeButton": {
+				"value": "סגור"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "שם קובץ:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "בטל"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "סובב את התצוגה בכיוון השעון"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "סובב את התצוגה נגד כיוון השעון"
+		},
+		"removeImagesButton": {
+			"text": "הסר תמונות"
+		},
+		"moveImageUpButton": {
+			"text": "הזז את התמונה למעלה"
+		},
+		"moveImageDownButton": {
+			"text": "הזז את התמונה למטה"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "הורד ופתח את הקובץ",
 		"vsdv-uploadAndAddFileButton-addFileString": "העלה והוסף קובץ",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "קבל סימניות PDF",
-		"vsdv-textSearchPanel-pageLabel": "דף",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "קבל משאב תמונה",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "דף",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "קבל סימניות PDF",
+		"vsui-textSearchPanel-pageLabel": "דף",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "קבל משאב תמונה",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "דף",
+		"vspe-openFile-addFileString": "הוסף קובץ",
+		"vspe-saveChanges-saveChangesInPdfDocument": "שמור שינויים במסמך PDF",
 		"vsdv-openFile-addFileString": "הוסף קובץ",
 		"vsdv-openFile-authenticateFileString": "אימות קובץ",
 		"vsdv-downloadFile-actionMessage": "הורד קובץ",
 		"vsdv-saveChanges-saveChangesInImages": "שמור שינויים בתמונות",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "דף",
 		"vsdv-saveChanges-saveChangesInAnnotations": "שמור שינויים בהערות",
 		"vsdv-saveChanges-burnAnnotationsInImages": "צריבת הערות על תמונות",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "שמור שינויים במסמך PDF",
-		"vsdv-uploadFileButton-uploadFileString": "העלה קובץ",
-		"vsdv-documentPasswordDialog-title": "סיסמת מסמך",
+		"vsui-documentPasswordDialog-title": "סיסמת מסמך",
+		"vsui-dialog-okButton": "בסדר",
+		"vsui-dialog-cancelButton": "בטל",
+		"vsui-documentPasswordPanel-authenticateFileString": "אימות קובץ",
+		"vsui-imageSelectionDialog-title": "בחר תמונות",
+		"vsui-imageSelectionDialog-currentImageString": "תמונה נוכחית",
+		"vsui-imageSelectionDialog-allImagesString": "כל התמונות",
+		"vsui-imageSelectionDialog-customImagesString": "מותאם אישית",
+		"vsui-printImagesDialog-title": "הדפס תמונות",
+		"vsui-printImagesPanel-imagePrintingString": "התמונה מודפסת",
+		"vsui-printImagesPanel-withAnnotationsLabel": "עם הערות",
+		"vsui-imageViewerSettingsDialog-title": "הגדרות מציג תמונות",
+		"vsui-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "הופעת סימן עריכת PDF",
+		"vsui-pdfImageResourceDialog-title": "משאב תמונת PDF",
+		"vsui-pdfImageResourcePanel-bytes": " בתים",
+		"vsui-pdfAConversionAndValidationDialog-title": "המרת PDF/A ואימות",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "המר ל-PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "אימות PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "סגור",
+		"vsui-pdfDocumentCompressorDialog-title": "מדחס PDF",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "דחוס PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "לְהַצִיל",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "סגור",
+		"vsui-jpegEncoderSettingsDialog-title": "הגדרות מקודד JPEG",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "להגיש מועמדות",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "סגור",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "הגדרות מקודד JPEG2000",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "להגיש מועמדות",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "סגור",
+		"vsui-jbig2EncoderSettingsDialog-title": "הגדרות מקודד JBIG2",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "להגיש מועמדות",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "סגור",
+		"vsui-exportFileSettingsDialog-title": "ההגדרות לייצוא הקובץ",
 		"vsdv-dialog-okButton": "בסדר",
-		"vsdv-dialog-cancelButton": "בטל",
-		"vsdv-documentPasswordPanel-authenticateFileString": "אימות קובץ",
-		"vsdv-imageSelectionDialog-title": "בחר תמונות",
-		"vsdv-imageSelectionDialog-currentImageString": "תמונה נוכחית",
-		"vsdv-imageSelectionDialog-allImagesString": "כל התמונות",
-		"vsdv-imageSelectionDialog-customImagesString": "מותאם אישית",
-		"vsdv-printImagesDialog-title": "הדפס תמונות",
-		"vsdv-printImagesPanel-imagePrintingString": "התמונה מודפסת",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "עם הערות",
-		"vsdv-imageViewerSettingsDialog-title": "הגדרות מציג תמונות",
-		"vsdv-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "הופעת סימן עריכת PDF",
-		"vsdv-pdfImageResourceDialog-title": "משאב תמונת PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " בתים",
-		"vsdv-exportFileSettingsDialog-title": "ההגדרות לייצוא הקובץ",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "הגדרות של סימני עריכת PDF"
+		"vsdv-dialog-cancelButton": "בטל"
 	}
 }

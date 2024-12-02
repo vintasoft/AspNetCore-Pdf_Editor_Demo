@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Файл"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Очистити кеш сесії"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "Перетворення PDF/A та перевірка"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF компресор"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Підгонка по ширині"
 		},
@@ -61,7 +67,7 @@
 			"title": "Виділення тексту"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Вилучення зображень зі сторінки"
+			"title": "Витяг ресурсів зображень зі сторінки PDF"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Інтерактивні поля"
@@ -73,10 +79,10 @@
 			"title": "Позначте область для редагування"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Позначте повні сторінки для редагування"
+			"title": "Позначайте повні сторінки PDF для редагування"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Видалити виділений знак редагування"
+			"title": "Видаліть виділену позначку редагування PDF"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "Зовнішній вигляд знака редагування PDF"
@@ -100,10 +106,7 @@
 			"title": "Знайди текст"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Витяг зображення"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Інтерактивні поля"
+			"title": "PDF-ресурси зображень"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Знаки редагування PDF"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Показати зображення вмісту"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Режим взаємодії:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Жодного"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Переглянути"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Групуйте поля за сторінками"
-			},
-			"saveChangesButton": {
-				"value": "Зберегти зміни"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Можна перетягувати мініатюри:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Можна переміщатися мініатюрами за допомогою клавіатури:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Можна вибрати мініатюри за допомогою клавіатури:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Можна видалити мініатюри за допомогою клавіатури:"
+			},
 			"okButton": {
 				"value": "В порядку"
 			},
@@ -646,6 +641,323 @@
 				"value": "В порядку"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "Формат PDF/A:"
+			},
+			"resultLabel": {
+				"text": "Результат:"
+			},
+			"convertToPdfaButton": {
+				"value": "Перетворити в PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Перевірте PDF/A"
+			},
+			"closeButton": {
+				"value": "Закрити"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "якість:"
+			},
+			"grayscaleLabel": {
+				"text": "Відтінки сірого (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Застосувати"
+			},
+			"closeButton": {
+				"value": "Закрити"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Використовуйте плитку"
+			},
+			"waveletTransformLabel": {
+				"text": "Вейвлет-перетворення"
+			},
+			"levelLabel": {
+				"text": "Рівень"
+			},
+			"lossyLabel": {
+				"text": "З втратами"
+			},
+			"fileSizeLabel": {
+				"text": "Розмір файлу"
+			},
+			"kBytesLabel": {
+				"text": "Кбайт"
+			},
+			"compressionRatioLabel": {
+				"text": "Ступінь стиснення"
+			},
+			"applyButton": {
+				"value": "Застосувати"
+			},
+			"closeButton": {
+				"value": "Закрити"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Алгоритм кодування растрового зображення"
+			},
+			"mqLabel": {
+				"text": "MQ (арифметика)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Словник символів"
+			},
+			"dictionarySizeLabel": {
+				"text": "Розмір словника"
+			},
+			"lossyLabel": {
+				"text": "З втратами"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Відсоток неточності"
+			},
+			"applyButton": {
+				"value": "Застосувати"
+			},
+			"closeButton": {
+				"value": "Закрити"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Ресурси"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Очистити / Викинути"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Формат вихідного документа"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Виявлення реальної глибини кольору зображення (зменшення глибини кольору зображення)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Виявлення чорно-білих зображень"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Виявлення індексованих1 (бітональних) зображень"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Виявлення зображень у градаціях сірого"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Виявлення зображень Indexed8 (256 кольорів)."
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Максимальна похибка виявлення"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(відстань у просторі RGB)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Кольорові зображення"
+				},
+				"checkbox-compression": {
+					"text": "Компресія"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Налаштування"
+				},
+				"checkbox-downscale": {
+					"text": "Зниження масштабу"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI для зображень вище"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Зображення в градаціях сірого"
+				},
+				"checkbox-compression": {
+					"text": "Компресія"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Налаштування"
+				},
+				"checkbox-downscale": {
+					"text": "Зниження масштабу"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI для зображень вище"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Бітональні зображення"
+				},
+				"checkbox-compression": {
+					"text": "Компресія"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Налаштування"
+				},
+				"checkbox-downscale": {
+					"text": "Зниження масштабу"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI для зображень вище"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Використовуйте стиснення Flaze(Zip) замість стиснення LWZ"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Використовуйте стиснення Flaze(Zip) для нестиснутих ресурсів"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Повторно стисніть усі ресурси, які використовують стиснення Flate (ZIP), використовуючи максимальний рівень стиснення"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Оптимізуйте підмножини шрифтів"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Звести анотації"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Піднабір шрифтів"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Видаліть анотації"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Видаліть недійсні закладки"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Видаліть закладки"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Видаліть недійсні посилання"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Видаліть вбудовані мініатюри сторінок"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Видаліть невикористані сторінки"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Видалити інформацію про документ"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Очищення словника імен"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Видалити вкладені файли"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Видаліть невикористані ресурси"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Видалити метадані"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Видаліть дублікати ресурсів"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Видалити інтерактивну форму"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Очищення потоків вмісту"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Видалення дерева структури"
+			},
+			"outputFilenameFormat": {
+				"text": "Ім'я вихідного файлу:"
+			},
+			"outputDocumentFormat": {
+				"text": "Формат вихідного документа:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Лінеалізований формат (швидкий веб-перегляд)"
+			},
+			"executeCompressionButton": {
+				"value": "Стиснути PDF"
+			},
+			"saveButton": {
+				"value": "зберегти"
+			},
+			"closeButton": {
+				"value": "Закрити"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Ім'я файлу:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Скасувати"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Повернути перегляд за годинниковою стрілкою"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Обернути вигляд проти годинникової стрілки"
+		},
+		"removeImagesButton": {
+			"text": "Видаліть зображення"
+		},
+		"moveImageUpButton": {
+			"text": "Перемістити зображення вгору"
+		},
+		"moveImageDownButton": {
+			"text": "Перемістити зображення вниз"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Завантажте та відкрийте файл",
 		"vsdv-uploadAndAddFileButton-addFileString": "Завантажити та додати файл",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Отримати закладки PDF",
-		"vsdv-textSearchPanel-pageLabel": "Сторінка",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Отримати ресурс зображення",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Сторінка",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Отримати закладки PDF",
+		"vsui-textSearchPanel-pageLabel": "Сторінка",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Отримати ресурс зображення",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Сторінка",
+		"vspe-openFile-addFileString": "Додати файл",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Зберегти зміни в документі PDF",
 		"vsdv-openFile-addFileString": "Додати файл",
 		"vsdv-openFile-authenticateFileString": "Автентифікувати файл",
 		"vsdv-downloadFile-actionMessage": "Завантажити файл",
 		"vsdv-saveChanges-saveChangesInImages": "Збережіть зміни в зображеннях",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Сторінка",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Збережіть зміни в анотаціях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Запис анотацій на зображеннях",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Зберегти зміни в документі PDF",
-		"vsdv-uploadFileButton-uploadFileString": "Завантажити файл",
-		"vsdv-documentPasswordDialog-title": "Пароль документа",
+		"vsui-documentPasswordDialog-title": "Пароль документа",
+		"vsui-dialog-okButton": "В порядку",
+		"vsui-dialog-cancelButton": "Скасувати",
+		"vsui-documentPasswordPanel-authenticateFileString": "Автентифікувати файл",
+		"vsui-imageSelectionDialog-title": "Виберіть зображення",
+		"vsui-imageSelectionDialog-currentImageString": "Поточне зображення",
+		"vsui-imageSelectionDialog-allImagesString": "Всі зображення",
+		"vsui-imageSelectionDialog-customImagesString": "Custom",
+		"vsui-printImagesDialog-title": "Друк зображень",
+		"vsui-printImagesPanel-imagePrintingString": "Зображення друкується",
+		"vsui-printImagesPanel-withAnnotationsLabel": "з анотаціями",
+		"vsui-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
+		"vsui-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "Зовнішній вигляд знака редагування PDF",
+		"vsui-pdfImageResourceDialog-title": "Ресурс зображень PDF",
+		"vsui-pdfImageResourcePanel-bytes": " байтів",
+		"vsui-pdfAConversionAndValidationDialog-title": "Перетворення PDF/A та перевірка",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Перетворити в PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Перевірте PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Закрити",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF компресор",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Стиснути PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "зберегти",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Закрити",
+		"vsui-jpegEncoderSettingsDialog-title": "Налаштування кодувальника JPEG",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Застосувати",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Закрити",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "Налаштування кодувальника JPEG2000",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Застосувати",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Закрити",
+		"vsui-jbig2EncoderSettingsDialog-title": "Налаштування кодера JBIG2",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Застосувати",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Закрити",
+		"vsui-exportFileSettingsDialog-title": "Параметри експорту файлу",
 		"vsdv-dialog-okButton": "В порядку",
-		"vsdv-dialog-cancelButton": "Скасувати",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Автентифікувати файл",
-		"vsdv-imageSelectionDialog-title": "Виберіть зображення",
-		"vsdv-imageSelectionDialog-currentImageString": "Поточне зображення",
-		"vsdv-imageSelectionDialog-allImagesString": "Всі зображення",
-		"vsdv-imageSelectionDialog-customImagesString": "Custom",
-		"vsdv-printImagesDialog-title": "Друк зображень",
-		"vsdv-printImagesPanel-imagePrintingString": "Зображення друкується",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "з анотаціями",
-		"vsdv-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
-		"vsdv-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Зовнішній вигляд знака редагування PDF",
-		"vsdv-pdfImageResourceDialog-title": "Ресурс зображень PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " байтів",
-		"vsdv-exportFileSettingsDialog-title": "Параметри експорту файлу",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "Параметри позначок редагування PDF"
+		"vsdv-dialog-cancelButton": "Скасувати"
 	}
 }

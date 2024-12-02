@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Fil"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Tøm øktbufferen"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A konvertering og validering"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF-kompressor"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Tilpass til bredde"
 		},
@@ -61,7 +67,7 @@
 			"title": "Tekstvalg"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Trekk ut bilder fra siden"
+			"title": "Trekk ut bilderessurser fra PDF-siden"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktive felt"
@@ -73,10 +79,10 @@
 			"title": "Marker området for redaksjon"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Merk hele sider for redigering"
+			"title": "Merk hele PDF-sider for redigering"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Fjern fokusert redaksjonsmerke"
+			"title": "Fjern fokusert PDF-redigeringsmerke"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "Utseende av PDF-redaksjonsmerke"
@@ -100,10 +106,7 @@
 			"title": "Søk etter tekst"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Trekk ut bilder"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Interaktive felt"
+			"title": "PDF-bilderessurser"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF-redaksjonsmerker"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Vis innholdsbilde"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Interaksjonsmodus:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Nei"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Vis"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Grupper felt etter sider"
-			},
-			"saveChangesButton": {
-				"value": "Lagre endringer"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Kan dra miniatyrbilder:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Kan navigere miniatyrbilder ved hjelp av tastatur:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Kan velge miniatyrbilder ved hjelp av tastaturet:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Kan slette miniatyrbilder ved hjelp av tastatur:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -646,6 +641,323 @@
 				"value": "OK"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A-format:"
+			},
+			"resultLabel": {
+				"text": "Resultat:"
+			},
+			"convertToPdfaButton": {
+				"value": "Konverter til PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Valider PDF/A"
+			},
+			"closeButton": {
+				"value": "Lukk"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Kvalitet:"
+			},
+			"grayscaleLabel": {
+				"text": "Gråtoner (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Søke om"
+			},
+			"closeButton": {
+				"value": "Lukk"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Bruk fliser"
+			},
+			"waveletTransformLabel": {
+				"text": "Wavelet-transformasjonen"
+			},
+			"levelLabel": {
+				"text": "Nivå"
+			},
+			"lossyLabel": {
+				"text": "Lossy"
+			},
+			"fileSizeLabel": {
+				"text": "Filstørrelse"
+			},
+			"kBytesLabel": {
+				"text": "KBytes"
+			},
+			"compressionRatioLabel": {
+				"text": "Kompresjonsforhold"
+			},
+			"applyButton": {
+				"value": "Søke om"
+			},
+			"closeButton": {
+				"value": "Lukk"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Bitmap-kodingsalgoritme"
+			},
+			"mqLabel": {
+				"text": "MQ (aritmetikk)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Symbolordbok"
+			},
+			"dictionarySizeLabel": {
+				"text": "Ordbokstørrelse"
+			},
+			"lossyLabel": {
+				"text": "Lossy"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Unøyaktighet prosent"
+			},
+			"applyButton": {
+				"value": "Søke om"
+			},
+			"closeButton": {
+				"value": "Lukk"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Ressurser"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Rydd opp / Kast"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Utdatadokumentformat"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Bilde reell fargedybdedeteksjon (reduser bildefargedybde)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Finn svart/hvitt-bilder"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Oppdag indekserte1 (bitonale) bilder"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Oppdag gråtonebilder"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Oppdag indekserte8 (256 farger) bilder"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Deteksjon Maksimal unøyaktighet"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(avstand i RGB-rom)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Fargebilder"
+				},
+				"checkbox-compression": {
+					"text": "Komprimering"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Innstillinger"
+				},
+				"checkbox-downscale": {
+					"text": "Nedskalere"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI for bildene ovenfor"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Gråtonebilder"
+				},
+				"checkbox-compression": {
+					"text": "Komprimering"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Innstillinger"
+				},
+				"checkbox-downscale": {
+					"text": "Nedskalere"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI for bildene ovenfor"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitonale bilder"
+				},
+				"checkbox-compression": {
+					"text": "Komprimering"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Innstillinger"
+				},
+				"checkbox-downscale": {
+					"text": "Nedskalere"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI for bildene ovenfor"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Bruk Flaze(Zip)-komprimering i stedet for LWZ-komprimering"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Bruk Flaze(Zip)-komprimering for ukomprimerte ressurser"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Rekomprimer alle ressurser som bruker Flate(ZIP)-komprimering ved å bruke maksimalt komprimeringsnivå"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Optimaliser skriftundersett"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Flate kommentarer"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Delsett fonter"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Fjern merknader"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Fjern ugyldige bokmerker"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Fjern bokmerker"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Fjern ugyldige linker"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Fjern innebygde sideminiatyrbilder"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Fjern ubrukte sider"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Fjern dokumentinformasjon"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Ordbok for oppryddingsnavn"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Fjern filvedlegg"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Fjern ubrukte ressurser"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Fjern metadata"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Fjern ressursduplikater"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Fjern interaktivt skjema"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Rydd opp innholdsstrømmer"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Fjern strukturtreet"
+			},
+			"outputFilenameFormat": {
+				"text": "Utdatafilnavn:"
+			},
+			"outputDocumentFormat": {
+				"text": "Utdatadokumentformat:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Linearisert format (Fast Web View)"
+			},
+			"executeCompressionButton": {
+				"value": "Komprimer PDF"
+			},
+			"saveButton": {
+				"value": "Spare"
+			},
+			"closeButton": {
+				"value": "Lukk"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Filnavn:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Avbryt"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Roter visningen med klokken"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Roter visningen mot klokken"
+		},
+		"removeImagesButton": {
+			"text": "Fjern bilder"
+		},
+		"moveImageUpButton": {
+			"text": "Flytt bildet opp"
+		},
+		"moveImageDownButton": {
+			"text": "Flytt bildet ned"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Last ned og åpne filen",
 		"vsdv-uploadAndAddFileButton-addFileString": "Last opp og legg til fil",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Få PDF-bokmerker",
-		"vsdv-textSearchPanel-pageLabel": "Side",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Få bilderessurs",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Side",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Få PDF-bokmerker",
+		"vsui-textSearchPanel-pageLabel": "Side",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Få bilderessurs",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Side",
+		"vspe-openFile-addFileString": "Legg til fil",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Lagre endringer i PDF-dokument",
 		"vsdv-openFile-addFileString": "Legg til fil",
 		"vsdv-openFile-authenticateFileString": "Autentiser filen",
 		"vsdv-downloadFile-actionMessage": "Last ned fil",
 		"vsdv-saveChanges-saveChangesInImages": "Lagre endringer i bilder",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Side",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Lagre endringer i merknader",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brenn merknader på bilder",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Lagre endringer i PDF-dokument",
-		"vsdv-uploadFileButton-uploadFileString": "Last opp fil",
-		"vsdv-documentPasswordDialog-title": "Dokumentpassord",
+		"vsui-documentPasswordDialog-title": "Dokumentpassord",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Avbryt",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentiser filen",
+		"vsui-imageSelectionDialog-title": "Velg bilder",
+		"vsui-imageSelectionDialog-currentImageString": "Gjeldende bilde",
+		"vsui-imageSelectionDialog-allImagesString": "Alle bilder",
+		"vsui-imageSelectionDialog-customImagesString": "Egendefinert",
+		"vsui-printImagesDialog-title": "Skriv ut bilder",
+		"vsui-printImagesPanel-imagePrintingString": "Bildet skrives ut",
+		"vsui-printImagesPanel-withAnnotationsLabel": "med merknader",
+		"vsui-imageViewerSettingsDialog-title": "Innstillinger for bildevisning",
+		"vsui-thumbnailViewerSettingDialog-title": "Innstillinger for miniatyrbildevisning",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis merknader på miniatyrbilder:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "Utseende av PDF-redaksjonsmerke",
+		"vsui-pdfImageResourceDialog-title": "PDF bilderessurs",
+		"vsui-pdfImageResourcePanel-bytes": " bytes",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A konvertering og validering",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Konverter til PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Valider PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Lukk",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF-kompressor",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Komprimer PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Spare",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Lukk",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG-koderinnstillinger",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Søke om",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Lukk",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000-koderinnstillinger",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Søke om",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Lukk",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2-koderinnstillinger",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Søke om",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Lukk",
+		"vsui-exportFileSettingsDialog-title": "Innstillingene for å eksportere filen",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Avbryt",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentiser filen",
-		"vsdv-imageSelectionDialog-title": "Velg bilder",
-		"vsdv-imageSelectionDialog-currentImageString": "Gjeldende bilde",
-		"vsdv-imageSelectionDialog-allImagesString": "Alle bilder",
-		"vsdv-imageSelectionDialog-customImagesString": "Egendefinert",
-		"vsdv-printImagesDialog-title": "Skriv ut bilder",
-		"vsdv-printImagesPanel-imagePrintingString": "Bildet skrives ut",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "med merknader",
-		"vsdv-imageViewerSettingsDialog-title": "Innstillinger for bildevisning",
-		"vsdv-thumbnailViewerSettingDialog-title": "Innstillinger for miniatyrbildevisning",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis merknader på miniatyrbilder:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Utseende av PDF-redaksjonsmerke",
-		"vsdv-pdfImageResourceDialog-title": "PDF bilderessurs",
-		"vsdv-pdfImageResourcePanel-bytes": " bytes",
-		"vsdv-exportFileSettingsDialog-title": "Innstillingene for å eksportere filen",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "Innstillinger for PDF-redaksjonsmerke"
+		"vsdv-dialog-cancelButton": "Avbryt"
 	}
 }

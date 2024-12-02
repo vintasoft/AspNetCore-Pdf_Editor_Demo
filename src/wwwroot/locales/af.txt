@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Lêer"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Vee sessiekas uit"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A-omskakeling en validering"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF kompressor"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Pas by breedte"
 		},
@@ -61,7 +67,7 @@
 			"title": "Teks Keuse"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Onttrek prente van bladsy"
+			"title": "Onttrek beeldbronne van PDF-bladsy"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktiewe velde"
@@ -73,10 +79,10 @@
 			"title": "Merk area vir redaksie"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Merk volle bladsye vir redaksie"
+			"title": "Merk volledige PDF-bladsye vir redaksie"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Verwyder gefokusde redaksiemerk"
+			"title": "Verwyder gefokusde PDF-redaksiemerk"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "PDF redaksie merk voorkoms"
@@ -100,10 +106,7 @@
 			"title": "Soek vir teks"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Onttrek beelde"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Interaktiewe velde"
+			"title": "PDF-beeldbronne"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF redaksie merke"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Wys inhoudprent"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Interaksiemodus:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Nee"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Bekyk"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Groepeer velde volgens bladsye"
-			},
-			"saveChangesButton": {
-				"value": "Stoor veranderinge"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Kan duimnaels sleep:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Kan deur kleinkiekies navigeer met sleutelbord:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Kan duimnaels met sleutelbord kies:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Kan duimnaels met sleutelbord uitvee:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -646,6 +641,323 @@
 				"value": "OK"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A-formaat:"
+			},
+			"resultLabel": {
+				"text": "Resultaat:"
+			},
+			"convertToPdfaButton": {
+				"value": "Skakel om na PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Bekragtig PDF/A"
+			},
+			"closeButton": {
+				"value": "Maak toe"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Kwaliteit:"
+			},
+			"grayscaleLabel": {
+				"text": "Grysskaal (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Doen aansoek"
+			},
+			"closeButton": {
+				"value": "Maak toe"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Gebruik teëls"
+			},
+			"waveletTransformLabel": {
+				"text": "Die golfie transformeer"
+			},
+			"levelLabel": {
+				"text": "Vlak"
+			},
+			"lossyLabel": {
+				"text": "Verlies"
+			},
+			"fileSizeLabel": {
+				"text": "Lêergrootte"
+			},
+			"kBytesLabel": {
+				"text": "KBytes"
+			},
+			"compressionRatioLabel": {
+				"text": "Kompressieverhouding"
+			},
+			"applyButton": {
+				"value": "Doen aansoek"
+			},
+			"closeButton": {
+				"value": "Maak toe"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Bitmap Enkodering Algoritme"
+			},
+			"mqLabel": {
+				"text": "MQ (Rekenkunde)"
+			},
+			"mmrLabel": {
+				"text": "Mnr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Simbool woordeboek"
+			},
+			"dictionarySizeLabel": {
+				"text": "Woordeboek grootte"
+			},
+			"lossyLabel": {
+				"text": "Verlies"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Onakkuraatheid persentasie"
+			},
+			"applyButton": {
+				"value": "Doen aansoek"
+			},
+			"closeButton": {
+				"value": "Maak toe"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Hulpbronne"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Maak skoon / gooi weg"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Uitvoer dokumentformaat"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Beeld werklike kleurdiepte-opsporing (Verminder beeldkleurdiepte)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Bespeur swart/wit prente"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Bespeur geïndekseerde1 (bitonale) prente"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Bespeur Grysskaal-prente"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Bespeur Indexed8 (256 kleure) prente"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Opsporing Maksimale onakkuraatheid"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(afstand in RGB-spasie)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Kleurbeelde"
+				},
+				"checkbox-compression": {
+					"text": "Kompressie"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "Looplengte"
+				},
+				"Zip": {
+					"text": "Rits"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Instellings"
+				},
+				"checkbox-downscale": {
+					"text": "Afskaal"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI vir beelde hierbo"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Grysskaal beelde"
+				},
+				"checkbox-compression": {
+					"text": "Kompressie"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "Looplengte"
+				},
+				"Zip": {
+					"text": "Rits"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Instellings"
+				},
+				"checkbox-downscale": {
+					"text": "Afskaal"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI vir beelde hierbo"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitonale beelde"
+				},
+				"checkbox-compression": {
+					"text": "Kompressie"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Instellings"
+				},
+				"checkbox-downscale": {
+					"text": "Afskaal"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI vir beelde hierbo"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Gebruik Flaze(Zip)-kompressie in plaas van LWZ-kompressie"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Gebruik Flaze(Zip)-kompressie vir ongecomprimeerde hulpbronne"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Herkomprimeer alle hulpbronne wat Flate (ZIP) kompressie gebruik deur maksimum kompressievlak te gebruik"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Optimaliseer lettertipe substelle"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Maak aantekeninge plat"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Subset fonts"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Verwyder aantekeninge"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Verwyder ongeldige boekmerke"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Verwyder boekmerke"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Verwyder ongeldige skakels"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Verwyder ingebedde bladsy-kleinkiekies"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Verwyder ongebruikte bladsye"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Verwyder dokumentinligting"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Opruimnaamwoordeboek"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Verwyder lêeraanhegsels"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Verwyder ongebruikte hulpbronne"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Verwyder metadata"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Verwyder hulpbronduplikate"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Verwyder interaktiewe vorm"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Maak inhoudstrome skoon"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Verwyder struktuurboom"
+			},
+			"outputFilenameFormat": {
+				"text": "Uitvoer lêernaam:"
+			},
+			"outputDocumentFormat": {
+				"text": "Uitset dokumentformaat:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Gelineariseerde formaat (vinnige webaansig)"
+			},
+			"executeCompressionButton": {
+				"value": "Druk PDF saam"
+			},
+			"saveButton": {
+				"value": "Stoor"
+			},
+			"closeButton": {
+				"value": "Maak toe"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Lêernaam:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Kanselleer"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Draai aansig kloksgewys"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Draai aansig antikloksgewys"
+		},
+		"removeImagesButton": {
+			"text": "Verwyder beelde"
+		},
+		"moveImageUpButton": {
+			"text": "Skuif prent op"
+		},
+		"moveImageDownButton": {
+			"text": "Skuif prent af"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Laai lêer af en maak oop",
 		"vsdv-uploadAndAddFileButton-addFileString": "Laai op en voeg lêer by",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Kry PDF-boekmerke",
-		"vsdv-textSearchPanel-pageLabel": "Bladsy",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Kry beeldhulpbron",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Bladsy",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Kry PDF-boekmerke",
+		"vsui-textSearchPanel-pageLabel": "Bladsy",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Kry beeldhulpbron",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Bladsy",
+		"vspe-openFile-addFileString": "Voeg lêer by",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Stoor veranderinge in PDF-dokument",
 		"vsdv-openFile-addFileString": "Voeg lêer by",
 		"vsdv-openFile-authenticateFileString": "Bevestig lêer",
 		"vsdv-downloadFile-actionMessage": "Aflaai leêr",
 		"vsdv-saveChanges-saveChangesInImages": "Stoor veranderinge in beelde",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Bladsy",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Stoor veranderinge in aantekeninge",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brand aantekeninge op beelde",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Stoor veranderinge in PDF-dokument",
-		"vsdv-uploadFileButton-uploadFileString": "Laai leêr op",
-		"vsdv-documentPasswordDialog-title": "Dokumentwagwoord",
+		"vsui-documentPasswordDialog-title": "Dokumentwagwoord",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Kanselleer",
+		"vsui-documentPasswordPanel-authenticateFileString": "Bevestig lêer",
+		"vsui-imageSelectionDialog-title": "Kies prente",
+		"vsui-imageSelectionDialog-currentImageString": "Huidige prent",
+		"vsui-imageSelectionDialog-allImagesString": "Alle beelde",
+		"vsui-imageSelectionDialog-customImagesString": "Gepasmaak",
+		"vsui-printImagesDialog-title": "Druk prente",
+		"vsui-printImagesPanel-imagePrintingString": "Prent word druk",
+		"vsui-printImagesPanel-withAnnotationsLabel": "met aantekeninge",
+		"vsui-imageViewerSettingsDialog-title": "Beeldkyker-instellings",
+		"vsui-thumbnailViewerSettingDialog-title": "Kleinkiekie-kyker-instellings",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vertoon aantekeninge op duimnaels:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "PDF redaksie merk voorkoms",
+		"vsui-pdfImageResourceDialog-title": "PDF beeld hulpbron",
+		"vsui-pdfImageResourcePanel-bytes": " grepe",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A-omskakeling en validering",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Skakel om na PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Bekragtig PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Maak toe",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF kompressor",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Druk PDF saam",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Stoor",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Maak toe",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG-enkodeerderinstellings",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Doen aansoek",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Maak toe",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 enkodeerder instellings",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Doen aansoek",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Maak toe",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 enkodeerder instellings",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Doen aansoek",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Maak toe",
+		"vsui-exportFileSettingsDialog-title": "Die instellings om lêer uit te voer",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Kanselleer",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Bevestig lêer",
-		"vsdv-imageSelectionDialog-title": "Kies prente",
-		"vsdv-imageSelectionDialog-currentImageString": "Huidige prent",
-		"vsdv-imageSelectionDialog-allImagesString": "Alle beelde",
-		"vsdv-imageSelectionDialog-customImagesString": "Gepasmaak",
-		"vsdv-printImagesDialog-title": "Druk prente",
-		"vsdv-printImagesPanel-imagePrintingString": "Prent word druk",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "met aantekeninge",
-		"vsdv-imageViewerSettingsDialog-title": "Beeldkyker-instellings",
-		"vsdv-thumbnailViewerSettingDialog-title": "Kleinkiekie-kyker-instellings",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vertoon aantekeninge op duimnaels:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF redaksie merk voorkoms",
-		"vsdv-pdfImageResourceDialog-title": "PDF beeld hulpbron",
-		"vsdv-pdfImageResourcePanel-bytes": " grepe",
-		"vsdv-exportFileSettingsDialog-title": "Die instellings om lêer uit te voer",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF redaksie merk instellings"
+		"vsdv-dialog-cancelButton": "Kanselleer"
 	}
 }

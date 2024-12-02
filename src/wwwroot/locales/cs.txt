@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Soubor"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Vymazat mezipaměť relace"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "Konverze a ověření PDF/A"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF kompresor"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Přizpůsobit šířce"
 		},
@@ -61,7 +67,7 @@
 			"title": "Výběr textu"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Extrahujte obrázky ze stránky"
+			"title": "Extrahujte zdroje obrázků ze stránky PDF"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktivní pole"
@@ -73,10 +79,10 @@
 			"title": "Označte oblast pro úpravu"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Označte celé stránky k úpravě"
+			"title": "Označte celé stránky PDF k úpravě"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Odstraňte zaměřenou značku redigování"
+			"title": "Odebrat zaměřenou značku redakce PDF"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "Vzhled značky redakce PDF"
@@ -100,10 +106,7 @@
 			"title": "Hledat text"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Extrahujte obrázky"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Interaktivní pole"
+			"title": "Zdroje obrázků ve formátu PDF"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Značky redakce PDF"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Zobrazit obrázek obsahu"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Režim interakce:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Ne"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Zobrazit"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Seskupte pole podle stránek"
-			},
-			"saveChangesButton": {
-				"value": "Uložit změny"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Může přetahovat miniatury:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Může procházet miniaturami pomocí klávesnice:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Lze vybrat miniatury pomocí klávesnice:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Může mazat miniatury pomocí klávesnice:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -646,6 +641,323 @@
 				"value": "OK"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "Formát PDF/A:"
+			},
+			"resultLabel": {
+				"text": "Výsledek:"
+			},
+			"convertToPdfaButton": {
+				"value": "Převést do PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Ověřte PDF/A"
+			},
+			"closeButton": {
+				"value": "Zavřít"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Kvalitní:"
+			},
+			"grayscaleLabel": {
+				"text": "Stupně šedi (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Aplikovat"
+			},
+			"closeButton": {
+				"value": "Zavřít"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Použijte dlaždice"
+			},
+			"waveletTransformLabel": {
+				"text": "Vlnková transformace"
+			},
+			"levelLabel": {
+				"text": "Úroveň"
+			},
+			"lossyLabel": {
+				"text": "Ztrátový"
+			},
+			"fileSizeLabel": {
+				"text": "Velikost souboru"
+			},
+			"kBytesLabel": {
+				"text": "kB"
+			},
+			"compressionRatioLabel": {
+				"text": "Kompresní poměr"
+			},
+			"applyButton": {
+				"value": "Aplikovat"
+			},
+			"closeButton": {
+				"value": "Zavřít"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Bitmapový kódovací algoritmus"
+			},
+			"mqLabel": {
+				"text": "MQ (aritmetika)"
+			},
+			"mmrLabel": {
+				"text": "MMR (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Slovník symbolů"
+			},
+			"dictionarySizeLabel": {
+				"text": "Velikost slovníku"
+			},
+			"lossyLabel": {
+				"text": "Ztrátový"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Procento nepřesnosti"
+			},
+			"applyButton": {
+				"value": "Aplikovat"
+			},
+			"closeButton": {
+				"value": "Zavřít"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Zdroje"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Vyčistit / zlikvidovat"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Výstupní formát dokumentu"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Detekce skutečné barevné hloubky obrazu (snížení barevné hloubky obrazu)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Detekce černobílého obrazu"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Detekce indexovaných1 (bitonálních) obrázků"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Detekce obrázků ve stupních šedi"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Detekce indexovaných8 (256 barev) obrázků"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Maximální nepřesnost detekce"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(vzdálenost v prostoru RGB)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Barevné obrázky"
+				},
+				"checkbox-compression": {
+					"text": "Komprese"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Nastavení"
+				},
+				"checkbox-downscale": {
+					"text": "Downscale"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI pro obrázky výše"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Obrázky ve stupních šedi"
+				},
+				"checkbox-compression": {
+					"text": "Komprese"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Nastavení"
+				},
+				"checkbox-downscale": {
+					"text": "Downscale"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI pro obrázky výše"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitonální obrazy"
+				},
+				"checkbox-compression": {
+					"text": "Komprese"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Nastavení"
+				},
+				"checkbox-downscale": {
+					"text": "Downscale"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI pro obrázky výše"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Místo komprese LWZ použijte kompresi Flaze(Zip)."
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Pro nekomprimované zdroje použijte kompresi Flaze(Zip)."
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Znovu zkomprimujte všechny zdroje, které používají kompresi Flate (ZIP) pomocí maximální úrovně komprese"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Optimalizujte podmnožiny písem"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Zploštit anotace"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Podmnožina písem"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Odebrat anotace"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Odstraňte neplatné záložky"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Odstraňte záložky"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Odstraňte neplatné odkazy"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Odstraňte vložené miniatury stránek"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Odstraňte nepoužívané stránky"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Odstraňte informace o dokumentu"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Čištění slovník jmen"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Odstraňte přílohy souborů"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Odstraňte nepoužívané zdroje"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Odebrat metadata"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Odstraňte duplicitní zdroje"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Odebrat interaktivní formulář"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Vyčištění streamů obsahu"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Odstraňte strom struktury"
+			},
+			"outputFilenameFormat": {
+				"text": "Název výstupního souboru:"
+			},
+			"outputDocumentFormat": {
+				"text": "Výstupní formát dokumentu:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2,0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Linearizovaný formát (Fast Web View)"
+			},
+			"executeCompressionButton": {
+				"value": "Komprimovat PDF"
+			},
+			"saveButton": {
+				"value": "Uložit"
+			},
+			"closeButton": {
+				"value": "Zavřít"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Název souboru:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Zrušit"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Otočit pohled ve směru hodinových ručiček"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Otočit pohled proti směru hodinových ručiček"
+		},
+		"removeImagesButton": {
+			"text": "Odebrat obrázky"
+		},
+		"moveImageUpButton": {
+			"text": "Posuňte obrázek nahoru"
+		},
+		"moveImageDownButton": {
+			"text": "Posuňte obrázek dolů"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Stáhněte a otevřete soubor",
 		"vsdv-uploadAndAddFileButton-addFileString": "Nahrajte a přidejte soubor",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Získejte záložky PDF",
-		"vsdv-textSearchPanel-pageLabel": "Stránka",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Získejte zdroj obrázku",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Stránka",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Získejte záložky PDF",
+		"vsui-textSearchPanel-pageLabel": "Stránka",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Získejte zdroj obrázku",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Stránka",
+		"vspe-openFile-addFileString": "Přidat soubor",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Uložte změny do dokumentu PDF",
 		"vsdv-openFile-addFileString": "Přidat soubor",
 		"vsdv-openFile-authenticateFileString": "Ověření souboru",
 		"vsdv-downloadFile-actionMessage": "Stáhnout soubor",
 		"vsdv-saveChanges-saveChangesInImages": "Uložte změny v obrázcích",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Stránka",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Uložte změny v anotacích",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Vypálit poznámky na obrázky",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Uložte změny do dokumentu PDF",
-		"vsdv-uploadFileButton-uploadFileString": "Nahrát soubor",
-		"vsdv-documentPasswordDialog-title": "Heslo dokumentu",
+		"vsui-documentPasswordDialog-title": "Heslo dokumentu",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Zrušit",
+		"vsui-documentPasswordPanel-authenticateFileString": "Ověření souboru",
+		"vsui-imageSelectionDialog-title": "Vyberte obrázky",
+		"vsui-imageSelectionDialog-currentImageString": "Aktuální obrázek",
+		"vsui-imageSelectionDialog-allImagesString": "Všechny obrázky",
+		"vsui-imageSelectionDialog-customImagesString": "Vlastní",
+		"vsui-printImagesDialog-title": "Tisk obrázků",
+		"vsui-printImagesPanel-imagePrintingString": "Obrázek se tiskne",
+		"vsui-printImagesPanel-withAnnotationsLabel": "s poznámkami",
+		"vsui-imageViewerSettingsDialog-title": "Nastavení prohlížeče obrázků",
+		"vsui-thumbnailViewerSettingDialog-title": "Nastavení prohlížeče miniatur",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobrazení poznámek na miniaturách:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "Vzhled značky redakce PDF",
+		"vsui-pdfImageResourceDialog-title": "Zdroj obrázku ve formátu PDF",
+		"vsui-pdfImageResourcePanel-bytes": " bajtů",
+		"vsui-pdfAConversionAndValidationDialog-title": "Konverze a ověření PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Převést do PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Ověřte PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Zavřít",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF kompresor",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Komprimovat PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Uložit",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Zavřít",
+		"vsui-jpegEncoderSettingsDialog-title": "Nastavení kodéru JPEG",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Aplikovat",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Zavřít",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "Nastavení kodéru JPEG2000",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Aplikovat",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Zavřít",
+		"vsui-jbig2EncoderSettingsDialog-title": "Nastavení kodéru JBIG2",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Aplikovat",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Zavřít",
+		"vsui-exportFileSettingsDialog-title": "Nastavení pro export souboru",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Zrušit",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Ověření souboru",
-		"vsdv-imageSelectionDialog-title": "Vyberte obrázky",
-		"vsdv-imageSelectionDialog-currentImageString": "Aktuální obrázek",
-		"vsdv-imageSelectionDialog-allImagesString": "Všechny obrázky",
-		"vsdv-imageSelectionDialog-customImagesString": "Vlastní",
-		"vsdv-printImagesDialog-title": "Tisk obrázků",
-		"vsdv-printImagesPanel-imagePrintingString": "Obrázek se tiskne",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "s poznámkami",
-		"vsdv-imageViewerSettingsDialog-title": "Nastavení prohlížeče obrázků",
-		"vsdv-thumbnailViewerSettingDialog-title": "Nastavení prohlížeče miniatur",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobrazení poznámek na miniaturách:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Vzhled značky redakce PDF",
-		"vsdv-pdfImageResourceDialog-title": "Zdroj obrázku ve formátu PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " bajtů",
-		"vsdv-exportFileSettingsDialog-title": "Nastavení pro export souboru",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "Nastavení značky redakce PDF"
+		"vsdv-dialog-cancelButton": "Zrušit"
 	}
 }

@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "फ़ाइल"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "सत्र कैश साफ़ करें"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A रूपांतरण और सत्यापन"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF कंप्रेसर"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "चौड़ाई के अनुरूप"
 		},
@@ -61,7 +67,7 @@
 			"title": "पाठ चयन"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "पृष्ठ से छवियाँ निकालें"
+			"title": "PDF पेज से इमेज-रिसोर्स निकालें"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "इंटरैक्टिव फ़ील्ड"
@@ -73,10 +79,10 @@
 			"title": "संशोधन के लिए क्षेत्र चिह्नित करें"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "संपादन के लिए पूरे पृष्ठों को चिह्नित करें"
+			"title": "संपादन के लिए पूर्ण PDF पेज चिह्नित करें"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "फोकस्ड रिडक्शन मार्क हटाएं"
+			"title": "फ़ोकस किए गए PDF संपादन चिह्न को हटाएँ"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "पीडीएफ रिडक्शन मार्क उपस्थिति"
@@ -100,10 +106,7 @@
 			"title": "पाठ खोजें"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "छवियाँ निकालें"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "इंटरैक्टिव फ़ील्ड"
+			"title": "PDF इमेज-रिसोर्स"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "पीडीएफ संशोधन चिह्न"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "सामग्री छवि दिखाएँ"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "इंटरेक्शन मोड:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "नहीं"
-			},
-			"viewInteractionModeLabel": {
-				"text": "देखें"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "फ़ील्ड को पृष्ठों के अनुसार समूहित करें"
-			},
-			"saveChangesButton": {
-				"value": "परिवर्तनों को सुरक्षित करें"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "थंबनेल खींच सकते हैं:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "कीबोर्ड का उपयोग करके थंबनेल नेविगेट कर सकते हैं:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "कीबोर्ड का उपयोग करके थंबनेल चुन सकते हैं:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "कीबोर्ड का उपयोग करके थंबनेल हटा सकते हैं:"
+			},
 			"okButton": {
 				"value": "ठीक है"
 			},
@@ -646,6 +641,323 @@
 				"value": "ठीक है"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A फ़ॉर्मेट:"
+			},
+			"resultLabel": {
+				"text": "परिणाम:"
+			},
+			"convertToPdfaButton": {
+				"value": "PDF/A में कनवर्ट करें"
+			},
+			"validatePdfaButton": {
+				"value": "PDF/A सत्यापित करें"
+			},
+			"closeButton": {
+				"value": "बंद करें"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "गुणवत्ता:"
+			},
+			"grayscaleLabel": {
+				"text": "ग्रेस्केल (8 bpp)"
+			},
+			"applyButton": {
+				"value": "आवेदन करना"
+			},
+			"closeButton": {
+				"value": "बंद करें"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "टाइल्स का उपयोग करें"
+			},
+			"waveletTransformLabel": {
+				"text": "वेवलेट ट्रांसफ़ॉर्म"
+			},
+			"levelLabel": {
+				"text": "स्तर"
+			},
+			"lossyLabel": {
+				"text": "हानिपूर्ण"
+			},
+			"fileSizeLabel": {
+				"text": "फ़ाइल साइज़"
+			},
+			"kBytesLabel": {
+				"text": "KBytes"
+			},
+			"compressionRatioLabel": {
+				"text": "संपीड़न अनुपात"
+			},
+			"applyButton": {
+				"value": "आवेदन करना"
+			},
+			"closeButton": {
+				"value": "बंद करें"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "बिटमैप एन्कोडिंग एल्गोरिथम"
+			},
+			"mqLabel": {
+				"text": "MQ (अंकगणित)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "प्रतीक शब्दकोश"
+			},
+			"dictionarySizeLabel": {
+				"text": "शब्दकोश आकार"
+			},
+			"lossyLabel": {
+				"text": "हानिपूर्ण"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "अशुद्धि प्रतिशत"
+			},
+			"applyButton": {
+				"value": "आवेदन करना"
+			},
+			"closeButton": {
+				"value": "बंद करें"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "संसाधन"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "सफाई करें / त्यागें"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "आउटपुट दस्तावेज़ फ़ॉर्मेट"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "इमेज रियल कलर डेप्थ डिटेक्शन (इमेज कलर डेप्थ कम करें)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "ब्लैक/व्हाइट इमेज का पता लगाएँ"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "इंडेक्स्ड1 (बिटोनल) इमेज का पता लगाएँ"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "ग्रेस्केल इमेज का पता लगाएँ"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "इंडेक्स्ड8 (256 रंग) इमेज का पता लगाएँ"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "डिटेक्शन अधिकतम अशुद्धि"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(RGB स्पेस में दूरी)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "रंगीन छवियाँ"
+				},
+				"checkbox-compression": {
+					"text": "संपीड़न"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "समायोजन"
+				},
+				"checkbox-downscale": {
+					"text": "डाउनस्केल"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "ऊपर की छवियों के लिए DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "ग्रेस्केल छवियाँ"
+				},
+				"checkbox-compression": {
+					"text": "संपीड़न"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "समायोजन"
+				},
+				"checkbox-downscale": {
+					"text": "डाउनस्केल"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "ऊपर की छवियों के लिए DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitonal छवियाँ"
+				},
+				"checkbox-compression": {
+					"text": "संपीड़न"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "समायोजन"
+				},
+				"checkbox-downscale": {
+					"text": "डाउनस्केल"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "ऊपर की छवियों के लिए DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "LWZ संपीड़न के बजाय Flaze(Zip) संपीड़न का उपयोग करें"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "असंपीड़ित संसाधनों के लिए Flaze(Zip) संपीड़न का उपयोग करें"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "अधिकतम संपीड़न स्तर का उपयोग करके Flate(ZIP) संपीड़न का उपयोग करने वाले सभी संसाधनों को पुनः संपीड़ित करें"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "फ़ॉन्ट सबसेट को अनुकूलित करें"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "एनोटेशन को समतल करें"
+			},
+			"checkbox-subsetFonts": {
+				"text": "फ़ॉन्ट के सबसेट को जोड़ें"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "एनोटेशन को हटाएं"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "अमान्य बुकमार्क हटाएं"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "बुकमार्क हटाएं"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "अमान्य लिंक हटाएं"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "एम्बेड किए गए पेज थंबनेल हटाएं"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "अप्रयुक्त पेज हटाएं"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "दस्तावेज़ जानकारी हटाएं"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "नाम शब्दकोश साफ़ करें"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "फ़ाइल अनुलग्नक हटाएं"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "अप्रयुक्त संसाधन हटाएं"
+			},
+			"checkbox-removeMetadata": {
+				"text": "मेटाडेटा हटाएं"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "संसाधन डुप्लिकेट हटाएं"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "इंटरैक्टिव फ़ॉर्म हटाएं"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "सफाई सामग्री स्ट्रीम"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "संरचना वृक्ष निकालें"
+			},
+			"outputFilenameFormat": {
+				"text": "आउटपुट फ़ाइल नाम:"
+			},
+			"outputDocumentFormat": {
+				"text": "आउटपुट दस्तावेज़ प्रारूप:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "रैखिक प्रारूप (फास्ट वेब व्यू)"
+			},
+			"executeCompressionButton": {
+				"value": "पीडीएफ संपीड़ित करें"
+			},
+			"saveButton": {
+				"value": "सहेजें"
+			},
+			"closeButton": {
+				"value": "बंद करें"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "फ़ाइल का नाम:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "रद्द करें"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "दृश्य को दक्षिणावर्त घुमाएँ"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "दृश्य को वामावर्त घुमाएँ"
+		},
+		"removeImagesButton": {
+			"text": "छवियाँ हटाएँ"
+		},
+		"moveImageUpButton": {
+			"text": "छवि को ऊपर ले जाएं"
+		},
+		"moveImageDownButton": {
+			"text": "छवि को नीचे ले जाएँ"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "फ़ाइल डाउनलोड करें और खोलें",
 		"vsdv-uploadAndAddFileButton-addFileString": "फ़ाइल अपलोड करें और जोड़ें",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "पीडीएफ बुकमार्क प्राप्त करें",
-		"vsdv-textSearchPanel-pageLabel": "पेज",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "छवि संसाधन प्राप्त करें",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "पेज",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "पीडीएफ बुकमार्क प्राप्त करें",
+		"vsui-textSearchPanel-pageLabel": "पेज",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "छवि संसाधन प्राप्त करें",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "पेज",
+		"vspe-openFile-addFileString": "फ़ाइल जोड़ें",
+		"vspe-saveChanges-saveChangesInPdfDocument": "पीडीएफ दस्तावेज़ में परिवर्तन सहेजें",
 		"vsdv-openFile-addFileString": "फ़ाइल जोड़ें",
 		"vsdv-openFile-authenticateFileString": "फ़ाइल प्रमाणित करें",
 		"vsdv-downloadFile-actionMessage": "डाउनलोड फ़ाइल",
 		"vsdv-saveChanges-saveChangesInImages": "छवियों में परिवर्तन सहेजें",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "पेज",
 		"vsdv-saveChanges-saveChangesInAnnotations": "एनोटेशन में परिवर्तन सहेजें",
 		"vsdv-saveChanges-burnAnnotationsInImages": "छवियों पर एनोटेशन जलाएँ",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "पीडीएफ दस्तावेज़ में परिवर्तन सहेजें",
-		"vsdv-uploadFileButton-uploadFileString": "फ़ाइल अपलोड करें",
-		"vsdv-documentPasswordDialog-title": "दस्तावेज़ पासवर्ड",
+		"vsui-documentPasswordDialog-title": "दस्तावेज़ पासवर्ड",
+		"vsui-dialog-okButton": "ठीक है",
+		"vsui-dialog-cancelButton": "रद्द करें",
+		"vsui-documentPasswordPanel-authenticateFileString": "फ़ाइल प्रमाणित करें",
+		"vsui-imageSelectionDialog-title": "छवियां चुनें",
+		"vsui-imageSelectionDialog-currentImageString": "वर्तमान छवि",
+		"vsui-imageSelectionDialog-allImagesString": "सभी छवियाँ",
+		"vsui-imageSelectionDialog-customImagesString": "कस्टम",
+		"vsui-printImagesDialog-title": "छवियाँ मुद्रित करें",
+		"vsui-printImagesPanel-imagePrintingString": "छवि मुद्रित हो रही है",
+		"vsui-printImagesPanel-withAnnotationsLabel": "एनोटेशन के साथ",
+		"vsui-imageViewerSettingsDialog-title": "छवि दर्शक सेटिंग्स",
+		"vsui-thumbnailViewerSettingDialog-title": "थंबनेल व्यूअर सेटिंग्स",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "थंबनेल पर एनोटेशन प्रदर्शित करें:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "पीडीएफ रिडक्शन मार्क उपस्थिति",
+		"vsui-pdfImageResourceDialog-title": "पीडीएफ छवि संसाधन",
+		"vsui-pdfImageResourcePanel-bytes": " बाइट्स",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A रूपांतरण और सत्यापन",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "PDF/A में कनवर्ट करें",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "PDF/A सत्यापित करें",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "बंद करें",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF कंप्रेसर",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "पीडीएफ संपीड़ित करें",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "सहेजें",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "बंद करें",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG एनकोडर सेटिंग्स",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "आवेदन करना",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "बंद करें",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 एनकोडर सेटिंग्स",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "आवेदन करना",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "बंद करें",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 एनकोडर सेटिंग्स",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "आवेदन करना",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "बंद करें",
+		"vsui-exportFileSettingsDialog-title": "फ़ाइल निर्यात करने की सेटिंग",
 		"vsdv-dialog-okButton": "ठीक है",
-		"vsdv-dialog-cancelButton": "रद्द करें",
-		"vsdv-documentPasswordPanel-authenticateFileString": "फ़ाइल प्रमाणित करें",
-		"vsdv-imageSelectionDialog-title": "छवियां चुनें",
-		"vsdv-imageSelectionDialog-currentImageString": "वर्तमान छवि",
-		"vsdv-imageSelectionDialog-allImagesString": "सभी छवियाँ",
-		"vsdv-imageSelectionDialog-customImagesString": "कस्टम",
-		"vsdv-printImagesDialog-title": "छवियाँ मुद्रित करें",
-		"vsdv-printImagesPanel-imagePrintingString": "छवि मुद्रित हो रही है",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "एनोटेशन के साथ",
-		"vsdv-imageViewerSettingsDialog-title": "छवि दर्शक सेटिंग्स",
-		"vsdv-thumbnailViewerSettingDialog-title": "थंबनेल व्यूअर सेटिंग्स",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "थंबनेल पर एनोटेशन प्रदर्शित करें:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "पीडीएफ रिडक्शन मार्क उपस्थिति",
-		"vsdv-pdfImageResourceDialog-title": "पीडीएफ छवि संसाधन",
-		"vsdv-pdfImageResourcePanel-bytes": " बाइट्स",
-		"vsdv-exportFileSettingsDialog-title": "फ़ाइल निर्यात करने की सेटिंग",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "पीडीएफ रिडक्शन मार्क सेटिंग्स"
+		"vsdv-dialog-cancelButton": "रद्द करें"
 	}
 }

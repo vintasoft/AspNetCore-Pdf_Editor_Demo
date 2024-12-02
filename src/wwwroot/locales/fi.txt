@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Tiedosto"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Tyhjennä istunnon välimuisti"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A-muunnos ja validointi"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF kompressori"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Sovita leveyteen"
 		},
@@ -61,7 +67,7 @@
 			"title": "Tekstin valinta"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Poimi kuvat sivulta"
+			"title": "Pura kuvaresurssit PDF-sivulta"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktiiviset kentät"
@@ -73,10 +79,10 @@
 			"title": "Merkitse muokkausalue"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Merkitse kokonaiset sivut editoitavaksi"
+			"title": "Merkitse kokonaiset PDF-sivut muokattaviksi"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Poista tarkennettu muokkausmerkki"
+			"title": "Poista kohdistettu PDF-muokkausmerkki"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "PDF-muokkausmerkin ulkonäkö"
@@ -100,10 +106,7 @@
 			"title": "Etsi tekstiä"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Pura kuvat"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Interaktiiviset kentät"
+			"title": "PDF-kuvaresurssit"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF-muokkausmerkit"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Näytä sisältökuva"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Vuorovaikutustila:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Ei"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Näytä"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Ryhmittele kentät sivujen mukaan"
-			},
-			"saveChangesButton": {
-				"value": "Tallenna muutokset"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Voi vetää pikkukuvia:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Pystyy navigoimaan pikkukuvissa näppäimistöllä:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Voi valita pikkukuvia näppäimistöllä:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Voiko pikkukuvia poistaa näppäimistöllä:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -646,6 +641,323 @@
 				"value": "OK"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A-muoto:"
+			},
+			"resultLabel": {
+				"text": "Tulos:"
+			},
+			"convertToPdfaButton": {
+				"value": "Muunna PDF/A:ksi"
+			},
+			"validatePdfaButton": {
+				"value": "Vahvista PDF/A"
+			},
+			"closeButton": {
+				"value": "Sulje"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Laatu:"
+			},
+			"grayscaleLabel": {
+				"text": "Harmaasävy (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Käytä"
+			},
+			"closeButton": {
+				"value": "Sulje"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Käytä laattoja"
+			},
+			"waveletTransformLabel": {
+				"text": "Aallokemuunnos"
+			},
+			"levelLabel": {
+				"text": "Taso"
+			},
+			"lossyLabel": {
+				"text": "Tappiollinen"
+			},
+			"fileSizeLabel": {
+				"text": "Tiedoston koko"
+			},
+			"kBytesLabel": {
+				"text": "kilotavua"
+			},
+			"compressionRatioLabel": {
+				"text": "Puristussuhde"
+			},
+			"applyButton": {
+				"value": "Käytä"
+			},
+			"closeButton": {
+				"value": "Sulje"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Bittikarttakoodausalgoritmi"
+			},
+			"mqLabel": {
+				"text": "MQ (aritmeettinen)"
+			},
+			"mmrLabel": {
+				"text": "herra (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Symbolien sanakirja"
+			},
+			"dictionarySizeLabel": {
+				"text": "Sanakirjan koko"
+			},
+			"lossyLabel": {
+				"text": "Tappiollinen"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Epätarkkuus prosenttia"
+			},
+			"applyButton": {
+				"value": "Käytä"
+			},
+			"closeButton": {
+				"value": "Sulje"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Resurssit"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Puhdista / Hävitä"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Tulostusasiakirjan muoto"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Kuvan oikean värin syvyyden tunnistus (vähennä kuvan värisyvyyttä)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Tunnista mustat/valkoiset kuvat"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Tunnista indeksoidut 1 (bitonaaliset) kuvat"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Tunnista harmaasävykuvat"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Tunnista indeksoidut8 (256 väriä) kuvat"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Havaitsemisen maksimaalinen epätarkkuus"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(etäisyys RGB-tilassa)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Värilliset kuvat"
+				},
+				"checkbox-compression": {
+					"text": "Puristus"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Postinumero"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg 2000"
+				},
+				"settingsButton": {
+					"value": "asetukset"
+				},
+				"checkbox-downscale": {
+					"text": "Pienennä skaalaus"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI yllä oleville kuville"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Harmaasävyt kuvat"
+				},
+				"checkbox-compression": {
+					"text": "Puristus"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Postinumero"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg 2000"
+				},
+				"settingsButton": {
+					"value": "asetukset"
+				},
+				"checkbox-downscale": {
+					"text": "Pienennä skaalaus"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI yllä oleville kuville"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Bitonaaliset kuvat"
+				},
+				"checkbox-compression": {
+					"text": "Puristus"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "asetukset"
+				},
+				"checkbox-downscale": {
+					"text": "Pienennä skaalaus"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI yllä oleville kuville"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Käytä Flaze(Zip)-pakkausta LWZ-pakkauksen sijaan"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Käytä Flaze(Zip)-pakkausta pakkaamattomille resursseille"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Pakkaa uudelleen kaikki Flate(ZIP)-pakkausta käyttävät resurssit käyttämällä enimmäispakkaustasoa"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Optimoi kirjasinten osajoukot"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Tasoita huomautuksia"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Osajoukon fontit"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Poista merkinnät"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Poista virheelliset kirjanmerkit"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Poista kirjanmerkit"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Poista virheelliset linkit"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Poista upotetut sivun pikkukuvat"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Poista käyttämättömät sivut"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Poista asiakirjan tiedot"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Puhdistusnimisanakirja"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Poista liitetiedostot"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Poista käyttämättömät resurssit"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Poista metatiedot"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Poista resurssien kaksoiskappaleet"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Poista interaktiivinen lomake"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Siivoa sisältövirrat"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Poista rakennepuu"
+			},
+			"outputFilenameFormat": {
+				"text": "Tulostustiedoston nimi:"
+			},
+			"outputDocumentFormat": {
+				"text": "Tulostusasiakirjan muoto:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Linearisoitu muoto (Fast Web View)"
+			},
+			"executeCompressionButton": {
+				"value": "Pakkaa PDF"
+			},
+			"saveButton": {
+				"value": "Tallentaa"
+			},
+			"closeButton": {
+				"value": "Sulje"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Tiedoston nimi:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Peruuta"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Kierrä näkymää myötäpäivään"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Kierrä näkymää vastapäivään"
+		},
+		"removeImagesButton": {
+			"text": "Poista kuvat"
+		},
+		"moveImageUpButton": {
+			"text": "Siirrä kuvaa ylöspäin"
+		},
+		"moveImageDownButton": {
+			"text": "Siirrä kuvaa alas"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Lataa ja avaa tiedosto",
 		"vsdv-uploadAndAddFileButton-addFileString": "Lataa ja lisää tiedosto",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Hanki PDF-kirjanmerkit",
-		"vsdv-textSearchPanel-pageLabel": "Sivu",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Hanki kuvaresurssi",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Sivu",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Hanki PDF-kirjanmerkit",
+		"vsui-textSearchPanel-pageLabel": "Sivu",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Hanki kuvaresurssi",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sivu",
+		"vspe-openFile-addFileString": "Lisää tiedosto",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Tallenna muutokset PDF-dokumenttiin",
 		"vsdv-openFile-addFileString": "Lisää tiedosto",
 		"vsdv-openFile-authenticateFileString": "Todenna tiedosto",
 		"vsdv-downloadFile-actionMessage": "Lataa tiedosto",
 		"vsdv-saveChanges-saveChangesInImages": "Tallenna muutokset kuviin",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Sivu",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Tallenna muutokset huomautuksiin",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Polta kommentteja kuviin",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Tallenna muutokset PDF-dokumenttiin",
-		"vsdv-uploadFileButton-uploadFileString": "Lataa tiedosto",
-		"vsdv-documentPasswordDialog-title": "Asiakirjan salasana",
+		"vsui-documentPasswordDialog-title": "Asiakirjan salasana",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Peruuta",
+		"vsui-documentPasswordPanel-authenticateFileString": "Todenna tiedosto",
+		"vsui-imageSelectionDialog-title": "Valitse kuvat",
+		"vsui-imageSelectionDialog-currentImageString": "Nykyinen kuva",
+		"vsui-imageSelectionDialog-allImagesString": "Kaikki kuvat",
+		"vsui-imageSelectionDialog-customImagesString": "Mukautettu",
+		"vsui-printImagesDialog-title": "Tulosta kuvat",
+		"vsui-printImagesPanel-imagePrintingString": "Kuva tulostuu",
+		"vsui-printImagesPanel-withAnnotationsLabel": "huomautuksilla",
+		"vsui-imageViewerSettingsDialog-title": "Kuvankatseluohjelman asetukset",
+		"vsui-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "PDF-muokkausmerkin ulkonäkö",
+		"vsui-pdfImageResourceDialog-title": "PDF-kuvaresurssi",
+		"vsui-pdfImageResourcePanel-bytes": " tavua",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A-muunnos ja validointi",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Muunna PDF/A:ksi",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Vahvista PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Sulje",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF kompressori",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Pakkaa PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Tallentaa",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Sulje",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG-kooderin asetukset",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Käytä",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Sulje",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 kooderin asetukset",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Käytä",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Sulje",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2-enkooderin asetukset",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Käytä",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Sulje",
+		"vsui-exportFileSettingsDialog-title": "Tiedoston vientiasetukset",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Peruuta",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Todenna tiedosto",
-		"vsdv-imageSelectionDialog-title": "Valitse kuvat",
-		"vsdv-imageSelectionDialog-currentImageString": "Nykyinen kuva",
-		"vsdv-imageSelectionDialog-allImagesString": "Kaikki kuvat",
-		"vsdv-imageSelectionDialog-customImagesString": "Mukautettu",
-		"vsdv-printImagesDialog-title": "Tulosta kuvat",
-		"vsdv-printImagesPanel-imagePrintingString": "Kuva tulostuu",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "huomautuksilla",
-		"vsdv-imageViewerSettingsDialog-title": "Kuvankatseluohjelman asetukset",
-		"vsdv-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF-muokkausmerkin ulkonäkö",
-		"vsdv-pdfImageResourceDialog-title": "PDF-kuvaresurssi",
-		"vsdv-pdfImageResourcePanel-bytes": " tavua",
-		"vsdv-exportFileSettingsDialog-title": "Tiedoston vientiasetukset",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF-muokkausmerkin asetukset"
+		"vsdv-dialog-cancelButton": "Peruuta"
 	}
 }

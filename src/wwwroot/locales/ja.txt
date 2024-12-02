@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "ファイル"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "セッションキャッシュをクリアする"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A 変換と検証"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF 圧縮"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "幅に合わせる"
 		},
@@ -61,7 +67,7 @@
 			"title": "テキストの選択"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "ページから画像を抽出する"
+			"title": "PDF ページから画像リソースを抽出"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "インタラクティブなフィールド"
@@ -73,10 +79,10 @@
 			"title": "編集対象の領域にマークを付ける"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "全ページを編集対象としてマークする"
+			"title": "PDF ページ全体を編集対象としてマーク"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "フォーカスされた墨消しマークを削除する"
+			"title": "フォーカスされた PDF 編集マークを削除"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "PDF 墨消しマークの表示"
@@ -100,10 +106,7 @@
 			"title": "テキストを検索"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "画像の抽出"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "インタラクティブなフィールド"
+			"title": "PDF 画像リソース"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF 墨消しマーク"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "コンテンツ画像を表示"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "インタラクションモード:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "いいえ"
-			},
-			"viewInteractionModeLabel": {
-				"text": "表示"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "フィールドをページごとにグループ化する"
-			},
-			"saveChangesButton": {
-				"value": "変更内容を保存"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "サムネイルをドラッグできます:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "キーボードを使用してサムネイルをナビゲートできます:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "キーボードを使用してサムネイルを選択できます:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "キーボードを使用してサムネイルを削除できます:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -646,6 +641,323 @@
 				"value": "OK"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A 形式:"
+			},
+			"resultLabel": {
+				"text": "結果:"
+			},
+			"convertToPdfaButton": {
+				"value": "PDF/A に変換"
+			},
+			"validatePdfaButton": {
+				"value": "PDF/A を検証"
+			},
+			"closeButton": {
+				"value": "閉じる"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "品質:"
+			},
+			"grayscaleLabel": {
+				"text": "グレースケール (8 bpp)"
+			},
+			"applyButton": {
+				"value": "適用する"
+			},
+			"closeButton": {
+				"value": "閉じる"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "タイルを使用"
+			},
+			"waveletTransformLabel": {
+				"text": "ウェーブレット変換"
+			},
+			"levelLabel": {
+				"text": "レベル"
+			},
+			"lossyLabel": {
+				"text": "非可逆"
+			},
+			"fileSizeLabel": {
+				"text": "ファイル サイズ"
+			},
+			"kBytesLabel": {
+				"text": "KBytes"
+			},
+			"compressionRatioLabel": {
+				"text": "圧縮率"
+			},
+			"applyButton": {
+				"value": "適用する"
+			},
+			"closeButton": {
+				"value": "閉じる"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "ビットマップ エンコーディング アルゴリズム"
+			},
+			"mqLabel": {
+				"text": "MQ (算術)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "シンボル ディクショナリ"
+			},
+			"dictionarySizeLabel": {
+				"text": "ディクショナリ サイズ"
+			},
+			"lossyLabel": {
+				"text": "非可逆"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "不正確さのパーセント"
+			},
+			"applyButton": {
+				"value": "適用する"
+			},
+			"closeButton": {
+				"value": "閉じる"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "リソース"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "クリーンアップ/破棄"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "出力ドキュメント形式"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "画像の実際の色深度の検出 (画像の色深度の削減)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "白黒画像の検出"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "インデックス 1 (2 色) 画像の検出"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "グレースケール画像の検出"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "インデックス 8 (256 色) 画像の検出"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "最大不正確さの検出"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(RGB の距離)スペース)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "カラー画像"
+				},
+				"checkbox-compression": {
+					"text": "圧縮"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "ランレングス"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "設定"
+				},
+				"checkbox-downscale": {
+					"text": "ダウンスケール"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "上記の画像の DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "グレースケール画像"
+				},
+				"checkbox-compression": {
+					"text": "圧縮"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "ランレングス"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "設定"
+				},
+				"checkbox-downscale": {
+					"text": "ダウンスケール"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "上記の画像の DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "モノクロ画像"
+				},
+				"checkbox-compression": {
+					"text": "圧縮"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "設定"
+				},
+				"checkbox-downscale": {
+					"text": "ダウンスケール"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "上記の画像の DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "LWZ 圧縮の代わりに Flaze(Zip) 圧縮を使用する"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "圧縮されていないリソースに Flaze(Zip) 圧縮を使用する"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "最大圧縮レベルを使用して Flate(ZIP) 圧縮を使用するすべてのリソースを再圧縮する"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "フォント サブセットを最適化する"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "注釈をフラット化する"
+			},
+			"checkbox-subsetFonts": {
+				"text": "フォントをサブセット化する"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "注釈を削除する"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "無効なブックマークを削除する"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "ブックマークを削除する"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "無効なリンクを削除する"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "埋め込まれたページ サムネイルを削除する"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "未使用のページを削除する"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "ドキュメント情報を削除する"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "名前辞書をクリーンアップする"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "添付ファイルを削除する"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "未使用のリソースを削除する"
+			},
+			"checkbox-removeMetadata": {
+				"text": "メタデータを削除する"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "リソースの重複を削除する"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "インタラクティブ フォームを削除する"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "コンテンツ ストリームをクリーンアップする"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "構造ツリーを削除する"
+			},
+			"outputFilenameFormat": {
+				"text": "出力ファイル名:"
+			},
+			"outputDocumentFormat": {
+				"text": "出力ドキュメントフォーマット:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "線形化フォーマット (高速 Web 表示)"
+			},
+			"executeCompressionButton": {
+				"value": "PDF を圧縮"
+			},
+			"saveButton": {
+				"value": "保存"
+			},
+			"closeButton": {
+				"value": "閉じる"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "ファイル名："
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "キャンセル"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "ビューを時計回りに回転"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "ビューを反時計回りに回転"
+		},
+		"removeImagesButton": {
+			"text": "画像を削除する"
+		},
+		"moveImageUpButton": {
+			"text": "画像を上に移動"
+		},
+		"moveImageDownButton": {
+			"text": "画像を下に移動"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "ファイルをダウンロードして開きます",
 		"vsdv-uploadAndAddFileButton-addFileString": "ファイルをアップロードして追加する",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "PDF ブックマークを取得する",
-		"vsdv-textSearchPanel-pageLabel": "ページ",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "画像リソースを取得する",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "ページ",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "PDF ブックマークを取得する",
+		"vsui-textSearchPanel-pageLabel": "ページ",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "画像リソースを取得する",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "ページ",
+		"vspe-openFile-addFileString": "ファイルを追加",
+		"vspe-saveChanges-saveChangesInPdfDocument": "PDF ドキュメントに変更を保存する",
 		"vsdv-openFile-addFileString": "ファイルを追加",
 		"vsdv-openFile-authenticateFileString": "ファイルを認証する",
 		"vsdv-downloadFile-actionMessage": "ダウンロードファイル",
 		"vsdv-saveChanges-saveChangesInImages": "画像の変更を保存する",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "ページ",
 		"vsdv-saveChanges-saveChangesInAnnotations": "注釈の変更を保存する",
 		"vsdv-saveChanges-burnAnnotationsInImages": "画像に注釈を書き込む",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF ドキュメントに変更を保存する",
-		"vsdv-uploadFileButton-uploadFileString": "ファイルをアップロードする",
-		"vsdv-documentPasswordDialog-title": "文書のパスワード",
+		"vsui-documentPasswordDialog-title": "文書のパスワード",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "キャンセル",
+		"vsui-documentPasswordPanel-authenticateFileString": "ファイルを認証する",
+		"vsui-imageSelectionDialog-title": "画像を選択",
+		"vsui-imageSelectionDialog-currentImageString": "現在の画像",
+		"vsui-imageSelectionDialog-allImagesString": "すべての画像",
+		"vsui-imageSelectionDialog-customImagesString": "カスタム",
+		"vsui-printImagesDialog-title": "画像を印刷",
+		"vsui-printImagesPanel-imagePrintingString": "画像を印刷中です",
+		"vsui-printImagesPanel-withAnnotationsLabel": "注釈あり",
+		"vsui-imageViewerSettingsDialog-title": "画像ビューアの設定",
+		"vsui-thumbnailViewerSettingDialog-title": "サムネイル ビューアの設定",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "サムネイルに注釈を表示:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "PDF 墨消しマークの表示",
+		"vsui-pdfImageResourceDialog-title": "PDF画像リソース",
+		"vsui-pdfImageResourcePanel-bytes": " バイト",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A 変換と検証",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "PDF/A に変換",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "PDF/A を検証",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "閉じる",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF 圧縮",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF を圧縮",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "保存",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "閉じる",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG エンコーダー設定",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "適用する",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "閉じる",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 エンコーダー設定",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "適用する",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "閉じる",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 エンコーダー設定",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "適用する",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "閉じる",
+		"vsui-exportFileSettingsDialog-title": "ファイルをエクスポートするための設定",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "キャンセル",
-		"vsdv-documentPasswordPanel-authenticateFileString": "ファイルを認証する",
-		"vsdv-imageSelectionDialog-title": "画像を選択",
-		"vsdv-imageSelectionDialog-currentImageString": "現在の画像",
-		"vsdv-imageSelectionDialog-allImagesString": "すべての画像",
-		"vsdv-imageSelectionDialog-customImagesString": "カスタム",
-		"vsdv-printImagesDialog-title": "画像を印刷",
-		"vsdv-printImagesPanel-imagePrintingString": "画像を印刷中です",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "注釈あり",
-		"vsdv-imageViewerSettingsDialog-title": "画像ビューアの設定",
-		"vsdv-thumbnailViewerSettingDialog-title": "サムネイル ビューアの設定",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "サムネイルに注釈を表示:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF 墨消しマークの表示",
-		"vsdv-pdfImageResourceDialog-title": "PDF画像リソース",
-		"vsdv-pdfImageResourcePanel-bytes": " バイト",
-		"vsdv-exportFileSettingsDialog-title": "ファイルをエクスポートするための設定",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF 墨消しマークの設定"
+		"vsdv-dialog-cancelButton": "キャンセル"
 	}
 }

@@ -6,12 +6,12 @@ BlockUiDialogJS = function (message) {
     // set message in dialog
     $("#blockUiDialogText").html(message);
     // show dialog
-    $('#blockUiDialog').modal('show');
+    $('#blockUiDialog').show();
 
 
     BlockUiDialogJS.prototype.close = function () {
         // hide dialog
-        $('#blockUiDialog').modal('hide');
+        $('#blockUiDialog').hide();
     }
 
 }

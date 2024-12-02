@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Fichier"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Vider le cache de la session"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "Conversion et validation PDF/A"
+		},
+		"pdfCompressorButton": {
+			"title": "Compresseur PDF"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Ajuster à la largeur"
 		},
@@ -61,7 +67,7 @@
 			"title": "Sélection de texte"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Extraire les images de la page"
+			"title": "Extraire les ressources d'image de la page PDF"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Champs interactifs"
@@ -73,10 +79,10 @@
 			"title": "Marquer la zone à rédiger"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Marquer les pages entières pour la rédaction"
+			"title": "Marquer les pages PDF complètes pour la rédaction"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Supprimer la marque de rédaction ciblée"
+			"title": "Supprimer la marque de rédaction PDF ciblée"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "Apparition de la marque de rédaction du PDF"
@@ -100,10 +106,7 @@
 			"title": "Rechercher du texte"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Extraire des images"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Champs interactifs"
+			"title": "Ressources d'image PDF"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Marques de rédaction PDF"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Afficher l'image du contenu"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Mode d'interaction :"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Non"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Voir"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Regrouper les champs par pages"
-			},
-			"saveChangesButton": {
-				"value": "Sauvegarder les modifications"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Peut faire glisser des vignettes :"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Peut parcourir les vignettes à l'aide du clavier :"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Peut sélectionner des vignettes à l'aide du clavier :"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Peut supprimer des vignettes à l'aide du clavier :"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -646,6 +641,323 @@
 				"value": "OK"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "Format PDF/A :"
+			},
+			"resultLabel": {
+				"text": "Résultat :"
+			},
+			"convertToPdfaButton": {
+				"value": "Convertir en PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Valider PDF/A"
+			},
+			"closeButton": {
+				"value": "Fermer"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Qualité :"
+			},
+			"grayscaleLabel": {
+				"text": "Niveaux de gris (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Appliquer"
+			},
+			"closeButton": {
+				"value": "Fermer"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Utiliser des tuiles"
+			},
+			"waveletTransformLabel": {
+				"text": "La transformation en ondelettes"
+			},
+			"levelLabel": {
+				"text": "Niveau"
+			},
+			"lossyLabel": {
+				"text": "Avec perte"
+			},
+			"fileSizeLabel": {
+				"text": "Taille du fichier"
+			},
+			"kBytesLabel": {
+				"text": "Ko"
+			},
+			"compressionRatioLabel": {
+				"text": "Taux de compression"
+			},
+			"applyButton": {
+				"value": "Appliquer"
+			},
+			"closeButton": {
+				"value": "Fermer"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Algorithme de codage bitmap"
+			},
+			"mqLabel": {
+				"text": "MQ (arithmétique)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Dictionnaire de symboles"
+			},
+			"dictionarySizeLabel": {
+				"text": "Taille du dictionnaire"
+			},
+			"lossyLabel": {
+				"text": "Avec perte"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Pourcentage d'inexactitude"
+			},
+			"applyButton": {
+				"value": "Appliquer"
+			},
+			"closeButton": {
+				"value": "Fermer"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Ressources"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Nettoyer / Supprimer"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Format du document de sortie"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Détection de la profondeur des couleurs réelles de l'image (réduire la profondeur des couleurs de l'image)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Détecter les images en noir et blanc"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Détecter les images indexées 1 (bitonales)"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Détecter les images en niveaux de gris"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Détecter les images indexées 8 (256 couleurs)"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Inexactitude maximale de détection"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(distance en RVB espace)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Images couleur"
+				},
+				"checkbox-compression": {
+					"text": "Compression"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Paramètres"
+				},
+				"checkbox-downscale": {
+					"text": "Réduction d'échelle"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI pour les images ci-dessus"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Images en niveaux de gris"
+				},
+				"checkbox-compression": {
+					"text": "Compression"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Paramètres"
+				},
+				"checkbox-downscale": {
+					"text": "Réduction d'échelle"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI pour les images ci-dessus"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Images bitonales"
+				},
+				"checkbox-compression": {
+					"text": "Compression"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Paramètres"
+				},
+				"checkbox-downscale": {
+					"text": "Réduction d'échelle"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI pour les images ci-dessus"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Utiliser la compression Flaze (Zip) au lieu de la compression LWZ"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Utiliser la compression Flaze (Zip) pour les ressources non compressées"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Recompresser toutes les ressources qui utilisent la compression Flate (ZIP) en utilisant le niveau de compression maximal"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Optimiser les sous-ensembles de polices"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Aplatir les annotations"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Sous-ensemble de polices"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Supprimer les annotations"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Supprimer les signets non valides"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Supprimer les signets"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Supprimer les liens non valides"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Supprimer les vignettes de page intégrées"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Supprimer les pages inutilisées"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Supprimer les informations du document"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Nettoyer le dictionnaire de noms"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Supprimer les pièces jointes"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Supprimer les ressources inutilisées"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Supprimer les métadonnées"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Supprimer les doublons de ressources"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Supprimer le formulaire interactif"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Nettoyer les flux de contenu"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Supprimer l'arborescence de structure"
+			},
+			"outputFilenameFormat": {
+				"text": "Nom du fichier de sortie :"
+			},
+			"outputDocumentFormat": {
+				"text": "Document de sortie format :"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Format linéarisé (Fast Web View)"
+			},
+			"executeCompressionButton": {
+				"value": "Compresser le PDF"
+			},
+			"saveButton": {
+				"value": "Enregistrer"
+			},
+			"closeButton": {
+				"value": "Fermer"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Nom de fichier:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Annuler"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Faire pivoter la vue dans le sens des aiguilles d'une montre"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Faire pivoter la vue dans le sens inverse des aiguilles d'une montre"
+		},
+		"removeImagesButton": {
+			"text": "Supprimer des images"
+		},
+		"moveImageUpButton": {
+			"text": "Déplacer l'image vers le haut"
+		},
+		"moveImageDownButton": {
+			"text": "Déplacer l'image vers le bas"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Télécharger et ouvrir le fichier",
 		"vsdv-uploadAndAddFileButton-addFileString": "Télécharger et ajouter un fichier",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Obtenir des signets PDF",
-		"vsdv-textSearchPanel-pageLabel": "Page",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Obtenir une ressource d'image",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Obtenir des signets PDF",
+		"vsui-textSearchPanel-pageLabel": "Page",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Obtenir une ressource d'image",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
+		"vspe-openFile-addFileString": "Ajouter le fichier",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Enregistrer les modifications dans le document PDF",
 		"vsdv-openFile-addFileString": "Ajouter le fichier",
 		"vsdv-openFile-authenticateFileString": "Authentifier le fichier",
 		"vsdv-downloadFile-actionMessage": "Télécharger un fichier",
 		"vsdv-saveChanges-saveChangesInImages": "Enregistrer les modifications dans les images",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Enregistrer les modifications dans les annotations",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Graver des annotations sur les images",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Enregistrer les modifications dans le document PDF",
-		"vsdv-uploadFileButton-uploadFileString": "Téléverser un fichier",
-		"vsdv-documentPasswordDialog-title": "Mot de passe du document",
+		"vsui-documentPasswordDialog-title": "Mot de passe du document",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Annuler",
+		"vsui-documentPasswordPanel-authenticateFileString": "Authentifier le fichier",
+		"vsui-imageSelectionDialog-title": "Sélectionner des images",
+		"vsui-imageSelectionDialog-currentImageString": "Image actuelle",
+		"vsui-imageSelectionDialog-allImagesString": "Toutes les images",
+		"vsui-imageSelectionDialog-customImagesString": "Personnalisé",
+		"vsui-printImagesDialog-title": "Imprimer des images",
+		"vsui-printImagesPanel-imagePrintingString": "L'image est en cours d'impression",
+		"vsui-printImagesPanel-withAnnotationsLabel": "avec annotations",
+		"vsui-imageViewerSettingsDialog-title": "Paramètres de la visionneuse d'images",
+		"vsui-thumbnailViewerSettingDialog-title": "Paramètres de la visionneuse de miniatures",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afficher les annotations sur les vignettes :",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "Apparition de la marque de rédaction du PDF",
+		"vsui-pdfImageResourceDialog-title": "Ressource d'images PDF",
+		"vsui-pdfImageResourcePanel-bytes": " octets",
+		"vsui-pdfAConversionAndValidationDialog-title": "Conversion et validation PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Convertir en PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Valider PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Fermer",
+		"vsui-pdfDocumentCompressorDialog-title": "Compresseur PDF",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Compresser le PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Enregistrer",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Fermer",
+		"vsui-jpegEncoderSettingsDialog-title": "Paramètres de l'encodeur JPEG",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Appliquer",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Fermer",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "Paramètres de l'encodeur JPEG2000",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Appliquer",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Fermer",
+		"vsui-jbig2EncoderSettingsDialog-title": "Paramètres de l'encodeur JBIG2",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Appliquer",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Fermer",
+		"vsui-exportFileSettingsDialog-title": "Les paramètres pour exporter le fichier",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Annuler",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Authentifier le fichier",
-		"vsdv-imageSelectionDialog-title": "Sélectionner des images",
-		"vsdv-imageSelectionDialog-currentImageString": "Image actuelle",
-		"vsdv-imageSelectionDialog-allImagesString": "Toutes les images",
-		"vsdv-imageSelectionDialog-customImagesString": "Personnalisé",
-		"vsdv-printImagesDialog-title": "Imprimer des images",
-		"vsdv-printImagesPanel-imagePrintingString": "L'image est en cours d'impression",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "avec annotations",
-		"vsdv-imageViewerSettingsDialog-title": "Paramètres de la visionneuse d'images",
-		"vsdv-thumbnailViewerSettingDialog-title": "Paramètres de la visionneuse de miniatures",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afficher les annotations sur les vignettes :",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Apparition de la marque de rédaction du PDF",
-		"vsdv-pdfImageResourceDialog-title": "Ressource d'images PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " octets",
-		"vsdv-exportFileSettingsDialog-title": "Les paramètres pour exporter le fichier",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "Paramètres des marques de rédaction PDF"
+		"vsdv-dialog-cancelButton": "Annuler"
 	}
 }

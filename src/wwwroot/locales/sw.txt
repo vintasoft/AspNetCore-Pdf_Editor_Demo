@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Faili"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Futa akiba ya kipindi"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "Ubadilishaji na uthibitishaji wa PDF/A"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF compressor"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Inafaa kwa upana"
 		},
@@ -61,7 +67,7 @@
 			"title": "Uteuzi wa Maandishi"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Toa picha kutoka kwa ukurasa"
+			"title": "Toa rasilimali za picha kutoka kwa ukurasa wa PDF"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Sehemu zinazoingiliana"
@@ -73,10 +79,10 @@
 			"title": "Weka alama kwenye eneo kwa urekebishaji"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Weka alama kwenye kurasa kamili kwa ajili ya kuandikwa upya"
+			"title": "Weka alama kwenye kurasa kamili za PDF ili zifanyiwe kazi upya"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Ondoa alama ya urekebishaji iliyolengwa"
+			"title": "Ondoa alama ya urekebishaji wa PDF iliyolengwa"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "Mwonekano wa alama ya urekebishaji wa PDF"
@@ -100,10 +106,7 @@
 			"title": "Tafuta maandishi"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Dondoo picha"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Sehemu zinazoingiliana"
+			"title": "Rasilimali za picha za PDF"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Alama za urekebishaji za PDF"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Onyesha picha ya maudhui"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Hali ya mwingiliano:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Hakuna"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Tazama"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Panga nyuga kwa kurasa"
-			},
-			"saveChangesButton": {
-				"value": "Hifadhi mabadiliko"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Inaweza Kuburuta Vijipicha:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Inaweza Kuelekeza Vijipicha Kwa Kutumia Kibodi:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Inaweza Kuchagua Vijipicha Kwa Kutumia Kibodi:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Inaweza Kufuta Vijipicha Kwa Kutumia Kibodi:"
+			},
 			"okButton": {
 				"value": "sawa"
 			},
@@ -646,6 +641,323 @@
 				"value": "sawa"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "Muundo wa PDF/A:"
+			},
+			"resultLabel": {
+				"text": "Matokeo:"
+			},
+			"convertToPdfaButton": {
+				"value": "Badilisha kuwa PDF/A"
+			},
+			"validatePdfaButton": {
+				"value": "Thibitisha PDF/A"
+			},
+			"closeButton": {
+				"value": "Funga"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Ubora:"
+			},
+			"grayscaleLabel": {
+				"text": "Kijivu (bpp 8)"
+			},
+			"applyButton": {
+				"value": "Omba"
+			},
+			"closeButton": {
+				"value": "Funga"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Tumia vigae"
+			},
+			"waveletTransformLabel": {
+				"text": "Mabadiliko ya wimbi"
+			},
+			"levelLabel": {
+				"text": "Kiwango"
+			},
+			"lossyLabel": {
+				"text": "Hasara"
+			},
+			"fileSizeLabel": {
+				"text": "Ukubwa wa Faili"
+			},
+			"kBytesLabel": {
+				"text": "KBytes"
+			},
+			"compressionRatioLabel": {
+				"text": "Uwiano wa Ukandamizaji"
+			},
+			"applyButton": {
+				"value": "Omba"
+			},
+			"closeButton": {
+				"value": "Funga"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Algorithm ya Usimbaji wa Bitmap"
+			},
+			"mqLabel": {
+				"text": "MQ (Hesabu)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Kamusi ya alama"
+			},
+			"dictionarySizeLabel": {
+				"text": "Ukubwa wa kamusi"
+			},
+			"lossyLabel": {
+				"text": "Hasara"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Asilimia isiyo sahihi"
+			},
+			"applyButton": {
+				"value": "Omba"
+			},
+			"closeButton": {
+				"value": "Funga"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Rasilimali"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Safisha / Tupa"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Muundo wa Hati ya Pato"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Utambuzi wa Kina cha Rangi Halisi (Punguza Kina cha Rangi ya Picha)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Tambua Picha Nyeusi/Nyeupe"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Tambua Picha Zilizowekwa Fahirisi1 (Bitonal)."
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Tambua Picha za Kijivu"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Tambua Picha zenye Fahirisi8 (rangi 256)."
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Ugunduzi wa Upeo wa Usahihi"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(umbali katika nafasi ya RGB)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Picha za Rangi"
+				},
+				"checkbox-compression": {
+					"text": "Mfinyazo"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "Urefu wa Kukimbia"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Mipangilio"
+				},
+				"checkbox-downscale": {
+					"text": "Kiwango cha chini"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI kwa picha hapo juu"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Picha za Kijivu"
+				},
+				"checkbox-compression": {
+					"text": "Mfinyazo"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Lwz"
+				},
+				"RunLength": {
+					"text": "Urefu wa Kukimbia"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Mipangilio"
+				},
+				"checkbox-downscale": {
+					"text": "Kiwango cha chini"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI kwa picha hapo juu"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Picha za Bitonal"
+				},
+				"checkbox-compression": {
+					"text": "Mfinyazo"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Mipangilio"
+				},
+				"checkbox-downscale": {
+					"text": "Kiwango cha chini"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI kwa picha hapo juu"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "Tumia ukandamizaji wa Flaze(Zip) badala ya ukandamizaji wa LWZ"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Tumia ukandamizaji wa Flaze(Zip) kwa rasilimali ambazo hazijabanwa"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Finya tena rasilimali zote zinazotumia mfinyazo wa Flate(ZIP) kwa kutumia kiwango cha juu zaidi cha mgandamizo"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Boresha vikundi vidogo vya fonti"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Bapa maelezo"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Fonti ndogo"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Ondoa maelezo"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Ondoa alamisho zisizo sahihi"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Ondoa alamisho"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Ondoa viungo batili"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Ondoa vijipicha vya ukurasa vilivyopachikwa"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Ondoa kurasa ambazo hazijatumiwa"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Ondoa maelezo ya hati"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Kamusi ya jina safi"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Ondoa viambatisho vya faili"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Ondoa rasilimali zisizotumiwa"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Ondoa metadata"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Ondoa nakala za rasilimali"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Ondoa fomu inayoingiliana"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Safisha mitiririko ya maudhui"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Ondoa mti wa muundo"
+			},
+			"outputFilenameFormat": {
+				"text": "Jina la faili la Pato:"
+			},
+			"outputDocumentFormat": {
+				"text": "Umbizo la hati ya pato:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Umbizo la mstari (Mwonekano wa Wavuti Haraka)"
+			},
+			"executeCompressionButton": {
+				"value": "Finya PDF"
+			},
+			"saveButton": {
+				"value": "Hifadhi"
+			},
+			"closeButton": {
+				"value": "Funga"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Jina la faili:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Ghairi"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Zungusha mwonekano wa saa"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Zungusha mwonekano kinyume cha saa"
+		},
+		"removeImagesButton": {
+			"text": "Ondoa picha"
+		},
+		"moveImageUpButton": {
+			"text": "Sogeza picha juu"
+		},
+		"moveImageDownButton": {
+			"text": "Sogeza picha chini"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Pakia na ufungue faili",
 		"vsdv-uploadAndAddFileButton-addFileString": "Pakia na uongeze faili",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Pata alamisho za PDF",
-		"vsdv-textSearchPanel-pageLabel": "Ukurasa",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Pata rasilimali ya picha",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Ukurasa",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Pata alamisho za PDF",
+		"vsui-textSearchPanel-pageLabel": "Ukurasa",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Pata rasilimali ya picha",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Ukurasa",
+		"vspe-openFile-addFileString": "Ongeza faili",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Hifadhi mabadiliko katika hati ya PDF",
 		"vsdv-openFile-addFileString": "Ongeza faili",
 		"vsdv-openFile-authenticateFileString": "Thibitisha faili",
 		"vsdv-downloadFile-actionMessage": "Pakua faili",
 		"vsdv-saveChanges-saveChangesInImages": "Hifadhi mabadiliko katika picha",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Ukurasa",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Hifadhi mabadiliko katika vidokezo",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Choma maelezo kwenye picha",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Hifadhi mabadiliko katika hati ya PDF",
-		"vsdv-uploadFileButton-uploadFileString": "Pakia faili",
-		"vsdv-documentPasswordDialog-title": "Nenosiri la hati",
+		"vsui-documentPasswordDialog-title": "Nenosiri la hati",
+		"vsui-dialog-okButton": "sawa",
+		"vsui-dialog-cancelButton": "Ghairi",
+		"vsui-documentPasswordPanel-authenticateFileString": "Thibitisha faili",
+		"vsui-imageSelectionDialog-title": "Chagua picha",
+		"vsui-imageSelectionDialog-currentImageString": "Picha ya sasa",
+		"vsui-imageSelectionDialog-allImagesString": "Picha zote",
+		"vsui-imageSelectionDialog-customImagesString": "Desturi",
+		"vsui-printImagesDialog-title": "Chapisha picha",
+		"vsui-printImagesPanel-imagePrintingString": "Picha inachapishwa",
+		"vsui-printImagesPanel-withAnnotationsLabel": "yenye maelezo",
+		"vsui-imageViewerSettingsDialog-title": "Mipangilio ya kitazamaji picha",
+		"vsui-thumbnailViewerSettingDialog-title": "Mipangilio ya kitazamaji cha kijipicha",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "Mwonekano wa alama ya urekebishaji wa PDF",
+		"vsui-pdfImageResourceDialog-title": "Rasilimali ya picha ya PDF",
+		"vsui-pdfImageResourcePanel-bytes": " baiti",
+		"vsui-pdfAConversionAndValidationDialog-title": "Ubadilishaji na uthibitishaji wa PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Badilisha kuwa PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Thibitisha PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Funga",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF compressor",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Finya PDF",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Hifadhi",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Funga",
+		"vsui-jpegEncoderSettingsDialog-title": "Mipangilio ya kisimbaji cha JPEG",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Omba",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Funga",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "Mipangilio ya kisimbaji cha JPEG2000",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Omba",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Funga",
+		"vsui-jbig2EncoderSettingsDialog-title": "Mipangilio ya kisimbaji cha JBIG2",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Omba",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Funga",
+		"vsui-exportFileSettingsDialog-title": "Mipangilio ya kuhamisha faili",
 		"vsdv-dialog-okButton": "sawa",
-		"vsdv-dialog-cancelButton": "Ghairi",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Thibitisha faili",
-		"vsdv-imageSelectionDialog-title": "Chagua picha",
-		"vsdv-imageSelectionDialog-currentImageString": "Picha ya sasa",
-		"vsdv-imageSelectionDialog-allImagesString": "Picha zote",
-		"vsdv-imageSelectionDialog-customImagesString": "Desturi",
-		"vsdv-printImagesDialog-title": "Chapisha picha",
-		"vsdv-printImagesPanel-imagePrintingString": "Picha inachapishwa",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "yenye maelezo",
-		"vsdv-imageViewerSettingsDialog-title": "Mipangilio ya kitazamaji picha",
-		"vsdv-thumbnailViewerSettingDialog-title": "Mipangilio ya kitazamaji cha kijipicha",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "Mwonekano wa alama ya urekebishaji wa PDF",
-		"vsdv-pdfImageResourceDialog-title": "Rasilimali ya picha ya PDF",
-		"vsdv-pdfImageResourcePanel-bytes": " baiti",
-		"vsdv-exportFileSettingsDialog-title": "Mipangilio ya kuhamisha faili",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "Mipangilio ya alama ya urekebishaji wa PDF"
+		"vsdv-dialog-cancelButton": "Ghairi"
 	}
 }

@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Ֆայլ"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Մաքրել նստաշրջանի քեշը"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A փոխակերպում և վավերացում"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF կոմպրեսոր"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "Հարմարեցրեք լայնությանը"
 		},
@@ -61,7 +67,7 @@
 			"title": "Տեքստի ընտրություն"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Նկարներ հանել էջից"
+			"title": "Քաղեք պատկեր-ռեսուրսներ PDF էջից"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Ինտերակտիվ դաշտեր"
@@ -73,10 +79,10 @@
 			"title": "Նշեք խմբագրման տարածքը"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Նշեք ամբողջական էջերը խմբագրման համար"
+			"title": "Նշեք ամբողջական PDF էջերը խմբագրման համար"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Հեռացրեք կենտրոնացված խմբագրման նշանը"
+			"title": "Հեռացրեք կենտրոնացված PDF խմբագրման նշանը"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "PDF խմբագրման նշանի տեսքը"
@@ -100,10 +106,7 @@
 			"title": "Գտեք տեքստ"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Քաղեք պատկերներ"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Ինտերակտիվ դաշտեր"
+			"title": "PDF պատկերի ռեսուրսներ"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF խմբագրման նշաններ"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Ցույց տալ բովանդակության պատկերը"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Փոխազդեցության ռեժիմ."
-			},
-			"noneInteractionModeLabel": {
-				"text": "Ոչ ոք"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Դիտել"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Խմբավորել դաշտերը ըստ էջերի"
-			},
-			"saveChangesButton": {
-				"value": "Պահպանել փոփոխությունները"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Կարող է քաշել մանրապատկերները՝"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Կարող է նավարկել մանրապատկերներով՝ օգտագործելով ստեղնաշար."
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Կարող եք ընտրել մանրապատկերներ՝ օգտագործելով ստեղնաշար."
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Կարող է ջնջել մանրապատկերները՝ օգտագործելով ստեղնաշար."
+			},
 			"okButton": {
 				"value": "լավ"
 			},
@@ -646,6 +641,323 @@
 				"value": "լավ"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A ձևաչափ."
+			},
+			"resultLabel": {
+				"text": "Արդյունք:"
+			},
+			"convertToPdfaButton": {
+				"value": "Փոխարկել PDF/A-ի"
+			},
+			"validatePdfaButton": {
+				"value": "Վավերացնել PDF/A"
+			},
+			"closeButton": {
+				"value": "փակել"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Որակը:"
+			},
+			"grayscaleLabel": {
+				"text": "Մոխրագույն սանդղակ (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Դիմել"
+			},
+			"closeButton": {
+				"value": "փակել"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Օգտագործեք սալիկներ"
+			},
+			"waveletTransformLabel": {
+				"text": "Wavelet-ի փոխակերպումը"
+			},
+			"levelLabel": {
+				"text": "Մակարդակ"
+			},
+			"lossyLabel": {
+				"text": "Կորուստ"
+			},
+			"fileSizeLabel": {
+				"text": "Ֆայլի չափ"
+			},
+			"kBytesLabel": {
+				"text": "ԿԲայթ"
+			},
+			"compressionRatioLabel": {
+				"text": "Սեղմման հարաբերակցությունը"
+			},
+			"applyButton": {
+				"value": "Դիմել"
+			},
+			"closeButton": {
+				"value": "փակել"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Bitmap կոդավորման ալգորիթմ"
+			},
+			"mqLabel": {
+				"text": "MQ (թվաբանություն)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Խորհրդանիշների բառարան"
+			},
+			"dictionarySizeLabel": {
+				"text": "Բառարանի չափը"
+			},
+			"lossyLabel": {
+				"text": "Կորուստ"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Անճշտության տոկոս"
+			},
+			"applyButton": {
+				"value": "Դիմել"
+			},
+			"closeButton": {
+				"value": "փակել"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Ռեսուրսներ"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Մաքրել / Վերացնել"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Ելքային փաստաթղթի ձևաչափ"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Պատկերի իրական գույնի խորության հայտնաբերում (նվազեցնել պատկերի գույնի խորությունը)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Հայտնաբերել սև/սպիտակ պատկերներ"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Հայտնաբերել Indexed1 (Bitonal) պատկերները"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Հայտնաբերել գորշ գույնի պատկերներ"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Հայտնաբերել Indexed8 (256 գույն) պատկերներ"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Հայտնաբերման առավելագույն անճշտություն"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(հեռավորությունը RGB տարածության մեջ)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Գունավոր պատկերներ"
+				},
+				"checkbox-compression": {
+					"text": "Սեղմում"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Լվզ"
+				},
+				"RunLength": {
+					"text": "Վազքի երկարությունը"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Կարգավորումներ"
+				},
+				"checkbox-downscale": {
+					"text": "Նվազեցված մասշտաբները"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI վերևում գտնվող պատկերների համար"
+				},
+				"checkbox-dpi": {
+					"text": "ՀՏՎ"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Մոխրագույն գույնի պատկերներ"
+				},
+				"checkbox-compression": {
+					"text": "Սեղմում"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Լվզ"
+				},
+				"RunLength": {
+					"text": "Վազքի երկարությունը"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Կարգավորումներ"
+				},
+				"checkbox-downscale": {
+					"text": "Նվազեցված մասշտաբները"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI վերևում գտնվող պատկերների համար"
+				},
+				"checkbox-dpi": {
+					"text": "ՀՏՎ"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Բիտոնալ պատկերներ"
+				},
+				"checkbox-compression": {
+					"text": "Սեղմում"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Կարգավորումներ"
+				},
+				"checkbox-downscale": {
+					"text": "Նվազեցված մասշտաբները"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "DPI վերևում գտնվող պատկերների համար"
+				},
+				"checkbox-dpi": {
+					"text": "ՀՏՎ"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "LWZ սեղմման փոխարեն օգտագործեք Flaze (Zip) սեղմում"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Օգտագործեք Flaze (Zip) սեղմումը չսեղմված ռեսուրսների համար"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Recompress բոլոր ռեսուրսները, որոնք օգտագործում են Flate (ZIP) սեղմում, օգտագործելով առավելագույն սեղմման մակարդակը"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Օպտիմալացնել տառատեսակների ենթաբազմությունները"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Հարթեցնել ծանոթագրությունները"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Ենթաբազմության տառատեսակներ"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Հեռացնել ծանոթագրությունները"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Հեռացրեք անվավեր էջանիշները"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Հեռացնել էջանիշները"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Հեռացնել անվավեր հղումները"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Հեռացրեք ներկառուցված էջի մանրապատկերները"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Հեռացրեք չօգտագործված էջերը"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Հեռացնել փաստաթղթի տեղեկատվությունը"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Մաքրման անվան բառարան"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Հեռացնել ֆայլի հավելվածները"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Հեռացրեք չօգտագործված ռեսուրսները"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Հեռացնել մետատվյալները"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Հեռացրեք ռեսուրսների կրկնօրինակները"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Հեռացնել ինտերակտիվ ձևը"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Մաքրել բովանդակության հոսքերը"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "Հեռացրեք կառուցվածքի ծառը"
+			},
+			"outputFilenameFormat": {
+				"text": "Ելքային ֆայլի անունը."
+			},
+			"outputDocumentFormat": {
+				"text": "Ելքային փաստաթղթի ձևաչափ."
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Գծային ձևաչափ (արագ վեբ դիտում)"
+			},
+			"executeCompressionButton": {
+				"value": "Սեղմել PDF-ը"
+			},
+			"saveButton": {
+				"value": "Պահպանել"
+			},
+			"closeButton": {
+				"value": "փակել"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Ֆայլի անունը."
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Չեղարկել"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Պտտեցնել դիտումը ժամացույցի սլաքի ուղղությամբ"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Պտտեցնել տեսքը ժամացույցի սլաքի հակառակ ուղղությամբ"
+		},
+		"removeImagesButton": {
+			"text": "Հեռացնել պատկերները"
+		},
+		"moveImageUpButton": {
+			"text": "Տեղափոխեք պատկերը վերև"
+		},
+		"moveImageDownButton": {
+			"text": "Տեղափոխեք պատկերը ներքև"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Վերբեռնեք և բացեք ֆայլը",
 		"vsdv-uploadAndAddFileButton-addFileString": "Վերբեռնեք և ավելացրեք ֆայլ",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "Ստացեք PDF էջանիշներ",
-		"vsdv-textSearchPanel-pageLabel": "Էջ",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Ստացեք պատկերի ռեսուրս",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Էջ",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Ստացեք PDF էջանիշներ",
+		"vsui-textSearchPanel-pageLabel": "Էջ",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Ստացեք պատկերի ռեսուրս",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Էջ",
+		"vspe-openFile-addFileString": "Ավելացնել ֆայլ",
+		"vspe-saveChanges-saveChangesInPdfDocument": "Պահպանեք փոփոխությունները PDF փաստաթղթում",
 		"vsdv-openFile-addFileString": "Ավելացնել ֆայլ",
 		"vsdv-openFile-authenticateFileString": "Նույնականացնել ֆայլը",
 		"vsdv-downloadFile-actionMessage": "Ներբեռնել ֆայլը",
 		"vsdv-saveChanges-saveChangesInImages": "Պահպանեք պատկերների փոփոխությունները",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Էջ",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Պահպանեք փոփոխությունները ծանոթագրություններում",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Այրել ծանոթագրությունները պատկերների վրա",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Պահպանեք փոփոխությունները PDF փաստաթղթում",
-		"vsdv-uploadFileButton-uploadFileString": "Ներբեռնել ֆայլ",
-		"vsdv-documentPasswordDialog-title": "Փաստաթղթի գաղտնաբառը",
+		"vsui-documentPasswordDialog-title": "Փաստաթղթի գաղտնաբառը",
+		"vsui-dialog-okButton": "լավ",
+		"vsui-dialog-cancelButton": "Չեղարկել",
+		"vsui-documentPasswordPanel-authenticateFileString": "Նույնականացնել ֆայլը",
+		"vsui-imageSelectionDialog-title": "Ընտրեք պատկերներ",
+		"vsui-imageSelectionDialog-currentImageString": "Ընթացիկ պատկեր",
+		"vsui-imageSelectionDialog-allImagesString": "Բոլոր պատկերները",
+		"vsui-imageSelectionDialog-customImagesString": "Պատվերով",
+		"vsui-printImagesDialog-title": "Տպել պատկերներ",
+		"vsui-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
+		"vsui-printImagesPanel-withAnnotationsLabel": "ծանոթագրություններով",
+		"vsui-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
+		"vsui-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "PDF խմբագրման նշանի տեսքը",
+		"vsui-pdfImageResourceDialog-title": "PDF պատկերի ռեսուրս",
+		"vsui-pdfImageResourcePanel-bytes": " բայթեր",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A փոխակերպում և վավերացում",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "Փոխարկել PDF/A-ի",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Վավերացնել PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "փակել",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF կոմպրեսոր",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Սեղմել PDF-ը",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Պահպանել",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "փակել",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG կոդավորիչի կարգավորումներ",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Դիմել",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "փակել",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 կոդավորիչի կարգավորումներ",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Դիմել",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "փակել",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 կոդավորիչի կարգավորումներ",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Դիմել",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "փակել",
+		"vsui-exportFileSettingsDialog-title": "Ֆայլի արտահանման կարգավորումները",
 		"vsdv-dialog-okButton": "լավ",
-		"vsdv-dialog-cancelButton": "Չեղարկել",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Նույնականացնել ֆայլը",
-		"vsdv-imageSelectionDialog-title": "Ընտրեք պատկերներ",
-		"vsdv-imageSelectionDialog-currentImageString": "Ընթացիկ պատկեր",
-		"vsdv-imageSelectionDialog-allImagesString": "Բոլոր պատկերները",
-		"vsdv-imageSelectionDialog-customImagesString": "Պատվերով",
-		"vsdv-printImagesDialog-title": "Տպել պատկերներ",
-		"vsdv-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "ծանոթագրություններով",
-		"vsdv-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
-		"vsdv-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF խմբագրման նշանի տեսքը",
-		"vsdv-pdfImageResourceDialog-title": "PDF պատկերի ռեսուրս",
-		"vsdv-pdfImageResourcePanel-bytes": " բայթեր",
-		"vsdv-exportFileSettingsDialog-title": "Ֆայլի արտահանման կարգավորումները",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF խմբագրման նշանի կարգավորումներ"
+		"vsdv-dialog-cancelButton": "Չեղարկել"
 	}
 }

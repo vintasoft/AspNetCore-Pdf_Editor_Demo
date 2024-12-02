@@ -1,7 +1,7 @@
 ﻿/**
  A dialog that allows to show a list of previously uploaded files and select previously uploaded file.
 */
-PreviouslyUploadedFilesDialogJS = function (fileService, docViewer, openFileHelper, showErrorMessage) {
+PreviouslyUploadedFilesDialogJS = function (fileService, pdfDocumentEditor, showErrorMessage) {
 
     PreviouslyUploadedFilesDialogJS.prototype.show = function () {
         // create a request for getting information about previously uploaded files
@@ -20,8 +20,8 @@ PreviouslyUploadedFilesDialogJS = function (fileService, docViewer, openFileHelp
             // if file identifier exists
             if (fileId != null && fileId != '') {
                 try {
-                    // open file
-                    openFileHelper.openPdfFile(fileId);
+                    // open file with authentication
+                    pdfDocumentEditor.openFileWithAuthentication(fileId);
                 }
                 catch (ex) {
                     showErrorMessage(ex.message);

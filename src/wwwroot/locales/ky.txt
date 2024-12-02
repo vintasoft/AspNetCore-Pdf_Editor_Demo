@@ -1,5 +1,5 @@
 ﻿{
-	"documentViewer": {
+	"pdfDocumentEditor": {
 		"fileLabel": {
 			"text": "Файл"
 		},
@@ -36,6 +36,12 @@
 		"clearSessionCacheButton": {
 			"title": "Сеанс кэшин тазалоо"
 		},
+		"pdfAConversionAndValidationButton": {
+			"title": "PDF/A айландыруу жана текшерүү"
+		},
+		"pdfCompressorButton": {
+			"title": "PDF компрессор"
+		},
 		"fitToWidthSizeModeButton": {
 			"title": "туурасына туура келет"
 		},
@@ -61,7 +67,7 @@
 			"title": "Текст тандоо"
 		},
 		"pdfImageExtractorToolButton": {
-			"title": "Барактан сүрөттөрдү алуу"
+			"title": "PDF баракчасынан сүрөт булактарын чыгарып алыңыз"
 		},
 		"pdfInteractiveFormToolButton": {
 			"title": "Интерактивдүү талаалар"
@@ -73,10 +79,10 @@
 			"title": "Редакция үчүн аймакты белгилеңиз"
 		},
 		"pdfPageRedactionMarkButton": {
-			"title": "Толук барактарды түзөтүү үчүн белгилеңиз"
+			"title": "Толук PDF барактарын оңдоо үчүн белгилеңиз"
 		},
 		"removeFocusedPdfRedactionMarkButton": {
-			"title": "Фокусталган редакциялоо белгисин алып салуу"
+			"title": "Фокусталган PDF түзөтүү белгисин алып салуу"
 		},
 		"pdfRedactionMarkAppearanceButton": {
 			"title": "PDF түзөтүү белгисинин көрүнүшү"
@@ -100,10 +106,7 @@
 			"title": "Текстти табуу"
 		},
 		"showPdfImageResourceExtractionPanelButton": {
-			"title": "Сүрөттөрдү чыгарып алыңыз"
-		},
-		"showPdfInteractiveFormFieldsPanelButton": {
-			"title": "Интерактивдүү талаалар"
+			"title": "PDF сүрөт булактары"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF түзөтүү белгилери"
@@ -157,23 +160,6 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Мазмундун сүрөтүн көрсөтүү"
-			}
-		},
-		"pdfInteractiveFormFieldsPanel": {
-			"interactionModeLabel": {
-				"text": "Өз ара аракеттенүү режими:"
-			},
-			"noneInteractionModeLabel": {
-				"text": "Жок"
-			},
-			"viewInteractionModeLabel": {
-				"text": "Көрүү"
-			},
-			"groupFormFieldsByPagesLabel": {
-				"text": "Талааларды барактар боюнча топтоо"
-			},
-			"saveChangesButton": {
-				"value": "Өзгөрүүлөрдү сактоо"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -554,6 +540,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Эскиздерди сүйрө алат:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Баскычтоптун жардамы менен эскиздерди башкара алат:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Баскычтоптун жардамы менен эскиздерди тандай алат:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Баскычтоптун жардамы менен эскиздерди жок кыла алат:"
+			},
 			"okButton": {
 				"value": "макул"
 			},
@@ -646,6 +641,323 @@
 				"value": "макул"
 			}
 		},
+		"pdfAConversionAndValidationDialog": {
+			"pdfAFormatLabel": {
+				"text": "PDF/A форматы:"
+			},
+			"resultLabel": {
+				"text": "Натыйжа:"
+			},
+			"convertToPdfaButton": {
+				"value": "PDF/A форматына айландыруу"
+			},
+			"validatePdfaButton": {
+				"value": "Текшерүү PDF/A"
+			},
+			"closeButton": {
+				"value": "Жабуу"
+			}
+		},
+		"jpegEncoderSettingsDialog": {
+			"qualityLabel": {
+				"text": "Сапаты:"
+			},
+			"grayscaleLabel": {
+				"text": "Боз шкала (8 bpp)"
+			},
+			"applyButton": {
+				"value": "Колдонуу"
+			},
+			"closeButton": {
+				"value": "Жабуу"
+			}
+		},
+		"jpeg2000EncoderSettingsDialog": {
+			"useTilesLabel": {
+				"text": "Плитканы колдонуңуз"
+			},
+			"waveletTransformLabel": {
+				"text": "Толкундун трансформациясы"
+			},
+			"levelLabel": {
+				"text": "Деңгээл"
+			},
+			"lossyLabel": {
+				"text": "Lossy"
+			},
+			"fileSizeLabel": {
+				"text": "Файлдын өлчөмү"
+			},
+			"kBytesLabel": {
+				"text": "Кбайт"
+			},
+			"compressionRatioLabel": {
+				"text": "Compression Ratio"
+			},
+			"applyButton": {
+				"value": "Колдонуу"
+			},
+			"closeButton": {
+				"value": "Жабуу"
+			}
+		},
+		"jbig2EncoderSettingsDialog": {
+			"bitmapEncodingAlgorithmLabel": {
+				"text": "Bitmap коддоо алгоритми"
+			},
+			"mqLabel": {
+				"text": "MQ (Арифметика)"
+			},
+			"mmrLabel": {
+				"text": "Mmr (CCITT4)"
+			},
+			"symbolDictionaryLabel": {
+				"text": "Символдук сөздүк"
+			},
+			"dictionarySizeLabel": {
+				"text": "Сөздүк өлчөмү"
+			},
+			"lossyLabel": {
+				"text": "Lossy"
+			},
+			"inaccuracyPercentLabel": {
+				"text": "Так эместик пайызы"
+			},
+			"applyButton": {
+				"value": "Колдонуу"
+			},
+			"closeButton": {
+				"value": "Жабуу"
+			}
+		},
+		"pdfDocumentCompressorDialog": {
+			"imagesLabel": {
+				"text": "Ресурстар"
+			},
+			"cleanUpDiscardLabel": {
+				"text": "Тазалоо / жок кылуу"
+			},
+			"outputDocumentFormatLabel": {
+				"text": "Документти чыгаруу форматы"
+			},
+			"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+				"groupBox-imageRealColorDepthDetectionReduceImageColorDepth": {
+					"text": "Сүрөттүн чыныгы түсүнүн тереңдигин аныктоо (сүрөт түсүнүн тереңдигин азайтуу)"
+				},
+				"checkbox-detectBlackWhiteImages": {
+					"text": "Кара/Ак сүрөттөрдү аныктоо"
+				},
+				"checkbox-detectIndexed1BitonalImages": {
+					"text": "Индекстелген1 (Битоналдык) сүрөттөрдү аныктоо"
+				},
+				"checkbox-detectGrayscaleImages": {
+					"text": "Боз түстөгү сүрөттөрдү аныктоо"
+				},
+				"checkbox-detectIndexed8256ColorsImages": {
+					"text": "Indexed8 (256 түс) сүрөттөрдү аныктоо"
+				},
+				"groupBox-detectionMaximalInaccuracy": {
+					"groupBox-detectionMaximalInaccuracy": {
+						"text": "Максималдуу так эместикти аныктоо"
+					},
+					"checkbox-DistanceInRgbSpace": {
+						"text": "(RGB мейкиндигиндеги аралык)"
+					}
+				}
+			},
+			"groupBox-colorImages": {
+				"groupBox-colorImages": {
+					"text": "Түстүү сүрөттөр"
+				},
+				"checkbox-compression": {
+					"text": "Компрессия"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Лвз"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Орнотуулар"
+				},
+				"checkbox-downscale": {
+					"text": "Кичирейтүү"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "Жогорудагы сүрөттөр үчүн DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-grayscaleImages": {
+				"groupBox-grayscaleImages": {
+					"text": "Grayscale Images"
+				},
+				"checkbox-compression": {
+					"text": "Компрессия"
+				},
+				"Jpeg": {
+					"text": "Jpeg"
+				},
+				"Lwz": {
+					"text": "Лвз"
+				},
+				"RunLength": {
+					"text": "RunLength"
+				},
+				"Zip": {
+					"text": "Zip"
+				},
+				"Jpeg2000": {
+					"text": "Jpeg2000"
+				},
+				"settingsButton": {
+					"value": "Орнотуулар"
+				},
+				"checkbox-downscale": {
+					"text": "Кичирейтүү"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "Жогорудагы сүрөттөр үчүн DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"groupBox-bitonalImages": {
+				"groupBox-bitonalImages": {
+					"text": "Битоналдык сүрөттөр"
+				},
+				"checkbox-compression": {
+					"text": "Компрессия"
+				},
+				"Jbig2": {
+					"text": "Jbig2"
+				},
+				"CcittFax": {
+					"text": "CcittFax"
+				},
+				"settingsButton": {
+					"value": "Орнотуулар"
+				},
+				"checkbox-downscale": {
+					"text": "Кичирейтүү"
+				},
+				"checkbox-dpiForImagesAbove": {
+					"text": "Жогорудагы сүрөттөр үчүн DPI"
+				},
+				"checkbox-dpi": {
+					"text": "DPI"
+				}
+			},
+			"checkbox-useFlazeZipCompressionInsteadOfLwzCompression": {
+				"text": "LWZ кысуунун ордуна Flaze(Zip) кысуусун колдонуңуз"
+			},
+			"checkbox-useFlazeZipCompressionForUncompressedResources": {
+				"text": "Кысылбаган ресурстар үчүн Flaze(Zip) кысуусун колдонуңуз"
+			},
+			"checkbox-recompressAllResourcesThatUseFlateZipCompressionUsingMaxCompressionLevel": {
+				"text": "Максималдуу кысуу деңгээлин колдонуп, Flate(ZIP) кысуу колдонулган бардык ресурстарды кайра кысуу"
+			},
+			"checkbox-optimizeFontSubsets": {
+				"text": "Ариптин ички топтомдорун оптималдаштыруу"
+			},
+			"checkbox-flattenAnnotations": {
+				"text": "Аннотацияларды түздөө"
+			},
+			"checkbox-subsetFonts": {
+				"text": "Кошумча шрифттер"
+			},
+			"checkbox-removeAnnotations": {
+				"text": "Аннотацияларды алып салуу"
+			},
+			"checkbox-removeInvalidBookmarks": {
+				"text": "Жараксыз кыстармаларды алып салуу"
+			},
+			"checkbox-removeBookmarks": {
+				"text": "Кыстармаларды алып салуу"
+			},
+			"checkbox-removeInvalidLinks": {
+				"text": "Жараксыз шилтемелерди алып салыңыз"
+			},
+			"checkbox-removeEmbeddedPageThumbnails": {
+				"text": "Кыстарылган барактын эскиздерин алып салыңыз"
+			},
+			"checkbox-removeUnusedPages": {
+				"text": "Колдонулбаган барактарды алып салыңыз"
+			},
+			"checkbox-removeDocumentInformation": {
+				"text": "Документ маалыматын алып салуу"
+			},
+			"checkbox-cleanupNameDictionary": {
+				"text": "Тазалоо аты сөздүк"
+			},
+			"checkbox-removeFileAttachments": {
+				"text": "Файл тиркемелерин алып салуу"
+			},
+			"checkbox-removeUnusedResources": {
+				"text": "Колдонулбаган ресурстарды алып салыңыз"
+			},
+			"checkbox-removeMetadata": {
+				"text": "Метадайындарды алып салуу"
+			},
+			"checkbox-removeResourceDuplicates": {
+				"text": "Ресурстун дубликаттарын алып салуу"
+			},
+			"checkbox-removeInteractiveForm": {
+				"text": "Интерактивдүү форманы алып салуу"
+			},
+			"checkbox-cleanupContentStreams": {
+				"text": "Мазмун агымдарын тазалоо"
+			},
+			"checkbox-removeStructureTree": {
+				"text": "структура дарагын алып салуу"
+			},
+			"outputFilenameFormat": {
+				"text": "Чыгуу файлынын аты:"
+			},
+			"outputDocumentFormat": {
+				"text": "Документтин чыгаруу форматы:"
+			},
+			"1.7": {
+				"text": "1.7"
+			},
+			"1.4": {
+				"text": "1.4"
+			},
+			"1.5": {
+				"text": "1.5"
+			},
+			"1.6": {
+				"text": "1.6"
+			},
+			"2.0": {
+				"text": "2.0"
+			},
+			"checkbox-linearizedFormatFastWebView": {
+				"text": "Линеаризацияланган формат (Fast Web View)"
+			},
+			"executeCompressionButton": {
+				"value": "PDFти кысуу"
+			},
+			"saveButton": {
+				"value": "Сактоо"
+			},
+			"closeButton": {
+				"value": "Жабуу"
+			}
+		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
 				"text": "Шилтемелер аты:"
@@ -677,41 +989,76 @@
 			"cancelButton": {
 				"value": "Жокко чыгаруу"
 			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Көрүнүштү саат жебеси боюнча буруңуз"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Көрүнүштү саат жебесине каршы буруңуз"
+		},
+		"removeImagesButton": {
+			"text": "Сүрөттөрдү алып салуу"
+		},
+		"moveImageUpButton": {
+			"text": "Сүрөттү өйдө жылдырыңыз"
+		},
+		"moveImageDownButton": {
+			"text": "Сүрөттү ылдый жылдырыңыз"
 		}
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Жүктөө жана файлды ачуу",
 		"vsdv-uploadAndAddFileButton-addFileString": "Жүктөө жана файлды кошуу",
-		"vsdv-pdfBookmarksPanel-getPdfBookmarksString": "PDF кыстармаларын алыңыз",
-		"vsdv-textSearchPanel-pageLabel": "Page",
-		"vsdv-pdfImageResourceExtractionPanel-getImageResourceString": "Сүрөт ресурсун алыңыз",
-		"vsdv-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
+		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "PDF кыстармаларын алыңыз",
+		"vsui-textSearchPanel-pageLabel": "Page",
+		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Сүрөт ресурсун алыңыз",
+		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
+		"vspe-openFile-addFileString": "Файл кошуу",
+		"vspe-saveChanges-saveChangesInPdfDocument": "PDF документине өзгөртүүлөрдү сактоо",
 		"vsdv-openFile-addFileString": "Файл кошуу",
 		"vsdv-openFile-authenticateFileString": "Файлдын аныктыгын текшерүү",
 		"vsdv-downloadFile-actionMessage": "Файлды жүктөп алыңыз",
 		"vsdv-saveChanges-saveChangesInImages": "Сүрөттөрдөгү өзгөртүүлөрдү сактоо",
+		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотацияларга өзгөртүүлөрдү сактоо",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Сүрөттөргө аннотацияларды жазыңыз",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF документине өзгөртүүлөрдү сактоо",
-		"vsdv-uploadFileButton-uploadFileString": "Файлды жүктөө",
-		"vsdv-documentPasswordDialog-title": "Документтин сырсөзү",
+		"vsui-documentPasswordDialog-title": "Документтин сырсөзү",
+		"vsui-dialog-okButton": "макул",
+		"vsui-dialog-cancelButton": "Жокко чыгаруу",
+		"vsui-documentPasswordPanel-authenticateFileString": "Файлдын аныктыгын текшерүү",
+		"vsui-imageSelectionDialog-title": "Сүрөттөрдү тандаңыз",
+		"vsui-imageSelectionDialog-currentImageString": "Учурдагы сүрөт",
+		"vsui-imageSelectionDialog-allImagesString": "Бардык сүрөттөр",
+		"vsui-imageSelectionDialog-customImagesString": "Ыңгайлаштырылган",
+		"vsui-printImagesDialog-title": "Сүрөттөрдү басып чыгаруу",
+		"vsui-printImagesPanel-imagePrintingString": "Сүрөт басып чыгарылууда",
+		"vsui-printImagesPanel-withAnnotationsLabel": "аннотациялар менен",
+		"vsui-imageViewerSettingsDialog-title": "Сүрөт көрүүчүнүн жөндөөлөрү",
+		"vsui-thumbnailViewerSettingDialog-title": "Эскиз көрүүчүнүн жөндөөлөрү",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсөтүү:",
+		"vsui-pdfRedactionMarkAppearanceDialog-title": "PDF түзөтүү белгисинин көрүнүшү",
+		"vsui-pdfImageResourceDialog-title": "PDF сүрөт булагы",
+		"vsui-pdfImageResourcePanel-bytes": " байт",
+		"vsui-pdfAConversionAndValidationDialog-title": "PDF/A айландыруу жана текшерүү",
+		"vsui-pdfAConversionAndValidationDialog-convertToPdfaButton": "PDF/A форматына айландыруу",
+		"vsui-pdfAConversionAndValidationDialog-validatePdfaButton": "Текшерүү PDF/A",
+		"vsui-pdfAConversionAndValidationDialog-closeButton": "Жабуу",
+		"vsui-pdfDocumentCompressorDialog-title": "PDF компрессор",
+		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDFти кысуу",
+		"vsui-pdfDocumentCompressorDialog-saveButton": "Сактоо",
+		"vsui-pdfDocumentCompressorDialog-closeButton": "Жабуу",
+		"vsui-jpegEncoderSettingsDialog-title": "JPEG коддогуч жөндөөлөрү",
+		"vsui-jpegEncoderSettingsDialog-applyButton": "Колдонуу",
+		"vsui-jpegEncoderSettingsDialog-closeButton": "Жабуу",
+		"vsui-jpeg2000EncoderSettingsDialog-title": "JPEG2000 коддогуч жөндөөлөрү",
+		"vsui-jpeg2000EncoderSettingsDialog-applyButton": "Колдонуу",
+		"vsui-jpeg2000EncoderSettingsDialog-closeButton": "Жабуу",
+		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 коддогуч жөндөөлөрү",
+		"vsui-jbig2EncoderSettingsDialog-applyButton": "Колдонуу",
+		"vsui-jbig2EncoderSettingsDialog-closeButton": "Жабуу",
+		"vsui-exportFileSettingsDialog-title": "Файлды экспорттоо үчүн орнотуулар",
 		"vsdv-dialog-okButton": "макул",
-		"vsdv-dialog-cancelButton": "Жокко чыгаруу",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Файлдын аныктыгын текшерүү",
-		"vsdv-imageSelectionDialog-title": "Сүрөттөрдү тандаңыз",
-		"vsdv-imageSelectionDialog-currentImageString": "Учурдагы сүрөт",
-		"vsdv-imageSelectionDialog-allImagesString": "Бардык сүрөттөр",
-		"vsdv-imageSelectionDialog-customImagesString": "Ыңгайлаштырылган",
-		"vsdv-printImagesDialog-title": "Сүрөттөрдү басып чыгаруу",
-		"vsdv-printImagesPanel-imagePrintingString": "Сүрөт басып чыгарылууда",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "аннотациялар менен",
-		"vsdv-imageViewerSettingsDialog-title": "Сүрөт көрүүчүнүн жөндөөлөрү",
-		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз көрүүчүнүн жөндөөлөрү",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсөтүү:",
-		"vsdv-pdfRedactionMarkAppearanceDialog-title": "PDF түзөтүү белгисинин көрүнүшү",
-		"vsdv-pdfImageResourceDialog-title": "PDF сүрөт булагы",
-		"vsdv-pdfImageResourcePanel-bytes": " байт",
-		"vsdv-exportFileSettingsDialog-title": "Файлды экспорттоо үчүн орнотуулар",
-		"vsdv-pdfRedactionMarkSettingsDialog-title": "PDF түзөтүү белги орнотуулары"
+		"vsdv-dialog-cancelButton": "Жокко чыгаруу"
 	}
 }
