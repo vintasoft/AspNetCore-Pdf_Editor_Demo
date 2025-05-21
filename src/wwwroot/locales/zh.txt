@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "密文"
 		},
+		"contentEditorLabel": {
+			"text": "编辑器"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "上传并打开文件"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "互动领域"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "编辑 PDF 页面上的内容"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "标记文本以进行密文编辑"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "应用密文标记"
 		},
+		"showMobileMenuButton": {
+			"title": "更多的"
+		},
+		"boldTextButton": {
+			"title": "粗体"
+		},
+		"italicTextButton": {
+			"title": "斜体"
+		},
+		"underlineTextButton": {
+			"title": "下划线"
+		},
+		"strikethroughTextButton": {
+			"title": "删除线"
+		},
+		"alignLeftButton": {
+			"title": "左对齐"
+		},
+		"alignCenterButton": {
+			"title": "居中对齐"
+		},
+		"alignRightButton": {
+			"title": "右对齐"
+		},
+		"alignJustifyButton": {
+			"title": "两端对齐"
+		},
+		"fontColorButton": {
+			"title": "设置字体颜色"
+		},
+		"fontColorSelectionButton": {
+			"title": "选择字体颜色"
+		},
+		"undoChangesButton": {
+			"title": "撤消"
+		},
+		"redoChangesButton": {
+			"title": "重做"
+		},
+		"addTextBlockButton": {
+			"title": "添加文本"
+		},
+		"deleteTextBlockButton": {
+			"title": "删除文本"
+		},
+		"saveChangesButton": {
+			"title": "保存更改"
+		},
 		"sidePanelCloseButton": {
 			"title": "显示侧面板"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF 图像资源"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "互动领域"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF 修订标记"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "显示内容图片"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "交互方式："
+			},
+			"noneInteractionModeLabel": {
+				"text": "没有任何"
+			},
+			"viewInteractionModeLabel": {
+				"text": "看法"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "按页面对字段进行分组"
+			},
+			"saveChangesButton": {
+				"value": "保存更改"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "页",
 		"vspe-openFile-addFileString": "添加文件",
 		"vspe-saveChanges-saveChangesInPdfDocument": "保存 PDF 文档中的更改",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "更新交互式表单",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "获取交互式表单",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "应用密文标记",
+		"vspe-pdfContentEditorTool-getTextBlocks": "获取文本块",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "保存文本块中的更改",
+		"vspe-pdfContentEditorTool-getContentImages": "获取内容图像",
 		"vsdv-openFile-addFileString": "添加文件",
 		"vsdv-openFile-authenticateFileString": "验证文件",
 		"vsdv-downloadFile-actionMessage": "下载文件",
 		"vsdv-saveChanges-saveChangesInImages": "保存图像中的更改",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "页",
-		"vsdv-saveChanges-saveChangesInAnnotations": "保存注释中的更改",
-		"vsdv-saveChanges-burnAnnotationsInImages": "在图像上刻录注释",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "保存 PDF 文档中的更改",
+		"vsui-documentNavigationTool-getActions": "获取操作",
 		"vsui-documentPasswordDialog-title": "文档密码",
 		"vsui-dialog-okButton": "好的",
 		"vsui-dialog-cancelButton": "取消",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "申请",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "关闭",
 		"vsui-exportFileSettingsDialog-title": "匯出文件的設置",
-		"vsdv-dialog-okButton": "好的",
-		"vsdv-dialog-cancelButton": "取消"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "压缩 PDF 文档"
 	}
 }

@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Redaksjon"
 		},
+		"contentEditorLabel": {
+			"text": "Redaktør"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Last ned og åpne filen"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktive felt"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Rediger innhold på PDF-side"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Merk tekst for redaksjon"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Bruk redaksjonsmerker"
 		},
+		"showMobileMenuButton": {
+			"title": "Mer"
+		},
+		"boldTextButton": {
+			"title": "Fet"
+		},
+		"italicTextButton": {
+			"title": "Kursiv"
+		},
+		"underlineTextButton": {
+			"title": "Understrek"
+		},
+		"strikethroughTextButton": {
+			"title": "Gjennomstreking"
+		},
+		"alignLeftButton": {
+			"title": " Venstrejuster"
+		},
+		"alignCenterButton": {
+			"title": "Juster midten"
+		},
+		"alignRightButton": {
+			"title": " Høyrejuster"
+		},
+		"alignJustifyButton": {
+			"title": "Juster begrunn"
+		},
+		"fontColorButton": {
+			"title": "Angi skriftfarge"
+		},
+		"fontColorSelectionButton": {
+			"title": "Velg skriftfarge"
+		},
+		"undoChangesButton": {
+			"title": "Avbryt"
+		},
+		"redoChangesButton": {
+			"title": "Gjenta"
+		},
+		"addTextBlockButton": {
+			"title": "Legg til tekst"
+		},
+		"deleteTextBlockButton": {
+			"title": "Slett tekst"
+		},
+		"saveChangesButton": {
+			"title": "Lagre endringer"
+		},
 		"sidePanelCloseButton": {
 			"title": "Vis sidefelt"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF-bilderessurser"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interaktive felt"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF-redaksjonsmerker"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Vis innholdsbilde"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Interaksjonsmodus:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Nei"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Vis"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Grupper felt etter sider"
+			},
+			"saveChangesButton": {
+				"value": "Lagre endringer"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Side",
 		"vspe-openFile-addFileString": "Legg til fil",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Lagre endringer i PDF-dokument",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Oppdater interaktivt skjema",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Få interaktiv form",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Bruk redaksjonsmerker",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Få tekstblokker",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Lagre endringer i tekstblokker",
+		"vspe-pdfContentEditorTool-getContentImages": "Få innholdsbilder",
 		"vsdv-openFile-addFileString": "Legg til fil",
 		"vsdv-openFile-authenticateFileString": "Autentiser filen",
 		"vsdv-downloadFile-actionMessage": "Last ned fil",
 		"vsdv-saveChanges-saveChangesInImages": "Lagre endringer i bilder",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Side",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Lagre endringer i merknader",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Brenn merknader på bilder",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Lagre endringer i PDF-dokument",
+		"vsui-documentNavigationTool-getActions": "Få handlinger",
 		"vsui-documentPasswordDialog-title": "Dokumentpassord",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Avbryt",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Søke om",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Lukk",
 		"vsui-exportFileSettingsDialog-title": "Innstillingene for å eksportere filen",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Avbryt"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Komprimer PDF-dokument"
 	}
 }

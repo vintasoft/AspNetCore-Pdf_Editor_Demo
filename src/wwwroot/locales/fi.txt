@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Editointi"
 		},
+		"contentEditorLabel": {
+			"text": "Toimittaja"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Lataa ja avaa tiedosto"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktiiviset kentät"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Muokkaa PDF-sivun sisältöä"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Merkitse teksti muokattavaksi"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Käytä muokkausmerkkejä"
 		},
+		"showMobileMenuButton": {
+			"title": "Lisää"
+		},
+		"boldTextButton": {
+			"title": "Lihavoitu"
+		},
+		"italicTextButton": {
+			"title": "Kursiivi"
+		},
+		"underlineTextButton": {
+			"title": "Korostaa"
+		},
+		"strikethroughTextButton": {
+			"title": "Yliviivattu"
+		},
+		"alignLeftButton": {
+			"title": "Tasaa vasemmalle"
+		},
+		"alignCenterButton": {
+			"title": "Kohdista keskelle"
+		},
+		"alignRightButton": {
+			"title": "Tasaa oikealle"
+		},
+		"alignJustifyButton": {
+			"title": "Tasaa tasaus"
+		},
+		"fontColorButton": {
+			"title": "Aseta fontin väri"
+		},
+		"fontColorSelectionButton": {
+			"title": "Valitse fontin väri"
+		},
+		"undoChangesButton": {
+			"title": "Peruuta"
+		},
+		"redoChangesButton": {
+			"title": "Toista"
+		},
+		"addTextBlockButton": {
+			"title": "Lisää tekstiä"
+		},
+		"deleteTextBlockButton": {
+			"title": "Poista teksti"
+		},
+		"saveChangesButton": {
+			"title": "Tallenna muutokset"
+		},
 		"sidePanelCloseButton": {
 			"title": "Näytä sivupalkki"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF-kuvaresurssit"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interaktiiviset kentät"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF-muokkausmerkit"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Näytä sisältökuva"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Vuorovaikutustila:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Ei"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Näytä"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Ryhmittele kentät sivujen mukaan"
+			},
+			"saveChangesButton": {
+				"value": "Tallenna muutokset"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sivu",
 		"vspe-openFile-addFileString": "Lisää tiedosto",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Tallenna muutokset PDF-dokumenttiin",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Päivitä interaktiivinen lomake",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Hanki interaktiivinen lomake",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Käytä muokkausmerkkejä",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Hanki tekstilohkoja",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Tallenna muutokset tekstilohkoihin",
+		"vspe-pdfContentEditorTool-getContentImages": "Hanki sisältökuvia",
 		"vsdv-openFile-addFileString": "Lisää tiedosto",
 		"vsdv-openFile-authenticateFileString": "Todenna tiedosto",
 		"vsdv-downloadFile-actionMessage": "Lataa tiedosto",
 		"vsdv-saveChanges-saveChangesInImages": "Tallenna muutokset kuviin",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Sivu",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Tallenna muutokset huomautuksiin",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Polta kommentteja kuviin",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Tallenna muutokset PDF-dokumenttiin",
+		"vsui-documentNavigationTool-getActions": "Hanki toimia",
 		"vsui-documentPasswordDialog-title": "Asiakirjan salasana",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Peruuta",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Käytä",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Sulje",
 		"vsui-exportFileSettingsDialog-title": "Tiedoston vientiasetukset",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Peruuta"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Pakkaa PDF-dokumentti"
 	}
 }

@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Redaktsioon"
 		},
+		"contentEditorLabel": {
+			"text": "Toimetaja"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Laadige üles ja avage fail"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktiivsed väljad"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Redigeerige PDF-lehe sisu"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Märkige tekst redigeerimiseks"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Rakenda parandusmärke"
 		},
+		"showMobileMenuButton": {
+			"title": "Rohkem"
+		},
+		"boldTextButton": {
+			"title": "Paks"
+		},
+		"italicTextButton": {
+			"title": "Kursiiv"
+		},
+		"underlineTextButton": {
+			"title": "Allajoonimine"
+		},
+		"strikethroughTextButton": {
+			"title": "Läbikriipsutatud"
+		},
+		"alignLeftButton": {
+			"title": "Joonda vasakule"
+		},
+		"alignCenterButton": {
+			"title": "Joonda keskele"
+		},
+		"alignRightButton": {
+			"title": "Joonda paremale"
+		},
+		"alignJustifyButton": {
+			"title": "Joonda joondus"
+		},
+		"fontColorButton": {
+			"title": "Määrake fondi värv"
+		},
+		"fontColorSelectionButton": {
+			"title": "Valige fondi värv"
+		},
+		"undoChangesButton": {
+			"title": "Võta tagasi"
+		},
+		"redoChangesButton": {
+			"title": "Tee uuesti"
+		},
+		"addTextBlockButton": {
+			"title": "Lisa tekst"
+		},
+		"deleteTextBlockButton": {
+			"title": "Kustuta tekst"
+		},
+		"saveChangesButton": {
+			"title": "Salvesta muudatused"
+		},
 		"sidePanelCloseButton": {
 			"title": "Näita külgpaneeli"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF-pildiressursid"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interaktiivsed väljad"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF-i redigeerimismärgid"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Kuva sisu pilt"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Interaktsioonirežiim:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Mitte ühtegi"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Vaade"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Rühmitage väljad lehtede kaupa"
+			},
+			"saveChangesButton": {
+				"value": "Salvesta muudatused"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Lehekülg",
 		"vspe-openFile-addFileString": "Lisa fail",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Salvestage muudatused PDF-dokumenti",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Uuenda interaktiivset vormi",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Hankige interaktiivne vorm",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Rakenda parandusmärke",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Hankige tekstiplokke",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Salvestage muudatused tekstiplokkides",
+		"vspe-pdfContentEditorTool-getContentImages": "Hankige sisupilte",
 		"vsdv-openFile-addFileString": "Lisa fail",
 		"vsdv-openFile-authenticateFileString": "Autentige fail",
 		"vsdv-downloadFile-actionMessage": "Laadige fail alla",
 		"vsdv-saveChanges-saveChangesInImages": "Salvestage piltidel muudatused",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Lehekülg",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Salvestage muudatused märkustes",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Kirjutage piltidele märkused",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvestage muudatused PDF-dokumenti",
+		"vsui-documentNavigationTool-getActions": "Hankige toiminguid",
 		"vsui-documentPasswordDialog-title": "Dokumendi parool",
 		"vsui-dialog-okButton": "Okei",
 		"vsui-dialog-cancelButton": "Tühista",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Rakenda",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Sulge",
 		"vsui-exportFileSettingsDialog-title": "Faili eksportimise sätted",
-		"vsdv-dialog-okButton": "Okei",
-		"vsdv-dialog-cancelButton": "Tühista"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Tihendage PDF-dokument"
 	}
 }

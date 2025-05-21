@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Azaltmak"
 		},
+		"contentEditorLabel": {
+			"text": "Redaktor"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Faýly ýükläň we açyň"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktiw meýdanlar"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Mazmuny PDF sahypasynda redaktirläň"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Redaksiýa üçin tekst belläň"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Redaksiýa belliklerini ulanyň"
 		},
+		"showMobileMenuButton": {
+			"title": "Has köp"
+		},
+		"boldTextButton": {
+			"title": "Batyr"
+		},
+		"italicTextButton": {
+			"title": "Italýan"
+		},
+		"underlineTextButton": {
+			"title": "Aşagy çyzyň"
+		},
+		"strikethroughTextButton": {
+			"title": "Strikethrough"
+		},
+		"alignLeftButton": {
+			"title": "Çepe deňleşdiriň"
+		},
+		"alignCenterButton": {
+			"title": "Merkezi deňleşdir"
+		},
+		"alignRightButton": {
+			"title": "Dogry deňleşdiriň"
+		},
+		"alignJustifyButton": {
+			"title": "Aklamak"
+		},
+		"fontColorButton": {
+			"title": "Şriftiň reňkini düzüň"
+		},
+		"fontColorSelectionButton": {
+			"title": "Şriftiň reňkini saýlaň"
+		},
+		"undoChangesButton": {
+			"title": "Yza gaýtar"
+		},
+		"redoChangesButton": {
+			"title": "Gaýtadan işlediň"
+		},
+		"addTextBlockButton": {
+			"title": "Tekst goşuň"
+		},
+		"deleteTextBlockButton": {
+			"title": "Teksti poz"
+		},
+		"saveChangesButton": {
+			"title": "Üýtgetmeleri ýatda sakla"
+		},
 		"sidePanelCloseButton": {
 			"title": "Tarap paneli görkez"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF şekil çeşmeleri"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interaktiw meýdanlar"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF redaktirleme bellikleri"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Mazmun şekilini görkeziň"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Özara täsir tertibi:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Hiç"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Gör"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Sahypalary toparlara bölüň"
+			},
+			"saveChangesButton": {
+				"value": "Üýtgetmeleri ýatda sakla"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sahypa",
 		"vspe-openFile-addFileString": "Faýl goşuň",
 		"vspe-saveChanges-saveChangesInPdfDocument": "PDF resminamasyndaky üýtgeşmeleri ýazdyryň",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Interaktiw formany täzeläň",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Interaktiw görnüşi alyň",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Redaksiýa belliklerini ulanyň",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Tekst bloklaryny alyň",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Tekst bloklarynda üýtgeşmeleri ýazdyryň",
+		"vspe-pdfContentEditorTool-getContentImages": "Mazmun suratlaryny alyň",
 		"vsdv-openFile-addFileString": "Faýl goşuň",
 		"vsdv-openFile-authenticateFileString": "Faýly tassyklamak",
 		"vsdv-downloadFile-actionMessage": "Faýly göçürip al",
 		"vsdv-saveChanges-saveChangesInImages": "Suratlardaky üýtgeşmeleri ýazdyryň",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Sahypa",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiýalarda üýtgeşmeleri ýazdyryň",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Suratlara düşündirişleri ýakyň",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF resminamasyndaky üýtgeşmeleri ýazdyryň",
+		"vsui-documentNavigationTool-getActions": "Hereket ediň",
 		"vsui-documentPasswordDialog-title": "Resminamanyň paroly",
 		"vsui-dialog-okButton": "Bolýar",
 		"vsui-dialog-cancelButton": "Elatyr",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Giriş",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": ".Akyn",
 		"vsui-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar",
-		"vsdv-dialog-okButton": "Bolýar",
-		"vsdv-dialog-cancelButton": "Elatyr"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF resminamasyny gysyň"
 	}
 }

@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "עֲרִיכָה"
 		},
+		"contentEditorLabel": {
+			"text": "עוֹרֵך"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "הורד ופתח את הקובץ"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "שדות אינטראקטיביים"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "ערוך תוכן בדף PDF"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "סמן טקסט לעיבוד"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "החל סימני עריכה"
 		},
+		"showMobileMenuButton": {
+			"title": "עוד"
+		},
+		"boldTextButton": {
+			"title": "נוֹעָז"
+		},
+		"italicTextButton": {
+			"title": "נטוי"
+		},
+		"underlineTextButton": {
+			"title": "לָשִׂים דָגֵשׁ"
+		},
+		"strikethroughTextButton": {
+			"title": "חוצה"
+		},
+		"alignLeftButton": {
+			"title": "יישר שמאלה"
+		},
+		"alignCenterButton": {
+			"title": "יישר מרכז"
+		},
+		"alignRightButton": {
+			"title": "יישר ימינה"
+		},
+		"alignJustifyButton": {
+			"title": "יישר הצדק"
+		},
+		"fontColorButton": {
+			"title": "הגדר צבע גופן"
+		},
+		"fontColorSelectionButton": {
+			"title": "בחר צבע גופן"
+		},
+		"undoChangesButton": {
+			"title": "בטל"
+		},
+		"redoChangesButton": {
+			"title": "חזור"
+		},
+		"addTextBlockButton": {
+			"title": "הוסף טקסט"
+		},
+		"deleteTextBlockButton": {
+			"title": "מחק טקסט"
+		},
+		"saveChangesButton": {
+			"title": "שמור שינויים"
+		},
 		"sidePanelCloseButton": {
 			"title": "הצג סרגל צד"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "משאבי תמונת PDF"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "שדות אינטראקטיביים"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "סימני עריכת PDF"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "הצג תמונת תוכן"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "מצב אינטראקציה:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "לא"
+			},
+			"viewInteractionModeLabel": {
+				"text": "הצג"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "קבץ שדות לפי דפים"
+			},
+			"saveChangesButton": {
+				"value": "שמור שינויים"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "דף",
 		"vspe-openFile-addFileString": "הוסף קובץ",
 		"vspe-saveChanges-saveChangesInPdfDocument": "שמור שינויים במסמך PDF",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "עדכון טופס אינטראקטיבי",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "קבל טופס אינטראקטיבי",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "החל סימני עריכה",
+		"vspe-pdfContentEditorTool-getTextBlocks": "קבל קוביות טקסט",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "שמור שינויים בקוביות טקסט",
+		"vspe-pdfContentEditorTool-getContentImages": "קבל תמונות תוכן",
 		"vsdv-openFile-addFileString": "הוסף קובץ",
 		"vsdv-openFile-authenticateFileString": "אימות קובץ",
 		"vsdv-downloadFile-actionMessage": "הורד קובץ",
 		"vsdv-saveChanges-saveChangesInImages": "שמור שינויים בתמונות",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "דף",
-		"vsdv-saveChanges-saveChangesInAnnotations": "שמור שינויים בהערות",
-		"vsdv-saveChanges-burnAnnotationsInImages": "צריבת הערות על תמונות",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "שמור שינויים במסמך PDF",
+		"vsui-documentNavigationTool-getActions": "קבל פעולות",
 		"vsui-documentPasswordDialog-title": "סיסמת מסמך",
 		"vsui-dialog-okButton": "בסדר",
 		"vsui-dialog-cancelButton": "בטל",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "להגיש מועמדות",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "סגור",
 		"vsui-exportFileSettingsDialog-title": "ההגדרות לייצוא הקובץ",
-		"vsdv-dialog-okButton": "בסדר",
-		"vsdv-dialog-cancelButton": "בטל"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "דחוס מסמך PDF"
 	}
 }

@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Redaksie"
 		},
+		"contentEditorLabel": {
+			"text": "Redakteur"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Laai lêer af en maak oop"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktiewe velde"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Wysig inhoud op PDF-bladsy"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Merk teks vir redaksie"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Pas redaksiemerke toe"
 		},
+		"showMobileMenuButton": {
+			"title": "Meer"
+		},
+		"boldTextButton": {
+			"title": "Vet"
+		},
+		"italicTextButton": {
+			"title": "Kursief"
+		},
+		"underlineTextButton": {
+			"title": "Onderstreep"
+		},
+		"strikethroughTextButton": {
+			"title": "Deurstreep"
+		},
+		"alignLeftButton": {
+			"title": "Belyn links"
+		},
+		"alignCenterButton": {
+			"title": "Belyn middelpunt"
+		},
+		"alignRightButton": {
+			"title": "Belyn regs"
+		},
+		"alignJustifyButton": {
+			"title": "Belyn regverdig"
+		},
+		"fontColorButton": {
+			"title": "Stel lettertipe kleur"
+		},
+		"fontColorSelectionButton": {
+			"title": "Kies lettertipe kleur"
+		},
+		"undoChangesButton": {
+			"title": "Kanselleer"
+		},
+		"redoChangesButton": {
+			"title": "Herhaal"
+		},
+		"addTextBlockButton": {
+			"title": "Voeg teks by"
+		},
+		"deleteTextBlockButton": {
+			"title": "Vee teks uit"
+		},
+		"saveChangesButton": {
+			"title": "Stoor veranderinge"
+		},
 		"sidePanelCloseButton": {
 			"title": "Wys sybalk"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF-beeldbronne"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interaktiewe velde"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF redaksie merke"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Wys inhoudprent"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Interaksiemodus:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Nee"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Bekyk"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Groepeer velde volgens bladsye"
+			},
+			"saveChangesButton": {
+				"value": "Stoor veranderinge"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Bladsy",
 		"vspe-openFile-addFileString": "Voeg lêer by",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Stoor veranderinge in PDF-dokument",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Dateer interaktiewe vorm op",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Kry interaktiewe vorm",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Pas redaksiemerke toe",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Kry teksblokke",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Stoor veranderinge in teksblokke",
+		"vspe-pdfContentEditorTool-getContentImages": "Kry inhoud beelde",
 		"vsdv-openFile-addFileString": "Voeg lêer by",
 		"vsdv-openFile-authenticateFileString": "Bevestig lêer",
 		"vsdv-downloadFile-actionMessage": "Aflaai leêr",
 		"vsdv-saveChanges-saveChangesInImages": "Stoor veranderinge in beelde",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Bladsy",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Stoor veranderinge in aantekeninge",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Brand aantekeninge op beelde",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Stoor veranderinge in PDF-dokument",
+		"vsui-documentNavigationTool-getActions": "Kry aksies",
 		"vsui-documentPasswordDialog-title": "Dokumentwagwoord",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Kanselleer",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Doen aansoek",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Maak toe",
 		"vsui-exportFileSettingsDialog-title": "Die instellings om lêer uit te voer",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Kanselleer"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Druk PDF-dokument saam"
 	}
 }

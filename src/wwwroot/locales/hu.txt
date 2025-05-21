@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Szerkesztés"
 		},
+		"contentEditorLabel": {
+			"text": "Szerkesztő"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Fájl letöltése és megnyitása"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktív mezők"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Tartalom szerkesztése a PDF oldalon"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Szöveg megjelölése szerkesztésre"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Alkalmazzon szerkesztési jeleket"
 		},
+		"showMobileMenuButton": {
+			"title": "Továbbiak"
+		},
+		"boldTextButton": {
+			"title": "Bátor"
+		},
+		"italicTextButton": {
+			"title": "Dőlt"
+		},
+		"underlineTextButton": {
+			"title": "Aláhúzás"
+		},
+		"strikethroughTextButton": {
+			"title": "Áthúzott"
+		},
+		"alignLeftButton": {
+			"title": "Balra igazítás"
+		},
+		"alignCenterButton": {
+			"title": "Középre igazítás"
+		},
+		"alignRightButton": {
+			"title": "Jobbra igazítás"
+		},
+		"alignJustifyButton": {
+			"title": "Igazítás igazítása"
+		},
+		"fontColorButton": {
+			"title": "Állítsa be a betűtípus színét"
+		},
+		"fontColorSelectionButton": {
+			"title": "Válassza ki a betűszínt"
+		},
+		"undoChangesButton": {
+			"title": "Mégse"
+		},
+		"redoChangesButton": {
+			"title": "Ismétlés"
+		},
+		"addTextBlockButton": {
+			"title": "Szöveg hozzáadása"
+		},
+		"deleteTextBlockButton": {
+			"title": "Szöveg törlése"
+		},
+		"saveChangesButton": {
+			"title": "Változtatások mentése"
+		},
 		"sidePanelCloseButton": {
 			"title": "Oldalsáv megjelenítése"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF képforrások"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interaktív mezők"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF szerkesztési jelek"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Tartalomkép megjelenítése"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Interakciós mód:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Nem"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Megtekintés"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Csoportosítsa a mezőket oldalak szerint"
+			},
+			"saveChangesButton": {
+				"value": "Változtatások mentése"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Oldal",
 		"vspe-openFile-addFileString": "Fájl hozzáadása",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Mentse el a változtatásokat PDF dokumentumban",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Az interaktív űrlap frissítése",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Szerezzen be interaktív űrlapot",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Alkalmazzon szerkesztési jeleket",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Szerezzen be szövegblokkokat",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Mentse el a változtatásokat a szövegblokkban",
+		"vspe-pdfContentEditorTool-getContentImages": "Tartalomképek beszerzése",
 		"vsdv-openFile-addFileString": "Fájl hozzáadása",
 		"vsdv-openFile-authenticateFileString": "Fájl hitelesítése",
 		"vsdv-downloadFile-actionMessage": "Fájl letöltése",
 		"vsdv-saveChanges-saveChangesInImages": "Mentse el a változásokat a képeken",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Oldal",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Mentse el a megjegyzések módosításait",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Írjon megjegyzéseket a képekre",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Mentse el a változtatásokat PDF dokumentumban",
+		"vsui-documentNavigationTool-getActions": "Szerezzen akciókat",
 		"vsui-documentPasswordDialog-title": "Dokumentum jelszava",
 		"vsui-dialog-okButton": "Rendben",
 		"vsui-dialog-cancelButton": "Mégse",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Alkalmaz",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Bezárás",
 		"vsui-exportFileSettingsDialog-title": "A fájl exportálásának beállításai",
-		"vsdv-dialog-okButton": "Rendben",
-		"vsdv-dialog-cancelButton": "Mégse"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF dokumentum tömörítése"
 	}
 }

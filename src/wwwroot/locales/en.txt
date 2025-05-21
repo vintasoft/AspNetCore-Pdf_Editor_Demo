@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Redaction"
 		},
+		"contentEditorLabel": {
+			"text": "Editor"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Upload and open file"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Interactive fields"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Edit content on PDF page"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Mark text for redaction"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Apply redaction marks"
 		},
+		"showMobileMenuButton": {
+			"title": "More"
+		},
+		"boldTextButton": {
+			"title": "Bold"
+		},
+		"italicTextButton": {
+			"title": "Italic"
+		},
+		"underlineTextButton": {
+			"title": "Underline"
+		},
+		"strikethroughTextButton": {
+			"title": "Strikethrough"
+		},
+		"alignLeftButton": {
+			"title": "Align left"
+		},
+		"alignCenterButton": {
+			"title": "Align center"
+		},
+		"alignRightButton": {
+			"title": "Align right"
+		},
+		"alignJustifyButton": {
+			"title": "Align justify"
+		},
+		"fontColorButton": {
+			"title": "Set font color"
+		},
+		"fontColorSelectionButton": {
+			"title": "Select font color"
+		},
+		"undoChangesButton": {
+			"title": "Undo"
+		},
+		"redoChangesButton": {
+			"title": "Redo"
+		},
+		"addTextBlockButton": {
+			"title": "Add text"
+		},
+		"deleteTextBlockButton": {
+			"title": "Delete text"
+		},
+		"saveChangesButton": {
+			"title": "Save changes"
+		},
 		"sidePanelCloseButton": {
 			"title": "Show Side Panel"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF image-resources"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interactive fields"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF redaction marks"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Show content image"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Interaction mode:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "None"
+			},
+			"viewInteractionModeLabel": {
+				"text": "View"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Group fields by pages"
+			},
+			"saveChangesButton": {
+				"value": "Save changes"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
 		"vspe-openFile-addFileString": "Add file",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Save changes in PDF document",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Update interactive form",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Get interactive form",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Apply redaction marks",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Get text blocks",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Save changes in text blocks",
+		"vspe-pdfContentEditorTool-getContentImages": "Get content images",
 		"vsdv-openFile-addFileString": "Add file",
 		"vsdv-openFile-authenticateFileString": "Authenticate file",
 		"vsdv-downloadFile-actionMessage": "Download file",
 		"vsdv-saveChanges-saveChangesInImages": "Save changes in images",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Save changes in annotations",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Burn annotations on images",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Save changes in PDF document",
+		"vsui-documentNavigationTool-getActions": "Get actions",
 		"vsui-documentPasswordDialog-title": "Document password",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Cancel",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Apply",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Close",
 		"vsui-exportFileSettingsDialog-title": "Export file settings",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Cancel"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Compress PDF document"
 	}
 }

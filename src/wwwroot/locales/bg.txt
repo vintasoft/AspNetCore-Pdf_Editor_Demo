@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Редакция"
 		},
+		"contentEditorLabel": {
+			"text": "Редактор"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Изтеглете и отворете файл"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Интерактивни полета"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Редактирайте съдържанието на PDF страницата"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Маркирайте текст за редактиране"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Приложете знаци за редактиране"
 		},
+		"showMobileMenuButton": {
+			"title": "Още"
+		},
+		"boldTextButton": {
+			"title": "Удебелен"
+		},
+		"italicTextButton": {
+			"title": "Курсив"
+		},
+		"underlineTextButton": {
+			"title": "Подчертайте"
+		},
+		"strikethroughTextButton": {
+			"title": "Зачертано"
+		},
+		"alignLeftButton": {
+			"title": "Подравнете вляво"
+		},
+		"alignCenterButton": {
+			"title": "Подравнете центъра"
+		},
+		"alignRightButton": {
+			"title": "Подравняване надясно"
+		},
+		"alignJustifyButton": {
+			"title": "Подравнете и изравните"
+		},
+		"fontColorButton": {
+			"title": "Задайте цвят на шрифта"
+		},
+		"fontColorSelectionButton": {
+			"title": "Изберете цвят на шрифта"
+		},
+		"undoChangesButton": {
+			"title": "Отказ"
+		},
+		"redoChangesButton": {
+			"title": "Повторете"
+		},
+		"addTextBlockButton": {
+			"title": "Добавете текст"
+		},
+		"deleteTextBlockButton": {
+			"title": "Изтриване на текст"
+		},
+		"saveChangesButton": {
+			"title": "Запазите промените"
+		},
 		"sidePanelCloseButton": {
 			"title": "Показване на страничната лента"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF ресурси за изображения"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Интерактивни полета"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Знаци за редактиране на PDF"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Показване на изображението на съдържанието"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Режим на взаимодействие:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Не"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Преглед"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Групирайте полета по страници"
+			},
+			"saveChangesButton": {
+				"value": "Запазите промените"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Страница",
 		"vspe-openFile-addFileString": "Добави файл",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Запазете промените в PDF документ",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Актуализиране на интерактивна форма",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Вземете интерактивна форма",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Приложете знаци за редактиране",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Вземете текстови блокове",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Запазване на промените в текстови блокове",
+		"vspe-pdfContentEditorTool-getContentImages": "Вземете изображения на съдържание",
 		"vsdv-openFile-addFileString": "Добави файл",
 		"vsdv-openFile-authenticateFileString": "Удостоверете файла",
 		"vsdv-downloadFile-actionMessage": "Свали файл",
 		"vsdv-saveChanges-saveChangesInImages": "Запазете промените в изображенията",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Страница",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Запазете промените в анотациите",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Записване на анотации върху изображения",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Запазете промените в PDF документ",
+		"vsui-documentNavigationTool-getActions": "Вземете действия",
 		"vsui-documentPasswordDialog-title": "Парола за документ",
 		"vsui-dialog-okButton": "ОК",
 		"vsui-dialog-cancelButton": "Отказ",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Приложи",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Затвори",
 		"vsui-exportFileSettingsDialog-title": "Настройки за експортиране на файл",
-		"vsdv-dialog-okButton": "ОК",
-		"vsdv-dialog-cancelButton": "Отказ"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Компресиране на PDF документ"
 	}
 }

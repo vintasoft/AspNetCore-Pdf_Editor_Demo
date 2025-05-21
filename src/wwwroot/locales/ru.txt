@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Редакция"
 		},
+		"contentEditorLabel": {
+			"text": "Редактор"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Загрузить и открыть файл"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Интерактивные поля"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Редактировать содержимое на странице PDF"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Отметить текст для редактирования"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Применить редакторские метки"
 		},
+		"showMobileMenuButton": {
+			"title": "Еще"
+		},
+		"boldTextButton": {
+			"title": "Жирный"
+		},
+		"italicTextButton": {
+			"title": "Курсив"
+		},
+		"underlineTextButton": {
+			"title": "Подчеркнутый"
+		},
+		"strikethroughTextButton": {
+			"title": "Зачеркнутый"
+		},
+		"alignLeftButton": {
+			"title": "Выровнять по левому краю"
+		},
+		"alignCenterButton": {
+			"title": "Выровнять по центру"
+		},
+		"alignRightButton": {
+			"title": "Выровнять по правому краю"
+		},
+		"alignJustifyButton": {
+			"title": "Выровнять по ширине"
+		},
+		"fontColorButton": {
+			"title": "Установить цвет шрифта"
+		},
+		"fontColorSelectionButton": {
+			"title": "Выбрать цвет шрифта"
+		},
+		"undoChangesButton": {
+			"title": "Отменить"
+		},
+		"redoChangesButton": {
+			"title": "Повторить"
+		},
+		"addTextBlockButton": {
+			"title": "Добавить текст"
+		},
+		"deleteTextBlockButton": {
+			"title": "Удалить текст"
+		},
+		"saveChangesButton": {
+			"title": "Сохранить изменения"
+		},
 		"sidePanelCloseButton": {
 			"title": "Показать боковую панель"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "Ресурсы изображения PDF"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Интерактивные поля"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF редакторские метки"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Показать контент-изображение"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Режим взаимодействия:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Нет"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Просмотр"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Группировать поля по страницам"
+			},
+			"saveChangesButton": {
+				"value": "Сохранить изменения"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Страница",
 		"vspe-openFile-addFileString": "Добавить файл",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Сохранить изменения в PDF-документе",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Обновить интерактивную форму",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Получить интерактивную форму",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Применить редакторские метки",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Получить текстовые блоки",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Сохранить изменения в текстовых блоках",
+		"vspe-pdfContentEditorTool-getContentImages": "Получить изображения контента",
 		"vsdv-openFile-addFileString": "Добавить файл",
 		"vsdv-openFile-authenticateFileString": "Аутентификация файла",
 		"vsdv-downloadFile-actionMessage": "Загрузить файл",
 		"vsdv-saveChanges-saveChangesInImages": "Сохранить изменения в изображениях",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Страница",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Сохранить изменения в аннотациях",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Прожечь аннотации на изображениях",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Сохранить изменения в PDF-документе",
+		"vsui-documentNavigationTool-getActions": "Получить действия",
 		"vsui-documentPasswordDialog-title": "Пароль к документу",
 		"vsui-dialog-okButton": "ОК",
 		"vsui-dialog-cancelButton": "Отмена",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Применить",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Закрыть",
 		"vsui-exportFileSettingsDialog-title": "Настройки для экспорта файла",
-		"vsdv-dialog-okButton": "ОК",
-		"vsdv-dialog-cancelButton": "Отмена"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Сжать PDF-документ"
 	}
 }

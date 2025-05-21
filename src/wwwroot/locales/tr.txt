@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Redaksiyon"
 		},
+		"contentEditorLabel": {
+			"text": "Editör"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Dosyayı indir ve aç"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Etkileşimli alanlar"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "PDF sayfasındaki içeriği düzenle"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Metni redaksiyon için işaretleme"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Redaksiyon işaretlerini uygulama"
 		},
+		"showMobileMenuButton": {
+			"title": "Daha fazla"
+		},
+		"boldTextButton": {
+			"title": "Kalın"
+		},
+		"italicTextButton": {
+			"title": "İtalik"
+		},
+		"underlineTextButton": {
+			"title": "Altını çiz"
+		},
+		"strikethroughTextButton": {
+			"title": "Üstü çiz"
+		},
+		"alignLeftButton": {
+			"title": "Sola Hizala"
+		},
+		"alignCenterButton": {
+			"title": "Ortaya hizala"
+		},
+		"alignRightButton": {
+			"title": "Sağa Hizala"
+		},
+		"alignJustifyButton": {
+			"title": "Yasla hizala"
+		},
+		"fontColorButton": {
+			"title": "Yazı tipi rengini ayarla"
+		},
+		"fontColorSelectionButton": {
+			"title": "Yazı tipi rengini seç"
+		},
+		"undoChangesButton": {
+			"title": "İptal"
+		},
+		"redoChangesButton": {
+			"title": "Tekrarla"
+		},
+		"addTextBlockButton": {
+			"title": "Metin ekle"
+		},
+		"deleteTextBlockButton": {
+			"title": "Metni sil"
+		},
+		"saveChangesButton": {
+			"title": "Değişiklikleri Kaydet"
+		},
 		"sidePanelCloseButton": {
 			"title": "Kenar çubuğunu göster"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF görüntü kaynakları"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Etkileşimli alanlar"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF redaksiyon işaretleri"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "İçerik resmini göster"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Etkileşim modu:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Hayır"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Görüntüle"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Alanları sayfalara göre gruplandırma"
+			},
+			"saveChangesButton": {
+				"value": "Değişiklikleri Kaydet"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sayfa",
 		"vspe-openFile-addFileString": "Dosya Ekle",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Değişiklikleri PDF belgesine kaydet",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Etkileşimli formu güncelle",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Etkileşimli formu al",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Redaksiyon işaretlerini uygulama",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Metin bloklarını al",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Metin bloklarındaki değişiklikleri kaydet",
+		"vspe-pdfContentEditorTool-getContentImages": "İçerik resimlerini al",
 		"vsdv-openFile-addFileString": "Dosya Ekle",
 		"vsdv-openFile-authenticateFileString": "Dosyanın kimliğini doğrula",
 		"vsdv-downloadFile-actionMessage": "Dosyayı indir",
 		"vsdv-saveChanges-saveChangesInImages": "Resimlerdeki değişiklikleri kaydet",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Sayfa",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Ek açıklamalardaki değişiklikleri kaydet",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Görüntülere ek açıklamalar yazın",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Değişiklikleri PDF belgesine kaydet",
+		"vsui-documentNavigationTool-getActions": "Eylemleri al",
 		"vsui-documentPasswordDialog-title": "Belge parolası",
 		"vsui-dialog-okButton": "Tamam",
 		"vsui-dialog-cancelButton": "İptal",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Uygula",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Kapat",
 		"vsui-exportFileSettingsDialog-title": "Dosyayı dışa aktarma ayarları",
-		"vsdv-dialog-okButton": "Tamam",
-		"vsdv-dialog-cancelButton": "İptal"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF belgesini sıkıştır"
 	}
 }

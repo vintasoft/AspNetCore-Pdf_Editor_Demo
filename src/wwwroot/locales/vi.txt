@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Sự biên tập"
 		},
+		"contentEditorLabel": {
+			"text": "Biên tập"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Tải xuống và mở tệp"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Các trường tương tác"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Chỉnh sửa nội dung trên trang PDF"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Đánh dấu văn bản để biên tập"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Áp dụng dấu hiệu biên tập"
 		},
+		"showMobileMenuButton": {
+			"title": "Thêm"
+		},
+		"boldTextButton": {
+			"title": "In đậm"
+		},
+		"italicTextButton": {
+			"title": "In nghiêng"
+		},
+		"underlineTextButton": {
+			"title": "Gạch chân"
+		},
+		"strikethroughTextButton": {
+			"title": "Gạch ngang"
+		},
+		"alignLeftButton": {
+			"title": "Căn trái"
+		},
+		"alignCenterButton": {
+			"title": "Căn giữa"
+		},
+		"alignRightButton": {
+			"title": "Căn phải"
+		},
+		"alignJustifyButton": {
+			"title": "Căn đều"
+		},
+		"fontColorButton": {
+			"title": "Đặt màu phông chữ"
+		},
+		"fontColorSelectionButton": {
+			"title": "Chọn màu phông chữ"
+		},
+		"undoChangesButton": {
+			"title": "Hủy bỏ"
+		},
+		"redoChangesButton": {
+			"title": "Lặp lại"
+		},
+		"addTextBlockButton": {
+			"title": "Thêm văn bản"
+		},
+		"deleteTextBlockButton": {
+			"title": "Xóa văn bản"
+		},
+		"saveChangesButton": {
+			"title": "Lưu thay đổi"
+		},
 		"sidePanelCloseButton": {
 			"title": "Hiển thị thanh bên"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "Tài nguyên hình ảnh PDF"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Các trường tương tác"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Dấu hiệu chỉnh sửa PDF"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Hiển thị hình ảnh nội dung"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Chế độ tương tác:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Không"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Xem"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Nhóm các trường theo trang"
+			},
+			"saveChangesButton": {
+				"value": "Lưu thay đổi"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Trang",
 		"vspe-openFile-addFileString": "Thêm tập tin",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Lưu các thay đổi trong tài liệu PDF",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Cập nhật biểu mẫu tương tác",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Nhận biểu mẫu tương tác",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Áp dụng dấu hiệu biên tập",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Nhận khối văn bản",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Lưu thay đổi trong khối văn bản",
+		"vspe-pdfContentEditorTool-getContentImages": "Nhận hình ảnh nội dung",
 		"vsdv-openFile-addFileString": "Thêm tập tin",
 		"vsdv-openFile-authenticateFileString": "Xác thực tập tin",
 		"vsdv-downloadFile-actionMessage": "Tải tập tin",
 		"vsdv-saveChanges-saveChangesInImages": "Lưu các thay đổi trong hình ảnh",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Trang",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Lưu các thay đổi trong chú thích",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Ghi chú thích trên hình ảnh",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Lưu các thay đổi trong tài liệu PDF",
+		"vsui-documentNavigationTool-getActions": "Nhận hành động",
 		"vsui-documentPasswordDialog-title": "Mật khẩu tài liệu",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Hủy",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Áp dụng",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Đóng",
 		"vsui-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Hủy"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Nén tài liệu PDF"
 	}
 }

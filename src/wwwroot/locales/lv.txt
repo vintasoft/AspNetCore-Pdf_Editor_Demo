@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Redakcija"
 		},
+		"contentEditorLabel": {
+			"text": "Redaktors"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Augšupielādējiet un atveriet failu"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktīvie lauki"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Rediģēt saturu PDF lapā"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Atzīmēt tekstu rediģēšanai"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Lietojiet rediģēšanas atzīmes"
 		},
+		"showMobileMenuButton": {
+			"title": "Vairāk"
+		},
+		"boldTextButton": {
+			"title": "Treknrakstā"
+		},
+		"italicTextButton": {
+			"title": "Kursīvs"
+		},
+		"underlineTextButton": {
+			"title": "Pasvītrot"
+		},
+		"strikethroughTextButton": {
+			"title": "Pārsvītrots"
+		},
+		"alignLeftButton": {
+			"title": "Izlīdzināt pa kreisi"
+		},
+		"alignCenterButton": {
+			"title": "Izlīdziniet centru"
+		},
+		"alignRightButton": {
+			"title": "Izlīdziniet pa labi"
+		},
+		"alignJustifyButton": {
+			"title": "Izlīdzināt taisnošanu"
+		},
+		"fontColorButton": {
+			"title": "Iestatiet fonta krāsu"
+		},
+		"fontColorSelectionButton": {
+			"title": "Izvēlieties fonta krāsu"
+		},
+		"undoChangesButton": {
+			"title": "Atsaukt"
+		},
+		"redoChangesButton": {
+			"title": "Atkārtoti"
+		},
+		"addTextBlockButton": {
+			"title": "Pievienojiet tekstu"
+		},
+		"deleteTextBlockButton": {
+			"title": "Dzēst tekstu"
+		},
+		"saveChangesButton": {
+			"title": "Saglabāt izmaiņas"
+		},
 		"sidePanelCloseButton": {
 			"title": "Rādīt sānu paneli"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF attēlu resursi"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interaktīvie lauki"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF rediģēšanas atzīmes"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Rādīt satura attēlu"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Mijiedarbības režīms:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Nav"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Skatīt"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Grupējiet laukus pēc lapām"
+			},
+			"saveChangesButton": {
+				"value": "Saglabāt izmaiņas"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Lappuse",
 		"vspe-openFile-addFileString": "Pievienot failu",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Saglabājiet izmaiņas PDF dokumentā",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Atjaunināt interaktīvo veidlapu",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Iegūstiet interaktīvu veidlapu",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Lietojiet rediģēšanas atzīmes",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Iegūstiet teksta blokus",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Saglabājiet izmaiņas teksta blokos",
+		"vspe-pdfContentEditorTool-getContentImages": "Iegūstiet satura attēlus",
 		"vsdv-openFile-addFileString": "Pievienot failu",
 		"vsdv-openFile-authenticateFileString": "Autentificēt failu",
 		"vsdv-downloadFile-actionMessage": "Lejupielādēt failu",
 		"vsdv-saveChanges-saveChangesInImages": "Saglabājiet izmaiņas attēlos",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Lappuse",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Saglabājiet izmaiņas anotācijās",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Ierakstiet anotācijas uz attēliem",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Saglabājiet izmaiņas PDF dokumentā",
+		"vsui-documentNavigationTool-getActions": "Iegūstiet darbības",
 		"vsui-documentPasswordDialog-title": "Dokumenta parole",
 		"vsui-dialog-okButton": "labi",
 		"vsui-dialog-cancelButton": "Atcelt",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Pieteikties",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Aizvērt",
 		"vsui-exportFileSettingsDialog-title": "Faila eksportēšanas iestatījumi",
-		"vsdv-dialog-okButton": "labi",
-		"vsdv-dialog-cancelButton": "Atcelt"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Saspiest PDF dokumentu"
 	}
 }

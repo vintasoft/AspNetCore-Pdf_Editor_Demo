@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Redagavimas"
 		},
+		"contentEditorLabel": {
+			"text": "Redaktorius"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Įkelti ir atidaryti failą"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktyvūs laukai"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Redaguoti turinį PDF puslapyje"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Pažymėti tekstą redaguoti"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Taikykite redagavimo ženklus"
 		},
+		"showMobileMenuButton": {
+			"title": "Daugiau"
+		},
+		"boldTextButton": {
+			"title": "Paryškintas"
+		},
+		"italicTextButton": {
+			"title": "Kursyvas"
+		},
+		"underlineTextButton": {
+			"title": "Pabraukite"
+		},
+		"strikethroughTextButton": {
+			"title": "Perbraukta"
+		},
+		"alignLeftButton": {
+			"title": "Lygiuoti į kairę"
+		},
+		"alignCenterButton": {
+			"title": "Išlygiuoti centrą"
+		},
+		"alignRightButton": {
+			"title": "Sulygiuoti į dešinę"
+		},
+		"alignJustifyButton": {
+			"title": "Lygiuoti išlyginti"
+		},
+		"fontColorButton": {
+			"title": "Nustatykite šrifto spalvą"
+		},
+		"fontColorSelectionButton": {
+			"title": "Pasirinkite šrifto spalvą"
+		},
+		"undoChangesButton": {
+			"title": "Anuliuoti"
+		},
+		"redoChangesButton": {
+			"title": "Perdaryti"
+		},
+		"addTextBlockButton": {
+			"title": "Pridėti tekstą"
+		},
+		"deleteTextBlockButton": {
+			"title": "Ištrinti tekstą"
+		},
+		"saveChangesButton": {
+			"title": "Išsaugoti pakeitimus"
+		},
 		"sidePanelCloseButton": {
 			"title": "Rodyti šoninį skydelį"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF vaizdo ištekliai"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interaktyvūs laukai"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF redagavimo žymės"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Rodyti turinio vaizdą"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Sąveikos režimas:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Nė vienas"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Žiūrėti"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Grupuokite laukus pagal puslapius"
+			},
+			"saveChangesButton": {
+				"value": "Išsaugoti pakeitimus"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Puslapis",
 		"vspe-openFile-addFileString": "Pridėti failą",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Išsaugokite pakeitimus PDF dokumente",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Atnaujinkite interaktyvią formą",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Gaukite interaktyvią formą",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Taikykite redagavimo ženklus",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Gaukite teksto blokus",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Išsaugokite teksto blokų pakeitimus",
+		"vspe-pdfContentEditorTool-getContentImages": "Gaukite turinio vaizdus",
 		"vsdv-openFile-addFileString": "Pridėti failą",
 		"vsdv-openFile-authenticateFileString": "Autentifikuoti failą",
 		"vsdv-downloadFile-actionMessage": "Atsisiųsti failą",
 		"vsdv-saveChanges-saveChangesInImages": "Išsaugokite vaizdų pakeitimus",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Puslapis",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Išsaugokite komentarų pakeitimus",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Įrašykite komentarus ant vaizdų",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Išsaugokite pakeitimus PDF dokumente",
+		"vsui-documentNavigationTool-getActions": "Gaukite veiksmų",
 		"vsui-documentPasswordDialog-title": "Dokumento slaptažodis",
 		"vsui-dialog-okButton": "Gerai",
 		"vsui-dialog-cancelButton": "Atšaukti",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Taikyti",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Uždaryti",
 		"vsui-exportFileSettingsDialog-title": "Failo eksporto nustatymai",
-		"vsdv-dialog-okButton": "Gerai",
-		"vsdv-dialog-cancelButton": "Atšaukti"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Suspausti PDF dokumentą"
 	}
 }

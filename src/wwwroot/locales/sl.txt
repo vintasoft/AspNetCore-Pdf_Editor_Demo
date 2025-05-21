@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Redakcija"
 		},
+		"contentEditorLabel": {
+			"text": "Urednik"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Naloži in odpri datoteko"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktivna polja"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Uredite vsebino na strani PDF"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Označi besedilo za redigiranje"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Uporabi oznake redakcije"
 		},
+		"showMobileMenuButton": {
+			"title": "Več"
+		},
+		"boldTextButton": {
+			"title": "Krepko"
+		},
+		"italicTextButton": {
+			"title": "Ležeče"
+		},
+		"underlineTextButton": {
+			"title": "Podčrtaj"
+		},
+		"strikethroughTextButton": {
+			"title": "Prečrtano"
+		},
+		"alignLeftButton": {
+			"title": "Poravnajte levo"
+		},
+		"alignCenterButton": {
+			"title": "Poravnajte sredino"
+		},
+		"alignRightButton": {
+			"title": "Poravnaj desno"
+		},
+		"alignJustifyButton": {
+			"title": "Poravnaj poravnano"
+		},
+		"fontColorButton": {
+			"title": "Nastavite barvo pisave"
+		},
+		"fontColorSelectionButton": {
+			"title": "Izberite barvo pisave"
+		},
+		"undoChangesButton": {
+			"title": "Razveljavi"
+		},
+		"redoChangesButton": {
+			"title": "Ponovi"
+		},
+		"addTextBlockButton": {
+			"title": "Dodajte besedilo"
+		},
+		"deleteTextBlockButton": {
+			"title": "Izbriši besedilo"
+		},
+		"saveChangesButton": {
+			"title": "Shrani spremembe"
+		},
 		"sidePanelCloseButton": {
 			"title": "Pokaži stransko ploščo"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF slikovni viri"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interaktivna polja"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Redakcijske oznake PDF"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Prikaži sliko vsebine"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Način interakcije:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Noben"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Pogled"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Združite polja po straneh"
+			},
+			"saveChangesButton": {
+				"value": "Shrani spremembe"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Stran",
 		"vspe-openFile-addFileString": "Dodaj datoteko",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Shranite spremembe v dokument PDF",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Posodobite interaktivni obrazec",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Pridobite interaktivni obrazec",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Uporabi oznake redakcije",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Pridobite besedilne bloke",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Shranite spremembe v besedilnih blokih",
+		"vspe-pdfContentEditorTool-getContentImages": "Pridobite slike vsebine",
 		"vsdv-openFile-addFileString": "Dodaj datoteko",
 		"vsdv-openFile-authenticateFileString": "Preveri pristnost datoteke",
 		"vsdv-downloadFile-actionMessage": "Prenesi datoteko",
 		"vsdv-saveChanges-saveChangesInImages": "Shranite spremembe v slikah",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Stran",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Shranite spremembe v opombah",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Zapiši opombe na slike",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Shranite spremembe v dokument PDF",
+		"vsui-documentNavigationTool-getActions": "Pridobite dejanja",
 		"vsui-documentPasswordDialog-title": "Geslo za dokument",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Prekliči",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Prijavite se",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Zapri",
 		"vsui-exportFileSettingsDialog-title": "Nastavitve za izvoz datoteke",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Prekliči"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Stisnite dokument PDF"
 	}
 }

@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Redaktion"
 		},
+		"contentEditorLabel": {
+			"text": "Redaktør"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Download og åbn fil"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktive felter"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Rediger indhold på PDF-side"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Marker tekst til redigering"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Anvend redaktionsmærker"
 		},
+		"showMobileMenuButton": {
+			"title": "Mere"
+		},
+		"boldTextButton": {
+			"title": "Dristig"
+		},
+		"italicTextButton": {
+			"title": "Kursiv"
+		},
+		"underlineTextButton": {
+			"title": "Understrege"
+		},
+		"strikethroughTextButton": {
+			"title": "Gennemstregning"
+		},
+		"alignLeftButton": {
+			"title": "Juster til venstre"
+		},
+		"alignCenterButton": {
+			"title": "Juster midten"
+		},
+		"alignRightButton": {
+			"title": "Juster til højre"
+		},
+		"alignJustifyButton": {
+			"title": "Juster retfærdiggør"
+		},
+		"fontColorButton": {
+			"title": "Indstil skriftfarve"
+		},
+		"fontColorSelectionButton": {
+			"title": "Vælg skrifttypefarve"
+		},
+		"undoChangesButton": {
+			"title": "Annuller"
+		},
+		"redoChangesButton": {
+			"title": "Gentag"
+		},
+		"addTextBlockButton": {
+			"title": "Tilføj tekst"
+		},
+		"deleteTextBlockButton": {
+			"title": "Slet tekst"
+		},
+		"saveChangesButton": {
+			"title": "Gem ændringer"
+		},
 		"sidePanelCloseButton": {
 			"title": "Vis sidebjælke"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF billedressourcer"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interaktive felter"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF-redaktionsmærker"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Vis indholdsbillede"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Interaktionstilstand:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Nej"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Vis"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Gruppér felter efter sider"
+			},
+			"saveChangesButton": {
+				"value": "Gem ændringer"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Side",
 		"vspe-openFile-addFileString": "Tilføj fil",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Gem ændringer i PDF-dokument",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Opdater interaktiv formular",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Få interaktiv form",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Anvend redaktionsmærker",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Få tekstblokke",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Gem ændringer i tekstblokke",
+		"vspe-pdfContentEditorTool-getContentImages": "Få indholdsbilleder",
 		"vsdv-openFile-addFileString": "Tilføj fil",
 		"vsdv-openFile-authenticateFileString": "Godkend fil",
 		"vsdv-downloadFile-actionMessage": "Download fil",
 		"vsdv-saveChanges-saveChangesInImages": "Gem ændringer i billeder",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Side",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Gem ændringer i annoteringer",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Brænd annoteringer på billeder",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Gem ændringer i PDF-dokument",
+		"vsui-documentNavigationTool-getActions": "Få handlinger",
 		"vsui-documentPasswordDialog-title": "Dokumentadgangskode",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Annuller",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "ansøge",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Luk",
 		"vsui-exportFileSettingsDialog-title": "Indstillingerne for at eksportere fil",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Annuller"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Komprimer PDF-dokument"
 	}
 }

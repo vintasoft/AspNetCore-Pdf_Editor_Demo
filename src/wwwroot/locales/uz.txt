@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Redaktsiya"
 		},
+		"contentEditorLabel": {
+			"text": "Muharrir"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Faylni yuklang va oching"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktiv maydonlar"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "PDF sahifasida kontentni tahrirlash"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Matnni tahrir qilish uchun belgilang"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Tahrirlash belgilarini qo'llang"
 		},
+		"showMobileMenuButton": {
+			"title": "Ko'proq"
+		},
+		"boldTextButton": {
+			"title": "Qalin"
+		},
+		"italicTextButton": {
+			"title": "Kursiv"
+		},
+		"underlineTextButton": {
+			"title": "Tagiga chizish"
+		},
+		"strikethroughTextButton": {
+			"title": "Chizilgan"
+		},
+		"alignLeftButton": {
+			"title": "Chapga tekislang"
+		},
+		"alignCenterButton": {
+			"title": "Markazni tekislang"
+		},
+		"alignRightButton": {
+			"title": "O'ngga tekislang"
+		},
+		"alignJustifyButton": {
+			"title": "Tegishli asoslash"
+		},
+		"fontColorButton": {
+			"title": "Shrift rangini o'rnating"
+		},
+		"fontColorSelectionButton": {
+			"title": "Shrift rangini tanlang"
+		},
+		"undoChangesButton": {
+			"title": "Bekor qilish"
+		},
+		"redoChangesButton": {
+			"title": "Qayta qiling"
+		},
+		"addTextBlockButton": {
+			"title": "Matn qo'shish"
+		},
+		"deleteTextBlockButton": {
+			"title": "Matnni oʻchirish"
+		},
+		"saveChangesButton": {
+			"title": "O'zgarishlarni saqlang"
+		},
 		"sidePanelCloseButton": {
 			"title": "Yon panelni ko'rsatish"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "Pdf rasm resurslari"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interaktiv maydonlar"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF tahrirlash belgilari"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Kontent tasvirini ko'rsatish"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "O'zaro aloqa rejimi:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Yo'q"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Ko'rinish"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Maydonlarni sahifalar bo‘yicha guruhlash"
+			},
+			"saveChangesButton": {
+				"value": "O'zgarishlarni saqlang"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sahifa",
 		"vspe-openFile-addFileString": "Fayl qo'shish",
 		"vspe-saveChanges-saveChangesInPdfDocument": "O'zgarishlarni PDF hujjatida saqlang",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Interaktiv shaklni yangilang",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Interaktiv shaklni oling",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Tahrirlash belgilarini qo'llang",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Matn bloklarini oling",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "O'zgarishlarni matn bloklarida saqlang",
+		"vspe-pdfContentEditorTool-getContentImages": "Kontent tasvirlarini oling",
 		"vsdv-openFile-addFileString": "Fayl qo'shish",
 		"vsdv-openFile-authenticateFileString": "Faylni autentifikatsiya qilish",
 		"vsdv-downloadFile-actionMessage": "Faylni yuklab oling",
 		"vsdv-saveChanges-saveChangesInImages": "Rasmlardagi o'zgarishlarni saqlang",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Sahifa",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Izohlardagi o'zgarishlarni saqlang",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Rasmlarga izohlarni yozish",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "O'zgarishlarni PDF hujjatida saqlang",
+		"vsui-documentNavigationTool-getActions": "Amallarni oling",
 		"vsui-documentPasswordDialog-title": "Hujjat uchun parol",
 		"vsui-dialog-okButton": "KELISHDIKMI",
 		"vsui-dialog-cancelButton": "Bekor qilish",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Murojaat qiling",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Yopish",
 		"vsui-exportFileSettingsDialog-title": "Faylni eksport qilish uchun sozlamalar",
-		"vsdv-dialog-okButton": "KELISHDIKMI",
-		"vsdv-dialog-cancelButton": "Bekor qilish"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF hujjatni siqish"
 	}
 }

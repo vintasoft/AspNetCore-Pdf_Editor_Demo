@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Redaktion"
 		},
+		"contentEditorLabel": {
+			"text": "Redaktör"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Ladda ner och öppna filen"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktiva fält"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Redigera innehåll på PDF-sidan"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Markera text för redigering"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Använd redaktionsmärken"
 		},
+		"showMobileMenuButton": {
+			"title": "Mer"
+		},
+		"boldTextButton": {
+			"title": "Djärv"
+		},
+		"italicTextButton": {
+			"title": "Kursiv"
+		},
+		"underlineTextButton": {
+			"title": "Betona"
+		},
+		"strikethroughTextButton": {
+			"title": "Genomstruken"
+		},
+		"alignLeftButton": {
+			"title": "Vänsterjustera"
+		},
+		"alignCenterButton": {
+			"title": "Rikta in mitten"
+		},
+		"alignRightButton": {
+			"title": "Högerjustera"
+		},
+		"alignJustifyButton": {
+			"title": "Justera motivera"
+		},
+		"fontColorButton": {
+			"title": "Ställ in teckensnittsfärg"
+		},
+		"fontColorSelectionButton": {
+			"title": "Välj teckensnittsfärg"
+		},
+		"undoChangesButton": {
+			"title": "Avbryt"
+		},
+		"redoChangesButton": {
+			"title": "Upprepa"
+		},
+		"addTextBlockButton": {
+			"title": "Lägg till text"
+		},
+		"deleteTextBlockButton": {
+			"title": "Ta bort text"
+		},
+		"saveChangesButton": {
+			"title": "Spara ändringar"
+		},
 		"sidePanelCloseButton": {
 			"title": "Visa sidofältet"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF-bildresurser"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interaktiva fält"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF-redigeringsmärken"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Visa innehållsbild"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Interaktionsläge:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Nej"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Visa"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Gruppera fält efter sidor"
+			},
+			"saveChangesButton": {
+				"value": "Spara ändringar"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sida",
 		"vspe-openFile-addFileString": "Lägg till fil",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Spara ändringar i PDF-dokument",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Uppdatera interaktivt formulär",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Få interaktiv form",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Använd redaktionsmärken",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Skaffa textblock",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Spara ändringar i textblock",
+		"vspe-pdfContentEditorTool-getContentImages": "Få innehållsbilder",
 		"vsdv-openFile-addFileString": "Lägg till fil",
 		"vsdv-openFile-authenticateFileString": "Autentisera fil",
 		"vsdv-downloadFile-actionMessage": "Nedladdning fil",
 		"vsdv-saveChanges-saveChangesInImages": "Spara ändringar i bilder",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Sida",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Spara ändringar i kommentarer",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Bränn kommentarer på bilder",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Spara ändringar i PDF-dokument",
+		"vsui-documentNavigationTool-getActions": "Få åtgärder",
 		"vsui-documentPasswordDialog-title": "Dokumentlösenord",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Avbryt",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Tillämpa",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Stäng",
 		"vsui-exportFileSettingsDialog-title": "Inställningarna för att exportera filen",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Avbryt"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Komprimera PDF-dokument"
 	}
 }

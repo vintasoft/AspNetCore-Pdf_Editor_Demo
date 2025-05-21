@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Σύνταξη"
 		},
+		"contentEditorLabel": {
+			"text": "Συντάκτης"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Λήψη και άνοιγμα αρχείου"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Διαδραστικά πεδία"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Επεξεργασία περιεχομένου στη σελίδα PDF"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Επισήμανση κειμένου για διόρθωση"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Εφαρμόστε σημάδια διόρθωσης"
 		},
+		"showMobileMenuButton": {
+			"title": "Περισσότερα"
+		},
+		"boldTextButton": {
+			"title": "Τολμηρός"
+		},
+		"italicTextButton": {
+			"title": "Πλάγια γραφή"
+		},
+		"underlineTextButton": {
+			"title": "Υπογραμμίζω"
+		},
+		"strikethroughTextButton": {
+			"title": "Strikethrough"
+		},
+		"alignLeftButton": {
+			"title": "Στοίχιση αριστερά"
+		},
+		"alignCenterButton": {
+			"title": "Ευθυγράμμιση κέντρου"
+		},
+		"alignRightButton": {
+			"title": "Στοίχιση δεξιά"
+		},
+		"alignJustifyButton": {
+			"title": "Ευθυγράμμιση δικαιολογώ"
+		},
+		"fontColorButton": {
+			"title": "Ορισμός χρώματος γραμματοσειράς"
+		},
+		"fontColorSelectionButton": {
+			"title": "Επιλέξτε χρώμα γραμματοσειράς"
+		},
+		"undoChangesButton": {
+			"title": "Ακύρωση"
+		},
+		"redoChangesButton": {
+			"title": "Επανάληψη"
+		},
+		"addTextBlockButton": {
+			"title": "Προσθήκη κειμένου"
+		},
+		"deleteTextBlockButton": {
+			"title": "Διαγραφή κειμένου"
+		},
+		"saveChangesButton": {
+			"title": "Αποθήκευσε τις αλλαγές"
+		},
 		"sidePanelCloseButton": {
 			"title": "Εμφάνιση πλαϊνής γραμμής"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "Πηγές εικόνας PDF"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Διαδραστικά πεδία"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Σημάδια επεξεργασίας PDF"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Εμφάνιση εικόνας περιεχομένου"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Λειτουργία αλληλεπίδρασης:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Όχι"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Προβολή"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Ομαδοποιήστε τα πεδία ανά σελίδες"
+			},
+			"saveChangesButton": {
+				"value": "Αποθήκευσε τις αλλαγές"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Σελίδα",
 		"vspe-openFile-addFileString": "Προσθήκη αρχείου",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Αποθηκεύστε τις αλλαγές σε έγγραφο PDF",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Ενημέρωση διαδραστικής φόρμας",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Αποκτήστε διαδραστική φόρμα",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Εφαρμόστε σημάδια διόρθωσης",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Λάβετε μπλοκ κειμένου",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Αποθηκεύστε τις αλλαγές σε μπλοκ κειμένου",
+		"vspe-pdfContentEditorTool-getContentImages": "Λάβετε εικόνες περιεχομένου",
 		"vsdv-openFile-addFileString": "Προσθήκη αρχείου",
 		"vsdv-openFile-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
 		"vsdv-downloadFile-actionMessage": "Λήψη αρχείου",
 		"vsdv-saveChanges-saveChangesInImages": "Αποθηκεύστε τις αλλαγές στις εικόνες",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Σελίδα",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Αποθηκεύστε τις αλλαγές στους σχολιασμούς",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Εγγραφή σχολιασμών σε εικόνες",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Αποθηκεύστε τις αλλαγές σε έγγραφο PDF",
+		"vsui-documentNavigationTool-getActions": "Λάβετε ενέργειες",
 		"vsui-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
 		"vsui-dialog-okButton": "ΟΚ",
 		"vsui-dialog-cancelButton": "Ακύρωση",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Ισχύουν",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Κλείσιμο",
 		"vsui-exportFileSettingsDialog-title": "Οι ρυθμίσεις για εξαγωγή αρχείου",
-		"vsdv-dialog-okButton": "ΟΚ",
-		"vsdv-dialog-cancelButton": "Ακύρωση"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Συμπίεση εγγράφου PDF"
 	}
 }

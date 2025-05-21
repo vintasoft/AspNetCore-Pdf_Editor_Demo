@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Urekebishaji"
 		},
+		"contentEditorLabel": {
+			"text": "Mhariri"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Pakia na ufungue faili"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Sehemu zinazoingiliana"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Hariri yaliyomo kwenye ukurasa wa PDF"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Weka alama kwenye maandishi ili yafanyiwe upya"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Weka alama za urejeshaji"
 		},
+		"showMobileMenuButton": {
+			"title": "Zaidi"
+		},
+		"boldTextButton": {
+			"title": "Ujasiri"
+		},
+		"italicTextButton": {
+			"title": "Italiki"
+		},
+		"underlineTextButton": {
+			"title": "Piga mstari"
+		},
+		"strikethroughTextButton": {
+			"title": "Mgomo"
+		},
+		"alignLeftButton": {
+			"title": "Pangilia kushoto"
+		},
+		"alignCenterButton": {
+			"title": "Pangilia katikati"
+		},
+		"alignRightButton": {
+			"title": "Pangilia kulia"
+		},
+		"alignJustifyButton": {
+			"title": "Pangilia kuhalalisha"
+		},
+		"fontColorButton": {
+			"title": "Weka rangi ya fonti"
+		},
+		"fontColorSelectionButton": {
+			"title": "Chagua rangi ya fonti"
+		},
+		"undoChangesButton": {
+			"title": "Tendua"
+		},
+		"redoChangesButton": {
+			"title": "Rudia"
+		},
+		"addTextBlockButton": {
+			"title": "Ongeza maandishi"
+		},
+		"deleteTextBlockButton": {
+			"title": "Futa maandishi"
+		},
+		"saveChangesButton": {
+			"title": "Hifadhi mabadiliko"
+		},
 		"sidePanelCloseButton": {
 			"title": "Onyesha Paneli ya Upande"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "Rasilimali za picha za PDF"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Sehemu zinazoingiliana"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Alama za urekebishaji za PDF"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Onyesha picha ya maudhui"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Hali ya mwingiliano:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Hakuna"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Tazama"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Panga nyuga kwa kurasa"
+			},
+			"saveChangesButton": {
+				"value": "Hifadhi mabadiliko"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Ukurasa",
 		"vspe-openFile-addFileString": "Ongeza faili",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Hifadhi mabadiliko katika hati ya PDF",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Sasisha fomu ya mwingiliano",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Pata fomu inayoingiliana",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Weka alama za urejeshaji",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Pata vizuizi vya maandishi",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Hifadhi mabadiliko katika vizuizi vya maandishi",
+		"vspe-pdfContentEditorTool-getContentImages": "Pata picha za maudhui",
 		"vsdv-openFile-addFileString": "Ongeza faili",
 		"vsdv-openFile-authenticateFileString": "Thibitisha faili",
 		"vsdv-downloadFile-actionMessage": "Pakua faili",
 		"vsdv-saveChanges-saveChangesInImages": "Hifadhi mabadiliko katika picha",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Ukurasa",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Hifadhi mabadiliko katika vidokezo",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Choma maelezo kwenye picha",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Hifadhi mabadiliko katika hati ya PDF",
+		"vsui-documentNavigationTool-getActions": "Pata vitendo",
 		"vsui-documentPasswordDialog-title": "Nenosiri la hati",
 		"vsui-dialog-okButton": "sawa",
 		"vsui-dialog-cancelButton": "Ghairi",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Omba",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Funga",
 		"vsui-exportFileSettingsDialog-title": "Mipangilio ya kuhamisha faili",
-		"vsdv-dialog-okButton": "sawa",
-		"vsdv-dialog-cancelButton": "Ghairi"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Finyaza hati ya PDF"
 	}
 }

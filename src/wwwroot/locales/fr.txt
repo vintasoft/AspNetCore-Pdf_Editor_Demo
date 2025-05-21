@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Rédaction"
 		},
+		"contentEditorLabel": {
+			"text": "Éditeur"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Télécharger et ouvrir le fichier"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Champs interactifs"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Modifier le contenu d'une page PDF"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Marquer le texte pour rédaction"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Appliquer des marques de rédaction"
 		},
+		"showMobileMenuButton": {
+			"title": "Plus"
+		},
+		"boldTextButton": {
+			"title": "Gras"
+		},
+		"italicTextButton": {
+			"title": "Italique"
+		},
+		"underlineTextButton": {
+			"title": "Souligner"
+		},
+		"strikethroughTextButton": {
+			"title": "Barré"
+		},
+		"alignLeftButton": {
+			"title": "Aligner à gauche"
+		},
+		"alignCenterButton": {
+			"title": "Aligner au centre"
+		},
+		"alignRightButton": {
+			"title": "Aligner à droite"
+		},
+		"alignJustifyButton": {
+			"title": "Aligner et justifier"
+		},
+		"fontColorButton": {
+			"title": "Définir la couleur de police"
+		},
+		"fontColorSelectionButton": {
+			"title": "Sélectionner la couleur de police"
+		},
+		"undoChangesButton": {
+			"title": "Annuler"
+		},
+		"redoChangesButton": {
+			"title": "Répéter"
+		},
+		"addTextBlockButton": {
+			"title": "Ajouter du texte"
+		},
+		"deleteTextBlockButton": {
+			"title": "Supprimer du texte"
+		},
+		"saveChangesButton": {
+			"title": "Sauvegarder les modifications"
+		},
 		"sidePanelCloseButton": {
 			"title": "Afficher la barre latérale"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "Ressources d'image PDF"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Champs interactifs"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Marques de rédaction PDF"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Afficher l'image du contenu"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Mode d'interaction :"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Non"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Voir"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Regrouper les champs par pages"
+			},
+			"saveChangesButton": {
+				"value": "Sauvegarder les modifications"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
 		"vspe-openFile-addFileString": "Ajouter le fichier",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Enregistrer les modifications dans le document PDF",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Mettre à jour le formulaire interactif",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Obtenir le formulaire interactif",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Appliquer des marques de rédaction",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Obtenir les blocs de texte",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Enregistrer les modifications dans les blocs de texte",
+		"vspe-pdfContentEditorTool-getContentImages": "Obtenir les images du contenu",
 		"vsdv-openFile-addFileString": "Ajouter le fichier",
 		"vsdv-openFile-authenticateFileString": "Authentifier le fichier",
 		"vsdv-downloadFile-actionMessage": "Télécharger un fichier",
 		"vsdv-saveChanges-saveChangesInImages": "Enregistrer les modifications dans les images",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Enregistrer les modifications dans les annotations",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Graver des annotations sur les images",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Enregistrer les modifications dans le document PDF",
+		"vsui-documentNavigationTool-getActions": "Obtenir les actions",
 		"vsui-documentPasswordDialog-title": "Mot de passe du document",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Annuler",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Appliquer",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Fermer",
 		"vsui-exportFileSettingsDialog-title": "Les paramètres pour exporter le fichier",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Annuler"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Compresser le document PDF"
 	}
 }

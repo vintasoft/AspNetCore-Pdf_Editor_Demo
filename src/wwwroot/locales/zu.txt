@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Ukuhlelwa kabusha"
 		},
+		"contentEditorLabel": {
+			"text": "Mhleli"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Layisha futhi uvule ifayela"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Izinkambu ezisebenzisanayo"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Hlela okuqukethwe ekhasini le-PDF"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Maka umbhalo ukuze uhlelwe kabusha"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Faka amamaki okubuyisela emuva"
 		},
+		"showMobileMenuButton": {
+			"title": "Okuningi"
+		},
+		"boldTextButton": {
+			"title": "Okugqamile"
+		},
+		"italicTextButton": {
+			"title": "I-ithalikhi"
+		},
+		"underlineTextButton": {
+			"title": "Dwebela"
+		},
+		"strikethroughTextButton": {
+			"title": "I-Strikethrough"
+		},
+		"alignLeftButton": {
+			"title": "Qondanisa kwesokunxele"
+		},
+		"alignCenterButton": {
+			"title": "Qondanisa phakathi nendawo"
+		},
+		"alignRightButton": {
+			"title": "Qondanisa kwesokudla"
+		},
+		"alignJustifyButton": {
+			"title": "Qondanisa ukulungisa"
+		},
+		"fontColorButton": {
+			"title": "Setha umbala wefonti"
+		},
+		"fontColorSelectionButton": {
+			"title": "Khetha umbala wefonti"
+		},
+		"undoChangesButton": {
+			"title": "Hlehlisa"
+		},
+		"redoChangesButton": {
+			"title": "Yenza futhi"
+		},
+		"addTextBlockButton": {
+			"title": "Engeza umbhalo"
+		},
+		"deleteTextBlockButton": {
+			"title": "Susa umbhalo"
+		},
+		"saveChangesButton": {
+			"title": "Londoloza izinguquko"
+		},
 		"sidePanelCloseButton": {
 			"title": "Bonisa Iphaneli Eseceleni"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "Izinsiza zesithombe ze-PDF"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Izinkambu ezisebenzisanayo"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Izimpawu zokuphinda zenziwe kabusha ze-PDF"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Bonisa isithombe sokuqukethwe"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Imodi yokusebenzisana:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Lutho"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Buka"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Hlanganisa izinkambu ngamakhasi"
+			},
+			"saveChangesButton": {
+				"value": "Londoloza izinguquko"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Ikhasi",
 		"vspe-openFile-addFileString": "Engeza ifayela",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Buyekeza ifomu lokusebenzisana",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Thola ifomu interactive",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Faka amamaki okubuyisela emuva",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Thola amabhlogo wombhalo",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Londoloza izinguquko kumabhulokhi wombhalo",
+		"vspe-pdfContentEditorTool-getContentImages": "Thola izithombe zokuqukethwe",
 		"vsdv-openFile-addFileString": "Engeza ifayela",
 		"vsdv-openFile-authenticateFileString": "Qinisekisa ifayela",
 		"vsdv-downloadFile-actionMessage": "Landa ifayela",
 		"vsdv-saveChanges-saveChangesInImages": "Londoloza izinguquko ezithombeni",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Ikhasi",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Londoloza izinguquko ezichasiselweni",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Shisa izichasiselo ezithombeni",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
+		"vsui-documentNavigationTool-getActions": "Thola izenzo",
 		"vsui-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
 		"vsui-dialog-okButton": "KULUNGILE",
 		"vsui-dialog-cancelButton": "Khansela",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Faka isicelo",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Vala",
 		"vsui-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela",
-		"vsdv-dialog-okButton": "KULUNGILE",
-		"vsdv-dialog-cancelButton": "Khansela"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Cindezela idokhumenti ye-PDF"
 	}
 }

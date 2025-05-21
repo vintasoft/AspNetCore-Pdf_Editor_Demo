@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "편집"
 		},
+		"contentEditorLabel": {
+			"text": "편집기"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "파일 다운로드 및 열기"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "대화형 필드"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "PDF 페이지의 내용 편집"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "교정할 텍스트 표시"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "교정 표시 적용"
 		},
+		"showMobileMenuButton": {
+			"title": "더보기"
+		},
+		"boldTextButton": {
+			"title": "굵게"
+		},
+		"italicTextButton": {
+			"title": "기울임꼴"
+		},
+		"underlineTextButton": {
+			"title": "밑줄"
+		},
+		"strikethroughTextButton": {
+			"title": "취소선"
+		},
+		"alignLeftButton": {
+			"title": "왼쪽 정렬"
+		},
+		"alignCenterButton": {
+			"title": "가운데 정렬"
+		},
+		"alignRightButton": {
+			"title": "오른쪽 정렬"
+		},
+		"alignJustifyButton": {
+			"title": "정렬 정렬"
+		},
+		"fontColorButton": {
+			"title": "글꼴 색상 설정"
+		},
+		"fontColorSelectionButton": {
+			"title": "글꼴 색상 선택"
+		},
+		"undoChangesButton": {
+			"title": "취소"
+		},
+		"redoChangesButton": {
+			"title": "반복"
+		},
+		"addTextBlockButton": {
+			"title": "텍스트 추가"
+		},
+		"deleteTextBlockButton": {
+			"title": "텍스트 삭제"
+		},
+		"saveChangesButton": {
+			"title": "변경 사항을 저장하다"
+		},
 		"sidePanelCloseButton": {
 			"title": "사이드바 보기"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF 이미지 리소스"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "대화형 필드"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF 교정 표시"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "콘텐츠 이미지 표시"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "상호작용 모드:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "아니오"
+			},
+			"viewInteractionModeLabel": {
+				"text": "보기"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "페이지별로 필드 그룹화"
+			},
+			"saveChangesButton": {
+				"value": "변경 사항을 저장하다"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "페이지",
 		"vspe-openFile-addFileString": "파일 추가",
 		"vspe-saveChanges-saveChangesInPdfDocument": "PDF 문서에 변경 사항 저장",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "대화형 양식 업데이트",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "대화형 양식 가져오기",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "교정 표시 적용",
+		"vspe-pdfContentEditorTool-getTextBlocks": "텍스트 블록 가져오기",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "텍스트 블록의 변경 사항 저장",
+		"vspe-pdfContentEditorTool-getContentImages": "콘텐츠 이미지 가져오기",
 		"vsdv-openFile-addFileString": "파일 추가",
 		"vsdv-openFile-authenticateFileString": "파일 인증",
 		"vsdv-downloadFile-actionMessage": "파일 다운로드",
 		"vsdv-saveChanges-saveChangesInImages": "이미지 변경사항 저장",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "페이지",
-		"vsdv-saveChanges-saveChangesInAnnotations": "주석 변경사항 저장",
-		"vsdv-saveChanges-burnAnnotationsInImages": "이미지에 주석 굽기",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF 문서에 변경 사항 저장",
+		"vsui-documentNavigationTool-getActions": "작업 가져오기",
 		"vsui-documentPasswordDialog-title": "문서 비밀번호",
 		"vsui-dialog-okButton": "확인",
 		"vsui-dialog-cancelButton": "취소",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "적용하다",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "닫기",
 		"vsui-exportFileSettingsDialog-title": "파일을 내보내는 설정",
-		"vsdv-dialog-okButton": "확인",
-		"vsdv-dialog-cancelButton": "취소"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF 문서 압축"
 	}
 }

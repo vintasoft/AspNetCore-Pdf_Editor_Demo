@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "संपादकीय विभाग"
 		},
+		"contentEditorLabel": {
+			"text": "संपादक"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "फ़ाइल डाउनलोड करें और खोलें"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "इंटरैक्टिव फ़ील्ड"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "पीडीएफ पेज पर सामग्री संपादित करें"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "संशोधन के लिए पाठ को चिह्नित करें"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "सुधार चिह्न लगाएं"
 		},
+		"showMobileMenuButton": {
+			"title": "अधिक"
+		},
+		"boldTextButton": {
+			"title": "बोल्ड"
+		},
+		"italicTextButton": {
+			"title": "इटैलिक"
+		},
+		"underlineTextButton": {
+			"title": "अंडरलाइन"
+		},
+		"strikethroughTextButton": {
+			"title": "स्ट्राइकथ्रू"
+		},
+		"alignLeftButton": {
+			"title": "बाएँ संरेखित करें"
+		},
+		"alignCenterButton": {
+			"title": "केंद्र संरेखित करें"
+		},
+		"alignRightButton": {
+			"title": "दाएँ संरेखित करें"
+		},
+		"alignJustifyButton": {
+			"title": "संरेखित करें"
+		},
+		"fontColorButton": {
+			"title": "फ़ॉन्ट रंग सेट करें"
+		},
+		"fontColorSelectionButton": {
+			"title": "फ़ॉन्ट रंग चुनें"
+		},
+		"undoChangesButton": {
+			"title": "रद्द करें"
+		},
+		"redoChangesButton": {
+			"title": "दोहराएँ"
+		},
+		"addTextBlockButton": {
+			"title": "टेक्स्ट जोड़ें"
+		},
+		"deleteTextBlockButton": {
+			"title": "टेक्स्ट हटाएं"
+		},
+		"saveChangesButton": {
+			"title": "परिवर्तनों को सुरक्षित करें"
+		},
 		"sidePanelCloseButton": {
 			"title": "साइडबार दिखाएँ"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF इमेज-रिसोर्स"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "इंटरैक्टिव फ़ील्ड"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "पीडीएफ संशोधन चिह्न"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "सामग्री छवि दिखाएँ"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "इंटरेक्शन मोड:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "नहीं"
+			},
+			"viewInteractionModeLabel": {
+				"text": "देखें"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "फ़ील्ड को पृष्ठों के अनुसार समूहित करें"
+			},
+			"saveChangesButton": {
+				"value": "परिवर्तनों को सुरक्षित करें"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "पेज",
 		"vspe-openFile-addFileString": "फ़ाइल जोड़ें",
 		"vspe-saveChanges-saveChangesInPdfDocument": "पीडीएफ दस्तावेज़ में परिवर्तन सहेजें",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "इंटरैक्टिव फ़ॉर्म अपडेट करें",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "इंटरैक्टिव फ़ॉर्म पाएँ",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "सुधार चिह्न लगाएं",
+		"vspe-pdfContentEditorTool-getTextBlocks": "टेक्स्ट ब्लॉक पाएँ",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "टेक्स्ट ब्लॉक में बदलाव सेव करें",
+		"vspe-pdfContentEditorTool-getContentImages": "कंटेंट इमेज पाएँ",
 		"vsdv-openFile-addFileString": "फ़ाइल जोड़ें",
 		"vsdv-openFile-authenticateFileString": "फ़ाइल प्रमाणित करें",
 		"vsdv-downloadFile-actionMessage": "डाउनलोड फ़ाइल",
 		"vsdv-saveChanges-saveChangesInImages": "छवियों में परिवर्तन सहेजें",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "पेज",
-		"vsdv-saveChanges-saveChangesInAnnotations": "एनोटेशन में परिवर्तन सहेजें",
-		"vsdv-saveChanges-burnAnnotationsInImages": "छवियों पर एनोटेशन जलाएँ",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "पीडीएफ दस्तावेज़ में परिवर्तन सहेजें",
+		"vsui-documentNavigationTool-getActions": "कार्रवाई पाएँ",
 		"vsui-documentPasswordDialog-title": "दस्तावेज़ पासवर्ड",
 		"vsui-dialog-okButton": "ठीक है",
 		"vsui-dialog-cancelButton": "रद्द करें",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "आवेदन करना",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "बंद करें",
 		"vsui-exportFileSettingsDialog-title": "फ़ाइल निर्यात करने की सेटिंग",
-		"vsdv-dialog-okButton": "ठीक है",
-		"vsdv-dialog-cancelButton": "रद्द करें"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF दस्तावेज़ को कंप्रेस करें"
 	}
 }

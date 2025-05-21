@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Редакция"
 		},
+		"contentEditorLabel": {
+			"text": "Муҳаррир"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Файлро бор кунед ва кушоед"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Майдонҳои интерактивӣ"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Таҳрири мундариҷа дар саҳифаи PDF"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Матнро барои таҳрир қайд кунед"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Аломатҳои таҳрирро татбиқ кунед"
 		},
+		"showMobileMenuButton": {
+			"title": "Бештар"
+		},
+		"boldTextButton": {
+			"title": "Далер"
+		},
+		"italicTextButton": {
+			"title": "Курсив"
+		},
+		"underlineTextButton": {
+			"title": "Зерхат кунед"
+		},
+		"strikethroughTextButton": {
+			"title": "Хатогӣ"
+		},
+		"alignLeftButton": {
+			"title": "Ба чап рост кунед"
+		},
+		"alignCenterButton": {
+			"title": "Марказро ҳамоҳанг кунед"
+		},
+		"alignRightButton": {
+			"title": "Ба рост мувофиқат кунед"
+		},
+		"alignJustifyButton": {
+			"title": "Ҳамоҳанг кардан"
+		},
+		"fontColorButton": {
+			"title": "Ранги шрифтро таъин кунед"
+		},
+		"fontColorSelectionButton": {
+			"title": "Ранги шрифтро интихоб кунед"
+		},
+		"undoChangesButton": {
+			"title": "Бекор кардан"
+		},
+		"redoChangesButton": {
+			"title": "Такрор кунед"
+		},
+		"addTextBlockButton": {
+			"title": "Матн илова кунед"
+		},
+		"deleteTextBlockButton": {
+			"title": "Матнро нест кунед"
+		},
+		"saveChangesButton": {
+			"title": "Тағиротро захира кунед"
+		},
 		"sidePanelCloseButton": {
 			"title": "Намоиши панели паҳлӯ"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "Манбаъҳои тасвири PDF"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Майдонҳои интерактивӣ"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Аломатҳои таҳрири PDF"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Намоиши тасвири мундариҷа"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Ҳолати мутақобила:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Ҳеҷ"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Намоиш"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Майдонҳоро аз рӯи саҳифаҳо гурӯҳбандӣ кунед"
+			},
+			"saveChangesButton": {
+				"value": "Тағиротро захира кунед"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Саҳифа",
 		"vspe-openFile-addFileString": "Илова кардани файл",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Тағиротро дар ҳуҷҷати PDF захира кунед",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Навсозии шакли интерактивӣ",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Шакли интерактивиро гиред",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Аломатҳои таҳрирро татбиқ кунед",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Блокҳои матниро гиред",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Тағиротро дар блокҳои матнӣ захира кунед",
+		"vspe-pdfContentEditorTool-getContentImages": "Тасвирҳои мундариҷаро гиред",
 		"vsdv-openFile-addFileString": "Илова кардани файл",
 		"vsdv-openFile-authenticateFileString": "Файлро тасдиқ кунед",
 		"vsdv-downloadFile-actionMessage": "Файлро зеркашӣ кунед",
 		"vsdv-saveChanges-saveChangesInImages": "Тағиротро дар тасвирҳо захира кунед",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Саҳифа",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Тағиротро дар шарҳҳо захира кунед",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Аннотацияҳоро дар тасвирҳо сӯзонед",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Тағиротро дар ҳуҷҷати PDF захира кунед",
+		"vsui-documentNavigationTool-getActions": "Амалҳо гиред",
 		"vsui-documentPasswordDialog-title": "Пароли ҳуҷҷат",
 		"vsui-dialog-okButton": "ДУРУСТ",
 		"vsui-dialog-cancelButton": "Бекор кардан",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Муроҷиат кунед",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Пӯшед",
 		"vsui-exportFileSettingsDialog-title": "Танзимот барои содироти файл",
-		"vsdv-dialog-okButton": "ДУРУСТ",
-		"vsdv-dialog-cancelButton": "Бекор кардан"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Ҳуҷҷати PDF-ро фишурда кунед"
 	}
 }

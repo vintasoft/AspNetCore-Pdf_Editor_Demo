@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Redaksiya"
 		},
+		"contentEditorLabel": {
+			"text": "Redaktor"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Faylı yükləyin və açın"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "İnteraktiv sahələr"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "PDF səhifəsində məzmunu redaktə edin"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Mətni redaktə üçün qeyd edin"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Redaktə işarələrini tətbiq edin"
 		},
+		"showMobileMenuButton": {
+			"title": "Daha çox"
+		},
+		"boldTextButton": {
+			"title": "Qalın"
+		},
+		"italicTextButton": {
+			"title": "Kursiv"
+		},
+		"underlineTextButton": {
+			"title": "Altını çiz"
+		},
+		"strikethroughTextButton": {
+			"title": "Üzülmə"
+		},
+		"alignLeftButton": {
+			"title": "Sola düzün"
+		},
+		"alignCenterButton": {
+			"title": "Mərkəzi hizalayın"
+		},
+		"alignRightButton": {
+			"title": "Sağa düzün"
+		},
+		"alignJustifyButton": {
+			"title": "Düzləşdirin"
+		},
+		"fontColorButton": {
+			"title": "Şrift rəngini təyin edin"
+		},
+		"fontColorSelectionButton": {
+			"title": "Şrift rəngini seçin"
+		},
+		"undoChangesButton": {
+			"title": "Geri al"
+		},
+		"redoChangesButton": {
+			"title": "Yenidən edin"
+		},
+		"addTextBlockButton": {
+			"title": "Mətn əlavə edin"
+		},
+		"deleteTextBlockButton": {
+			"title": "Mətni silin"
+		},
+		"saveChangesButton": {
+			"title": "Dəyişiklikləri yadda saxla"
+		},
 		"sidePanelCloseButton": {
 			"title": "Yan Paneli göstərin"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "Pdf şəkil resursları"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "İnteraktiv sahələr"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF redaktə işarələri"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Məzmun şəklini göstərin"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Qarşılıqlı əlaqə rejimi:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Heç biri"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Baxın"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Sahələri səhifələrə görə qruplaşdırın"
+			},
+			"saveChangesButton": {
+				"value": "Dəyişiklikləri yadda saxla"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Səhifə",
 		"vspe-openFile-addFileString": "Fayl əlavə edin",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Dəyişiklikləri PDF sənədində qeyd edin",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "İnteraktiv formanı yeniləyin",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "İnteraktiv formanı əldə edin",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Redaktə işarələrini tətbiq edin",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Mətn blokları alın",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Dəyişiklikləri mətn bloklarında saxlayın",
+		"vspe-pdfContentEditorTool-getContentImages": "Məzmun şəkillərini əldə edin",
 		"vsdv-openFile-addFileString": "Fayl əlavə edin",
 		"vsdv-openFile-authenticateFileString": "Faylı doğrulayın",
 		"vsdv-downloadFile-actionMessage": "Faylı yüklə",
 		"vsdv-saveChanges-saveChangesInImages": "Şəkillərdə dəyişiklikləri yadda saxlayın",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Səhifə",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiyalarda dəyişiklikləri yadda saxlayın",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Şəkillərdə annotasiyaları yandırın",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Dəyişiklikləri PDF sənədində qeyd edin",
+		"vsui-documentNavigationTool-getActions": "Tədbirlər alın",
 		"vsui-documentPasswordDialog-title": "Sənəd parolu",
 		"vsui-dialog-okButton": "tamam",
 		"vsui-dialog-cancelButton": "Ləğv et",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Müraciət edin",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Yaxın",
 		"vsui-exportFileSettingsDialog-title": "Faylı ixrac etmək üçün parametrlər",
-		"vsdv-dialog-okButton": "tamam",
-		"vsdv-dialog-cancelButton": "Ləğv et"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF sənədi sıxışdırın"
 	}
 }

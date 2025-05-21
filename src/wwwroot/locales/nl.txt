@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Redactie"
 		},
+		"contentEditorLabel": {
+			"text": "Editor"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Bestand downloaden en openen"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Interactieve velden"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Inhoud op PDF-pagina bewerken"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Tekst markeren voor redactie"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Breng redactietekens aan"
 		},
+		"showMobileMenuButton": {
+			"title": "Meer"
+		},
+		"boldTextButton": {
+			"title": "Vet"
+		},
+		"italicTextButton": {
+			"title": "Cursief"
+		},
+		"underlineTextButton": {
+			"title": "Onderstrepen"
+		},
+		"strikethroughTextButton": {
+			"title": "Doorhalen"
+		},
+		"alignLeftButton": {
+			"title": "Links uitlijnen"
+		},
+		"alignCenterButton": {
+			"title": "Midden uitlijnen"
+		},
+		"alignRightButton": {
+			"title": "Rechts uitlijnen"
+		},
+		"alignJustifyButton": {
+			"title": "Uitlijnen uitvullen"
+		},
+		"fontColorButton": {
+			"title": "Letterkleur instellen"
+		},
+		"fontColorSelectionButton": {
+			"title": "Letterkleur selecteren"
+		},
+		"undoChangesButton": {
+			"title": "Annuleren"
+		},
+		"redoChangesButton": {
+			"title": "Herhalen"
+		},
+		"addTextBlockButton": {
+			"title": "Tekst toevoegen"
+		},
+		"deleteTextBlockButton": {
+			"title": "Tekst verwijderen"
+		},
+		"saveChangesButton": {
+			"title": "Wijzigingen opslaan"
+		},
 		"sidePanelCloseButton": {
 			"title": "Toon zijbalk"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF-afbeeldingbronnen"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interactieve velden"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF-redactiemarkeringen"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Inhoudsafbeelding weergeven"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Interactiemodus:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Nee"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Bekijken"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Groepeer velden op pagina's"
+			},
+			"saveChangesButton": {
+				"value": "Wijzigingen opslaan"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Pagina",
 		"vspe-openFile-addFileString": "Bestand toevoegen",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Wijzigingen opslaan in PDF-document",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Interactief formulier bijwerken",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Interactief formulier ophalen",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Breng redactietekens aan",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Tekstblokken ophalen",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Wijzigingen in tekstblokken opslaan",
+		"vspe-pdfContentEditorTool-getContentImages": "Inhoudsafbeeldingen ophalen",
 		"vsdv-openFile-addFileString": "Bestand toevoegen",
 		"vsdv-openFile-authenticateFileString": "Authenticeer bestand",
 		"vsdv-downloadFile-actionMessage": "Download bestand",
 		"vsdv-saveChanges-saveChangesInImages": "Wijzigingen in afbeeldingen opslaan",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Pagina",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Sla wijzigingen in annotaties op",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Brand annotaties op afbeeldingen",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Wijzigingen opslaan in PDF-document",
+		"vsui-documentNavigationTool-getActions": "Acties ophalen",
 		"vsui-documentPasswordDialog-title": "Documentwachtwoord",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Annuleren",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Toepassen",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Sluiten",
 		"vsui-exportFileSettingsDialog-title": "De instellingen om het bestand te exporteren",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Annuleren"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF-document comprimeren"
 	}
 }

@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Redakcia"
 		},
+		"contentEditorLabel": {
+			"text": "Redaktor"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Nahrajte a otvorte súbor"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Interaktívne polia"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Upravte obsah na stránke PDF"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Označte text na úpravu"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Použiť redakčné značky"
 		},
+		"showMobileMenuButton": {
+			"title": "Viac"
+		},
+		"boldTextButton": {
+			"title": "Tučné"
+		},
+		"italicTextButton": {
+			"title": "Kurzíva"
+		},
+		"underlineTextButton": {
+			"title": "Podčiarknite"
+		},
+		"strikethroughTextButton": {
+			"title": "Prečiarknuté"
+		},
+		"alignLeftButton": {
+			"title": "Zarovnajte doľava"
+		},
+		"alignCenterButton": {
+			"title": "Zarovnajte stred"
+		},
+		"alignRightButton": {
+			"title": "Zarovnajte doprava"
+		},
+		"alignJustifyButton": {
+			"title": "Zarovnať zarovnanie"
+		},
+		"fontColorButton": {
+			"title": "Nastaviť farbu písma"
+		},
+		"fontColorSelectionButton": {
+			"title": "Vyberte farbu písma"
+		},
+		"undoChangesButton": {
+			"title": "Vrátenie späť"
+		},
+		"redoChangesButton": {
+			"title": "Znovu"
+		},
+		"addTextBlockButton": {
+			"title": "Pridajte text"
+		},
+		"deleteTextBlockButton": {
+			"title": "Odstrániť text"
+		},
+		"saveChangesButton": {
+			"title": "Uložiť zmeny"
+		},
 		"sidePanelCloseButton": {
 			"title": "Zobraziť bočný panel"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "Zdroje obrázkov PDF"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Interaktívne polia"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Redakčné značky PDF"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Zobraziť obrázok obsahu"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Režim interakcie:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Ziadne"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Vyhliadka"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Zoskupte polia podľa stránok"
+			},
+			"saveChangesButton": {
+				"value": "Uložiť zmeny"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Stránka",
 		"vspe-openFile-addFileString": "Pridať súbor",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Uložte zmeny v dokumente PDF",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Aktualizujte interaktívny formulár",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Získajte interaktívny formulár",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Použiť redakčné značky",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Získajte textové bloky",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Uložte zmeny do textových blokov",
+		"vspe-pdfContentEditorTool-getContentImages": "Získajte obrázky obsahu",
 		"vsdv-openFile-addFileString": "Pridať súbor",
 		"vsdv-openFile-authenticateFileString": "Overiť súbor",
 		"vsdv-downloadFile-actionMessage": "Stiahnuť súbor",
 		"vsdv-saveChanges-saveChangesInImages": "Uložte zmeny v obrázkoch",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Stránka",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Uložte zmeny v anotáciách",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Vypáliť anotácie na obrázkoch",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Uložte zmeny v dokumente PDF",
+		"vsui-documentNavigationTool-getActions": "Získajte akcie",
 		"vsui-documentPasswordDialog-title": "Heslo dokumentu",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Zrušiť",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Použiť",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Zavrieť",
 		"vsui-exportFileSettingsDialog-title": "Nastavenia exportu súboru",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Zrušiť"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Komprimujte dokument PDF"
 	}
 }

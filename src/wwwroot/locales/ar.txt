@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "التنقيح"
 		},
+		"contentEditorLabel": {
+			"text": "محرر"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "تحميل وفتح الملف"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "المجالات التفاعلية"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "تعديل محتوى صفحة PDF"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "وضع علامة على النص للتنقيح"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "تطبيق علامات التنقيح"
 		},
+		"showMobileMenuButton": {
+			"title": "المزيد"
+		},
+		"boldTextButton": {
+			"title": "غامق"
+		},
+		"italicTextButton": {
+			"title": "مائل"
+		},
+		"underlineTextButton": {
+			"title": "تسطير"
+		},
+		"strikethroughTextButton": {
+			"title": "شطب"
+		},
+		"alignLeftButton": {
+			"title": "محاذاة لليسار"
+		},
+		"alignCenterButton": {
+			"title": "محاذاة إلى المنتصف"
+		},
+		"alignRightButton": {
+			"title": "محاذاة لليمين"
+		},
+		"alignJustifyButton": {
+			"title": "محاذاة مضبوطة"
+		},
+		"fontColorButton": {
+			"title": "تعيين لون الخط"
+		},
+		"fontColorSelectionButton": {
+			"title": "اختيار لون الخط"
+		},
+		"undoChangesButton": {
+			"title": "إلغاء"
+		},
+		"redoChangesButton": {
+			"title": "كرر"
+		},
+		"addTextBlockButton": {
+			"title": "إضافة نص"
+		},
+		"deleteTextBlockButton": {
+			"title": "حذف نص"
+		},
+		"saveChangesButton": {
+			"title": "حفظ التغييرات"
+		},
 		"sidePanelCloseButton": {
 			"title": "إظهار الشريط الجانبي"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "موارد صور PDF"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "المجالات التفاعلية"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "علامات تنقيح PDF"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "إظهار صورة المحتوى"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "وضع التفاعل:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "لا"
+			},
+			"viewInteractionModeLabel": {
+				"text": "عرض"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "تجميع الحقول حسب الصفحات"
+			},
+			"saveChangesButton": {
+				"value": "حفظ التغييرات"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "الصفحة",
 		"vspe-openFile-addFileString": "اضف ملف",
 		"vspe-saveChanges-saveChangesInPdfDocument": "حفظ التغييرات في وثيقة PDF",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "تحديث النموذج التفاعلي",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "الحصول على نموذج تفاعلي",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "تطبيق علامات التنقيح",
+		"vspe-pdfContentEditorTool-getTextBlocks": "الحصول على كتل نصية",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "حفظ التغييرات في كتل النص",
+		"vspe-pdfContentEditorTool-getContentImages": "الحصول على صور المحتوى",
 		"vsdv-openFile-addFileString": "اضف ملف",
 		"vsdv-openFile-authenticateFileString": "مصادقة الملف",
 		"vsdv-downloadFile-actionMessage": "تحميل الملف",
 		"vsdv-saveChanges-saveChangesInImages": "حفظ التغييرات في الصور",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "الصفحة",
-		"vsdv-saveChanges-saveChangesInAnnotations": "حفظ التغييرات في التعليقات التوضيحية",
-		"vsdv-saveChanges-burnAnnotationsInImages": "حرق التعليقات التوضيحية على الصور",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "حفظ التغييرات في وثيقة PDF",
+		"vsui-documentNavigationTool-getActions": "الحصول على الإجراءات",
 		"vsui-documentPasswordDialog-title": "كلمة مرور المستند",
 		"vsui-dialog-okButton": "موافق",
 		"vsui-dialog-cancelButton": "إلغاء",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "يتقدم",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "إغلاق",
 		"vsui-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف",
-		"vsdv-dialog-okButton": "موافق",
-		"vsdv-dialog-cancelButton": "إلغاء"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "ضغط مستند PDF"
 	}
 }

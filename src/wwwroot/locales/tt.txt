@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Кыскарту"
 		},
+		"contentEditorLabel": {
+			"text": "Редактор"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Файлны йөкләү һәм ачу"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Интерактив кырлар"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Эчтәлекне PDF битендә үзгәртү"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Редакция өчен текстны билгеләргә"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Редакция билгеләрен кулланыгыз"
 		},
+		"showMobileMenuButton": {
+			"title": "Күбрәк"
+		},
+		"boldTextButton": {
+			"title": "Калын"
+		},
+		"italicTextButton": {
+			"title": "Италик"
+		},
+		"underlineTextButton": {
+			"title": "Сызу"
+		},
+		"strikethroughTextButton": {
+			"title": "Старт"
+		},
+		"alignLeftButton": {
+			"title": "Сулга тигезләнегез"
+		},
+		"alignCenterButton": {
+			"title": "Centerзәкне тигезләү"
+		},
+		"alignRightButton": {
+			"title": "Уңга тигезләнегез"
+		},
+		"alignJustifyButton": {
+			"title": "Аклану"
+		},
+		"fontColorButton": {
+			"title": "Шрифт төсен куегыз"
+		},
+		"fontColorSelectionButton": {
+			"title": "Шрифт төсен сайлагыз"
+		},
+		"undoChangesButton": {
+			"title": "Кире кайтару"
+		},
+		"redoChangesButton": {
+			"title": "Кабатлау"
+		},
+		"addTextBlockButton": {
+			"title": "Текст өстәү"
+		},
+		"deleteTextBlockButton": {
+			"title": "Текстны бетерү"
+		},
+		"saveChangesButton": {
+			"title": "Changesзгәрешләрне саклагыз"
+		},
 		"sidePanelCloseButton": {
 			"title": "Ян панельне күрсәт"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF рәсем ресурслары"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Интерактив кырлар"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF редакция билгеләре"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Эчтәлек рәсемен күрсәт"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Interзара бәйләнеш режимы:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Беркем дә юк"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Карарга"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Битләр буенча төркемнәр"
+			},
+			"saveChangesButton": {
+				"value": "Changesзгәрешләрне саклагыз"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Бит",
 		"vspe-openFile-addFileString": "Файл өстәү",
 		"vspe-saveChanges-saveChangesInPdfDocument": "PDF документындагы үзгәрешләрне саклагыз",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Интерактив форманы яңарту",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Интерактив форма алыгыз",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Редакция билгеләрен кулланыгыз",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Текст блокларын алыгыз",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Текст блокларында үзгәрешләрне саклагыз",
+		"vspe-pdfContentEditorTool-getContentImages": "Эчтәлек рәсемнәрен алыгыз",
 		"vsdv-openFile-addFileString": "Файл өстәү",
 		"vsdv-openFile-authenticateFileString": "Файлны раслау",
 		"vsdv-downloadFile-actionMessage": "Файлны йөкләү",
 		"vsdv-saveChanges-saveChangesInImages": "Рәсемнәрдәге үзгәрешләрне саклагыз",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Бит",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотацияләрдәге үзгәрешләрне саклагыз",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Рәсемнәргә аннотацияләр яндырыгыз",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF документындагы үзгәрешләрне саклагыз",
+		"vsui-documentNavigationTool-getActions": "Эшләр",
 		"vsui-documentPasswordDialog-title": "Документ серсүзе",
 		"vsui-dialog-okButton": "ЯРАРМЫ",
 		"vsui-dialog-cancelButton": "Баш тарту",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Кулланыгыз",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Ябу",
 		"vsui-exportFileSettingsDialog-title": "Файлны экспортлау өчен көйләүләр",
-		"vsdv-dialog-okButton": "ЯРАРМЫ",
-		"vsdv-dialog-cancelButton": "Баш тарту"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF документын кысу"
 	}
 }

@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "რედაქცია"
 		},
+		"contentEditorLabel": {
+			"text": "რედაქტორი"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "ატვირთეთ და გახსენით ფაილი"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "ინტერაქტიული ველები"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "დაარედაქტირეთ შინაარსი PDF გვერდზე"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "მონიშნეთ ტექსტი რედაქტირებისთვის"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "გამოიყენეთ რედაქციის ნიშნები"
 		},
+		"showMobileMenuButton": {
+			"title": "მეტი"
+		},
+		"boldTextButton": {
+			"title": "თამამი"
+		},
+		"italicTextButton": {
+			"title": "დახრილი"
+		},
+		"underlineTextButton": {
+			"title": "ხაზი გაუსვით"
+		},
+		"strikethroughTextButton": {
+			"title": "დარტყმა"
+		},
+		"alignLeftButton": {
+			"title": "გასწორება მარცხნივ"
+		},
+		"alignCenterButton": {
+			"title": "ცენტრის გასწორება"
+		},
+		"alignRightButton": {
+			"title": "გასწორება მარჯვნივ"
+		},
+		"alignJustifyButton": {
+			"title": "გასწორება გამართლება"
+		},
+		"fontColorButton": {
+			"title": "შრიფტის ფერის დაყენება"
+		},
+		"fontColorSelectionButton": {
+			"title": "აირჩიეთ შრიფტის ფერი"
+		},
+		"undoChangesButton": {
+			"title": "გაუქმება"
+		},
+		"redoChangesButton": {
+			"title": "ხელახლა"
+		},
+		"addTextBlockButton": {
+			"title": "ტექსტის დამატება"
+		},
+		"deleteTextBlockButton": {
+			"title": "ტექსტის წაშლა"
+		},
+		"saveChangesButton": {
+			"title": "Ცვლილებების შენახვა"
+		},
 		"sidePanelCloseButton": {
 			"title": "გვერდითი პანელის ჩვენება"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF გამოსახულების რესურსები"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "ინტერაქტიული ველები"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF რედაქციის ნიშნები"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "შინაარსის სურათის ჩვენება"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "ურთიერთქმედების რეჟიმი:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "არცერთი"
+			},
+			"viewInteractionModeLabel": {
+				"text": "ხედი"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "დააჯგუფეთ ველები გვერდების მიხედვით"
+			},
+			"saveChangesButton": {
+				"value": "Ცვლილებების შენახვა"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "გვერდი",
 		"vspe-openFile-addFileString": "Ფაილის დამატება",
 		"vspe-saveChanges-saveChangesInPdfDocument": "შეინახეთ ცვლილებები PDF დოკუმენტში",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "განაახლეთ ინტერაქტიული ფორმა",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "მიიღეთ ინტერაქტიული ფორმა",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "გამოიყენეთ რედაქციის ნიშნები",
+		"vspe-pdfContentEditorTool-getTextBlocks": "მიიღეთ ტექსტური ბლოკები",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "შეინახეთ ცვლილებები ტექსტურ ბლოკებში",
+		"vspe-pdfContentEditorTool-getContentImages": "მიიღეთ შინაარსის სურათები",
 		"vsdv-openFile-addFileString": "Ფაილის დამატება",
 		"vsdv-openFile-authenticateFileString": "ფაილის ავთენტიფიკაცია",
 		"vsdv-downloadFile-actionMessage": "Გადმოწერეთ ფაილი",
 		"vsdv-saveChanges-saveChangesInImages": "შეინახეთ ცვლილებები სურათებში",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "გვერდი",
-		"vsdv-saveChanges-saveChangesInAnnotations": "შეინახეთ ცვლილებები ანოტაციებში",
-		"vsdv-saveChanges-burnAnnotationsInImages": "ჩაწერეთ ანოტაციები სურათებზე",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "შეინახეთ ცვლილებები PDF დოკუმენტში",
+		"vsui-documentNavigationTool-getActions": "მიიღეთ მოქმედებები",
 		"vsui-documentPasswordDialog-title": "დოკუმენტის პაროლი",
 		"vsui-dialog-okButton": "კარგი",
 		"vsui-dialog-cancelButton": "გაუქმება",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "მიმართეთ",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "დახურვა",
 		"vsui-exportFileSettingsDialog-title": "პარამეტრები ფაილის ექსპორტისთვის",
-		"vsdv-dialog-okButton": "კარგი",
-		"vsdv-dialog-cancelButton": "გაუქმება"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "შეკუმშოს PDF დოკუმენტი"
 	}
 }

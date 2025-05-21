@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Redactare"
 		},
+		"contentEditorLabel": {
+			"text": "Editor"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Descărcați și deschideți fișierul"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Câmpuri interactive"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Editați conținutul pe pagina PDF"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Marcați textul pentru redactare"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Aplicați semne de redactare"
 		},
+		"showMobileMenuButton": {
+			"title": "Mai multe"
+		},
+		"boldTextButton": {
+			"title": "Îndrăzneţ"
+		},
+		"italicTextButton": {
+			"title": "Cursiv"
+		},
+		"underlineTextButton": {
+			"title": "Subliniați"
+		},
+		"strikethroughTextButton": {
+			"title": "Striat"
+		},
+		"alignLeftButton": {
+			"title": "Aliniere la stânga"
+		},
+		"alignCenterButton": {
+			"title": "Aliniați centrul"
+		},
+		"alignRightButton": {
+			"title": "Aliniați la dreapta"
+		},
+		"alignJustifyButton": {
+			"title": "Aliniați justificați"
+		},
+		"fontColorButton": {
+			"title": "Setați culoarea fontului"
+		},
+		"fontColorSelectionButton": {
+			"title": "Selectați culoarea fontului"
+		},
+		"undoChangesButton": {
+			"title": "Anulează"
+		},
+		"redoChangesButton": {
+			"title": "Repetă"
+		},
+		"addTextBlockButton": {
+			"title": "Adăugați text"
+		},
+		"deleteTextBlockButton": {
+			"title": "Ștergeți textul"
+		},
+		"saveChangesButton": {
+			"title": "Salvează modificările"
+		},
 		"sidePanelCloseButton": {
 			"title": "Afișează bara laterală"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "Resurse de imagini PDF"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Câmpuri interactive"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Semne de redactare PDF"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Afișează imaginea de conținut"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Modul de interacțiune:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Nu"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Vizualizare"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Grupați câmpurile după pagini"
+			},
+			"saveChangesButton": {
+				"value": "Salvează modificările"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Pagină",
 		"vspe-openFile-addFileString": "Adauga fisier",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Salvați modificările în documentul PDF",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Actualizați formularul interactiv",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Obțineți formularul interactiv",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Aplicați semne de redactare",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Obțineți blocuri de text",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Salvați modificările în blocurile de text",
+		"vspe-pdfContentEditorTool-getContentImages": "Obțineți imagini de conținut",
 		"vsdv-openFile-addFileString": "Adauga fisier",
 		"vsdv-openFile-authenticateFileString": "Autentificați fișierul",
 		"vsdv-downloadFile-actionMessage": "Descărcare fișier",
 		"vsdv-saveChanges-saveChangesInImages": "Salvați modificările în imagini",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Pagină",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Salvați modificările în adnotări",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Ardeți adnotări pe imagini",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvați modificările în documentul PDF",
+		"vsui-documentNavigationTool-getActions": "Obțineți acțiuni",
 		"vsui-documentPasswordDialog-title": "Parola documentului",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Anulează",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "aplica",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Închidere",
 		"vsui-exportFileSettingsDialog-title": "Setările pentru exportul fișierului",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Anulează"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Comprimați documentul PDF"
 	}
 }

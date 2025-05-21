@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "墨消し"
 		},
+		"contentEditorLabel": {
+			"text": "エディター"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "ファイルをダウンロードして開きます"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "インタラクティブなフィールド"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "PDF ページのコンテンツを編集"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "テキストに墨消しのマークを付ける"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "墨消しマークを適用する"
 		},
+		"showMobileMenuButton": {
+			"title": "詳細"
+		},
+		"boldTextButton": {
+			"title": "太字"
+		},
+		"italicTextButton": {
+			"title": "斜体"
+		},
+		"underlineTextButton": {
+			"title": "下線"
+		},
+		"strikethroughTextButton": {
+			"title": "取り消し線"
+		},
+		"alignLeftButton": {
+			"title": "左揃え"
+		},
+		"alignCenterButton": {
+			"title": "中央揃え"
+		},
+		"alignRightButton": {
+			"title": "右揃え"
+		},
+		"alignJustifyButton": {
+			"title": "両端揃え"
+		},
+		"fontColorButton": {
+			"title": "フォントの色を設定"
+		},
+		"fontColorSelectionButton": {
+			"title": "フォントの色を選択"
+		},
+		"undoChangesButton": {
+			"title": "キャンセル"
+		},
+		"redoChangesButton": {
+			"title": "繰り返し"
+		},
+		"addTextBlockButton": {
+			"title": "テキストを追加"
+		},
+		"deleteTextBlockButton": {
+			"title": "テキストを削除"
+		},
+		"saveChangesButton": {
+			"title": "変更内容を保存"
+		},
 		"sidePanelCloseButton": {
 			"title": "サイドバーを表示"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF 画像リソース"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "インタラクティブなフィールド"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "PDF 墨消しマーク"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "コンテンツ画像を表示"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "インタラクションモード:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "いいえ"
+			},
+			"viewInteractionModeLabel": {
+				"text": "表示"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "フィールドをページごとにグループ化する"
+			},
+			"saveChangesButton": {
+				"value": "変更内容を保存"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "ページ",
 		"vspe-openFile-addFileString": "ファイルを追加",
 		"vspe-saveChanges-saveChangesInPdfDocument": "PDF ドキュメントに変更を保存する",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "インタラクティブ フォームを更新",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "インタラクティブ フォームを取得",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "墨消しマークを適用する",
+		"vspe-pdfContentEditorTool-getTextBlocks": "テキスト ブロックを取得",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "テキスト ブロックの変更を保存",
+		"vspe-pdfContentEditorTool-getContentImages": "コンテンツ画像を取得",
 		"vsdv-openFile-addFileString": "ファイルを追加",
 		"vsdv-openFile-authenticateFileString": "ファイルを認証する",
 		"vsdv-downloadFile-actionMessage": "ダウンロードファイル",
 		"vsdv-saveChanges-saveChangesInImages": "画像の変更を保存する",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "ページ",
-		"vsdv-saveChanges-saveChangesInAnnotations": "注釈の変更を保存する",
-		"vsdv-saveChanges-burnAnnotationsInImages": "画像に注釈を書き込む",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF ドキュメントに変更を保存する",
+		"vsui-documentNavigationTool-getActions": "アクションを取得",
 		"vsui-documentPasswordDialog-title": "文書のパスワード",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "キャンセル",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "適用する",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "閉じる",
 		"vsui-exportFileSettingsDialog-title": "ファイルをエクスポートするための設定",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "キャンセル"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF ドキュメントを圧縮"
 	}
 }

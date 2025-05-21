@@ -12,6 +12,9 @@
 		"redactionLabel": {
 			"text": "Редакція"
 		},
+		"contentEditorLabel": {
+			"text": "Редактор"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Завантажте та відкрийте файл"
 		},
@@ -72,6 +75,9 @@
 		"pdfInteractiveFormToolButton": {
 			"title": "Інтерактивні поля"
 		},
+		"pdfContentEditorToolButton": {
+			"title": "Редагувати вміст сторінки PDF"
+		},
 		"pdfTextRedactionMarkButton": {
 			"title": "Позначити текст для редагування"
 		},
@@ -90,6 +96,54 @@
 		"applyPdfRedactionMarkButton": {
 			"title": "Поставте знаки редагування"
 		},
+		"showMobileMenuButton": {
+			"title": "більше"
+		},
+		"boldTextButton": {
+			"title": "Жирний"
+		},
+		"italicTextButton": {
+			"title": "Курсив"
+		},
+		"underlineTextButton": {
+			"title": "Підкреслити"
+		},
+		"strikethroughTextButton": {
+			"title": "Закреслення"
+		},
+		"alignLeftButton": {
+			"title": "Вирівняти ліворуч"
+		},
+		"alignCenterButton": {
+			"title": "Вирівняти по центру"
+		},
+		"alignRightButton": {
+			"title": "Вирівняти праворуч"
+		},
+		"alignJustifyButton": {
+			"title": "Вирівняти по ширині"
+		},
+		"fontColorButton": {
+			"title": "Встановити колір шрифту"
+		},
+		"fontColorSelectionButton": {
+			"title": "Виберіть колір шрифту"
+		},
+		"undoChangesButton": {
+			"title": "Скасувати"
+		},
+		"redoChangesButton": {
+			"title": "Повторити"
+		},
+		"addTextBlockButton": {
+			"title": "Додайте текст"
+		},
+		"deleteTextBlockButton": {
+			"title": "Видалити текст"
+		},
+		"saveChangesButton": {
+			"title": "Зберегти зміни"
+		},
 		"sidePanelCloseButton": {
 			"title": "Показати бічну панель"
 		},
@@ -107,6 +161,9 @@
 		},
 		"showPdfImageResourceExtractionPanelButton": {
 			"title": "PDF-ресурси зображень"
+		},
+		"showPdfInteractiveFormFieldsPanelButton": {
+			"title": "Інтерактивні поля"
 		},
 		"showPdfRedactionMarkListPanelButton": {
 			"title": "Знаки редагування PDF"
@@ -160,6 +217,23 @@
 		"pdfImageResourceExtractionPanel": {
 			"showContentImageButton": {
 				"value": "Показати зображення вмісту"
+			}
+		},
+		"pdfInteractiveFormFieldsPanel": {
+			"interactionModeLabel": {
+				"text": "Режим взаємодії:"
+			},
+			"noneInteractionModeLabel": {
+				"text": "Жодного"
+			},
+			"viewInteractionModeLabel": {
+				"text": "Переглянути"
+			},
+			"groupFormFieldsByPagesLabel": {
+				"text": "Групуйте поля за сторінками"
+			},
+			"saveChangesButton": {
+				"value": "Зберегти зміни"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -1015,14 +1089,17 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Сторінка",
 		"vspe-openFile-addFileString": "Додати файл",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Зберегти зміни в документі PDF",
+		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Оновити інтерактивну форму",
+		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Отримати інтерактивну форму",
+		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Поставте знаки редагування",
+		"vspe-pdfContentEditorTool-getTextBlocks": "Отримати текстові блоки",
+		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Зберегти зміни в текстових блоках",
+		"vspe-pdfContentEditorTool-getContentImages": "Отримайте зображення вмісту",
 		"vsdv-openFile-addFileString": "Додати файл",
 		"vsdv-openFile-authenticateFileString": "Автентифікувати файл",
 		"vsdv-downloadFile-actionMessage": "Завантажити файл",
 		"vsdv-saveChanges-saveChangesInImages": "Збережіть зміни в зображеннях",
-		"vsui-pdfInteractiveFormFieldsPanel-pageLabel": "Сторінка",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Збережіть зміни в анотаціях",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Запис анотацій на зображеннях",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Зберегти зміни в документі PDF",
+		"vsui-documentNavigationTool-getActions": "Отримати дії",
 		"vsui-documentPasswordDialog-title": "Пароль документа",
 		"vsui-dialog-okButton": "В порядку",
 		"vsui-dialog-cancelButton": "Скасувати",
@@ -1058,7 +1135,6 @@
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Застосувати",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Закрити",
 		"vsui-exportFileSettingsDialog-title": "Параметри експорту файлу",
-		"vsdv-dialog-okButton": "В порядку",
-		"vsdv-dialog-cancelButton": "Скасувати"
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Стиснути документ PDF"
 	}
 }
