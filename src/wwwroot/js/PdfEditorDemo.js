@@ -421,6 +421,11 @@ function __main() {
     // specify that the image viewer must use the progress image for indicating the image loading progress
     imageViewer1.set_ProgressImage(progressImage);
 
+    // get the visual tool, which allows to select text
+    var visualTool = _pdfDocumentEditor.getVisualToolById("DocumentNavigationTool,TextSelectionTool,PanTool,ZoomTool");
+    // set the visual tool as active visual tool in image viewer
+    _pdfDocumentEditor.set_CurrentVisualTool(visualTool);
+
     // copy the default file to the uploaded image files directory and open the file
     var openFileHelper = new OpenFileHelperJS(_pdfDocumentEditor, __showErrorMessage);
     openFileHelper.openDefaultPdfFile();
