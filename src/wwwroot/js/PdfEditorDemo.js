@@ -41,6 +41,49 @@ function __previousUploadFilesButton_clicked(event, uiElement) {
 
 
 
+// === Visual Tools ===
+
+/**
+ Creates UI button for activating the visual tool, which allows to pan images in image viewer.
+*/
+function __createPanToolButton() {
+    // if touch device is used
+    if (__isTouchDevice()) {
+        return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
+            cssClass: "vsdv-tools-panButton",
+            title: "Document navigation, Text selection, Pan, Zoom",
+            localizationId: "panToolButton"
+        }, "DocumentNavigationTool,TextSelectionTool,PanTool,ZoomTool");
+    }
+    else {
+        return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
+            cssClass: "vsdv-tools-panButton",
+            title: "Document navigation, Text selection, Pan",
+            localizationId: "panToolButton"
+        }, "DocumentNavigationTool,TextSelectionTool,PanTool");
+    }
+}
+
+/**
+ Initializes visual tools.
+ @param {object} pdfDocumentEditor The PDF document editor.
+*/
+function __initializeVisualTools(pdfDocumentEditor) {
+    // get navigation tool
+    var documentNavigationTool = pdfDocumentEditor.getVisualToolById("DocumentNavigationTool");
+    // create navigation action executor
+    var nagivationActionExecutor = new Vintasoft.Imaging.WebNavigationActionExecutorJS();
+    // create URI action executor
+    var uriActionExecutor = new WebUriActionExecutor();
+    // create composite action executor
+    var compositeActionExecutor = new Vintasoft.Imaging.WebPageContentActionCompositeExecutorJS([uriActionExecutor, nagivationActionExecutor]);
+
+    // use composite action executer in document navigation tool
+    documentNavigationTool.set_ActionExecutor(compositeActionExecutor);
+}
+
+
+
 // === Init UI ===
 
 /**
@@ -49,6 +92,9 @@ function __previousUploadFilesButton_clicked(event, uiElement) {
 function __registerNewUiElements() {
     // register the "Previously uploaded files" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("previousUploadFilesButton", __createPreviouslyUploadedFilesButton);
+
+    // register the "Pan" button in web UI elements factory
+    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("panToolButton", __createPanToolButton);
 }
 
 /**
@@ -128,28 +174,6 @@ function __thumbnailsPanelActivated() {
         thumbnailViewer.set_ThumbnailPadding(padding);
         thumbnailViewer.set_DisplayThumbnailCaption(true);
     }
-}
-
-
-
-// === Visual Tools ===
-
-/**
- Initializes visual tools.
- @param {object} pdfDocumentEditor The PDF document editor.
-*/
-function __initializeVisualTools(pdfDocumentEditor) {
-    // get navigation tool
-    var documentNavigationTool = pdfDocumentEditor.getVisualToolById("DocumentNavigationTool");
-    // create navigation action executor
-    var nagivationActionExecutor = new Vintasoft.Imaging.WebNavigationActionExecutorJS();
-    // create URI action executor
-    var uriActionExecutor = new WebUriActionExecutor();
-    // create composite action executor
-    var compositeActionExecutor = new Vintasoft.Imaging.WebPageContentActionCompositeExecutorJS([uriActionExecutor, nagivationActionExecutor]);
-
-    // use composite action executer in document navigation tool
-    documentNavigationTool.set_ActionExecutor(compositeActionExecutor);
 }
 
 
@@ -356,6 +380,13 @@ function __enableUiLocalization() {
     });
 }
 
+/**
+ Returns a value indicating whether touch device is used.
+*/
+function __isTouchDevice() {
+    return (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0);
+}
+
 
 
 // === Main ===
@@ -421,8 +452,20 @@ function __main() {
     // specify that the image viewer must use the progress image for indicating the image loading progress
     imageViewer1.set_ProgressImage(progressImage);
 
+    // names of visual tools in composite visual tool
+    var visualToolNames = "DocumentNavigationTool,TextSelectionTool,PanTool";
+    // if touch device is used
+    if (__isTouchDevice()) {
+        // get zoom tool from document viewer
+        var zoomTool = _pdfDocumentEditor.getVisualToolById("ZoomTool");
+        // specify that zoom tool should not disable context menu
+        zoomTool.set_DisableContextMenu(false);
+
+        // add name of zoom tool to the names of visual tools of composite visual tool
+        visualToolNames = visualToolNames + ",ZoomTool";
+    }
     // get the visual tool, which allows to select text
-    var visualTool = _pdfDocumentEditor.getVisualToolById("DocumentNavigationTool,TextSelectionTool,PanTool,ZoomTool");
+    var visualTool = _pdfDocumentEditor.getVisualToolById(visualToolNames);
     // set the visual tool as active visual tool in image viewer
     _pdfDocumentEditor.set_CurrentVisualTool(visualTool);
 
