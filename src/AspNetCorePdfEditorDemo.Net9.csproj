@@ -28,7 +28,7 @@
     <PackageReference Include="Vintasoft.Imaging.DocCleanup.AspNetCore.ApiControllers" Version="9.1.9.1" />
     <PackageReference Include="Vintasoft.Imaging.Pdf.Web.Services" Version="11.1.9.1" />
     <PackageReference Include="Vintasoft.Imaging.Pdf.AspNetCore.ApiControllers" Version="11.1.9.1" />
-    <PackageReference Include="Vintasoft.Barcode" Version="15.2.2.1" />
+    <PackageReference Include="Vintasoft.Barcode" Version="15.2.3.1" />
 	</ItemGroup>
 <ItemGroup>
   <Compile Include="Controllers\API\File\MyVintasoftFileApiController.cs" />
