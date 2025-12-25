@@ -22,7 +22,7 @@
 			"title": "Посмотреть список ранее загруженных файлов"
 		},
 		"uploadAndAddFileButton": {
-			"title": "Загрузите и добавьте файл"
+			"title": "Загрузить и добавить файл"
 		},
 		"openFileFromUrlButton": {
 			"title": "Открыть файл по URL"
@@ -31,7 +31,7 @@
 			"title": "Распечатать изображения"
 		},
 		"downloadFileButton": {
-			"title": "Загрузить файл"
+			"title": "Скачать файл"
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Экспортировать и скачать файл"
@@ -1082,7 +1082,7 @@
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузить и открыть файл",
-		"vsdv-uploadAndAddFileButton-addFileString": "Загрузите и добавьте файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Загрузить и добавить файл",
 		"vsui-pdfBookmarksPanel-getPdfBookmarksString": "Получить PDF-закладки",
 		"vsui-textSearchPanel-pageLabel": "Страница",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Получить ресурс изображения",
@@ -1097,7 +1097,7 @@
 		"vspe-pdfContentEditorTool-getContentImages": "Получить изображения контента",
 		"vsdv-openFile-addFileString": "Добавить файл",
 		"vsdv-openFile-authenticateFileString": "Аутентификация файла",
-		"vsdv-downloadFile-actionMessage": "Загрузить файл",
+		"vsdv-downloadFile-actionMessage": "Скачать файл",
 		"vsdv-saveChanges-saveChangesInImages": "Сохранить изменения в изображениях",
 		"vsui-documentNavigationTool-getActions": "Получить действия",
 		"vsui-documentPasswordDialog-title": "Пароль к документу",
