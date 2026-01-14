@@ -1,4 +1,4 @@
-# VintaSoft ASP.NET Core PDF Editor Demo
+﻿# VintaSoft ASP.NET Core PDF Editor Demo
 
 This ASP.NET Core project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.html">VintaSoft Imaging .NET SDK</a>.
 The client-side of project uses HTML+JavaScript+CSS. The server-side of project uses ASP.NET Core API controllers.<br />
@@ -34,9 +34,9 @@ The project demonstrates how to view, fill and redact PDF document in ASP.NET Co
    Vintasoft.Imaging.ImagingGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
    ```
 
-3. Build the project ("AspNetCorePdfEditorDemo.Net8.csproj" file) in Visual Studio or using .NET CLI:
+3. Build the project ("AspNetCorePdfEditorDemo.Net10.csproj" file) in Visual Studio or using .NET CLI:
    ```
-   dotnet build AspNetCorePdfEditorDemo.Net8.csproj
+   dotnet build AspNetCorePdfEditorDemo.Net10.csproj
    ```
 
 4. Run compiled application and try to view and annotate images and documents.
