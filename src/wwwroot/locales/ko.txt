@@ -64,7 +64,7 @@
 			"title": "썸네일 뷰어 설정"
 		},
 		"panToolButton": {
-			"title": "팬"
+			"title": "문서 탐색, 텍스트 선택, 이동"
 		},
 		"textSelectionToolButton": {
 			"title": "텍스트 선택"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "텍스트 추가"
+		},
+		"copyTextBlockButton": {
+			"title": "텍스트 복사"
+		},
+		"pasteTextBlockButton": {
+			"title": "텍스트 붙여넣기"
 		},
 		"deleteTextBlockButton": {
 			"title": "텍스트 삭제"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "인덱스가 이미지 컬렉션의 인덱스 범위 내에 있지 않습니다."
+			},
+			"withAnnotationsLabel": {
+				"text": "주석 포함"
+			},
+			"pageSettingsLabel": {
+				"text": "페이지 설정:"
+			},
+			"columnCountLabel": {
+				"text": "열 수:"
+			},
+			"rowCountLabel": {
+				"text": "행 개수:"
+			},
+			"imagePaddingLabel": {
+				"text": "이미지 여백:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "가로 가운데 정렬"
 			},
 			"okButton": {
 				"value": "확인"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "페이지",
 		"vspe-openFile-addFileString": "파일 추가",
 		"vspe-saveChanges-saveChangesInPdfDocument": "PDF 문서에 변경 사항 저장",
+		"vspe-pdfContentEditorTool-getContentImages": "콘텐츠 이미지 가져오기",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "대화형 양식 업데이트",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "대화형 양식 가져오기",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "교정 표시 적용",
 		"vspe-pdfContentEditorTool-getTextBlocks": "텍스트 블록 가져오기",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "텍스트 블록의 변경 사항 저장",
-		"vspe-pdfContentEditorTool-getContentImages": "콘텐츠 이미지 가져오기",
 		"vsdv-openFile-addFileString": "파일 추가",
 		"vsdv-openFile-authenticateFileString": "파일 인증",
 		"vsdv-downloadFile-actionMessage": "파일 다운로드",

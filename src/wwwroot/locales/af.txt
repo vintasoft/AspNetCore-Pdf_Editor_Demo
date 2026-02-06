@@ -64,7 +64,7 @@
 			"title": "Kleinkiekie-kyker-instellings"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Dokumentnavigasie, Tekskeuse, Pan"
 		},
 		"textSelectionToolButton": {
 			"title": "Teks Keuse"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Voeg teks by"
+		},
+		"copyTextBlockButton": {
+			"title": "Kopieer teks"
+		},
+		"pasteTextBlockButton": {
+			"title": "Plak teks"
 		},
 		"deleteTextBlockButton": {
 			"title": "Vee teks uit"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Die indeks is nie binne die indeksreeks van die beeldversameling nie."
+			},
+			"withAnnotationsLabel": {
+				"text": "Met aantekeninge"
+			},
+			"pageSettingsLabel": {
+				"text": "Bladsyinstellings:"
+			},
+			"columnCountLabel": {
+				"text": "Kolomtelling:"
+			},
+			"rowCountLabel": {
+				"text": "Rytelling:"
+			},
+			"imagePaddingLabel": {
+				"text": "Beeldopvulling:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Sentreer horisontaal"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Bladsy",
 		"vspe-openFile-addFileString": "Voeg lêer by",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Stoor veranderinge in PDF-dokument",
+		"vspe-pdfContentEditorTool-getContentImages": "Kry inhoud beelde",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Dateer interaktiewe vorm op",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Kry interaktiewe vorm",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Pas redaksiemerke toe",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Kry teksblokke",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Stoor veranderinge in teksblokke",
-		"vspe-pdfContentEditorTool-getContentImages": "Kry inhoud beelde",
 		"vsdv-openFile-addFileString": "Voeg lêer by",
 		"vsdv-openFile-authenticateFileString": "Bevestig lêer",
 		"vsdv-downloadFile-actionMessage": "Aflaai leêr",

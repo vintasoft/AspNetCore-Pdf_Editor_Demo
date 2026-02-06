@@ -64,7 +64,7 @@
 			"title": "Miniatür baxıcı parametrləri"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Sənəd naviqasiyası, Mətn seçimi, Pan"
 		},
 		"textSelectionToolButton": {
 			"title": "Mətn seçimi"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Mətn əlavə edin"
+		},
+		"copyTextBlockButton": {
+			"title": "Mətni kopyalayın"
+		},
+		"pasteTextBlockButton": {
+			"title": "Mətni yapışdırın"
 		},
 		"deleteTextBlockButton": {
 			"title": "Mətni silin"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "İndeks şəkil kolleksiyasının diapazonundan kənardadır."
+			},
+			"withAnnotationsLabel": {
+				"text": "Annotasiyalarla"
+			},
+			"pageSettingsLabel": {
+				"text": "Səhifə parametrləri:"
+			},
+			"columnCountLabel": {
+				"text": "Sütun sayı:"
+			},
+			"rowCountLabel": {
+				"text": "Sətir sayı:"
+			},
+			"imagePaddingLabel": {
+				"text": "Şəkil dolğusu:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Üfüqi olaraq mərkəzləşdirin"
 			},
 			"okButton": {
 				"value": "tamam"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Səhifə",
 		"vspe-openFile-addFileString": "Fayl əlavə edin",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Dəyişiklikləri PDF sənədində qeyd edin",
+		"vspe-pdfContentEditorTool-getContentImages": "Məzmun şəkillərini əldə edin",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "İnteraktiv formanı yeniləyin",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "İnteraktiv formanı əldə edin",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Redaktə işarələrini tətbiq edin",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Mətn blokları alın",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Dəyişiklikləri mətn bloklarında saxlayın",
-		"vspe-pdfContentEditorTool-getContentImages": "Məzmun şəkillərini əldə edin",
 		"vsdv-openFile-addFileString": "Fayl əlavə edin",
 		"vsdv-openFile-authenticateFileString": "Faylı doğrulayın",
 		"vsdv-downloadFile-actionMessage": "Faylı yüklə",

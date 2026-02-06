@@ -64,7 +64,7 @@
 			"title": "Thumbnail viewer settings"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Document navigation, Text selection, Pan"
 		},
 		"textSelectionToolButton": {
 			"title": "Text Selection"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Add text"
+		},
+		"copyTextBlockButton": {
+			"title": "Copy text"
+		},
+		"pasteTextBlockButton": {
+			"title": "Paste text"
 		},
 		"deleteTextBlockButton": {
 			"title": "Delete text"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Index out of range of image collection."
+			},
+			"withAnnotationsLabel": {
+				"text": "With annotations"
+			},
+			"pageSettingsLabel": {
+				"text": "Page settings:"
+			},
+			"columnCountLabel": {
+				"text": "Column count:"
+			},
+			"rowCountLabel": {
+				"text": "Row count:"
+			},
+			"imagePaddingLabel": {
+				"text": "Image padding:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Center horizontally"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
 		"vspe-openFile-addFileString": "Add file",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Save changes in PDF document",
+		"vspe-pdfContentEditorTool-getContentImages": "Get content images",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Update interactive form",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Get interactive form",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Apply redaction marks",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Get text blocks",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Save changes in text blocks",
-		"vspe-pdfContentEditorTool-getContentImages": "Get content images",
 		"vsdv-openFile-addFileString": "Add file",
 		"vsdv-openFile-authenticateFileString": "Authenticate file",
 		"vsdv-downloadFile-actionMessage": "Download file",

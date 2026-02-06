@@ -64,7 +64,7 @@
 			"title": "Innstillinger for miniatyrbildevisning"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Dokumentnavigasjon, Tekstvalg, Panorering"
 		},
 		"textSelectionToolButton": {
 			"title": "Tekstvalg"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Legg til tekst"
+		},
+		"copyTextBlockButton": {
+			"title": "Kopier tekst"
+		},
+		"pasteTextBlockButton": {
+			"title": "Lim inn tekst"
 		},
 		"deleteTextBlockButton": {
 			"title": "Slett tekst"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeksen er ikke innenfor indeksområdet til bildesamlingen."
+			},
+			"withAnnotationsLabel": {
+				"text": "Med annoteringer"
+			},
+			"pageSettingsLabel": {
+				"text": "Sideinnstillinger:"
+			},
+			"columnCountLabel": {
+				"text": "Antall kolonner:"
+			},
+			"rowCountLabel": {
+				"text": "Radtall:"
+			},
+			"imagePaddingLabel": {
+				"text": "Bildepolstring:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Sentrer horisontalt"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Side",
 		"vspe-openFile-addFileString": "Legg til fil",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Lagre endringer i PDF-dokument",
+		"vspe-pdfContentEditorTool-getContentImages": "Få innholdsbilder",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Oppdater interaktivt skjema",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Få interaktiv form",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Bruk redaksjonsmerker",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Få tekstblokker",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Lagre endringer i tekstblokker",
-		"vspe-pdfContentEditorTool-getContentImages": "Få innholdsbilder",
 		"vsdv-openFile-addFileString": "Legg til fil",
 		"vsdv-openFile-authenticateFileString": "Autentiser filen",
 		"vsdv-downloadFile-actionMessage": "Last ned fil",

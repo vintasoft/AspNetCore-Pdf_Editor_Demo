@@ -64,7 +64,7 @@
 			"title": "Ρυθμίσεις προβολής μικρογραφιών"
 		},
 		"panToolButton": {
-			"title": "Παν"
+			"title": "Πλοήγηση εγγράφου, Επιλογή κειμένου, Μετατόπιση"
 		},
 		"textSelectionToolButton": {
 			"title": "Επιλογή κειμένου"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Προσθήκη κειμένου"
+		},
+		"copyTextBlockButton": {
+			"title": "Αντιγραφή κειμένου"
+		},
+		"pasteTextBlockButton": {
+			"title": "Επικόλληση κειμένου"
 		},
 		"deleteTextBlockButton": {
 			"title": "Διαγραφή κειμένου"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Το ευρετήριο δεν βρίσκεται εντός του εύρους ευρετηρίου της συλλογής εικόνων."
+			},
+			"withAnnotationsLabel": {
+				"text": "Με σχολιασμούς"
+			},
+			"pageSettingsLabel": {
+				"text": "Ρυθμίσεις σελίδας:"
+			},
+			"columnCountLabel": {
+				"text": "Πλήθος στηλών:"
+			},
+			"rowCountLabel": {
+				"text": "Αριθμός γραμμών:"
+			},
+			"imagePaddingLabel": {
+				"text": "Επένδυση εικόνας:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Κεντράρισμα οριζόντια"
 			},
 			"okButton": {
 				"value": "ΟΚ"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Σελίδα",
 		"vspe-openFile-addFileString": "Προσθήκη αρχείου",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Αποθηκεύστε τις αλλαγές σε έγγραφο PDF",
+		"vspe-pdfContentEditorTool-getContentImages": "Λάβετε εικόνες περιεχομένου",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Ενημέρωση διαδραστικής φόρμας",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Αποκτήστε διαδραστική φόρμα",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Εφαρμόστε σημάδια διόρθωσης",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Λάβετε μπλοκ κειμένου",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Αποθηκεύστε τις αλλαγές σε μπλοκ κειμένου",
-		"vspe-pdfContentEditorTool-getContentImages": "Λάβετε εικόνες περιεχομένου",
 		"vsdv-openFile-addFileString": "Προσθήκη αρχείου",
 		"vsdv-openFile-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
 		"vsdv-downloadFile-actionMessage": "Λήψη αρχείου",

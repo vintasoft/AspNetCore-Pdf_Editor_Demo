@@ -64,7 +64,7 @@
 			"title": "Налады прагляду эскізаў"
 		},
 		"panToolButton": {
-			"title": "Пан"
+			"title": "Навігацыя па дакументах, Вылучэнне тэксту, Панарамаванне"
 		},
 		"textSelectionToolButton": {
 			"title": "Вылучэнне тэксту"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Дадаць тэкст"
+		},
+		"copyTextBlockButton": {
+			"title": "Капіраванне тэксту"
+		},
+		"pasteTextBlockButton": {
+			"title": "Устаўка тэксту"
 		},
 		"deleteTextBlockButton": {
 			"title": "Выдаліць тэкст"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Індэкс па-за дыяпазонам калекцыі малюнкаў."
+			},
+			"withAnnotationsLabel": {
+				"text": "З анатацыямі"
+			},
+			"pageSettingsLabel": {
+				"text": "Налады старонкі:"
+			},
+			"columnCountLabel": {
+				"text": "Колькасць слупкоў:"
+			},
+			"rowCountLabel": {
+				"text": "Колькасць радкоў:"
+			},
+			"imagePaddingLabel": {
+				"text": "Адступы да выявы:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Гарызантальна адцэнтраваць"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "старонка",
 		"vspe-openFile-addFileString": "Дадаць файл",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Захаваць змены ў дакуменце PDF",
+		"vspe-pdfContentEditorTool-getContentImages": "Атрымаць выявы кантэнту",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Абнавіць інтэрактыўную форму",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Атрымаць інтэрактыўную форму",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Нанесці знакі рэдагавання",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Атрымаць тэкставыя блокі",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Захаваць змены ў тэкставых блоках",
-		"vspe-pdfContentEditorTool-getContentImages": "Атрымаць выявы кантэнту",
 		"vsdv-openFile-addFileString": "Дадаць файл",
 		"vsdv-openFile-authenticateFileString": "Аўтэнтыфікаваць файл",
 		"vsdv-downloadFile-actionMessage": "Спампаваць файл",

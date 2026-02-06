@@ -64,7 +64,7 @@
 			"title": "थंबनेल व्यूअर सेटिंग्स"
 		},
 		"panToolButton": {
-			"title": "पैन"
+			"title": "डॉक्यूमेंट नेविगेशन, टेक्स्ट सिलेक्शन, पैन"
 		},
 		"textSelectionToolButton": {
 			"title": "पाठ चयन"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "टेक्स्ट जोड़ें"
+		},
+		"copyTextBlockButton": {
+			"title": "टेक्स्ट कॉपी करें"
+		},
+		"pasteTextBlockButton": {
+			"title": "टेक्स्ट पेस्ट करें"
 		},
 		"deleteTextBlockButton": {
 			"title": "टेक्स्ट हटाएं"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "सूचकांक छवि संग्रह की अनुक्रमणिका सीमा के भीतर नहीं है।"
+			},
+			"withAnnotationsLabel": {
+				"text": "एनोटेशन के साथ"
+			},
+			"pageSettingsLabel": {
+				"text": "पेज सेटिंग:"
+			},
+			"columnCountLabel": {
+				"text": "कॉलम गिनती:"
+			},
+			"rowCountLabel": {
+				"text": "रो काउंट:"
+			},
+			"imagePaddingLabel": {
+				"text": "इमेज पैडिंग:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "हॉरिजॉन्टली सेंटर करें"
 			},
 			"okButton": {
 				"value": "ठीक है"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "पेज",
 		"vspe-openFile-addFileString": "फ़ाइल जोड़ें",
 		"vspe-saveChanges-saveChangesInPdfDocument": "पीडीएफ दस्तावेज़ में परिवर्तन सहेजें",
+		"vspe-pdfContentEditorTool-getContentImages": "कंटेंट इमेज पाएँ",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "इंटरैक्टिव फ़ॉर्म अपडेट करें",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "इंटरैक्टिव फ़ॉर्म पाएँ",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "सुधार चिह्न लगाएं",
 		"vspe-pdfContentEditorTool-getTextBlocks": "टेक्स्ट ब्लॉक पाएँ",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "टेक्स्ट ब्लॉक में बदलाव सेव करें",
-		"vspe-pdfContentEditorTool-getContentImages": "कंटेंट इमेज पाएँ",
 		"vsdv-openFile-addFileString": "फ़ाइल जोड़ें",
 		"vsdv-openFile-authenticateFileString": "फ़ाइल प्रमाणित करें",
 		"vsdv-downloadFile-actionMessage": "डाउनलोड फ़ाइल",

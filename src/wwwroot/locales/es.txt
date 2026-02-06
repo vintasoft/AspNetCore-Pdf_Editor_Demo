@@ -64,7 +64,7 @@
 			"title": "Configuración del visor de miniaturas"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Navegación del documento, Selección de texto, Panorámica"
 		},
 		"textSelectionToolButton": {
 			"title": "Selección de texto"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Añadir texto"
+		},
+		"copyTextBlockButton": {
+			"title": "Copiar texto"
+		},
+		"pasteTextBlockButton": {
+			"title": "Pegar texto"
 		},
 		"deleteTextBlockButton": {
 			"title": "Eliminar texto"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "El índice no está dentro del rango de índice de la colección de imágenes."
+			},
+			"withAnnotationsLabel": {
+				"text": "Con anotaciones"
+			},
+			"pageSettingsLabel": {
+				"text": "Configuración de página:"
+			},
+			"columnCountLabel": {
+				"text": "Recuento de columnas:"
+			},
+			"rowCountLabel": {
+				"text": "Número de filas:"
+			},
+			"imagePaddingLabel": {
+				"text": "Relleno de imagen:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrar horizontalmente"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Página",
 		"vspe-openFile-addFileString": "Agregar archivo",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Guardar cambios en un documento PDF",
+		"vspe-pdfContentEditorTool-getContentImages": "Obtener imágenes de contenido",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Actualizar formulario interactivo",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Obtener formulario interactivo",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Aplicar marcas de redacción",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Obtener bloques de texto",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Guardar cambios en bloques de texto",
-		"vspe-pdfContentEditorTool-getContentImages": "Obtener imágenes de contenido",
 		"vsdv-openFile-addFileString": "Agregar archivo",
 		"vsdv-openFile-authenticateFileString": "autenticar archivo",
 		"vsdv-downloadFile-actionMessage": "Descargar archivo",

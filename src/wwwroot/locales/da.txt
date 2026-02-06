@@ -64,7 +64,7 @@
 			"title": "Indstillinger for miniaturefremviser"
 		},
 		"panToolButton": {
-			"title": "Panér"
+			"title": "Dokumentnavigation, Tekstmarkering, Panorering"
 		},
 		"textSelectionToolButton": {
 			"title": "Tekstvalg"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Tilføj tekst"
+		},
+		"copyTextBlockButton": {
+			"title": "Kopier tekst"
+		},
+		"pasteTextBlockButton": {
+			"title": "Indsæt tekst"
 		},
 		"deleteTextBlockButton": {
 			"title": "Slet tekst"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indekset er ikke inden for billedsamlingens indeksområde."
+			},
+			"withAnnotationsLabel": {
+				"text": "Med annotationer"
+			},
+			"pageSettingsLabel": {
+				"text": "Sideindstillinger:"
+			},
+			"columnCountLabel": {
+				"text": "Kolonneantal:"
+			},
+			"rowCountLabel": {
+				"text": "Rækkeantal:"
+			},
+			"imagePaddingLabel": {
+				"text": "Billedpolstring:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrer vandret"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Side",
 		"vspe-openFile-addFileString": "Tilføj fil",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Gem ændringer i PDF-dokument",
+		"vspe-pdfContentEditorTool-getContentImages": "Få indholdsbilleder",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Opdater interaktiv formular",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Få interaktiv form",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Anvend redaktionsmærker",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Få tekstblokke",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Gem ændringer i tekstblokke",
-		"vspe-pdfContentEditorTool-getContentImages": "Få indholdsbilleder",
 		"vsdv-openFile-addFileString": "Tilføj fil",
 		"vsdv-openFile-authenticateFileString": "Godkend fil",
 		"vsdv-downloadFile-actionMessage": "Download fil",

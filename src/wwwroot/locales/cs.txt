@@ -64,7 +64,7 @@
 			"title": "Nastavení prohlížeče miniatur"
 		},
 		"panToolButton": {
-			"title": "Pán"
+			"title": "Navigace v dokumentu, Výběr textu, Posun"
 		},
 		"textSelectionToolButton": {
 			"title": "Výběr textu"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Přidejte text"
+		},
+		"copyTextBlockButton": {
+			"title": "Kopírování textu"
+		},
+		"pasteTextBlockButton": {
+			"title": "Vkládání textu"
 		},
 		"deleteTextBlockButton": {
 			"title": "Smazat text"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Index není v rozsahu indexů kolekce obrázků."
+			},
+			"withAnnotationsLabel": {
+				"text": "S anotacemi"
+			},
+			"pageSettingsLabel": {
+				"text": "Nastavení stránky:"
+			},
+			"columnCountLabel": {
+				"text": "Počet sloupců:"
+			},
+			"rowCountLabel": {
+				"text": "Počet řádků:"
+			},
+			"imagePaddingLabel": {
+				"text": "Odsazení obrázku:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Vodorovně vycentrovat"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Stránka",
 		"vspe-openFile-addFileString": "Přidat soubor",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Uložte změny do dokumentu PDF",
+		"vspe-pdfContentEditorTool-getContentImages": "Získejte obrázky obsahu",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Aktualizace interaktivního formuláře",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Získejte interaktivní formulář",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Použít redakční značky",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Získejte textové bloky",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Uložte změny do textových bloků",
-		"vspe-pdfContentEditorTool-getContentImages": "Získejte obrázky obsahu",
 		"vsdv-openFile-addFileString": "Přidat soubor",
 		"vsdv-openFile-authenticateFileString": "Ověření souboru",
 		"vsdv-downloadFile-actionMessage": "Stáhnout soubor",

@@ -64,7 +64,7 @@
 			"title": "Эскиз көрүүчүнүн жөндөөлөрү"
 		},
 		"panToolButton": {
-			"title": "Пан"
+			"title": "Документ навигациясы, Текстти тандоо, Панорамалоо"
 		},
 		"textSelectionToolButton": {
 			"title": "Текст тандоо"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Текст кошуу"
+		},
+		"copyTextBlockButton": {
+			"title": "Текстти көчүрүү"
+		},
+		"pasteTextBlockButton": {
+			"title": "Текстти чаптоо"
 		},
 		"deleteTextBlockButton": {
 			"title": "Текстти жок кылуу"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Индекс сүрөттөр жыйнагынын диапазонунан тышкары."
+			},
+			"withAnnotationsLabel": {
+				"text": "Аннотациялар менен"
+			},
+			"pageSettingsLabel": {
+				"text": "Барактын жөндөөлөрү:"
+			},
+			"columnCountLabel": {
+				"text": "Мамычанын саны:"
+			},
+			"rowCountLabel": {
+				"text": "Саптардын саны:"
+			},
+			"imagePaddingLabel": {
+				"text": "Сүрөттүн толтурулушу:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Горизонталдуу түрдө борборлоштуруу"
 			},
 			"okButton": {
 				"value": "макул"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
 		"vspe-openFile-addFileString": "Файл кошуу",
 		"vspe-saveChanges-saveChangesInPdfDocument": "PDF документине өзгөртүүлөрдү сактоо",
+		"vspe-pdfContentEditorTool-getContentImages": "Мазмун сүрөттөрүн алуу",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Интерактивдүү форманы жаңыртыңыз",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Интерактивдүү форманы алыңыз",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Редакция белгилерин колдонуңуз",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Текст блокторун алыңыз",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Текст блокторуна өзгөртүүлөрдү сактоо",
-		"vspe-pdfContentEditorTool-getContentImages": "Мазмун сүрөттөрүн алуу",
 		"vsdv-openFile-addFileString": "Файл кошуу",
 		"vsdv-openFile-authenticateFileString": "Файлдын аныктыгын текшерүү",
 		"vsdv-downloadFile-actionMessage": "Файлды жүктөп алыңыз",

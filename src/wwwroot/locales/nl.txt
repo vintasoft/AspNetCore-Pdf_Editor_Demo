@@ -64,7 +64,7 @@
 			"title": "Miniatuurweergave-instellingen"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Documentnavigatie, Tekstselectie, Pannen"
 		},
 		"textSelectionToolButton": {
 			"title": "Tekstselectie"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Tekst toevoegen"
+		},
+		"copyTextBlockButton": {
+			"title": "Tekst kopiëren"
+		},
+		"pasteTextBlockButton": {
+			"title": "Tekst plakken"
 		},
 		"deleteTextBlockButton": {
 			"title": "Tekst verwijderen"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "De index valt niet binnen het indexbereik van de afbeeldingencollectie."
+			},
+			"withAnnotationsLabel": {
+				"text": "Met annotaties"
+			},
+			"pageSettingsLabel": {
+				"text": "Pagina-instellingen:"
+			},
+			"columnCountLabel": {
+				"text": "Aantal kolommen:"
+			},
+			"rowCountLabel": {
+				"text": "Aantal rijen:"
+			},
+			"imagePaddingLabel": {
+				"text": "Afbeeldingsafstand:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Horizontaal centreren"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Pagina",
 		"vspe-openFile-addFileString": "Bestand toevoegen",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Wijzigingen opslaan in PDF-document",
+		"vspe-pdfContentEditorTool-getContentImages": "Inhoudsafbeeldingen ophalen",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Interactief formulier bijwerken",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Interactief formulier ophalen",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Breng redactietekens aan",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Tekstblokken ophalen",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Wijzigingen in tekstblokken opslaan",
-		"vspe-pdfContentEditorTool-getContentImages": "Inhoudsafbeeldingen ophalen",
 		"vsdv-openFile-addFileString": "Bestand toevoegen",
 		"vsdv-openFile-authenticateFileString": "Authenticeer bestand",
 		"vsdv-downloadFile-actionMessage": "Download bestand",

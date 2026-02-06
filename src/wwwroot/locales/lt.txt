@@ -64,7 +64,7 @@
 			"title": "Miniatiūrų peržiūros priemonės nustatymai"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Dokumento naršymas, teksto pasirinkimas, perkėlimas"
 		},
 		"textSelectionToolButton": {
 			"title": "Teksto pasirinkimas"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Pridėti tekstą"
+		},
+		"copyTextBlockButton": {
+			"title": "Kopijuoti tekstą"
+		},
+		"pasteTextBlockButton": {
+			"title": "Įklijuoti tekstą"
 		},
 		"deleteTextBlockButton": {
 			"title": "Ištrinti tekstą"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeksas nepatenka į vaizdų rinkinio diapazoną."
+			},
+			"withAnnotationsLabel": {
+				"text": "Su anotacijomis"
+			},
+			"pageSettingsLabel": {
+				"text": "Puslapio nustatymai:"
+			},
+			"columnCountLabel": {
+				"text": "Stulpelių skaičius:"
+			},
+			"rowCountLabel": {
+				"text": "Eilučių skaičius:"
+			},
+			"imagePaddingLabel": {
+				"text": "Vaizdo užpildymas:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centruoti horizontaliai"
 			},
 			"okButton": {
 				"value": "Gerai"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Puslapis",
 		"vspe-openFile-addFileString": "Pridėti failą",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Išsaugokite pakeitimus PDF dokumente",
+		"vspe-pdfContentEditorTool-getContentImages": "Gaukite turinio vaizdus",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Atnaujinkite interaktyvią formą",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Gaukite interaktyvią formą",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Taikykite redagavimo ženklus",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Gaukite teksto blokus",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Išsaugokite teksto blokų pakeitimus",
-		"vspe-pdfContentEditorTool-getContentImages": "Gaukite turinio vaizdus",
 		"vsdv-openFile-addFileString": "Pridėti failą",
 		"vsdv-openFile-authenticateFileString": "Autentifikuoti failą",
 		"vsdv-downloadFile-actionMessage": "Atsisiųsti failą",

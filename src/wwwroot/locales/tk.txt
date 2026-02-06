@@ -64,7 +64,7 @@
 			"title": "Kiçijik tomaşaçy sazlamalary"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Resminama nawigasiýasy, Tekst saýlamak, Panorama"
 		},
 		"textSelectionToolButton": {
 			"title": "Tekst saýlamak"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Tekst goşuň"
+		},
+		"copyTextBlockButton": {
+			"title": "Teksti göçürmek"
+		},
+		"pasteTextBlockButton": {
+			"title": "Teksti goýmak"
 		},
 		"deleteTextBlockButton": {
 			"title": "Teksti poz"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Surat ýygnamagyň çäginden çykma."
+			},
+			"withAnnotationsLabel": {
+				"text": "Bellikler bilen"
+			},
+			"pageSettingsLabel": {
+				"text": "Sahypa sazlamalary:"
+			},
+			"columnCountLabel": {
+				"text": "Sütün sany:"
+			},
+			"rowCountLabel": {
+				"text": "Setir sany:"
+			},
+			"imagePaddingLabel": {
+				"text": "Surat boşlugy:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Gorizontal taýdan merkezleşdiriň"
 			},
 			"okButton": {
 				"value": "Bolýar"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sahypa",
 		"vspe-openFile-addFileString": "Faýl goşuň",
 		"vspe-saveChanges-saveChangesInPdfDocument": "PDF resminamasyndaky üýtgeşmeleri ýazdyryň",
+		"vspe-pdfContentEditorTool-getContentImages": "Mazmun suratlaryny alyň",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Interaktiw formany täzeläň",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Interaktiw görnüşi alyň",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Redaksiýa belliklerini ulanyň",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Tekst bloklaryny alyň",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Tekst bloklarynda üýtgeşmeleri ýazdyryň",
-		"vspe-pdfContentEditorTool-getContentImages": "Mazmun suratlaryny alyň",
 		"vsdv-openFile-addFileString": "Faýl goşuň",
 		"vsdv-openFile-authenticateFileString": "Faýly tassyklamak",
 		"vsdv-downloadFile-actionMessage": "Faýly göçürip al",

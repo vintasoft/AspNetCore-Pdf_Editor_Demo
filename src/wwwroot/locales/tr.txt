@@ -64,7 +64,7 @@
 			"title": "Küçük Resim Görüntüleyici Ayarları"
 		},
 		"panToolButton": {
-			"title": "Kaydır"
+			"title": "Belge navigasyonu, Metin seçimi, Kaydırma"
 		},
 		"textSelectionToolButton": {
 			"title": "Metin Seçimi"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Metin ekle"
+		},
+		"copyTextBlockButton": {
+			"title": "Metni kopyala"
+		},
+		"pasteTextBlockButton": {
+			"title": "Metni yapıştır"
 		},
 		"deleteTextBlockButton": {
 			"title": "Metni sil"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Dizin, görüntü koleksiyonunun indeks aralığında değil."
+			},
+			"withAnnotationsLabel": {
+				"text": "Ek açıklamalarla birlikte"
+			},
+			"pageSettingsLabel": {
+				"text": "Sayfa ayarları:"
+			},
+			"columnCountLabel": {
+				"text": "Sütun sayısı:"
+			},
+			"rowCountLabel": {
+				"text": "Satır sayısı:"
+			},
+			"imagePaddingLabel": {
+				"text": "Görüntü dolgusu:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Yatay olarak ortala"
 			},
 			"okButton": {
 				"value": "Tamam"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sayfa",
 		"vspe-openFile-addFileString": "Dosya Ekle",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Değişiklikleri PDF belgesine kaydet",
+		"vspe-pdfContentEditorTool-getContentImages": "İçerik resimlerini al",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Etkileşimli formu güncelle",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Etkileşimli formu al",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Redaksiyon işaretlerini uygulama",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Metin bloklarını al",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Metin bloklarındaki değişiklikleri kaydet",
-		"vspe-pdfContentEditorTool-getContentImages": "İçerik resimlerini al",
 		"vsdv-openFile-addFileString": "Dosya Ekle",
 		"vsdv-openFile-authenticateFileString": "Dosyanın kimliğini doğrula",
 		"vsdv-downloadFile-actionMessage": "Dosyayı indir",

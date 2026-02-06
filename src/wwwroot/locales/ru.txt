@@ -64,7 +64,7 @@
 			"title": "Настройки просмотрщика миниатюр"
 		},
 		"panToolButton": {
-			"title": "Панорамирование"
+			"title": "Навигация по документу, Выделение текста, Панорамирование"
 		},
 		"textSelectionToolButton": {
 			"title": "Выбор текста"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Добавить текст"
+		},
+		"copyTextBlockButton": {
+			"title": "Копировать текст"
+		},
+		"pasteTextBlockButton": {
+			"title": "Вставить текст"
 		},
 		"deleteTextBlockButton": {
 			"title": "Удалить текст"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Индекс не попадает в диапазон индексов коллекции изображений."
+			},
+			"withAnnotationsLabel": {
+				"text": "С аннотациями"
+			},
+			"pageSettingsLabel": {
+				"text": "Настройки страницы:"
+			},
+			"columnCountLabel": {
+				"text": "Количество столбцов:"
+			},
+			"rowCountLabel": {
+				"text": "Количество строк:"
+			},
+			"imagePaddingLabel": {
+				"text": "Отступы изображения:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Центрировать по горизонтали"
 			},
 			"okButton": {
 				"value": "ОК"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Страница",
 		"vspe-openFile-addFileString": "Добавить файл",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Сохранить изменения в PDF-документе",
+		"vspe-pdfContentEditorTool-getContentImages": "Получить изображения контента",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Обновить интерактивную форму",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Получить интерактивную форму",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Применить редакторские метки",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Получить текстовые блоки",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Сохранить изменения в текстовых блоках",
-		"vspe-pdfContentEditorTool-getContentImages": "Получить изображения контента",
 		"vsdv-openFile-addFileString": "Добавить файл",
 		"vsdv-openFile-authenticateFileString": "Аутентификация файла",
 		"vsdv-downloadFile-actionMessage": "Скачать файл",

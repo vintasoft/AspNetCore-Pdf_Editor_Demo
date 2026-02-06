@@ -64,7 +64,7 @@
 			"title": "Eskizni ko'rish sozlamalari"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Hujjat navigatsiyasi, Matn tanlash, Panoramalash"
 		},
 		"textSelectionToolButton": {
 			"title": "Matn tanlash"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Matn qo'shish"
+		},
+		"copyTextBlockButton": {
+			"title": "Matnni nusxalash"
+		},
+		"pasteTextBlockButton": {
+			"title": "Matnni joylashtirish"
 		},
 		"deleteTextBlockButton": {
 			"title": "Matnni oʻchirish"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeks tasvirlar to‘plami doirasidan tashqarida."
+			},
+			"withAnnotationsLabel": {
+				"text": "Izohlar bilan"
+			},
+			"pageSettingsLabel": {
+				"text": "Sahifa sozlamalari:"
+			},
+			"columnCountLabel": {
+				"text": "Ustunlar soni:"
+			},
+			"rowCountLabel": {
+				"text": "Qatorlar soni:"
+			},
+			"imagePaddingLabel": {
+				"text": "Tasvir to'ldirilishi:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Gorizontal ravishda markazlashtiriladi"
 			},
 			"okButton": {
 				"value": "KELISHDIKMI"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sahifa",
 		"vspe-openFile-addFileString": "Fayl qo'shish",
 		"vspe-saveChanges-saveChangesInPdfDocument": "O'zgarishlarni PDF hujjatida saqlang",
+		"vspe-pdfContentEditorTool-getContentImages": "Kontent tasvirlarini oling",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Interaktiv shaklni yangilang",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Interaktiv shaklni oling",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Tahrirlash belgilarini qo'llang",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Matn bloklarini oling",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "O'zgarishlarni matn bloklarida saqlang",
-		"vspe-pdfContentEditorTool-getContentImages": "Kontent tasvirlarini oling",
 		"vsdv-openFile-addFileString": "Fayl qo'shish",
 		"vsdv-openFile-authenticateFileString": "Faylni autentifikatsiya qilish",
 		"vsdv-downloadFile-actionMessage": "Faylni yuklab oling",

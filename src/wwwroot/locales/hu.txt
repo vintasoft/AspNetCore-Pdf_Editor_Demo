@@ -64,7 +64,7 @@
 			"title": "Miniatűr-nézegető beállításai"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Dokumentumnavigáció, Szöveg kijelölése, Mozgatás"
 		},
 		"textSelectionToolButton": {
 			"title": "Szöveg kiválasztása"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Szöveg hozzáadása"
+		},
+		"copyTextBlockButton": {
+			"title": "Szöveg másolása"
+		},
+		"pasteTextBlockButton": {
+			"title": "Szöveg beillesztése"
 		},
 		"deleteTextBlockButton": {
 			"title": "Szöveg törlése"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Az index nincs a képgyűjtemény indextartományán belül."
+			},
+			"withAnnotationsLabel": {
+				"text": "Jegyzetekkel"
+			},
+			"pageSettingsLabel": {
+				"text": "Oldalbeállítások:"
+			},
+			"columnCountLabel": {
+				"text": "Oszlopok száma:"
+			},
+			"rowCountLabel": {
+				"text": "Sorok száma:"
+			},
+			"imagePaddingLabel": {
+				"text": "Képkitöltés:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Vízszintes középre igazítás"
 			},
 			"okButton": {
 				"value": "Rendben"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Oldal",
 		"vspe-openFile-addFileString": "Fájl hozzáadása",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Mentse el a változtatásokat PDF dokumentumban",
+		"vspe-pdfContentEditorTool-getContentImages": "Tartalomképek beszerzése",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Az interaktív űrlap frissítése",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Szerezzen be interaktív űrlapot",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Alkalmazzon szerkesztési jeleket",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Szerezzen be szövegblokkokat",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Mentse el a változtatásokat a szövegblokkban",
-		"vspe-pdfContentEditorTool-getContentImages": "Tartalomképek beszerzése",
 		"vsdv-openFile-addFileString": "Fájl hozzáadása",
 		"vsdv-openFile-authenticateFileString": "Fájl hitelesítése",
 		"vsdv-downloadFile-actionMessage": "Fájl letöltése",

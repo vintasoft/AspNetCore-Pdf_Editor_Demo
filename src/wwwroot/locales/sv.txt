@@ -64,7 +64,7 @@
 			"title": "Inställningar för miniatyrvisning"
 		},
 		"panToolButton": {
-			"title": "Panera"
+			"title": "Dokumentnavigering, Textmarkering, Panorera"
 		},
 		"textSelectionToolButton": {
 			"title": "Textval"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Lägg till text"
+		},
+		"copyTextBlockButton": {
+			"title": "Kopiera text"
+		},
+		"pasteTextBlockButton": {
+			"title": "Klistra in text"
 		},
 		"deleteTextBlockButton": {
 			"title": "Ta bort text"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indexet ligger inte inom bildsamlingens indexintervall."
+			},
+			"withAnnotationsLabel": {
+				"text": "Med anteckningar"
+			},
+			"pageSettingsLabel": {
+				"text": "Sidinställningar:"
+			},
+			"columnCountLabel": {
+				"text": "Antal kolumner:"
+			},
+			"rowCountLabel": {
+				"text": "Radantal:"
+			},
+			"imagePaddingLabel": {
+				"text": "Bildfyllning:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrera horisontellt"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sida",
 		"vspe-openFile-addFileString": "Lägg till fil",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Spara ändringar i PDF-dokument",
+		"vspe-pdfContentEditorTool-getContentImages": "Få innehållsbilder",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Uppdatera interaktivt formulär",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Få interaktiv form",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Använd redaktionsmärken",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Skaffa textblock",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Spara ändringar i textblock",
-		"vspe-pdfContentEditorTool-getContentImages": "Få innehållsbilder",
 		"vsdv-openFile-addFileString": "Lägg till fil",
 		"vsdv-openFile-authenticateFileString": "Autentisera fil",
 		"vsdv-downloadFile-actionMessage": "Nedladdning fil",

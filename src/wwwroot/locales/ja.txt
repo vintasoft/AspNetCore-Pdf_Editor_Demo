@@ -64,7 +64,7 @@
 			"title": "サムネイル ビューアの設定"
 		},
 		"panToolButton": {
-			"title": "パン"
+			"title": "ドキュメントナビゲーション、テキスト選択、パン"
 		},
 		"textSelectionToolButton": {
 			"title": "テキストの選択"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "テキストを追加"
+		},
+		"copyTextBlockButton": {
+			"title": "テキストのコピー"
+		},
+		"pasteTextBlockButton": {
+			"title": "テキストの貼り付け"
 		},
 		"deleteTextBlockButton": {
 			"title": "テキストを削除"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "インデックスはイメージ コレクションのインデックス範囲内にありません。"
+			},
+			"withAnnotationsLabel": {
+				"text": "注釈付き"
+			},
+			"pageSettingsLabel": {
+				"text": "ページ設定："
+			},
+			"columnCountLabel": {
+				"text": "列数:"
+			},
+			"rowCountLabel": {
+				"text": "行数："
+			},
+			"imagePaddingLabel": {
+				"text": "画像のパディング："
+			},
+			"centerHorizontallyLabel": {
+				"text": "水平中央揃え"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "ページ",
 		"vspe-openFile-addFileString": "ファイルを追加",
 		"vspe-saveChanges-saveChangesInPdfDocument": "PDF ドキュメントに変更を保存する",
+		"vspe-pdfContentEditorTool-getContentImages": "コンテンツ画像を取得",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "インタラクティブ フォームを更新",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "インタラクティブ フォームを取得",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "墨消しマークを適用する",
 		"vspe-pdfContentEditorTool-getTextBlocks": "テキスト ブロックを取得",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "テキスト ブロックの変更を保存",
-		"vspe-pdfContentEditorTool-getContentImages": "コンテンツ画像を取得",
 		"vsdv-openFile-addFileString": "ファイルを追加",
 		"vsdv-openFile-authenticateFileString": "ファイルを認証する",
 		"vsdv-downloadFile-actionMessage": "ダウンロードファイル",

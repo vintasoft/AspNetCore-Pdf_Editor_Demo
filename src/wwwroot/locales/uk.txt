@@ -64,7 +64,7 @@
 			"title": "Налаштування перегляду мініатюр"
 		},
 		"panToolButton": {
-			"title": "Пан"
+			"title": "Навігація по документу, Виділення тексту, Панорамування"
 		},
 		"textSelectionToolButton": {
 			"title": "Виділення тексту"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Додайте текст"
+		},
+		"copyTextBlockButton": {
+			"title": "Копіювання тексту"
+		},
+		"pasteTextBlockButton": {
+			"title": "Вставка тексту"
 		},
 		"deleteTextBlockButton": {
 			"title": "Видалити текст"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Індекс поза діапазоном колекції зображень."
+			},
+			"withAnnotationsLabel": {
+				"text": "З анотаціями"
+			},
+			"pageSettingsLabel": {
+				"text": "Налаштування сторінки:"
+			},
+			"columnCountLabel": {
+				"text": "Кількість стовпців:"
+			},
+			"rowCountLabel": {
+				"text": "Кількість рядків:"
+			},
+			"imagePaddingLabel": {
+				"text": "Відступи від зображення:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Вирівняти по центру по горизонталі"
 			},
 			"okButton": {
 				"value": "В порядку"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Сторінка",
 		"vspe-openFile-addFileString": "Додати файл",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Зберегти зміни в документі PDF",
+		"vspe-pdfContentEditorTool-getContentImages": "Отримайте зображення вмісту",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Оновити інтерактивну форму",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Отримати інтерактивну форму",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Поставте знаки редагування",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Отримати текстові блоки",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Зберегти зміни в текстових блоках",
-		"vspe-pdfContentEditorTool-getContentImages": "Отримайте зображення вмісту",
 		"vsdv-openFile-addFileString": "Додати файл",
 		"vsdv-openFile-authenticateFileString": "Автентифікувати файл",
 		"vsdv-downloadFile-actionMessage": "Завантажити файл",

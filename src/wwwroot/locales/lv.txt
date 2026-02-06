@@ -64,7 +64,7 @@
 			"title": "Sīktēlu skatītāja iestatījumi"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Dokumenta navigācija, teksta atlasīšana, horizontāla skatīšanās"
 		},
 		"textSelectionToolButton": {
 			"title": "Teksta atlase"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Pievienojiet tekstu"
+		},
+		"copyTextBlockButton": {
+			"title": "Teksta kopēšana"
+		},
+		"pasteTextBlockButton": {
+			"title": "Teksta ielīmēšana"
 		},
 		"deleteTextBlockButton": {
 			"title": "Dzēst tekstu"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indekss ir ārpus attēlu kolekcijas diapazona."
+			},
+			"withAnnotationsLabel": {
+				"text": "Ar anotācijām"
+			},
+			"pageSettingsLabel": {
+				"text": "Lapas iestatījumi:"
+			},
+			"columnCountLabel": {
+				"text": "Kolonnu skaits:"
+			},
+			"rowCountLabel": {
+				"text": "Rindu skaits:"
+			},
+			"imagePaddingLabel": {
+				"text": "Attēlu papildināšana:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrēt horizontāli"
 			},
 			"okButton": {
 				"value": "labi"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Lappuse",
 		"vspe-openFile-addFileString": "Pievienot failu",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Saglabājiet izmaiņas PDF dokumentā",
+		"vspe-pdfContentEditorTool-getContentImages": "Iegūstiet satura attēlus",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Atjaunināt interaktīvo veidlapu",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Iegūstiet interaktīvu veidlapu",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Lietojiet rediģēšanas atzīmes",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Iegūstiet teksta blokus",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Saglabājiet izmaiņas teksta blokos",
-		"vspe-pdfContentEditorTool-getContentImages": "Iegūstiet satura attēlus",
 		"vsdv-openFile-addFileString": "Pievienot failu",
 		"vsdv-openFile-authenticateFileString": "Autentificēt failu",
 		"vsdv-downloadFile-actionMessage": "Lejupielādēt failu",

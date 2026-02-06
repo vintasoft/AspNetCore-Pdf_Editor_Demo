@@ -64,7 +64,7 @@
 			"title": "Nastavitve pregledovalnika sličic"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Navigacija po dokumentu, izbira besedila, premikanje"
 		},
 		"textSelectionToolButton": {
 			"title": "Izbira besedila"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Dodajte besedilo"
+		},
+		"copyTextBlockButton": {
+			"title": "Kopiranje besedila"
+		},
+		"pasteTextBlockButton": {
+			"title": "Lepljenje besedila"
 		},
 		"deleteTextBlockButton": {
 			"title": "Izbriši besedilo"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeks izven obsega zbirke slik."
+			},
+			"withAnnotationsLabel": {
+				"text": "Z opombami"
+			},
+			"pageSettingsLabel": {
+				"text": "Nastavitve strani:"
+			},
+			"columnCountLabel": {
+				"text": "Število stolpcev:"
+			},
+			"rowCountLabel": {
+				"text": "Število vrstic:"
+			},
+			"imagePaddingLabel": {
+				"text": "Odmik slike:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Vodoravno centriranje"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Stran",
 		"vspe-openFile-addFileString": "Dodaj datoteko",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Shranite spremembe v dokument PDF",
+		"vspe-pdfContentEditorTool-getContentImages": "Pridobite slike vsebine",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Posodobite interaktivni obrazec",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Pridobite interaktivni obrazec",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Uporabi oznake redakcije",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Pridobite besedilne bloke",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Shranite spremembe v besedilnih blokih",
-		"vspe-pdfContentEditorTool-getContentImages": "Pridobite slike vsebine",
 		"vsdv-openFile-addFileString": "Dodaj datoteko",
 		"vsdv-openFile-authenticateFileString": "Preveri pristnost datoteke",
 		"vsdv-downloadFile-actionMessage": "Prenesi datoteko",

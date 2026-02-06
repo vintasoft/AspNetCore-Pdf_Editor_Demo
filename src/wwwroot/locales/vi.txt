@@ -64,7 +64,7 @@
 			"title": "Cài đặt trình xem hình thu nhỏ"
 		},
 		"panToolButton": {
-			"title": "Xoay"
+			"title": "Điều hướng tài liệu, Chọn văn bản, Di chuyển"
 		},
 		"textSelectionToolButton": {
 			"title": "Lựa chọn văn bản"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Thêm văn bản"
+		},
+		"copyTextBlockButton": {
+			"title": "Sao chép văn bản"
+		},
+		"pasteTextBlockButton": {
+			"title": "Dán văn bản"
 		},
 		"deleteTextBlockButton": {
 			"title": "Xóa văn bản"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Chỉ mục không nằm trong phạm vi chỉ mục của bộ sưu tập hình ảnh."
+			},
+			"withAnnotationsLabel": {
+				"text": "Với chú thích"
+			},
+			"pageSettingsLabel": {
+				"text": "Cài đặt trang:"
+			},
+			"columnCountLabel": {
+				"text": "Số lượng cột:"
+			},
+			"rowCountLabel": {
+				"text": "Số hàng:"
+			},
+			"imagePaddingLabel": {
+				"text": "Khoảng cách lề hình ảnh:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Căn giữa theo chiều ngang"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Trang",
 		"vspe-openFile-addFileString": "Thêm tập tin",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Lưu các thay đổi trong tài liệu PDF",
+		"vspe-pdfContentEditorTool-getContentImages": "Nhận hình ảnh nội dung",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Cập nhật biểu mẫu tương tác",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Nhận biểu mẫu tương tác",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Áp dụng dấu hiệu biên tập",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Nhận khối văn bản",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Lưu thay đổi trong khối văn bản",
-		"vspe-pdfContentEditorTool-getContentImages": "Nhận hình ảnh nội dung",
 		"vsdv-openFile-addFileString": "Thêm tập tin",
 		"vsdv-openFile-authenticateFileString": "Xác thực tập tin",
 		"vsdv-downloadFile-actionMessage": "Tải tập tin",

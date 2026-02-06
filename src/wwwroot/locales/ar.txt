@@ -64,7 +64,7 @@
 			"title": "إعدادات عارض الصور المصغرة"
 		},
 		"panToolButton": {
-			"title": "عموم"
+			"title": "التنقل بين المستندات، تحديد النص، تحريك الشاشة"
 		},
 		"textSelectionToolButton": {
 			"title": "اختيار النص"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "إضافة نص"
+		},
+		"copyTextBlockButton": {
+			"title": "نسخ النص"
+		},
+		"pasteTextBlockButton": {
+			"title": "لصق النص"
 		},
 		"deleteTextBlockButton": {
 			"title": "حذف نص"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "الفهرس ليس ضمن نطاق الفهرس لمجموعة الصور."
+			},
+			"withAnnotationsLabel": {
+				"text": "مع التعليقات التوضيحية"
+			},
+			"pageSettingsLabel": {
+				"text": "إعدادات الصفحة:"
+			},
+			"columnCountLabel": {
+				"text": "عدد الأعمدة:"
+			},
+			"rowCountLabel": {
+				"text": "عدد الصفوف:"
+			},
+			"imagePaddingLabel": {
+				"text": "تباعد الصورة:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "توسيط أفقي"
 			},
 			"okButton": {
 				"value": "موافق"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "الصفحة",
 		"vspe-openFile-addFileString": "اضف ملف",
 		"vspe-saveChanges-saveChangesInPdfDocument": "حفظ التغييرات في وثيقة PDF",
+		"vspe-pdfContentEditorTool-getContentImages": "الحصول على صور المحتوى",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "تحديث النموذج التفاعلي",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "الحصول على نموذج تفاعلي",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "تطبيق علامات التنقيح",
 		"vspe-pdfContentEditorTool-getTextBlocks": "الحصول على كتل نصية",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "حفظ التغييرات في كتل النص",
-		"vspe-pdfContentEditorTool-getContentImages": "الحصول على صور المحتوى",
 		"vsdv-openFile-addFileString": "اضف ملف",
 		"vsdv-openFile-authenticateFileString": "مصادقة الملف",
 		"vsdv-downloadFile-actionMessage": "تحميل الملف",

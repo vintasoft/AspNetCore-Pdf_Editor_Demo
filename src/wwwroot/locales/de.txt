@@ -64,7 +64,7 @@
 			"title": "Einstellungen für die Miniaturansichtsansicht"
 		},
 		"panToolButton": {
-			"title": "Schwenken"
+			"title": "Dokumentnavigation, Textauswahl, Verschieben"
 		},
 		"textSelectionToolButton": {
 			"title": "Textauswahl"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Text hinzufügen"
+		},
+		"copyTextBlockButton": {
+			"title": "Text kopieren"
+		},
+		"pasteTextBlockButton": {
+			"title": "Text einfügen"
 		},
 		"deleteTextBlockButton": {
 			"title": "Text löschen"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Der Index liegt nicht im Indexbereich der Bildsammlung."
+			},
+			"withAnnotationsLabel": {
+				"text": "Mit Anmerkungen"
+			},
+			"pageSettingsLabel": {
+				"text": "Seiteneinstellungen:"
+			},
+			"columnCountLabel": {
+				"text": "Spaltenanzahl:"
+			},
+			"rowCountLabel": {
+				"text": "Zeilenanzahl:"
+			},
+			"imagePaddingLabel": {
+				"text": "Bildabstand:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Horizontal zentrieren"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Seite",
 		"vspe-openFile-addFileString": "Datei hinzufügen",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Änderungen im PDF-Dokument speichern",
+		"vspe-pdfContentEditorTool-getContentImages": "Inhaltsbilder abrufen",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Interaktives Formular aktualisieren",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Interaktives Formular abrufen",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Wenden Sie Schwärzungsmarkierungen an",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Textblöcke abrufen",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Änderungen in Textblöcken speichern",
-		"vspe-pdfContentEditorTool-getContentImages": "Inhaltsbilder abrufen",
 		"vsdv-openFile-addFileString": "Datei hinzufügen",
 		"vsdv-openFile-authenticateFileString": "Datei authentifizieren",
 		"vsdv-downloadFile-actionMessage": "Download-Datei",

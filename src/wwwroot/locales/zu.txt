@@ -64,7 +64,7 @@
 			"title": "Izilungiselelo zesibukeli sesithonjana"
 		},
 		"panToolButton": {
-			"title": "Ipani"
+			"title": "Ukuzulazula kwedokhumenti, Ukukhetha umbhalo, i-pan"
 		},
 		"textSelectionToolButton": {
 			"title": "Ukukhetha Umbhalo"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Engeza umbhalo"
+		},
+		"copyTextBlockButton": {
+			"title": "Kopisha umbhalo"
+		},
+		"pasteTextBlockButton": {
+			"title": "Namathisela umbhalo"
 		},
 		"deleteTextBlockButton": {
 			"title": "Susa umbhalo"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Inkomba ayikho ebangeni lokuqoqwa kwezithombe."
+			},
+			"withAnnotationsLabel": {
+				"text": "Ngezichasiselo"
+			},
+			"pageSettingsLabel": {
+				"text": "Izilungiselelo zekhasi:"
+			},
+			"columnCountLabel": {
+				"text": "Inani lekholomu:"
+			},
+			"rowCountLabel": {
+				"text": "Inani lemigqa:"
+			},
+			"imagePaddingLabel": {
+				"text": "Ukufiphaza isithombe:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Phakamisa phakathi nendawo ngokuvundlile"
 			},
 			"okButton": {
 				"value": "KULUNGILE"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Ikhasi",
 		"vspe-openFile-addFileString": "Engeza ifayela",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
+		"vspe-pdfContentEditorTool-getContentImages": "Thola izithombe zokuqukethwe",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Buyekeza ifomu lokusebenzisana",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Thola ifomu interactive",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Faka amamaki okubuyisela emuva",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Thola amabhlogo wombhalo",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Londoloza izinguquko kumabhulokhi wombhalo",
-		"vspe-pdfContentEditorTool-getContentImages": "Thola izithombe zokuqukethwe",
 		"vsdv-openFile-addFileString": "Engeza ifayela",
 		"vsdv-openFile-authenticateFileString": "Qinisekisa ifayela",
 		"vsdv-downloadFile-actionMessage": "Landa ifayela",

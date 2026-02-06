@@ -64,7 +64,7 @@
 			"title": "Paramètres de la visionneuse de miniatures"
 		},
 		"panToolButton": {
-			"title": "Poêle"
+			"title": "Navigation dans le document, Sélection de texte, Déplacement"
 		},
 		"textSelectionToolButton": {
 			"title": "Sélection de texte"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Ajouter du texte"
+		},
+		"copyTextBlockButton": {
+			"title": "Copier le texte"
+		},
+		"pasteTextBlockButton": {
+			"title": "Coller le texte"
 		},
 		"deleteTextBlockButton": {
 			"title": "Supprimer du texte"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "L'index n'est pas dans la plage d'index de la collection d'images."
+			},
+			"withAnnotationsLabel": {
+				"text": "Avec annotations"
+			},
+			"pageSettingsLabel": {
+				"text": "Paramètres de la page:"
+			},
+			"columnCountLabel": {
+				"text": "Nombre de colonnes:"
+			},
+			"rowCountLabel": {
+				"text": "Nombre de lignes:"
+			},
+			"imagePaddingLabel": {
+				"text": "Marge intérieure des images:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrer horizontalement"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Page",
 		"vspe-openFile-addFileString": "Ajouter le fichier",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Enregistrer les modifications dans le document PDF",
+		"vspe-pdfContentEditorTool-getContentImages": "Obtenir les images du contenu",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Mettre à jour le formulaire interactif",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Obtenir le formulaire interactif",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Appliquer des marques de rédaction",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Obtenir les blocs de texte",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Enregistrer les modifications dans les blocs de texte",
-		"vspe-pdfContentEditorTool-getContentImages": "Obtenir les images du contenu",
 		"vsdv-openFile-addFileString": "Ajouter le fichier",
 		"vsdv-openFile-authenticateFileString": "Authentifier le fichier",
 		"vsdv-downloadFile-actionMessage": "Télécharger un fichier",

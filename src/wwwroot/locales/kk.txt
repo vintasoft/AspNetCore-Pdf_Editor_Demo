@@ -64,7 +64,7 @@
 			"title": "Нобайды қарау құралының параметрлері"
 		},
 		"panToolButton": {
-			"title": "Пан"
+			"title": "Құжаттарды шарлау, Мәтінді таңдау, Панорамалау"
 		},
 		"textSelectionToolButton": {
 			"title": "Мәтінді таңдау"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Мәтін қосу"
+		},
+		"copyTextBlockButton": {
+			"title": "Мәтінді көшіру"
+		},
+		"pasteTextBlockButton": {
+			"title": "Мәтінді қою"
 		},
 		"deleteTextBlockButton": {
 			"title": "Мәтінді жою"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Индекс кескіндер жинағының ауқымынан тыс."
+			},
+			"withAnnotationsLabel": {
+				"text": "Аннотациялармен"
+			},
+			"pageSettingsLabel": {
+				"text": "Бет параметрлері:"
+			},
+			"columnCountLabel": {
+				"text": "Бағанды ​​санау:"
+			},
+			"rowCountLabel": {
+				"text": "Қатар саны:"
+			},
+			"imagePaddingLabel": {
+				"text": "Сурет толтыруы:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Көлденеңінен ортаға орналастыру"
 			},
 			"okButton": {
 				"value": "ЖАРАЙДЫ МА"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Бет",
 		"vspe-openFile-addFileString": "Файл қосу",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Өзгерістерді PDF құжатында сақтаңыз",
+		"vspe-pdfContentEditorTool-getContentImages": "Мазмұн кескіндерін алыңыз",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Интерактивті пішінді жаңарту",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Интерактивті пішінді алыңыз",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Өңдеу белгілерін қолданыңыз",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Мәтін блоктарын алыңыз",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Мәтіндік блоктардағы өзгертулерді сақтаңыз",
-		"vspe-pdfContentEditorTool-getContentImages": "Мазмұн кескіндерін алыңыз",
 		"vsdv-openFile-addFileString": "Файл қосу",
 		"vsdv-openFile-authenticateFileString": "Файлдың аутентификациясы",
 		"vsdv-downloadFile-actionMessage": "Файлды жүктеп алу",

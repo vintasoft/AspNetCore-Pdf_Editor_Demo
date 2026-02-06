@@ -64,7 +64,7 @@
 			"title": "Postavke pregledača sličica"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Navigacija dokumentom, Odabir teksta, Pomicanje"
 		},
 		"textSelectionToolButton": {
 			"title": "Odabir teksta"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Dodajte tekst"
+		},
+		"copyTextBlockButton": {
+			"title": "Kopiranje teksta"
+		},
+		"pasteTextBlockButton": {
+			"title": "Zalijepi tekst"
 		},
 		"deleteTextBlockButton": {
 			"title": "Izbriši tekst"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeks nije unutar raspona indeksa zbirke slika."
+			},
+			"withAnnotationsLabel": {
+				"text": "S napomenama"
+			},
+			"pageSettingsLabel": {
+				"text": "Postavke stranice:"
+			},
+			"columnCountLabel": {
+				"text": "Broj stupaca:"
+			},
+			"rowCountLabel": {
+				"text": "Broj redaka:"
+			},
+			"imagePaddingLabel": {
+				"text": "Raspored slike:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrirano vodoravno"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Stranica",
 		"vspe-openFile-addFileString": "Dodaj datoteku",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Spremi promjene u PDF dokumentu",
+		"vspe-pdfContentEditorTool-getContentImages": "Dobijte slike sadržaja",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Ažurirajte interaktivni obrazac",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Dobijte interaktivni obrazac",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Primijenite oznake redakcije",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Nabavite tekstualne blokove",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Spremi promjene u blokovima teksta",
-		"vspe-pdfContentEditorTool-getContentImages": "Dobijte slike sadržaja",
 		"vsdv-openFile-addFileString": "Dodaj datoteku",
 		"vsdv-openFile-authenticateFileString": "Ovjerite datoteku",
 		"vsdv-downloadFile-actionMessage": "Preuzmi datoteku",

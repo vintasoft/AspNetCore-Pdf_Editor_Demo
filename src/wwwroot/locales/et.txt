@@ -64,7 +64,7 @@
 			"title": "Pisipiltide vaataja seaded"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Dokumendi navigeerimine, teksti valimine, panoraamimine"
 		},
 		"textSelectionToolButton": {
 			"title": "Teksti valik"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Lisa tekst"
+		},
+		"copyTextBlockButton": {
+			"title": "Teksti kopeerimine"
+		},
+		"pasteTextBlockButton": {
+			"title": "Teksti kleepimine"
 		},
 		"deleteTextBlockButton": {
 			"title": "Kustuta tekst"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeks pildikogu ulatusest väljas."
+			},
+			"withAnnotationsLabel": {
+				"text": "Märkustega"
+			},
+			"pageSettingsLabel": {
+				"text": "Lehe seaded:"
+			},
+			"columnCountLabel": {
+				"text": "Veergude arv:"
+			},
+			"rowCountLabel": {
+				"text": "Ridade arv:"
+			},
+			"imagePaddingLabel": {
+				"text": "Pildi täitmine:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Tsentreeri horisontaalselt"
 			},
 			"okButton": {
 				"value": "Okei"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Lehekülg",
 		"vspe-openFile-addFileString": "Lisa fail",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Salvestage muudatused PDF-dokumenti",
+		"vspe-pdfContentEditorTool-getContentImages": "Hankige sisupilte",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Uuenda interaktiivset vormi",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Hankige interaktiivne vorm",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Rakenda parandusmärke",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Hankige tekstiplokke",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Salvestage muudatused tekstiplokkides",
-		"vspe-pdfContentEditorTool-getContentImages": "Hankige sisupilte",
 		"vsdv-openFile-addFileString": "Lisa fail",
 		"vsdv-openFile-authenticateFileString": "Autentige fail",
 		"vsdv-downloadFile-actionMessage": "Laadige fail alla",

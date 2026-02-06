@@ -64,7 +64,7 @@
 			"title": "მინიატურების მაყურებლის პარამეტრები"
 		},
 		"panToolButton": {
-			"title": "პან"
+			"title": "დოკუმენტის ნავიგაცია, ტექსტის შერჩევა, პანორამირება"
 		},
 		"textSelectionToolButton": {
 			"title": "ტექსტის შერჩევა"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "ტექსტის დამატება"
+		},
+		"copyTextBlockButton": {
+			"title": "ტექსტის კოპირება"
+		},
+		"pasteTextBlockButton": {
+			"title": "ტექსტის ჩასმა"
 		},
 		"deleteTextBlockButton": {
 			"title": "ტექსტის წაშლა"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "ინდექსი სურათების შეგროვების დიაპაზონის გარეთ."
+			},
+			"withAnnotationsLabel": {
+				"text": "ანოტაციებით"
+			},
+			"pageSettingsLabel": {
+				"text": "გვერდის პარამეტრები:"
+			},
+			"columnCountLabel": {
+				"text": "სვეტების რაოდენობა:"
+			},
+			"rowCountLabel": {
+				"text": "სტრიქონების რაოდენობა:"
+			},
+			"imagePaddingLabel": {
+				"text": "სურათის შევსება:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "ჰორიზონტალურად ცენტრირება"
 			},
 			"okButton": {
 				"value": "კარგი"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "გვერდი",
 		"vspe-openFile-addFileString": "Ფაილის დამატება",
 		"vspe-saveChanges-saveChangesInPdfDocument": "შეინახეთ ცვლილებები PDF დოკუმენტში",
+		"vspe-pdfContentEditorTool-getContentImages": "მიიღეთ შინაარსის სურათები",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "განაახლეთ ინტერაქტიული ფორმა",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "მიიღეთ ინტერაქტიული ფორმა",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "გამოიყენეთ რედაქციის ნიშნები",
 		"vspe-pdfContentEditorTool-getTextBlocks": "მიიღეთ ტექსტური ბლოკები",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "შეინახეთ ცვლილებები ტექსტურ ბლოკებში",
-		"vspe-pdfContentEditorTool-getContentImages": "მიიღეთ შინაარსის სურათები",
 		"vsdv-openFile-addFileString": "Ფაილის დამატება",
 		"vsdv-openFile-authenticateFileString": "ფაილის ავთენტიფიკაცია",
 		"vsdv-downloadFile-actionMessage": "Გადმოწერეთ ფაილი",

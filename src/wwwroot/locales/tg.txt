@@ -64,7 +64,7 @@
 			"title": "Танзимоти намоишгари ангора"
 		},
 		"panToolButton": {
-			"title": "Пан"
+			"title": "Навигатсияи ҳуҷҷат, Интихоби матн, Панорама"
 		},
 		"textSelectionToolButton": {
 			"title": "Интихоби матн"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Матн илова кунед"
+		},
+		"copyTextBlockButton": {
+			"title": "Нусхабардории матн"
+		},
+		"pasteTextBlockButton": {
+			"title": "Чоп кардани матн"
 		},
 		"deleteTextBlockButton": {
 			"title": "Матнро нест кунед"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Индекс аз доираи ҷамъоварии тасвирҳо берун аст."
+			},
+			"withAnnotationsLabel": {
+				"text": "Бо шарҳҳо"
+			},
+			"pageSettingsLabel": {
+				"text": "Танзимоти саҳифа:"
+			},
+			"columnCountLabel": {
+				"text": "Шумораи сутунҳо:"
+			},
+			"rowCountLabel": {
+				"text": "Шумораи сатрҳо:"
+			},
+			"imagePaddingLabel": {
+				"text": "Пӯшиши тасвир:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Ба таври уфуқӣ дар марказ ҷойгир кунед"
 			},
 			"okButton": {
 				"value": "ДУРУСТ"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Саҳифа",
 		"vspe-openFile-addFileString": "Илова кардани файл",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Тағиротро дар ҳуҷҷати PDF захира кунед",
+		"vspe-pdfContentEditorTool-getContentImages": "Тасвирҳои мундариҷаро гиред",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Навсозии шакли интерактивӣ",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Шакли интерактивиро гиред",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Аломатҳои таҳрирро татбиқ кунед",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Блокҳои матниро гиред",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Тағиротро дар блокҳои матнӣ захира кунед",
-		"vspe-pdfContentEditorTool-getContentImages": "Тасвирҳои мундариҷаро гиред",
 		"vsdv-openFile-addFileString": "Илова кардани файл",
 		"vsdv-openFile-authenticateFileString": "Файлро тасдиқ кунед",
 		"vsdv-downloadFile-actionMessage": "Файлро зеркашӣ кунед",

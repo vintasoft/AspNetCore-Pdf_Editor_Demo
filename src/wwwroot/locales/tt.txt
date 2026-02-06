@@ -64,7 +64,7 @@
 			"title": "Эскиз тамашачы көйләүләре"
 		},
 		"panToolButton": {
-			"title": "Пан"
+			"title": "Документ навигациясе, Текст сайлау, Панорамалау"
 		},
 		"textSelectionToolButton": {
 			"title": "Текстны сайлау"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Текст өстәү"
+		},
+		"copyTextBlockButton": {
+			"title": "Текстны күчерү"
+		},
+		"pasteTextBlockButton": {
+			"title": "Текстны урнаштыру"
 		},
 		"deleteTextBlockButton": {
 			"title": "Текстны бетерү"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Рәсем җыю диапазоныннан индекс."
+			},
+			"withAnnotationsLabel": {
+				"text": "Аннотацияләр белән"
+			},
+			"pageSettingsLabel": {
+				"text": "Бит көйләүләре:"
+			},
+			"columnCountLabel": {
+				"text": "Багана саны:"
+			},
+			"rowCountLabel": {
+				"text": "Рәтләр саны:"
+			},
+			"imagePaddingLabel": {
+				"text": "Рәсем тулылыгы:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Горизонталь рәвештә үзәккә кую"
 			},
 			"okButton": {
 				"value": "ЯРАРМЫ"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Бит",
 		"vspe-openFile-addFileString": "Файл өстәү",
 		"vspe-saveChanges-saveChangesInPdfDocument": "PDF документындагы үзгәрешләрне саклагыз",
+		"vspe-pdfContentEditorTool-getContentImages": "Эчтәлек рәсемнәрен алыгыз",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Интерактив форманы яңарту",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Интерактив форма алыгыз",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Редакция билгеләрен кулланыгыз",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Текст блокларын алыгыз",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Текст блокларында үзгәрешләрне саклагыз",
-		"vspe-pdfContentEditorTool-getContentImages": "Эчтәлек рәсемнәрен алыгыз",
 		"vsdv-openFile-addFileString": "Файл өстәү",
 		"vsdv-openFile-authenticateFileString": "Файлны раслау",
 		"vsdv-downloadFile-actionMessage": "Файлны йөкләү",

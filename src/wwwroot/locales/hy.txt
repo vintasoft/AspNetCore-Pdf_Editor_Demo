@@ -64,7 +64,7 @@
 			"title": "Մանրապատկերների դիտման կարգավորումներ"
 		},
 		"panToolButton": {
-			"title": "Պան"
+			"title": "Փաստաթղթի նավիգացիա, Տեքստի ընտրություն, Տեղաշարժում"
 		},
 		"textSelectionToolButton": {
 			"title": "Տեքստի ընտրություն"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Ավելացնել տեքստ"
+		},
+		"copyTextBlockButton": {
+			"title": "Տեքստի պատճենում"
+		},
+		"pasteTextBlockButton": {
+			"title": "Տեքստի տեղադրում"
 		},
 		"deleteTextBlockButton": {
 			"title": "Ջնջել տեքստը"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Ինդեքս՝ պատկերների հավաքածուից դուրս:"
+			},
+			"withAnnotationsLabel": {
+				"text": "Նշումներով"
+			},
+			"pageSettingsLabel": {
+				"text": "Էջի կարգավորումներ՝"
+			},
+			"columnCountLabel": {
+				"text": "Սյունակների քանակը."
+			},
+			"rowCountLabel": {
+				"text": "Տողերի քանակ՝"
+			},
+			"imagePaddingLabel": {
+				"text": "Պատկերի լրացում՝"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Կենտրոնացնել հորիզոնական"
 			},
 			"okButton": {
 				"value": "լավ"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Էջ",
 		"vspe-openFile-addFileString": "Ավելացնել ֆայլ",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Պահպանեք փոփոխությունները PDF փաստաթղթում",
+		"vspe-pdfContentEditorTool-getContentImages": "Ստացեք բովանդակության պատկերներ",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Թարմացրեք ինտերակտիվ ձևը",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Ստացեք ինտերակտիվ ձև",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Կիրառեք խմբագրման նշաններ",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Ստացեք տեքստային բլոկներ",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Պահպանեք փոփոխությունները տեքստային բլոկներում",
-		"vspe-pdfContentEditorTool-getContentImages": "Ստացեք բովանդակության պատկերներ",
 		"vsdv-openFile-addFileString": "Ավելացնել ֆայլ",
 		"vsdv-openFile-authenticateFileString": "Նույնականացնել ֆայլը",
 		"vsdv-downloadFile-actionMessage": "Ներբեռնել ֆայլը",

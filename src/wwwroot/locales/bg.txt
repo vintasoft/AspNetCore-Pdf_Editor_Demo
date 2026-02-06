@@ -64,7 +64,7 @@
 			"title": "Настройки за преглед на миниатюри"
 		},
 		"panToolButton": {
-			"title": "Панорамиране"
+			"title": "Навигация в документа, Избор на текст, Панорамиране"
 		},
 		"textSelectionToolButton": {
 			"title": "Избор на текст"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Добавете текст"
+		},
+		"copyTextBlockButton": {
+			"title": "Копиране на текст"
+		},
+		"pasteTextBlockButton": {
+			"title": "Поставяне на текст"
 		},
 		"deleteTextBlockButton": {
 			"title": "Изтриване на текст"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Индексът не е в обхвата на индекса на колекцията от изображения."
+			},
+			"withAnnotationsLabel": {
+				"text": "С анотации"
+			},
+			"pageSettingsLabel": {
+				"text": "Настройки на страницата:"
+			},
+			"columnCountLabel": {
+				"text": "Брой колони:"
+			},
+			"rowCountLabel": {
+				"text": "Брой редове:"
+			},
+			"imagePaddingLabel": {
+				"text": "Подреждане на изображението:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Центриране хоризонтално"
 			},
 			"okButton": {
 				"value": "ОК"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Страница",
 		"vspe-openFile-addFileString": "Добави файл",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Запазете промените в PDF документ",
+		"vspe-pdfContentEditorTool-getContentImages": "Вземете изображения на съдържание",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Актуализиране на интерактивна форма",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Вземете интерактивна форма",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Приложете знаци за редактиране",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Вземете текстови блокове",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Запазване на промените в текстови блокове",
-		"vspe-pdfContentEditorTool-getContentImages": "Вземете изображения на съдържание",
 		"vsdv-openFile-addFileString": "Добави файл",
 		"vsdv-openFile-authenticateFileString": "Удостоверете файла",
 		"vsdv-downloadFile-actionMessage": "Свали файл",

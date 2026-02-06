@@ -64,7 +64,7 @@
 			"title": "缩略图查看器设置"
 		},
 		"panToolButton": {
-			"title": "平底锅"
+			"title": "文档导航、文本选择、平移"
 		},
 		"textSelectionToolButton": {
 			"title": "文本选择"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "添加文本"
+		},
+		"copyTextBlockButton": {
+			"title": "复制文本"
+		},
+		"pasteTextBlockButton": {
+			"title": "粘贴文本"
 		},
 		"deleteTextBlockButton": {
 			"title": "删除文本"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "索引超出图像集合范围。"
+			},
+			"withAnnotationsLabel": {
+				"text": "带注释"
+			},
+			"pageSettingsLabel": {
+				"text": "页面设置："
+			},
+			"columnCountLabel": {
+				"text": "列数："
+			},
+			"rowCountLabel": {
+				"text": "行数："
+			},
+			"imagePaddingLabel": {
+				"text": "图像边距："
+			},
+			"centerHorizontallyLabel": {
+				"text": "水平居中"
 			},
 			"okButton": {
 				"value": "好的"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "页",
 		"vspe-openFile-addFileString": "添加文件",
 		"vspe-saveChanges-saveChangesInPdfDocument": "保存 PDF 文档中的更改",
+		"vspe-pdfContentEditorTool-getContentImages": "获取内容图像",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "更新交互式表单",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "获取交互式表单",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "应用密文标记",
 		"vspe-pdfContentEditorTool-getTextBlocks": "获取文本块",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "保存文本块中的更改",
-		"vspe-pdfContentEditorTool-getContentImages": "获取内容图像",
 		"vsdv-openFile-addFileString": "添加文件",
 		"vsdv-openFile-authenticateFileString": "验证文件",
 		"vsdv-downloadFile-actionMessage": "下载文件",

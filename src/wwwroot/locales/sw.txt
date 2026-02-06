@@ -64,7 +64,7 @@
 			"title": "Mipangilio ya kitazamaji cha kijipicha"
 		},
 		"panToolButton": {
-			"title": "Panua"
+			"title": "Usogezaji wa hati, Uteuzi wa maandishi, Panua"
 		},
 		"textSelectionToolButton": {
 			"title": "Uteuzi wa Maandishi"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Ongeza maandishi"
+		},
+		"copyTextBlockButton": {
+			"title": "Nakili maandishi"
+		},
+		"pasteTextBlockButton": {
+			"title": "Bandika maandishi"
 		},
 		"deleteTextBlockButton": {
 			"title": "Futa maandishi"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Kielezo nje ya safu ya mkusanyiko wa picha."
+			},
+			"withAnnotationsLabel": {
+				"text": "Na maelezo"
+			},
+			"pageSettingsLabel": {
+				"text": "Mipangilio ya ukurasa:"
+			},
+			"columnCountLabel": {
+				"text": "Hesabu ya safu:"
+			},
+			"rowCountLabel": {
+				"text": "Idadi ya safu mlalo:"
+			},
+			"imagePaddingLabel": {
+				"text": "Upau wa picha:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Piga katikati kwa mlalo"
 			},
 			"okButton": {
 				"value": "sawa"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Ukurasa",
 		"vspe-openFile-addFileString": "Ongeza faili",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Hifadhi mabadiliko katika hati ya PDF",
+		"vspe-pdfContentEditorTool-getContentImages": "Pata picha za maudhui",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Sasisha fomu ya mwingiliano",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Pata fomu inayoingiliana",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Weka alama za urejeshaji",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Pata vizuizi vya maandishi",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Hifadhi mabadiliko katika vizuizi vya maandishi",
-		"vspe-pdfContentEditorTool-getContentImages": "Pata picha za maudhui",
 		"vsdv-openFile-addFileString": "Ongeza faili",
 		"vsdv-openFile-authenticateFileString": "Thibitisha faili",
 		"vsdv-downloadFile-actionMessage": "Pakua faili",

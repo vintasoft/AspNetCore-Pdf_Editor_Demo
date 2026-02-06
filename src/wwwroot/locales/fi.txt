@@ -64,7 +64,7 @@
 			"title": "Pikkukuvien katseluohjelman asetukset"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Asiakirjan navigointi, Tekstin valinta, Panorointi"
 		},
 		"textSelectionToolButton": {
 			"title": "Tekstin valinta"
@@ -137,6 +137,12 @@
 		},
 		"addTextBlockButton": {
 			"title": "Lisää tekstiä"
+		},
+		"copyTextBlockButton": {
+			"title": "Kopioi teksti"
+		},
+		"pasteTextBlockButton": {
+			"title": "Liitä teksti"
 		},
 		"deleteTextBlockButton": {
 			"title": "Poista teksti"
@@ -345,6 +351,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Hakemisto ei ole kuvakokoelman indeksialueella."
+			},
+			"withAnnotationsLabel": {
+				"text": "Merkintöjen kanssa"
+			},
+			"pageSettingsLabel": {
+				"text": "Sivun asetukset:"
+			},
+			"columnCountLabel": {
+				"text": "Sarakkeiden määrä:"
+			},
+			"rowCountLabel": {
+				"text": "Rivien määrä:"
+			},
+			"imagePaddingLabel": {
+				"text": "Kuvan täyttö:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Keskitä vaakasuunnassa"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1089,12 +1113,12 @@
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sivu",
 		"vspe-openFile-addFileString": "Lisää tiedosto",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Tallenna muutokset PDF-dokumenttiin",
+		"vspe-pdfContentEditorTool-getContentImages": "Hanki sisältökuvia",
 		"vspe-pdfInteractiveFormTool-updateInteractiveForm": "Päivitä interaktiivinen lomake",
 		"vspe-pdfInteractiveFormTool-getInteractiveForm": "Hanki interaktiivinen lomake",
 		"vspe-pdfRemoveContentTool-applyRedactionMarks": "Käytä muokkausmerkkejä",
 		"vspe-pdfContentEditorTool-getTextBlocks": "Hanki tekstilohkoja",
 		"vspe-pdfContentEditorTool-saveChangesInTextBlocks": "Tallenna muutokset tekstilohkoihin",
-		"vspe-pdfContentEditorTool-getContentImages": "Hanki sisältökuvia",
 		"vsdv-openFile-addFileString": "Lisää tiedosto",
 		"vsdv-openFile-authenticateFileString": "Todenna tiedosto",
 		"vsdv-downloadFile-actionMessage": "Lataa tiedosto",
