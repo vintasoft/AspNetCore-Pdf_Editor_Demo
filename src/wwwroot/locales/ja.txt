@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "サムネイル ビューアの設定"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "ドキュメントナビゲーション、テキスト選択、パン"
 		},
-		"textSelectionToolButton": {
-			"title": "テキストの選択"
+		"panToolButton": {
+			"title": "パン"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "PDF ページから画像リソースを抽出"
@@ -139,13 +139,13 @@
 			"title": "テキストを追加"
 		},
 		"copyTextBlockButton": {
-			"title": "テキストのコピー"
+			"title": "テキストブロックをコピー"
 		},
 		"pasteTextBlockButton": {
-			"title": "テキストの貼り付け"
+			"title": "テキストブロックを貼り付け"
 		},
 		"deleteTextBlockButton": {
-			"title": "テキストを削除"
+			"title": "テキストブロックを削除"
 		},
 		"saveChangesButton": {
 			"title": "変更内容を保存"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "選択されたテキスト:"
+			},
+			"copyToClipboardButton": {
+				"value": "クリップボードにコピー"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "ページ",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "画像リソースを取得する",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "ページ",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "ビューを時計回りに回転",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "ビューを反時計回りに回転",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "選択したテキストをクリップボードにコピー",
+		"vsui-imageViewerContextMenu-selectAllText": "すべてのテキストを選択",
 		"vspe-openFile-addFileString": "ファイルを追加",
 		"vspe-saveChanges-saveChangesInPdfDocument": "PDF ドキュメントに変更を保存する",
 		"vspe-pdfContentEditorTool-getContentImages": "コンテンツ画像を取得",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "キャンセル",
 		"vsui-documentPasswordPanel-authenticateFileString": "ファイルを認証する",
 		"vsui-imageSelectionDialog-title": "画像を選択",
-		"vsui-imageSelectionDialog-currentImageString": "現在の画像",
-		"vsui-imageSelectionDialog-allImagesString": "すべての画像",
-		"vsui-imageSelectionDialog-customImagesString": "カスタム",
 		"vsui-printImagesDialog-title": "画像を印刷",
-		"vsui-printImagesPanel-imagePrintingString": "画像を印刷中です",
-		"vsui-printImagesPanel-withAnnotationsLabel": "注釈あり",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "画像を印刷中です",
 		"vsui-imageViewerSettingsDialog-title": "画像ビューアの設定",
 		"vsui-thumbnailViewerSettingDialog-title": "サムネイル ビューアの設定",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "サムネイルに注釈を表示:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF を圧縮",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "保存",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "閉じる",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF ドキュメントを圧縮",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG エンコーダー設定",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "適用する",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "閉じる",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 エンコーダー設定",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "適用する",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "閉じる",
-		"vsui-exportFileSettingsDialog-title": "ファイルをエクスポートするための設定",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF ドキュメントを圧縮"
+		"vsui-exportFileSettingsDialog-title": "ファイルをエクスポートするための設定"
 	}
 }

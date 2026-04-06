@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Küçük Resim Görüntüleyici Ayarları"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Belge navigasyonu, Metin seçimi, Kaydırma"
 		},
-		"textSelectionToolButton": {
-			"title": "Metin Seçimi"
+		"panToolButton": {
+			"title": "Kaydır"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "PDF sayfasından görüntü kaynaklarını ayıkla"
@@ -139,13 +139,13 @@
 			"title": "Metin ekle"
 		},
 		"copyTextBlockButton": {
-			"title": "Metni kopyala"
+			"title": "Metin bloğunu kopyala"
 		},
 		"pasteTextBlockButton": {
-			"title": "Metni yapıştır"
+			"title": "Metin bloğunu yapıştır"
 		},
 		"deleteTextBlockButton": {
-			"title": "Metni sil"
+			"title": "Metin bloğunu sil"
 		},
 		"saveChangesButton": {
 			"title": "Değişiklikleri Kaydet"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Seçili metin:"
+			},
+			"copyToClipboardButton": {
+				"value": "Panoya kopyala"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Sayfa",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Resim kaynağını al",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sayfa",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Görünümü saat yönünde döndür",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Görünümü saat yönünün tersine döndür",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Seçili metni panoya kopyala",
+		"vsui-imageViewerContextMenu-selectAllText": "Tüm metni seç",
 		"vspe-openFile-addFileString": "Dosya Ekle",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Değişiklikleri PDF belgesine kaydet",
 		"vspe-pdfContentEditorTool-getContentImages": "İçerik resimlerini al",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "İptal",
 		"vsui-documentPasswordPanel-authenticateFileString": "Dosyanın kimliğini doğrula",
 		"vsui-imageSelectionDialog-title": "Görüntüleri Seçin",
-		"vsui-imageSelectionDialog-currentImageString": "Geçerli Resim",
-		"vsui-imageSelectionDialog-allImagesString": "Tüm resimler",
-		"vsui-imageSelectionDialog-customImagesString": "Özel",
 		"vsui-printImagesDialog-title": "Görüntüleri Yazdır",
-		"vsui-printImagesPanel-imagePrintingString": "Resim yazdırılıyor",
-		"vsui-printImagesPanel-withAnnotationsLabel": "açıklamalarla",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Resim yazdırılıyor",
 		"vsui-imageViewerSettingsDialog-title": "Görüntü görüntüleyici ayarları",
 		"vsui-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF'yi sıkıştır",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Kaydet",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Kapat",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF belgesini sıkıştır",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG kodlayıcı ayarları",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Uygula",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Kapat",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 kodlayıcı ayarları",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Uygula",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Kapat",
-		"vsui-exportFileSettingsDialog-title": "Dosyayı dışa aktarma ayarları",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF belgesini sıkıştır"
+		"vsui-exportFileSettingsDialog-title": "Dosyayı dışa aktarma ayarları"
 	}
 }

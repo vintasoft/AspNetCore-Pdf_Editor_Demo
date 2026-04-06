@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "缩略图查看器设置"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "文档导航、文本选择、平移"
 		},
-		"textSelectionToolButton": {
-			"title": "文本选择"
+		"panToolButton": {
+			"title": "平底锅"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "从 PDF 页面提取图像资源"
@@ -139,13 +139,13 @@
 			"title": "添加文本"
 		},
 		"copyTextBlockButton": {
-			"title": "复制文本"
+			"title": "复制文本块"
 		},
 		"pasteTextBlockButton": {
-			"title": "粘贴文本"
+			"title": "粘贴文本块"
 		},
 		"deleteTextBlockButton": {
-			"title": "删除文本"
+			"title": "删除文本块"
 		},
 		"saveChangesButton": {
 			"title": "保存更改"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "所选文本："
+			},
+			"copyToClipboardButton": {
+				"value": "复制到剪贴板"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "页",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "获取图片资源",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "页",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "順時針旋轉視圖",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "逆時針旋轉視圖",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "将选定文本复制到剪贴板",
+		"vsui-imageViewerContextMenu-selectAllText": "选择所有文本",
 		"vspe-openFile-addFileString": "添加文件",
 		"vspe-saveChanges-saveChangesInPdfDocument": "保存 PDF 文档中的更改",
 		"vspe-pdfContentEditorTool-getContentImages": "获取内容图像",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "取消",
 		"vsui-documentPasswordPanel-authenticateFileString": "验证文件",
 		"vsui-imageSelectionDialog-title": "选择图像",
-		"vsui-imageSelectionDialog-currentImageString": "当前图像",
-		"vsui-imageSelectionDialog-allImagesString": "所有图片",
-		"vsui-imageSelectionDialog-customImagesString": "风俗",
 		"vsui-printImagesDialog-title": "打印图像",
-		"vsui-printImagesPanel-imagePrintingString": "图像正在打印",
-		"vsui-printImagesPanel-withAnnotationsLabel": "带注释",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "图像正在打印",
 		"vsui-imageViewerSettingsDialog-title": "图像查看器设置",
 		"vsui-thumbnailViewerSettingDialog-title": "缩略图查看器设置",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "显示注释：",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "压缩 PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "保存",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "关闭",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "压缩 PDF 文档",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG 编码器设置",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "申请",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "关闭",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 编码器设置",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "申请",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "关闭",
-		"vsui-exportFileSettingsDialog-title": "匯出文件的設置",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "压缩 PDF 文档"
+		"vsui-exportFileSettingsDialog-title": "匯出文件的設置"
 	}
 }

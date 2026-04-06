@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Setări pentru vizualizatorul de miniaturi"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Navigare documente, Selecție text, Panoramare"
 		},
-		"textSelectionToolButton": {
-			"title": "Selectarea textului"
+		"panToolButton": {
+			"title": "Pan"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Extrageți resurse de imagine din pagina PDF"
@@ -139,13 +139,13 @@
 			"title": "Adăugați text"
 		},
 		"copyTextBlockButton": {
-			"title": "Copiere text"
+			"title": "Copiere bloc de text"
 		},
 		"pasteTextBlockButton": {
-			"title": "Lipire text"
+			"title": "Lipire bloc de text"
 		},
 		"deleteTextBlockButton": {
-			"title": "Ștergeți textul"
+			"title": "Ștergere bloc de text"
 		},
 		"saveChangesButton": {
 			"title": "Salvează modificările"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Text selectat:"
+			},
+			"copyToClipboardButton": {
+				"value": "Copiere în clipboard"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Pagină",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Obțineți resurse de imagine",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Pagină",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Rotiți vizualizarea în sensul acelor de ceasornic",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Rotiți vizualizarea în sens invers acelor de ceasornic",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Copiere text selectat în clipboard",
+		"vsui-imageViewerContextMenu-selectAllText": "Selectare tot textul",
 		"vspe-openFile-addFileString": "Adauga fisier",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Salvați modificările în documentul PDF",
 		"vspe-pdfContentEditorTool-getContentImages": "Obțineți imagini de conținut",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Anulează",
 		"vsui-documentPasswordPanel-authenticateFileString": "Autentificați fișierul",
 		"vsui-imageSelectionDialog-title": "Selectați imagini",
-		"vsui-imageSelectionDialog-currentImageString": "Imaginea curentă",
-		"vsui-imageSelectionDialog-allImagesString": "Toate imaginile",
-		"vsui-imageSelectionDialog-customImagesString": "Personalizat",
 		"vsui-printImagesDialog-title": "Tipărește imagini",
-		"vsui-printImagesPanel-imagePrintingString": "Imaginea se imprimă",
-		"vsui-printImagesPanel-withAnnotationsLabel": "cu adnotări",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Imaginea se imprimă",
 		"vsui-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor",
 		"vsui-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Comprimați PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Salva",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Închidere",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Comprimați documentul PDF",
 		"vsui-jpegEncoderSettingsDialog-title": "Setările codificatorului JPEG",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "aplica",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Închidere",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "Setările codificatorului JBIG2",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "aplica",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Închidere",
-		"vsui-exportFileSettingsDialog-title": "Setările pentru exportul fișierului",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "Comprimați documentul PDF"
+		"vsui-exportFileSettingsDialog-title": "Setările pentru exportul fișierului"
 	}
 }

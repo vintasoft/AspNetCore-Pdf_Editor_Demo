@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Einstellungen für die Miniaturansichtsansicht"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Dokumentnavigation, Textauswahl, Verschieben"
 		},
-		"textSelectionToolButton": {
-			"title": "Textauswahl"
+		"panToolButton": {
+			"title": "Schwenken"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Bildressourcen aus PDF-Seite extrahieren"
@@ -139,13 +139,13 @@
 			"title": "Text hinzufügen"
 		},
 		"copyTextBlockButton": {
-			"title": "Text kopieren"
+			"title": "Textblock kopieren"
 		},
 		"pasteTextBlockButton": {
-			"title": "Text einfügen"
+			"title": "Textblock einfügen"
 		},
 		"deleteTextBlockButton": {
-			"title": "Text löschen"
+			"title": "Textblock löschen"
 		},
 		"saveChangesButton": {
 			"title": "Änderungen speichern"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Ausgewählter Text:"
+			},
+			"copyToClipboardButton": {
+				"value": "In die Zwischenablage kopieren"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Seite",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Bildressource abrufen",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Seite",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Ansicht im Uhrzeigersinn drehen",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Ansicht gegen den Uhrzeigersinn drehen",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Ausgewählten Text in die Zwischenablage kopieren",
+		"vsui-imageViewerContextMenu-selectAllText": "Gesamten Text auswählen",
 		"vspe-openFile-addFileString": "Datei hinzufügen",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Änderungen im PDF-Dokument speichern",
 		"vspe-pdfContentEditorTool-getContentImages": "Inhaltsbilder abrufen",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Abbrechen",
 		"vsui-documentPasswordPanel-authenticateFileString": "Datei authentifizieren",
 		"vsui-imageSelectionDialog-title": "Bilder auswählen",
-		"vsui-imageSelectionDialog-currentImageString": "Aktuelles Bild",
-		"vsui-imageSelectionDialog-allImagesString": "Alle Bilder",
-		"vsui-imageSelectionDialog-customImagesString": "Benutzerdefiniert",
 		"vsui-printImagesDialog-title": "Bilder drucken",
-		"vsui-printImagesPanel-imagePrintingString": "Bild wird gedruckt",
-		"vsui-printImagesPanel-withAnnotationsLabel": "mit Anmerkungen",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Bild wird gedruckt",
 		"vsui-imageViewerSettingsDialog-title": "Bildbetrachter-Einstellungen",
 		"vsui-thumbnailViewerSettingDialog-title": "Einstellungen für die Miniaturansichtsansicht",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Anmerkungen auf Miniaturansichten anzeigen:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF komprimieren",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Speichern",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Schließen",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF-Dokument komprimieren",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG-Encodereinstellungen",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Anwenden",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Schließen",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2-Encodereinstellungen",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Anwenden",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Schließen",
-		"vsui-exportFileSettingsDialog-title": "Die Einstellungen zum Exportieren der Datei",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF-Dokument komprimieren"
+		"vsui-exportFileSettingsDialog-title": "Die Einstellungen zum Exportieren der Datei"
 	}
 }

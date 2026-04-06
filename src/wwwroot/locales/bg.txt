@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Настройки за преглед на миниатюри"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Навигация в документа, Избор на текст, Панорамиране"
 		},
-		"textSelectionToolButton": {
-			"title": "Избор на текст"
+		"panToolButton": {
+			"title": "Панорамиране"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Извличане на изображения-ресурси от PDF страница"
@@ -139,13 +139,13 @@
 			"title": "Добавете текст"
 		},
 		"copyTextBlockButton": {
-			"title": "Копиране на текст"
+			"title": "Копиране на текстов блок"
 		},
 		"pasteTextBlockButton": {
-			"title": "Поставяне на текст"
+			"title": "Поставяне на текстов блок"
 		},
 		"deleteTextBlockButton": {
-			"title": "Изтриване на текст"
+			"title": "Изтриване на текстов блок"
 		},
 		"saveChangesButton": {
 			"title": "Запазите промените"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Избран текст:"
+			},
+			"copyToClipboardButton": {
+				"value": "Копиране в клипборда"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Страница",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Вземете ресурс за изображение",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Страница",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Завъртете изгледа по часовниковата стрелка",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Завъртете изгледа обратно на часовниковата стрелка",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Копиране на избрания текст в клипборда",
+		"vsui-imageViewerContextMenu-selectAllText": "Избиране на целия текст",
 		"vspe-openFile-addFileString": "Добави файл",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Запазете промените в PDF документ",
 		"vspe-pdfContentEditorTool-getContentImages": "Вземете изображения на съдържание",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Отказ",
 		"vsui-documentPasswordPanel-authenticateFileString": "Удостоверете файла",
 		"vsui-imageSelectionDialog-title": "Изберете изображения",
-		"vsui-imageSelectionDialog-currentImageString": "Текущо изображение",
-		"vsui-imageSelectionDialog-allImagesString": "Всички изображения",
-		"vsui-imageSelectionDialog-customImagesString": "По избор",
 		"vsui-printImagesDialog-title": "Печат на изображения",
-		"vsui-printImagesPanel-imagePrintingString": "Изображението се отпечатва",
-		"vsui-printImagesPanel-withAnnotationsLabel": "с анотации",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Изображението се отпечатва",
 		"vsui-imageViewerSettingsDialog-title": "Настройки за преглед на изображения",
 		"vsui-thumbnailViewerSettingDialog-title": "Настройки за преглед на миниатюри",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показване на пояснения върху миниатюри:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Компресирайте PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Запазване",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Затвори",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Компресиране на PDF документ",
 		"vsui-jpegEncoderSettingsDialog-title": "Настройки на JPEG енкодер",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Приложи",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Затвори",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "Настройки на енкодер JBIG2",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Приложи",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Затвори",
-		"vsui-exportFileSettingsDialog-title": "Настройки за експортиране на файл",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "Компресиране на PDF документ"
+		"vsui-exportFileSettingsDialog-title": "Настройки за експортиране на файл"
 	}
 }

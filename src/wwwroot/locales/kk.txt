@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Нобайды қарау құралының параметрлері"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Құжаттарды шарлау, Мәтінді таңдау, Панорамалау"
 		},
-		"textSelectionToolButton": {
-			"title": "Мәтінді таңдау"
+		"panToolButton": {
+			"title": "Пан"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "PDF бетінен сурет ресурстарын шығарып алыңыз"
@@ -139,13 +139,13 @@
 			"title": "Мәтін қосу"
 		},
 		"copyTextBlockButton": {
-			"title": "Мәтінді көшіру"
+			"title": "Мәтін блогын көшіру"
 		},
 		"pasteTextBlockButton": {
-			"title": "Мәтінді қою"
+			"title": "Мәтін блогын қою"
 		},
 		"deleteTextBlockButton": {
-			"title": "Мәтінді жою"
+			"title": "Мәтін блогын жою"
 		},
 		"saveChangesButton": {
 			"title": "Өзгерістерді сақтау"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Таңдалған мәтін:"
+			},
+			"copyToClipboardButton": {
+				"value": "Буферге көшіру"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Бет",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Сурет ресурсын алыңыз",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Бет",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Көріністі сағат тілімен бұрыңыз",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Көріністі сағат тіліне қарсы бұраңыз",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Таңдалған мәтінді буферге көшіру",
+		"vsui-imageViewerContextMenu-selectAllText": "Барлық мәтінді таңдау",
 		"vspe-openFile-addFileString": "Файл қосу",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Өзгерістерді PDF құжатында сақтаңыз",
 		"vspe-pdfContentEditorTool-getContentImages": "Мазмұн кескіндерін алыңыз",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Болдырмау",
 		"vsui-documentPasswordPanel-authenticateFileString": "Файлдың аутентификациясы",
 		"vsui-imageSelectionDialog-title": "Суреттерді таңдаңыз",
-		"vsui-imageSelectionDialog-currentImageString": "Ағымдағы сурет",
-		"vsui-imageSelectionDialog-allImagesString": "Барлық суреттер",
-		"vsui-imageSelectionDialog-customImagesString": "Арнаулы",
 		"vsui-printImagesDialog-title": "Суреттерді басып шығару",
-		"vsui-printImagesPanel-imagePrintingString": "Кескін басып шығаруда",
-		"vsui-printImagesPanel-withAnnotationsLabel": "аннотациялармен",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Кескін басып шығаруда",
 		"vsui-imageViewerSettingsDialog-title": "Кескінді қарау құралының параметрлері",
 		"vsui-thumbnailViewerSettingDialog-title": "Нобайды қарау құралының параметрлері",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсету:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF файлын қысыңыз",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Сақтау",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Жабық",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF құжатын қысыңыз",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG кодер параметрлері",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Қолдану",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Жабық",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 кодер параметрлері",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Қолдану",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Жабық",
-		"vsui-exportFileSettingsDialog-title": "Файлды экспорттауға арналған параметрлер",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF құжатын қысыңыз"
+		"vsui-exportFileSettingsDialog-title": "Файлды экспорттауға арналған параметрлер"
 	}
 }

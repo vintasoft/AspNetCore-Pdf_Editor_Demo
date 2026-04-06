@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Nastavenia prehliadača miniatúr"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Navigácia v dokumente, Výber textu, Posúvanie"
 		},
-		"textSelectionToolButton": {
-			"title": "Výber textu"
+		"panToolButton": {
+			"title": "Panvica"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Extrahujte zdroje obrázkov zo stránky PDF"
@@ -139,13 +139,13 @@
 			"title": "Pridajte text"
 		},
 		"copyTextBlockButton": {
-			"title": "Kopírovanie textu"
+			"title": "Kopírovať blok textu"
 		},
 		"pasteTextBlockButton": {
-			"title": "Vloženie textu"
+			"title": "Vložiť blok textu"
 		},
 		"deleteTextBlockButton": {
-			"title": "Odstrániť text"
+			"title": "Odstrániť blok textu"
 		},
 		"saveChangesButton": {
 			"title": "Uložiť zmeny"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Vybraný text:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopírovať do schránky"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Stránka",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Získajte zdroj obrázkov",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Stránka",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Otočiť pohľad v smere hodinových ručičiek",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Otočiť pohľad proti smeru hodinových ručičiek",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopírovať vybraný text do schránky",
+		"vsui-imageViewerContextMenu-selectAllText": "Vybrať všetok text",
 		"vspe-openFile-addFileString": "Pridať súbor",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Uložte zmeny v dokumente PDF",
 		"vspe-pdfContentEditorTool-getContentImages": "Získajte obrázky obsahu",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Zrušiť",
 		"vsui-documentPasswordPanel-authenticateFileString": "Overiť súbor",
 		"vsui-imageSelectionDialog-title": "Vyberte obrázky",
-		"vsui-imageSelectionDialog-currentImageString": "Aktuálny obrázok",
-		"vsui-imageSelectionDialog-allImagesString": "Všetky obrázky",
-		"vsui-imageSelectionDialog-customImagesString": "Vlastné",
 		"vsui-printImagesDialog-title": "Tlač obrázkov",
-		"vsui-printImagesPanel-imagePrintingString": "Tlačí sa obrázok",
-		"vsui-printImagesPanel-withAnnotationsLabel": "s anotáciami",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Tlačí sa obrázok",
 		"vsui-imageViewerSettingsDialog-title": "Nastavenia prehliadača obrázkov",
 		"vsui-thumbnailViewerSettingDialog-title": "Nastavenia prehliadača miniatúr",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobraziť anotácie:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Komprimovať PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Uložiť",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Zavrieť",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Komprimujte dokument PDF",
 		"vsui-jpegEncoderSettingsDialog-title": "nastavenia kódovača JPEG",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Použiť",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Zavrieť",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "Nastavenia kódovača JBIG2",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Použiť",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Zavrieť",
-		"vsui-exportFileSettingsDialog-title": "Nastavenia exportu súboru",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "Komprimujte dokument PDF"
+		"vsui-exportFileSettingsDialog-title": "Nastavenia exportu súboru"
 	}
 }

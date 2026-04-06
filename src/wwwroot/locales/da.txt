@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Indstillinger for miniaturefremviser"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Dokumentnavigation, Tekstmarkering, Panorering"
 		},
-		"textSelectionToolButton": {
-			"title": "Tekstvalg"
+		"panToolButton": {
+			"title": "Panér"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Uddrag billedressourcer fra PDF-siden"
@@ -139,13 +139,13 @@
 			"title": "Tilføj tekst"
 		},
 		"copyTextBlockButton": {
-			"title": "Kopier tekst"
+			"title": "Kopiér tekstblok"
 		},
 		"pasteTextBlockButton": {
-			"title": "Indsæt tekst"
+			"title": "Indsæt tekstblok"
 		},
 		"deleteTextBlockButton": {
-			"title": "Slet tekst"
+			"title": "Slet tekstblok"
 		},
 		"saveChangesButton": {
 			"title": "Gem ændringer"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Valgt tekst:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopier til udklipsholder"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Side",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Få billedressource",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Side",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Roter visningen med uret",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Roter visningen mod uret",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopier markeret tekst til udklipsholder",
+		"vsui-imageViewerContextMenu-selectAllText": "Marker al tekst",
 		"vspe-openFile-addFileString": "Tilføj fil",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Gem ændringer i PDF-dokument",
 		"vspe-pdfContentEditorTool-getContentImages": "Få indholdsbilleder",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Annuller",
 		"vsui-documentPasswordPanel-authenticateFileString": "Godkend fil",
 		"vsui-imageSelectionDialog-title": "Vælg billeder",
-		"vsui-imageSelectionDialog-currentImageString": "Aktuelt billede",
-		"vsui-imageSelectionDialog-allImagesString": "Alle billeder",
-		"vsui-imageSelectionDialog-customImagesString": "Brugerdefineret",
 		"vsui-printImagesDialog-title": "Udskriv billeder",
-		"vsui-printImagesPanel-imagePrintingString": "Billedet udskrives",
-		"vsui-printImagesPanel-withAnnotationsLabel": "med anmærkninger",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Billedet udskrives",
 		"vsui-imageViewerSettingsDialog-title": "Indstillinger for billedfremviser",
 		"vsui-thumbnailViewerSettingDialog-title": "Indstillinger for miniaturefremviser",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis annoteringer på miniaturebilleder:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Komprimer PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Spare",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Luk",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Komprimer PDF-dokument",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG-koderindstillinger",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "ansøge",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Luk",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 encoder indstillinger",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "ansøge",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Luk",
-		"vsui-exportFileSettingsDialog-title": "Indstillingerne for at eksportere fil",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "Komprimer PDF-dokument"
+		"vsui-exportFileSettingsDialog-title": "Indstillingerne for at eksportere fil"
 	}
 }

@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "הגדרות מציג תמונות ממוזערות"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "ניווט במסמך, בחירת טקסט, הזזה"
 		},
-		"textSelectionToolButton": {
-			"title": "בחירת טקסט"
+		"panToolButton": {
+			"title": "פאן"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "חלץ משאבי תמונה מדף PDF"
@@ -139,13 +139,13 @@
 			"title": "הוסף טקסט"
 		},
 		"copyTextBlockButton": {
-			"title": "העתקת טקסט"
+			"title": "העתקת בלוק טקסט"
 		},
 		"pasteTextBlockButton": {
-			"title": "הדבקת טקסט"
+			"title": "הדבקת בלוק טקסט"
 		},
 		"deleteTextBlockButton": {
-			"title": "מחק טקסט"
+			"title": "מחקת בלוק טקסט"
 		},
 		"saveChangesButton": {
 			"title": "שמור שינויים"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "טקסט נבחר:"
+			},
+			"copyToClipboardButton": {
+				"value": "העתקה ללוח"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "דף",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "קבל משאב תמונה",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "דף",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "סובב את התצוגה בכיוון השעון",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "סובב את התצוגה נגד כיוון השעון",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "העתקת טקסט נבחר ללוח",
+		"vsui-imageViewerContextMenu-selectAllText": "בחירת כל הטקסט",
 		"vspe-openFile-addFileString": "הוסף קובץ",
 		"vspe-saveChanges-saveChangesInPdfDocument": "שמור שינויים במסמך PDF",
 		"vspe-pdfContentEditorTool-getContentImages": "קבל תמונות תוכן",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "בטל",
 		"vsui-documentPasswordPanel-authenticateFileString": "אימות קובץ",
 		"vsui-imageSelectionDialog-title": "בחר תמונות",
-		"vsui-imageSelectionDialog-currentImageString": "תמונה נוכחית",
-		"vsui-imageSelectionDialog-allImagesString": "כל התמונות",
-		"vsui-imageSelectionDialog-customImagesString": "מותאם אישית",
 		"vsui-printImagesDialog-title": "הדפס תמונות",
-		"vsui-printImagesPanel-imagePrintingString": "התמונה מודפסת",
-		"vsui-printImagesPanel-withAnnotationsLabel": "עם הערות",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "התמונה מודפסת",
 		"vsui-imageViewerSettingsDialog-title": "הגדרות מציג תמונות",
 		"vsui-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "דחוס PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "לְהַצִיל",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "סגור",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "דחוס מסמך PDF",
 		"vsui-jpegEncoderSettingsDialog-title": "הגדרות מקודד JPEG",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "להגיש מועמדות",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "סגור",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "הגדרות מקודד JBIG2",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "להגיש מועמדות",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "סגור",
-		"vsui-exportFileSettingsDialog-title": "ההגדרות לייצוא הקובץ",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "דחוס מסמך PDF"
+		"vsui-exportFileSettingsDialog-title": "ההגדרות לייצוא הקובץ"
 	}
 }

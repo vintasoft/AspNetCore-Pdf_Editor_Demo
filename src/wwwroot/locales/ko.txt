@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "썸네일 뷰어 설정"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "문서 탐색, 텍스트 선택, 이동"
 		},
-		"textSelectionToolButton": {
-			"title": "텍스트 선택"
+		"panToolButton": {
+			"title": "팬"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "PDF 페이지에서 이미지 리소스 추출"
@@ -139,13 +139,13 @@
 			"title": "텍스트 추가"
 		},
 		"copyTextBlockButton": {
-			"title": "텍스트 복사"
+			"title": "텍스트 블록 복사"
 		},
 		"pasteTextBlockButton": {
-			"title": "텍스트 붙여넣기"
+			"title": "텍스트 블록 붙여넣기"
 		},
 		"deleteTextBlockButton": {
-			"title": "텍스트 삭제"
+			"title": "텍스트 블록 삭제"
 		},
 		"saveChangesButton": {
 			"title": "변경 사항을 저장하다"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "선택한 텍스트:"
+			},
+			"copyToClipboardButton": {
+				"value": "클립보드에 복사"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "페이지",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "이미지 리소스 가져오기",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "페이지",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "보기를 시계 방향으로 회전",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "시계 반대 방향으로 보기 회전",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "선택한 텍스트를 클립보드에 복사",
+		"vsui-imageViewerContextMenu-selectAllText": "전체 텍스트 선택",
 		"vspe-openFile-addFileString": "파일 추가",
 		"vspe-saveChanges-saveChangesInPdfDocument": "PDF 문서에 변경 사항 저장",
 		"vspe-pdfContentEditorTool-getContentImages": "콘텐츠 이미지 가져오기",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "취소",
 		"vsui-documentPasswordPanel-authenticateFileString": "파일 인증",
 		"vsui-imageSelectionDialog-title": "이미지 선택",
-		"vsui-imageSelectionDialog-currentImageString": "현재 이미지",
-		"vsui-imageSelectionDialog-allImagesString": "모든 이미지",
-		"vsui-imageSelectionDialog-customImagesString": "사용자 정의",
 		"vsui-printImagesDialog-title": "이미지 인쇄",
-		"vsui-printImagesPanel-imagePrintingString": "이미지 인쇄 중",
-		"vsui-printImagesPanel-withAnnotationsLabel": "주석 포함",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "이미지 인쇄 중",
 		"vsui-imageViewerSettingsDialog-title": "이미지 뷰어 설정",
 		"vsui-thumbnailViewerSettingDialog-title": "썸네일 뷰어 설정",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF 압축",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "저장",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "닫기",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF 문서 압축",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG 인코더 설정",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "적용하다",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "닫기",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 인코더 설정",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "적용하다",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "닫기",
-		"vsui-exportFileSettingsDialog-title": "파일을 내보내는 설정",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF 문서 압축"
+		"vsui-exportFileSettingsDialog-title": "파일을 내보내는 설정"
 	}
 }

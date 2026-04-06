@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Kiçijik tomaşaçy sazlamalary"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Resminama nawigasiýasy, Tekst saýlamak, Panorama"
 		},
-		"textSelectionToolButton": {
-			"title": "Tekst saýlamak"
+		"panToolButton": {
+			"title": "Pan"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "PDF sahypasyndan şekil çeşmelerini çykaryň"
@@ -139,13 +139,13 @@
 			"title": "Tekst goşuň"
 		},
 		"copyTextBlockButton": {
-			"title": "Teksti göçürmek"
+			"title": "Tekst blokuny göçüriň"
 		},
 		"pasteTextBlockButton": {
-			"title": "Teksti goýmak"
+			"title": "Tekst blokuny goýuň"
 		},
 		"deleteTextBlockButton": {
-			"title": "Teksti poz"
+			"title": "Tekst blokuny pozuň"
 		},
 		"saveChangesButton": {
 			"title": "Üýtgetmeleri ýatda sakla"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Saýlanan tekst:"
+			},
+			"copyToClipboardButton": {
+				"value": "Bufere göçüriň"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Sahypa",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Surat çeşmesini alyň",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sahypa",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Görnüşi sagat ugruna öwüriň",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Görnüşi sagat tersine öwüriň",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Saýlanan teksti bufere göçüriň",
+		"vsui-imageViewerContextMenu-selectAllText": "Ähli teksti saýlaň",
 		"vspe-openFile-addFileString": "Faýl goşuň",
 		"vspe-saveChanges-saveChangesInPdfDocument": "PDF resminamasyndaky üýtgeşmeleri ýazdyryň",
 		"vspe-pdfContentEditorTool-getContentImages": "Mazmun suratlaryny alyň",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Elatyr",
 		"vsui-documentPasswordPanel-authenticateFileString": "Faýly tassyklamak",
 		"vsui-imageSelectionDialog-title": "Suratlary saýlaň",
-		"vsui-imageSelectionDialog-currentImageString": "Häzirki surat",
-		"vsui-imageSelectionDialog-allImagesString": "Imageshli suratlar",
-		"vsui-imageSelectionDialog-customImagesString": "Omörite",
 		"vsui-printImagesDialog-title": "Suratlary çap ediň",
-		"vsui-printImagesPanel-imagePrintingString": "Surat çap edilýär",
-		"vsui-printImagesPanel-withAnnotationsLabel": "düşündirişler bilen",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Surat çap edilýär",
 		"vsui-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
 		"vsui-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF gysyň",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Saklaň",
 		"vsui-pdfDocumentCompressorDialog-closeButton": ".Akyn",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF resminamasyny gysyň",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG kodlaýjy sazlamalary",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Giriş",
 		"vsui-jpegEncoderSettingsDialog-closeButton": ".Akyn",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 kodlaýjy sazlamalary",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Giriş",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": ".Akyn",
-		"vsui-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF resminamasyny gysyň"
+		"vsui-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar"
 	}
 }

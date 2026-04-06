@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Miniatűr-nézegető beállításai"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Dokumentumnavigáció, Szöveg kijelölése, Mozgatás"
 		},
-		"textSelectionToolButton": {
-			"title": "Szöveg kiválasztása"
+		"panToolButton": {
+			"title": "Pan"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Képforrások kibontása a PDF oldalról"
@@ -139,13 +139,13 @@
 			"title": "Szöveg hozzáadása"
 		},
 		"copyTextBlockButton": {
-			"title": "Szöveg másolása"
+			"title": "Szövegblokk másolása"
 		},
 		"pasteTextBlockButton": {
-			"title": "Szöveg beillesztése"
+			"title": "Szövegblokk beillesztése"
 		},
 		"deleteTextBlockButton": {
-			"title": "Szöveg törlése"
+			"title": "Szövegblokk törlése"
 		},
 		"saveChangesButton": {
 			"title": "Változtatások mentése"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Kiválasztott szöveg:"
+			},
+			"copyToClipboardButton": {
+				"value": "Másolás a vágólapra"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Oldal",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Képforrás beszerzése",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Oldal",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Nézet forgatása az óramutató járásával megegyező irányba",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Nézet elforgatása az óramutató járásával ellentétes irányba",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kijelölt szöveg másolása a vágólapra",
+		"vsui-imageViewerContextMenu-selectAllText": "Összes szöveg kijelölése",
 		"vspe-openFile-addFileString": "Fájl hozzáadása",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Mentse el a változtatásokat PDF dokumentumban",
 		"vspe-pdfContentEditorTool-getContentImages": "Tartalomképek beszerzése",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Mégse",
 		"vsui-documentPasswordPanel-authenticateFileString": "Fájl hitelesítése",
 		"vsui-imageSelectionDialog-title": "Képek kiválasztása",
-		"vsui-imageSelectionDialog-currentImageString": "Aktuális kép",
-		"vsui-imageSelectionDialog-allImagesString": "Minden kép",
-		"vsui-imageSelectionDialog-customImagesString": "Egyedi",
 		"vsui-printImagesDialog-title": "Képek nyomtatása",
-		"vsui-printImagesPanel-imagePrintingString": "A kép nyomtatása folyamatban van",
-		"vsui-printImagesPanel-withAnnotationsLabel": "jegyzetekkel",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "A kép nyomtatása folyamatban van",
 		"vsui-imageViewerSettingsDialog-title": "A képnézegető beállításai",
 		"vsui-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF tömörítése",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Megtakarítás",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Bezárás",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF dokumentum tömörítése",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG kódoló beállításai",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Alkalmaz",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Bezárás",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 kódoló beállításai",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Alkalmaz",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Bezárás",
-		"vsui-exportFileSettingsDialog-title": "A fájl exportálásának beállításai",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF dokumentum tömörítése"
+		"vsui-exportFileSettingsDialog-title": "A fájl exportálásának beállításai"
 	}
 }

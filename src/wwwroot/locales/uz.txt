@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Eskizni ko'rish sozlamalari"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Hujjat navigatsiyasi, Matn tanlash, Panoramalash"
 		},
-		"textSelectionToolButton": {
-			"title": "Matn tanlash"
+		"panToolButton": {
+			"title": "Pan"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "PDF sahifasidan rasm-resurslarni chiqarib oling"
@@ -139,13 +139,13 @@
 			"title": "Matn qo'shish"
 		},
 		"copyTextBlockButton": {
-			"title": "Matnni nusxalash"
+			"title": "Matn blokini nusxalash"
 		},
 		"pasteTextBlockButton": {
-			"title": "Matnni joylashtirish"
+			"title": "Matn blokini joylashtirish"
 		},
 		"deleteTextBlockButton": {
-			"title": "Matnni oʻchirish"
+			"title": "Matn blokini o'chirish"
 		},
 		"saveChangesButton": {
 			"title": "O'zgarishlarni saqlang"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Tanlangan matn:"
+			},
+			"copyToClipboardButton": {
+				"value": "Buferga nusxalash"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Sahifa",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Rasm manbasini oling",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sahifa",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Ko'rinishni soat yo'nalishi bo'yicha aylantiring",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Ko'rinishni soat sohasi farqli ravishda aylantiring",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Tanlangan matnni buferga nusxalash",
+		"vsui-imageViewerContextMenu-selectAllText": "Barcha matnni tanlash",
 		"vspe-openFile-addFileString": "Fayl qo'shish",
 		"vspe-saveChanges-saveChangesInPdfDocument": "O'zgarishlarni PDF hujjatida saqlang",
 		"vspe-pdfContentEditorTool-getContentImages": "Kontent tasvirlarini oling",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Bekor qilish",
 		"vsui-documentPasswordPanel-authenticateFileString": "Faylni autentifikatsiya qilish",
 		"vsui-imageSelectionDialog-title": "Rasmlarni tanlang",
-		"vsui-imageSelectionDialog-currentImageString": "Joriy rasm",
-		"vsui-imageSelectionDialog-allImagesString": "Barcha rasmlar",
-		"vsui-imageSelectionDialog-customImagesString": "Maxsus",
 		"vsui-printImagesDialog-title": "Rasmlarni chop etish",
-		"vsui-printImagesPanel-imagePrintingString": "Rasm chop etilmoqda",
-		"vsui-printImagesPanel-withAnnotationsLabel": "izohlar bilan",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Rasm chop etilmoqda",
 		"vsui-imageViewerSettingsDialog-title": "Rasmlarni ko'rish sozlamalari",
 		"vsui-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF-ni siqish",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Saqlash",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Yopish",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF hujjatni siqish",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG kodlovchi sozlamalari",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Murojaat qiling",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Yopish",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 enkoder sozlamalari",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Murojaat qiling",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Yopish",
-		"vsui-exportFileSettingsDialog-title": "Faylni eksport qilish uchun sozlamalar",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF hujjatni siqish"
+		"vsui-exportFileSettingsDialog-title": "Faylni eksport qilish uchun sozlamalar"
 	}
 }

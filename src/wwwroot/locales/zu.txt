@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Izilungiselelo zesibukeli sesithonjana"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Ukuzulazula kwedokhumenti, Ukukhetha umbhalo, i-pan"
 		},
-		"textSelectionToolButton": {
-			"title": "Ukukhetha Umbhalo"
+		"panToolButton": {
+			"title": "Ipani"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Khipha izinsiza zesithombe ekhasini le-PDF"
@@ -139,13 +139,13 @@
 			"title": "Engeza umbhalo"
 		},
 		"copyTextBlockButton": {
-			"title": "Kopisha umbhalo"
+			"title": "Kopisha ibhlogo lombhalo"
 		},
 		"pasteTextBlockButton": {
-			"title": "Namathisela umbhalo"
+			"title": "Namathisela ibhlogo lombhalo"
 		},
 		"deleteTextBlockButton": {
-			"title": "Susa umbhalo"
+			"title": "Susa ibhlogo lombhalo"
 		},
 		"saveChangesButton": {
 			"title": "Londoloza izinguquko"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Umbhalo okhethiwe:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopisha ebhodini lokunamathisela"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Ikhasi",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Thola insiza yesithombe",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Ikhasi",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Zungezisa ukubuka ngokwewashi",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Zungezisa ukubuka ngokuphikisana newashi",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopisha umbhalo okhethiwe ebhodini lokunamathisela",
+		"vsui-imageViewerContextMenu-selectAllText": "Khetha wonke umbhalo",
 		"vspe-openFile-addFileString": "Engeza ifayela",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
 		"vspe-pdfContentEditorTool-getContentImages": "Thola izithombe zokuqukethwe",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Khansela",
 		"vsui-documentPasswordPanel-authenticateFileString": "Qinisekisa ifayela",
 		"vsui-imageSelectionDialog-title": "Khetha izithombe",
-		"vsui-imageSelectionDialog-currentImageString": "Isithombe samanje",
-		"vsui-imageSelectionDialog-allImagesString": "Zonke izithombe",
-		"vsui-imageSelectionDialog-customImagesString": "Ngokwezifiso",
 		"vsui-printImagesDialog-title": "Phrinta izithombe",
-		"vsui-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
-		"vsui-printImagesPanel-withAnnotationsLabel": "ngezichasiselo",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Isithombe siyaphrinta",
 		"vsui-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
 		"vsui-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Cindezela i-PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Londoloza",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Vala",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Cindezela idokhumenti ye-PDF",
 		"vsui-jpegEncoderSettingsDialog-title": "Izilungiselelo zesifaki khodi se-JPEG",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Faka isicelo",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Vala",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "Izilungiselelo zesifaki khodi se-JBIG2",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Faka isicelo",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Vala",
-		"vsui-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "Cindezela idokhumenti ye-PDF"
+		"vsui-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela"
 	}
 }

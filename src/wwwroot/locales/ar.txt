@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "إعدادات عارض الصور المصغرة"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "التنقل بين المستندات، تحديد النص، تحريك الشاشة"
 		},
-		"textSelectionToolButton": {
-			"title": "اختيار النص"
+		"panToolButton": {
+			"title": "عموم"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "استخراج موارد الصور من صفحة PDF"
@@ -139,13 +139,13 @@
 			"title": "إضافة نص"
 		},
 		"copyTextBlockButton": {
-			"title": "نسخ النص"
+			"title": "نسخ كتلة نصية"
 		},
 		"pasteTextBlockButton": {
-			"title": "لصق النص"
+			"title": "لصق كتلة نصية"
 		},
 		"deleteTextBlockButton": {
-			"title": "حذف نص"
+			"title": "حذف كتلة نصية"
 		},
 		"saveChangesButton": {
 			"title": "حفظ التغييرات"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "النص المحدد:"
+			},
+			"copyToClipboardButton": {
+				"value": "نسخ إلى الحافظة"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "الصفحة",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "الحصول على مصدر الصورة",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "الصفحة",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "تدوير العرض في اتجاه عقارب الساعة",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "تدوير العرض عكس اتجاه عقارب الساعة",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "نسخ النص المحدد إلى الحافظة",
+		"vsui-imageViewerContextMenu-selectAllText": "تحديد كل النص",
 		"vspe-openFile-addFileString": "اضف ملف",
 		"vspe-saveChanges-saveChangesInPdfDocument": "حفظ التغييرات في وثيقة PDF",
 		"vspe-pdfContentEditorTool-getContentImages": "الحصول على صور المحتوى",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "إلغاء",
 		"vsui-documentPasswordPanel-authenticateFileString": "مصادقة الملف",
 		"vsui-imageSelectionDialog-title": "اختر الصور",
-		"vsui-imageSelectionDialog-currentImageString": "الصورة الحالية",
-		"vsui-imageSelectionDialog-allImagesString": "كل الصور",
-		"vsui-imageSelectionDialog-customImagesString": "مخصص",
 		"vsui-printImagesDialog-title": "طباعة الصور",
-		"vsui-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
-		"vsui-printImagesPanel-withAnnotationsLabel": "مع التعليقات التوضيحية",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "الصورة قيد الطباعة",
 		"vsui-imageViewerSettingsDialog-title": "إعدادات عارض الصور",
 		"vsui-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "ضغط ملف PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "حفظ",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "إغلاق",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "ضغط مستند PDF",
 		"vsui-jpegEncoderSettingsDialog-title": "إعدادات ترميز JPEG",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "يتقدم",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "إغلاق",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "إعدادات ترميز JBIG2",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "يتقدم",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "إغلاق",
-		"vsui-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "ضغط مستند PDF"
+		"vsui-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف"
 	}
 }

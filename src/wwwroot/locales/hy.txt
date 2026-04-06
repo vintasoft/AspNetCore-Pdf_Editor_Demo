@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Մանրապատկերների դիտման կարգավորումներ"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Փաստաթղթի նավիգացիա, Տեքստի ընտրություն, Տեղաշարժում"
 		},
-		"textSelectionToolButton": {
-			"title": "Տեքստի ընտրություն"
+		"panToolButton": {
+			"title": "Պան"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Քաղեք պատկեր-ռեսուրսներ PDF էջից"
@@ -139,13 +139,13 @@
 			"title": "Ավելացնել տեքստ"
 		},
 		"copyTextBlockButton": {
-			"title": "Տեքստի պատճենում"
+			"title": "Տեքստային բլոկի պատճենում"
 		},
 		"pasteTextBlockButton": {
-			"title": "Տեքստի տեղադրում"
+			"title": "Տեքստային բլոկի տեղադրում"
 		},
 		"deleteTextBlockButton": {
-			"title": "Ջնջել տեքստը"
+			"title": "Տեքստային բլոկի ջնջում"
 		},
 		"saveChangesButton": {
 			"title": "Պահպանել փոփոխությունները"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Ընտրված տեքստ."
+			},
+			"copyToClipboardButton": {
+				"value": "Պատճենում սեղմատախտակին"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Էջ",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Ստացեք պատկերի ռեսուրս",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Էջ",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Պտտեցնել դիտումը ժամացույցի սլաքի ուղղությամբ",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Պտտեցնել տեսքը ժամացույցի սլաքի հակառակ ուղղությամբ",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Ընտրված տեքստի պատճենում սեղմատախտակին",
+		"vsui-imageViewerContextMenu-selectAllText": "Ընտրել ամբողջ տեքստը",
 		"vspe-openFile-addFileString": "Ավելացնել ֆայլ",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Պահպանեք փոփոխությունները PDF փաստաթղթում",
 		"vspe-pdfContentEditorTool-getContentImages": "Ստացեք բովանդակության պատկերներ",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Չեղարկել",
 		"vsui-documentPasswordPanel-authenticateFileString": "Նույնականացնել ֆայլը",
 		"vsui-imageSelectionDialog-title": "Ընտրեք պատկերներ",
-		"vsui-imageSelectionDialog-currentImageString": "Ընթացիկ պատկեր",
-		"vsui-imageSelectionDialog-allImagesString": "Բոլոր պատկերները",
-		"vsui-imageSelectionDialog-customImagesString": "Պատվերով",
 		"vsui-printImagesDialog-title": "Տպել պատկերներ",
-		"vsui-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
-		"vsui-printImagesPanel-withAnnotationsLabel": "ծանոթագրություններով",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Պատկերը տպագրվում է",
 		"vsui-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
 		"vsui-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Սեղմել PDF-ը",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Պահպանել",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "փակել",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Սեղմեք PDF փաստաթուղթը",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG կոդավորիչի կարգավորումներ",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Դիմել",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "փակել",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 կոդավորիչի կարգավորումներ",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Դիմել",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "փակել",
-		"vsui-exportFileSettingsDialog-title": "Ֆայլի արտահանման կարգավորումները",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "Սեղմեք PDF փաստաթուղթը"
+		"vsui-exportFileSettingsDialog-title": "Ֆայլի արտահանման կարգավորումները"
 	}
 }

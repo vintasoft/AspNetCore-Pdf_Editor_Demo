@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Innstillinger for miniatyrbildevisning"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Dokumentnavigasjon, Tekstvalg, Panorering"
 		},
-		"textSelectionToolButton": {
-			"title": "Tekstvalg"
+		"panToolButton": {
+			"title": "Pan"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Trekk ut bilderessurser fra PDF-siden"
@@ -139,13 +139,13 @@
 			"title": "Legg til tekst"
 		},
 		"copyTextBlockButton": {
-			"title": "Kopier tekst"
+			"title": "Kopier tekstblokk"
 		},
 		"pasteTextBlockButton": {
-			"title": "Lim inn tekst"
+			"title": "Lim inn tekstblokk"
 		},
 		"deleteTextBlockButton": {
-			"title": "Slett tekst"
+			"title": "Slett tekstblokk"
 		},
 		"saveChangesButton": {
 			"title": "Lagre endringer"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Valgt tekst:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopier til utklippstavlen"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Side",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Få bilderessurs",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Side",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Roter visningen med klokken",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Roter visningen mot klokken",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopier valgt tekst til utklippstavlen",
+		"vsui-imageViewerContextMenu-selectAllText": "Velg all tekst",
 		"vspe-openFile-addFileString": "Legg til fil",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Lagre endringer i PDF-dokument",
 		"vspe-pdfContentEditorTool-getContentImages": "Få innholdsbilder",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Avbryt",
 		"vsui-documentPasswordPanel-authenticateFileString": "Autentiser filen",
 		"vsui-imageSelectionDialog-title": "Velg bilder",
-		"vsui-imageSelectionDialog-currentImageString": "Gjeldende bilde",
-		"vsui-imageSelectionDialog-allImagesString": "Alle bilder",
-		"vsui-imageSelectionDialog-customImagesString": "Egendefinert",
 		"vsui-printImagesDialog-title": "Skriv ut bilder",
-		"vsui-printImagesPanel-imagePrintingString": "Bildet skrives ut",
-		"vsui-printImagesPanel-withAnnotationsLabel": "med merknader",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Bildet skrives ut",
 		"vsui-imageViewerSettingsDialog-title": "Innstillinger for bildevisning",
 		"vsui-thumbnailViewerSettingDialog-title": "Innstillinger for miniatyrbildevisning",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis merknader på miniatyrbilder:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Komprimer PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Spare",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Lukk",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Komprimer PDF-dokument",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG-koderinnstillinger",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Søke om",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Lukk",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2-koderinnstillinger",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Søke om",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Lukk",
-		"vsui-exportFileSettingsDialog-title": "Innstillingene for å eksportere filen",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "Komprimer PDF-dokument"
+		"vsui-exportFileSettingsDialog-title": "Innstillingene for å eksportere filen"
 	}
 }

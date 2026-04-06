@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Miniatür baxıcı parametrləri"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Sənəd naviqasiyası, Mətn seçimi, Pan"
 		},
-		"textSelectionToolButton": {
-			"title": "Mətn seçimi"
+		"panToolButton": {
+			"title": "Pan"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "PDF səhifəsindən şəkil resurslarını çıxarın"
@@ -139,13 +139,13 @@
 			"title": "Mətn əlavə edin"
 		},
 		"copyTextBlockButton": {
-			"title": "Mətni kopyalayın"
+			"title": "Mətn blokunu kopyalayın"
 		},
 		"pasteTextBlockButton": {
-			"title": "Mətni yapışdırın"
+			"title": "Mətn blokunu yapışdırın"
 		},
 		"deleteTextBlockButton": {
-			"title": "Mətni silin"
+			"title": "Mətn blokunu silin"
 		},
 		"saveChangesButton": {
 			"title": "Dəyişiklikləri yadda saxla"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Seçilmiş mətn:"
+			},
+			"copyToClipboardButton": {
+				"value": "Panoya kopyalayın"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Səhifə",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Şəkil mənbəyi əldə edin",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Səhifə",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Görünüşü saat yönünde çevirin",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Görünüşü saat yönünün əksinə çevirin",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Seçilmiş mətni panoya kopyalayın",
+		"vsui-imageViewerContextMenu-selectAllText": "Bütün mətni seçin",
 		"vspe-openFile-addFileString": "Fayl əlavə edin",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Dəyişiklikləri PDF sənədində qeyd edin",
 		"vspe-pdfContentEditorTool-getContentImages": "Məzmun şəkillərini əldə edin",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Ləğv et",
 		"vsui-documentPasswordPanel-authenticateFileString": "Faylı doğrulayın",
 		"vsui-imageSelectionDialog-title": "Şəkilləri seçin",
-		"vsui-imageSelectionDialog-currentImageString": "Cari şəkil",
-		"vsui-imageSelectionDialog-allImagesString": "Bütün şəkillər",
-		"vsui-imageSelectionDialog-customImagesString": "Xüsusi",
 		"vsui-printImagesDialog-title": "Şəkilləri çap edin",
-		"vsui-printImagesPanel-imagePrintingString": "Şəkil çap olunur",
-		"vsui-printImagesPanel-withAnnotationsLabel": "annotasiyalarla",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Şəkil çap olunur",
 		"vsui-imageViewerSettingsDialog-title": "Şəkillərə baxmaq parametrləri",
 		"vsui-thumbnailViewerSettingDialog-title": "Miniatür baxıcı parametrləri",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiyaları göstərin:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF sıxışdırın",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Saxla",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Yaxın",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF sənədi sıxışdırın",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG kodlayıcı parametrləri",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Müraciət edin",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Yaxın",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 kodlayıcı parametrləri",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Müraciət edin",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Yaxın",
-		"vsui-exportFileSettingsDialog-title": "Faylı ixrac etmək üçün parametrlər",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF sənədi sıxışdırın"
+		"vsui-exportFileSettingsDialog-title": "Faylı ixrac etmək üçün parametrlər"
 	}
 }

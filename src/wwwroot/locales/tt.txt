@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Эскиз тамашачы көйләүләре"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Документ навигациясе, Текст сайлау, Панорамалау"
 		},
-		"textSelectionToolButton": {
-			"title": "Текстны сайлау"
+		"panToolButton": {
+			"title": "Пан"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "PDF битеннән рәсем ресурсларын чыгару"
@@ -139,13 +139,13 @@
 			"title": "Текст өстәү"
 		},
 		"copyTextBlockButton": {
-			"title": "Текстны күчерү"
+			"title": "Текст блогын күчерү"
 		},
 		"pasteTextBlockButton": {
-			"title": "Текстны урнаштыру"
+			"title": "Текст блогын урнаштыру"
 		},
 		"deleteTextBlockButton": {
-			"title": "Текстны бетерү"
+			"title": "Текст блогын бетерү"
 		},
 		"saveChangesButton": {
 			"title": "Changesзгәрешләрне саклагыз"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Сайланган текст:"
+			},
+			"copyToClipboardButton": {
+				"value": "Буферга күчерү"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Бит",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Рәсем ресурсын алыгыз",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Бит",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Күренешне сәгать юлы белән әйләндерегез",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Күренешне сәгатенә каршы әйләндерегез",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Сайланган текстны буферга күчерү",
+		"vsui-imageViewerContextMenu-selectAllText": "Барлык текстны сайлау",
 		"vspe-openFile-addFileString": "Файл өстәү",
 		"vspe-saveChanges-saveChangesInPdfDocument": "PDF документындагы үзгәрешләрне саклагыз",
 		"vspe-pdfContentEditorTool-getContentImages": "Эчтәлек рәсемнәрен алыгыз",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Баш тарту",
 		"vsui-documentPasswordPanel-authenticateFileString": "Файлны раслау",
 		"vsui-imageSelectionDialog-title": "Рәсемнәрне сайлагыз",
-		"vsui-imageSelectionDialog-currentImageString": "Хәзерге рәсем",
-		"vsui-imageSelectionDialog-allImagesString": "Барлык рәсемнәр",
-		"vsui-imageSelectionDialog-customImagesString": "Гадәт",
 		"vsui-printImagesDialog-title": "Рәсемнәрне бастыру",
-		"vsui-printImagesPanel-imagePrintingString": "Рәсем бастырыла",
-		"vsui-printImagesPanel-withAnnotationsLabel": "аннотацияләр белән",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Рәсем бастырыла",
 		"vsui-imageViewerSettingsDialog-title": "Рәсем тамашачысы көйләүләре",
 		"vsui-thumbnailViewerSettingDialog-title": "Эскиз тамашачы көйләүләре",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияләр күрсәт:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF кысу",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Саклагыз",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Ябу",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF документын кысу",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG кодлау көйләүләре",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Кулланыгыз",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Ябу",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 кодлау көйләүләре",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Кулланыгыз",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Ябу",
-		"vsui-exportFileSettingsDialog-title": "Файлны экспортлау өчен көйләүләр",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF документын кысу"
+		"vsui-exportFileSettingsDialog-title": "Файлны экспортлау өчен көйләүләр"
 	}
 }

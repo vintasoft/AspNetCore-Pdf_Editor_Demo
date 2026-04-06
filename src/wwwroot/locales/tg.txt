@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Танзимоти намоишгари ангора"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Навигатсияи ҳуҷҷат, Интихоби матн, Панорама"
 		},
-		"textSelectionToolButton": {
-			"title": "Интихоби матн"
+		"panToolButton": {
+			"title": "Пан"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Захираҳои тасвириро аз саҳифаи PDF хориҷ кунед"
@@ -139,13 +139,13 @@
 			"title": "Матн илова кунед"
 		},
 		"copyTextBlockButton": {
-			"title": "Нусхабардории матн"
+			"title": "Нусхабардории блоки матн"
 		},
 		"pasteTextBlockButton": {
-			"title": "Чоп кардани матн"
+			"title": "Часбондани блоки матн"
 		},
 		"deleteTextBlockButton": {
-			"title": "Матнро нест кунед"
+			"title": "Нест кардани блоки матн"
 		},
 		"saveChangesButton": {
 			"title": "Тағиротро захира кунед"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Матни интихобшуда:"
+			},
+			"copyToClipboardButton": {
+				"value": "Нусхабардорӣ ба буфер"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Саҳифа",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Манбаи тасвирро гиред",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Саҳифа",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Намоишро бо ақрабаки соат гардонед",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Намоишро ба муқобили ақрабаки соат гардонед",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Нусхабардории матни интихобшуда ба буфер",
+		"vsui-imageViewerContextMenu-selectAllText": "Интихоби ҳамаи матн",
 		"vspe-openFile-addFileString": "Илова кардани файл",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Тағиротро дар ҳуҷҷати PDF захира кунед",
 		"vspe-pdfContentEditorTool-getContentImages": "Тасвирҳои мундариҷаро гиред",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Бекор кардан",
 		"vsui-documentPasswordPanel-authenticateFileString": "Файлро тасдиқ кунед",
 		"vsui-imageSelectionDialog-title": "Тасвирҳоро интихоб кунед",
-		"vsui-imageSelectionDialog-currentImageString": "Тасвири ҷорӣ",
-		"vsui-imageSelectionDialog-allImagesString": "Ҳама тасвирҳо",
-		"vsui-imageSelectionDialog-customImagesString": "Фармоишгар",
 		"vsui-printImagesDialog-title": "Тасвирҳоро чоп кунед",
-		"vsui-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
-		"vsui-printImagesPanel-withAnnotationsLabel": "бо эзоҳҳо",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Тасвир чоп мешавад",
 		"vsui-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
 		"vsui-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF-ро фишурда кунед",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Захира кунед",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Пӯшед",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Ҳуҷҷати PDF-ро фишурда кунед",
 		"vsui-jpegEncoderSettingsDialog-title": "Танзимоти рамзгузори JPEG",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Муроҷиат кунед",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Пӯшед",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "Танзимоти рамзгузори JBIG2",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Муроҷиат кунед",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Пӯшед",
-		"vsui-exportFileSettingsDialog-title": "Танзимот барои содироти файл",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "Ҳуҷҷати PDF-ро фишурда кунед"
+		"vsui-exportFileSettingsDialog-title": "Танзимот барои содироти файл"
 	}
 }

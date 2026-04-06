@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Mipangilio ya kitazamaji cha kijipicha"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Usogezaji wa hati, Uteuzi wa maandishi, Panua"
 		},
-		"textSelectionToolButton": {
-			"title": "Uteuzi wa Maandishi"
+		"panToolButton": {
+			"title": "Panua"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Toa rasilimali za picha kutoka kwa ukurasa wa PDF"
@@ -139,13 +139,13 @@
 			"title": "Ongeza maandishi"
 		},
 		"copyTextBlockButton": {
-			"title": "Nakili maandishi"
+			"title": "Nakili kizuizi cha maandishi"
 		},
 		"pasteTextBlockButton": {
-			"title": "Bandika maandishi"
+			"title": "Bandika kizuizi cha maandishi"
 		},
 		"deleteTextBlockButton": {
-			"title": "Futa maandishi"
+			"title": "Futa kizuizi cha maandishi"
 		},
 		"saveChangesButton": {
 			"title": "Hifadhi mabadiliko"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Maandishi yaliyochaguliwa:"
+			},
+			"copyToClipboardButton": {
+				"value": "Nakili kwenye ubao wa kunakili"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Ukurasa",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Pata rasilimali ya picha",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Ukurasa",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Zungusha mwonekano wa saa",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Zungusha mwonekano kinyume cha saa",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Nakili maandishi yaliyochaguliwa kwenye ubao wa kunakili",
+		"vsui-imageViewerContextMenu-selectAllText": "Chagua maandishi yote",
 		"vspe-openFile-addFileString": "Ongeza faili",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Hifadhi mabadiliko katika hati ya PDF",
 		"vspe-pdfContentEditorTool-getContentImages": "Pata picha za maudhui",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Ghairi",
 		"vsui-documentPasswordPanel-authenticateFileString": "Thibitisha faili",
 		"vsui-imageSelectionDialog-title": "Chagua picha",
-		"vsui-imageSelectionDialog-currentImageString": "Picha ya sasa",
-		"vsui-imageSelectionDialog-allImagesString": "Picha zote",
-		"vsui-imageSelectionDialog-customImagesString": "Desturi",
 		"vsui-printImagesDialog-title": "Chapisha picha",
-		"vsui-printImagesPanel-imagePrintingString": "Picha inachapishwa",
-		"vsui-printImagesPanel-withAnnotationsLabel": "yenye maelezo",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Picha inachapishwa",
 		"vsui-imageViewerSettingsDialog-title": "Mipangilio ya kitazamaji picha",
 		"vsui-thumbnailViewerSettingDialog-title": "Mipangilio ya kitazamaji cha kijipicha",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Finya PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Hifadhi",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Funga",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Finyaza hati ya PDF",
 		"vsui-jpegEncoderSettingsDialog-title": "Mipangilio ya kisimbaji cha JPEG",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Omba",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Funga",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "Mipangilio ya kisimbaji cha JBIG2",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Omba",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Funga",
-		"vsui-exportFileSettingsDialog-title": "Mipangilio ya kuhamisha faili",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "Finyaza hati ya PDF"
+		"vsui-exportFileSettingsDialog-title": "Mipangilio ya kuhamisha faili"
 	}
 }

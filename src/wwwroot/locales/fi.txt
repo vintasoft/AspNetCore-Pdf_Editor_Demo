@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Pikkukuvien katseluohjelman asetukset"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Asiakirjan navigointi, Tekstin valinta, Panorointi"
 		},
-		"textSelectionToolButton": {
-			"title": "Tekstin valinta"
+		"panToolButton": {
+			"title": "Pan"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Pura kuvaresurssit PDF-sivulta"
@@ -139,13 +139,13 @@
 			"title": "Lisää tekstiä"
 		},
 		"copyTextBlockButton": {
-			"title": "Kopioi teksti"
+			"title": "Kopioi tekstilohko"
 		},
 		"pasteTextBlockButton": {
-			"title": "Liitä teksti"
+			"title": "Liitä tekstilohko"
 		},
 		"deleteTextBlockButton": {
-			"title": "Poista teksti"
+			"title": "Poista tekstilohko"
 		},
 		"saveChangesButton": {
 			"title": "Tallenna muutokset"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Valittu teksti:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopioi leikepöydälle"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Sivu",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Hanki kuvaresurssi",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Sivu",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Kierrä näkymää myötäpäivään",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Kierrä näkymää vastapäivään",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopioi valittu teksti leikepöydälle",
+		"vsui-imageViewerContextMenu-selectAllText": "Valitse kaikki teksti",
 		"vspe-openFile-addFileString": "Lisää tiedosto",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Tallenna muutokset PDF-dokumenttiin",
 		"vspe-pdfContentEditorTool-getContentImages": "Hanki sisältökuvia",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Peruuta",
 		"vsui-documentPasswordPanel-authenticateFileString": "Todenna tiedosto",
 		"vsui-imageSelectionDialog-title": "Valitse kuvat",
-		"vsui-imageSelectionDialog-currentImageString": "Nykyinen kuva",
-		"vsui-imageSelectionDialog-allImagesString": "Kaikki kuvat",
-		"vsui-imageSelectionDialog-customImagesString": "Mukautettu",
 		"vsui-printImagesDialog-title": "Tulosta kuvat",
-		"vsui-printImagesPanel-imagePrintingString": "Kuva tulostuu",
-		"vsui-printImagesPanel-withAnnotationsLabel": "huomautuksilla",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Kuva tulostuu",
 		"vsui-imageViewerSettingsDialog-title": "Kuvankatseluohjelman asetukset",
 		"vsui-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Pakkaa PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Tallentaa",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Sulje",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Pakkaa PDF-dokumentti",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG-kooderin asetukset",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Käytä",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Sulje",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2-enkooderin asetukset",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Käytä",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Sulje",
-		"vsui-exportFileSettingsDialog-title": "Tiedoston vientiasetukset",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "Pakkaa PDF-dokumentti"
+		"vsui-exportFileSettingsDialog-title": "Tiedoston vientiasetukset"
 	}
 }

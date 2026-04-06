@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "थंबनेल व्यूअर सेटिंग्स"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "डॉक्यूमेंट नेविगेशन, टेक्स्ट सिलेक्शन, पैन"
 		},
-		"textSelectionToolButton": {
-			"title": "पाठ चयन"
+		"panToolButton": {
+			"title": "पैन"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "PDF पेज से इमेज-रिसोर्स निकालें"
@@ -139,13 +139,13 @@
 			"title": "टेक्स्ट जोड़ें"
 		},
 		"copyTextBlockButton": {
-			"title": "टेक्स्ट कॉपी करें"
+			"title": "टेक्स्ट ब्लॉक कॉपी करें"
 		},
 		"pasteTextBlockButton": {
-			"title": "टेक्स्ट पेस्ट करें"
+			"title": "टेक्स्ट ब्लॉक पेस्ट करें"
 		},
 		"deleteTextBlockButton": {
-			"title": "टेक्स्ट हटाएं"
+			"title": "टेक्स्ट ब्लॉक डिलीट करें"
 		},
 		"saveChangesButton": {
 			"title": "परिवर्तनों को सुरक्षित करें"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "चयनित पाठ:"
+			},
+			"copyToClipboardButton": {
+				"value": "क्लिपबोर्ड पर कॉपी करें"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "पेज",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "छवि संसाधन प्राप्त करें",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "पेज",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "दृश्य को दक्षिणावर्त घुमाएँ",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "दृश्य को वामावर्त घुमाएँ",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "चुने हुए टेक्स्ट को क्लिपबोर्ड पर कॉपी करें",
+		"vsui-imageViewerContextMenu-selectAllText": "सभी टेक्स्ट चुनें",
 		"vspe-openFile-addFileString": "फ़ाइल जोड़ें",
 		"vspe-saveChanges-saveChangesInPdfDocument": "पीडीएफ दस्तावेज़ में परिवर्तन सहेजें",
 		"vspe-pdfContentEditorTool-getContentImages": "कंटेंट इमेज पाएँ",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "रद्द करें",
 		"vsui-documentPasswordPanel-authenticateFileString": "फ़ाइल प्रमाणित करें",
 		"vsui-imageSelectionDialog-title": "छवियां चुनें",
-		"vsui-imageSelectionDialog-currentImageString": "वर्तमान छवि",
-		"vsui-imageSelectionDialog-allImagesString": "सभी छवियाँ",
-		"vsui-imageSelectionDialog-customImagesString": "कस्टम",
 		"vsui-printImagesDialog-title": "छवियाँ मुद्रित करें",
-		"vsui-printImagesPanel-imagePrintingString": "छवि मुद्रित हो रही है",
-		"vsui-printImagesPanel-withAnnotationsLabel": "एनोटेशन के साथ",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "छवि मुद्रित हो रही है",
 		"vsui-imageViewerSettingsDialog-title": "छवि दर्शक सेटिंग्स",
 		"vsui-thumbnailViewerSettingDialog-title": "थंबनेल व्यूअर सेटिंग्स",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "थंबनेल पर एनोटेशन प्रदर्शित करें:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "पीडीएफ संपीड़ित करें",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "सहेजें",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "बंद करें",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF दस्तावेज़ को कंप्रेस करें",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG एनकोडर सेटिंग्स",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "आवेदन करना",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "बंद करें",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 एनकोडर सेटिंग्स",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "आवेदन करना",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "बंद करें",
-		"vsui-exportFileSettingsDialog-title": "फ़ाइल निर्यात करने की सेटिंग",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF दस्तावेज़ को कंप्रेस करें"
+		"vsui-exportFileSettingsDialog-title": "फ़ाइल निर्यात करने की सेटिंग"
 	}
 }

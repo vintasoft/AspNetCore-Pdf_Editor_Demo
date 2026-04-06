@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Miniatiūrų peržiūros priemonės nustatymai"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Dokumento naršymas, teksto pasirinkimas, perkėlimas"
 		},
-		"textSelectionToolButton": {
-			"title": "Teksto pasirinkimas"
+		"panToolButton": {
+			"title": "Pan"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Ištraukite vaizdo išteklius iš PDF puslapio"
@@ -139,13 +139,13 @@
 			"title": "Pridėti tekstą"
 		},
 		"copyTextBlockButton": {
-			"title": "Kopijuoti tekstą"
+			"title": "Kopijuoti teksto bloką"
 		},
 		"pasteTextBlockButton": {
-			"title": "Įklijuoti tekstą"
+			"title": "Įklijuoti teksto bloką"
 		},
 		"deleteTextBlockButton": {
-			"title": "Ištrinti tekstą"
+			"title": "Ištrinti teksto bloką"
 		},
 		"saveChangesButton": {
 			"title": "Išsaugoti pakeitimus"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Pasirinktas tekstas:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopijuoti į iškarpinę"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Puslapis",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Gaukite vaizdo šaltinį",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Puslapis",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Sukti vaizdą pagal laikrodžio rodyklę",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Pasukti vaizdą prieš laikrodžio rodyklę",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopijuoti pasirinktą tekstą į iškarpinę",
+		"vsui-imageViewerContextMenu-selectAllText": "Pasirinkti visą tekstą",
 		"vspe-openFile-addFileString": "Pridėti failą",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Išsaugokite pakeitimus PDF dokumente",
 		"vspe-pdfContentEditorTool-getContentImages": "Gaukite turinio vaizdus",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Atšaukti",
 		"vsui-documentPasswordPanel-authenticateFileString": "Autentifikuoti failą",
 		"vsui-imageSelectionDialog-title": "Pasirinkite vaizdus",
-		"vsui-imageSelectionDialog-currentImageString": "Dabartinis vaizdas",
-		"vsui-imageSelectionDialog-allImagesString": "Visi vaizdai",
-		"vsui-imageSelectionDialog-customImagesString": "Pasirinktinis",
 		"vsui-printImagesDialog-title": "Spausdinti vaizdus",
-		"vsui-printImagesPanel-imagePrintingString": "Vaizdas spausdinamas",
-		"vsui-printImagesPanel-withAnnotationsLabel": "su anotacijomis",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Vaizdas spausdinamas",
 		"vsui-imageViewerSettingsDialog-title": "Vaizdų peržiūros programos nustatymai",
 		"vsui-thumbnailViewerSettingDialog-title": "Miniatiūrų peržiūros priemonės nustatymai",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Suspausti PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Išsaugoti",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Uždaryti",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Suspausti PDF dokumentą",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG kodavimo įrenginio nustatymai",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Taikyti",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Uždaryti",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 koduotuvo nustatymai",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Taikyti",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Uždaryti",
-		"vsui-exportFileSettingsDialog-title": "Failo eksporto nustatymai",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "Suspausti PDF dokumentą"
+		"vsui-exportFileSettingsDialog-title": "Failo eksporto nustatymai"
 	}
 }

@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Pisipiltide vaataja seaded"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Dokumendi navigeerimine, teksti valimine, panoraamimine"
 		},
-		"textSelectionToolButton": {
-			"title": "Teksti valik"
+		"panToolButton": {
+			"title": "Pan"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Väljavõte pildiressursid PDF-lehelt"
@@ -139,13 +139,13 @@
 			"title": "Lisa tekst"
 		},
 		"copyTextBlockButton": {
-			"title": "Teksti kopeerimine"
+			"title": "Kopeeri tekstiplokk"
 		},
 		"pasteTextBlockButton": {
-			"title": "Teksti kleepimine"
+			"title": "Kleebi tekstiplokk"
 		},
 		"deleteTextBlockButton": {
-			"title": "Kustuta tekst"
+			"title": "Kustuta tekstiplokk"
 		},
 		"saveChangesButton": {
 			"title": "Salvesta muudatused"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Valitud tekst:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopeeri lõikelauale"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Lehekülg",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Hangi pildiressurss",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Lehekülg",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Pöörake vaadet päripäeva",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Pöörake vaadet vastupäeva",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopeeri valitud tekst lõikelauale",
+		"vsui-imageViewerContextMenu-selectAllText": "Vali kogu tekst",
 		"vspe-openFile-addFileString": "Lisa fail",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Salvestage muudatused PDF-dokumenti",
 		"vspe-pdfContentEditorTool-getContentImages": "Hankige sisupilte",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Tühista",
 		"vsui-documentPasswordPanel-authenticateFileString": "Autentige fail",
 		"vsui-imageSelectionDialog-title": "Valige pildid",
-		"vsui-imageSelectionDialog-currentImageString": "Praegune pilt",
-		"vsui-imageSelectionDialog-allImagesString": "Kõik pildid",
-		"vsui-imageSelectionDialog-customImagesString": "Kohandatud",
 		"vsui-printImagesDialog-title": "Printige pilte",
-		"vsui-printImagesPanel-imagePrintingString": "Pilt prinditakse",
-		"vsui-printImagesPanel-withAnnotationsLabel": "annotatsioonidega",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Pilt prinditakse",
 		"vsui-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
 		"vsui-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Tihendage PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Salvesta",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Sulge",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Tihendage PDF-dokument",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG-kodeerija seaded",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Rakenda",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Sulge",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 kodeerija seaded",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Rakenda",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Sulge",
-		"vsui-exportFileSettingsDialog-title": "Faili eksportimise sätted",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "Tihendage PDF-dokument"
+		"vsui-exportFileSettingsDialog-title": "Faili eksportimise sätted"
 	}
 }

@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Miniatuurweergave-instellingen"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Documentnavigatie, Tekstselectie, Pannen"
 		},
-		"textSelectionToolButton": {
-			"title": "Tekstselectie"
+		"panToolButton": {
+			"title": "Pan"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Afbeeldingbronnen uit PDF-pagina extraheren"
@@ -139,13 +139,13 @@
 			"title": "Tekst toevoegen"
 		},
 		"copyTextBlockButton": {
-			"title": "Tekst kopiëren"
+			"title": "Tekstblok kopiëren"
 		},
 		"pasteTextBlockButton": {
-			"title": "Tekst plakken"
+			"title": "Tekstblok plakken"
 		},
 		"deleteTextBlockButton": {
-			"title": "Tekst verwijderen"
+			"title": "Tekstblok verwijderen"
 		},
 		"saveChangesButton": {
 			"title": "Wijzigingen opslaan"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Geselecteerde tekst:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopiëren naar klembord"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Pagina",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Afbeeldingsbron verkrijgen",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Pagina",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Roteer de weergave met de klok mee",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Draai de weergave tegen de klok in",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Geselecteerde tekst naar het klembord kopiëren",
+		"vsui-imageViewerContextMenu-selectAllText": "Alle tekst selecteren",
 		"vspe-openFile-addFileString": "Bestand toevoegen",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Wijzigingen opslaan in PDF-document",
 		"vspe-pdfContentEditorTool-getContentImages": "Inhoudsafbeeldingen ophalen",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Annuleren",
 		"vsui-documentPasswordPanel-authenticateFileString": "Authenticeer bestand",
 		"vsui-imageSelectionDialog-title": "Selecteer afbeeldingen",
-		"vsui-imageSelectionDialog-currentImageString": "Huidige afbeelding",
-		"vsui-imageSelectionDialog-allImagesString": "Alle afbeeldingen",
-		"vsui-imageSelectionDialog-customImagesString": "Aangepast",
 		"vsui-printImagesDialog-title": "Afbeeldingen afdrukken",
-		"vsui-printImagesPanel-imagePrintingString": "Afbeelding wordt afgedrukt",
-		"vsui-printImagesPanel-withAnnotationsLabel": "met annotaties",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Afbeelding wordt afgedrukt",
 		"vsui-imageViewerSettingsDialog-title": "Instellingen afbeeldingsviewer",
 		"vsui-thumbnailViewerSettingDialog-title": "Miniatuurweergave-instellingen",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "PDF comprimeren",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Opslaan",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Sluiten",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF-document comprimeren",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG-encoderinstellingen",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Toepassen",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Sluiten",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2-encoderinstellingen",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Toepassen",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Sluiten",
-		"vsui-exportFileSettingsDialog-title": "De instellingen om het bestand te exporteren",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "PDF-document comprimeren"
+		"vsui-exportFileSettingsDialog-title": "De instellingen om het bestand te exporteren"
 	}
 }

@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Cài đặt trình xem hình thu nhỏ"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Điều hướng tài liệu, Chọn văn bản, Di chuyển"
 		},
-		"textSelectionToolButton": {
-			"title": "Lựa chọn văn bản"
+		"panToolButton": {
+			"title": "Xoay"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Trích xuất tài nguyên hình ảnh từ trang PDF"
@@ -139,13 +139,13 @@
 			"title": "Thêm văn bản"
 		},
 		"copyTextBlockButton": {
-			"title": "Sao chép văn bản"
+			"title": "Sao chép khối văn bản"
 		},
 		"pasteTextBlockButton": {
-			"title": "Dán văn bản"
+			"title": "Dán khối văn bản"
 		},
 		"deleteTextBlockButton": {
-			"title": "Xóa văn bản"
+			"title": "Xóa khối văn bản"
 		},
 		"saveChangesButton": {
 			"title": "Lưu thay đổi"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Văn bản đã chọn:"
+			},
+			"copyToClipboardButton": {
+				"value": "Sao chép vào clipboard"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Trang",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Nhận tài nguyên hình ảnh",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Trang",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Xoay chế độ xem theo chiều kim đồng hồ",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Xoay chế độ xem ngược chiều kim đồng hồ",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Sao chép văn bản đã chọn vào clipboard",
+		"vsui-imageViewerContextMenu-selectAllText": "Chọn toàn bộ văn bản",
 		"vspe-openFile-addFileString": "Thêm tập tin",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Lưu các thay đổi trong tài liệu PDF",
 		"vspe-pdfContentEditorTool-getContentImages": "Nhận hình ảnh nội dung",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Hủy",
 		"vsui-documentPasswordPanel-authenticateFileString": "Xác thực tập tin",
 		"vsui-imageSelectionDialog-title": "Chọn hình ảnh",
-		"vsui-imageSelectionDialog-currentImageString": "Hình ảnh hiện tại",
-		"vsui-imageSelectionDialog-allImagesString": "Tất cả hình ảnh",
-		"vsui-imageSelectionDialog-customImagesString": "Tùy chỉnh",
 		"vsui-printImagesDialog-title": "In ảnh",
-		"vsui-printImagesPanel-imagePrintingString": "Hình ảnh đang được in",
-		"vsui-printImagesPanel-withAnnotationsLabel": "có chú thích",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Hình ảnh đang được in",
 		"vsui-imageViewerSettingsDialog-title": "Cài đặt trình xem ảnh",
 		"vsui-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Nén PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Lưu",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Đóng",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Nén tài liệu PDF",
 		"vsui-jpegEncoderSettingsDialog-title": "Cài đặt bộ mã hóa JPEG",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Áp dụng",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Đóng",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "Cài đặt bộ mã hóa JBIG2",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Áp dụng",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Đóng",
-		"vsui-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "Nén tài liệu PDF"
+		"vsui-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin"
 	}
 }

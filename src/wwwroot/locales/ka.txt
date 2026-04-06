@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "მინიატურების მაყურებლის პარამეტრები"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "დოკუმენტის ნავიგაცია, ტექსტის შერჩევა, პანორამირება"
 		},
-		"textSelectionToolButton": {
-			"title": "ტექსტის შერჩევა"
+		"panToolButton": {
+			"title": "პან"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "ამოიღეთ გამოსახულების რესურსები PDF გვერდიდან"
@@ -139,13 +139,13 @@
 			"title": "ტექსტის დამატება"
 		},
 		"copyTextBlockButton": {
-			"title": "ტექსტის კოპირება"
+			"title": "ტექსტური ბლოკის კოპირება"
 		},
 		"pasteTextBlockButton": {
-			"title": "ტექსტის ჩასმა"
+			"title": "ტექსტური ბლოკის ჩასმა"
 		},
 		"deleteTextBlockButton": {
-			"title": "ტექსტის წაშლა"
+			"title": "ტექსტური ბლოკის წაშლა"
 		},
 		"saveChangesButton": {
 			"title": "Ცვლილებების შენახვა"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "არჩეული ტექსტი:"
+			},
+			"copyToClipboardButton": {
+				"value": "კოპირება ბუფერში"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "გვერდი",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "მიიღეთ გამოსახულების რესურსი",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "გვერდი",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "ხედის როტაცია საათის ისრის მიმართულებით",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "ხედის როტაცია საათის ისრის საწინააღმდეგოდ",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "არჩეული ტექსტის კოპირება ბუფერში",
+		"vsui-imageViewerContextMenu-selectAllText": "მთელი ტექსტის არჩევა",
 		"vspe-openFile-addFileString": "Ფაილის დამატება",
 		"vspe-saveChanges-saveChangesInPdfDocument": "შეინახეთ ცვლილებები PDF დოკუმენტში",
 		"vspe-pdfContentEditorTool-getContentImages": "მიიღეთ შინაარსის სურათები",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "გაუქმება",
 		"vsui-documentPasswordPanel-authenticateFileString": "ფაილის ავთენტიფიკაცია",
 		"vsui-imageSelectionDialog-title": "აირჩიეთ სურათები",
-		"vsui-imageSelectionDialog-currentImageString": "მიმდინარე სურათი",
-		"vsui-imageSelectionDialog-allImagesString": "ყველა სურათი",
-		"vsui-imageSelectionDialog-customImagesString": "საბაჟო",
 		"vsui-printImagesDialog-title": "სურათების დაბეჭდვა",
-		"vsui-printImagesPanel-imagePrintingString": "სურათი იბეჭდება",
-		"vsui-printImagesPanel-withAnnotationsLabel": "ანოტაციებით",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "სურათი იბეჭდება",
 		"vsui-imageViewerSettingsDialog-title": "სურათების მაყურებლის პარამეტრები",
 		"vsui-thumbnailViewerSettingDialog-title": "მინიატურების მაყურებლის პარამეტრები",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "შეკუმშოს PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "შენახვა",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "დახურვა",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "შეკუმშოს PDF დოკუმენტი",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG შიფრატორის პარამეტრები",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "მიმართეთ",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "დახურვა",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 შიფრატორის პარამეტრები",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "მიმართეთ",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "დახურვა",
-		"vsui-exportFileSettingsDialog-title": "პარამეტრები ფაილის ექსპორტისთვის",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "შეკუმშოს PDF დოკუმენტი"
+		"vsui-exportFileSettingsDialog-title": "პარამეტრები ფაილის ექსპორტისთვის"
 	}
 }

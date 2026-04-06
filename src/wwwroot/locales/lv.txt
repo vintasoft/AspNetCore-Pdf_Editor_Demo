@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Sīktēlu skatītāja iestatījumi"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Dokumenta navigācija, teksta atlasīšana, horizontāla skatīšanās"
 		},
-		"textSelectionToolButton": {
-			"title": "Teksta atlase"
+		"panToolButton": {
+			"title": "Pan"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Izvilkt attēlu resursus no PDF lapas"
@@ -139,13 +139,13 @@
 			"title": "Pievienojiet tekstu"
 		},
 		"copyTextBlockButton": {
-			"title": "Teksta kopēšana"
+			"title": "Kopēt teksta bloku"
 		},
 		"pasteTextBlockButton": {
-			"title": "Teksta ielīmēšana"
+			"title": "Ielīmēt teksta bloku"
 		},
 		"deleteTextBlockButton": {
-			"title": "Dzēst tekstu"
+			"title": "Dzēst teksta bloku"
 		},
 		"saveChangesButton": {
 			"title": "Saglabāt izmaiņas"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Atlasītais teksts:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopēt uz starpliktuvi"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Lappuse",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Iegūstiet attēla resursu",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Lappuse",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Pagriezt skatu pulksteņrādītāja virzienā",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Pagriezt skatu pretēji pulksteņrādītāja virzienam",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopēt atlasīto tekstu uz starpliktuvi",
+		"vsui-imageViewerContextMenu-selectAllText": "Atlasīt visu tekstu",
 		"vspe-openFile-addFileString": "Pievienot failu",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Saglabājiet izmaiņas PDF dokumentā",
 		"vspe-pdfContentEditorTool-getContentImages": "Iegūstiet satura attēlus",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Atcelt",
 		"vsui-documentPasswordPanel-authenticateFileString": "Autentificēt failu",
 		"vsui-imageSelectionDialog-title": "Izvēlieties attēlus",
-		"vsui-imageSelectionDialog-currentImageString": "Pašreizējais attēls",
-		"vsui-imageSelectionDialog-allImagesString": "Visi attēli",
-		"vsui-imageSelectionDialog-customImagesString": "Pielāgots",
 		"vsui-printImagesDialog-title": "Drukāt attēlus",
-		"vsui-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
-		"vsui-printImagesPanel-withAnnotationsLabel": "ar anotācijām",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Attēls tiek drukāts",
 		"vsui-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
 		"vsui-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Saspiest PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Saglabāt",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Aizvērt",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Saspiest PDF dokumentu",
 		"vsui-jpegEncoderSettingsDialog-title": "JPEG kodētāja iestatījumi",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Pieteikties",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Aizvērt",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "JBIG2 kodētāja iestatījumi",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Pieteikties",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Aizvērt",
-		"vsui-exportFileSettingsDialog-title": "Faila eksportēšanas iestatījumi",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "Saspiest PDF dokumentu"
+		"vsui-exportFileSettingsDialog-title": "Faila eksportēšanas iestatījumi"
 	}
 }

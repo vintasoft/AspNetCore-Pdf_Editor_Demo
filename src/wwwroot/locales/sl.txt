@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Nastavitve pregledovalnika sličic"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Navigacija po dokumentu, izbira besedila, premikanje"
 		},
-		"textSelectionToolButton": {
-			"title": "Izbira besedila"
+		"panToolButton": {
+			"title": "Pan"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Ekstrakt slikovnih virov s strani PDF"
@@ -139,13 +139,13 @@
 			"title": "Dodajte besedilo"
 		},
 		"copyTextBlockButton": {
-			"title": "Kopiranje besedila"
+			"title": "Kopiraj blok besedila"
 		},
 		"pasteTextBlockButton": {
-			"title": "Lepljenje besedila"
+			"title": "Prilepi blok besedila"
 		},
 		"deleteTextBlockButton": {
-			"title": "Izbriši besedilo"
+			"title": "Izbriši blok besedila"
 		},
 		"saveChangesButton": {
 			"title": "Shrani spremembe"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Izbrano besedilo:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopiraj v odložišče"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Stran",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Pridobite slikovni vir",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Stran",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Zasukaj pogled v smeri urinega kazalca",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Zasukaj pogled v nasprotni smeri urinega kazalca",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopiraj izbrano besedilo v odložišče",
+		"vsui-imageViewerContextMenu-selectAllText": "Izberi vse besedilo",
 		"vspe-openFile-addFileString": "Dodaj datoteko",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Shranite spremembe v dokument PDF",
 		"vspe-pdfContentEditorTool-getContentImages": "Pridobite slike vsebine",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Prekliči",
 		"vsui-documentPasswordPanel-authenticateFileString": "Preveri pristnost datoteke",
 		"vsui-imageSelectionDialog-title": "Izberite slike",
-		"vsui-imageSelectionDialog-currentImageString": "Trenutna slika",
-		"vsui-imageSelectionDialog-allImagesString": "Vse slike",
-		"vsui-imageSelectionDialog-customImagesString": "Po meri",
 		"vsui-printImagesDialog-title": "Natisnite slike",
-		"vsui-printImagesPanel-imagePrintingString": "Slika se tiska",
-		"vsui-printImagesPanel-withAnnotationsLabel": "z opombami",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Slika se tiska",
 		"vsui-imageViewerSettingsDialog-title": "Nastavitve pregledovalnika slik",
 		"vsui-thumbnailViewerSettingDialog-title": "Nastavitve pregledovalnika sličic",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži opombe:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Stisnite PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Shrani",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Zapri",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Stisnite dokument PDF",
 		"vsui-jpegEncoderSettingsDialog-title": "Nastavitve kodirnika JPEG",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Prijavite se",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Zapri",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "Nastavitve kodirnika JBIG2",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Prijavite se",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Zapri",
-		"vsui-exportFileSettingsDialog-title": "Nastavitve za izvoz datoteke",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "Stisnite dokument PDF"
+		"vsui-exportFileSettingsDialog-title": "Nastavitve za izvoz datoteke"
 	}
 }

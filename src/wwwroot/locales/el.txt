@@ -63,11 +63,11 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Ρυθμίσεις προβολής μικρογραφιών"
 		},
-		"panToolButton": {
+		"textSelectionToolButton": {
 			"title": "Πλοήγηση εγγράφου, Επιλογή κειμένου, Μετατόπιση"
 		},
-		"textSelectionToolButton": {
-			"title": "Επιλογή κειμένου"
+		"panToolButton": {
+			"title": "Παν"
 		},
 		"pdfImageExtractorToolButton": {
 			"title": "Εξαγωγή πόρων εικόνας από τη σελίδα PDF"
@@ -139,13 +139,13 @@
 			"title": "Προσθήκη κειμένου"
 		},
 		"copyTextBlockButton": {
-			"title": "Αντιγραφή κειμένου"
+			"title": "Αντιγραφή μπλοκ κειμένου"
 		},
 		"pasteTextBlockButton": {
-			"title": "Επικόλληση κειμένου"
+			"title": "Επικόλληση μπλοκ κειμένου"
 		},
 		"deleteTextBlockButton": {
-			"title": "Διαγραφή κειμένου"
+			"title": "Διαγραφή μπλοκ κειμένου"
 		},
 		"saveChangesButton": {
 			"title": "Αποθήκευσε τις αλλαγές"
@@ -189,6 +189,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Επιλεγμένο κείμενο:"
+			},
+			"copyToClipboardButton": {
+				"value": "Αντιγραφή στο πρόχειρο"
 			}
 		},
 		"textSearchPanel": {
@@ -1111,6 +1114,10 @@
 		"vsui-textSearchPanel-pageLabel": "Σελίδα",
 		"vsui-pdfImageResourceExtractionPanel-getImageResourceString": "Λήψη πόρων εικόνας",
 		"vspe-pdfInteractiveFormFieldsPanel-pageLabel": "Σελίδα",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Περιστρέψτε την προβολή δεξιόστροφα",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Περιστρέψτε την προβολή αριστερόστροφα",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Αντιγραφή επιλεγμένου κειμένου στο πρόχειρο",
+		"vsui-imageViewerContextMenu-selectAllText": "Επιλογή όλου του κειμένου",
 		"vspe-openFile-addFileString": "Προσθήκη αρχείου",
 		"vspe-saveChanges-saveChangesInPdfDocument": "Αποθηκεύστε τις αλλαγές σε έγγραφο PDF",
 		"vspe-pdfContentEditorTool-getContentImages": "Λάβετε εικόνες περιεχομένου",
@@ -1129,12 +1136,8 @@
 		"vsui-dialog-cancelButton": "Ακύρωση",
 		"vsui-documentPasswordPanel-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
 		"vsui-imageSelectionDialog-title": "Επιλέξτε Εικόνες",
-		"vsui-imageSelectionDialog-currentImageString": "Τρέχουσα εικόνα",
-		"vsui-imageSelectionDialog-allImagesString": "Όλες οι εικόνες",
-		"vsui-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
 		"vsui-printImagesDialog-title": "Εκτύπωση εικόνων",
-		"vsui-printImagesPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
-		"vsui-printImagesPanel-withAnnotationsLabel": "με σχολιασμούς",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
 		"vsui-imageViewerSettingsDialog-title": "Ρυθμίσεις προβολής εικόνων",
 		"vsui-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
@@ -1149,6 +1152,7 @@
 		"vsui-pdfDocumentCompressorDialog-executeCompressionButton": "Συμπίεση PDF",
 		"vsui-pdfDocumentCompressorDialog-saveButton": "Εκτός",
 		"vsui-pdfDocumentCompressorDialog-closeButton": "Κλείσιμο",
+		"vspe-pdfDocumentCompressor-compressPdfDocument": "Συμπίεση εγγράφου PDF",
 		"vsui-jpegEncoderSettingsDialog-title": "Ρυθμίσεις κωδικοποιητή JPEG",
 		"vsui-jpegEncoderSettingsDialog-applyButton": "Ισχύουν",
 		"vsui-jpegEncoderSettingsDialog-closeButton": "Κλείσιμο",
@@ -1158,7 +1162,6 @@
 		"vsui-jbig2EncoderSettingsDialog-title": "Ρυθμίσεις κωδικοποιητή JBIG2",
 		"vsui-jbig2EncoderSettingsDialog-applyButton": "Ισχύουν",
 		"vsui-jbig2EncoderSettingsDialog-closeButton": "Κλείσιμο",
-		"vsui-exportFileSettingsDialog-title": "Οι ρυθμίσεις για εξαγωγή αρχείου",
-		"vspe-pdfDocumentCompressor-compressPdfDocument": "Συμπίεση εγγράφου PDF"
+		"vsui-exportFileSettingsDialog-title": "Οι ρυθμίσεις για εξαγωγή αρχείου"
 	}
 }
