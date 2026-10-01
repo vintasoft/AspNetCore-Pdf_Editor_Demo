@@ -21,11 +21,33 @@ var WebUriActionExecutor = function () {
             var uri = action.get_Uri();
 
             // if user wants to open the URL
-            if (confirm("Open URL '" + uri + "' ?")) {
+            if (confirm("Do you want to open the URL '" + uri + "' ?")) {
                 // open URL
                 window.open(uri, "_blank");
             }
         }
+        else if (action instanceof Vintasoft.Imaging.WebResourceActionMetadataJS) {
+            // get resource URL, which is associated with action
+            var resourceUri = action.get_ResourceUri();
+            if (resourceUri != null) {
+                // get the image metadata
+                var imageMetadata = image.get_Metadata();
+                if (imageMetadata != null) {
+                    // if user wants to download the resource
+                    if (confirm("Do you want to download the resource with Uri '" + resourceUri + "' ?")) {
+                        imageMetadata.requestResource(
+                            resourceUri,
+                            function (data) {
+                            },
+                            function (data) {
+                                alert("Error to download resource: " + data.errorMessage);
+                            }
+                        );
+                    }
+                }
+            }
+        }
     }
+
 }
 Vintasoft.Shared.extend(WebUriActionExecutor, Vintasoft.Imaging.WebPageContentActionExecutorJS);

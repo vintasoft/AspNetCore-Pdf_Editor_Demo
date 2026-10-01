@@ -264,7 +264,7 @@
 			"title": "Уменьшить масштаб"
 		},
 		"zoomValueInput": {
-			"title": "Масштаб"
+			"title": "Масштабирование"
 		},
 		"zoomInButton": {
 			"title": "Увеличить масштаб"
@@ -282,7 +282,7 @@
 			"title": "Пиксель в пиксель"
 		},
 		"zoomSizeModeButton": {
-			"title": "Масштаб"
+			"title": "Масштабирование"
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -978,7 +978,7 @@
 				"text": "Сглаживание аннотаций"
 			},
 			"checkbox-subsetFonts": {
-				"text": "Подмножества шрифтов"
+				"text": "Создать подмножества шрифтов"
 			},
 			"checkbox-removeAnnotations": {
 				"text": "Удалить аннотации"
@@ -1005,7 +1005,7 @@
 				"text": "Очистить словарь имен"
 			},
 			"checkbox-removeFileAttachments": {
-				"text": "Удалить вложения файлов"
+				"text": "Удалить вложенные файлы"
 			},
 			"checkbox-removeUnusedResources": {
 				"text": "Удалить неиспользуемые ресурсы"
